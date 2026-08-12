@@ -1,0 +1,61 @@
+{
+  "schema_version": "1.0.0",
+  "id": "WLD-CONTINUITY-INIT-001A",
+  "decision_uri": "author-decision://world/WLD-CONTINUITY-INIT-001A",
+  "display_code": "WLD-CONTINUITY-INIT-001A",
+  "title": "Initiate the Continuity One shared-setting shell",
+  "domain": "world",
+  "setting_id": "setting://continuity-one",
+  "workflow_status": "ACCEPTED",
+  "canon_status": "ACCEPTED",
+  "scope": "Establishes only the stable setting identity, proposed shell, shared-core authority topology, and unanswered layered constitutional decision map for setting://continuity-one; establishes no fictional world, work, character, protagonist, plot, outline, chapter, or manuscript facts.",
+  "accepted_on": "2026-08-12",
+  "accepted_by": "Author",
+  "approval_evidence": "The Author explicitly selected SET-INIT1A, SET-INIT2A, and SET-INIT3A on 2026-08-12.",
+  "question": "What stable identity, cross-work authority topology, and constitutional scope should initiate the first real shared setting without establishing fictional canon?",
+  "selection": "SET-INIT1A, SET-INIT2A, and SET-INIT3A: stable setting://continuity-one identity with provisional display title; one shared core with governed compatible work-local overlays; and a layered but unanswered foundation decision map.",
+  "alternatives": [
+    "SET-INIT1B: choose a fiction-bearing title now and derive the permanent slug.",
+    "SET-INIT1C: postpone initialization pending a non-canonical naming brief.",
+    "SET-INIT2B: require every setting fact to live only in shared canon.",
+    "SET-INIT2C: begin with explicitly branching continuities.",
+    "SET-INIT3B: use only a minimal authority charter.",
+    "SET-INIT3C: predefine exhaustive approval surfaces for every anticipated domain."
+  ],
+  "rationale": "A neutral stable identity permits setting-first development without prematurely encoding fictional assumptions. A shared core supports consistency across later works while scoped overlays preserve local flexibility. An unanswered layered map exposes dependencies without silently deciding them.",
+  "evidence": [
+    "Author selections SET-INIT1A, SET-INIT2A, and SET-INIT3A on 2026-08-12.",
+    "worldbuilding/templates/setting-constitution.md",
+    "worldbuilding/settings/README.md"
+  ],
+  "consequences": [
+    "Create the isolated worldbuilding/settings/continuity-one setting shell as DRAFT/PROPOSED.",
+    "Keep adopting_work_ids empty until a separately approved work adopts the setting.",
+    "Permit future work-local overlays to add compatible facts; require a separate Author decision for any proposed contradiction or override.",
+    "Leave all fictional foundation layers unanswered for later SETTING_AUTHORITY decisions.",
+    "Leave WLD-SOUL-001A and WLD-PRENATAL-001A unadopted and unassumed."
+  ],
+  "affected_sources": [
+    "worldbuilding/settings/continuity-one/continuity-one.setting-manifest.json",
+    "worldbuilding/settings/continuity-one/setting-constitution.md",
+    "worldbuilding/settings/continuity-one/indexes/INDEX.md",
+    "worldbuilding/INDEX.md",
+    "STATUS.md",
+    "README.md"
+  ],
+  "dependencies": [],
+  "conflicts": [],
+  "residual_unknowns": [
+    "Final display title.",
+    "Every fictional question in the layered foundation decision map.",
+    "Whether any future work adopts a project-level default.",
+    "Which future work, if any, first adopts the setting."
+  ],
+  "supersedes": [],
+  "superseded_by": null,
+  "reopening_conditions": [
+    "The Author chooses a different stable setting identity or authority topology.",
+    "A later approved continuity model requires branching shared authorities.",
+    "Repository governance changes the setting-first authoring boundary."
+  ]
+}
