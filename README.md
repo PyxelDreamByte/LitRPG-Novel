@@ -20,7 +20,7 @@ The Author is the sole authority for accepting canon, plot, voice, and changes t
 - [`litrpg-system/story-integration/`](litrpg-system/story-integration/) — machine-readable chapter, progression, and state contracts.
 - [`.agents/skills/`](.agents/skills/) — Author-callable repository workflows.
 - [`.codex/agents/`](.codex/agents/) — specialist drafting and review roles.
-- [`worldbuilding/`](worldbuilding/) — accepted setting canon and proposals.
+- [`worldbuilding/`](worldbuilding/) — project defaults plus isolated future settings; no real setting exists yet.
 - [`characters/`](characters/) — profiles, knowledge, relationships, arcs, and story state.
 - [`stories/`](stories/) — series, books, shorter fiction, and drafting templates.
 - [`research/`](research/) — non-canonical evidence and inspiration.
@@ -38,6 +38,17 @@ The Author is the sole authority for accepting canon, plot, voice, and changes t
    and tooling. Accepted chapter deltas update story state and canon indexes.
 
 Research, examples, calibration fixtures, agent output, and manuscript inventions are non-canon until explicitly accepted through the appropriate workflow.
+
+## Current worldbuilding boundary
+
+No detailed setting or setting constitution exists. Two reusable provisional
+human-reference modelling defaults are recorded: rare-Soul prevalence `0.001`
+with typed non-scalar Souls, and no ordinary persistent self-aware continuity
+or directed prenatal System practice in population models. A future work must
+explicitly adopt either default; neither silently binds an independent world.
+Universal rarity proportions are Author-deferred until their object type,
+rarity dimension, eligible denominator, population, period, and evidence are
+defined. See [`worldbuilding/INDEX.md`](worldbuilding/INDEX.md).
 
 ## CAL0 boundary
 

@@ -1,0 +1,45 @@
+{
+  "schema_version": "1.0.0",
+  "run_id": "run://fixture/live-evaluation-valid",
+  "evidence_kind": "LIVE_NONCANONICAL_EVALUATION",
+  "workflow": "synthetic-live-evaluation",
+  "completed_on": "2026-08-12",
+  "canonicality": "NONCANONICAL_EVALUATION_ONLY",
+  "promotion": "FORBIDDEN",
+  "source_manifest": [
+    {
+      "path": "litrpg-system/story-integration/fixtures/governance/valid/example.decision.json",
+      "revision": "fixture-content-pin",
+      "sha256": "sha256:e0cf737eda7f183d98996e1e41ddb6840f53e09b834237e5250616a8a24e6a8e"
+    }
+  ],
+  "target_artifacts": [],
+  "findings": ["FIX-LIVE-F001"],
+  "validations": ["Synthetic live-evaluation branch validation passed."],
+  "retained_files": [
+    "litrpg-system/story-integration/fixtures/governance/valid/live-evaluation.raw.md"
+  ],
+  "approval": null,
+  "evaluated_targets": ["fixture-reviewer"],
+  "raw_output": {
+    "path": "litrpg-system/story-integration/fixtures/governance/valid/live-evaluation.raw.md",
+    "revision": "fixture-content-pin",
+    "sha256": "sha256:7d75bf2721eeb9a048b77009c38e6d02e98ee3cd69c88677f4d3639c57670563"
+  },
+  "invariant_verdicts": [
+    {
+      "target": "fixture-reviewer",
+      "verdict": "PASS",
+      "evidence": ["live-evaluation.raw.md: expected issue found"]
+    }
+  ],
+  "prohibited_output_checks": [
+    {
+      "target": "fixture-reviewer",
+      "verdict": "PASS",
+      "evidence": ["live-evaluation.raw.md: no prohibited output"]
+    }
+  ],
+  "evaluator_conclusion": "The synthetic reviewer passed only its declared fixture invariant.",
+  "live_eval_status": "PASSED"
+}

@@ -1,16 +1,20 @@
 ---
 id: "WLD-[DOMAIN]-[NUMBER][OPTION]"
 decision_uri: "author-decision://world/[WLD-DOMAIN-NUMBER-OPTION]"
+display_code: "WLD-[DOMAIN]-[NUMBER][OPTION]"
+schema_version: "1.0.0"
 title: "[Decision title]"
 domain: world
 workflow_status: DRAFT
 canon_status: PROPOSED
-scope: "[Exact setting boundary]"
+scope: "[Exact setting boundary, or explicit project-default scope]"
 accepted_on: null
 accepted_by: null
 approval_evidence: null
 supersedes: []
+superseded_by: null
 source_proposals: []
+structured_record: "[decision-id].decision.json"
 ---
 
 # [ID] — [Decision title]
@@ -30,6 +34,10 @@ source_proposals: []
 ## Rationale
 
 [Why this option was selected.]
+
+## Evidence
+
+- `[Author instruction, accepted source, or research reference]`
 
 ## Binding consequences
 
@@ -52,6 +60,16 @@ source_proposals: []
 ## Residual unknowns
 
 - [Question intentionally left open.]
+
+## Dependencies and conflicts
+
+- Dependencies: [IDs or none]
+- Conflicts: [IDs or none]
+
+## Supersession
+
+- Supersedes: [IDs or none]
+- Superseded by: [ID or none]
 
 ## Reopening conditions
 

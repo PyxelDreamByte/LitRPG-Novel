@@ -15,6 +15,7 @@
 - Follow `governance/SOURCE-AUTHORITY.md` and the nearest nested `AGENTS.md`.
 - Treat CAL0 v0.7.0 as a locked, content-pinned baseline. Use a governed successor change for modifications.
 - Research and CAL0 reference characters, scenarios, and cohort outputs are non-canonical.
+- Project-level worldbuilding defaults bind a future work only through explicit adoption in that work's manifest; independent works may override only through their own Author decisions.
 - Preserve stable IDs, provenance, exact decimal strings, and distinctions between causal truth, records, access, interpretation, presentation, and reader disclosure.
 
 ## Changes

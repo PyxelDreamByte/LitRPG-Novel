@@ -1,0 +1,14 @@
+{
+  "schema_version": "1.0.0",
+  "setting_id": "setting://one-way",
+  "title": "One-way setting adoption fixture",
+  "setting_root": "worldbuilding/settings/one-way",
+  "workflow_status": "DRAFT",
+  "canon_status": "PROPOSED",
+  "index_path": "worldbuilding/settings/one-way/indexes/INDEX.md",
+  "adopting_work_ids": [
+    "work://novella/missing-work"
+  ],
+  "accepted_on": null,
+  "approval_decision_uri": null
+}

@@ -5,6 +5,7 @@ from __future__ import annotations
 
 import argparse
 from decimal import Decimal, InvalidOperation
+from datetime import date
 import hashlib
 import json
 import re
@@ -31,6 +32,8 @@ INVALID_EXPECTATIONS = {
     "accepted-open-major.chapter-delta.json": "cannot retain major findings",
     "accepted-unresolved-system-change.chapter-delta.json": "cannot retain an unresolved proposed System change",
     "unknown-parameter-set.chapter-delta.json": "unknown CAL0 parameter set",
+    "promotable-experiment.work-manifest.json": "experiments must be noncanonical and promotion-blocked",
+    "cross-work-leak.chapter-delta.json": "leaks outside work scope",
 }
 
 
@@ -90,14 +93,23 @@ class SchemaSet:
             errors.append(f"{path}: {value!r} is not an allowed value")
 
         expected_type = schema.get("type")
-        matches_type = {
-            "object": isinstance(value, dict),
-            "array": isinstance(value, list),
-            "string": isinstance(value, str),
-            "integer": isinstance(value, int) and not isinstance(value, bool),
-            "boolean": isinstance(value, bool),
-            "null": value is None,
-        }.get(expected_type, True)
+
+        def type_matches(type_name: str) -> bool:
+            return {
+                "object": isinstance(value, dict),
+                "array": isinstance(value, list),
+                "string": isinstance(value, str),
+                "integer": isinstance(value, int) and not isinstance(value, bool),
+                "boolean": isinstance(value, bool),
+                "null": value is None,
+            }.get(type_name, True)
+
+        if isinstance(expected_type, list):
+            matches_type = any(type_matches(item) for item in expected_type if isinstance(item, str))
+        elif isinstance(expected_type, str):
+            matches_type = type_matches(expected_type)
+        else:
+            matches_type = True
         if not matches_type:
             errors.append(f"{path}: expected {expected_type}, found {type(value).__name__}")
             return
@@ -132,6 +144,14 @@ class SchemaSet:
                 errors.append(f"{path}: string is too short")
             if "pattern" in schema and re.search(schema["pattern"], value) is None:
                 errors.append(f"{path}: {value!r} does not match {schema['pattern']!r}")
+            if schema.get("format") == "date":
+                try:
+                    parsed = date.fromisoformat(value)
+                except ValueError:
+                    errors.append(f"{path}: {value!r} is not a valid full date")
+                else:
+                    if parsed.isoformat() != value:
+                        errors.append(f"{path}: date must use YYYY-MM-DD canonical form")
         elif isinstance(value, int) and not isinstance(value, bool):
             if "minimum" in schema and value < schema["minimum"]:
                 errors.append(f"{path}: must be at least {schema['minimum']}")
@@ -155,6 +175,12 @@ class SchemaSet:
                 passing += not attempt
             if passing != 1:
                 errors.append(f"{path}: must satisfy exactly one allowed schema")
+        if "if" in schema:
+            condition_errors: list[str] = []
+            self._validate(value, schema["if"], schema_name, path, condition_errors)
+            branch = schema.get("then") if not condition_errors else schema.get("else")
+            if branch is not None:
+                self._validate(value, branch, schema_name, path, errors)
 
 
 def load_json(path: Path) -> Any:
@@ -197,12 +223,188 @@ def reference_errors(values: list[str], event_ids: set[str], path: str) -> list[
     return [f"{path}: unknown causal event {value!r}" for value in values if value not in event_ids]
 
 
+def work_slug(work_id: Any) -> str | None:
+    if not isinstance(work_id, str):
+        return None
+    match = re.fullmatch(
+        r"work://(?:series|standalone-novel|novella|short-story|experiment)/"
+        r"([a-z0-9]+(?:-[a-z0-9]+)*)",
+        work_id,
+    )
+    return match.group(1) if match is not None else None
+
+
+def work_identity_errors(value: Any, work_id: Any, path: str = "$") -> list[str]:
+    """Reject local creative URI references that name another work slug."""
+    slug = work_slug(work_id)
+    if slug is None:
+        return []
+    work_parts = str(work_id).removeprefix("work://").split("/")
+    work_type = work_parts[0]
+    errors: list[str] = []
+    local_schemes = {
+        "book", "canon-proposal", "chapter", "character", "change", "claim",
+        "delta", "event", "fact", "item", "knowledge", "location", "progression",
+        "proposal", "provenance", "relationship", "snapshot", "thread",
+    }
+    if isinstance(value, str) and "://" in value:
+        scheme, remainder = value.split("://", 1)
+        reference_parts = remainder.split("/")
+        matches_typed = len(reference_parts) >= 2 and reference_parts[:2] == [work_type, slug]
+        if scheme in local_schemes and not matches_typed:
+            errors.append(
+                f"{path}: local reference {value!r} leaks outside work scope {work_id!r}"
+            )
+        if scheme == "canon" and reference_parts[0] != "world" and not matches_typed:
+            errors.append(
+                f"{path}: work-local canon reference {value!r} leaks outside work scope {work_id!r}"
+            )
+    elif isinstance(value, dict):
+        for key, item in value.items():
+            if key != "work_id":
+                errors.extend(work_identity_errors(item, work_id, f"{path}.{key}"))
+    elif isinstance(value, list):
+        for index, item in enumerate(value):
+            errors.extend(work_identity_errors(item, work_id, f"{path}[{index}]"))
+    return errors
+
+
+def shared_authority_errors(value: Any, manifest: dict[str, Any], path: str = "$") -> list[str]:
+    errors: list[str] = []
+    if isinstance(value, str):
+        adopted_world = set(manifest.get("adopted_shared_world_refs", []))
+        adopted_defaults = {
+            item.get("decision_uri")
+            for item in manifest.get("adopted_default_guardrails", [])
+            if isinstance(item, dict) and isinstance(item.get("decision_uri"), str)
+        }
+        if value.startswith("canon://world/") and value not in adopted_world:
+            errors.append(f"{path}: shared-world canon reference {value!r} is not explicitly adopted")
+        if value.startswith("author-decision://world/") and value not in adopted_world | adopted_defaults:
+            errors.append(f"{path}: world decision reference {value!r} is not explicitly adopted")
+    elif isinstance(value, dict):
+        for key, item in value.items():
+            errors.extend(shared_authority_errors(item, manifest, f"{path}.{key}"))
+    elif isinstance(value, list):
+        for index, item in enumerate(value):
+            errors.extend(shared_authority_errors(item, manifest, f"{path}[{index}]"))
+    return errors
+
+
+def semantic_work_manifest(document: dict[str, Any]) -> list[str]:
+    errors = locate_encoded_floats(document)
+    work_id = document.get("work_id")
+    slug = work_slug(work_id)
+    work_type = document.get("work_type")
+    uri_type = str(work_id).removeprefix("work://").split("/", 1)[0]
+    expected_uri_types = {
+        "SERIES": "series",
+        "STANDALONE_NOVEL": "standalone-novel",
+        "NOVELLA": "novella",
+        "SHORT_STORY": "short-story",
+        "EXPERIMENT": "experiment",
+    }
+    if expected_uri_types.get(work_type) != uri_type:
+        errors.append("$.work_id: URI work type does not match work_type")
+    mode = document.get("mode")
+    canonicality = document.get("canonicality")
+    promotion = document.get("promotion")
+    if mode == "EVALUATION" and (
+        canonicality != "NONCANONICAL_EVALUATION_ONLY" or promotion != "FORBIDDEN"
+    ):
+        errors.append("$: evaluation mode must be noncanonical and promotion-forbidden")
+    if mode == "EVALUATION" and (
+        document.get("accepted_on") is not None or document.get("approval_decision_uri") is not None
+    ):
+        errors.append("$: evaluation manifests cannot carry Author acceptance fields")
+    if mode == "AUTHORING" and (
+        canonicality not in {"PROPOSED", "PROVISIONAL", "ACCEPTED"}
+        or promotion != "ALLOWED_WITH_AUTHOR_GATE"
+    ):
+        errors.append("$: authoring mode must be canon-eligible and use the Author promotion gate")
+    if work_type == "EXPERIMENT" and (
+        mode != "EVALUATION"
+        or canonicality != "NONCANONICAL_EVALUATION_ONLY"
+        or promotion != "FORBIDDEN"
+    ):
+        errors.append("$: experiments must be noncanonical and promotion-blocked")
+    if canonicality in {"ACCEPTED", "PROVISIONAL"} and (
+        not document.get("accepted_on") or not document.get("approval_decision_uri")
+    ):
+        errors.append("$: accepted/provisional work requires Author decision and acceptance date")
+    if canonicality == "PROPOSED" and (
+        document.get("accepted_on") is not None or document.get("approval_decision_uri") is not None
+    ):
+        errors.append("$: proposed work cannot carry Author acceptance fields")
+    setting_scope = document.get("setting_scope")
+    shared_setting_id = document.get("shared_setting_id")
+    adopted_world = document.get("adopted_shared_world_refs", [])
+    if setting_scope == "SHARED_WORLD" and not shared_setting_id:
+        errors.append("$.shared_setting_id: shared-world works must name their setting")
+    if setting_scope != "SHARED_WORLD" and shared_setting_id is not None:
+        errors.append("$.shared_setting_id: only shared-world works may bind a shared setting")
+    if setting_scope == "INDEPENDENT_SETTING" and adopted_world:
+        errors.append("$.adopted_shared_world_refs: independent settings cannot inherit shared world canon")
+
+    root = document.get("work_root")
+    root_path = Path(root) if isinstance(root, str) else None
+    fixture_root = root_path is not None and root_path.parts[:3] == (
+        "litrpg-system", "story-integration", "fixtures"
+    )
+    expected_directories = {
+        "SERIES": ("stories", "series"),
+        "STANDALONE_NOVEL": ("stories", "standalone-novels"),
+        "NOVELLA": ("stories", "novellas"),
+        "SHORT_STORY": ("stories", "short-stories"),
+        "EXPERIMENT": ("stories", "experiments"),
+    }
+    if root_path is not None and not fixture_root:
+        expected = expected_directories.get(work_type)
+        if expected is None or root_path.parts[:2] != expected:
+            errors.append(f"$.work_root: {work_type} work must live beneath {'/'.join(expected or ())}")
+        if slug is not None and (len(root_path.parts) != 3 or root_path.parts[2] != slug):
+            errors.append("$.work_root: must end at the work slug directory")
+    if root_path is not None:
+        for field in (
+            "contract_path", "characters_root", "world_overlay_root",
+            "context_packs_root", "runs_root",
+        ):
+            scoped_path = document.get(field)
+            if not isinstance(scoped_path, str) or not path_is_within(scoped_path, root):
+                errors.append(f"$.{field}: must remain within work_root")
+    return errors
+
+
+def path_is_within(path_value: str, root_value: str) -> bool:
+    if "\\" in path_value or "\\" in root_value:
+        return False
+    path = Path(path_value)
+    root = Path(root_value)
+    if path.is_absolute() or root.is_absolute() or ".." in path.parts or ".." in root.parts:
+        return False
+    try:
+        path.relative_to(root)
+    except ValueError:
+        return False
+    return path.as_posix() == path_value and root.as_posix() == root_value
+
+
 def semantic_delta(
     document: dict[str, Any],
     decision_ids: set[str],
     parameter_set_ids: set[str],
+    work_manifests: dict[str, dict[str, Any]],
 ) -> list[str]:
     errors = locate_encoded_floats(document)
+    work_id = document.get("work_id")
+    errors.extend(work_identity_errors(document, work_id))
+    manifest = work_manifests.get(str(work_id))
+    if manifest is None:
+        errors.append(f"$.work_id: no valid work manifest found for {work_id!r}")
+    elif manifest.get("promotion") == "FORBIDDEN" and document.get("status") == "ACCEPTED":
+        errors.append("$.status: promotion-blocked work cannot contain an accepted delta")
+    else:
+        errors.extend(shared_authority_errors(document, manifest))
     events = document.get("events", [])
     chapter_id = document.get("chapter_id")
     event_ids: set[str] = set()
@@ -217,6 +419,8 @@ def semantic_delta(
             event_ids.add(event_id)
         if event.get("chapter_id") != chapter_id:
             errors.append(f"$.events[{index}].chapter_id: does not match delta chapter_id")
+        if event.get("work_id") != work_id:
+            errors.append(f"$.events[{index}].work_id: does not match delta work_id")
         sequence = event.get("sequence")
         if isinstance(sequence, int) and not isinstance(sequence, bool):
             sequences.append(sequence)
@@ -231,6 +435,8 @@ def semantic_delta(
         path = f"$.progression_events[{index}]"
         if progression.get("chapter_id") != chapter_id:
             errors.append(f"{path}.chapter_id: does not match delta chapter_id")
+        if progression.get("work_id") != work_id:
+            errors.append(f"{path}.work_id: does not match delta work_id")
         progression_id = progression.get("progression_event_id")
         if progression_id in progression_ids:
             errors.append(f"{path}.progression_event_id: duplicate progression event ID")
@@ -275,6 +481,8 @@ def semantic_delta(
         before = exact(progression.get("before_value"), f"{path}.before_value", errors)
         amount = exact(progression.get("amount"), f"{path}.amount", errors)
         after = exact(progression.get("after_value"), f"{path}.after_value", errors)
+        if operation == "XP_GAIN" and amount is not None and amount <= 0:
+            errors.append(f"{path}.amount: XP_GAIN must be positive")
         additive_operations = {
             "XP_GAIN",
             "REINFORCEMENT_CLAIMED",
@@ -327,6 +535,8 @@ def semantic_delta(
                         exact(record["after"], f"$.{collection_name}[{index}].after", errors)
                 if collection_name == "canon_proposals" and record.get("chapter_id") != chapter_id:
                     errors.append(f"$.{collection_name}[{index}].chapter_id: does not match delta chapter_id")
+                if collection_name == "canon_proposals" and record.get("work_id") != work_id:
+                    errors.append(f"$.{collection_name}[{index}].work_id: does not match delta work_id")
 
     required_reviews = {
         "LOCAL_COLOUR": "CHAPTER_ACCEPTANCE",
@@ -392,6 +602,11 @@ def semantic_delta(
                         digest = "sha256:" + hashlib.sha256(candidate.read_bytes()).hexdigest()
                         if manuscript.get("sha256") != digest:
                             errors.append("$.manuscript.sha256: digest does not match bound manuscript bytes")
+                        if manifest is not None:
+                            try:
+                                Path(manuscript_path).relative_to(Path(manifest["work_root"]))
+                            except ValueError:
+                                errors.append("$.manuscript.path: accepted manuscript must remain within work_root")
         if document.get("review", {}).get("blocking_findings"):
             errors.append("$.review.blocking_findings: accepted delta cannot retain blocking findings")
         if document.get("review", {}).get("major_findings"):
@@ -409,8 +624,17 @@ def semantic_delta(
     return errors
 
 
-def semantic_character_state(document: dict[str, Any]) -> list[str]:
+def semantic_character_state(
+    document: dict[str, Any],
+    work_manifests: dict[str, dict[str, Any]],
+) -> list[str]:
     errors = locate_encoded_floats(document)
+    work_id = document.get("work_id")
+    errors.extend(work_identity_errors(document, work_id))
+    if str(work_id) not in work_manifests:
+        errors.append(f"$.work_id: no valid work manifest found for {work_id!r}")
+    else:
+        errors.extend(shared_authority_errors(document, work_manifests[str(work_id)]))
     for resource_id, resource in document.get("resources", {}).items():
         if not isinstance(resource, dict):
             continue
@@ -475,6 +699,7 @@ def validate_file(
     schemas: SchemaSet,
     decision_ids: set[str],
     parameter_set_ids: set[str],
+    work_manifests: dict[str, dict[str, Any]],
 ) -> list[str]:
     document = load_json(path)
     errors = locate_encoded_floats(document)
@@ -482,18 +707,24 @@ def validate_file(
         schema_name = "chapter-delta.schema.json"
         errors.extend(schemas.validate(document, schema_name))
         if isinstance(document, dict):
-            errors.extend(semantic_delta(document, decision_ids, parameter_set_ids))
+            errors.extend(semantic_delta(document, decision_ids, parameter_set_ids, work_manifests))
     elif path.name.endswith(".character-state.json"):
         schema_name = "character-state.schema.json"
         errors.extend(schemas.validate(document, schema_name))
         if isinstance(document, dict):
-            errors.extend(semantic_character_state(document))
+            errors.extend(semantic_character_state(document, work_manifests))
     elif path.name.endswith(".chapter-event.json"):
         errors.extend(schemas.validate(document, "chapter-event.schema.json"))
     elif path.name.endswith(".progression-event.json"):
         errors.extend(schemas.validate(document, "progression-event.schema.json"))
     elif path.name.endswith(".canon-proposal.json"):
         errors.extend(schemas.validate(document, "canon-proposal.schema.json"))
+    elif path.name.endswith(".work-manifest.json"):
+        errors.extend(schemas.validate(document, "work-manifest.schema.json"))
+        if isinstance(document, dict):
+            errors.extend(semantic_work_manifest(document))
+    elif path.name.endswith(".workflow-eval.json"):
+        errors.extend(schemas.validate(document, "workflow-eval.schema.json"))
     else:
         errors.append(f"unsupported integration-document suffix: {path.name}")
     return sorted(set(errors))
@@ -522,23 +753,74 @@ def main() -> int:
         parameter_set_ids.add(i4_assessment["parent_parameter_set_id"])
     except (KeyError, OSError, json.JSONDecodeError) as exc:
         errors.append(f"could not load CAL0 parameter-set authorities: {exc}")
+    work_manifests: dict[str, dict[str, Any]] = {}
+    manifest_paths = sorted(
+        set(REPOSITORY_ROOT.rglob("*.work-manifest.json"))
+        | set(REPOSITORY_ROOT.rglob("work-manifest.json"))
+    )
+    for manifest_path in manifest_paths:
+        if "invalid" in manifest_path.parts:
+            continue
+        manifest_document = load_json(manifest_path)
+        manifest_errors = schemas.validate(manifest_document, "work-manifest.schema.json")
+        if isinstance(manifest_document, dict):
+            manifest_errors.extend(semantic_work_manifest(manifest_document))
+        if manifest_errors:
+            errors.extend(
+                f"{manifest_path.relative_to(REPOSITORY_ROOT)}: {error}"
+                for error in manifest_errors
+            )
+            continue
+        manifest_id = manifest_document["work_id"]
+        if manifest_id in work_manifests:
+            errors.append(f"duplicate work manifest identity {manifest_id!r}")
+        work_manifests[manifest_id] = manifest_document
 
     if args.paths:
         for path in args.paths:
-            file_errors = validate_file(path, schemas, decision_ids, parameter_set_ids)
+            file_errors = validate_file(path, schemas, decision_ids, parameter_set_ids, work_manifests)
             errors.extend(f"{path}: {error}" for error in file_errors)
         expected_valid = len(args.paths)
         expected_invalid = 0
     else:
         valid_paths = sorted((FIXTURE_ROOT / "valid").glob("*.json"))
-        invalid_paths = sorted((FIXTURE_ROOT / "invalid").glob("*.json"))
+        for story_root in (
+            REPOSITORY_ROOT / "stories/series",
+            REPOSITORY_ROOT / "stories/standalone-novels",
+            REPOSITORY_ROOT / "stories/novellas",
+            REPOSITORY_ROOT / "stories/short-stories",
+            REPOSITORY_ROOT / "stories/experiments",
+        ):
+            if story_root.is_dir():
+                valid_paths.extend(
+                    path for path in story_root.rglob("*.json")
+                    if any(
+                        path.name.endswith(suffix)
+                        for suffix in (
+                            ".chapter-delta.json", ".chapter-event.json",
+                            ".progression-event.json", ".canon-proposal.json",
+                            ".character-state.json",
+                        )
+                    )
+                )
+        valid_paths = sorted(set(valid_paths))
+        invalid_paths = sorted(
+            path for path in (FIXTURE_ROOT / "invalid").glob("*.json")
+            if not path.name.endswith(
+                (
+                    ".workflow-eval.invalid.json",
+                    ".work-manifest.invalid.json",
+                    ".setting-manifest.invalid.json",
+                )
+            )
+        )
         expected_valid = len(valid_paths)
         expected_invalid = len(invalid_paths)
         for path in valid_paths:
-            file_errors = validate_file(path, schemas, decision_ids, parameter_set_ids)
+            file_errors = validate_file(path, schemas, decision_ids, parameter_set_ids, work_manifests)
             errors.extend(f"{path.relative_to(REPOSITORY_ROOT)}: {error}" for error in file_errors)
         for path in invalid_paths:
-            file_errors = validate_file(path, schemas, decision_ids, parameter_set_ids)
+            file_errors = validate_file(path, schemas, decision_ids, parameter_set_ids, work_manifests)
             if not file_errors:
                 errors.append(f"{path.relative_to(REPOSITORY_ROOT)}: invalid fixture unexpectedly passed")
                 continue

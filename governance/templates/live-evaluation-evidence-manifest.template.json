@@ -1,0 +1,54 @@
+{
+  "$schema": "../schemas/workflow-evidence-manifest.schema.json",
+  "schema_version": "1.0.0",
+  "run_id": "run://evaluation/replace-run-id",
+  "evidence_kind": "LIVE_NONCANONICAL_EVALUATION",
+  "workflow": "live-reviewer-evaluation",
+  "completed_on": "2026-08-12",
+  "canonicality": "NONCANONICAL_EVALUATION_ONLY",
+  "promotion": "FORBIDDEN",
+  "source_manifest": [
+    {
+      "path": "replace/with/exact-source-path",
+      "revision": "replace-with-immutable-revision",
+      "sha256": "sha256:0000000000000000000000000000000000000000000000000000000000000000"
+    }
+  ],
+  "target_artifacts": [],
+  "findings": [],
+  "validations": [
+    "Replace with the exact evaluation or validation result."
+  ],
+  "retained_files": [
+    "governance/evidence/replace-run-id/raw-output.md"
+  ],
+  "approval": null,
+  "evaluated_targets": [
+    "replace-with-agent-skill-or-workflow"
+  ],
+  "raw_output": {
+    "path": "governance/evidence/replace-run-id/raw-output.md",
+    "revision": "replace-with-immutable-revision",
+    "sha256": "sha256:0000000000000000000000000000000000000000000000000000000000000000"
+  },
+  "invariant_verdicts": [
+    {
+      "target": "replace-with-agent-skill-or-workflow",
+      "verdict": "PASS",
+      "evidence": [
+        "Replace with a precise raw-output anchor."
+      ]
+    }
+  ],
+  "prohibited_output_checks": [
+    {
+      "target": "replace-with-agent-skill-or-workflow",
+      "verdict": "PASS",
+      "evidence": [
+        "Replace with a precise raw-output anchor."
+      ]
+    }
+  ],
+  "evaluator_conclusion": "Replace with a bounded conclusion that does not generalise beyond evaluated targets.",
+  "live_eval_status": "PASSED"
+}

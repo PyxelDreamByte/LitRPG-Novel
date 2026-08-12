@@ -1,0 +1,42 @@
+{
+  "schema_version": "1.0.0",
+  "work_id": "work://experiment/isolation-suite",
+  "delta_id": "delta://experiment/isolation-suite/fixture/001/live-pilot-001",
+  "chapter_id": "chapter://experiment/isolation-suite/fixture/001",
+  "base_snapshot_ids": [],
+  "status": "DRAFT",
+  "manuscript": {
+    "path": "governance/evidence/live-pilot-001-authoring/revision-editor/001-revised.md",
+    "revision": "live-pilot-001-retained-evidence",
+    "sha256": "sha256:1998a10d018cdaf11e3933a593cd980ea70d15b5d566e354bf5fe494c4254c8b"
+  },
+  "events": [
+    {
+      "schema_version": "1.0.0",
+      "work_id": "work://experiment/isolation-suite",
+      "event_id": "event://experiment/isolation-suite/fixture/001/live-pilot-001/0001",
+      "chapter_id": "chapter://experiment/isolation-suite/fixture/001",
+      "sequence": 1,
+      "event_type": "OBSERVATION",
+      "summary": "Nera directly examines the glass tablet in lamplight and observes a moving pale line without understanding its history or meaning.",
+      "participants": ["character://experiment/isolation-suite/nera"],
+      "viewpoint_access": [{"character_id": "character://experiment/isolation-suite/nera", "access": "DIRECT", "basis": "Nera holds and tilts the tablet in her viewpoint scene."}]
+    },
+    {
+      "schema_version": "1.0.0",
+      "work_id": "work://experiment/isolation-suite",
+      "event_id": "event://experiment/isolation-suite/fixture/001/live-pilot-001/0002",
+      "chapter_id": "chapter://experiment/isolation-suite/fixture/001",
+      "sequence": 2,
+      "event_type": "ACTION",
+      "summary": "Nera takes custody of the tablet, closes the east shutter, returns by the east stair within the storm window, and hears a pursuer descending.",
+      "participants": ["character://experiment/isolation-suite/nera"],
+      "viewpoint_access": [{"character_id": "character://experiment/isolation-suite/nera", "access": "DIRECT", "basis": "Nera performs the custody and travel actions and directly hears the boots."}]
+    }
+  ],
+  "character_changes": [{"change_id": "change://experiment/isolation-suite/fixture/001/live-pilot-001/tablet-custody", "character_id": "character://experiment/isolation-suite/nera", "path": "/inventory/glass_tablet", "operation": "SET", "value_type": "BOOLEAN", "before": false, "after": true, "source_event_ids": ["event://experiment/isolation-suite/fixture/001/live-pilot-001/0002"]}],
+  "progression_events": [],
+  "thread_changes": [{"thread_id": "thread://experiment/isolation-suite/pursuit", "operation": "OPEN", "summary": "Nera's custody choice leaves her facing a pursuer descending from the public gallery.", "source_event_ids": ["event://experiment/isolation-suite/fixture/001/live-pilot-001/0002"]}],
+  "canon_proposals": [{"schema_version": "1.0.0", "work_id": "work://experiment/isolation-suite", "proposal_id": "canon-proposal://experiment/isolation-suite/fixture/001/live-pilot-001/01", "chapter_id": "chapter://experiment/isolation-suite/fixture/001", "classification": "SETTING_EXTENSION", "scope": "work://experiment/isolation-suite", "statement": "Under direct lamplight, a pale line moves beneath the fired surface of this glass tablet.", "source_event_ids": ["event://experiment/isolation-suite/fixture/001/live-pilot-001/0001"], "affected_canon_refs": ["stories/experiments/isolation-suite/world-overlay/proposal.md"], "status": "PROPOSED", "required_review": "WORLDBUILDING_REVIEW", "notes": "Evaluation-only work-local proposal; it adopts no shared world decision or default guardrail."}],
+  "review": {"blocking_findings": ["WLD-F001"], "major_findings": [], "minor_findings": [], "optional_findings": []}
+}

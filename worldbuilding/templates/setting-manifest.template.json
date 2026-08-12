@@ -1,0 +1,10 @@
+{
+  "schema_version": "1.0.0",
+  "setting_id": "setting://replace-setting",
+  "title": "Replace with setting title",
+  "setting_root": "worldbuilding/settings/replace-setting",
+  "workflow_status": "DRAFT",
+  "canon_status": "PROPOSED",
+  "index_path": "worldbuilding/settings/replace-setting/indexes/INDEX.md",
+  "adopting_work_ids": []
+}

@@ -1,6 +1,9 @@
 ---
 id: "WLD-[DOMAIN]-[NUMBER]"
-record_uri: "canon://world/[domain]/[record-slug]"
+record_uri: "canon://world/[setting-slug]/[record-slug]"
+display_code: "WLD-[DOMAIN]-[NUMBER]"
+schema_version: "1.0.0"
+setting_id: "setting://[setting-slug]"
 title: "[Proposal title]"
 workflow_status: DRAFT
 canon_status: PROPOSED
@@ -8,6 +11,8 @@ scope: "[world|region|era|culture|institution|species|location]"
 created_on: "[YYYY-MM-DD]"
 author_decision_uri: null
 dependencies: []
+supersedes: []
+superseded_by: null
 ---
 
 # [ID] — [Proposal title]

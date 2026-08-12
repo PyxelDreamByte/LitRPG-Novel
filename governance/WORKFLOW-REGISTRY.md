@@ -46,8 +46,10 @@ artifacts in the workbench. Workbench records remain disposable and ignored by
 Git by default.
 
 When a run supports an accepted decision, chapter, retcon, System change, or
-workflow evaluation, promote the minimum sufficient evidence bundle to
+workflow evaluation, retain the minimum sufficient evidence bundle under
 `governance/evidence/<run-id>/` before the accepting commit. The retained bundle
-must contain a manifest, decision/approval evidence, final findings and change
-set, validation summary, and links or digests for promoted artifacts. Do not
-promote redundant context copies or sensitive research material.
+for an accepted outcome must contain decision/approval evidence, final findings,
+validation, and promoted-artifact digests. A live noncanonical evaluation
+instead retains exact source/output hashes and per-target checks with no Author
+approval or promotion claim. Do not retain redundant context copies or
+sensitive research material.

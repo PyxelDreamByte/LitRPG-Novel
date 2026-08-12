@@ -1,0 +1,55 @@
+{
+  "$schema": "../../governance/schemas/decision-record.schema.json",
+  "schema_version": "1.0.0",
+  "id": "WLD-RARITY-001D",
+  "decision_uri": "author-decision://world/WLD-RARITY-001D",
+  "display_code": "WLD-RARITY-001D",
+  "title": "Defer all universal rarity proportions",
+  "domain": "project-level future-setting population modelling",
+  "workflow_status": "ACCEPTED",
+  "canon_status": "DEFERRED",
+  "scope": "Project governance for any future work that proposes rarity proportions; no present setting or object family is quantified and no distribution is silently inherited by an independent work.",
+  "accepted_on": "2026-08-12",
+  "accepted_by": "Author",
+  "approval_evidence": "The Author instructed that rarity distribution be recorded as an Author-approved DEFERRED decision with the stated activation prerequisites on 2026-08-12.",
+  "question": "Should the project assign universal rarity proportions before a concrete object family, rarity dimension, denominator, population, period, and evidence are defined?",
+  "selection": "Defer rarity distribution. Define no universal proportions. Activate a scoped rarity-distribution decision only after defining the object type, rarity dimension, eligible denominator, population, period, and evidence base.",
+  "alternatives": [
+    "Assign one universal rarity ladder and proportions now; rejected as undefined and over-broad.",
+    "Defer all proportions until the six activation prerequisites are defined; selected."
+  ],
+  "rationale": "Rarity is multidimensional and denominator-sensitive. A universal percentage would conflate unlike objects, recognition rules, populations, periods, and evidence bases before any real setting exists.",
+  "evidence": [
+    "Author deferral instruction dated 2026-08-12.",
+    "litrpg-system/cal0/canonical/litrpg-system-specification.md: rarity is typed and scope-dependent rather than a universal power tier.",
+    "litrpg-system/cal0/guide/litrpg-system-residual-uncertainty-register.md: rarity proportions remain a world-level input."
+  ],
+  "consequences": [
+    "No universal rarity proportions may be inserted into setting, character, story, or population models.",
+    "Rarity distributions must be separately scoped for a defined object type and rarity dimension.",
+    "No distribution work begins until the eligible denominator, population, period, and evidence base are explicit.",
+    "This deferral creates no setting fact and supplies no default percentages."
+  ],
+  "affected_sources": [
+    "worldbuilding/INDEX.md",
+    "STATUS.md"
+  ],
+  "dependencies": [
+    "REP0.1A",
+    "CAL0 v0.7.0 typed rarity architecture"
+  ],
+  "conflicts": [],
+  "residual_unknowns": [
+    "Object type is undefined.",
+    "Rarity dimension is undefined.",
+    "Eligible denominator is undefined.",
+    "Population and observation period are undefined.",
+    "Evidence base is undefined."
+  ],
+  "supersedes": [],
+  "superseded_by": null,
+  "reopening_conditions": [
+    "A proposal defines the object type, rarity dimension, eligible denominator, population, period, and evidence base.",
+    "The Author explicitly activates a scoped rarity-distribution decision after those prerequisites are met."
+  ]
+}

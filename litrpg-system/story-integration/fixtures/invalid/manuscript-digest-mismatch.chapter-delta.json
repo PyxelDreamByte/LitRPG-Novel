@@ -1,16 +1,18 @@
 {
   "schema_version": "1.0.0",
+  "work_id": "work://experiment/fixture",
   "delta_id": "delta://fixture/manuscript-mismatch/001",
   "chapter_id": "chapter://fixture/manuscript-mismatch/001",
   "base_snapshot_ids": [],
   "status": "ACCEPTED",
   "manuscript": {
-    "path": "litrpg-system/story-integration/examples/accepted-chapter-001.md",
+    "path": "litrpg-system/story-integration/fixtures/valid/manuscript/accepted-chapter-001.md",
     "revision": "fixture-r1",
     "sha256": "sha256:0000000000000000000000000000000000000000000000000000000000000000"
   },
   "events": [{
     "schema_version": "1.0.0",
+    "work_id": "work://experiment/fixture",
     "event_id": "event://fixture/manuscript-mismatch/001/0001",
     "chapter_id": "chapter://fixture/manuscript-mismatch/001",
     "sequence": 1,
@@ -37,4 +39,3 @@
     "evidence": ["delta://fixture/manuscript-mismatch/001"]
   }
 }
-

@@ -1,0 +1,44 @@
+{
+  "schema_version": "1.0.0",
+  "work_id": "work://experiment/isolation-suite",
+  "delta_id": "delta://experiment/isolation-suite/fixture/001",
+  "chapter_id": "chapter://experiment/isolation-suite/fixture/001",
+  "base_snapshot_ids": [],
+  "status": "DRAFT",
+  "events": [
+    {
+      "schema_version": "1.0.0",
+      "work_id": "work://experiment/isolation-suite",
+      "event_id": "event://experiment/isolation-suite/fixture/001/0001",
+      "chapter_id": "chapter://experiment/isolation-suite/fixture/001",
+      "sequence": 1,
+      "event_type": "ACTION",
+      "summary": "Nera enters the east shutter and takes custody of a glass tablet.",
+      "participants": ["character://experiment/isolation-suite/nera"],
+      "viewpoint_access": [
+        {
+          "character_id": "character://experiment/isolation-suite/nera",
+          "access": "DIRECT",
+          "basis": "Nera performs the action in the viewpoint scene."
+        }
+      ]
+    }
+  ],
+  "character_changes": [],
+  "progression_events": [],
+  "thread_changes": [
+    {
+      "thread_id": "thread://experiment/isolation-suite/pursuit",
+      "operation": "OPEN",
+      "summary": "Taking the tablet creates pursuit.",
+      "source_event_ids": ["event://experiment/isolation-suite/fixture/001/0001"]
+    }
+  ],
+  "canon_proposals": [],
+  "review": {
+    "blocking_findings": ["ISO-F001", "CON-F001", "POV-F001", "CAL-F001", "WLD-F001"],
+    "major_findings": ["ARC-F001"],
+    "minor_findings": ["PROSE-F001"],
+    "optional_findings": []
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://pyxeldreambyte.github.io/LitRPG-Novel/schemas/setting-manifest.schema.json",
+  "title": "Shared setting authority manifest",
+  "type": "object",
+  "required": [
+    "schema_version",
+    "setting_id",
+    "title",
+    "setting_root",
+    "workflow_status",
+    "canon_status",
+    "index_path",
+    "adopting_work_ids"
+  ],
+  "properties": {
+    "schema_version": {"const": "1.0.0"},
+    "setting_id": {"type": "string", "pattern": "^setting://[a-z0-9]+(?:-[a-z0-9]+)*$"},
+    "title": {"type": "string", "minLength": 1},
+    "setting_root": {
+      "type": "string",
+      "pattern": "^(worldbuilding/settings|litrpg-system/story-integration/fixtures/valid/settings)/[a-z0-9]+(?:-[a-z0-9]+)*$"
+    },
+    "workflow_status": {"enum": ["DRAFT", "IN_REVIEW", "AWAITING_AUTHOR", "ACCEPTED", "REJECTED", "SUPERSEDED"]},
+    "canon_status": {"enum": ["ACCEPTED", "PROVISIONAL", "PROPOSED", "DEFERRED", "REJECTED", "SUPERSEDED"]},
+    "index_path": {"type": "string", "minLength": 1},
+    "adopting_work_ids": {
+      "type": "array",
+      "uniqueItems": true,
+      "items": {"$ref": "story-common.schema.json#/$defs/workIdentifier"}
+    },
+    "accepted_on": {"type": ["string", "null"], "format": "date"},
+    "approval_decision_uri": {
+      "type": ["string", "null"],
+      "pattern": "^author-decision://[^\\s]+$"
+    }
+  },
+  "additionalProperties": false,
+  "allOf": [
+    {
+      "if": {
+        "properties": {"canon_status": {"enum": ["ACCEPTED", "PROVISIONAL"]}},
+        "required": ["canon_status"]
+      },
+      "then": {"required": ["accepted_on", "approval_decision_uri"]}
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "$schema": "../../governance/schemas/decision-record.schema.json",
+  "schema_version": "1.0.0",
+  "id": "WLD-PRENATAL-001A",
+  "decision_uri": "author-decision://world/WLD-PRENATAL-001A",
+  "display_code": "WLD-PRENATAL-001A",
+  "title": "Ordinary prenatal-consciousness population-modelling guardrail",
+  "domain": "project-level future-setting population modelling",
+  "workflow_status": "ACCEPTED",
+  "canon_status": "PROVISIONAL",
+  "scope": "Reusable project-level default for ordinary members of a future named human-reference population only after explicit adoption by that work's manifest; not individual diagnosis, detailed fetal phenomenology, Enuma canon, or the reincarnate protagonist.",
+  "accepted_on": "2026-08-12",
+  "accepted_by": "Author",
+  "approval_evidence": "The Author explicitly selected Prenatal A and instructed that it be recorded with this bounded project-level future-setting scope on 2026-08-12.",
+  "question": "How should ordinary prenatal consciousness and directed prenatal System practice be treated in future human-reference population modelling before setting-specific evidence exists?",
+  "selection": "When a work manifest explicitly adopts this project default, do not deny or numerically quantify ordinary fetal sensation or automatic development, and assume no ordinary persistent self-aware continuity and no ordinary directed prenatal System practice in population modelling unless a later scoped decision supplies evidence. Keep the protagonist's reincarnate continuity separate. An independent work may override the default only through its own Author decision.",
+  "alternatives": [
+    "Option A: preserve unknown ordinary sensation and automatic development while excluding ordinary persistent self-aware continuity and directed prenatal System practice from the population model; selected.",
+    "Treat ordinary fetuses as persistently self-aware System practitioners; not selected.",
+    "Deny or numerically quantify all ordinary fetal sensation and automatic development; explicitly outside this decision."
+  ],
+  "rationale": "This prevents a population model from inventing widespread prenatal agency while also avoiding an unsupported claim about fetal sensation or automatic development. It preserves the protagonist's exceptional continuity as a separate mechanism.",
+  "evidence": [
+    "Author selection Prenatal A and bounded-scope instruction dated 2026-08-12.",
+    "litrpg-system/cal0/canonical/litrpg-system-specification.md: natural prenatal development and protagonist reincarnate continuity are separate causal channels.",
+    "litrpg-system/cal0/guide/litrpg-system-residual-uncertainty-register.md: ordinary prenatal-consciousness distribution remains a world-level input."
+  ],
+  "consequences": [
+    "Population models must not award ordinary directed prenatal System practice, its XP, or its intentional training consequences by default.",
+    "The guardrail does not deny sensation, automatic learning, maturation, or other ordinary fetal development.",
+    "The guardrail supplies no numerical prevalence or phenomenological distribution for sensation or awareness.",
+    "The protagonist's reincarnate continuity and directed prenatal practice remain a distinct exceptional scenario and do not imply ordinary prevalence.",
+    "This decision creates no named people, culture, institution, medical doctrine, religion, or setting fact."
+    ,"No work inherits this guardrail silently; its manifest must cite the decision URI and adopted scope."
+    ,"A work-specific override requires its own explicit Author decision and does not rewrite this project default for other works."
+  ],
+  "affected_sources": [
+    "worldbuilding/INDEX.md",
+    "STATUS.md"
+  ],
+  "dependencies": [
+    "REP0.1A",
+    "PRO1.0D",
+    "PRO1.1D"
+  ],
+  "conflicts": [],
+  "residual_unknowns": [
+    "Ordinary fetal sensation and automatic-development distributions remain unquantified.",
+    "The future human-reference population and evidence base are not yet defined.",
+    "Setting-specific cultural, medical, magical, and institutional interpretations remain undefined.",
+    "Rare non-protagonist exceptions remain undefined."
+    ,"Which future works, if any, will adopt this default remains undefined."
+  ],
+  "supersedes": [],
+  "superseded_by": null,
+  "reopening_conditions": [
+    "A named setting requires an ordinary prenatal-awareness distribution.",
+    "Evidence or a causal setting mechanism supports persistent prenatal continuity or directed practice in a defined group.",
+    "Population modelling exposes a contradiction or unusable outcome.",
+    "The Author explicitly reopens the guardrail."
+  ]
+}

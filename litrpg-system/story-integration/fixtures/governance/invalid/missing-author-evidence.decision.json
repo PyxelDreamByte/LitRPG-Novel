@@ -1,0 +1,23 @@
+{
+  "schema_version": "1.0.0",
+  "id": "FIX-GOV-BAD-001",
+  "decision_uri": "author-decision://fixture/FIX-GOV-BAD-001",
+  "display_code": "FIX-GOV-BAD-001",
+  "title": "Invalid fixture decision",
+  "domain": "fixture",
+  "workflow_status": "ACCEPTED",
+  "canon_status": "PROVISIONAL",
+  "scope": "validator fixture only",
+  "question": "Can a binding decision omit evidence?",
+  "selection": "It must not.",
+  "alternatives": ["Omit it."],
+  "rationale": "Exercises the Author evidence gate.",
+  "evidence": ["fixture://governance/invalid"],
+  "consequences": ["Fixture must fail."],
+  "affected_sources": ["fixture://governance/invalid"],
+  "dependencies": [],
+  "conflicts": [],
+  "residual_unknowns": [],
+  "supersedes": [],
+  "reopening_conditions": ["Never."]
+}

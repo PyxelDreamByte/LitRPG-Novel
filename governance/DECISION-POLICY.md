@@ -12,7 +12,7 @@ Every binding decision records:
 - stable `author-decision://` URI and human display code;
 - title and domain;
 - workflow status, canon status, and scope;
-- date accepted and Author confirmation;
+- disposition date, Author confirmation, and approval evidence for `ACCEPTED`, `PROVISIONAL`, `DEFERRED`, or `REJECTED` decisions;
 - question decided;
 - selected option in operational language;
 - alternatives considered;
@@ -24,6 +24,15 @@ Every binding decision records:
 - reopening conditions.
 
 Use `governance/templates/decision-record.md` and validate structured records against the applicable governance schema.
+
+An Author-approved deferral is complete decision work. Its selection must state
+what is not being decided and its reopening conditions must define the
+prerequisites for activation. Never fill a deferred value with a convenient
+default.
+
+Project-level reusable defaults must declare whether future works inherit them.
+The default policy is explicit adoption in each work manifest; no independent
+work is silently bound.
 
 ## Stable identifiers
 

@@ -1,0 +1,55 @@
+{
+  "$schema": "../../schemas/workflow-evidence-manifest.schema.json",
+  "schema_version": "1.0.0",
+  "run_id": "run://evaluation/live-pilot-001",
+  "evidence_kind": "LIVE_NONCANONICAL_EVALUATION",
+  "workflow": "sequential-read-only-reviewer-pilot",
+  "completed_on": "2026-08-12",
+  "canonicality": "NONCANONICAL_EVALUATION_ONLY",
+  "promotion": "FORBIDDEN",
+  "source_manifest": [
+    {"path": ".codex/agents/world-canon-auditor.toml", "revision": "content-pinned-live-pilot-001", "sha256": "sha256:9299b65eabb4b8be0463a57ade19159d72a3260f5ac110e4185e74326572d404"},
+    {"path": ".codex/agents/character-pov-auditor.toml", "revision": "content-pinned-live-pilot-001", "sha256": "sha256:9554c672bc58d5701e37baf92393aac2487fb24a8eab65c8114cc3c10206d169"},
+    {"path": ".codex/agents/prose-editor.toml", "revision": "content-pinned-live-pilot-001", "sha256": "sha256:f7ee4241d389d0c8badce982531be332f1c674a03c873174ce5d4457cb2a3ed7"},
+    {"path": "stories/experiments/isolation-suite/isolation-suite.work-manifest.json", "revision": "content-pinned-live-pilot-001", "sha256": "sha256:a4276f5e2429a5a608cbf3bb1bcf31cd365022353b2ad5ee1a2f2e6bddac6bf3"},
+    {"path": "stories/experiments/isolation-suite/work-manifest.md", "revision": "content-pinned-live-pilot-001", "sha256": "sha256:1f667ee2d8dcaed44b793190f0a2ab2de52eb0e86245054f8e0b3bbc3c2aa636"},
+    {"path": "evals/specs/agent-evals.md", "revision": "content-pinned-live-pilot-001", "sha256": "sha256:50d0ea4a636604bbe9a8172dd66c8d16dec1456acd08e066e8afc323b80be8b8"},
+    {"path": "stories/experiments/isolation-suite/evals/eval-matrix.md", "revision": "content-pinned-live-pilot-001", "sha256": "sha256:b63524acb65d4e2dae0644e6064873191557ec0a463055f9bdcfe2b6127ee9f5"},
+    {"path": "stories/experiments/isolation-suite/world-overlay/proposal.md", "revision": "content-pinned-live-pilot-001", "sha256": "sha256:0f5642420cdef2d5242c1c029927070ade16af63b14be9785178f03caf26330a"},
+    {"path": "stories/experiments/isolation-suite/work-contract.md", "revision": "content-pinned-live-pilot-001", "sha256": "sha256:f72ab28cc9a2540cdc3f81ef01f7f99620173cc49101f0bd2b086103ec7d2db0"},
+    {"path": "stories/experiments/isolation-suite/characters/profiles/nera.md", "revision": "content-pinned-live-pilot-001", "sha256": "sha256:ad0067206b069cfa55cde36ff76fca2fecd947e6cf1626182f8b782ba9e7398f"},
+    {"path": "stories/experiments/isolation-suite/characters/knowledge/nera.md", "revision": "content-pinned-live-pilot-001", "sha256": "sha256:7a6663e46b711b6e6de3aede661884a7cbbb5694b9907c5c6f4d01910ca1b99c"},
+    {"path": "stories/experiments/isolation-suite/units/fixture/outline/chapter-cards/001.md", "revision": "content-pinned-live-pilot-001", "sha256": "sha256:c447562ffd21aafacf88acb3b954d5a3f8d939ddaea3baab28f43724a1ee6341"},
+    {"path": "stories/experiments/isolation-suite/units/fixture/manuscript/chapters/001-flawed.md", "revision": "content-pinned-live-pilot-001", "sha256": "sha256:35e3ad52805f34b4ab68059e800c2432c2fa6f3d04e8cff41b0d513046af053e"},
+    {"path": "stories/experiments/isolation-suite/editorial/findings.md", "revision": "content-pinned-live-pilot-001", "sha256": "sha256:5296adf77df4b8a1b2ca50c78321245315e95cfc5319e0ba7c85320757691d06"},
+    {"path": "governance/templates/review-finding.md", "revision": "content-pinned-live-pilot-001", "sha256": "sha256:3cccf794355ccf79006746204b0270b6afdb173f18ec62fd6088b31a40e46969"}
+  ],
+  "target_artifacts": [],
+  "findings": ["WLD-F001", "POV-F001", "POV-F002", "PROSE-F001"],
+  "validations": [
+    "Three fresh reviewer-role outputs were checked against evals/specs/agent-evals.md; all three expected-invariant verdicts and prohibited-output checks passed.",
+    "The pilot was read-only and produced no promoted or authoritative target artifact."
+  ],
+  "retained_files": [
+    "governance/evidence/live-pilot-001/raw-output.md"
+  ],
+  "approval": null,
+  "evaluated_targets": ["world-canon-auditor", "character-pov-auditor", "prose-editor"],
+  "raw_output": {
+    "path": "governance/evidence/live-pilot-001/raw-output.md",
+    "revision": "content-pinned-live-pilot-001",
+    "sha256": "sha256:639b0ff8ff706f8db350e0671d4dcdbdab32f23be74a5bf763799639c17be137"
+  },
+  "invariant_verdicts": [
+    {"target": "world-canon-auditor", "verdict": "PASS", "evidence": ["raw-output.md: world-canon-auditor expected-invariant verdict"]},
+    {"target": "character-pov-auditor", "verdict": "PASS", "evidence": ["raw-output.md: character-pov-auditor expected-invariant verdict"]},
+    {"target": "prose-editor", "verdict": "PASS", "evidence": ["raw-output.md: prose-editor expected-invariant verdict"]}
+  ],
+  "prohibited_output_checks": [
+    {"target": "world-canon-auditor", "verdict": "PASS", "evidence": ["raw-output.md: world-canon-auditor prohibited-output check"]},
+    {"target": "character-pov-auditor", "verdict": "PASS", "evidence": ["raw-output.md: character-pov-auditor prohibited-output check"]},
+    {"target": "prose-editor", "verdict": "PASS", "evidence": ["raw-output.md: prose-editor prohibited-output check"]}
+  ],
+  "evaluator_conclusion": "These three reviewer roles met their declared invariants on this synthetic fixture. No other role, skill, full chapter loop, real content, canon promotion, publication readiness, or overall evaluation completion is established.",
+  "live_eval_status": "PASSED"
+}

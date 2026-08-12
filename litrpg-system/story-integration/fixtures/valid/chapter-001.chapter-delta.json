@@ -1,26 +1,28 @@
 {
   "schema_version": "1.0.0",
-  "delta_id": "delta://first-awakening/book-01/001",
-  "chapter_id": "chapter://first-awakening/book-01/001",
+  "work_id": "work://series/first-awakening",
+  "delta_id": "delta://series/first-awakening/book-01/001",
+  "chapter_id": "chapter://series/first-awakening/book-01/001",
   "base_snapshot_ids": [
-    "snapshot://first-awakening/protagonist/pre-chapter-001"
+    "snapshot://series/first-awakening/protagonist/pre-chapter-001"
   ],
   "status": "ACCEPTED",
   "manuscript": {
-    "path": "litrpg-system/story-integration/examples/accepted-chapter-001.md",
+    "path": "litrpg-system/story-integration/fixtures/valid/manuscript/accepted-chapter-001.md",
     "revision": "fixture-r1",
     "sha256": "sha256:77614dc5288334ba2c6ca9b7ee359afc1337178135c5b0fd6193c478a4f36cec"
   },
   "events": [
     {
       "schema_version": "1.0.0",
-      "event_id": "event://first-awakening/book-01/001/0001",
-      "chapter_id": "chapter://first-awakening/book-01/001",
+      "work_id": "work://series/first-awakening",
+      "event_id": "event://series/first-awakening/book-01/001/0001",
+      "chapter_id": "chapter://series/first-awakening/book-01/001",
       "sequence": 1,
       "event_type": "ACTION",
       "summary": "The protagonist deliberately sustains attention through a brief sensory disturbance.",
       "participants": [
-        "character://first-awakening/protagonist"
+        "character://series/first-awakening/protagonist"
       ],
       "witnesses": [],
       "time": {
@@ -29,7 +31,7 @@
       },
       "viewpoint_access": [
         {
-          "character_id": "character://first-awakening/protagonist",
+          "character_id": "character://series/first-awakening/protagonist",
           "access": "DIRECT",
           "basis": "Retained awareness and direct internal experience."
         }
@@ -42,25 +44,26 @@
   ],
   "character_changes": [
     {
-      "change_id": "change://first-awakening/book-01/001/attention-evidence",
-      "character_id": "character://first-awakening/protagonist",
-      "path": "developmental_evidence.attention",
+      "change_id": "change://series/first-awakening/book-01/001/attention-evidence",
+      "character_id": "character://series/first-awakening/protagonist",
+      "path": "/resources/attention/current",
       "operation": "ADD",
       "value_type": "EXACT_DECIMAL",
       "before": "0",
       "after": "0.02",
       "source_event_ids": [
-        "event://first-awakening/book-01/001/0001"
+        "event://series/first-awakening/book-01/001/0001"
       ]
     }
   ],
   "progression_events": [
     {
       "schema_version": "1.0.0",
-      "progression_event_id": "progression://first-awakening/book-01/001/0001",
-      "chapter_id": "chapter://first-awakening/book-01/001",
-      "actor_id": "character://first-awakening/protagonist",
-      "source_event_id": "event://first-awakening/book-01/001/0001",
+      "work_id": "work://series/first-awakening",
+      "progression_event_id": "progression://series/first-awakening/book-01/001/0001",
+      "chapter_id": "chapter://series/first-awakening/book-01/001",
+      "actor_id": "character://series/first-awakening/protagonist",
+      "source_event_id": "event://series/first-awakening/book-01/001/0001",
       "operation": "XP_GAIN",
       "track": {
         "kind": "SKILL",
@@ -71,19 +74,19 @@
       "before_value": "0",
       "after_value": "0.02",
       "provenance": {
-        "provenance_id": "provenance://first-awakening/book-01/001/0001",
+        "provenance_id": "provenance://series/first-awakening/book-01/001/0001",
         "source_event_ids": [
-          "event://first-awakening/book-01/001/0001"
+          "event://series/first-awakening/book-01/001/0001"
         ],
         "mechanism_decision_refs": [
           "ATR3.4.2.0D",
           "PRO1.1D"
         ],
-        "reward_claim_id": "claim://first-awakening/book-01/001/intentional-control-0001",
+        "reward_claim_id": "claim://series/first-awakening/book-01/001/intentional-control-0001",
         "attribution_share": "1"
       },
       "eligibility": {
-        "prior_state_ref": "snapshot://first-awakening/protagonist/pre-chapter-001",
+        "prior_state_ref": "snapshot://series/first-awakening/protagonist/pre-chapter-001",
         "accepted_lineage_id": "lineage:developmental-intentional-control",
         "evidence_refs": [
           "decision://first-awakening/protagonist/developmental-lineage"
@@ -104,24 +107,25 @@
   ],
   "thread_changes": [
     {
-      "thread_id": "thread:prenatal-self-training",
+      "thread_id": "thread://series/first-awakening/prenatal-self-training",
       "operation": "OPEN",
       "summary": "Intentional development becomes a repeatable but biologically constrained practice.",
       "source_event_ids": [
-        "event://first-awakening/book-01/001/0001"
+        "event://series/first-awakening/book-01/001/0001"
       ]
     }
   ],
   "canon_proposals": [
     {
       "schema_version": "1.0.0",
-      "proposal_id": "canon-proposal://first-awakening/book-01/001/01",
-      "chapter_id": "chapter://first-awakening/book-01/001",
+      "work_id": "work://series/first-awakening",
+      "proposal_id": "canon-proposal://series/first-awakening/book-01/001/01",
+      "chapter_id": "chapter://series/first-awakening/book-01/001",
       "classification": "CHARACTER_STATE_CHANGE",
       "scope": "protagonist developmental history",
       "statement": "The protagonist first sustains deliberate attention during this chapter.",
       "source_event_ids": [
-        "event://first-awakening/book-01/001/0001"
+        "event://series/first-awakening/book-01/001/0001"
       ],
       "affected_canon_refs": [],
       "status": "PROPOSED",
@@ -140,8 +144,8 @@
     "decision": "ACCEPT",
     "decided_at": "2026-08-12T18:00:00Z",
     "evidence": [
-      "litrpg-system/story-integration/examples/accepted-chapter-001.md",
-      "delta://first-awakening/book-01/001"
+      "litrpg-system/story-integration/fixtures/valid/manuscript/accepted-chapter-001.md",
+      "delta://series/first-awakening/book-01/001"
     ]
   }
 }

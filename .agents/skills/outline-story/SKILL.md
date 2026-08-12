@@ -7,6 +7,10 @@ description: "Create or revise a series, book, arc, scene, or chapter outline th
 
 Build causal scaffolding, not a rigid synopsis. Preserve room for discovery while making promises and dependencies visible.
 
+## Run boundary
+
+Resolve exactly one machine `work-manifest.json` or `*.work-manifest.json` and its paired `work-manifest.md`. Treat JSON as authority; require matching identity, type, mode, canonicality, promotion, root, and setting boundary, or stop. Record `work_id`, `work_root`, and `mode`. Read and write only that work's contracts, outline, characters, overlays, and run artifacts. Shared governance, CAL0, research, and accepted global world canon remain read-only. Reject another work's plans, characters, state, or overlay even when names resemble the target. In `EVALUATION`, keep all output beneath a fresh `runs_root/<run-id>/outputs/`, never overwrite hash-bound fixtures, and never accept or update authoritative story, character, or world records.
+
 ## Workflow
 
 1. Determine the outline level: series, book, arc, chapter sequence, or scene.
@@ -17,7 +21,7 @@ Build causal scaffolding, not a rigid synopsis. Preserve room for discovery whil
 6. Check timing, travel, resources, injuries, knowledge, relationships, and permitted LitRPG progression.
 7. Mark uncertain world or system facts as proposals rather than embedding them as canon.
 8. Stress-test the structure for dead chapters, repeated functions, premature payoffs, missing recovery, false choices, and future chapters that require earlier characters to behave irrationally.
-9. Present material alternatives through `$author-decision`; then update the outline and affected chapter cards only within the Author-approved scope. Preserve the source manifest, structural analysis, decision, and changed contract revisions under `workbench/runs/<run-id>/`.
+9. In `AUTHORING`, present material alternatives through `$author-decision`; then update the outline and affected chapter cards only within the Author-approved scope. In `EVALUATION`, record expected choices/findings without invoking a binding decision. Preserve run evidence in the work's declared run directory.
 
 ## Chapter cards
 

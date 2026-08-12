@@ -1,0 +1,25 @@
+{
+  "schema_version": "1.0.0",
+  "id": "WLD-FIX-BAD-001",
+  "record_uri": "canon://world/fixture/invalid",
+  "display_code": "WLD-FIX-BAD-001",
+  "setting_id": "setting://fixture",
+  "title": "Invalid fixture world record",
+  "workflow_status": "ACCEPTED",
+  "canon_status": "ACCEPTED",
+  "scope": "validator fixture only",
+  "claims": ["This synthetic claim cites a missing decision."],
+  "boundaries": ["Synthetic fixture only."],
+  "dependencies": [],
+  "story_implications": [],
+  "system_implications": [],
+  "research_questions": [],
+  "sources": ["fixture://governance/invalid"],
+  "supersedes": [],
+  "author_approval": {
+    "decision_uri": "author-decision://fixture/DOES-NOT-EXIST",
+    "accepted_on": "2026-08-12",
+    "accepted_by": "Author",
+    "evidence": "Synthetic invalid evidence."
+  }
+}

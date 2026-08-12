@@ -1,10 +1,14 @@
 ---
-delta_id: "delta://[series-slug]/book-01/001"
-display_code: "SER-001-B01-C001-D01"
-chapter_id: "chapter://[series-slug]/book-01/001"
+delta_id: "delta://[work-type]/[work-slug]/[unit-slug]/001"
+work_id: "work://[work-type]/[work-slug]"
+work_manifest_json: "stories/[work-type-directory]/[work-slug]/[work-slug].work-manifest.json"
+work_manifest_review: "stories/[work-type-directory]/[work-slug]/work-manifest.md"
+display_code: "[WORK-C001-D01]"
+chapter_id: "chapter://[work-type]/[work-slug]/[unit-slug]/001"
 workflow_status: DRAFT
+run_mode: AUTHORING
 canon_status: PROPOSED
-manuscript_path: "stories/series/[series-slug]/books/book-01/manuscript/chapters/001-[slug].md"
+manuscript_path: "stories/[work-type-directory]/[work-slug]/[unit-path]/manuscript/chapters/001-[slug].md"
 manuscript_revision: "[Git commit or immutable revision ID]"
 manuscript_sha256: "sha256:[64 lowercase hexadecimal characters]"
 previous_accepted_delta: null
@@ -32,7 +36,7 @@ This Markdown record is the Author-facing review of chapter consequences. The pa
 
 | Event ID | Time | Location | Actors | Action/change | Cause and inputs | Immediate result | Source scene |
 |---|---|---|---|---|---|---|---|
-| `event://[series-slug]/book-01/001/0001` | [time] | [location URI] | [character URIs] | [change] | [provenance] | [result] | [scene/paragraph anchor] |
+| `event://[work-type]/[work-slug]/[unit-slug]/001/0001` | [time] | [location URI] | [character URIs] | [change] | [provenance] | [result] | [scene/paragraph anchor] |
 
 ## Timeline and location
 
@@ -46,7 +50,7 @@ This Markdown record is the Author-facing review of chapter consequences. The pa
 
 | Character ID | Before | Change | Cause/event ID | After | Persistent? |
 |---|---|---|---|---|---|
-| `character://[series-slug]/[character-slug]` | [state] | [change] | [event URI] | [state] | [yes/no/conditional] |
+| `character://[work-type]/[work-slug]/[character-slug]` | [state] | [change] | [event URI] | [state] | [yes/no/conditional] |
 
 Include injuries, conditions, fatigue, recovery, emotional commitments, identity/body changes, responsibilities, and access.
 
@@ -54,7 +58,7 @@ Include injuries, conditions, fatigue, recovery, emotional commitments, identity
 
 | Character ID | Fact/source | Access event | Interpretation/confidence | New belief or knowledge | Reader disclosure |
 |---|---|---|---|---|---|
-| `character://[series-slug]/[character-slug]` | [truth/source] | [event URI] | [view] | [state] | [shown/withheld/partial] |
+| `character://[work-type]/[work-slug]/[character-slug]` | [truth/source] | [event URI] | [view] | [state] | [shown/withheld/partial] |
 
 ## Relationship changes
 
@@ -87,7 +91,7 @@ Checks:
 
 | Proposal ID | Classification | New claim | Scope | Existing source checked | Required review | Canon status |
 |---|---|---|---|---|---|---|
-| `canon-proposal://[series-slug]/book-01/001/01` | [`LOCAL_COLOUR`/`SETTING_EXTENSION`/`CHARACTER_STATE_CHANGE`/`SYSTEM_APPLICATION`/`SYSTEM_CHANGE`/`CONTRADICTION_OR_RETCON`] | [claim] | [scope] | [path/ID] | [`CHAPTER_ACCEPTANCE`/`WORLDBUILDING_REVIEW`/`CONTINUITY_REVIEW`/`CAL0_MECHANICS_REVIEW`/`AUTHOR_DECISION_REQUIRED`] | [`PROPOSED`/`ACCEPTED`/`REJECTED`/`SUPERSEDED`] |
+| `canon-proposal://[work-type]/[work-slug]/[unit-slug]/001/01` | [`LOCAL_COLOUR`/`SETTING_EXTENSION`/`CHARACTER_STATE_CHANGE`/`SYSTEM_APPLICATION`/`SYSTEM_CHANGE`/`CONTRADICTION_OR_RETCON`] | [claim] | [scope] | [path/ID] | [`CHAPTER_ACCEPTANCE`/`WORLDBUILDING_REVIEW`/`CONTINUITY_REVIEW`/`CAL0_MECHANICS_REVIEW`/`AUTHOR_DECISION_REQUIRED`] | [`PROPOSED`/`ACCEPTED`/`REJECTED`/`SUPERSEDED`] |
 
 Use the exact uppercase schema enumeration. No row is accepted merely because
 the prose contains it. `SYSTEM_CHANGE` and `CONTRADICTION_OR_RETCON` require a
@@ -107,7 +111,7 @@ while unresolved. A `SETTING_EXTENSION` requires `WORLDBUILDING_REVIEW`, a
 - Chapter-card beats omitted or changed:
 - Unplanned developments:
 - Future chapter cards affected:
-- Book/series contract impact:
+- Work/unit contract impact:
 - Required replanning decision:
 
 ## Contradictions and unresolved questions

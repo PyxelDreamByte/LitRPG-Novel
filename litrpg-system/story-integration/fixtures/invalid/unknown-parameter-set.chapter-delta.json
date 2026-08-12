@@ -1,11 +1,13 @@
 {
   "schema_version": "1.0.0",
+  "work_id": "work://experiment/fixture",
   "delta_id": "delta://fixture/unknown-parameter-set/001",
   "chapter_id": "chapter://fixture/unknown-parameter-set/001",
   "base_snapshot_ids": [],
   "status": "DRAFT",
   "events": [{
     "schema_version": "1.0.0",
+    "work_id": "work://experiment/fixture",
     "event_id": "event://fixture/unknown-parameter-set/001/0001",
     "chapter_id": "chapter://fixture/unknown-parameter-set/001",
     "sequence": 1,
@@ -17,6 +19,7 @@
   "character_changes": [],
   "progression_events": [{
     "schema_version": "1.0.0",
+    "work_id": "work://experiment/fixture",
     "progression_event_id": "progression://fixture/unknown-parameter-set/001/0001",
     "chapter_id": "chapter://fixture/unknown-parameter-set/001",
     "actor_id": "character://fixture/protagonist",
@@ -49,4 +52,3 @@
     "optional_findings": []
   }
 }
-

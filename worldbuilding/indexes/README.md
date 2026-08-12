@@ -1,6 +1,7 @@
-# Worldbuilding Indexes
+# Legacy/Reserved Worldbuilding Index Root
 
-Indexes are derived navigation aids for topics, places, chronology, cultures, institutions, species, magic, and dependencies. Every entry must resolve to an accepted source record.
+Future setting-specific indexes belong under
+`worldbuilding/settings/<setting-slug>/indexes/`. Every entry must resolve to an
+accepted record within that setting or an explicitly adopted shared source.
 
 Do not hand-edit an automatically generated index. Rebuild it after accepted canon changes. If an index conflicts with a canon record, the canon record wins.
-

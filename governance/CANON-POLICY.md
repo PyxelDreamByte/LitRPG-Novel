@@ -13,6 +13,11 @@ Every substantive creative or mechanical record uses one of these states:
 | `REJECTED` | Considered and declined | No |
 | `SUPERSEDED` | Replaced by a later accepted record and retained for provenance | No, except for historical reconstruction |
 
+`PROVISIONAL`, `DEFERRED`, and `REJECTED` may record completed Author
+dispositions. They require the same identifiable Author, date, decision URI,
+and approval evidence as `ACCEPTED`. `DEFERRED` means the Author decided not to
+set the value yet; it is not an agent's unresolved draft.
+
 `DECIDED` may appear inside the locked CAL0 specification and legacy records. Within repository governance it corresponds to accepted authority at that source's declared scope; it does not make fixtures or examples story canon.
 
 Use the field name `canon_status` in new human-authored frontmatter. Older
@@ -40,6 +45,16 @@ The story-integration v1 JSON schemas currently call their workflow field
 must also declare `canon_status`. `DEFERRED` and `PROVISIONAL` are canon
 decisions, not implicit machine-workflow states. No workflow status alone can
 promote canon.
+
+Valid pairings are:
+
+- `DRAFT`, `IN_REVIEW`, or `AWAITING_AUTHOR` with `PROPOSED`;
+- workflow `ACCEPTED` with canon `ACCEPTED`, `PROVISIONAL`, or `DEFERRED`;
+- workflow `REJECTED` with canon `REJECTED`;
+- workflow `SUPERSEDED` with canon `SUPERSEDED`.
+
+Any other pairing is invalid unless this policy is first changed by an Author
+decision.
 
 ## Identifier contract
 
@@ -70,6 +85,17 @@ Acceptance is scoped. A fact may be authoritative in one domain without crossing
 - **Story state:** events and consequences accepted as having occurred.
 - **Character truth:** identity, history, internal state, and actual knowledge.
 - **Presentation:** interface wording or prose disclosed to a character or reader.
+
+## Reusable project defaults
+
+A project-level default or guardrail is not automatically canon for every work
+in this multi-work repository. A future work manifest must explicitly cite the
+decision URI, adopted scope, and effective revision before using it. Silence is
+non-adoption.
+
+A work may override an adopted default only through its own scoped Author
+decision. That override governs the named work and does not rewrite the
+project-level default or bind independent works.
 
 ## Promotion rules
 

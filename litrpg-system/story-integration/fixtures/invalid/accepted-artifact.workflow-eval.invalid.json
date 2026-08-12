@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.0.0",
+  "evaluation_id": "eval://experiment/fixture/accepted-artifact-invalid",
+  "mode": "EVALUATION",
+  "promotion": "FORBIDDEN",
+  "canonicality": "NONCANONICAL_EVALUATION_ONLY",
+  "work_id": "work://experiment/fixture",
+  "work_root": "litrpg-system/story-integration/fixtures",
+  "fixture_root": "litrpg-system/story-integration/fixtures/valid",
+  "included_artifacts": [{
+    "path": "litrpg-system/story-integration/fixtures/valid/chapter-001.chapter-delta.json",
+    "sha256": "sha256:5b70b629df6d9da84249298f7164ec2a72ffeae2f95a261bbeb711c0970a4615"
+  }],
+  "expected_static_invariants": [
+    "Evaluation deltas cannot be accepted."
+  ],
+  "deliberate_flaws": [
+    "The included chapter delta is accepted and belongs to an authoring work."
+  ],
+  "live_eval_status": "PENDING"
+}

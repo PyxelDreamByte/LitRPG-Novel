@@ -1,0 +1,35 @@
+{
+  "$schema": "../schemas/decision-record.schema.json",
+  "schema_version": "1.0.0",
+  "id": "WLD-TEMPLATE-001A",
+  "decision_uri": "author-decision://world/WLD-TEMPLATE-001A",
+  "display_code": "WLD-TEMPLATE-001A",
+  "title": "Replace with decision title",
+  "domain": "replace-with-domain",
+  "workflow_status": "DRAFT",
+  "canon_status": "PROPOSED",
+  "scope": "Replace with exact decision scope.",
+  "question": "Replace with the material question.",
+  "selection": "Pending Author disposition.",
+  "alternatives": [
+    "Replace with at least one genuine alternative."
+  ],
+  "rationale": "Replace with evidence-based rationale.",
+  "evidence": [
+    "Replace with a source path, record ID, or Author instruction."
+  ],
+  "consequences": [
+    "Replace with an operational consequence."
+  ],
+  "affected_sources": [
+    "replace/with/path"
+  ],
+  "dependencies": [],
+  "conflicts": [],
+  "residual_unknowns": [],
+  "supersedes": [],
+  "superseded_by": null,
+  "reopening_conditions": [
+    "Replace with a concrete condition."
+  ]
+}

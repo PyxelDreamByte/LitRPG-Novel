@@ -7,6 +7,10 @@ description: "Assess a proposed retroactive story, character, worldbuilding, or 
 
 Treat retcons as dependency migrations, not local text edits.
 
+## Run boundary
+
+Resolve exactly one machine `work-manifest.json` or `*.work-manifest.json` and its paired `work-manifest.md`. Treat JSON as authority; require matching identity, type, mode, canonicality, promotion, root, and setting boundary, or stop. Record `work_id`, `work_root`, and `mode`. Map dependencies only within that work plus explicitly declared shared canon. Do not treat another work's events, characters, overlays, or plans as affected canon. In `EVALUATION`, produce only a simulated impact map beneath a fresh `runs_root/<run-id>/outputs/`; never overwrite fixture sources, approve or implement a retcon, or update authoritative state.
+
 ## Workflow
 
 1. State the proposed old truth, new truth, scope, motivation, and desired reader experience.
@@ -16,7 +20,7 @@ Treat retcons as dependency migrations, not local text edits.
 5. Compare viable strategies: explicit in-world revelation, reinterpretation, bounded rewrite, or full replacement. Preserve earned consequences wherever possible.
 6. Estimate narrative benefit, continuity cost, reader-confusion risk, and implementation surface for each strategy.
 7. Present the consequential choice through `$author-decision`. Do not implement until the Author approves the retcon and migration scope.
-8. Preserve the source manifest, impact map, alternatives, decision, and migration plan under `workbench/runs/<run-id>/`. After approval, create a dependency-ordered migration plan with validation and rollback points. Do not implement it unless the Author separately requests implementation; when authorized, update authoritative sources before derived artifacts.
+8. Preserve the work/source manifests, impact map, alternatives, decision, and migration plan under the work's declared `runs_root/<run-id>/`. In `AUTHORING`, after approval, create a dependency-ordered migration plan with validation and rollback points. Do not implement it unless the Author separately requests implementation; when authorized, update authoritative sources before derived artifacts.
 
 ## Output
 

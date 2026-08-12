@@ -5,6 +5,7 @@
   "type": "object",
   "required": [
     "schema_version",
+    "work_id",
     "progression_event_id",
     "chapter_id",
     "actor_id",
@@ -21,6 +22,7 @@
   ],
   "properties": {
     "schema_version": {"const": "1.0.0"},
+    "work_id": {"$ref": "story-common.schema.json#/$defs/workIdentifier"},
     "progression_event_id": {"$ref": "story-common.schema.json#/$defs/identifier"},
     "chapter_id": {"$ref": "story-common.schema.json#/$defs/identifier"},
     "actor_id": {"$ref": "story-common.schema.json#/$defs/identifier"},

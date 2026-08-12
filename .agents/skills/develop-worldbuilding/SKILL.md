@@ -7,6 +7,10 @@ description: "Develop, challenge, or revise worldbuilding while preserving inter
 
 Treat research as evidence, `PROPOSED` material as non-canon, `PROVISIONAL` material as usable only within its declared boundary, and `ACCEPTED` worldbuilding as canon.
 
+## Run boundary
+
+Resolve exactly one machine `work-manifest.json` or `*.work-manifest.json` and its paired `work-manifest.md`. Treat JSON as authority; require matching identity, type, mode, canonicality, promotion, root, and setting boundary, or stop. Record `work_id`, `work_root`, and `mode`. Write work-specific proposals or overlays only inside `work_root`; read shared world canon without copying or modifying it. Reject undeclared cross-work sources and never import another work's overlay. In `EVALUATION`, write only beneath the fixture/evaluation root and never promote proposals, update `worldbuilding/`, or change authoritative character/story state.
+
 ## Workflow
 
 1. Identify the requested scope and read its index, governing decisions, related canon, and story dependencies. Start from `worldbuilding/templates/worldbuilding-proposal.md`; search before inventing.
@@ -16,7 +20,10 @@ Treat research as evidence, `PROPOSED` material as non-canon, `PROVISIONAL` mate
 5. Test the proposal for contradictions, monocausal history, implausible logistics, cultural flattening, accidental omniscience, and exceptions created only to rescue a scene.
 6. Distinguish direct canon, reasonable inference, open question, and invention. Cite sources for research-dependent factual claims.
 7. Present material choices through `$author-decision`. Do not promote a proposal to canon without Author approval.
-8. Preserve the proposal, source manifest, consistency review, and approval evidence under `workbench/runs/<run-id>/`. Once approved, use `worldbuilding/templates/worldbuilding-decision.md`, update the authoritative worldbuilding entry and index together, and validate a structured record against `governance/schemas/worldbuilding-record.schema.json` when one is created. Do not rewrite prose unless requested.
+8. Preserve the proposal, source manifest, consistency review, and approval evidence under the work's declared run directory. In `AUTHORING`, apply the approved scope:
+   - For `SHARED_WORLD`, update a global worldbuilding entry and index only when the manifest explicitly adopts that shared setting and the Author decision grants shared-setting authority; use `worldbuilding/templates/worldbuilding-decision.md` and validate any structured record against `governance/schemas/worldbuilding-record.schema.json`.
+   - For `WORK_LOCAL` or `INDEPENDENT_SETTING`, record the accepted decision and update only the work-local overlay/index beneath `work_root`; never update global `worldbuilding/`.
+   In `EVALUATION`, stop at findings and write evidence only beneath `runs_root/<run-id>/`; never overwrite hash-bound fixture inputs. Do not rewrite prose unless requested.
 
 ## Story-originated facts
 

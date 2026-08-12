@@ -190,6 +190,8 @@ def main() -> int:
         flush=True,
     )
     try:
+        subprocess.run([sys.executable, "tools/validate_governance.py"], cwd=ROOT, check=True)
+        subprocess.run([sys.executable, "tools/validate_workspaces.py"], cwd=ROOT, check=True)
         subprocess.run([sys.executable, "tools/validate_system.py"], cwd=ROOT, check=True)
     except subprocess.CalledProcessError as exc:
         return exc.returncode or 1

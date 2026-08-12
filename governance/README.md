@@ -16,3 +16,7 @@ This directory defines how creative and mechanical material becomes authoritativ
 - [`evals/`](evals/) — fixtures for testing workflows and agents.
 
 These files govern repository process. They do not themselves establish fictional facts unless an accepted decision explicitly does so.
+
+Project-level future-setting defaults are indexed in
+[`worldbuilding/INDEX.md`](../worldbuilding/INDEX.md). They are reusable
+guardrails requiring explicit work-manifest adoption, not detailed global canon.

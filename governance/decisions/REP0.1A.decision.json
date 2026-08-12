@@ -1,0 +1,52 @@
+{
+  "$schema": "../schemas/decision-record.schema.json",
+  "schema_version": "1.0.0",
+  "id": "REP0.1A",
+  "decision_uri": "author-decision://repository/REP0.1A",
+  "display_code": "REP0.1A",
+  "title": "Locked CAL0 baseline with generated integration layers",
+  "domain": "repository",
+  "workflow_status": "ACCEPTED",
+  "canon_status": "ACCEPTED",
+  "scope": "LitRPG-Novel repository",
+  "accepted_on": "2026-08-12",
+  "accepted_by": "Author",
+  "approval_evidence": "After receiving the revised plan centred on REP0.1A, the Author instructed 'please proceed with this' on 2026-08-12.",
+  "question": "How should the completed CAL0 System be represented and evolved inside the authoring repository?",
+  "selection": "Import CAL0 v0.7.0 intact as a locked executable subsystem; build generated routing and governed story integration around it; release mechanics changes only through governed successor versions.",
+  "alternatives": [
+    "Split the canonical specification into independently edited topic modules.",
+    "Treat CAL0 as reference material and recreate story mechanics separately.",
+    "Import CAL0 intact with generated routing and governed story integration; selected."
+  ],
+  "rationale": "CAL0 v0.7.0 is a validated content-pinned baseline. Splitting or recreating it would weaken its evidence chain and create competing authorities.",
+  "evidence": [
+    "litrpg-system/cal0/README.md",
+    "litrpg-system/cal0/manifests/cal0-i7.bundle.json",
+    "litrpg-system/cal0/reports/cal0-i7-closure-report.json",
+    "litrpg-system/cal0/canonical/litrpg-system-specification.md",
+    "litrpg-system/cal0/canonical/litrpg-system-calibration-annex.md"
+  ],
+  "consequences": [
+    "The canonical specification remains whole.",
+    "CAL0 v0.7.0 remains immutable and story-specific state lives outside it.",
+    "A mechanics change requires evidence, regression coverage, Author approval, and a successor version."
+  ],
+  "affected_sources": [
+    "litrpg-system/cal0/",
+    "litrpg-system/indices/",
+    "litrpg-system/story-integration/",
+    "governance/SOURCE-AUTHORITY.md",
+    "archive/handoffs/"
+  ],
+  "dependencies": [],
+  "conflicts": [],
+  "residual_unknowns": [
+    "World-level inputs remain outside CAL0 until separately decided."
+  ],
+  "supersedes": [],
+  "superseded_by": null,
+  "reopening_conditions": [
+    "A concrete contradiction, failed validation, authoring infeasibility, material new evidence, required unsupported story outcome, or explicit Author instruction."
+  ]
+}

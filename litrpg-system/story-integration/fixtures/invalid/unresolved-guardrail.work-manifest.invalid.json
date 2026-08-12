@@ -1,0 +1,30 @@
+{
+  "schema_version": "1.0.0",
+  "work_id": "work://short-story/unresolved-guardrail",
+  "display_code": "FIX-WORK-BAD-001",
+  "title": "Unresolved guardrail fixture",
+  "work_type": "SHORT_STORY",
+  "mode": "AUTHORING",
+  "canonicality": "PROPOSED",
+  "promotion": "ALLOWED_WITH_AUTHOR_GATE",
+  "work_root": "litrpg-system/story-integration/fixtures/invalid",
+  "contract_path": "litrpg-system/story-integration/fixtures/invalid/work-contract.md",
+  "characters_root": "litrpg-system/story-integration/fixtures/invalid/characters",
+  "world_overlay_root": "litrpg-system/story-integration/fixtures/invalid/world-overlay",
+  "context_packs_root": "litrpg-system/story-integration/fixtures/invalid/context-packs",
+  "runs_root": "litrpg-system/story-integration/fixtures/invalid/runs",
+  "setting_scope": "WORK_LOCAL",
+  "shared_setting_id": null,
+  "adopted_shared_world_refs": [],
+  "adopted_default_guardrails": [
+    {
+      "decision_uri": "author-decision://world/WLD-NOT-REAL-001A",
+      "adopted_scope": "Synthetic unresolved default",
+      "effective_revision": "WLD-NOT-REAL-001A"
+    }
+  ],
+  "shared_read_only_authorities": ["governance/", "litrpg-system/cal0/"],
+  "created_on": "2026-08-12",
+  "accepted_on": null,
+  "approval_decision_uri": null
+}

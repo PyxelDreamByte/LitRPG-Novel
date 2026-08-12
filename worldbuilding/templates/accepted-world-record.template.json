@@ -1,0 +1,34 @@
+{
+  "$schema": "../../governance/schemas/worldbuilding-record.schema.json",
+  "schema_version": "1.0.0",
+  "id": "WLD-TEMPLATE-001",
+  "record_uri": "canon://world/replace-setting/replace-record",
+  "display_code": "WLD-TEMPLATE-001",
+  "setting_id": "setting://replace-setting",
+  "title": "Replace with accepted world-record title",
+  "workflow_status": "ACCEPTED",
+  "canon_status": "ACCEPTED",
+  "scope": "Replace with an exact setting-local scope.",
+  "claims": [
+    "Replace with one atomic Author-approved setting claim."
+  ],
+  "boundaries": [
+    "Replace with what this record does not establish."
+  ],
+  "dependencies": [],
+  "contradictions": [],
+  "story_implications": [],
+  "system_implications": [],
+  "research_questions": [],
+  "sources": [
+    "Replace with an Author decision URI or accepted source path."
+  ],
+  "supersedes": [],
+  "superseded_by": null,
+  "author_approval": {
+    "decision_uri": "author-decision://world/WLD-TEMPLATE-001A",
+    "accepted_on": "2026-08-12",
+    "accepted_by": "Author",
+    "evidence": "Replace with exact Author approval evidence."
+  }
+}

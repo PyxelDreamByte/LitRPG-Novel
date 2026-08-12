@@ -1,10 +1,13 @@
 ---
-character_id: "character://[series-slug]/[character-slug]"
+character_id: "character://[work-type]/[work-slug]/[character-slug]"
+work_id: "work://[work-type]/[work-slug]"
+work_manifest_json: "stories/[work-type-directory]/[work-slug]/[work-slug].work-manifest.json"
+work_manifest_review: "stories/[work-type-directory]/[work-slug]/work-manifest.md"
 display_code: "CHR-001-B01-C001-END"
-snapshot_id: "snapshot://[series-slug]/[character-slug]/book-01/001"
+snapshot_id: "snapshot://[work-type]/[work-slug]/[character-slug]/[unit-slug]/001"
 workflow_status: DERIVED
 canon_status: PROPOSED
-through_event: "event://[series-slug]/book-01/001/0001"
+through_event: "event://[work-type]/[work-slug]/[unit-slug]/001/0001"
 built_from: []
 generated_on: "[YYYY-MM-DD]"
 ---
