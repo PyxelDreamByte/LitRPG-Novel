@@ -1,19 +1,21 @@
 {
   "schema_version": "1.0.0",
-  "delta_id": "delta://fixture/deferred-offer/001",
-  "chapter_id": "chapter://fixture/deferred-offer/001",
+  "work_id": "work://experiment/fixture",
+  "delta_id": "delta://experiment/fixture/deferred-offer/001",
+  "chapter_id": "chapter://experiment/fixture/deferred-offer/001",
   "base_snapshot_ids": [],
   "status": "DRAFT",
   "events": [{
     "schema_version": "1.0.0",
-    "event_id": "event://fixture/deferred-offer/001/0001",
-    "chapter_id": "chapter://fixture/deferred-offer/001",
+    "work_id": "work://experiment/fixture",
+    "event_id": "event://experiment/fixture/deferred-offer/001/0001",
+    "chapter_id": "chapter://experiment/fixture/deferred-offer/001",
     "sequence": 1,
     "event_type": "SYSTEM_INTERACTION",
     "summary": "A valid class offer is deferred without an additive state transition.",
-    "participants": ["character://fixture/protagonist"],
+    "participants": ["character://experiment/fixture/protagonist"],
     "viewpoint_access": [{
-      "character_id": "character://fixture/protagonist",
+      "character_id": "character://experiment/fixture/protagonist",
       "access": "DIRECT",
       "basis": "The offer is directly presented to the character."
     }]
@@ -21,10 +23,11 @@
   "character_changes": [],
   "progression_events": [{
     "schema_version": "1.0.0",
-    "progression_event_id": "progression://fixture/deferred-offer/001/0001",
-    "chapter_id": "chapter://fixture/deferred-offer/001",
-    "actor_id": "character://fixture/protagonist",
-    "source_event_id": "event://fixture/deferred-offer/001/0001",
+    "work_id": "work://experiment/fixture",
+    "progression_event_id": "progression://experiment/fixture/deferred-offer/001/0001",
+    "chapter_id": "chapter://experiment/fixture/deferred-offer/001",
+    "actor_id": "character://experiment/fixture/protagonist",
+    "source_event_id": "event://experiment/fixture/deferred-offer/001/0001",
     "operation": "OFFER_DEFERRED",
     "track": {
       "kind": "CLASS",
@@ -35,10 +38,10 @@
     "before_value": "0",
     "after_value": "0",
     "provenance": {
-      "provenance_id": "provenance://fixture/deferred-offer/001/0001",
-      "source_event_ids": ["event://fixture/deferred-offer/001/0001"],
+      "provenance_id": "provenance://experiment/fixture/deferred-offer/001/0001",
+      "source_event_ids": ["event://experiment/fixture/deferred-offer/001/0001"],
       "mechanism_decision_refs": ["CLS2.1D"],
-      "reward_claim_id": "claim://fixture/deferred-offer/001/offer-state"
+      "reward_claim_id": "claim://experiment/fixture/deferred-offer/001/offer-state"
     },
     "cal0_authority": {
       "bundle_id": "bundle://cal0/i7@0.7.0",
@@ -57,4 +60,3 @@
     "optional_findings": []
   }
 }
-

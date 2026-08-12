@@ -8,6 +8,10 @@
       "minLength": 3,
       "pattern": "^[a-z][a-z0-9-]*://[^\\s]+$"
     },
+    "workIdentifier": {
+      "type": "string",
+      "pattern": "^work://(series|standalone-novel|novella|short-story|experiment)/[a-z0-9]+(?:-[a-z0-9]+)*$"
+    },
     "exactDecimal": {
       "type": "string",
       "pattern": "^-?(0|[1-9][0-9]*)(\\.[0-9]+)?$"

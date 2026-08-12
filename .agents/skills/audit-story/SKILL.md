@@ -7,6 +7,10 @@ description: "Audit one or more story artifacts for continuity, causal feasibili
 
 Audit against explicit sources and distinguish defects from taste.
 
+## Run boundary
+
+Resolve exactly one machine `work-manifest.json` or `*.work-manifest.json` and its paired `work-manifest.md`. Treat JSON as authority; require matching identity, type, mode, canonicality, promotion, root, and setting boundary, or stop. Record `work_id`, `work_root`, and `mode`. Audit only artifacts and work-local dependencies inside that root, plus declared shared read-only authorities. Treat references to another work's contracts, characters, overlays, state, or run output as contamination. In `EVALUATION`, read only hash-bound fixture inputs, write evidence only beneath a fresh `runs_root/<run-id>/outputs/`, and never repair, accept, promote, or update authoritative state.
+
 ## Workflow
 
 1. Define the audit scope, authoritative baseline, dimensions, and whether the run is chapter-local or cross-story.
@@ -15,7 +19,7 @@ Audit against explicit sources and distinguish defects from taste.
 4. Record findings with stable IDs, severity, precise location, governing evidence, impact, smallest correction, and verification condition.
 5. Reconcile duplicates and conflicts. Mark uncertainty when the source hierarchy cannot establish an answer.
 6. Identify systemic patterns separately from isolated defects. Do not inflate repeated manifestations into unrelated findings.
-7. Save the audit contract, source manifest, independent findings, reconciliation record, and validation results under `workbench/runs/<run-id>/`.
+7. Save the work/source manifests, audit contract, independent findings, reconciliation record, and validation results under the work's declared `runs_root/<run-id>/`.
 8. Recommend repair order based on dependency: authoritative fact or delta first, derived artifacts second, prose/outline dependants third.
 
 ## Boundaries

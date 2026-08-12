@@ -5,6 +5,7 @@
   "type": "object",
   "required": [
     "schema_version",
+    "work_id",
     "proposal_id",
     "chapter_id",
     "classification",
@@ -16,6 +17,7 @@
   ],
   "properties": {
     "schema_version": {"const": "1.0.0"},
+    "work_id": {"$ref": "story-common.schema.json#/$defs/workIdentifier"},
     "proposal_id": {"$ref": "story-common.schema.json#/$defs/identifier"},
     "chapter_id": {"$ref": "story-common.schema.json#/$defs/identifier"},
     "classification": {
@@ -56,4 +58,3 @@
   },
   "additionalProperties": false
 }
-

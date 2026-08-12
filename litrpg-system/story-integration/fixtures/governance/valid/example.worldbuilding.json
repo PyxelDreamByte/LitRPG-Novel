@@ -1,0 +1,26 @@
+{
+  "schema_version": "1.0.0",
+  "id": "WLD-FIX-001",
+  "record_uri": "canon://world/fixture/example",
+  "display_code": "WLD-FIX-001",
+  "setting_id": "setting://fixture",
+  "title": "Valid fixture world record",
+  "workflow_status": "ACCEPTED",
+  "canon_status": "DEFERRED",
+  "scope": "validator fixture only",
+  "claims": ["This synthetic claim is intentionally deferred."],
+  "boundaries": ["Synthetic fixture only."],
+  "dependencies": ["author-decision://fixture/FIX-GOV-001"],
+  "contradictions": [],
+  "story_implications": [],
+  "system_implications": [],
+  "research_questions": [],
+  "sources": ["fixture://governance/valid"],
+  "supersedes": [],
+  "author_approval": {
+    "decision_uri": "author-decision://fixture/FIX-GOV-001",
+    "accepted_on": "2026-08-12",
+    "accepted_by": "Author",
+    "evidence": "Synthetic validation evidence."
+  }
+}

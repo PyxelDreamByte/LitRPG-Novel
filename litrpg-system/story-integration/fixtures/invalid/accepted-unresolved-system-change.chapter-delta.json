@@ -1,16 +1,18 @@
 {
   "schema_version": "1.0.0",
+  "work_id": "work://experiment/fixture",
   "delta_id": "delta://fixture/unresolved-system-change/001",
   "chapter_id": "chapter://fixture/unresolved-system-change/001",
   "base_snapshot_ids": [],
   "status": "ACCEPTED",
   "manuscript": {
-    "path": "litrpg-system/story-integration/examples/accepted-chapter-001.md",
+    "path": "litrpg-system/story-integration/fixtures/valid/manuscript/accepted-chapter-001.md",
     "revision": "fixture-r1",
     "sha256": "sha256:77614dc5288334ba2c6ca9b7ee359afc1337178135c5b0fd6193c478a4f36cec"
   },
   "events": [{
     "schema_version": "1.0.0",
+    "work_id": "work://experiment/fixture",
     "event_id": "event://fixture/unresolved-system-change/001/0001",
     "chapter_id": "chapter://fixture/unresolved-system-change/001",
     "sequence": 1,
@@ -24,6 +26,7 @@
   "thread_changes": [],
   "canon_proposals": [{
     "schema_version": "1.0.0",
+    "work_id": "work://experiment/fixture",
     "proposal_id": "canon-proposal://fixture/unresolved-system-change/001",
     "chapter_id": "chapter://fixture/unresolved-system-change/001",
     "classification": "SYSTEM_CHANGE",
@@ -47,4 +50,3 @@
     "evidence": ["delta://fixture/unresolved-system-change/001"]
   }
 }
-

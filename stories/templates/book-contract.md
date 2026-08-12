@@ -1,7 +1,10 @@
 ---
-book_id: "book://[series-slug]/book-01"
+book_id: "book://series/[series-slug]/book-01"
+work_id: "work://series/[series-slug]"
+work_manifest_json: "stories/series/[series-slug]/[series-slug].work-manifest.json"
+work_manifest_review: "stories/series/[series-slug]/work-manifest.md"
 display_code: "SER-001-B01"
-series_id: "series://[series-slug]"
+series_id: "series://series/[series-slug]"
 title: "[Working title]"
 sequence: 1
 workflow_status: DRAFT
@@ -17,6 +20,13 @@ approval_decision_uri: null
 ## Book promise
 
 [What complete experience this book gives even when part of a longer series.]
+
+## Work boundary
+
+- Owning work ID/root:
+- Setting scope and explicitly adopted shared-world references:
+- Work-local overlay sources:
+- Cross-work dependencies: [normally none]
 
 ## Entry state
 

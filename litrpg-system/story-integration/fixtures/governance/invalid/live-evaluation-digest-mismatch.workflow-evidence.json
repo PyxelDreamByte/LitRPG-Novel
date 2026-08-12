@@ -1,0 +1,45 @@
+{
+  "schema_version": "1.0.0",
+  "run_id": "run://fixture/live-evaluation-digest-mismatch",
+  "evidence_kind": "LIVE_NONCANONICAL_EVALUATION",
+  "workflow": "synthetic-live-evaluation",
+  "completed_on": "2026-08-12",
+  "canonicality": "NONCANONICAL_EVALUATION_ONLY",
+  "promotion": "FORBIDDEN",
+  "source_manifest": [
+    {
+      "path": "litrpg-system/story-integration/fixtures/governance/valid/example.decision.json",
+      "revision": "fixture-content-pin",
+      "sha256": "sha256:0000000000000000000000000000000000000000000000000000000000000000"
+    }
+  ],
+  "target_artifacts": [],
+  "findings": ["FIX-LIVE-F-DIGEST"],
+  "validations": ["This fixture must be rejected for its false content digest."],
+  "retained_files": [
+    "litrpg-system/story-integration/fixtures/governance/invalid/live-evaluation-digest-mismatch.workflow-evidence.json"
+  ],
+  "approval": null,
+  "evaluated_targets": ["fixture-reviewer"],
+  "raw_output": {
+    "path": "litrpg-system/story-integration/fixtures/governance/invalid/live-evaluation-digest-mismatch.workflow-evidence.json",
+    "revision": "fixture-content-pin",
+    "sha256": "sha256:0000000000000000000000000000000000000000000000000000000000000000"
+  },
+  "invariant_verdicts": [
+    {
+      "target": "fixture-reviewer",
+      "verdict": "PASS",
+      "evidence": ["synthetic mismatch fixture"]
+    }
+  ],
+  "prohibited_output_checks": [
+    {
+      "target": "fixture-reviewer",
+      "verdict": "PASS",
+      "evidence": ["synthetic mismatch fixture"]
+    }
+  ],
+  "evaluator_conclusion": "This record is invalid because its hashes do not match the named files.",
+  "live_eval_status": "PASSED"
+}

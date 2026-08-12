@@ -1,0 +1,156 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://pyxeldreambyte.github.io/LitRPG-Novel/governance/schemas/workflow-evidence-manifest.schema.json",
+  "title": "Retained workflow evidence manifest",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema_version",
+    "run_id",
+    "evidence_kind",
+    "workflow",
+    "completed_on",
+    "source_manifest",
+    "target_artifacts",
+    "findings",
+    "validations",
+    "retained_files",
+    "approval"
+  ],
+  "properties": {
+    "schema_version": {"const": "1.0.0"},
+    "run_id": {"type": "string", "pattern": "^run://[^\\s]+$"},
+    "evidence_kind": {"enum": ["ACCEPTED_OUTCOME", "LIVE_NONCANONICAL_EVALUATION"]},
+    "workflow": {"type": "string", "minLength": 1},
+    "completed_on": {"type": "string", "format": "date"},
+    "canonicality": {"enum": ["ACCEPTED", "NONCANONICAL_EVALUATION_ONLY"]},
+    "promotion": {"enum": ["ALLOWED_WITH_AUTHOR_GATE", "FORBIDDEN"]},
+    "source_manifest": {
+      "type": "array",
+      "minItems": 1,
+      "uniqueItems": true,
+      "items": {"$ref": "#/$defs/artifactReference"}
+    },
+    "target_artifacts": {
+      "type": "array",
+      "uniqueItems": true,
+      "items": {"$ref": "#/$defs/artifactReference"}
+    },
+    "findings": {
+      "type": "array",
+      "items": {"type": "string", "minLength": 1},
+      "uniqueItems": true
+    },
+    "validations": {
+      "type": "array",
+      "minItems": 1,
+      "items": {"type": "string", "minLength": 1}
+    },
+    "retained_files": {
+      "type": "array",
+      "minItems": 1,
+      "items": {"type": "string", "minLength": 1},
+      "uniqueItems": true
+    },
+    "approval": {
+      "anyOf": [
+        {"$ref": "#/$defs/approval"},
+        {"type": "null"}
+      ]
+    },
+    "evaluated_targets": {
+      "type": "array",
+      "minItems": 1,
+      "uniqueItems": true,
+      "items": {"type": "string", "minLength": 1}
+    },
+    "raw_output": {"$ref": "#/$defs/artifactReference"},
+    "invariant_verdicts": {
+      "type": "array",
+      "minItems": 1,
+      "uniqueItems": true,
+      "items": {"$ref": "#/$defs/checkResult"}
+    },
+    "prohibited_output_checks": {
+      "type": "array",
+      "minItems": 1,
+      "uniqueItems": true,
+      "items": {"$ref": "#/$defs/checkResult"}
+    },
+    "evaluator_conclusion": {"type": "string", "minLength": 1},
+    "live_eval_status": {"enum": ["PASSED", "FAILED"]}
+  },
+  "$defs": {
+    "artifactReference": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["path", "revision", "sha256"],
+      "properties": {
+        "path": {"type": "string", "minLength": 1},
+        "revision": {"type": "string", "minLength": 1},
+        "sha256": {"type": "string", "pattern": "^sha256:[a-f0-9]{64}$"}
+      }
+    },
+    "approval": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["decision_uri", "decided_by", "decision", "decided_on", "evidence"],
+      "properties": {
+        "decision_uri": {"type": "string", "pattern": "^author-decision://[^\\s]+$"},
+        "decided_by": {"const": "Author"},
+        "decision": {"enum": ["ACCEPT", "DEFER", "REJECT", "REVISE"]},
+        "decided_on": {"type": "string", "format": "date"},
+        "evidence": {"type": "string", "minLength": 1}
+      }
+    },
+    "checkResult": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["target", "verdict", "evidence"],
+      "properties": {
+        "target": {"type": "string", "minLength": 1},
+        "verdict": {"enum": ["PASS", "FAIL"]},
+        "evidence": {
+          "type": "array",
+          "minItems": 1,
+          "uniqueItems": true,
+          "items": {"type": "string", "minLength": 1}
+        }
+      }
+    }
+  },
+  "allOf": [
+    {
+      "oneOf": [
+        {
+          "required": ["canonicality", "promotion"],
+          "properties": {
+            "evidence_kind": {"const": "ACCEPTED_OUTCOME"},
+            "canonicality": {"const": "ACCEPTED"},
+            "promotion": {"const": "ALLOWED_WITH_AUTHOR_GATE"},
+            "target_artifacts": {"minItems": 1},
+            "approval": {"$ref": "#/$defs/approval"}
+          }
+        },
+        {
+          "required": [
+            "canonicality",
+            "promotion",
+            "evaluated_targets",
+            "raw_output",
+            "invariant_verdicts",
+            "prohibited_output_checks",
+            "evaluator_conclusion",
+            "live_eval_status"
+          ],
+          "properties": {
+            "evidence_kind": {"const": "LIVE_NONCANONICAL_EVALUATION"},
+            "canonicality": {"const": "NONCANONICAL_EVALUATION_ONLY"},
+            "promotion": {"const": "FORBIDDEN"},
+            "approval": {"type": "null"}
+          }
+        }
+      ]
+    }
+  ]
+}

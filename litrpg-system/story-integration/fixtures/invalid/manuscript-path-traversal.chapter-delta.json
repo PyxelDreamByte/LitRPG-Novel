@@ -1,5 +1,6 @@
 {
   "schema_version": "1.0.0",
+  "work_id": "work://experiment/fixture",
   "delta_id": "delta://fixture/path-traversal/001",
   "chapter_id": "chapter://fixture/path-traversal/001",
   "base_snapshot_ids": [],
@@ -11,6 +12,7 @@
   },
   "events": [{
     "schema_version": "1.0.0",
+    "work_id": "work://experiment/fixture",
     "event_id": "event://fixture/path-traversal/001/0001",
     "chapter_id": "chapter://fixture/path-traversal/001",
     "sequence": 1,
@@ -37,4 +39,3 @@
     "evidence": ["delta://fixture/path-traversal/001"]
   }
 }
-

@@ -1,0 +1,37 @@
+{
+  "schema_version": "1.0.0",
+  "id": "FIX-WLD-BAD-001",
+  "decision_uri": "author-decision://world/FIX-WLD-BAD-001",
+  "display_code": "FIX-WLD-BAD-001",
+  "title": "Invalid unindexed world decision fixture",
+  "domain": "fixture",
+  "workflow_status": "ACCEPTED",
+  "canon_status": "PROVISIONAL",
+  "scope": "Synthetic validator fixture only",
+  "accepted_on": "2026-08-12",
+  "accepted_by": "Author",
+  "approval_evidence": "Synthetic validation evidence.",
+  "question": "May a binding world decision be omitted from the world index?",
+  "selection": "No; the fixture must be rejected.",
+  "alternatives": [
+    "Permit an unindexed binding decision."
+  ],
+  "rationale": "Exercises binding world-decision index coverage.",
+  "evidence": [
+    "fixture://governance/invalid/unindexed-world-decision"
+  ],
+  "consequences": [
+    "The fixture must fail index validation."
+  ],
+  "affected_sources": [
+    "worldbuilding/INDEX.md"
+  ],
+  "dependencies": [],
+  "conflicts": [],
+  "residual_unknowns": [],
+  "supersedes": [],
+  "superseded_by": null,
+  "reopening_conditions": [
+    "The index contract changes."
+  ]
+}

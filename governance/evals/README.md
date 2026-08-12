@@ -2,12 +2,14 @@
 
 Evaluation fixtures test whether skills and agents obey governance, not whether they merely produce fluent text.
 
-**Current state:** the workflow instructions and specialist roles exist, but
-the full chapter loop has not yet been empirically evaluated. The CAL0 tests and
-story-integration schema fixtures do not constitute an evaluation of planning,
-multi-agent drafting, revision quality, Author gating, or state promotion. Do
-not mark the workflow proven or publication-ready until the suites below and a
-representative end-to-end pilot pass.
+**Current boundary:** use synthetic, explicitly non-canonical fixtures during
+the environment-scaffold pass. They may validate static contracts, routing,
+gates, failure detection, and deterministic state promotion without requiring
+or creating a real setting or story. The CAL0 and story-integration suites do
+not by themselves prove live multi-agent planning, drafting, revision quality,
+Author judgement, or publication readiness. Report static/synthetic,
+live/model-mediated, and end-to-end status separately; do not collapse them
+into one “workflow proven” claim.
 
 Initial suites should cover:
 

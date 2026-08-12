@@ -1,0 +1,70 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://pyxeldreambyte.github.io/LitRPG-Novel/schemas/workflow-eval.schema.json",
+  "title": "Noncanonical static workflow evaluation manifest",
+  "type": "object",
+  "required": [
+    "schema_version",
+    "evaluation_id",
+    "mode",
+    "promotion",
+    "canonicality",
+    "work_id",
+    "work_root",
+    "fixture_root",
+    "included_artifacts",
+    "expected_static_invariants",
+    "deliberate_flaws",
+    "live_eval_status"
+  ],
+  "properties": {
+    "schema_version": {"const": "1.0.0"},
+    "evaluation_id": {"type": "string", "pattern": "^eval://[^\\s]+$"},
+    "mode": {"const": "EVALUATION"},
+    "promotion": {"const": "FORBIDDEN"},
+    "canonicality": {"const": "NONCANONICAL_EVALUATION_ONLY"},
+    "work_id": {"$ref": "story-common.schema.json#/$defs/workIdentifier"},
+    "work_root": {"type": "string", "minLength": 1},
+    "fixture_root": {"type": "string", "minLength": 1},
+    "included_artifacts": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "required": ["path", "sha256"],
+        "properties": {
+          "path": {"type": "string", "minLength": 1},
+          "sha256": {"type": "string", "pattern": "^sha256:[0-9a-f]{64}$"}
+        },
+        "additionalProperties": false
+      }
+    },
+    "expected_static_invariants": {
+      "type": "array",
+      "minItems": 1,
+      "uniqueItems": true,
+      "items": {"type": "string", "minLength": 1}
+    },
+    "deliberate_flaws": {
+      "type": "array",
+      "uniqueItems": true,
+      "items": {"type": "string", "minLength": 1}
+    },
+    "live_eval_status": {"enum": ["PENDING", "RUNNING", "PASSED", "FAILED"]},
+    "target_workflow": {"type": "string", "minLength": 1},
+    "expected_findings": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["finding_id", "severity", "rule_id"],
+        "properties": {
+          "finding_id": {"type": "string", "minLength": 1},
+          "severity": {"enum": ["BLOCKING", "MAJOR", "MINOR", "OPTIONAL"]},
+          "rule_id": {"type": "string", "minLength": 1}
+        },
+        "additionalProperties": false
+      }
+    }
+  },
+  "additionalProperties": false
+}

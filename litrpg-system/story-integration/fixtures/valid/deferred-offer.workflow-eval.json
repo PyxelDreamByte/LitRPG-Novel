@@ -1,0 +1,22 @@
+{
+  "schema_version": "1.0.0",
+  "evaluation_id": "eval://experiment/fixture/deferred-offer",
+  "mode": "EVALUATION",
+  "promotion": "FORBIDDEN",
+  "canonicality": "NONCANONICAL_EVALUATION_ONLY",
+  "work_id": "work://experiment/fixture",
+  "work_root": "litrpg-system/story-integration/fixtures",
+  "fixture_root": "litrpg-system/story-integration/fixtures/valid",
+  "included_artifacts": [{
+    "path": "litrpg-system/story-integration/fixtures/valid/deferred-offer.chapter-delta.json",
+    "sha256": "sha256:7b504152a9801ab96df2115710c46e59fb7321fad06f63dfefb1c10f72d30442"
+  }],
+  "expected_static_invariants": [
+    "Evaluation artifacts remain noncanonical and promotion-forbidden.",
+    "A deferred offer is not treated as additive progression."
+  ],
+  "deliberate_flaws": [],
+  "live_eval_status": "PENDING",
+  "target_workflow": "write-chapter",
+  "expected_findings": []
+}

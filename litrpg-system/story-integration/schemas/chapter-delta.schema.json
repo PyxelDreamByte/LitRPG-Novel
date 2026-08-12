@@ -5,6 +5,7 @@
   "type": "object",
   "required": [
     "schema_version",
+    "work_id",
     "delta_id",
     "chapter_id",
     "base_snapshot_ids",
@@ -18,6 +19,7 @@
   ],
   "properties": {
     "schema_version": {"const": "1.0.0"},
+    "work_id": {"$ref": "story-common.schema.json#/$defs/workIdentifier"},
     "delta_id": {"$ref": "story-common.schema.json#/$defs/identifier"},
     "chapter_id": {"$ref": "story-common.schema.json#/$defs/identifier"},
     "base_snapshot_ids": {
@@ -74,7 +76,7 @@
         "type": "object",
         "required": ["thread_id", "operation", "summary", "source_event_ids"],
         "properties": {
-          "thread_id": {"type": "string", "minLength": 1},
+          "thread_id": {"$ref": "story-common.schema.json#/$defs/identifier"},
           "operation": {"enum": ["OPEN", "ADVANCE", "COMPLICATE", "RESOLVE", "SUSPEND"]},
           "summary": {"type": "string", "minLength": 1},
           "source_event_ids": {

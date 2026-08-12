@@ -37,6 +37,7 @@ def main() -> int:
         )
         run("Generated routing indexes", [python, "tools/build_system_indexes.py", "--check"])
         run("Story-integration contracts", [python, "tools/validate_story_integration.py"])
+        run("Deterministic character-state derivation", [python, "tools/validate_state_derivation.py"])
         run("Context-router smoke test", [python, "tools/route_system_context.py", "--decision", "ATR3.4.2.0D", "--paths"])
     except subprocess.CalledProcessError as exc:
         print(f"\nSystem validation failed in command: {' '.join(exc.cmd)}", file=sys.stderr)
@@ -47,4 +48,3 @@ def main() -> int:
 
 if __name__ == "__main__":
     raise SystemExit(main())
-

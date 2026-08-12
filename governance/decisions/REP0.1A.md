@@ -1,6 +1,8 @@
 ---
 id: REP0.1A
 decision_uri: author-decision://repository/REP0.1A
+display_code: REP0.1A
+schema_version: "1.0.0"
 title: Locked CAL0 baseline with generated integration layers
 domain: repository
 workflow_status: ACCEPTED
@@ -15,6 +17,7 @@ dependencies: "none"
 conflicts: "none"
 supersedes: "none"
 superseded_by: "none"
+structured_record: REP0.1A.decision.json
 ---
 
 # REP0.1A — Locked CAL0 baseline with generated integration layers
@@ -86,3 +89,6 @@ Reopen only for a concrete contradiction, failed validation, authoring infeasibi
 
 In the project conversation, after receiving the revised plan centred on
 `REP0.1A`, the Author instructed, “please proceed with this,” on 2026-08-12.
+
+The validation-ready structured record is
+[`REP0.1A.decision.json`](REP0.1A.decision.json).

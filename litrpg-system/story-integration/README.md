@@ -3,6 +3,28 @@
 This layer connects narrative events to continuity and CAL0 without treating a
 manuscript as a database or permitting prose to mutate canon implicitly.
 
+## Independent work boundary
+
+Every series, standalone novel, novella, short story, and experiment has a
+machine-authoritative `work-manifest.json` (or `<slug>.work-manifest.json`) paired with a human review surface
+at `work-manifest.md`. The pair must agree on identity, type, mode,
+canonicality, promotion policy, setting authority, paths, adopted authorities,
+and every other manifest field. Work-local URIs use the typed form
+`<scheme>://<work-type>/<work-slug>/...`; slug-only legacy references are not
+accepted because two kinds of work may share a slug.
+
+The manifest explicitly declares `SHARED_WORLD`, `WORK_LOCAL`, or
+`INDEPENDENT_SETTING`. Shared setting records and project-default guardrails
+apply only when enumerated. Repository presence never silently binds
+WLD-SOUL, WLD-PRENATAL, or another setting decision to a work.
+Default guardrails are structured adoptions with a binding decision URI,
+bounded adopted scope, and `effective_revision` equal to the stable decision
+ID. A shared-setting manifest and each adopting work list one another.
+
+`EVALUATION` and `EXPERIMENT` manifests are
+`NONCANONICAL_EVALUATION_ONLY` with promotion `FORBIDDEN`. Their deltas cannot
+be accepted or converted in place into live canon.
+
 ## Transaction lifecycle
 
 1. A chapter draft produces ordered `chapter-event` records.
@@ -55,19 +77,29 @@ state. Parameter-set references must name the pinned CAL0 I3 or I4 sets.
 `character-state` files are materialised projections derived from accepted
 deltas. The current validator checks their structure and local invariants, but
 does not claim that it can generically reduce arbitrary deltas into snapshots.
-Until a story-specific reducer exists, the acceptance workflow must compare a
-new snapshot against its delta and prior accepted state explicitly.
+`tools/build_character_state.py` is a deliberately bounded deterministic
+reducer for a pilot-safe subset: exact-decimal attribute/resource SET or ADD,
+location SET, and Skill/Class XP gain on a previously accepted lineage. It
+validates the complete base/delta input contracts and the derived snapshot,
+requires a new typed snapshot ID in the same work, and refuses XP that crosses
+a level threshold because level reinforcement is not yet implemented. It
+refuses every unimplemented operation rather than approximating it. Extend the
+reducer and its fixtures before accepting deltas that need further state operations.
+
+Static workflow evaluations use `*.workflow-eval.json`. They bind included
+fixture bytes by SHA-256, declare expected invariants and deliberate flaws, and
+remain noncanonical/promotion-forbidden regardless of live evaluation status.
 
 ## IDs
 
 IDs are stable URI-like strings, for example:
 
-- `chapter://first-awakening/book-01/001`
-- `event://first-awakening/book-01/001/0001`
-- `progression://first-awakening/book-01/001/0001`
-- `claim://first-awakening/book-01/001/first-intentional-focus`
-- `character://first-awakening/protagonist`
-- `canon-proposal://first-awakening/book-01/001/01`
+- `chapter://series/first-awakening/book-01/001`
+- `event://series/first-awakening/book-01/001/0001`
+- `progression://series/first-awakening/book-01/001/0001`
+- `claim://series/first-awakening/book-01/001/first-intentional-focus`
+- `character://series/first-awakening/protagonist`
+- `canon-proposal://series/first-awakening/book-01/001/01`
 
 Renaming a chapter file must not change established record IDs.
 
@@ -77,6 +109,8 @@ From the repository root:
 
 ```bash
 python3 tools/validate_story_integration.py
+python3 tools/validate_state_derivation.py
+python3 tools/validate_workspaces.py
 ```
 
 The command checks the schemas, requires all valid fixtures to pass, and

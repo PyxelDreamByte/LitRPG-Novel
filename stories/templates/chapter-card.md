@@ -1,12 +1,15 @@
 ---
-chapter_id: "chapter://[series-slug]/book-01/001"
-display_code: "SER-001-B01-C001"
+chapter_id: "chapter://[work-type]/[work-slug]/[unit-slug]/001"
+work_id: "work://[work-type]/[work-slug]"
+work_manifest_json: "stories/[work-type-directory]/[work-slug]/[work-slug].work-manifest.json"
+work_manifest_review: "stories/[work-type-directory]/[work-slug]/work-manifest.md"
+display_code: "[WORK-C001]"
 working_title: "[Title]"
 workflow_status: DRAFT
 canon_status: PROPOSED
-book_id: "book://[series-slug]/book-01"
+unit_id: "unit://[work-type]/[work-slug]/[unit-slug]"
 sequence: 1
-pov: "character://[series-slug]/[character-slug]"
+pov: "character://[work-type]/[work-slug]/[character-slug]"
 time_start: "[story date/time]"
 time_end_target: "[story date/time or constraint]"
 locations: []
@@ -74,6 +77,8 @@ approval_decision_uri: null
 
 ## Context dependencies
 
+- Work manifest and immutable revision:
+- Setting scope and adopted shared-world references:
 - Previous accepted chapter summary/final scene:
 - Relevant future chapter cards:
 - Character/profile/state sources:

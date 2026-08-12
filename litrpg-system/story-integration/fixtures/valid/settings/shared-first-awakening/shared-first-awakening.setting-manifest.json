@@ -1,0 +1,14 @@
+{
+  "schema_version": "1.0.0",
+  "setting_id": "setting://shared-first-awakening",
+  "title": "Shared First Awakening validation fixture",
+  "setting_root": "litrpg-system/story-integration/fixtures/valid/settings/shared-first-awakening",
+  "workflow_status": "ACCEPTED",
+  "canon_status": "PROVISIONAL",
+  "index_path": "litrpg-system/story-integration/fixtures/valid/settings/shared-first-awakening/indexes/INDEX.md",
+  "adopting_work_ids": [
+    "work://series/first-awakening"
+  ],
+  "accepted_on": "2026-08-12",
+  "approval_decision_uri": "author-decision://repository/REP0.1A"
+}

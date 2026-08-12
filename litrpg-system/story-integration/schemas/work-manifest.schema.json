@@ -1,0 +1,85 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://pyxeldreambyte.github.io/LitRPG-Novel/schemas/work-manifest.schema.json",
+  "title": "Independent creative work manifest",
+  "type": "object",
+  "required": [
+    "schema_version",
+    "work_id",
+    "display_code",
+    "title",
+    "work_type",
+    "mode",
+    "canonicality",
+    "promotion",
+    "work_root",
+    "contract_path",
+    "characters_root",
+    "world_overlay_root",
+    "context_packs_root",
+    "runs_root",
+    "setting_scope",
+    "shared_setting_id",
+    "adopted_shared_world_refs",
+    "adopted_default_guardrails",
+    "shared_read_only_authorities",
+    "created_on"
+  ],
+  "properties": {
+    "schema_version": {"const": "1.0.0"},
+    "work_id": {"$ref": "story-common.schema.json#/$defs/workIdentifier"},
+    "display_code": {"type": "string", "minLength": 1},
+    "title": {"type": "string", "minLength": 1},
+    "work_type": {
+      "enum": ["SERIES", "STANDALONE_NOVEL", "NOVELLA", "SHORT_STORY", "EXPERIMENT"]
+    },
+    "mode": {"enum": ["AUTHORING", "EVALUATION"]},
+    "canonicality": {
+      "enum": ["PROPOSED", "PROVISIONAL", "ACCEPTED", "NONCANONICAL_EVALUATION_ONLY"]
+    },
+    "promotion": {"enum": ["ALLOWED_WITH_AUTHOR_GATE", "FORBIDDEN"]},
+    "work_root": {"type": "string", "minLength": 1},
+    "contract_path": {"type": "string", "minLength": 1},
+    "characters_root": {"type": "string", "minLength": 1},
+    "world_overlay_root": {"type": "string", "minLength": 1},
+    "context_packs_root": {"type": "string", "minLength": 1},
+    "runs_root": {"type": "string", "minLength": 1},
+    "setting_scope": {"enum": ["SHARED_WORLD", "WORK_LOCAL", "INDEPENDENT_SETTING"]},
+    "shared_setting_id": {
+      "type": ["string", "null"],
+      "pattern": "^setting://[^\\s]+$"
+    },
+    "adopted_shared_world_refs": {
+      "type": "array",
+      "uniqueItems": true,
+      "items": {"type": "string", "minLength": 1}
+    },
+    "adopted_default_guardrails": {
+      "type": "array",
+      "uniqueItems": true,
+      "items": {
+        "type": "object",
+        "required": ["decision_uri", "adopted_scope", "effective_revision"],
+        "properties": {
+          "decision_uri": {
+            "type": "string",
+            "pattern": "^author-decision://(world|repository)/[^\\s]+$"
+          },
+          "adopted_scope": {"type": "string", "minLength": 1},
+          "effective_revision": {"type": "string", "minLength": 1}
+        },
+        "additionalProperties": false
+      }
+    },
+    "shared_read_only_authorities": {
+      "type": "array",
+      "minItems": 1,
+      "uniqueItems": true,
+      "items": {"type": "string", "minLength": 1}
+    },
+    "created_on": {"type": "string", "format": "date"},
+    "accepted_on": {"type": ["string", "null"], "format": "date"},
+    "approval_decision_uri": {"type": ["string", "null"], "pattern": "^author-decision://[^\\s]+$"}
+  },
+  "additionalProperties": false
+}

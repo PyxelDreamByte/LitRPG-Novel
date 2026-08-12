@@ -1,0 +1,81 @@
+{
+  "schema_version": "1.0.0",
+  "evaluation_id": "eval://experiment/isolation-suite/static-001",
+  "mode": "EVALUATION",
+  "promotion": "FORBIDDEN",
+  "canonicality": "NONCANONICAL_EVALUATION_ONLY",
+  "work_id": "work://experiment/isolation-suite",
+  "work_root": "stories/experiments/isolation-suite",
+  "fixture_root": "stories/experiments/isolation-suite",
+  "included_artifacts": [
+    {
+      "path": "stories/experiments/isolation-suite/work-contract.md",
+      "sha256": "sha256:f72ab28cc9a2540cdc3f81ef01f7f99620173cc49101f0bd2b086103ec7d2db0"
+    },
+    {
+      "path": "stories/experiments/isolation-suite/world-overlay/proposal.md",
+      "sha256": "sha256:0f5642420cdef2d5242c1c029927070ade16af63b14be9785178f03caf26330a"
+    },
+    {
+      "path": "stories/experiments/isolation-suite/characters/profiles/nera.md",
+      "sha256": "sha256:ad0067206b069cfa55cde36ff76fca2fecd947e6cf1626182f8b782ba9e7398f"
+    },
+    {
+      "path": "stories/experiments/isolation-suite/characters/knowledge/nera.md",
+      "sha256": "sha256:7a6663e46b711b6e6de3aede661884a7cbbb5694b9907c5c6f4d01910ca1b99c"
+    },
+    {
+      "path": "stories/experiments/isolation-suite/units/fixture/outline/chapter-cards/001.md",
+      "sha256": "sha256:c447562ffd21aafacf88acb3b954d5a3f8d939ddaea3baab28f43724a1ee6341"
+    },
+    {
+      "path": "stories/experiments/isolation-suite/units/fixture/manuscript/chapters/001-flawed.md",
+      "sha256": "sha256:35e3ad52805f34b4ab68059e800c2432c2fa6f3d04e8cff41b0d513046af053e"
+    },
+    {
+      "path": "stories/experiments/isolation-suite/units/fixture/state/deltas/001.chapter-delta.json",
+      "sha256": "sha256:67cb19bb16358570e9ffb05a6c165192216fc629f9f70661c9ba46891b05f83c"
+    },
+    {
+      "path": "stories/experiments/isolation-suite/editorial/findings.md",
+      "sha256": "sha256:5296adf77df4b8a1b2ca50c78321245315e95cfc5319e0ba7c85320757691d06"
+    },
+    {
+      "path": "stories/experiments/isolation-suite/editorial/revision-change-set.md",
+      "sha256": "sha256:c2ed1ec70683e9a4a54bf5e1f6d253cd9343fed96417594c2484ad452a23ba6f"
+    },
+    {
+      "path": "stories/experiments/isolation-suite/evals/eval-matrix.md",
+      "sha256": "sha256:b63524acb65d4e2dae0644e6064873191557ec0a463055f9bdcfe2b6127ee9f5"
+    }
+  ],
+  "expected_static_invariants": [
+    "Every included artifact exists beneath fixture_root and matches its SHA-256 digest.",
+    "All structured machine-state local creative URIs use the typed experiment/isolation-suite identity; the hash-bound manuscript retains one declared cross-work URI as a deliberate narrative flaw.",
+    "The work and evaluation manifests lock mode to EVALUATION and promotion to FORBIDDEN.",
+    "The machine chapter delta remains DRAFT and contains no Author approval.",
+    "The independent setting adopts no shared world reference or default guardrail.",
+    "The expected review surface preserves BLOCKING, MAJOR, and MINOR findings.",
+    "Static conformity does not change live_eval_status from PENDING."
+  ],
+  "deliberate_flaws": [
+    "The manuscript imports a character URI from another typed work.",
+    "The manuscript changes the bronze key to iron and violates the five-minute travel bound.",
+    "The viewpoint uses north-vault, tablet-history, and swimming capabilities absent from its records.",
+    "The manuscript grants retrospective Skill XP for old activity.",
+    "The independent-setting proposal claims implicit WLD-SOUL and WLD-PRENATAL authority.",
+    "The draft delta incompletely represents persistent manuscript consequences.",
+    "The closing paragraph uses placeholder-like repetition."
+  ],
+  "live_eval_status": "PENDING",
+  "target_workflow": "all-nine-story-skills-and-eight-custom-agent-roles",
+  "expected_findings": [
+    {"finding_id": "ISO-F001", "severity": "BLOCKING", "rule_id": "work-scope-cross-reference"},
+    {"finding_id": "CON-F001", "severity": "BLOCKING", "rule_id": "inventory-time-continuity"},
+    {"finding_id": "POV-F001", "severity": "BLOCKING", "rule_id": "viewpoint-access"},
+    {"finding_id": "CAL-F001", "severity": "BLOCKING", "rule_id": "no-retrospective-xp"},
+    {"finding_id": "WLD-F001", "severity": "BLOCKING", "rule_id": "explicit-setting-adoption"},
+    {"finding_id": "ARC-F001", "severity": "MAJOR", "rule_id": "contract-delta-completeness"},
+    {"finding_id": "PROSE-F001", "severity": "MINOR", "rule_id": "avoid-unintentional-repetition"}
+  ]
+}

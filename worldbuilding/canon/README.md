@@ -1,6 +1,9 @@
-# World Canon
+# Legacy/Reserved World Canon Root
 
-Accepted setting facts live here. Each record must declare its stable ID, status, scope, dependencies, contradictions, and Author approval evidence.
+Do not add new setting-specific facts here. This root is retained for migration
+compatibility while no real setting exists. Future accepted facts belong under
+`worldbuilding/settings/<setting-slug>/canon/`.
 
-Use one authoritative record per subject. Link across subjects rather than duplicating facts. If a chapter establishes a new setting fact, promote the accepted claim from its chapter delta into the appropriate record and preserve the source chapter ID.
-
+Each accepted record uses a `.worldbuilding.json` structured record, a stable
+`setting://` identity, scope, dependencies, boundaries, and Author approval.
+Link across subjects rather than duplicating facts.

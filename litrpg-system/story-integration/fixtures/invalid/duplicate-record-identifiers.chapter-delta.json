@@ -1,5 +1,6 @@
 {
   "schema_version": "1.0.0",
+  "work_id": "work://experiment/fixture",
   "delta_id": "delta://fixture/duplicate-identifiers/001",
   "chapter_id": "chapter://fixture/duplicate-identifiers/001",
   "base_snapshot_ids": [],
@@ -7,6 +8,7 @@
   "events": [
     {
       "schema_version": "1.0.0",
+      "work_id": "work://experiment/fixture",
       "event_id": "event://fixture/duplicate-identifiers/001/0001",
       "chapter_id": "chapter://fixture/duplicate-identifiers/001",
       "sequence": 1,
@@ -43,6 +45,7 @@
   "canon_proposals": [
     {
       "schema_version": "1.0.0",
+      "work_id": "work://experiment/fixture",
       "proposal_id": "canon-proposal://fixture/duplicate-identifiers/shared",
       "chapter_id": "chapter://fixture/duplicate-identifiers/001",
       "classification": "LOCAL_COLOUR",
@@ -54,6 +57,7 @@
     },
     {
       "schema_version": "1.0.0",
+      "work_id": "work://experiment/fixture",
       "proposal_id": "canon-proposal://fixture/duplicate-identifiers/shared",
       "chapter_id": "chapter://fixture/duplicate-identifiers/001",
       "classification": "LOCAL_COLOUR",

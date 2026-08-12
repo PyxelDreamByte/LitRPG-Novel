@@ -1,10 +1,13 @@
 ---
-character_id: "character://[series-slug]/[character-slug]"
+character_id: "character://[work-type]/[work-slug]/[character-slug]"
+work_id: "work://[work-type]/[work-slug]"
+work_manifest_json: "stories/[work-type-directory]/[work-slug]/[work-slug].work-manifest.json"
+work_manifest_review: "stories/[work-type-directory]/[work-slug]/work-manifest.md"
 display_code: "CHR-001"
 canonical_name: "[Name or unknown]"
 workflow_status: DRAFT
 canon_status: PROPOSED
-scope: "[series/story]"
+scope: "[work ID and optional series/book boundary]"
 introduced_in: null
 accepted_on: null
 approval_decision_uri: null

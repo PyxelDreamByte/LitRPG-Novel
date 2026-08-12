@@ -1,0 +1,29 @@
+{
+  "schema_version": "1.0.0",
+  "work_id": "work://experiment/fixture",
+  "delta_id": "delta://experiment/fixture/cross-work/001",
+  "chapter_id": "chapter://experiment/fixture/cross-work/001",
+  "base_snapshot_ids": [],
+  "status": "DRAFT",
+  "events": [{
+    "schema_version": "1.0.0",
+    "work_id": "work://experiment/fixture",
+    "event_id": "event://experiment/fixture/cross-work/001/0001",
+    "chapter_id": "chapter://experiment/fixture/cross-work/001",
+    "sequence": 1,
+    "event_type": "OBSERVATION",
+    "summary": "This fixture deliberately references a character from another work.",
+    "participants": ["character://series/other-work/intruder"],
+    "viewpoint_access": []
+  }],
+  "character_changes": [],
+  "progression_events": [],
+  "thread_changes": [],
+  "canon_proposals": [],
+  "review": {
+    "blocking_findings": [],
+    "major_findings": [],
+    "minor_findings": [],
+    "optional_findings": []
+  }
+}

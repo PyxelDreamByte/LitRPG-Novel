@@ -1,0 +1,27 @@
+{
+  "schema_version": "1.0.0",
+  "work_id": "work://short-story/example-work",
+  "display_code": "WORK-001",
+  "title": "Replace with work title",
+  "work_type": "SHORT_STORY",
+  "mode": "AUTHORING",
+  "canonicality": "PROPOSED",
+  "promotion": "ALLOWED_WITH_AUTHOR_GATE",
+  "work_root": "stories/short-stories/example-work",
+  "contract_path": "stories/short-stories/example-work/work-contract.md",
+  "characters_root": "stories/short-stories/example-work/characters",
+  "world_overlay_root": "stories/short-stories/example-work/world-overlay",
+  "context_packs_root": "stories/short-stories/example-work/workbench/context-packs",
+  "runs_root": "stories/short-stories/example-work/workbench/runs",
+  "setting_scope": "INDEPENDENT_SETTING",
+  "shared_setting_id": null,
+  "adopted_shared_world_refs": [],
+  "adopted_default_guardrails": [],
+  "shared_read_only_authorities": [
+    "governance/",
+    "litrpg-system/cal0/"
+  ],
+  "created_on": "2026-08-12",
+  "accepted_on": null,
+  "approval_decision_uri": null
+}

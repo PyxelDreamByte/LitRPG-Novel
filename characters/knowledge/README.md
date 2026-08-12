@@ -12,3 +12,4 @@ Knowledge records distinguish:
 
 Do not use author knowledge to make a character conveniently informed.
 
+Store records inside the owning work using `../templates/character-knowledge.md`. Never merge knowledge from a same-named character in another work.

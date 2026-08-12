@@ -1,0 +1,38 @@
+{
+  "schema_version": "1.0.0",
+  "work_id": "work://series/first-awakening",
+  "snapshot_id": "snapshot://series/first-awakening/protagonist/pre-chapter-001",
+  "character_id": "character://series/first-awakening/protagonist",
+  "as_of_chapter_id": "chapter://series/first-awakening/book-01/000",
+  "as_of_event_sequence": 0,
+  "derived_from_delta_ids": [
+    "delta://series/first-awakening/book-01/000"
+  ],
+  "location_id": "location://series/first-awakening/maternal-womb",
+  "attributes": {
+    "Focus": "0.01"
+  },
+  "resources": {
+    "attention": {
+      "current": "0",
+      "capacity": "0.02"
+    }
+  },
+  "progression": [
+    {
+      "kind": "SKILL",
+      "track_id": "skill:developmental-intentional-control",
+      "lineage_id": "lineage:developmental-intentional-control",
+      "level": "0",
+      "xp": "0",
+      "provenance_refs": [
+        "decision://first-awakening/protagonist/developmental-lineage"
+      ]
+    }
+  ],
+  "traits": [],
+  "achievements": [],
+  "inventory": [],
+  "conditions": [],
+  "knowledge": []
+}

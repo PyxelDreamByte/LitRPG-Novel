@@ -1,5 +1,6 @@
 {
   "schema_version": "1.0.0",
+  "work_id": "work://experiment/fixture",
   "delta_id": "delta://fixture/wrong-canon-review/001",
   "chapter_id": "chapter://fixture/wrong-canon-review/001",
   "base_snapshot_ids": [],
@@ -7,6 +8,7 @@
   "events": [
     {
       "schema_version": "1.0.0",
+      "work_id": "work://experiment/fixture",
       "event_id": "event://fixture/wrong-canon-review/001/0001",
       "chapter_id": "chapter://fixture/wrong-canon-review/001",
       "sequence": 1,

@@ -5,6 +5,7 @@
   "type": "object",
   "required": [
     "schema_version",
+    "work_id",
     "event_id",
     "chapter_id",
     "sequence",
@@ -15,6 +16,7 @@
   ],
   "properties": {
     "schema_version": {"const": "1.0.0"},
+    "work_id": {"$ref": "story-common.schema.json#/$defs/workIdentifier"},
     "event_id": {"$ref": "story-common.schema.json#/$defs/identifier"},
     "chapter_id": {"$ref": "story-common.schema.json#/$defs/identifier"},
     "sequence": {"type": "integer", "minimum": 1},
@@ -82,4 +84,3 @@
   },
   "additionalProperties": false
 }
-

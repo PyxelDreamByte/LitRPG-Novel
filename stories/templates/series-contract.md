@@ -1,5 +1,8 @@
 ---
-series_id: "series://[series-slug]"
+series_id: "series://series/[series-slug]"
+work_id: "work://series/[series-slug]"
+work_manifest_json: "stories/series/[series-slug]/[series-slug].work-manifest.json"
+work_manifest_review: "stories/series/[series-slug]/work-manifest.md"
 display_code: "SER-001"
 title: "[Working title]"
 workflow_status: DRAFT
@@ -28,7 +31,9 @@ approval_decision_uri: null
 ## Canon dependencies
 
 - CAL0 baseline/version:
-- Accepted world decisions:
+- Setting scope from work manifest:
+- Explicitly adopted shared-world decisions and guardrails:
+- Work-local overlay:
 - Provisional dependencies and risk:
 - Facts reserved for later decision:
 

@@ -1,0 +1,38 @@
+{
+  "$schema": "../schemas/workflow-evidence-manifest.schema.json",
+  "schema_version": "1.0.0",
+  "run_id": "run://replace-with-workflow/run-001",
+  "evidence_kind": "ACCEPTED_OUTCOME",
+  "workflow": "replace-with-workflow",
+  "completed_on": "2026-08-12",
+  "canonicality": "ACCEPTED",
+  "promotion": "ALLOWED_WITH_AUTHOR_GATE",
+  "source_manifest": [
+    {
+      "path": "replace/with/source-path",
+      "revision": "replace-with-immutable-revision",
+      "sha256": "sha256:0000000000000000000000000000000000000000000000000000000000000000"
+    }
+  ],
+  "target_artifacts": [
+    {
+      "path": "replace/with/target-path",
+      "revision": "replace-with-immutable-revision",
+      "sha256": "sha256:0000000000000000000000000000000000000000000000000000000000000000"
+    }
+  ],
+  "findings": [],
+  "validations": [
+    "Replace with exact validation command and result."
+  ],
+  "retained_files": [
+    "governance/evidence/replace-with-run-id/run.workflow-evidence.json"
+  ],
+  "approval": {
+    "decision_uri": "author-decision://replace-with-domain/replace-with-id",
+    "decided_by": "Author",
+    "decision": "ACCEPT",
+    "decided_on": "2026-08-12",
+    "evidence": "Replace with exact approval evidence."
+  }
+}

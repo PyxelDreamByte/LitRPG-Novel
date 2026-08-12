@@ -1,0 +1,27 @@
+{
+  "schema_version": "1.0.0",
+  "work_id": "work://experiment/isolation-suite",
+  "display_code": "EVAL-ISO-001",
+  "title": "Isolation Suite",
+  "work_type": "EXPERIMENT",
+  "mode": "EVALUATION",
+  "canonicality": "NONCANONICAL_EVALUATION_ONLY",
+  "promotion": "FORBIDDEN",
+  "work_root": "stories/experiments/isolation-suite",
+  "contract_path": "stories/experiments/isolation-suite/work-contract.md",
+  "characters_root": "stories/experiments/isolation-suite/characters",
+  "world_overlay_root": "stories/experiments/isolation-suite/world-overlay",
+  "context_packs_root": "stories/experiments/isolation-suite/workbench/context-packs",
+  "runs_root": "stories/experiments/isolation-suite/workbench/runs",
+  "setting_scope": "INDEPENDENT_SETTING",
+  "shared_setting_id": null,
+  "adopted_shared_world_refs": [],
+  "adopted_default_guardrails": [],
+  "shared_read_only_authorities": [
+    "governance/",
+    "litrpg-system/cal0/"
+  ],
+  "created_on": "2026-08-12",
+  "accepted_on": null,
+  "approval_decision_uri": null
+}

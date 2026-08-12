@@ -1,6 +1,8 @@
 ---
 id: "[STABLE-ID]"
 decision_uri: "author-decision://[domain]/[STABLE-ID]"
+display_code: "[STABLE-ID]"
+schema_version: "1.0.0"
 title: "[Decision title]"
 domain: "[repository|system|world|series|book|character|publication]"
 workflow_status: DRAFT
@@ -11,6 +13,7 @@ accepted_on: null
 accepted_by: null
 approval_evidence: null
 supersedes: []
+superseded_by: null
 ---
 
 # [ID] — [Decision title]
@@ -37,6 +40,11 @@ supersedes: []
 
 [Unselected until the Author responds. Do not infer acceptance.]
 
+## Rationale and evidence
+
+- Rationale: [Why the selected disposition best fits the evidence and scope.]
+- Evidence: `[path, source, or Author instruction]`
+
 ## Consequences
 
 - [Affected canon, plot, mechanics, workflow, or future decision.]
@@ -50,6 +58,11 @@ supersedes: []
 - Dependencies: [IDs or none]
 - Conflicts: [IDs or none]
 
+## Supersession
+
+- Supersedes: [IDs or none]
+- Superseded by: [ID or none; never invent a future target]
+
 ## Residual unknowns
 
 - [Question intentionally left open.]
@@ -60,4 +73,5 @@ supersedes: []
 
 ## Approval evidence
 
-[Date and unambiguous Author instruction, recorded only after selection.]
+[Decision URI, Author, disposition date, and unambiguous Author instruction,
+recorded for accepted, provisional, deferred, or rejected dispositions.]

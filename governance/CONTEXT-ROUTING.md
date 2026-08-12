@@ -17,7 +17,11 @@ Every workflow receives:
 
 ### Worldbuilding
 
-Load the world index, directly affected canon, related accepted decisions, relevant research citations, and any System rules the proposal touches. Do not load unrelated continents, cultures, or history.
+Load the project world index, the named setting manifest, directly affected
+setting-local canon, related accepted decisions, relevant research citations,
+and any System rules the proposal touches. Load a project default only when the
+work manifest explicitly adopts it. Do not load unrelated settings, continents,
+cultures, or history.
 
 ### Character work
 
@@ -66,4 +70,3 @@ Every generated pack records:
 - expiry condition.
 
 Never infer authority from inclusion in a context pack. Delete or rebuild stale packs rather than editing them into a shadow canon.
-

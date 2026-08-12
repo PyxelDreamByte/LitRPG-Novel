@@ -7,15 +7,19 @@ description: "Draft and iteratively review a chapter through a bounded writing c
 
 Use one manuscript owner and independent reviewers. Avoid committee prose and unbounded revision.
 
+## Run boundary
+
+Resolve exactly one machine `work-manifest.json` or `*.work-manifest.json` and its paired `work-manifest.md`. Treat JSON as authority; require matching identity, type, mode, canonicality, promotion, root, and setting boundary, or stop. Record `work_id`, `work_root`, `mode`, and shared read-only authorities. Every mutable target, character/state record, overlay, context pack, and run artifact must remain under `work_root`. Reject undeclared references to another work. In `EVALUATION`, set a fresh output root at `runs_root/<run-id>/outputs/`, require it to be distinct from every hash-bound input, retain `NONCANONICAL_EVALUATION_ONLY`, and never overwrite fixture sources, call promotion, or update authoritative world, character, or story state.
+
 Read [references/council-protocol.md](references/council-protocol.md) before spawning the writing council.
 
 ## Preconditions
 
-Require an explicitly Author-approved chapter card revision, authoritative predecessor, intended destination, non-expired bounded context pack, and its run/source manifest. If any item is absent or stale, invoke `$plan-chapter` and do not draft.
+Require an explicitly Author-approved chapter card revision in `AUTHORING`, or the fixture-declared simulated approval in `EVALUATION`, plus the authoritative/fixture predecessor, intended destination, non-expired bounded context pack, and its run/source manifest. If any item is absent or stale, invoke `$plan-chapter` and do not draft.
 
 ## Workflow
 
-1. Create `workbench/runs/<run-id>/` and preserve the workflow contract, source manifest, approved card revision, context-pack ID, mode, role assignments, target manuscript revision, findings, change sets, validation results, and unresolved decisions throughout the run.
+1. Create the run beneath the work manifest's `runs_root`. In `EVALUATION`, copy mutable targets into `runs_root/<run-id>/outputs/` and keep included fixture inputs read-only. Preserve the work manifest, workflow contract, source manifest, approved or simulated-approved card revision, context-pack ID, mode, role assignments, target manuscript revision, findings, change sets, validation results, and unresolved decisions throughout the run.
 2. Ask `story-architect` for beat risks or a scene approach when structural uncertainty remains.
 3. Assign `chapter-drafter` sole ownership of the initial manuscript. The drafter may make reversible scene-level choices but must flag new setting, character-history, or System facts.
 4. Run independent post-draft review in waves of no more than three subagents, using the exact applicable roles:
@@ -33,4 +37,4 @@ Require an explicitly Author-approved chapter card revision, authoritative prede
 
 ## Output
 
-Return the workflow run path, exact manuscript and delta revisions, review summary, unresolved findings including preserved `MINOR` items, canon proposals, files changed, and whether the transaction is ready for `$accept-chapter`.
+Return the work ID/mode, workflow run path, exact manuscript and delta revisions, review summary, unresolved findings including preserved `MINOR` items, canon proposals, files changed, and whether an `AUTHORING` transaction is ready for `$accept-chapter` or an `EVALUATION` run is ready only for fixture comparison.

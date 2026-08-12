@@ -1,0 +1,59 @@
+{
+  "$schema": "../../governance/schemas/decision-record.schema.json",
+  "schema_version": "1.0.0",
+  "id": "WLD-SOUL-001A",
+  "decision_uri": "author-decision://world/WLD-SOUL-001A",
+  "display_code": "WLD-SOUL-001A",
+  "title": "Future human-reference rare-Soul prevalence guardrail",
+  "domain": "project-level future-setting population modelling",
+  "workflow_status": "ACCEPTED",
+  "canon_status": "PROVISIONAL",
+  "scope": "Reusable project-level default for a future named human-reference population only after explicit adoption by that work's manifest; not automatically binding on any current or future setting, Enuma, another species, or detailed world canon.",
+  "accepted_on": "2026-08-12",
+  "accepted_by": "Author",
+  "approval_evidence": "The Author explicitly selected Soul A and instructed that it be recorded with this bounded project-level future-setting scope on 2026-08-12.",
+  "question": "What provisional rare-Soul prevalence and topology should future human-reference population modelling use before a named setting population is defined?",
+  "selection": "Offer the exact-decimal provisional prevalence 0.001, approximately 1 in 1,000, as the project default for a future named human-reference population when its work manifest explicitly adopts this decision. A qualifying rare Soul is a heterogeneous typed profile, never one scalar quantity. The prevalence is not Mage prevalence. An independent work may override it only through its own Author decision.",
+  "alternatives": [
+    "Option A: exact-decimal prevalence 0.001 with heterogeneous typed Soul profiles; selected.",
+    "Other prevalence values or scalar Soul models; not selected and not authorised by this decision."
+  ],
+  "rationale": "This supplies a bounded modelling prior without pretending a future society, population denominator, Soul threshold, or Mage correlation has already been worldbuilt.",
+  "evidence": [
+    "Author selection Soul A and bounded-scope instruction dated 2026-08-12.",
+    "litrpg-system/cal0/canonical/litrpg-system-specification.md: Soul structure is typed and non-scalar.",
+    "litrpg-system/cal0/guide/litrpg-system-residual-uncertainty-register.md: rare-Soul prevalence remains a world-level input."
+  ],
+  "consequences": [
+    "Future human-reference population models may use the exact-decimal prior 0.001 only after naming and scoping their population.",
+    "Rare-Soul membership must be represented through heterogeneous typed Soul dimensions and thresholds, never a universal Soul score.",
+    "The prior must not be reported or used as the prevalence of Mages, magical affinity, classes, Skills, talents, social elites, or exceptional people generally.",
+    "This decision creates no named people, culture, institution, geography, history, or setting fact."
+    ,"No work inherits this guardrail silently; its manifest must cite the decision URI and adopted scope."
+    ,"A work-specific override requires its own explicit Author decision and does not rewrite this project default for other works."
+  ],
+  "affected_sources": [
+    "worldbuilding/INDEX.md",
+    "STATUS.md"
+  ],
+  "dependencies": [
+    "REP0.1A",
+    "CAL0 v0.7.0 Soul topology"
+  ],
+  "conflicts": [],
+  "residual_unknowns": [
+    "The future human-reference population and eligible denominator are not yet named.",
+    "The typed qualification threshold and distribution across Soul dimensions remain undefined.",
+    "Correlation with magical capability, vocation, culture, ancestry, age, and environment remains undefined.",
+    "Other species and populations remain out of scope."
+    ,"Which future works, if any, will adopt this default remains undefined."
+  ],
+  "supersedes": [],
+  "superseded_by": null,
+  "reopening_conditions": [
+    "A named human-reference population is defined and evidence supports a different prevalence.",
+    "The operational typed qualification threshold is defined and changes the implied eligible denominator.",
+    "Population modelling exposes a contradiction or unusable outcome.",
+    "The Author explicitly reopens the guardrail."
+  ]
+}
