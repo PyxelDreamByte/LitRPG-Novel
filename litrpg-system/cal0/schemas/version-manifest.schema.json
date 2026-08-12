@@ -1,0 +1,153 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "schema://cal0/version-manifest@6",
+  "title": "CAL0 executable bundle manifest",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "bundle_id",
+    "package_version",
+    "stage",
+    "stage_status",
+    "parameter_status",
+    "closure_status",
+    "canonical_specification",
+    "calibration_annex",
+    "numerical_environment",
+    "fixture_contract",
+    "reference_contract",
+    "cohort_contract",
+    "adversarial_contract",
+    "authoring_contract",
+    "closure_contract",
+    "artifacts"
+  ],
+  "properties": {
+    "bundle_id": {"const": "bundle://cal0/i7@0.7.0"},
+    "package_version": {"const": "0.7.0"},
+    "stage": {"const": "CAL0-I7"},
+    "stage_status": {"const": "COMPLETE"},
+    "parameter_status": {"const": "AUTHORING_VALIDATED_PROVISIONAL"},
+    "closure_status": {"const": "VALIDATED_BASELINE_WITH_BOUNDED_RESIDUALS"},
+    "canonical_specification": {"type": "string"},
+    "calibration_annex": {"type": "string"},
+    "numerical_environment": {
+      "type": "object",
+      "required": ["language", "minimum_version", "decimal_policy", "float_policy", "canonical_json"],
+      "properties": {
+        "language": {"const": "Python"},
+        "minimum_version": {"const": "3.11"},
+        "decimal_policy": {"const": "exact decimal strings until explicitly parsed"},
+        "float_policy": {"const": "forbidden in canonical records"},
+        "canonical_json": {"const": "UTF-8, sorted keys, compact separators, no NaN/Infinity"}
+      }
+    },
+    "fixture_contract": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["suite_id", "case_count", "seed_set", "traversal_set", "synthetic_only"],
+      "properties": {
+        "suite_id": {"const": "fixture-suite://cal0/i2-reference@1"},
+        "case_count": {"const": 66},
+        "seed_set": {"const": [17, 83]},
+        "traversal_set": {"const": ["forward", "reverse"]},
+        "synthetic_only": {"const": true}
+      }
+    },
+    "reference_contract": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["parameter_set_id", "parameter_set_status", "scenario_suite_id", "character_count", "scenario_count", "canonicality", "cohort_claims_permitted"],
+      "properties": {
+        "parameter_set_id": {"const": "parameter-set://cal0/i3-reference@1"},
+        "parameter_set_status": {"const": "PROVISIONAL"},
+        "scenario_suite_id": {"const": "scenario-suite://cal0/i3-reference@1"},
+        "character_count": {"const": 4},
+        "scenario_count": {"const": 5},
+        "canonicality": {"const": "REFERENCE_ONLY_NOT_STORY_CANON"},
+        "cohort_claims_permitted": {"const": false}
+      }
+    },
+    "cohort_contract": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["plan_id", "suite_id", "successor_parameter_set_id", "births_per_seed", "seed_count", "iteration_count", "comparison_ensemble_count", "report_digest", "canonicality"],
+      "properties": {
+        "plan_id": {"const": "cohort-plan://cal0/i4-human-reference@1"},
+        "suite_id": {"const": "cohort-suite://cal0/i4-reference@1"},
+        "successor_parameter_set_id": {"const": "parameter-set://cal0/i4-reference@1"},
+        "births_per_seed": {"type": "integer", "minimum": 10000},
+        "seed_count": {"type": "integer", "minimum": 3},
+        "iteration_count": {"type": "integer", "minimum": 2},
+        "comparison_ensemble_count": {"type": "integer", "minimum": 5},
+        "report_digest": {"type": "string", "pattern": "^sha256:[0-9a-f]{64}$"},
+        "canonicality": {"const": "INTERNAL_WORLD_CALIBRATION_NOT_EMPIRICAL_FACT"}
+      }
+    },
+    "adversarial_contract": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["suite_id", "attack_count", "execution_count", "surface_count", "repair_count", "unresolved_invariant_violation_count", "report_digest", "canonicality"],
+      "properties": {
+        "suite_id": {"const": "adversarial-suite://cal0/i5-reference@1"},
+        "attack_count": {"type": "integer", "minimum": 36},
+        "execution_count": {"type": "integer", "minimum": 144},
+        "surface_count": {"const": 9},
+        "repair_count": {"type": "integer", "minimum": 1},
+        "unresolved_invariant_violation_count": {"const": 0},
+        "report_digest": {"type": "string", "pattern": "^sha256:[0-9a-f]{64}$"},
+        "canonicality": {"const": "INTERNAL_SYSTEM_VALIDATION_NOT_EMPIRICAL_FACT_OR_STORY_CANON"}
+      }
+    },
+    "authoring_contract": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["suite_id", "sheet_count", "projection_count", "scenario_count", "authoring_template_count", "notification_template_count", "change_entry_count", "active_residual_count", "report_digest", "canonicality"],
+      "properties": {
+        "suite_id": {"const": "authoring-suite://cal0/i6-reference@1"},
+        "sheet_count": {"const": 14},
+        "projection_count": {"const": 84},
+        "scenario_count": {"const": 15},
+        "authoring_template_count": {"const": 10},
+        "notification_template_count": {"const": 4},
+        "change_entry_count": {"const": 6},
+        "active_residual_count": {"const": 5},
+        "report_digest": {"type": "string", "pattern": "^sha256:[0-9a-f]{64}$"},
+        "canonicality": {"const": "AUTHORING_REFERENCE_NOT_EMPIRICAL_FACT_OR_FIXED_PLOT"}
+      }
+    },
+    "closure_contract": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["suite_id", "architecture_decision_count", "cal0_model_selection_count", "criterion_count", "required_artifact_count", "residual_group_count", "residual_item_count", "blocking_residual_count", "change_entry_count", "scene_projection_cell_count", "report_digest", "closure_status"],
+      "properties": {
+        "suite_id": {"const": "closure-suite://cal0/i7@1"},
+        "architecture_decision_count": {"const": 106},
+        "cal0_model_selection_count": {"const": 66},
+        "criterion_count": {"const": 9},
+        "required_artifact_count": {"const": 9},
+        "residual_group_count": {"const": 71},
+        "residual_item_count": {"const": 305},
+        "blocking_residual_count": {"const": 0},
+        "change_entry_count": {"const": 10},
+        "scene_projection_cell_count": {"const": 90},
+        "report_digest": {"type": "string", "pattern": "^sha256:[0-9a-f]{64}$"},
+        "closure_status": {"const": "VALIDATED_BASELINE_WITH_BOUNDED_RESIDUALS"}
+      }
+    },
+    "artifacts": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["path", "role", "sha256"],
+        "properties": {
+          "path": {"type": "string"},
+          "role": {"enum": ["schema", "registry", "validator", "engine", "fixture", "test", "bootstrap", "documentation"]},
+          "sha256": {"type": "string", "pattern": "^sha256:[0-9a-f]{64}$"}
+        }
+      }
+    }
+  }
+}

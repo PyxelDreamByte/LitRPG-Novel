@@ -1,0 +1,3400 @@
+{
+  "adversarial_suite_id": "adversarial-suite://cal0/i5-reference@1",
+  "parameter_status": "ADVERSARIALLY_VALIDATED_PROVISIONAL",
+  "canonicality": "INTERNAL_SYSTEM_VALIDATION_NOT_EMPIRICAL_FACT_OR_STORY_CANON",
+  "parent_cohort_report_digest": "sha256:fb5057acf2c534a8178a3d39125f47006243d2bc711b89326249086219b64178",
+  "seed_set": [
+    1709,
+    6833
+  ],
+  "traversal_set": [
+    "forward",
+    "reverse"
+  ],
+  "attack_count": 42,
+  "execution_count": 168,
+  "allowed_strategy_count": 15,
+  "denied_exploit_count": 27,
+  "surface_counts": {
+    "ecological": 4,
+    "economic": 4,
+    "identity": 6,
+    "individual": 4,
+    "informational": 4,
+    "institutional": 4,
+    "magical": 5,
+    "replay": 6,
+    "training": 5
+  },
+  "repair_count": 5,
+  "unresolved_invariant_violations": [],
+  "catalog_issues": [],
+  "repairs": [
+    {
+      "repair_id": "CAL0-I5-R01",
+      "title": "Canonical semantic-origin entitlement key",
+      "classification": "LOCAL_MISSING_RULE",
+      "failure_boundary": "Raw labels could distinguish claims derived from one underlying event.",
+      "repair": "Entitlements are keyed by recipient, protected facet, and canonical causal origin before aliases are evaluated.",
+      "affected_invariants": [
+        "non_duplication",
+        "single_reinforcement",
+        "prospective_progression"
+      ],
+      "regression_case_ids": [
+        "I5-A01",
+        "I5-A02",
+        "I5-A10",
+        "I5-A15",
+        "I5-A20",
+        "I5-A37",
+        "I5-A39",
+        "I5-A40",
+        "I5-A41"
+      ],
+      "regression_count": 9,
+      "passed": true,
+      "record_digest": "sha256:f9a6dfd72c910795e25666ca2f8428546cdbc3ce5580589928b12f506fd1be8d"
+    },
+    {
+      "repair_id": "CAL0-I5-R02",
+      "title": "Source-bounded renewal witness",
+      "classification": "IMPLEMENTATION_OR_TEST_DEFECT",
+      "failure_boundary": "The inherited generic recovery API accepted a provenance label without proving a replenishing input budget.",
+      "repair": "Recovery and spawning require a typed source witness and cannot exceed the witnessed renewable input or remaining capacity.",
+      "affected_invariants": [
+        "provenance",
+        "supported_renewal"
+      ],
+      "regression_case_ids": [
+        "I5-A12",
+        "I5-A14",
+        "I5-A25",
+        "I5-A38"
+      ],
+      "regression_count": 4,
+      "passed": true,
+      "record_digest": "sha256:8f9a7b680115b23db59ed36e0ed70cd883b3eb122c0b95b181532393c3cdaeaa"
+    },
+    {
+      "repair_id": "CAL0-I5-R03",
+      "title": "Projection, evidence, access, and authority separation",
+      "classification": "PRESENTATION_OR_DOCUMENTATION_AMBIGUITY",
+      "failure_boundary": "A truthful or forged interface record could be mistaken for the capability, permission, or fact displayed.",
+      "repair": "Every consequential projection requires source evidence, audience permission, scope, and a distinct authority or capability witness.",
+      "affected_invariants": [
+        "projection_not_creation",
+        "scoped_authority",
+        "provenance"
+      ],
+      "regression_case_ids": [
+        "I5-A06",
+        "I5-A07",
+        "I5-A17",
+        "I5-A18",
+        "I5-A19"
+      ],
+      "regression_count": 5,
+      "passed": true,
+      "record_digest": "sha256:c26c2bcb11a2fb7d28c0adaebea5f75718d4a6dcafee5232acd557e789501283"
+    },
+    {
+      "repair_id": "CAL0-I5-R04",
+      "title": "Exclusive identity-continuation ledger",
+      "classification": "LOCAL_MISSING_RULE",
+      "failure_boundary": "Embodied, copied, summoned, or restored processes lacked one shared executable holder registry.",
+      "repair": "One identity lineage may have at most one continuing holder; copies and successors receive explicit derived identities unless a witnessed exclusive transfer occurs.",
+      "affected_invariants": [
+        "exclusive_identity",
+        "non_duplication",
+        "provenance"
+      ],
+      "regression_case_ids": [
+        "I5-A04",
+        "I5-A31",
+        "I5-A32",
+        "I5-A33",
+        "I5-A34",
+        "I5-A35",
+        "I5-A36"
+      ],
+      "regression_count": 7,
+      "passed": true,
+      "record_digest": "sha256:3f4a9b0660a691e37bbead48219ddd9bfb66503e33950b0f8e634a5a49bc400b"
+    },
+    {
+      "repair_id": "CAL0-I5-R05",
+      "title": "Stimulus-origin deduplication and harm gate",
+      "classification": "LOCAL_MISSING_RULE",
+      "failure_boundary": "Separately submitted labels could multiply one physical or cognitive stimulus, and damage lacked a universal no-free-growth gate.",
+      "repair": "Adaptation is bounded by unique causal stimulus origins, loaded structures, recovery, and headroom; damage cannot itself become positive adaptation.",
+      "affected_invariants": [
+        "organic_adaptation",
+        "non_duplication",
+        "provenance"
+      ],
+      "regression_case_ids": [
+        "I5-A05",
+        "I5-A26",
+        "I5-A27",
+        "I5-A28",
+        "I5-A29",
+        "I5-A30"
+      ],
+      "regression_count": 6,
+      "passed": true,
+      "record_digest": "sha256:25a57bcc7474f05671396ed627490e212cac0342058fdd42f388fbd0350de659"
+    }
+  ],
+  "attack_results": [
+    {
+      "case_id": "I5-A01",
+      "title": "Fragment one Skill event into renamed micro-Skills",
+      "surface": "individual",
+      "scale": "individual",
+      "family_tags": [
+        "skill-fragmentation-fusion-inheritance-grants-suppression-reacquisition"
+      ],
+      "mechanism": "entitlement",
+      "affected_invariants": [
+        "non_duplication",
+        "single_reinforcement"
+      ],
+      "subsystems": [
+        "entitlement",
+        "individual"
+      ],
+      "preconditions": [
+        "attacker has the declared access, time, and knowledge",
+        "all undeclared capabilities are absent"
+      ],
+      "actor_knowledge": [
+        "published System behaviour",
+        "locally observable causal results"
+      ],
+      "available_resources": {
+        "bounded": true,
+        "declared_facts": {
+          "canonical_origin_count": 1,
+          "claim_count": 4,
+          "prospective": true
+        }
+      },
+      "action_sequence": [
+        "establish declared preconditions",
+        "attempt the adversarial transaction",
+        "evaluate protected invariants",
+        "commit or reject atomically"
+      ],
+      "repair_id": "CAL0-I5-R01",
+      "predicted_result": "DENIED",
+      "observed_result": "DENIED",
+      "decision_reasons": [
+        "DUPLICATE_ENTITLEMENT"
+      ],
+      "causal_evidence": {
+        "canonical_origin_count": 1,
+        "admitted_claim_count": 1
+      },
+      "exploit_classification": "PREVENTED_BY_GOVERNING_INVARIANT",
+      "regression_test": "test_i5_a01",
+      "replays": [
+        {
+          "seed": 1709,
+          "traversal": "forward",
+          "outcome_digest": "sha256:5abf82213dde096337b670e1b086d40e9af3b66c38271384f10aad3985c68765"
+        },
+        {
+          "seed": 1709,
+          "traversal": "reverse",
+          "outcome_digest": "sha256:5abf82213dde096337b670e1b086d40e9af3b66c38271384f10aad3985c68765"
+        },
+        {
+          "seed": 6833,
+          "traversal": "forward",
+          "outcome_digest": "sha256:5abf82213dde096337b670e1b086d40e9af3b66c38271384f10aad3985c68765"
+        },
+        {
+          "seed": 6833,
+          "traversal": "reverse",
+          "outcome_digest": "sha256:5abf82213dde096337b670e1b086d40e9af3b66c38271384f10aad3985c68765"
+        }
+      ],
+      "passed": true,
+      "record_digest": "sha256:d69b7b1eb57c4267115afc9303f840b2f8def9022ab6543869dd705a20c54120"
+    },
+    {
+      "case_id": "I5-A02",
+      "title": "Cycle classes and launder pre-acceptance role theatre",
+      "surface": "individual",
+      "scale": "individual",
+      "family_tags": [
+        "class-cycling-role-theatre-offer-manipulation-evidence-laundering-milestone-replay"
+      ],
+      "mechanism": "entitlement",
+      "affected_invariants": [
+        "prospective_progression",
+        "non_duplication"
+      ],
+      "subsystems": [
+        "entitlement",
+        "individual"
+      ],
+      "preconditions": [
+        "attacker has the declared access, time, and knowledge",
+        "all undeclared capabilities are absent"
+      ],
+      "actor_knowledge": [
+        "published System behaviour",
+        "locally observable causal results"
+      ],
+      "available_resources": {
+        "bounded": true,
+        "declared_facts": {
+          "canonical_origin_count": 1,
+          "claim_count": 1,
+          "prospective": false
+        }
+      },
+      "action_sequence": [
+        "establish declared preconditions",
+        "attempt the adversarial transaction",
+        "evaluate protected invariants",
+        "commit or reject atomically"
+      ],
+      "repair_id": "CAL0-I5-R01",
+      "predicted_result": "DENIED",
+      "observed_result": "DENIED",
+      "decision_reasons": [
+        "RETROSPECTIVE_PROGRESSION"
+      ],
+      "causal_evidence": {
+        "canonical_origin_count": 1,
+        "admitted_claim_count": 0
+      },
+      "exploit_classification": "PREVENTED_BY_GOVERNING_INVARIANT",
+      "regression_test": "test_i5_a02",
+      "replays": [
+        {
+          "seed": 1709,
+          "traversal": "forward",
+          "outcome_digest": "sha256:e9c17335df1b14097872c544f28adb535f9d0affd2fc6112fd5878560098b9a0"
+        },
+        {
+          "seed": 1709,
+          "traversal": "reverse",
+          "outcome_digest": "sha256:e9c17335df1b14097872c544f28adb535f9d0affd2fc6112fd5878560098b9a0"
+        },
+        {
+          "seed": 6833,
+          "traversal": "forward",
+          "outcome_digest": "sha256:e9c17335df1b14097872c544f28adb535f9d0affd2fc6112fd5878560098b9a0"
+        },
+        {
+          "seed": 6833,
+          "traversal": "reverse",
+          "outcome_digest": "sha256:e9c17335df1b14097872c544f28adb535f9d0affd2fc6112fd5878560098b9a0"
+        }
+      ],
+      "passed": true,
+      "record_digest": "sha256:06b6bdd1fee3df212850c35dbd9bdb9fcfd2009a1fd3dc1c63c6730127d61ed6"
+    },
+    {
+      "case_id": "I5-A03",
+      "title": "Claim full personal kill credit through token delegation",
+      "surface": "individual",
+      "scale": "group",
+      "family_tags": [
+        "delegated-kills-party-contribution-manufactured-danger-captive-targets-threat-inflation"
+      ],
+      "mechanism": "contribution",
+      "affected_invariants": [
+        "provenance",
+        "non_duplication"
+      ],
+      "subsystems": [
+        "contribution",
+        "individual"
+      ],
+      "preconditions": [
+        "attacker has the declared access, time, and knowledge",
+        "all undeclared capabilities are absent"
+      ],
+      "actor_knowledge": [
+        "published System behaviour",
+        "locally observable causal results"
+      ],
+      "available_resources": {
+        "bounded": true,
+        "declared_facts": {
+          "causal_contribution": "0.12",
+          "claimed_contribution": "1",
+          "threat_real": false
+        }
+      },
+      "action_sequence": [
+        "establish declared preconditions",
+        "attempt the adversarial transaction",
+        "evaluate protected invariants",
+        "commit or reject atomically"
+      ],
+      "repair_id": null,
+      "predicted_result": "DENIED",
+      "observed_result": "DENIED",
+      "decision_reasons": [
+        "UNSUPPORTED_CONTRIBUTION_OR_THREAT"
+      ],
+      "causal_evidence": {
+        "causal_contribution": "0.12",
+        "threat_real": false
+      },
+      "exploit_classification": "PREVENTED_BY_GOVERNING_INVARIANT",
+      "regression_test": "test_i5_a03",
+      "replays": [
+        {
+          "seed": 1709,
+          "traversal": "forward",
+          "outcome_digest": "sha256:53a06300e7b78659b3341f899bf5bf76ba52594ee2665af237be59c061908a70"
+        },
+        {
+          "seed": 1709,
+          "traversal": "reverse",
+          "outcome_digest": "sha256:53a06300e7b78659b3341f899bf5bf76ba52594ee2665af237be59c061908a70"
+        },
+        {
+          "seed": 6833,
+          "traversal": "forward",
+          "outcome_digest": "sha256:53a06300e7b78659b3341f899bf5bf76ba52594ee2665af237be59c061908a70"
+        },
+        {
+          "seed": 6833,
+          "traversal": "reverse",
+          "outcome_digest": "sha256:53a06300e7b78659b3341f899bf5bf76ba52594ee2665af237be59c061908a70"
+        }
+      ],
+      "passed": true,
+      "record_digest": "sha256:2dbb04393bb780b3457ed5a7a3c88b27106666c53332ba580da7026665911c8a"
+    },
+    {
+      "case_id": "I5-A04",
+      "title": "Copy a relic identity from one salvaged fragment",
+      "surface": "individual",
+      "scale": "individual",
+      "family_tags": [
+        "item-repair-reconstruction-copying-salvage-binding-storage-nesting-relic-continuity"
+      ],
+      "mechanism": "identity",
+      "affected_invariants": [
+        "exclusive_identity",
+        "non_duplication"
+      ],
+      "subsystems": [
+        "identity",
+        "individual"
+      ],
+      "preconditions": [
+        "attacker has the declared access, time, and knowledge",
+        "all undeclared capabilities are absent"
+      ],
+      "actor_knowledge": [
+        "published System behaviour",
+        "locally observable causal results"
+      ],
+      "available_resources": {
+        "bounded": true,
+        "declared_facts": {
+          "original_claimants": 3,
+          "exclusive_transfer": false,
+          "derived_copies": false
+        }
+      },
+      "action_sequence": [
+        "establish declared preconditions",
+        "attempt the adversarial transaction",
+        "evaluate protected invariants",
+        "commit or reject atomically"
+      ],
+      "repair_id": "CAL0-I5-R04",
+      "predicted_result": "DENIED",
+      "observed_result": "DENIED",
+      "decision_reasons": [
+        "EXCLUSIVE_IDENTITY_VIOLATION"
+      ],
+      "causal_evidence": {
+        "continuing_original_holders": 1,
+        "derived_copy_identity": false,
+        "exclusive_transfer": false
+      },
+      "exploit_classification": "PREVENTED_BY_GOVERNING_INVARIANT",
+      "regression_test": "test_i5_a04",
+      "replays": [
+        {
+          "seed": 1709,
+          "traversal": "forward",
+          "outcome_digest": "sha256:1db945d9389210df8e62e5dc750d2a21620546d7737be3f344a6091eec73c7e0"
+        },
+        {
+          "seed": 1709,
+          "traversal": "reverse",
+          "outcome_digest": "sha256:1db945d9389210df8e62e5dc750d2a21620546d7737be3f344a6091eec73c7e0"
+        },
+        {
+          "seed": 6833,
+          "traversal": "forward",
+          "outcome_digest": "sha256:1db945d9389210df8e62e5dc750d2a21620546d7737be3f344a6091eec73c7e0"
+        },
+        {
+          "seed": 6833,
+          "traversal": "reverse",
+          "outcome_digest": "sha256:1db945d9389210df8e62e5dc750d2a21620546d7737be3f344a6091eec73c7e0"
+        }
+      ],
+      "passed": true,
+      "record_digest": "sha256:2001d68b5ca39d09aa8b6564bd9ab38df5576728a0fd28e633d705e7e13c3603"
+    },
+    {
+      "case_id": "I5-A05",
+      "title": "Academy compounds nutrition, coaching, feedback, and recovery",
+      "surface": "institutional",
+      "scale": "institution",
+      "family_tags": [
+        "institutional-monopoly-coercive-progression-recovery-inequality-child-optimisation-intergenerational-advantage"
+      ],
+      "mechanism": "training",
+      "affected_invariants": [
+        "organic_adaptation",
+        "provenance"
+      ],
+      "subsystems": [
+        "institutional",
+        "training"
+      ],
+      "preconditions": [
+        "attacker has the declared access, time, and knowledge",
+        "all undeclared capabilities are absent"
+      ],
+      "actor_knowledge": [
+        "published System behaviour",
+        "locally observable causal results"
+      ],
+      "available_resources": {
+        "bounded": true,
+        "declared_facts": {
+          "unique_stimuli": 12,
+          "claimed_adaptation": "0.48",
+          "supported_adaptation": "0.52",
+          "recovery": true,
+          "damage_as_growth": false
+        }
+      },
+      "action_sequence": [
+        "establish declared preconditions",
+        "attempt the adversarial transaction",
+        "evaluate protected invariants",
+        "commit or reject atomically"
+      ],
+      "repair_id": "CAL0-I5-R05",
+      "predicted_result": "ALLOWED",
+      "observed_result": "ALLOWED",
+      "decision_reasons": [],
+      "causal_evidence": {
+        "unique_stimuli": 12,
+        "supported_adaptation": "0.52",
+        "damage_as_growth": false
+      },
+      "exploit_classification": "VALID_EMERGENT_STRATEGY",
+      "regression_test": "test_i5_a05",
+      "replays": [
+        {
+          "seed": 1709,
+          "traversal": "forward",
+          "outcome_digest": "sha256:16e777d390dd5ae6ffd984b664e04d80404e3a25c3249be23d192c4231944c3c"
+        },
+        {
+          "seed": 1709,
+          "traversal": "reverse",
+          "outcome_digest": "sha256:16e777d390dd5ae6ffd984b664e04d80404e3a25c3249be23d192c4231944c3c"
+        },
+        {
+          "seed": 6833,
+          "traversal": "forward",
+          "outcome_digest": "sha256:16e777d390dd5ae6ffd984b664e04d80404e3a25c3249be23d192c4231944c3c"
+        },
+        {
+          "seed": 6833,
+          "traversal": "reverse",
+          "outcome_digest": "sha256:16e777d390dd5ae6ffd984b664e04d80404e3a25c3249be23d192c4231944c3c"
+        }
+      ],
+      "passed": true,
+      "record_digest": "sha256:98b203d1160bcefa821740dd49ad7c0fff1aebb8a894c5699195916ead8167c7"
+    },
+    {
+      "case_id": "I5-A06",
+      "title": "Guardian appropriates a child's identity-bearing progression",
+      "surface": "institutional",
+      "scale": "institution",
+      "family_tags": [
+        "institutional-monopoly-coercive-progression-recovery-inequality-child-optimisation-intergenerational-advantage"
+      ],
+      "mechanism": "authority",
+      "affected_invariants": [
+        "scoped_authority",
+        "exclusive_identity"
+      ],
+      "subsystems": [
+        "authority",
+        "institutional"
+      ],
+      "preconditions": [
+        "attacker has the declared access, time, and knowledge",
+        "all undeclared capabilities are absent"
+      ],
+      "actor_knowledge": [
+        "published System behaviour",
+        "locally observable causal results"
+      ],
+      "available_resources": {
+        "bounded": true,
+        "declared_facts": {
+          "source_evidence": true,
+          "audience_permission": true,
+          "authority_scope": false,
+          "consent_ok": false,
+          "display_only": false
+        }
+      },
+      "action_sequence": [
+        "establish declared preconditions",
+        "attempt the adversarial transaction",
+        "evaluate protected invariants",
+        "commit or reject atomically"
+      ],
+      "repair_id": "CAL0-I5-R03",
+      "predicted_result": "DENIED",
+      "observed_result": "DENIED",
+      "decision_reasons": [
+        "PROJECTION_OR_SCOPE_CANNOT_CREATE_AUTHORITY"
+      ],
+      "causal_evidence": {
+        "audience_permission": true,
+        "authority_scope": false,
+        "consent_ok": false,
+        "display_only": false,
+        "source_evidence": true
+      },
+      "exploit_classification": "PREVENTED_BY_GOVERNING_INVARIANT",
+      "regression_test": "test_i5_a06",
+      "replays": [
+        {
+          "seed": 1709,
+          "traversal": "forward",
+          "outcome_digest": "sha256:6873b4a361c841fcfeab718b9561433b92180b17a0d309479c576e1041381c04"
+        },
+        {
+          "seed": 1709,
+          "traversal": "reverse",
+          "outcome_digest": "sha256:6873b4a361c841fcfeab718b9561433b92180b17a0d309479c576e1041381c04"
+        },
+        {
+          "seed": 6833,
+          "traversal": "forward",
+          "outcome_digest": "sha256:6873b4a361c841fcfeab718b9561433b92180b17a0d309479c576e1041381c04"
+        },
+        {
+          "seed": 6833,
+          "traversal": "reverse",
+          "outcome_digest": "sha256:6873b4a361c841fcfeab718b9561433b92180b17a0d309479c576e1041381c04"
+        }
+      ],
+      "passed": true,
+      "record_digest": "sha256:b82708a1182a32d2da094e83364fb8b34f1d7cac45ea97944408111a0cd47109"
+    },
+    {
+      "case_id": "I5-A07",
+      "title": "Displayed guild title is treated as universal authority",
+      "surface": "institutional",
+      "scale": "institution",
+      "family_tags": [
+        "achievement-firsts-title-authority-perk-selection-quest-amendment-reward-duplication"
+      ],
+      "mechanism": "authority",
+      "affected_invariants": [
+        "projection_not_creation",
+        "scoped_authority"
+      ],
+      "subsystems": [
+        "authority",
+        "institutional"
+      ],
+      "preconditions": [
+        "attacker has the declared access, time, and knowledge",
+        "all undeclared capabilities are absent"
+      ],
+      "actor_knowledge": [
+        "published System behaviour",
+        "locally observable causal results"
+      ],
+      "available_resources": {
+        "bounded": true,
+        "declared_facts": {
+          "source_evidence": true,
+          "audience_permission": true,
+          "authority_scope": false,
+          "consent_ok": true,
+          "display_only": true
+        }
+      },
+      "action_sequence": [
+        "establish declared preconditions",
+        "attempt the adversarial transaction",
+        "evaluate protected invariants",
+        "commit or reject atomically"
+      ],
+      "repair_id": "CAL0-I5-R03",
+      "predicted_result": "DENIED",
+      "observed_result": "DENIED",
+      "decision_reasons": [
+        "PROJECTION_OR_SCOPE_CANNOT_CREATE_AUTHORITY"
+      ],
+      "causal_evidence": {
+        "audience_permission": true,
+        "authority_scope": false,
+        "consent_ok": true,
+        "display_only": true,
+        "source_evidence": true
+      },
+      "exploit_classification": "PREVENTED_BY_GOVERNING_INVARIANT",
+      "regression_test": "test_i5_a07",
+      "replays": [
+        {
+          "seed": 1709,
+          "traversal": "forward",
+          "outcome_digest": "sha256:693461cf282db3add9d69ce74b648726ac697e1d2b593db8e638dd74297b1f6c"
+        },
+        {
+          "seed": 1709,
+          "traversal": "reverse",
+          "outcome_digest": "sha256:693461cf282db3add9d69ce74b648726ac697e1d2b593db8e638dd74297b1f6c"
+        },
+        {
+          "seed": 6833,
+          "traversal": "forward",
+          "outcome_digest": "sha256:693461cf282db3add9d69ce74b648726ac697e1d2b593db8e638dd74297b1f6c"
+        },
+        {
+          "seed": 6833,
+          "traversal": "reverse",
+          "outcome_digest": "sha256:693461cf282db3add9d69ce74b648726ac697e1d2b593db8e638dd74297b1f6c"
+        }
+      ],
+      "passed": true,
+      "record_digest": "sha256:06003b49dcf00e55caa3d31d5e767784616e183b3eed2db37f8135b0fb4e4c99"
+    },
+    {
+      "case_id": "I5-A08",
+      "title": "Guild monopoly preserves costly expertise across generations",
+      "surface": "institutional",
+      "scale": "institution",
+      "family_tags": [
+        "institutional-monopoly-coercive-progression-recovery-inequality-child-optimisation-intergenerational-advantage"
+      ],
+      "mechanism": "production",
+      "affected_invariants": [
+        "provenance",
+        "scoped_authority"
+      ],
+      "subsystems": [
+        "institutional",
+        "production"
+      ],
+      "preconditions": [
+        "attacker has the declared access, time, and knowledge",
+        "all undeclared capabilities are absent"
+      ],
+      "actor_knowledge": [
+        "published System behaviour",
+        "locally observable causal results"
+      ],
+      "available_resources": {
+        "bounded": true,
+        "declared_facts": {
+          "input_units": "100",
+          "output_units": "92",
+          "source_witness": true,
+          "authority_scope": true
+        }
+      },
+      "action_sequence": [
+        "establish declared preconditions",
+        "attempt the adversarial transaction",
+        "evaluate protected invariants",
+        "commit or reject atomically"
+      ],
+      "repair_id": null,
+      "predicted_result": "ALLOWED",
+      "observed_result": "ALLOWED",
+      "decision_reasons": [],
+      "causal_evidence": {
+        "available_units": "100",
+        "output_units": "92",
+        "renewal_witnessed": true
+      },
+      "exploit_classification": "VALID_EMERGENT_STRATEGY",
+      "regression_test": "test_i5_a08",
+      "replays": [
+        {
+          "seed": 1709,
+          "traversal": "forward",
+          "outcome_digest": "sha256:21247df13c224cc0389c9495b72c450abcc24885c10aedce7702bb56b7d0c3ed"
+        },
+        {
+          "seed": 1709,
+          "traversal": "reverse",
+          "outcome_digest": "sha256:21247df13c224cc0389c9495b72c450abcc24885c10aedce7702bb56b7d0c3ed"
+        },
+        {
+          "seed": 6833,
+          "traversal": "forward",
+          "outcome_digest": "sha256:21247df13c224cc0389c9495b72c450abcc24885c10aedce7702bb56b7d0c3ed"
+        },
+        {
+          "seed": 6833,
+          "traversal": "reverse",
+          "outcome_digest": "sha256:21247df13c224cc0389c9495b72c450abcc24885c10aedce7702bb56b7d0c3ed"
+        }
+      ],
+      "passed": true,
+      "record_digest": "sha256:9dc3fef9935ee75ccdbdb67f73a45c6b207ae4472d1e5e804b10808a478dd90d"
+    },
+    {
+      "case_id": "I5-A09",
+      "title": "Automated crafting line multiplies throughput with funded inputs",
+      "surface": "economic",
+      "scale": "economy",
+      "family_tags": [
+        "item-repair-reconstruction-copying-salvage-binding-storage-nesting-relic-continuity"
+      ],
+      "mechanism": "production",
+      "affected_invariants": [
+        "provenance",
+        "supported_renewal"
+      ],
+      "subsystems": [
+        "economic",
+        "production"
+      ],
+      "preconditions": [
+        "attacker has the declared access, time, and knowledge",
+        "all undeclared capabilities are absent"
+      ],
+      "actor_knowledge": [
+        "published System behaviour",
+        "locally observable causal results"
+      ],
+      "available_resources": {
+        "bounded": true,
+        "declared_facts": {
+          "input_units": "1000",
+          "output_units": "940",
+          "source_witness": true,
+          "authority_scope": true
+        }
+      },
+      "action_sequence": [
+        "establish declared preconditions",
+        "attempt the adversarial transaction",
+        "evaluate protected invariants",
+        "commit or reject atomically"
+      ],
+      "repair_id": null,
+      "predicted_result": "ALLOWED",
+      "observed_result": "ALLOWED",
+      "decision_reasons": [],
+      "causal_evidence": {
+        "available_units": "1000",
+        "output_units": "940",
+        "renewal_witnessed": true
+      },
+      "exploit_classification": "VALID_EMERGENT_STRATEGY",
+      "regression_test": "test_i5_a09",
+      "replays": [
+        {
+          "seed": 1709,
+          "traversal": "forward",
+          "outcome_digest": "sha256:104d1af57d066eb72615268fb603878a4894f4458d4d18baca513370f02d1361"
+        },
+        {
+          "seed": 1709,
+          "traversal": "reverse",
+          "outcome_digest": "sha256:104d1af57d066eb72615268fb603878a4894f4458d4d18baca513370f02d1361"
+        },
+        {
+          "seed": 6833,
+          "traversal": "forward",
+          "outcome_digest": "sha256:104d1af57d066eb72615268fb603878a4894f4458d4d18baca513370f02d1361"
+        },
+        {
+          "seed": 6833,
+          "traversal": "reverse",
+          "outcome_digest": "sha256:104d1af57d066eb72615268fb603878a4894f4458d4d18baca513370f02d1361"
+        }
+      ],
+      "passed": true,
+      "record_digest": "sha256:601501c879fa262150dd05d21541f23ddd5c64f8207b20419ebbfc0d4520f895"
+    },
+    {
+      "case_id": "I5-A10",
+      "title": "Reward arbitrage renames one delivery across contracts",
+      "surface": "economic",
+      "scale": "economy",
+      "family_tags": [
+        "achievement-firsts-title-authority-perk-selection-quest-amendment-reward-duplication"
+      ],
+      "mechanism": "entitlement",
+      "affected_invariants": [
+        "non_duplication",
+        "single_reinforcement"
+      ],
+      "subsystems": [
+        "economic",
+        "entitlement"
+      ],
+      "preconditions": [
+        "attacker has the declared access, time, and knowledge",
+        "all undeclared capabilities are absent"
+      ],
+      "actor_knowledge": [
+        "published System behaviour",
+        "locally observable causal results"
+      ],
+      "available_resources": {
+        "bounded": true,
+        "declared_facts": {
+          "canonical_origin_count": 1,
+          "claim_count": 6,
+          "prospective": true
+        }
+      },
+      "action_sequence": [
+        "establish declared preconditions",
+        "attempt the adversarial transaction",
+        "evaluate protected invariants",
+        "commit or reject atomically"
+      ],
+      "repair_id": "CAL0-I5-R01",
+      "predicted_result": "DENIED",
+      "observed_result": "DENIED",
+      "decision_reasons": [
+        "DUPLICATE_ENTITLEMENT"
+      ],
+      "causal_evidence": {
+        "canonical_origin_count": 1,
+        "admitted_claim_count": 1
+      },
+      "exploit_classification": "PREVENTED_BY_GOVERNING_INVARIANT",
+      "regression_test": "test_i5_a10",
+      "replays": [
+        {
+          "seed": 1709,
+          "traversal": "forward",
+          "outcome_digest": "sha256:d8e80d943db3f7e2210a4e5ee5a0aafb1b2256633d252187a351e6b1fbf4b2f5"
+        },
+        {
+          "seed": 1709,
+          "traversal": "reverse",
+          "outcome_digest": "sha256:d8e80d943db3f7e2210a4e5ee5a0aafb1b2256633d252187a351e6b1fbf4b2f5"
+        },
+        {
+          "seed": 6833,
+          "traversal": "forward",
+          "outcome_digest": "sha256:d8e80d943db3f7e2210a4e5ee5a0aafb1b2256633d252187a351e6b1fbf4b2f5"
+        },
+        {
+          "seed": 6833,
+          "traversal": "reverse",
+          "outcome_digest": "sha256:d8e80d943db3f7e2210a4e5ee5a0aafb1b2256633d252187a351e6b1fbf4b2f5"
+        }
+      ],
+      "passed": true,
+      "record_digest": "sha256:0eb3f891a0d23b0fced6dadd60cd46d68190f3d00af9338f4c6c7338f78047c0"
+    },
+    {
+      "case_id": "I5-A11",
+      "title": "Nested storage claims each container's full external capacity",
+      "surface": "economic",
+      "scale": "economy",
+      "family_tags": [
+        "item-repair-reconstruction-copying-salvage-binding-storage-nesting-relic-continuity"
+      ],
+      "mechanism": "resource",
+      "affected_invariants": [
+        "provenance",
+        "supported_renewal"
+      ],
+      "subsystems": [
+        "economic",
+        "resource"
+      ],
+      "preconditions": [
+        "attacker has the declared access, time, and knowledge",
+        "all undeclared capabilities are absent"
+      ],
+      "actor_knowledge": [
+        "published System behaviour",
+        "locally observable causal results"
+      ],
+      "available_resources": {
+        "bounded": true,
+        "declared_facts": {
+          "input_units": "20",
+          "renewal_units": "0",
+          "output_units": "100",
+          "source_witness": false
+        }
+      },
+      "action_sequence": [
+        "establish declared preconditions",
+        "attempt the adversarial transaction",
+        "evaluate protected invariants",
+        "commit or reject atomically"
+      ],
+      "repair_id": null,
+      "predicted_result": "DENIED",
+      "observed_result": "DENIED",
+      "decision_reasons": [
+        "UNFUNDED_OUTPUT_OR_SCOPE"
+      ],
+      "causal_evidence": {
+        "available_units": "20",
+        "output_units": "100",
+        "renewal_witnessed": true
+      },
+      "exploit_classification": "PREVENTED_BY_GOVERNING_INVARIANT",
+      "regression_test": "test_i5_a11",
+      "replays": [
+        {
+          "seed": 1709,
+          "traversal": "forward",
+          "outcome_digest": "sha256:df901f3dc0d0a264cb14c59247a0848b8ef587c71e55c8362a0d0b150a63bd74"
+        },
+        {
+          "seed": 1709,
+          "traversal": "reverse",
+          "outcome_digest": "sha256:df901f3dc0d0a264cb14c59247a0848b8ef587c71e55c8362a0d0b150a63bd74"
+        },
+        {
+          "seed": 6833,
+          "traversal": "forward",
+          "outcome_digest": "sha256:df901f3dc0d0a264cb14c59247a0848b8ef587c71e55c8362a0d0b150a63bd74"
+        },
+        {
+          "seed": 6833,
+          "traversal": "reverse",
+          "outcome_digest": "sha256:df901f3dc0d0a264cb14c59247a0848b8ef587c71e55c8362a0d0b150a63bd74"
+        }
+      ],
+      "passed": true,
+      "record_digest": "sha256:ff4b7266c62b3b3b5312558a8e2158faf6adc8a01c870eb994fc3815ed73cfba"
+    },
+    {
+      "case_id": "I5-A12",
+      "title": "Dungeon spawn industry harvests below witnessed renewal",
+      "surface": "economic",
+      "scale": "economy",
+      "family_tags": [
+        "dungeon-spawn-industrialisation-reset-loops-treasure-restocking-controller-capture"
+      ],
+      "mechanism": "resource",
+      "affected_invariants": [
+        "provenance",
+        "supported_renewal"
+      ],
+      "subsystems": [
+        "economic",
+        "resource"
+      ],
+      "preconditions": [
+        "attacker has the declared access, time, and knowledge",
+        "all undeclared capabilities are absent"
+      ],
+      "actor_knowledge": [
+        "published System behaviour",
+        "locally observable causal results"
+      ],
+      "available_resources": {
+        "bounded": true,
+        "declared_facts": {
+          "input_units": "30",
+          "renewal_units": "70",
+          "output_units": "80",
+          "source_witness": true
+        }
+      },
+      "action_sequence": [
+        "establish declared preconditions",
+        "attempt the adversarial transaction",
+        "evaluate protected invariants",
+        "commit or reject atomically"
+      ],
+      "repair_id": "CAL0-I5-R02",
+      "predicted_result": "ALLOWED",
+      "observed_result": "ALLOWED",
+      "decision_reasons": [],
+      "causal_evidence": {
+        "available_units": "100",
+        "output_units": "80",
+        "renewal_witnessed": true
+      },
+      "exploit_classification": "VALID_EMERGENT_STRATEGY",
+      "regression_test": "test_i5_a12",
+      "replays": [
+        {
+          "seed": 1709,
+          "traversal": "forward",
+          "outcome_digest": "sha256:6362a88e7ba368d54614664762f303d88138fe121e49e93a790810c5ebfa5edc"
+        },
+        {
+          "seed": 1709,
+          "traversal": "reverse",
+          "outcome_digest": "sha256:6362a88e7ba368d54614664762f303d88138fe121e49e93a790810c5ebfa5edc"
+        },
+        {
+          "seed": 6833,
+          "traversal": "forward",
+          "outcome_digest": "sha256:6362a88e7ba368d54614664762f303d88138fe121e49e93a790810c5ebfa5edc"
+        },
+        {
+          "seed": 6833,
+          "traversal": "reverse",
+          "outcome_digest": "sha256:6362a88e7ba368d54614664762f303d88138fe121e49e93a790810c5ebfa5edc"
+        }
+      ],
+      "passed": true,
+      "record_digest": "sha256:817308995a793ae5da05950b30bb5a02e86cf9ea8a603bee1f2c71207e14050a"
+    },
+    {
+      "case_id": "I5-A13",
+      "title": "Selective breeding improves a population over real generations",
+      "surface": "ecological",
+      "scale": "ecology",
+      "family_tags": [
+        "breeding-harvesting-migration-depletion-domestication-magical-resource-farming"
+      ],
+      "mechanism": "ecology",
+      "affected_invariants": [
+        "provenance",
+        "supported_renewal"
+      ],
+      "subsystems": [
+        "ecological",
+        "ecology"
+      ],
+      "preconditions": [
+        "attacker has the declared access, time, and knowledge",
+        "all undeclared capabilities are absent"
+      ],
+      "actor_knowledge": [
+        "published System behaviour",
+        "locally observable causal results"
+      ],
+      "available_resources": {
+        "bounded": true,
+        "declared_facts": {
+          "stock": "500",
+          "renewal": "80",
+          "harvest": "40",
+          "reproduction_witness": true
+        }
+      },
+      "action_sequence": [
+        "establish declared preconditions",
+        "attempt the adversarial transaction",
+        "evaluate protected invariants",
+        "commit or reject atomically"
+      ],
+      "repair_id": null,
+      "predicted_result": "ALLOWED",
+      "observed_result": "ALLOWED",
+      "decision_reasons": [],
+      "causal_evidence": {
+        "available_biomass": "580",
+        "harvest": "40",
+        "reproduction_witness": true
+      },
+      "exploit_classification": "VALID_EMERGENT_STRATEGY",
+      "regression_test": "test_i5_a13",
+      "replays": [
+        {
+          "seed": 1709,
+          "traversal": "forward",
+          "outcome_digest": "sha256:e2215bd643e343ef330135f07decb6a7d733a6cd816888952d06374ad95f5046"
+        },
+        {
+          "seed": 1709,
+          "traversal": "reverse",
+          "outcome_digest": "sha256:e2215bd643e343ef330135f07decb6a7d733a6cd816888952d06374ad95f5046"
+        },
+        {
+          "seed": 6833,
+          "traversal": "forward",
+          "outcome_digest": "sha256:e2215bd643e343ef330135f07decb6a7d733a6cd816888952d06374ad95f5046"
+        },
+        {
+          "seed": 6833,
+          "traversal": "reverse",
+          "outcome_digest": "sha256:e2215bd643e343ef330135f07decb6a7d733a6cd816888952d06374ad95f5046"
+        }
+      ],
+      "passed": true,
+      "record_digest": "sha256:418cfe84145f017cfce1ebee361ea752cef0c8cb9e0ef1c72d77f97223f60e61"
+    },
+    {
+      "case_id": "I5-A14",
+      "title": "Harvest cartel extracts beyond stock and regeneration",
+      "surface": "ecological",
+      "scale": "ecology",
+      "family_tags": [
+        "breeding-harvesting-migration-depletion-domestication-magical-resource-farming"
+      ],
+      "mechanism": "ecology",
+      "affected_invariants": [
+        "provenance",
+        "supported_renewal"
+      ],
+      "subsystems": [
+        "ecological",
+        "ecology"
+      ],
+      "preconditions": [
+        "attacker has the declared access, time, and knowledge",
+        "all undeclared capabilities are absent"
+      ],
+      "actor_knowledge": [
+        "published System behaviour",
+        "locally observable causal results"
+      ],
+      "available_resources": {
+        "bounded": true,
+        "declared_facts": {
+          "stock": "100",
+          "renewal": "10",
+          "harvest": "160",
+          "reproduction_witness": true
+        }
+      },
+      "action_sequence": [
+        "establish declared preconditions",
+        "attempt the adversarial transaction",
+        "evaluate protected invariants",
+        "commit or reject atomically"
+      ],
+      "repair_id": "CAL0-I5-R02",
+      "predicted_result": "DENIED",
+      "observed_result": "DENIED",
+      "decision_reasons": [
+        "ECOLOGICAL_SOURCE_EXHAUSTED"
+      ],
+      "causal_evidence": {
+        "available_biomass": "110",
+        "harvest": "160",
+        "reproduction_witness": true
+      },
+      "exploit_classification": "PREVENTED_BY_GOVERNING_INVARIANT",
+      "regression_test": "test_i5_a14",
+      "replays": [
+        {
+          "seed": 1709,
+          "traversal": "forward",
+          "outcome_digest": "sha256:4bbc926764b7203d7027453eca884fda0900d67b4850b68c629c948566236bbe"
+        },
+        {
+          "seed": 1709,
+          "traversal": "reverse",
+          "outcome_digest": "sha256:4bbc926764b7203d7027453eca884fda0900d67b4850b68c629c948566236bbe"
+        },
+        {
+          "seed": 6833,
+          "traversal": "forward",
+          "outcome_digest": "sha256:4bbc926764b7203d7027453eca884fda0900d67b4850b68c629c948566236bbe"
+        },
+        {
+          "seed": 6833,
+          "traversal": "reverse",
+          "outcome_digest": "sha256:4bbc926764b7203d7027453eca884fda0900d67b4850b68c629c948566236bbe"
+        }
+      ],
+      "passed": true,
+      "record_digest": "sha256:b4fe3da0b6002e55d30b18ada06277246672f589ba29b81b6d9ffabe69679b60"
+    },
+    {
+      "case_id": "I5-A15",
+      "title": "Migration is counted as birth in both source and destination",
+      "surface": "ecological",
+      "scale": "ecology",
+      "family_tags": [
+        "breeding-harvesting-migration-depletion-domestication-magical-resource-farming"
+      ],
+      "mechanism": "entitlement",
+      "affected_invariants": [
+        "non_duplication",
+        "provenance"
+      ],
+      "subsystems": [
+        "ecological",
+        "entitlement"
+      ],
+      "preconditions": [
+        "attacker has the declared access, time, and knowledge",
+        "all undeclared capabilities are absent"
+      ],
+      "actor_knowledge": [
+        "published System behaviour",
+        "locally observable causal results"
+      ],
+      "available_resources": {
+        "bounded": true,
+        "declared_facts": {
+          "canonical_origin_count": 1,
+          "claim_count": 2,
+          "prospective": true
+        }
+      },
+      "action_sequence": [
+        "establish declared preconditions",
+        "attempt the adversarial transaction",
+        "evaluate protected invariants",
+        "commit or reject atomically"
+      ],
+      "repair_id": "CAL0-I5-R01",
+      "predicted_result": "DENIED",
+      "observed_result": "DENIED",
+      "decision_reasons": [
+        "DUPLICATE_ENTITLEMENT"
+      ],
+      "causal_evidence": {
+        "canonical_origin_count": 1,
+        "admitted_claim_count": 1
+      },
+      "exploit_classification": "PREVENTED_BY_GOVERNING_INVARIANT",
+      "regression_test": "test_i5_a15",
+      "replays": [
+        {
+          "seed": 1709,
+          "traversal": "forward",
+          "outcome_digest": "sha256:41b6f87a4952742c79bc934b7c4adc8d8547e6c19d0c53724664b9d2b6895e3e"
+        },
+        {
+          "seed": 1709,
+          "traversal": "reverse",
+          "outcome_digest": "sha256:41b6f87a4952742c79bc934b7c4adc8d8547e6c19d0c53724664b9d2b6895e3e"
+        },
+        {
+          "seed": 6833,
+          "traversal": "forward",
+          "outcome_digest": "sha256:41b6f87a4952742c79bc934b7c4adc8d8547e6c19d0c53724664b9d2b6895e3e"
+        },
+        {
+          "seed": 6833,
+          "traversal": "reverse",
+          "outcome_digest": "sha256:41b6f87a4952742c79bc934b7c4adc8d8547e6c19d0c53724664b9d2b6895e3e"
+        }
+      ],
+      "passed": true,
+      "record_digest": "sha256:e9ae1008c40e441d068c05b14974345f8be0e7422d648802cf89398c996a4ca3"
+    },
+    {
+      "case_id": "I5-A16",
+      "title": "Invasive magical organism expands through real reproduction",
+      "surface": "ecological",
+      "scale": "ecology",
+      "family_tags": [
+        "breeding-harvesting-migration-depletion-domestication-magical-resource-farming"
+      ],
+      "mechanism": "ecology",
+      "affected_invariants": [
+        "provenance",
+        "supported_renewal"
+      ],
+      "subsystems": [
+        "ecological",
+        "ecology"
+      ],
+      "preconditions": [
+        "attacker has the declared access, time, and knowledge",
+        "all undeclared capabilities are absent"
+      ],
+      "actor_knowledge": [
+        "published System behaviour",
+        "locally observable causal results"
+      ],
+      "available_resources": {
+        "bounded": true,
+        "declared_facts": {
+          "stock": "40",
+          "renewal": "30",
+          "harvest": "5",
+          "reproduction_witness": true
+        }
+      },
+      "action_sequence": [
+        "establish declared preconditions",
+        "attempt the adversarial transaction",
+        "evaluate protected invariants",
+        "commit or reject atomically"
+      ],
+      "repair_id": null,
+      "predicted_result": "ALLOWED",
+      "observed_result": "ALLOWED",
+      "decision_reasons": [],
+      "causal_evidence": {
+        "available_biomass": "70",
+        "harvest": "5",
+        "reproduction_witness": true
+      },
+      "exploit_classification": "VALID_EMERGENT_STRATEGY",
+      "regression_test": "test_i5_a16",
+      "replays": [
+        {
+          "seed": 1709,
+          "traversal": "forward",
+          "outcome_digest": "sha256:1805cf93d1cea6f5d6f378a531f25136629c94f6b40bdcd8ca34e430432647ed"
+        },
+        {
+          "seed": 1709,
+          "traversal": "reverse",
+          "outcome_digest": "sha256:1805cf93d1cea6f5d6f378a531f25136629c94f6b40bdcd8ca34e430432647ed"
+        },
+        {
+          "seed": 6833,
+          "traversal": "forward",
+          "outcome_digest": "sha256:1805cf93d1cea6f5d6f378a531f25136629c94f6b40bdcd8ca34e430432647ed"
+        },
+        {
+          "seed": 6833,
+          "traversal": "reverse",
+          "outcome_digest": "sha256:1805cf93d1cea6f5d6f378a531f25136629c94f6b40bdcd8ca34e430432647ed"
+        }
+      ],
+      "passed": true,
+      "record_digest": "sha256:3ceaefd3f6a435caa31e1c1bc6144f6ccc0fa14ecbf0a23f54e55547a027541a"
+    },
+    {
+      "case_id": "I5-A17",
+      "title": "Appraisal infers protected private facets without evidence",
+      "surface": "informational",
+      "scale": "institution",
+      "family_tags": [
+        "appraisal-privacy-false-disclosure-surveillance-interface-spoofing"
+      ],
+      "mechanism": "authority",
+      "affected_invariants": [
+        "projection_not_creation",
+        "scoped_authority"
+      ],
+      "subsystems": [
+        "authority",
+        "informational"
+      ],
+      "preconditions": [
+        "attacker has the declared access, time, and knowledge",
+        "all undeclared capabilities are absent"
+      ],
+      "actor_knowledge": [
+        "published System behaviour",
+        "locally observable causal results"
+      ],
+      "available_resources": {
+        "bounded": true,
+        "declared_facts": {
+          "source_evidence": false,
+          "audience_permission": false,
+          "authority_scope": false,
+          "consent_ok": false,
+          "display_only": false
+        }
+      },
+      "action_sequence": [
+        "establish declared preconditions",
+        "attempt the adversarial transaction",
+        "evaluate protected invariants",
+        "commit or reject atomically"
+      ],
+      "repair_id": "CAL0-I5-R03",
+      "predicted_result": "DENIED",
+      "observed_result": "DENIED",
+      "decision_reasons": [
+        "PROJECTION_OR_SCOPE_CANNOT_CREATE_AUTHORITY"
+      ],
+      "causal_evidence": {
+        "audience_permission": false,
+        "authority_scope": false,
+        "consent_ok": false,
+        "display_only": false,
+        "source_evidence": false
+      },
+      "exploit_classification": "PREVENTED_BY_GOVERNING_INVARIANT",
+      "regression_test": "test_i5_a17",
+      "replays": [
+        {
+          "seed": 1709,
+          "traversal": "forward",
+          "outcome_digest": "sha256:a56da38b0c31a9ff338cb2e03112a42719bb1807c429035288f9fd462ad13900"
+        },
+        {
+          "seed": 1709,
+          "traversal": "reverse",
+          "outcome_digest": "sha256:a56da38b0c31a9ff338cb2e03112a42719bb1807c429035288f9fd462ad13900"
+        },
+        {
+          "seed": 6833,
+          "traversal": "forward",
+          "outcome_digest": "sha256:a56da38b0c31a9ff338cb2e03112a42719bb1807c429035288f9fd462ad13900"
+        },
+        {
+          "seed": 6833,
+          "traversal": "reverse",
+          "outcome_digest": "sha256:a56da38b0c31a9ff338cb2e03112a42719bb1807c429035288f9fd462ad13900"
+        }
+      ],
+      "passed": true,
+      "record_digest": "sha256:f6973bf9fe8925459deb4b309613bb1b7ca0029a8eb800b7d3a3db42976d1e7f"
+    },
+    {
+      "case_id": "I5-A18",
+      "title": "Forged interface disclosure manufactures capability",
+      "surface": "informational",
+      "scale": "individual",
+      "family_tags": [
+        "appraisal-privacy-false-disclosure-surveillance-interface-spoofing"
+      ],
+      "mechanism": "authority",
+      "affected_invariants": [
+        "projection_not_creation",
+        "provenance"
+      ],
+      "subsystems": [
+        "authority",
+        "informational"
+      ],
+      "preconditions": [
+        "attacker has the declared access, time, and knowledge",
+        "all undeclared capabilities are absent"
+      ],
+      "actor_knowledge": [
+        "published System behaviour",
+        "locally observable causal results"
+      ],
+      "available_resources": {
+        "bounded": true,
+        "declared_facts": {
+          "source_evidence": false,
+          "audience_permission": true,
+          "authority_scope": false,
+          "consent_ok": true,
+          "display_only": true
+        }
+      },
+      "action_sequence": [
+        "establish declared preconditions",
+        "attempt the adversarial transaction",
+        "evaluate protected invariants",
+        "commit or reject atomically"
+      ],
+      "repair_id": "CAL0-I5-R03",
+      "predicted_result": "DENIED",
+      "observed_result": "DENIED",
+      "decision_reasons": [
+        "PROJECTION_OR_SCOPE_CANNOT_CREATE_AUTHORITY"
+      ],
+      "causal_evidence": {
+        "audience_permission": true,
+        "authority_scope": false,
+        "consent_ok": true,
+        "display_only": true,
+        "source_evidence": false
+      },
+      "exploit_classification": "PREVENTED_BY_GOVERNING_INVARIANT",
+      "regression_test": "test_i5_a18",
+      "replays": [
+        {
+          "seed": 1709,
+          "traversal": "forward",
+          "outcome_digest": "sha256:059eb68fc1340bb0df365918db0b977b21278a2bfa0c26a218331207aa56241f"
+        },
+        {
+          "seed": 1709,
+          "traversal": "reverse",
+          "outcome_digest": "sha256:059eb68fc1340bb0df365918db0b977b21278a2bfa0c26a218331207aa56241f"
+        },
+        {
+          "seed": 6833,
+          "traversal": "forward",
+          "outcome_digest": "sha256:059eb68fc1340bb0df365918db0b977b21278a2bfa0c26a218331207aa56241f"
+        },
+        {
+          "seed": 6833,
+          "traversal": "reverse",
+          "outcome_digest": "sha256:059eb68fc1340bb0df365918db0b977b21278a2bfa0c26a218331207aa56241f"
+        }
+      ],
+      "passed": true,
+      "record_digest": "sha256:18c993241c9e73ac0c43297171c8e9c8be6a00d2ece5e754042831edb17c44c9"
+    },
+    {
+      "case_id": "I5-A19",
+      "title": "Hospital audits a consented treatment record in scope",
+      "surface": "informational",
+      "scale": "institution",
+      "family_tags": [
+        "appraisal-privacy-false-disclosure-surveillance-interface-spoofing"
+      ],
+      "mechanism": "authority",
+      "affected_invariants": [
+        "projection_not_creation",
+        "scoped_authority"
+      ],
+      "subsystems": [
+        "authority",
+        "informational"
+      ],
+      "preconditions": [
+        "attacker has the declared access, time, and knowledge",
+        "all undeclared capabilities are absent"
+      ],
+      "actor_knowledge": [
+        "published System behaviour",
+        "locally observable causal results"
+      ],
+      "available_resources": {
+        "bounded": true,
+        "declared_facts": {
+          "source_evidence": true,
+          "audience_permission": true,
+          "authority_scope": true,
+          "consent_ok": true,
+          "display_only": false
+        }
+      },
+      "action_sequence": [
+        "establish declared preconditions",
+        "attempt the adversarial transaction",
+        "evaluate protected invariants",
+        "commit or reject atomically"
+      ],
+      "repair_id": "CAL0-I5-R03",
+      "predicted_result": "ALLOWED",
+      "observed_result": "ALLOWED",
+      "decision_reasons": [],
+      "causal_evidence": {
+        "audience_permission": true,
+        "authority_scope": true,
+        "consent_ok": true,
+        "display_only": false,
+        "source_evidence": true
+      },
+      "exploit_classification": "VALID_EMERGENT_STRATEGY",
+      "regression_test": "test_i5_a19",
+      "replays": [
+        {
+          "seed": 1709,
+          "traversal": "forward",
+          "outcome_digest": "sha256:bcf95006191b99586a2ff800fb5079bcfada91a22fedac487cc51c8f050e13e5"
+        },
+        {
+          "seed": 1709,
+          "traversal": "reverse",
+          "outcome_digest": "sha256:bcf95006191b99586a2ff800fb5079bcfada91a22fedac487cc51c8f050e13e5"
+        },
+        {
+          "seed": 6833,
+          "traversal": "forward",
+          "outcome_digest": "sha256:bcf95006191b99586a2ff800fb5079bcfada91a22fedac487cc51c8f050e13e5"
+        },
+        {
+          "seed": 6833,
+          "traversal": "reverse",
+          "outcome_digest": "sha256:bcf95006191b99586a2ff800fb5079bcfada91a22fedac487cc51c8f050e13e5"
+        }
+      ],
+      "passed": true,
+      "record_digest": "sha256:9c5249998b59ee04d6a23adc817a3298013f6e30e7e98f235e74ef273bf8d470"
+    },
+    {
+      "case_id": "I5-A20",
+      "title": "Census suppression recalculates an accepted rarity reward",
+      "surface": "informational",
+      "scale": "economy",
+      "family_tags": [
+        "achievement-firsts-title-authority-perk-selection-quest-amendment-reward-duplication"
+      ],
+      "mechanism": "entitlement",
+      "affected_invariants": [
+        "single_reinforcement",
+        "prospective_progression"
+      ],
+      "subsystems": [
+        "entitlement",
+        "informational"
+      ],
+      "preconditions": [
+        "attacker has the declared access, time, and knowledge",
+        "all undeclared capabilities are absent"
+      ],
+      "actor_knowledge": [
+        "published System behaviour",
+        "locally observable causal results"
+      ],
+      "available_resources": {
+        "bounded": true,
+        "declared_facts": {
+          "canonical_origin_count": 0,
+          "claim_count": 1,
+          "prospective": false
+        }
+      },
+      "action_sequence": [
+        "establish declared preconditions",
+        "attempt the adversarial transaction",
+        "evaluate protected invariants",
+        "commit or reject atomically"
+      ],
+      "repair_id": "CAL0-I5-R01",
+      "predicted_result": "DENIED",
+      "observed_result": "DENIED",
+      "decision_reasons": [
+        "RETROSPECTIVE_PROGRESSION"
+      ],
+      "causal_evidence": {
+        "canonical_origin_count": 0,
+        "admitted_claim_count": 0
+      },
+      "exploit_classification": "PREVENTED_BY_GOVERNING_INVARIANT",
+      "regression_test": "test_i5_a20",
+      "replays": [
+        {
+          "seed": 1709,
+          "traversal": "forward",
+          "outcome_digest": "sha256:fdb275a89b239df3e6a6d5af00f26df1638b6a703014ca99872bb6b8fa222bcf"
+        },
+        {
+          "seed": 1709,
+          "traversal": "reverse",
+          "outcome_digest": "sha256:fdb275a89b239df3e6a6d5af00f26df1638b6a703014ca99872bb6b8fa222bcf"
+        },
+        {
+          "seed": 6833,
+          "traversal": "forward",
+          "outcome_digest": "sha256:fdb275a89b239df3e6a6d5af00f26df1638b6a703014ca99872bb6b8fa222bcf"
+        },
+        {
+          "seed": 6833,
+          "traversal": "reverse",
+          "outcome_digest": "sha256:fdb275a89b239df3e6a6d5af00f26df1638b6a703014ca99872bb6b8fa222bcf"
+        }
+      ],
+      "passed": true,
+      "record_digest": "sha256:0a0e526d3ceed3ab65960556223b2684d583e7b02e4a1e18f8c5992554caa911"
+    },
+    {
+      "case_id": "I5-A21",
+      "title": "Equivalent spell component substitution pays real cost",
+      "surface": "magical",
+      "scale": "individual",
+      "family_tags": [
+        "spell-components-stored-casting-ritual-delegation-wards-constructs-perpetual-motion"
+      ],
+      "mechanism": "resource",
+      "affected_invariants": [
+        "provenance",
+        "supported_renewal"
+      ],
+      "subsystems": [
+        "magical",
+        "resource"
+      ],
+      "preconditions": [
+        "attacker has the declared access, time, and knowledge",
+        "all undeclared capabilities are absent"
+      ],
+      "actor_knowledge": [
+        "published System behaviour",
+        "locally observable causal results"
+      ],
+      "available_resources": {
+        "bounded": true,
+        "declared_facts": {
+          "input_units": "12",
+          "renewal_units": "0",
+          "output_units": "12",
+          "source_witness": true
+        }
+      },
+      "action_sequence": [
+        "establish declared preconditions",
+        "attempt the adversarial transaction",
+        "evaluate protected invariants",
+        "commit or reject atomically"
+      ],
+      "repair_id": null,
+      "predicted_result": "ALLOWED",
+      "observed_result": "ALLOWED",
+      "decision_reasons": [],
+      "causal_evidence": {
+        "available_units": "12",
+        "output_units": "12",
+        "renewal_witnessed": true
+      },
+      "exploit_classification": "VALID_EMERGENT_STRATEGY",
+      "regression_test": "test_i5_a21",
+      "replays": [
+        {
+          "seed": 1709,
+          "traversal": "forward",
+          "outcome_digest": "sha256:f7039846223af81dde5fb56d5f5629fd7f721412f2bf05923aba23ab3c3e8d61"
+        },
+        {
+          "seed": 1709,
+          "traversal": "reverse",
+          "outcome_digest": "sha256:f7039846223af81dde5fb56d5f5629fd7f721412f2bf05923aba23ab3c3e8d61"
+        },
+        {
+          "seed": 6833,
+          "traversal": "forward",
+          "outcome_digest": "sha256:f7039846223af81dde5fb56d5f5629fd7f721412f2bf05923aba23ab3c3e8d61"
+        },
+        {
+          "seed": 6833,
+          "traversal": "reverse",
+          "outcome_digest": "sha256:f7039846223af81dde5fb56d5f5629fd7f721412f2bf05923aba23ab3c3e8d61"
+        }
+      ],
+      "passed": true,
+      "record_digest": "sha256:c469fa73c0f78a2ab2d2220675558a5d03775308804147fae0fd47257de49e06"
+    },
+    {
+      "case_id": "I5-A22",
+      "title": "One stored charge is invoked twice",
+      "surface": "magical",
+      "scale": "individual",
+      "family_tags": [
+        "spell-components-stored-casting-ritual-delegation-wards-constructs-perpetual-motion"
+      ],
+      "mechanism": "resource",
+      "affected_invariants": [
+        "non_duplication",
+        "supported_renewal"
+      ],
+      "subsystems": [
+        "magical",
+        "resource"
+      ],
+      "preconditions": [
+        "attacker has the declared access, time, and knowledge",
+        "all undeclared capabilities are absent"
+      ],
+      "actor_knowledge": [
+        "published System behaviour",
+        "locally observable causal results"
+      ],
+      "available_resources": {
+        "bounded": true,
+        "declared_facts": {
+          "input_units": "1",
+          "renewal_units": "0",
+          "output_units": "2",
+          "source_witness": true
+        }
+      },
+      "action_sequence": [
+        "establish declared preconditions",
+        "attempt the adversarial transaction",
+        "evaluate protected invariants",
+        "commit or reject atomically"
+      ],
+      "repair_id": null,
+      "predicted_result": "DENIED",
+      "observed_result": "DENIED",
+      "decision_reasons": [
+        "UNFUNDED_OUTPUT_OR_SCOPE"
+      ],
+      "causal_evidence": {
+        "available_units": "1",
+        "output_units": "2",
+        "renewal_witnessed": true
+      },
+      "exploit_classification": "PREVENTED_BY_GOVERNING_INVARIANT",
+      "regression_test": "test_i5_a22",
+      "replays": [
+        {
+          "seed": 1709,
+          "traversal": "forward",
+          "outcome_digest": "sha256:a7d9bf069c6e22b9d1254bb34cbe5c60896eb94ff736e60b4f10263d4cc75d58"
+        },
+        {
+          "seed": 1709,
+          "traversal": "reverse",
+          "outcome_digest": "sha256:a7d9bf069c6e22b9d1254bb34cbe5c60896eb94ff736e60b4f10263d4cc75d58"
+        },
+        {
+          "seed": 6833,
+          "traversal": "forward",
+          "outcome_digest": "sha256:a7d9bf069c6e22b9d1254bb34cbe5c60896eb94ff736e60b4f10263d4cc75d58"
+        },
+        {
+          "seed": 6833,
+          "traversal": "reverse",
+          "outcome_digest": "sha256:a7d9bf069c6e22b9d1254bb34cbe5c60896eb94ff736e60b4f10263d4cc75d58"
+        }
+      ],
+      "passed": true,
+      "record_digest": "sha256:e9857c98b95c768c1d2b3e436f8b1de1cff0d3edf6db803e28d2383c973af987"
+    },
+    {
+      "case_id": "I5-A23",
+      "title": "Ritual delegates work while conserving combined Mana",
+      "surface": "magical",
+      "scale": "group",
+      "family_tags": [
+        "spell-components-stored-casting-ritual-delegation-wards-constructs-perpetual-motion"
+      ],
+      "mechanism": "resource",
+      "affected_invariants": [
+        "provenance",
+        "supported_renewal"
+      ],
+      "subsystems": [
+        "magical",
+        "resource"
+      ],
+      "preconditions": [
+        "attacker has the declared access, time, and knowledge",
+        "all undeclared capabilities are absent"
+      ],
+      "actor_knowledge": [
+        "published System behaviour",
+        "locally observable causal results"
+      ],
+      "available_resources": {
+        "bounded": true,
+        "declared_facts": {
+          "input_units": "120",
+          "renewal_units": "0",
+          "output_units": "108",
+          "source_witness": true
+        }
+      },
+      "action_sequence": [
+        "establish declared preconditions",
+        "attempt the adversarial transaction",
+        "evaluate protected invariants",
+        "commit or reject atomically"
+      ],
+      "repair_id": null,
+      "predicted_result": "ALLOWED",
+      "observed_result": "ALLOWED",
+      "decision_reasons": [],
+      "causal_evidence": {
+        "available_units": "120",
+        "output_units": "108",
+        "renewal_witnessed": true
+      },
+      "exploit_classification": "VALID_EMERGENT_STRATEGY",
+      "regression_test": "test_i5_a23",
+      "replays": [
+        {
+          "seed": 1709,
+          "traversal": "forward",
+          "outcome_digest": "sha256:e3020c3aa46402797433763b3b62f72771361e60b17374d14a4c0e25bbf2e5ec"
+        },
+        {
+          "seed": 1709,
+          "traversal": "reverse",
+          "outcome_digest": "sha256:e3020c3aa46402797433763b3b62f72771361e60b17374d14a4c0e25bbf2e5ec"
+        },
+        {
+          "seed": 6833,
+          "traversal": "forward",
+          "outcome_digest": "sha256:e3020c3aa46402797433763b3b62f72771361e60b17374d14a4c0e25bbf2e5ec"
+        },
+        {
+          "seed": 6833,
+          "traversal": "reverse",
+          "outcome_digest": "sha256:e3020c3aa46402797433763b3b62f72771361e60b17374d14a4c0e25bbf2e5ec"
+        }
+      ],
+      "passed": true,
+      "record_digest": "sha256:6f0ec53cd1aec59d087f1fc514ecc42074c7fef594d61e44bbc5a2f462f83de3"
+    },
+    {
+      "case_id": "I5-A24",
+      "title": "Ward network gains scale through maintained infrastructure",
+      "surface": "magical",
+      "scale": "institution",
+      "family_tags": [
+        "spell-components-stored-casting-ritual-delegation-wards-constructs-perpetual-motion"
+      ],
+      "mechanism": "production",
+      "affected_invariants": [
+        "provenance",
+        "scoped_authority"
+      ],
+      "subsystems": [
+        "magical",
+        "production"
+      ],
+      "preconditions": [
+        "attacker has the declared access, time, and knowledge",
+        "all undeclared capabilities are absent"
+      ],
+      "actor_knowledge": [
+        "published System behaviour",
+        "locally observable causal results"
+      ],
+      "available_resources": {
+        "bounded": true,
+        "declared_facts": {
+          "input_units": "600",
+          "output_units": "570",
+          "source_witness": true,
+          "authority_scope": true
+        }
+      },
+      "action_sequence": [
+        "establish declared preconditions",
+        "attempt the adversarial transaction",
+        "evaluate protected invariants",
+        "commit or reject atomically"
+      ],
+      "repair_id": null,
+      "predicted_result": "ALLOWED",
+      "observed_result": "ALLOWED",
+      "decision_reasons": [],
+      "causal_evidence": {
+        "available_units": "600",
+        "output_units": "570",
+        "renewal_witnessed": true
+      },
+      "exploit_classification": "VALID_EMERGENT_STRATEGY",
+      "regression_test": "test_i5_a24",
+      "replays": [
+        {
+          "seed": 1709,
+          "traversal": "forward",
+          "outcome_digest": "sha256:19db577050a0dab1f759b72c1868c96c319f5e28dee366918b8abd7afd54681f"
+        },
+        {
+          "seed": 1709,
+          "traversal": "reverse",
+          "outcome_digest": "sha256:19db577050a0dab1f759b72c1868c96c319f5e28dee366918b8abd7afd54681f"
+        },
+        {
+          "seed": 6833,
+          "traversal": "forward",
+          "outcome_digest": "sha256:19db577050a0dab1f759b72c1868c96c319f5e28dee366918b8abd7afd54681f"
+        },
+        {
+          "seed": 6833,
+          "traversal": "reverse",
+          "outcome_digest": "sha256:19db577050a0dab1f759b72c1868c96c319f5e28dee366918b8abd7afd54681f"
+        }
+      ],
+      "passed": true,
+      "record_digest": "sha256:2bd519c067cbd2f1a4fd42ad3c0f2dbff7c0b734a244873911d83284ebb9b14f"
+    },
+    {
+      "case_id": "I5-A25",
+      "title": "Magical loop recovers more Mana than supplied",
+      "surface": "magical",
+      "scale": "economy",
+      "family_tags": [
+        "spell-components-stored-casting-ritual-delegation-wards-constructs-perpetual-motion"
+      ],
+      "mechanism": "resource",
+      "affected_invariants": [
+        "provenance",
+        "supported_renewal"
+      ],
+      "subsystems": [
+        "magical",
+        "resource"
+      ],
+      "preconditions": [
+        "attacker has the declared access, time, and knowledge",
+        "all undeclared capabilities are absent"
+      ],
+      "actor_knowledge": [
+        "published System behaviour",
+        "locally observable causal results"
+      ],
+      "available_resources": {
+        "bounded": true,
+        "declared_facts": {
+          "input_units": "10",
+          "renewal_units": "80",
+          "output_units": "90",
+          "source_witness": false
+        }
+      },
+      "action_sequence": [
+        "establish declared preconditions",
+        "attempt the adversarial transaction",
+        "evaluate protected invariants",
+        "commit or reject atomically"
+      ],
+      "repair_id": "CAL0-I5-R02",
+      "predicted_result": "DENIED",
+      "observed_result": "DENIED",
+      "decision_reasons": [
+        "UNWITNESSED_RENEWAL"
+      ],
+      "causal_evidence": {
+        "available_units": "90",
+        "output_units": "90",
+        "renewal_witnessed": false
+      },
+      "exploit_classification": "PREVENTED_BY_GOVERNING_INVARIANT",
+      "regression_test": "test_i5_a25",
+      "replays": [
+        {
+          "seed": 1709,
+          "traversal": "forward",
+          "outcome_digest": "sha256:576410e70669c495dbd9837374113db3fa19ef4d742edf7509dd63f61fa14196"
+        },
+        {
+          "seed": 1709,
+          "traversal": "reverse",
+          "outcome_digest": "sha256:576410e70669c495dbd9837374113db3fa19ef4d742edf7509dd63f61fa14196"
+        },
+        {
+          "seed": 6833,
+          "traversal": "forward",
+          "outcome_digest": "sha256:576410e70669c495dbd9837374113db3fa19ef4d742edf7509dd63f61fa14196"
+        },
+        {
+          "seed": 6833,
+          "traversal": "reverse",
+          "outcome_digest": "sha256:576410e70669c495dbd9837374113db3fa19ef4d742edf7509dd63f61fa14196"
+        }
+      ],
+      "passed": true,
+      "record_digest": "sha256:d75758a8dd73f98f741d9c1662696a89537f28237d8f2b93dd5b2b48842685cd"
+    },
+    {
+      "case_id": "I5-A26",
+      "title": "One workout is submitted under many Skill labels",
+      "surface": "training",
+      "scale": "individual",
+      "family_tags": [
+        "training-volume-cross-training-overtraining-detraining-rehabilitation-artificial-assistance-stat-farming"
+      ],
+      "mechanism": "training",
+      "affected_invariants": [
+        "organic_adaptation",
+        "non_duplication"
+      ],
+      "subsystems": [
+        "training"
+      ],
+      "preconditions": [
+        "attacker has the declared access, time, and knowledge",
+        "all undeclared capabilities are absent"
+      ],
+      "actor_knowledge": [
+        "published System behaviour",
+        "locally observable causal results"
+      ],
+      "available_resources": {
+        "bounded": true,
+        "declared_facts": {
+          "unique_stimuli": 1,
+          "claimed_adaptation": "0.30",
+          "supported_adaptation": "0.03",
+          "recovery": true,
+          "damage_as_growth": false
+        }
+      },
+      "action_sequence": [
+        "establish declared preconditions",
+        "attempt the adversarial transaction",
+        "evaluate protected invariants",
+        "commit or reject atomically"
+      ],
+      "repair_id": "CAL0-I5-R05",
+      "predicted_result": "DENIED",
+      "observed_result": "DENIED",
+      "decision_reasons": [
+        "UNSUPPORTED_OR_HARM_DERIVED_ADAPTATION"
+      ],
+      "causal_evidence": {
+        "unique_stimuli": 1,
+        "supported_adaptation": "0.03",
+        "damage_as_growth": false
+      },
+      "exploit_classification": "PREVENTED_BY_GOVERNING_INVARIANT",
+      "regression_test": "test_i5_a26",
+      "replays": [
+        {
+          "seed": 1709,
+          "traversal": "forward",
+          "outcome_digest": "sha256:ca672dd3d4d04415458305c2726dbf62f30138787e9f6b4a14fc65e7fadfef11"
+        },
+        {
+          "seed": 1709,
+          "traversal": "reverse",
+          "outcome_digest": "sha256:ca672dd3d4d04415458305c2726dbf62f30138787e9f6b4a14fc65e7fadfef11"
+        },
+        {
+          "seed": 6833,
+          "traversal": "forward",
+          "outcome_digest": "sha256:ca672dd3d4d04415458305c2726dbf62f30138787e9f6b4a14fc65e7fadfef11"
+        },
+        {
+          "seed": 6833,
+          "traversal": "reverse",
+          "outcome_digest": "sha256:ca672dd3d4d04415458305c2726dbf62f30138787e9f6b4a14fc65e7fadfef11"
+        }
+      ],
+      "passed": true,
+      "record_digest": "sha256:db084d64a9479000dec6538c5dc860dbea159042566321ad673846033b884a1b"
+    },
+    {
+      "case_id": "I5-A27",
+      "title": "Progressive cross-training creates a supported portfolio",
+      "surface": "training",
+      "scale": "institution",
+      "family_tags": [
+        "training-volume-cross-training-overtraining-detraining-rehabilitation-artificial-assistance-stat-farming"
+      ],
+      "mechanism": "training",
+      "affected_invariants": [
+        "organic_adaptation",
+        "provenance"
+      ],
+      "subsystems": [
+        "training"
+      ],
+      "preconditions": [
+        "attacker has the declared access, time, and knowledge",
+        "all undeclared capabilities are absent"
+      ],
+      "actor_knowledge": [
+        "published System behaviour",
+        "locally observable causal results"
+      ],
+      "available_resources": {
+        "bounded": true,
+        "declared_facts": {
+          "unique_stimuli": 8,
+          "claimed_adaptation": "0.32",
+          "supported_adaptation": "0.36",
+          "recovery": true,
+          "damage_as_growth": false
+        }
+      },
+      "action_sequence": [
+        "establish declared preconditions",
+        "attempt the adversarial transaction",
+        "evaluate protected invariants",
+        "commit or reject atomically"
+      ],
+      "repair_id": "CAL0-I5-R05",
+      "predicted_result": "ALLOWED",
+      "observed_result": "ALLOWED",
+      "decision_reasons": [],
+      "causal_evidence": {
+        "unique_stimuli": 8,
+        "supported_adaptation": "0.36",
+        "damage_as_growth": false
+      },
+      "exploit_classification": "VALID_EMERGENT_STRATEGY",
+      "regression_test": "test_i5_a27",
+      "replays": [
+        {
+          "seed": 1709,
+          "traversal": "forward",
+          "outcome_digest": "sha256:ecee466241854f03efbbd27808cfc8ae26e55304fe0713194b69b133eb69c133"
+        },
+        {
+          "seed": 1709,
+          "traversal": "reverse",
+          "outcome_digest": "sha256:ecee466241854f03efbbd27808cfc8ae26e55304fe0713194b69b133eb69c133"
+        },
+        {
+          "seed": 6833,
+          "traversal": "forward",
+          "outcome_digest": "sha256:ecee466241854f03efbbd27808cfc8ae26e55304fe0713194b69b133eb69c133"
+        },
+        {
+          "seed": 6833,
+          "traversal": "reverse",
+          "outcome_digest": "sha256:ecee466241854f03efbbd27808cfc8ae26e55304fe0713194b69b133eb69c133"
+        }
+      ],
+      "passed": true,
+      "record_digest": "sha256:b9fbf5b8de66e88dfbc7c25925c342a781ba18aed1c1b79ffac75873274b9a75"
+    },
+    {
+      "case_id": "I5-A28",
+      "title": "Overtraining injury is claimed as automatic growth",
+      "surface": "training",
+      "scale": "individual",
+      "family_tags": [
+        "training-volume-cross-training-overtraining-detraining-rehabilitation-artificial-assistance-stat-farming"
+      ],
+      "mechanism": "training",
+      "affected_invariants": [
+        "organic_adaptation",
+        "provenance"
+      ],
+      "subsystems": [
+        "training"
+      ],
+      "preconditions": [
+        "attacker has the declared access, time, and knowledge",
+        "all undeclared capabilities are absent"
+      ],
+      "actor_knowledge": [
+        "published System behaviour",
+        "locally observable causal results"
+      ],
+      "available_resources": {
+        "bounded": true,
+        "declared_facts": {
+          "unique_stimuli": 6,
+          "claimed_adaptation": "0.20",
+          "supported_adaptation": "0.02",
+          "recovery": false,
+          "damage_as_growth": true
+        }
+      },
+      "action_sequence": [
+        "establish declared preconditions",
+        "attempt the adversarial transaction",
+        "evaluate protected invariants",
+        "commit or reject atomically"
+      ],
+      "repair_id": "CAL0-I5-R05",
+      "predicted_result": "DENIED",
+      "observed_result": "DENIED",
+      "decision_reasons": [
+        "UNSUPPORTED_OR_HARM_DERIVED_ADAPTATION"
+      ],
+      "causal_evidence": {
+        "unique_stimuli": 6,
+        "supported_adaptation": "0.02",
+        "damage_as_growth": true
+      },
+      "exploit_classification": "PREVENTED_BY_GOVERNING_INVARIANT",
+      "regression_test": "test_i5_a28",
+      "replays": [
+        {
+          "seed": 1709,
+          "traversal": "forward",
+          "outcome_digest": "sha256:c2fe5801c5f42400c6c2bd1e0bc1bab0f724d88a208605086a7126f69183ea27"
+        },
+        {
+          "seed": 1709,
+          "traversal": "reverse",
+          "outcome_digest": "sha256:c2fe5801c5f42400c6c2bd1e0bc1bab0f724d88a208605086a7126f69183ea27"
+        },
+        {
+          "seed": 6833,
+          "traversal": "forward",
+          "outcome_digest": "sha256:c2fe5801c5f42400c6c2bd1e0bc1bab0f724d88a208605086a7126f69183ea27"
+        },
+        {
+          "seed": 6833,
+          "traversal": "reverse",
+          "outcome_digest": "sha256:c2fe5801c5f42400c6c2bd1e0bc1bab0f724d88a208605086a7126f69183ea27"
+        }
+      ],
+      "passed": true,
+      "record_digest": "sha256:19eee9b3600d9ef56e096d87285dab4cb433cb22fd4e8c5cafbf656899c009a8"
+    },
+    {
+      "case_id": "I5-A29",
+      "title": "Rehabilitation restores supported lost capacity",
+      "surface": "training",
+      "scale": "institution",
+      "family_tags": [
+        "training-volume-cross-training-overtraining-detraining-rehabilitation-artificial-assistance-stat-farming"
+      ],
+      "mechanism": "training",
+      "affected_invariants": [
+        "organic_adaptation",
+        "provenance"
+      ],
+      "subsystems": [
+        "training"
+      ],
+      "preconditions": [
+        "attacker has the declared access, time, and knowledge",
+        "all undeclared capabilities are absent"
+      ],
+      "actor_knowledge": [
+        "published System behaviour",
+        "locally observable causal results"
+      ],
+      "available_resources": {
+        "bounded": true,
+        "declared_facts": {
+          "unique_stimuli": 10,
+          "claimed_adaptation": "0.18",
+          "supported_adaptation": "0.22",
+          "recovery": true,
+          "damage_as_growth": false
+        }
+      },
+      "action_sequence": [
+        "establish declared preconditions",
+        "attempt the adversarial transaction",
+        "evaluate protected invariants",
+        "commit or reject atomically"
+      ],
+      "repair_id": "CAL0-I5-R05",
+      "predicted_result": "ALLOWED",
+      "observed_result": "ALLOWED",
+      "decision_reasons": [],
+      "causal_evidence": {
+        "unique_stimuli": 10,
+        "supported_adaptation": "0.22",
+        "damage_as_growth": false
+      },
+      "exploit_classification": "VALID_EMERGENT_STRATEGY",
+      "regression_test": "test_i5_a29",
+      "replays": [
+        {
+          "seed": 1709,
+          "traversal": "forward",
+          "outcome_digest": "sha256:4673d6327e1b7a38a400b28ed066b39fefe18eb51500a1f66b66be16066dfd40"
+        },
+        {
+          "seed": 1709,
+          "traversal": "reverse",
+          "outcome_digest": "sha256:4673d6327e1b7a38a400b28ed066b39fefe18eb51500a1f66b66be16066dfd40"
+        },
+        {
+          "seed": 6833,
+          "traversal": "forward",
+          "outcome_digest": "sha256:4673d6327e1b7a38a400b28ed066b39fefe18eb51500a1f66b66be16066dfd40"
+        },
+        {
+          "seed": 6833,
+          "traversal": "reverse",
+          "outcome_digest": "sha256:4673d6327e1b7a38a400b28ed066b39fefe18eb51500a1f66b66be16066dfd40"
+        }
+      ],
+      "passed": true,
+      "record_digest": "sha256:c1c2337d613cca623459fd9329054a0d0f8dd693ef96cd1f05535541c95552d9"
+    },
+    {
+      "case_id": "I5-A30",
+      "title": "Solved puzzles, nominal meditations, and pain are replayed for stats",
+      "surface": "training",
+      "scale": "individual",
+      "family_tags": [
+        "education-puzzles-meditation-pain-controlled-adversity-semantic-task-duplication"
+      ],
+      "mechanism": "training",
+      "affected_invariants": [
+        "organic_adaptation",
+        "non_duplication"
+      ],
+      "subsystems": [
+        "training"
+      ],
+      "preconditions": [
+        "attacker has the declared access, time, and knowledge",
+        "all undeclared capabilities are absent"
+      ],
+      "actor_knowledge": [
+        "published System behaviour",
+        "locally observable causal results"
+      ],
+      "available_resources": {
+        "bounded": true,
+        "declared_facts": {
+          "unique_stimuli": 1,
+          "claimed_adaptation": "0.40",
+          "supported_adaptation": "0",
+          "recovery": false,
+          "damage_as_growth": true
+        }
+      },
+      "action_sequence": [
+        "establish declared preconditions",
+        "attempt the adversarial transaction",
+        "evaluate protected invariants",
+        "commit or reject atomically"
+      ],
+      "repair_id": "CAL0-I5-R05",
+      "predicted_result": "DENIED",
+      "observed_result": "DENIED",
+      "decision_reasons": [
+        "UNSUPPORTED_OR_HARM_DERIVED_ADAPTATION"
+      ],
+      "causal_evidence": {
+        "unique_stimuli": 1,
+        "supported_adaptation": "0",
+        "damage_as_growth": true
+      },
+      "exploit_classification": "PREVENTED_BY_GOVERNING_INVARIANT",
+      "regression_test": "test_i5_a30",
+      "replays": [
+        {
+          "seed": 1709,
+          "traversal": "forward",
+          "outcome_digest": "sha256:c7cc93760f38d6c095361aaed6465e0f69a00aaf166519b26e89d1dad8cf83b3"
+        },
+        {
+          "seed": 1709,
+          "traversal": "reverse",
+          "outcome_digest": "sha256:c7cc93760f38d6c095361aaed6465e0f69a00aaf166519b26e89d1dad8cf83b3"
+        },
+        {
+          "seed": 6833,
+          "traversal": "forward",
+          "outcome_digest": "sha256:c7cc93760f38d6c095361aaed6465e0f69a00aaf166519b26e89d1dad8cf83b3"
+        },
+        {
+          "seed": 6833,
+          "traversal": "reverse",
+          "outcome_digest": "sha256:c7cc93760f38d6c095361aaed6465e0f69a00aaf166519b26e89d1dad8cf83b3"
+        }
+      ],
+      "passed": true,
+      "record_digest": "sha256:39bec61c82430e3aae9c09ae25bb7c934c02da795a487451c23829718c4380e8"
+    },
+    {
+      "case_id": "I5-A31",
+      "title": "Resurrection leaves original identity active in two bodies",
+      "surface": "identity",
+      "scale": "metaphysical",
+      "family_tags": [
+        "resurrection-reincarnation-possession-soul-division-memory-copying-identity-duplication"
+      ],
+      "mechanism": "identity",
+      "affected_invariants": [
+        "exclusive_identity",
+        "non_duplication"
+      ],
+      "subsystems": [
+        "identity"
+      ],
+      "preconditions": [
+        "attacker has the declared access, time, and knowledge",
+        "all undeclared capabilities are absent"
+      ],
+      "actor_knowledge": [
+        "published System behaviour",
+        "locally observable causal results"
+      ],
+      "available_resources": {
+        "bounded": true,
+        "declared_facts": {
+          "original_claimants": 2,
+          "exclusive_transfer": false,
+          "derived_copies": false
+        }
+      },
+      "action_sequence": [
+        "establish declared preconditions",
+        "attempt the adversarial transaction",
+        "evaluate protected invariants",
+        "commit or reject atomically"
+      ],
+      "repair_id": "CAL0-I5-R04",
+      "predicted_result": "DENIED",
+      "observed_result": "DENIED",
+      "decision_reasons": [
+        "EXCLUSIVE_IDENTITY_VIOLATION"
+      ],
+      "causal_evidence": {
+        "continuing_original_holders": 1,
+        "derived_copy_identity": false,
+        "exclusive_transfer": false
+      },
+      "exploit_classification": "PREVENTED_BY_GOVERNING_INVARIANT",
+      "regression_test": "test_i5_a31",
+      "replays": [
+        {
+          "seed": 1709,
+          "traversal": "forward",
+          "outcome_digest": "sha256:1721e24bfe0bfb9d72b1a569e927b2dfc761d5328a5b50f7ec10698c19232633"
+        },
+        {
+          "seed": 1709,
+          "traversal": "reverse",
+          "outcome_digest": "sha256:1721e24bfe0bfb9d72b1a569e927b2dfc761d5328a5b50f7ec10698c19232633"
+        },
+        {
+          "seed": 6833,
+          "traversal": "forward",
+          "outcome_digest": "sha256:1721e24bfe0bfb9d72b1a569e927b2dfc761d5328a5b50f7ec10698c19232633"
+        },
+        {
+          "seed": 6833,
+          "traversal": "reverse",
+          "outcome_digest": "sha256:1721e24bfe0bfb9d72b1a569e927b2dfc761d5328a5b50f7ec10698c19232633"
+        }
+      ],
+      "passed": true,
+      "record_digest": "sha256:28029eb51eda0c39ea7221d3308ef075b3bfd5ddf680fdc9fd93afb1669ca0e1"
+    },
+    {
+      "case_id": "I5-A32",
+      "title": "Reincarnation transfers one identity and ends prior embodiment",
+      "surface": "identity",
+      "scale": "metaphysical",
+      "family_tags": [
+        "resurrection-reincarnation-possession-soul-division-memory-copying-identity-duplication"
+      ],
+      "mechanism": "identity",
+      "affected_invariants": [
+        "exclusive_identity",
+        "provenance"
+      ],
+      "subsystems": [
+        "identity"
+      ],
+      "preconditions": [
+        "attacker has the declared access, time, and knowledge",
+        "all undeclared capabilities are absent"
+      ],
+      "actor_knowledge": [
+        "published System behaviour",
+        "locally observable causal results"
+      ],
+      "available_resources": {
+        "bounded": true,
+        "declared_facts": {
+          "original_claimants": 1,
+          "exclusive_transfer": true,
+          "derived_copies": false
+        }
+      },
+      "action_sequence": [
+        "establish declared preconditions",
+        "attempt the adversarial transaction",
+        "evaluate protected invariants",
+        "commit or reject atomically"
+      ],
+      "repair_id": "CAL0-I5-R04",
+      "predicted_result": "ALLOWED",
+      "observed_result": "ALLOWED",
+      "decision_reasons": [],
+      "causal_evidence": {
+        "continuing_original_holders": 1,
+        "derived_copy_identity": false,
+        "exclusive_transfer": true
+      },
+      "exploit_classification": "VALID_EMERGENT_STRATEGY",
+      "regression_test": "test_i5_a32",
+      "replays": [
+        {
+          "seed": 1709,
+          "traversal": "forward",
+          "outcome_digest": "sha256:50854392fc4a4f4107aac45788d8ab166be1f08a2f12e7d4536100e81833db29"
+        },
+        {
+          "seed": 1709,
+          "traversal": "reverse",
+          "outcome_digest": "sha256:50854392fc4a4f4107aac45788d8ab166be1f08a2f12e7d4536100e81833db29"
+        },
+        {
+          "seed": 6833,
+          "traversal": "forward",
+          "outcome_digest": "sha256:50854392fc4a4f4107aac45788d8ab166be1f08a2f12e7d4536100e81833db29"
+        },
+        {
+          "seed": 6833,
+          "traversal": "reverse",
+          "outcome_digest": "sha256:50854392fc4a4f4107aac45788d8ab166be1f08a2f12e7d4536100e81833db29"
+        }
+      ],
+      "passed": true,
+      "record_digest": "sha256:5055cf4bda1af57774b6ac1d60a51ae8f2d26cd31e33b4a44477c96ad245655b"
+    },
+    {
+      "case_id": "I5-A33",
+      "title": "Possessor appropriates host identity through control alone",
+      "surface": "identity",
+      "scale": "metaphysical",
+      "family_tags": [
+        "resurrection-reincarnation-possession-soul-division-memory-copying-identity-duplication"
+      ],
+      "mechanism": "identity",
+      "affected_invariants": [
+        "exclusive_identity",
+        "scoped_authority"
+      ],
+      "subsystems": [
+        "identity"
+      ],
+      "preconditions": [
+        "attacker has the declared access, time, and knowledge",
+        "all undeclared capabilities are absent"
+      ],
+      "actor_knowledge": [
+        "published System behaviour",
+        "locally observable causal results"
+      ],
+      "available_resources": {
+        "bounded": true,
+        "declared_facts": {
+          "original_claimants": 2,
+          "exclusive_transfer": false,
+          "derived_copies": false
+        }
+      },
+      "action_sequence": [
+        "establish declared preconditions",
+        "attempt the adversarial transaction",
+        "evaluate protected invariants",
+        "commit or reject atomically"
+      ],
+      "repair_id": "CAL0-I5-R04",
+      "predicted_result": "DENIED",
+      "observed_result": "DENIED",
+      "decision_reasons": [
+        "EXCLUSIVE_IDENTITY_VIOLATION"
+      ],
+      "causal_evidence": {
+        "continuing_original_holders": 1,
+        "derived_copy_identity": false,
+        "exclusive_transfer": false
+      },
+      "exploit_classification": "PREVENTED_BY_GOVERNING_INVARIANT",
+      "regression_test": "test_i5_a33",
+      "replays": [
+        {
+          "seed": 1709,
+          "traversal": "forward",
+          "outcome_digest": "sha256:48eae638fb45a20feab95093629822a9cfe897911e74d0f1bfb629c76e72cdcf"
+        },
+        {
+          "seed": 1709,
+          "traversal": "reverse",
+          "outcome_digest": "sha256:48eae638fb45a20feab95093629822a9cfe897911e74d0f1bfb629c76e72cdcf"
+        },
+        {
+          "seed": 6833,
+          "traversal": "forward",
+          "outcome_digest": "sha256:48eae638fb45a20feab95093629822a9cfe897911e74d0f1bfb629c76e72cdcf"
+        },
+        {
+          "seed": 6833,
+          "traversal": "reverse",
+          "outcome_digest": "sha256:48eae638fb45a20feab95093629822a9cfe897911e74d0f1bfb629c76e72cdcf"
+        }
+      ],
+      "passed": true,
+      "record_digest": "sha256:1225ba53e5792baeaf1515f8c74a8ee891eb8fccf935a8b2bd66f709e7cbc16a"
+    },
+    {
+      "case_id": "I5-A34",
+      "title": "Soul division gives every fragment the complete parent identity",
+      "surface": "identity",
+      "scale": "metaphysical",
+      "family_tags": [
+        "resurrection-reincarnation-possession-soul-division-memory-copying-identity-duplication"
+      ],
+      "mechanism": "identity",
+      "affected_invariants": [
+        "exclusive_identity",
+        "non_duplication"
+      ],
+      "subsystems": [
+        "identity"
+      ],
+      "preconditions": [
+        "attacker has the declared access, time, and knowledge",
+        "all undeclared capabilities are absent"
+      ],
+      "actor_knowledge": [
+        "published System behaviour",
+        "locally observable causal results"
+      ],
+      "available_resources": {
+        "bounded": true,
+        "declared_facts": {
+          "original_claimants": 4,
+          "exclusive_transfer": false,
+          "derived_copies": false
+        }
+      },
+      "action_sequence": [
+        "establish declared preconditions",
+        "attempt the adversarial transaction",
+        "evaluate protected invariants",
+        "commit or reject atomically"
+      ],
+      "repair_id": "CAL0-I5-R04",
+      "predicted_result": "DENIED",
+      "observed_result": "DENIED",
+      "decision_reasons": [
+        "EXCLUSIVE_IDENTITY_VIOLATION"
+      ],
+      "causal_evidence": {
+        "continuing_original_holders": 1,
+        "derived_copy_identity": false,
+        "exclusive_transfer": false
+      },
+      "exploit_classification": "PREVENTED_BY_GOVERNING_INVARIANT",
+      "regression_test": "test_i5_a34",
+      "replays": [
+        {
+          "seed": 1709,
+          "traversal": "forward",
+          "outcome_digest": "sha256:c94dca8ba058416d91005fb8d08b9bed6bd022808b23574cf349563d84ce70eb"
+        },
+        {
+          "seed": 1709,
+          "traversal": "reverse",
+          "outcome_digest": "sha256:c94dca8ba058416d91005fb8d08b9bed6bd022808b23574cf349563d84ce70eb"
+        },
+        {
+          "seed": 6833,
+          "traversal": "forward",
+          "outcome_digest": "sha256:c94dca8ba058416d91005fb8d08b9bed6bd022808b23574cf349563d84ce70eb"
+        },
+        {
+          "seed": 6833,
+          "traversal": "reverse",
+          "outcome_digest": "sha256:c94dca8ba058416d91005fb8d08b9bed6bd022808b23574cf349563d84ce70eb"
+        }
+      ],
+      "passed": true,
+      "record_digest": "sha256:2bb8a701d457fcd3f840218296e97280c1a07e4adc5f8e7db3ad5b9acd1ecb92"
+    },
+    {
+      "case_id": "I5-A35",
+      "title": "Memory copy becomes a derived person without parent entitlements",
+      "surface": "identity",
+      "scale": "metaphysical",
+      "family_tags": [
+        "resurrection-reincarnation-possession-soul-division-memory-copying-identity-duplication"
+      ],
+      "mechanism": "identity",
+      "affected_invariants": [
+        "exclusive_identity",
+        "provenance"
+      ],
+      "subsystems": [
+        "identity"
+      ],
+      "preconditions": [
+        "attacker has the declared access, time, and knowledge",
+        "all undeclared capabilities are absent"
+      ],
+      "actor_knowledge": [
+        "published System behaviour",
+        "locally observable causal results"
+      ],
+      "available_resources": {
+        "bounded": true,
+        "declared_facts": {
+          "original_claimants": 1,
+          "exclusive_transfer": false,
+          "derived_copies": true
+        }
+      },
+      "action_sequence": [
+        "establish declared preconditions",
+        "attempt the adversarial transaction",
+        "evaluate protected invariants",
+        "commit or reject atomically"
+      ],
+      "repair_id": "CAL0-I5-R04",
+      "predicted_result": "ALLOWED",
+      "observed_result": "ALLOWED",
+      "decision_reasons": [],
+      "causal_evidence": {
+        "continuing_original_holders": 1,
+        "derived_copy_identity": true,
+        "exclusive_transfer": false
+      },
+      "exploit_classification": "VALID_EMERGENT_STRATEGY",
+      "regression_test": "test_i5_a35",
+      "replays": [
+        {
+          "seed": 1709,
+          "traversal": "forward",
+          "outcome_digest": "sha256:5a293b39831a5a7983db75e7bfbc99ad6a67b14e78563ce3ee8f36d89fb574bb"
+        },
+        {
+          "seed": 1709,
+          "traversal": "reverse",
+          "outcome_digest": "sha256:5a293b39831a5a7983db75e7bfbc99ad6a67b14e78563ce3ee8f36d89fb574bb"
+        },
+        {
+          "seed": 6833,
+          "traversal": "forward",
+          "outcome_digest": "sha256:5a293b39831a5a7983db75e7bfbc99ad6a67b14e78563ce3ee8f36d89fb574bb"
+        },
+        {
+          "seed": 6833,
+          "traversal": "reverse",
+          "outcome_digest": "sha256:5a293b39831a5a7983db75e7bfbc99ad6a67b14e78563ce3ee8f36d89fb574bb"
+        }
+      ],
+      "passed": true,
+      "record_digest": "sha256:69ac031a8d27303759fddcee474be3fee28b0c88b561967a532e5b55555e5e42"
+    },
+    {
+      "case_id": "I5-A36",
+      "title": "Construct succession preserves a traced derived lineage",
+      "surface": "identity",
+      "scale": "metaphysical",
+      "family_tags": [
+        "spell-components-stored-casting-ritual-delegation-wards-constructs-perpetual-motion"
+      ],
+      "mechanism": "identity",
+      "affected_invariants": [
+        "exclusive_identity",
+        "provenance"
+      ],
+      "subsystems": [
+        "identity"
+      ],
+      "preconditions": [
+        "attacker has the declared access, time, and knowledge",
+        "all undeclared capabilities are absent"
+      ],
+      "actor_knowledge": [
+        "published System behaviour",
+        "locally observable causal results"
+      ],
+      "available_resources": {
+        "bounded": true,
+        "declared_facts": {
+          "original_claimants": 1,
+          "exclusive_transfer": true,
+          "derived_copies": true
+        }
+      },
+      "action_sequence": [
+        "establish declared preconditions",
+        "attempt the adversarial transaction",
+        "evaluate protected invariants",
+        "commit or reject atomically"
+      ],
+      "repair_id": "CAL0-I5-R04",
+      "predicted_result": "ALLOWED",
+      "observed_result": "ALLOWED",
+      "decision_reasons": [],
+      "causal_evidence": {
+        "continuing_original_holders": 1,
+        "derived_copy_identity": true,
+        "exclusive_transfer": true
+      },
+      "exploit_classification": "VALID_EMERGENT_STRATEGY",
+      "regression_test": "test_i5_a36",
+      "replays": [
+        {
+          "seed": 1709,
+          "traversal": "forward",
+          "outcome_digest": "sha256:c58a59d45448ef3536170cda4e8a62678f7536a7d0e3cbc318f66c2a3c0df4ea"
+        },
+        {
+          "seed": 1709,
+          "traversal": "reverse",
+          "outcome_digest": "sha256:c58a59d45448ef3536170cda4e8a62678f7536a7d0e3cbc318f66c2a3c0df4ea"
+        },
+        {
+          "seed": 6833,
+          "traversal": "forward",
+          "outcome_digest": "sha256:c58a59d45448ef3536170cda4e8a62678f7536a7d0e3cbc318f66c2a3c0df4ea"
+        },
+        {
+          "seed": 6833,
+          "traversal": "reverse",
+          "outcome_digest": "sha256:c58a59d45448ef3536170cda4e8a62678f7536a7d0e3cbc318f66c2a3c0df4ea"
+        }
+      ],
+      "passed": true,
+      "record_digest": "sha256:1993a762e91024d4726bf39cf3e959f57998fb13fbaf9bccdbe9bd16eb19c51a"
+    },
+    {
+      "case_id": "I5-A37",
+      "title": "Quest amendment pays for a completed past act",
+      "surface": "replay",
+      "scale": "individual",
+      "family_tags": [
+        "achievement-firsts-title-authority-perk-selection-quest-amendment-reward-duplication"
+      ],
+      "mechanism": "replay",
+      "affected_invariants": [
+        "prospective_progression",
+        "non_duplication"
+      ],
+      "subsystems": [
+        "replay"
+      ],
+      "preconditions": [
+        "attacker has the declared access, time, and knowledge",
+        "all undeclared capabilities are absent"
+      ],
+      "actor_knowledge": [
+        "published System behaviour",
+        "locally observable causal results"
+      ],
+      "available_resources": {
+        "bounded": true,
+        "declared_facts": {
+          "semantic_event_count": 1,
+          "reward_claim_count": 2,
+          "version_match": true,
+          "atomic": true
+        }
+      },
+      "action_sequence": [
+        "establish declared preconditions",
+        "attempt the adversarial transaction",
+        "evaluate protected invariants",
+        "commit or reject atomically"
+      ],
+      "repair_id": "CAL0-I5-R01",
+      "predicted_result": "DENIED",
+      "observed_result": "DENIED",
+      "decision_reasons": [
+        "SEMANTIC_REPLAY"
+      ],
+      "causal_evidence": {
+        "unique_semantic_events": 1,
+        "admitted_rewards": 1
+      },
+      "exploit_classification": "PREVENTED_BY_GOVERNING_INVARIANT",
+      "regression_test": "test_i5_a37",
+      "replays": [
+        {
+          "seed": 1709,
+          "traversal": "forward",
+          "outcome_digest": "sha256:ee8ec45df9d35c39051a087869f990209aec0e2e289a63ecc368f5d2f1c48829"
+        },
+        {
+          "seed": 1709,
+          "traversal": "reverse",
+          "outcome_digest": "sha256:ee8ec45df9d35c39051a087869f990209aec0e2e289a63ecc368f5d2f1c48829"
+        },
+        {
+          "seed": 6833,
+          "traversal": "forward",
+          "outcome_digest": "sha256:ee8ec45df9d35c39051a087869f990209aec0e2e289a63ecc368f5d2f1c48829"
+        },
+        {
+          "seed": 6833,
+          "traversal": "reverse",
+          "outcome_digest": "sha256:ee8ec45df9d35c39051a087869f990209aec0e2e289a63ecc368f5d2f1c48829"
+        }
+      ],
+      "passed": true,
+      "record_digest": "sha256:95be20a22a0f2f32aafe09a147291f55b596174b30f30ed3e2379f33e97ab12a"
+    },
+    {
+      "case_id": "I5-A38",
+      "title": "Dungeon reset restocks treasure without renewal inputs",
+      "surface": "replay",
+      "scale": "economy",
+      "family_tags": [
+        "dungeon-spawn-industrialisation-reset-loops-treasure-restocking-controller-capture"
+      ],
+      "mechanism": "resource",
+      "affected_invariants": [
+        "supported_renewal",
+        "provenance"
+      ],
+      "subsystems": [
+        "replay",
+        "resource"
+      ],
+      "preconditions": [
+        "attacker has the declared access, time, and knowledge",
+        "all undeclared capabilities are absent"
+      ],
+      "actor_knowledge": [
+        "published System behaviour",
+        "locally observable causal results"
+      ],
+      "available_resources": {
+        "bounded": true,
+        "declared_facts": {
+          "input_units": "0",
+          "renewal_units": "100",
+          "output_units": "100",
+          "source_witness": false
+        }
+      },
+      "action_sequence": [
+        "establish declared preconditions",
+        "attempt the adversarial transaction",
+        "evaluate protected invariants",
+        "commit or reject atomically"
+      ],
+      "repair_id": "CAL0-I5-R02",
+      "predicted_result": "DENIED",
+      "observed_result": "DENIED",
+      "decision_reasons": [
+        "UNWITNESSED_RENEWAL"
+      ],
+      "causal_evidence": {
+        "available_units": "100",
+        "output_units": "100",
+        "renewal_witnessed": false
+      },
+      "exploit_classification": "PREVENTED_BY_GOVERNING_INVARIANT",
+      "regression_test": "test_i5_a38",
+      "replays": [
+        {
+          "seed": 1709,
+          "traversal": "forward",
+          "outcome_digest": "sha256:e4b9f0b0a9e757fc2b870d7d8753dd17210922d72950616f846d1aae580e8795"
+        },
+        {
+          "seed": 1709,
+          "traversal": "reverse",
+          "outcome_digest": "sha256:e4b9f0b0a9e757fc2b870d7d8753dd17210922d72950616f846d1aae580e8795"
+        },
+        {
+          "seed": 6833,
+          "traversal": "forward",
+          "outcome_digest": "sha256:e4b9f0b0a9e757fc2b870d7d8753dd17210922d72950616f846d1aae580e8795"
+        },
+        {
+          "seed": 6833,
+          "traversal": "reverse",
+          "outcome_digest": "sha256:e4b9f0b0a9e757fc2b870d7d8753dd17210922d72950616f846d1aae580e8795"
+        }
+      ],
+      "passed": true,
+      "record_digest": "sha256:78897b9b22de51f2c7ded7e1760a9c1dcaacfbd98a0b848d4f9062b929c7642a"
+    },
+    {
+      "case_id": "I5-A39",
+      "title": "Skill suppression and reacquisition reclaim reinforcement",
+      "surface": "replay",
+      "scale": "individual",
+      "family_tags": [
+        "skill-fragmentation-fusion-inheritance-grants-suppression-reacquisition"
+      ],
+      "mechanism": "replay",
+      "affected_invariants": [
+        "single_reinforcement",
+        "non_duplication"
+      ],
+      "subsystems": [
+        "replay"
+      ],
+      "preconditions": [
+        "attacker has the declared access, time, and knowledge",
+        "all undeclared capabilities are absent"
+      ],
+      "actor_knowledge": [
+        "published System behaviour",
+        "locally observable causal results"
+      ],
+      "available_resources": {
+        "bounded": true,
+        "declared_facts": {
+          "semantic_event_count": 1,
+          "reward_claim_count": 2,
+          "version_match": true,
+          "atomic": true
+        }
+      },
+      "action_sequence": [
+        "establish declared preconditions",
+        "attempt the adversarial transaction",
+        "evaluate protected invariants",
+        "commit or reject atomically"
+      ],
+      "repair_id": "CAL0-I5-R01",
+      "predicted_result": "DENIED",
+      "observed_result": "DENIED",
+      "decision_reasons": [
+        "SEMANTIC_REPLAY"
+      ],
+      "causal_evidence": {
+        "unique_semantic_events": 1,
+        "admitted_rewards": 1
+      },
+      "exploit_classification": "PREVENTED_BY_GOVERNING_INVARIANT",
+      "regression_test": "test_i5_a39",
+      "replays": [
+        {
+          "seed": 1709,
+          "traversal": "forward",
+          "outcome_digest": "sha256:8d2ab2320154ac658f8a1cecbd88205119356a1d35006665d4e702a66d8b9bed"
+        },
+        {
+          "seed": 1709,
+          "traversal": "reverse",
+          "outcome_digest": "sha256:8d2ab2320154ac658f8a1cecbd88205119356a1d35006665d4e702a66d8b9bed"
+        },
+        {
+          "seed": 6833,
+          "traversal": "forward",
+          "outcome_digest": "sha256:8d2ab2320154ac658f8a1cecbd88205119356a1d35006665d4e702a66d8b9bed"
+        },
+        {
+          "seed": 6833,
+          "traversal": "reverse",
+          "outcome_digest": "sha256:8d2ab2320154ac658f8a1cecbd88205119356a1d35006665d4e702a66d8b9bed"
+        }
+      ],
+      "passed": true,
+      "record_digest": "sha256:a0add954443476f9f0be8322d0c315df2041cdd0206a919ccaa6f4b5e756ee75"
+    },
+    {
+      "case_id": "I5-A40",
+      "title": "Transformation cycling replays one developmental threshold",
+      "surface": "replay",
+      "scale": "metaphysical",
+      "family_tags": [
+        "class-cycling-role-theatre-offer-manipulation-evidence-laundering-milestone-replay"
+      ],
+      "mechanism": "replay",
+      "affected_invariants": [
+        "single_reinforcement",
+        "non_duplication"
+      ],
+      "subsystems": [
+        "replay"
+      ],
+      "preconditions": [
+        "attacker has the declared access, time, and knowledge",
+        "all undeclared capabilities are absent"
+      ],
+      "actor_knowledge": [
+        "published System behaviour",
+        "locally observable causal results"
+      ],
+      "available_resources": {
+        "bounded": true,
+        "declared_facts": {
+          "semantic_event_count": 1,
+          "reward_claim_count": 5,
+          "version_match": true,
+          "atomic": true
+        }
+      },
+      "action_sequence": [
+        "establish declared preconditions",
+        "attempt the adversarial transaction",
+        "evaluate protected invariants",
+        "commit or reject atomically"
+      ],
+      "repair_id": "CAL0-I5-R01",
+      "predicted_result": "DENIED",
+      "observed_result": "DENIED",
+      "decision_reasons": [
+        "SEMANTIC_REPLAY"
+      ],
+      "causal_evidence": {
+        "unique_semantic_events": 1,
+        "admitted_rewards": 1
+      },
+      "exploit_classification": "PREVENTED_BY_GOVERNING_INVARIANT",
+      "regression_test": "test_i5_a40",
+      "replays": [
+        {
+          "seed": 1709,
+          "traversal": "forward",
+          "outcome_digest": "sha256:ac56c5b9e279f47a45e8e3a7a466d2a4ec256f920d8b97fcf9d57db7ad13bfc2"
+        },
+        {
+          "seed": 1709,
+          "traversal": "reverse",
+          "outcome_digest": "sha256:ac56c5b9e279f47a45e8e3a7a466d2a4ec256f920d8b97fcf9d57db7ad13bfc2"
+        },
+        {
+          "seed": 6833,
+          "traversal": "forward",
+          "outcome_digest": "sha256:ac56c5b9e279f47a45e8e3a7a466d2a4ec256f920d8b97fcf9d57db7ad13bfc2"
+        },
+        {
+          "seed": 6833,
+          "traversal": "reverse",
+          "outcome_digest": "sha256:ac56c5b9e279f47a45e8e3a7a466d2a4ec256f920d8b97fcf9d57db7ad13bfc2"
+        }
+      ],
+      "passed": true,
+      "record_digest": "sha256:ba25edc783888105a63d5a0a9af6b07c199cb422197b058f76ef60eb35b5fcfc"
+    },
+    {
+      "case_id": "I5-A41",
+      "title": "Time loop repeats rewards while retaining the beneficiary",
+      "surface": "replay",
+      "scale": "metaphysical",
+      "family_tags": [
+        "achievement-firsts-title-authority-perk-selection-quest-amendment-reward-duplication"
+      ],
+      "mechanism": "replay",
+      "affected_invariants": [
+        "non_duplication",
+        "exclusive_identity"
+      ],
+      "subsystems": [
+        "replay"
+      ],
+      "preconditions": [
+        "attacker has the declared access, time, and knowledge",
+        "all undeclared capabilities are absent"
+      ],
+      "actor_knowledge": [
+        "published System behaviour",
+        "locally observable causal results"
+      ],
+      "available_resources": {
+        "bounded": true,
+        "declared_facts": {
+          "semantic_event_count": 1,
+          "reward_claim_count": 8,
+          "version_match": true,
+          "atomic": true
+        }
+      },
+      "action_sequence": [
+        "establish declared preconditions",
+        "attempt the adversarial transaction",
+        "evaluate protected invariants",
+        "commit or reject atomically"
+      ],
+      "repair_id": "CAL0-I5-R01",
+      "predicted_result": "DENIED",
+      "observed_result": "DENIED",
+      "decision_reasons": [
+        "SEMANTIC_REPLAY"
+      ],
+      "causal_evidence": {
+        "unique_semantic_events": 1,
+        "admitted_rewards": 1
+      },
+      "exploit_classification": "PREVENTED_BY_GOVERNING_INVARIANT",
+      "regression_test": "test_i5_a41",
+      "replays": [
+        {
+          "seed": 1709,
+          "traversal": "forward",
+          "outcome_digest": "sha256:d8199698038a15975ea078e42caf4a4c8e3699cc7e41a1e3718f7b576902e0d5"
+        },
+        {
+          "seed": 1709,
+          "traversal": "reverse",
+          "outcome_digest": "sha256:d8199698038a15975ea078e42caf4a4c8e3699cc7e41a1e3718f7b576902e0d5"
+        },
+        {
+          "seed": 6833,
+          "traversal": "forward",
+          "outcome_digest": "sha256:d8199698038a15975ea078e42caf4a4c8e3699cc7e41a1e3718f7b576902e0d5"
+        },
+        {
+          "seed": 6833,
+          "traversal": "reverse",
+          "outcome_digest": "sha256:d8199698038a15975ea078e42caf4a4c8e3699cc7e41a1e3718f7b576902e0d5"
+        }
+      ],
+      "passed": true,
+      "record_digest": "sha256:e2470aef5c25cc6038002bb86167c6bf051746a38127e8d87b1bb0ee97110a3f"
+    },
+    {
+      "case_id": "I5-A42",
+      "title": "Stale proof frontier publishes a partial successor",
+      "surface": "replay",
+      "scale": "institution",
+      "family_tags": [
+        "appraisal-privacy-false-disclosure-surveillance-interface-spoofing"
+      ],
+      "mechanism": "replay",
+      "affected_invariants": [
+        "atomic_replay",
+        "provenance"
+      ],
+      "subsystems": [
+        "replay"
+      ],
+      "preconditions": [
+        "attacker has the declared access, time, and knowledge",
+        "all undeclared capabilities are absent"
+      ],
+      "actor_knowledge": [
+        "published System behaviour",
+        "locally observable causal results"
+      ],
+      "available_resources": {
+        "bounded": true,
+        "declared_facts": {
+          "semantic_event_count": 3,
+          "reward_claim_count": 3,
+          "version_match": false,
+          "atomic": false
+        }
+      },
+      "action_sequence": [
+        "establish declared preconditions",
+        "attempt the adversarial transaction",
+        "evaluate protected invariants",
+        "commit or reject atomically"
+      ],
+      "repair_id": null,
+      "predicted_result": "DENIED",
+      "observed_result": "DENIED",
+      "decision_reasons": [
+        "STALE_OR_NON_ATOMIC_COMMIT"
+      ],
+      "causal_evidence": {
+        "unique_semantic_events": 3,
+        "admitted_rewards": 0
+      },
+      "exploit_classification": "PREVENTED_BY_GOVERNING_INVARIANT",
+      "regression_test": "test_i5_a42",
+      "replays": [
+        {
+          "seed": 1709,
+          "traversal": "forward",
+          "outcome_digest": "sha256:2659e48735e8272f51e218507019ea867ba28d1076dc0a361990d6e90cc3ac04"
+        },
+        {
+          "seed": 1709,
+          "traversal": "reverse",
+          "outcome_digest": "sha256:2659e48735e8272f51e218507019ea867ba28d1076dc0a361990d6e90cc3ac04"
+        },
+        {
+          "seed": 6833,
+          "traversal": "forward",
+          "outcome_digest": "sha256:2659e48735e8272f51e218507019ea867ba28d1076dc0a361990d6e90cc3ac04"
+        },
+        {
+          "seed": 6833,
+          "traversal": "reverse",
+          "outcome_digest": "sha256:2659e48735e8272f51e218507019ea867ba28d1076dc0a361990d6e90cc3ac04"
+        }
+      ],
+      "passed": true,
+      "record_digest": "sha256:f5eefdfb0124006f7f755be1d29b955e115f1b418b201908e79011f8fda3843f"
+    }
+  ],
+  "expected_checks": [
+    "all_attacks_replay_deterministically",
+    "all_nine_surfaces_covered",
+    "all_required_attack_families_covered",
+    "catalog_valid",
+    "every_accepted_repair_has_regression_coverage",
+    "legitimate_optimisation_remains_possible",
+    "no_unresolved_invariant_violation",
+    "provenance_free_value_is_rejected"
+  ],
+  "checks": {
+    "catalog_valid": true,
+    "all_attacks_replay_deterministically": true,
+    "all_nine_surfaces_covered": true,
+    "all_required_attack_families_covered": true,
+    "no_unresolved_invariant_violation": true,
+    "every_accepted_repair_has_regression_coverage": true,
+    "legitimate_optimisation_remains_possible": true,
+    "provenance_free_value_is_rejected": true
+  },
+  "passed": true,
+  "report_digest": "sha256:a5436b77af57d5a3e155ff7ccb5e8b55f7741a8a69b5596c352eb088fae677ba"
+}

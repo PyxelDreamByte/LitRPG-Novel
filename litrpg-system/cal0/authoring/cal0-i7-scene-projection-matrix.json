@@ -1,0 +1,1157 @@
+{
+  "matrix_id": "scene-projection-matrix://cal0/i7-closure@1",
+  "layer_order": [
+    "causal_truth",
+    "source_record",
+    "viewpoint_access",
+    "viewpoint_interpretation",
+    "interface_or_cultural_presentation",
+    "reader_need"
+  ],
+  "scenario_count": 15,
+  "layer_count": 6,
+  "projection_cell_count": 90,
+  "entries": [
+    {
+      "scenario_id": "scenario://cal0/i6/natural-growth@1",
+      "family": "natural_growth_without_xp",
+      "layers": {
+        "causal_truth": {
+          "source_fields": [
+            "inputs",
+            "causal_sequence",
+            "state_changes"
+          ],
+          "value": {
+            "inputs": {
+              "start_capacity": "0.01928119",
+              "birth_capacity": "0.65381944",
+              "child_capacity": "0.82",
+              "formal_xp": "0"
+            },
+            "causal_sequence": [
+              "structures mature",
+              "foundation becomes realised",
+              "rated capacities rise",
+              "no progression reward is issued"
+            ],
+            "state_changes": {
+              "natural_maturation": "positive",
+              "skill_xp": "0",
+              "class_xp": "0",
+              "reinforcement": "0"
+            }
+          }
+        },
+        "source_record": {
+          "source_fields": [
+            "interface_outputs"
+          ],
+          "value": [
+            "Physical development increased",
+            "No Skill notification"
+          ],
+          "record_is_not_cause": true
+        },
+        "viewpoint_access": {
+          "source_fields": [
+            "actor_knowledge"
+          ],
+          "value": [
+            "author knows developmental programme",
+            "character has no ordinary fetal interface"
+          ],
+          "omission_is_not_negative_fact": true
+        },
+        "viewpoint_interpretation": {
+          "rule": "Interpretation is bounded by declared knowledge, available evidence, skill, uncertainty, and culture; it cannot upgrade an interface omission into proof.",
+          "confidence": "SCENARIO_BOUNDED"
+        },
+        "interface_or_cultural_presentation": {
+          "source_fields": [
+            "interface_outputs"
+          ],
+          "value": [
+            "Physical development increased",
+            "No Skill notification"
+          ],
+          "projection_is_not_authority": true
+        },
+        "reader_need": {
+          "source_fields": [
+            "reader_facing_projection"
+          ],
+          "value": "The child grows stronger because a body is forming and maturing, not because infancy awards levels.",
+          "exact_backend_required": false
+        }
+      },
+      "entry_digest": "sha256:ec214190910f3f516d4d91081c3548f12a51d80d2ebf64dde44b297e514b09ed"
+    },
+    {
+      "scenario_id": "scenario://cal0/i6/prenatal-skill@1",
+      "family": "prenatal_skill_progression",
+      "layers": {
+        "causal_truth": {
+          "source_fields": [
+            "inputs",
+            "causal_sequence",
+            "state_changes"
+          ],
+          "value": {
+            "inputs": {
+              "directed_load": "0.18",
+              "conscious_fraction": "0.12",
+              "skill_xp": "0.216",
+              "reinforcement_claim": "0.0015",
+              "assimilated": "0.000375",
+              "backlog": "0.001125"
+            },
+            "causal_sequence": [
+              "repeat intent-sensation calibration",
+              "System recognises coherent domain",
+              "accept Embodied Integration",
+              "earn prospective XP",
+              "create absolute claim",
+              "safe governor assimilates part"
+            ],
+            "state_changes": {
+              "natural_maturation": "unchanged route",
+              "skill_xp": "0.216",
+              "reinforcement": "0.0015",
+              "assimilation": "0.000375",
+              "backlog": "0.001125"
+            }
+          }
+        },
+        "source_record": {
+          "source_fields": [
+            "interface_outputs"
+          ],
+          "value": [
+            "Embodied Integration accepted",
+            "Reinforcement partially assimilated",
+            "Recovery demand elevated"
+          ],
+          "record_is_not_cause": true
+        },
+        "viewpoint_access": {
+          "source_fields": [
+            "actor_knowledge"
+          ],
+          "value": [
+            "protagonist can access self-only interface",
+            "he does not know the backend formula"
+          ],
+          "omission_is_not_negative_fact": true
+        },
+        "viewpoint_interpretation": {
+          "rule": "Interpretation is bounded by declared knowledge, available evidence, skill, uncertainty, and culture; it cannot upgrade an interface omission into proof.",
+          "confidence": "SCENARIO_BOUNDED"
+        },
+        "interface_or_cultural_presentation": {
+          "source_fields": [
+            "interface_outputs"
+          ],
+          "value": [
+            "Embodied Integration accepted",
+            "Reinforcement partially assimilated",
+            "Recovery demand elevated"
+          ],
+          "projection_is_not_authority": true
+        },
+        "reader_need": {
+          "source_fields": [
+            "reader_facing_projection"
+          ],
+          "value": "A tiny success matters because it is coherent and repeatable; most of the fetus's growth still comes from gestation.",
+          "exact_backend_required": false
+        }
+      },
+      "entry_digest": "sha256:bc5cbb7abacdb9aa97887dac533b606eb49d3c74a1babb12e90b01a824d621dc"
+    },
+    {
+      "scenario_id": "scenario://cal0/i6/resistance@1",
+      "family": "resistance_training",
+      "layers": {
+        "causal_truth": {
+          "source_fields": [
+            "inputs",
+            "causal_sequence",
+            "state_changes"
+          ],
+          "value": {
+            "inputs": {
+              "sessions": 24,
+              "challenge": "0.65",
+              "supported_adaptation": "0.018",
+              "skill_xp": "0.52"
+            },
+            "causal_sequence": [
+              "load chest, arms, trunk",
+              "recover",
+              "remodel loaded structures",
+              "record movement-quality evidence"
+            ],
+            "state_changes": {
+              "purposeful_training": "15.60 load-units",
+              "organic_adaptation": "0.018",
+              "skill_xp": "0.52",
+              "class_xp": "0"
+            }
+          }
+        },
+        "source_record": {
+          "source_fields": [
+            "interface_outputs"
+          ],
+          "value": [
+            "Condition: fatigued",
+            "Calisthenics evidence increased"
+          ],
+          "record_is_not_cause": true
+        },
+        "viewpoint_access": {
+          "source_fields": [
+            "actor_knowledge"
+          ],
+          "value": [
+            "trainee knows technique and recovery plan"
+          ],
+          "omission_is_not_negative_fact": true
+        },
+        "viewpoint_interpretation": {
+          "rule": "Interpretation is bounded by declared knowledge, available evidence, skill, uncertainty, and culture; it cannot upgrade an interface omission into proof.",
+          "confidence": "SCENARIO_BOUNDED"
+        },
+        "interface_or_cultural_presentation": {
+          "source_fields": [
+            "interface_outputs"
+          ],
+          "value": [
+            "Condition: fatigued",
+            "Calisthenics evidence increased"
+          ],
+          "projection_is_not_authority": true
+        },
+        "reader_need": {
+          "source_fields": [
+            "reader_facing_projection"
+          ],
+          "value": "Repeated press-ups improve the structures actually loaded; renaming each set would not multiply the gain.",
+          "exact_backend_required": false
+        }
+      },
+      "entry_digest": "sha256:dcf57e7733ed5e408c36671b438d7b5678f58017880608b611e43d51d4b0a535"
+    },
+    {
+      "scenario_id": "scenario://cal0/i6/assault-course@1",
+      "family": "running_and_assault_course",
+      "layers": {
+        "causal_truth": {
+          "source_fields": [
+            "inputs",
+            "causal_sequence",
+            "state_changes"
+          ],
+          "value": {
+            "inputs": {
+              "sessions": 16,
+              "endurance_load": "0.58",
+              "coordination_load": "0.72",
+              "adaptation": "0.021"
+            },
+            "causal_sequence": [
+              "sustain running",
+              "climb and vault",
+              "receive feedback",
+              "recover"
+            ],
+            "state_changes": {
+              "Might": "0.003",
+              "Alacrity": "0.006",
+              "Vitality": "0.008",
+              "Finesse": "0.004",
+              "organic_adaptation": "0.021"
+            }
+          }
+        },
+        "source_record": {
+          "source_fields": [
+            "interface_outputs"
+          ],
+          "value": [
+            "Movement portfolio improved",
+            "Fatigue elevated"
+          ],
+          "record_is_not_cause": true
+        },
+        "viewpoint_access": {
+          "source_fields": [
+            "actor_knowledge"
+          ],
+          "value": [
+            "coach sees gait and obstacle errors"
+          ],
+          "omission_is_not_negative_fact": true
+        },
+        "viewpoint_interpretation": {
+          "rule": "Interpretation is bounded by declared knowledge, available evidence, skill, uncertainty, and culture; it cannot upgrade an interface omission into proof.",
+          "confidence": "SCENARIO_BOUNDED"
+        },
+        "interface_or_cultural_presentation": {
+          "source_fields": [
+            "interface_outputs"
+          ],
+          "value": [
+            "Movement portfolio improved",
+            "Fatigue elevated"
+          ],
+          "projection_is_not_authority": true
+        },
+        "reader_need": {
+          "source_fields": [
+            "reader_facing_projection"
+          ],
+          "value": "The runner gains endurance, timing, balance, and obstacle method rather than the same portfolio as a lifter.",
+          "exact_backend_required": false
+        }
+      },
+      "entry_digest": "sha256:7b9a67a5bf3fe33ad8e4fa999d9c1bef8fd0d5b2ab39a3d966b179848cf10b76"
+    },
+    {
+      "scenario_id": "scenario://cal0/i6/mathematics@1",
+      "family": "mathematics_and_puzzles",
+      "layers": {
+        "causal_truth": {
+          "source_fields": [
+            "inputs",
+            "causal_sequence",
+            "state_changes"
+          ],
+          "value": {
+            "inputs": {
+              "novel_problems": 40,
+              "repeated_solved_problems": 60,
+              "study_hours": "32"
+            },
+            "causal_sequence": [
+              "learn representation",
+              "solve novel problems",
+              "receive correction",
+              "consolidate knowledge"
+            ],
+            "state_changes": {
+              "knowledge_units": "12",
+              "Mathematics_skill_xp": "0.90",
+              "Cognition_adaptation": "0.006",
+              "Focus_adaptation": "0.008",
+              "repeated_problem_extra_gain": "0"
+            }
+          }
+        },
+        "source_record": {
+          "source_fields": [
+            "interface_outputs"
+          ],
+          "value": [
+            "Mathematics evidence increased",
+            "Focus strained"
+          ],
+          "record_is_not_cause": true
+        },
+        "viewpoint_access": {
+          "source_fields": [
+            "actor_knowledge"
+          ],
+          "value": [
+            "student knows the taught methods",
+            "teacher supplies corrective feedback"
+          ],
+          "omission_is_not_negative_fact": true
+        },
+        "viewpoint_interpretation": {
+          "rule": "Interpretation is bounded by declared knowledge, available evidence, skill, uncertainty, and culture; it cannot upgrade an interface omission into proof.",
+          "confidence": "SCENARIO_BOUNDED"
+        },
+        "interface_or_cultural_presentation": {
+          "source_fields": [
+            "interface_outputs"
+          ],
+          "value": [
+            "Mathematics evidence increased",
+            "Focus strained"
+          ],
+          "projection_is_not_authority": true
+        },
+        "reader_need": {
+          "source_fields": [
+            "reader_facing_projection"
+          ],
+          "value": "Knowing a theorem, practising mathematical method, and developing reliable mental capacity are related but not interchangeable.",
+          "exact_backend_required": false
+        }
+      },
+      "entry_digest": "sha256:b8f71afcd385679540d9884535b2a0a96a569a3d6ff6bf566fc41bfb70f0681c"
+    },
+    {
+      "scenario_id": "scenario://cal0/i6/meditation@1",
+      "family": "meditation",
+      "layers": {
+        "causal_truth": {
+          "source_fields": [
+            "inputs",
+            "causal_sequence",
+            "state_changes"
+          ],
+          "value": {
+            "inputs": {
+              "sessions": 30,
+              "minutes": 20,
+              "verified_soul_contact_events": 3
+            },
+            "causal_sequence": [
+              "stabilise attention",
+              "observe emotion",
+              "recover",
+              "test suspected Soul contact"
+            ],
+            "state_changes": {
+              "Focus_adaptation": "0.007",
+              "Will_adaptation": "0.003",
+              "attention_skill_xp": "0.64",
+              "soul_contact_evidence": "3",
+              "unsupported_spiritual_power": "0"
+            }
+          }
+        },
+        "source_record": {
+          "source_fields": [
+            "interface_outputs"
+          ],
+          "value": [
+            "Attention steadier",
+            "Possible Soul contact: low confidence"
+          ],
+          "record_is_not_cause": true
+        },
+        "viewpoint_access": {
+          "source_fields": [
+            "actor_knowledge"
+          ],
+          "value": [
+            "practitioner can distinguish breath, attention, emotion, and anomalous contact imperfectly"
+          ],
+          "omission_is_not_negative_fact": true
+        },
+        "viewpoint_interpretation": {
+          "rule": "Interpretation is bounded by declared knowledge, available evidence, skill, uncertainty, and culture; it cannot upgrade an interface omission into proof.",
+          "confidence": "SCENARIO_BOUNDED"
+        },
+        "interface_or_cultural_presentation": {
+          "source_fields": [
+            "interface_outputs"
+          ],
+          "value": [
+            "Attention steadier",
+            "Possible Soul contact: low confidence"
+          ],
+          "projection_is_not_authority": true
+        },
+        "reader_need": {
+          "source_fields": [
+            "reader_facing_projection"
+          ],
+          "value": "Calm attention becomes more reliable; three unusual contacts justify investigation, not a universal spiritual-power bonus.",
+          "exact_backend_required": false
+        }
+      },
+      "entry_digest": "sha256:1ed1ba41845642e08075ed6c459b5cf68d48fc2e547738ea49bd7956f729bffa"
+    },
+    {
+      "scenario_id": "scenario://cal0/i6/civilian@1",
+      "family": "civilian_vocation",
+      "layers": {
+        "causal_truth": {
+          "source_fields": [
+            "inputs",
+            "causal_sequence",
+            "state_changes"
+          ],
+          "value": {
+            "inputs": {
+              "years": 14,
+              "baking_level": 47,
+              "class_level": 28
+            },
+            "causal_sequence": [
+              "work repeatedly with variation",
+              "correct failures",
+              "teach apprentices",
+              "manage production"
+            ],
+            "state_changes": {
+              "Baking_skill": 47,
+              "Baker_class": 28,
+              "combat_readiness": "0.06"
+            }
+          }
+        },
+        "source_record": {
+          "source_fields": [
+            "interface_outputs"
+          ],
+          "value": [
+            "Baking 47",
+            "Baker 28"
+          ],
+          "record_is_not_cause": true
+        },
+        "viewpoint_access": {
+          "source_fields": [
+            "actor_knowledge"
+          ],
+          "value": [
+            "baker knows recipes, ovens, suppliers, and local demand"
+          ],
+          "omission_is_not_negative_fact": true
+        },
+        "viewpoint_interpretation": {
+          "rule": "Interpretation is bounded by declared knowledge, available evidence, skill, uncertainty, and culture; it cannot upgrade an interface omission into proof.",
+          "confidence": "SCENARIO_BOUNDED"
+        },
+        "interface_or_cultural_presentation": {
+          "source_fields": [
+            "interface_outputs"
+          ],
+          "value": [
+            "Baking 47",
+            "Baker 28"
+          ],
+          "projection_is_not_authority": true
+        },
+        "reader_need": {
+          "source_fields": [
+            "reader_facing_projection"
+          ],
+          "value": "Mara can run a bakery under pressure and teach others; she has not become a fighter merely by gaining levels.",
+          "exact_backend_required": false
+        }
+      },
+      "entry_digest": "sha256:8c1e78f8286705cf5be85f8749c3ddb9d75dbeb328e98ee2048f61b8e180f381"
+    },
+    {
+      "scenario_id": "scenario://cal0/i6/institutional-inequality@1",
+      "family": "institutional_inequality",
+      "layers": {
+        "causal_truth": {
+          "source_fields": [
+            "inputs",
+            "causal_sequence",
+            "state_changes"
+          ],
+          "value": {
+            "inputs": {
+              "same_endowment": true,
+              "years": 6,
+              "elite_support": "0.90",
+              "low_support": "0.35"
+            },
+            "causal_sequence": [
+              "assign equal initial aptitude",
+              "vary support",
+              "train",
+              "record interruptions and recovery"
+            ],
+            "state_changes": {
+              "elite_skill_level": 54,
+              "low_resource_skill_level": 31,
+              "elite_injury_days": 12,
+              "low_resource_injury_days": 49
+            }
+          }
+        },
+        "source_record": {
+          "source_fields": [
+            "interface_outputs"
+          ],
+          "value": [
+            "Progress differs; cause: support and interruption"
+          ],
+          "record_is_not_cause": true
+        },
+        "viewpoint_access": {
+          "source_fields": [
+            "actor_knowledge"
+          ],
+          "value": [
+            "author knows nutrition, coaching, safety, peers, and archives differ"
+          ],
+          "omission_is_not_negative_fact": true
+        },
+        "viewpoint_interpretation": {
+          "rule": "Interpretation is bounded by declared knowledge, available evidence, skill, uncertainty, and culture; it cannot upgrade an interface omission into proof.",
+          "confidence": "SCENARIO_BOUNDED"
+        },
+        "interface_or_cultural_presentation": {
+          "source_fields": [
+            "interface_outputs"
+          ],
+          "value": [
+            "Progress differs; cause: support and interruption"
+          ],
+          "projection_is_not_authority": true
+        },
+        "reader_need": {
+          "source_fields": [
+            "reader_facing_projection"
+          ],
+          "value": "The academy does not create talent from nothing; it converts resources and institutional capability into more reliable development.",
+          "exact_backend_required": false
+        }
+      },
+      "entry_digest": "sha256:74bd0505e8845882a512d73e54188a4cf555c4d3b8419838b653bcf2794e64c5"
+    },
+    {
+      "scenario_id": "scenario://cal0/i6/party-dispute@1",
+      "family": "party_contribution_dispute",
+      "layers": {
+        "causal_truth": {
+          "source_fields": [
+            "inputs",
+            "causal_sequence",
+            "state_changes"
+          ],
+          "value": {
+            "inputs": {
+              "event_id": "event:ogre-bridge",
+              "contributions": {
+                "fighter": "0.42",
+                "healer": "0.25",
+                "scout": "0.18",
+                "porter": "0.15"
+              },
+              "reward_units": "100"
+            },
+            "causal_sequence": [
+              "fight and evacuate",
+              "record causal contribution",
+              "compare claims",
+              "allocate scoped reward"
+            ],
+            "state_changes": {
+              "fighter_reward": "42",
+              "healer_reward": "25",
+              "scout_reward": "18",
+              "porter_reward": "15",
+              "personal_kill_claims": 1
+            }
+          }
+        },
+        "source_record": {
+          "source_fields": [
+            "interface_outputs"
+          ],
+          "value": [
+            "Contribution ledger contested",
+            "Allocation recorded with evidence scope"
+          ],
+          "record_is_not_cause": true
+        },
+        "viewpoint_access": {
+          "source_fields": [
+            "actor_knowledge"
+          ],
+          "value": [
+            "party observes only part of each contribution",
+            "ledger has evidence with uncertainty"
+          ],
+          "omission_is_not_negative_fact": true
+        },
+        "viewpoint_interpretation": {
+          "rule": "Interpretation is bounded by declared knowledge, available evidence, skill, uncertainty, and culture; it cannot upgrade an interface omission into proof.",
+          "confidence": "SCENARIO_BOUNDED"
+        },
+        "interface_or_cultural_presentation": {
+          "source_fields": [
+            "interface_outputs"
+          ],
+          "value": [
+            "Contribution ledger contested",
+            "Allocation recorded with evidence scope"
+          ],
+          "projection_is_not_authority": true
+        },
+        "reader_need": {
+          "source_fields": [
+            "reader_facing_projection"
+          ],
+          "value": "The killing blow matters, but so do warning, treatment, supply, and evacuation; one event is not four personal solo victories.",
+          "exact_backend_required": false
+        }
+      },
+      "entry_digest": "sha256:1440d7d4ea9d9ccc09868b7d99b1a0a57d0d29a6594c16b6a68b400c3ccdff9d"
+    },
+    {
+      "scenario_id": "scenario://cal0/i6/dungeon-economy@1",
+      "family": "dungeon_spawn_economy",
+      "layers": {
+        "causal_truth": {
+          "source_fields": [
+            "inputs",
+            "causal_sequence",
+            "state_changes"
+          ],
+          "value": {
+            "inputs": {
+              "mana_input": "1000",
+              "biomass_input": "500",
+              "spawn_cost": "800",
+              "treasure_input": "150",
+              "maintenance": "500",
+              "harvest": "700"
+            },
+            "causal_sequence": [
+              "collect inputs",
+              "spawn organisms",
+              "form treasure",
+              "harvest",
+              "allow recovery"
+            ],
+            "state_changes": {
+              "total_input": "1500",
+              "total_committed": "1450",
+              "residual": "50",
+              "unwitnessed_restock": "0"
+            }
+          }
+        },
+        "source_record": {
+          "source_fields": [
+            "interface_outputs"
+          ],
+          "value": [
+            "Dungeon reserve low",
+            "Spawn rate reduced"
+          ],
+          "record_is_not_cause": true
+        },
+        "viewpoint_access": {
+          "source_fields": [
+            "actor_knowledge"
+          ],
+          "value": [
+            "controller knows measured flows, not hidden maximums"
+          ],
+          "omission_is_not_negative_fact": true
+        },
+        "viewpoint_interpretation": {
+          "rule": "Interpretation is bounded by declared knowledge, available evidence, skill, uncertainty, and culture; it cannot upgrade an interface omission into proof.",
+          "confidence": "SCENARIO_BOUNDED"
+        },
+        "interface_or_cultural_presentation": {
+          "source_fields": [
+            "interface_outputs"
+          ],
+          "value": [
+            "Dungeon reserve low",
+            "Spawn rate reduced"
+          ],
+          "projection_is_not_authority": true
+        },
+        "reader_need": {
+          "source_fields": [
+            "reader_facing_projection"
+          ],
+          "value": "Industrial use is possible, but heavy harvest lowers later output unless real inputs and recovery restore the mechanism.",
+          "exact_backend_required": false
+        }
+      },
+      "entry_digest": "sha256:654997497f9412fc50e1112cb18debc7a5b155bd8c0e962726f8e8770a114a19"
+    },
+    {
+      "scenario_id": "scenario://cal0/i6/magical-research@1",
+      "family": "magical_research_and_invention",
+      "layers": {
+        "causal_truth": {
+          "source_fields": [
+            "inputs",
+            "causal_sequence",
+            "state_changes"
+          ],
+          "value": {
+            "inputs": {
+              "experiments": 18,
+              "successful_replications": 5,
+              "teacher_scaffolding": true
+            },
+            "causal_sequence": [
+              "form hypothesis",
+              "build spell graph",
+              "test",
+              "replicate",
+              "document",
+              "teach",
+              "student reconstructs derivative"
+            ],
+            "state_changes": {
+              "knowledge_claims": 7,
+              "research_skill_xp": "2.40",
+              "spell_identity": "derived-method",
+              "student_skill_xp": "0.48",
+              "teacher_xp_from_student_work": "0"
+            }
+          }
+        },
+        "source_record": {
+          "source_fields": [
+            "interface_outputs"
+          ],
+          "value": [
+            "New method validated: narrow scope",
+            "Derivative method recorded"
+          ],
+          "record_is_not_cause": true
+        },
+        "viewpoint_access": {
+          "source_fields": [
+            "actor_knowledge"
+          ],
+          "value": [
+            "researcher knows anatomy and current spell grammar",
+            "student receives method but not mastery"
+          ],
+          "omission_is_not_negative_fact": true
+        },
+        "viewpoint_interpretation": {
+          "rule": "Interpretation is bounded by declared knowledge, available evidence, skill, uncertainty, and culture; it cannot upgrade an interface omission into proof.",
+          "confidence": "SCENARIO_BOUNDED"
+        },
+        "interface_or_cultural_presentation": {
+          "source_fields": [
+            "interface_outputs"
+          ],
+          "value": [
+            "New method validated: narrow scope",
+            "Derivative method recorded"
+          ],
+          "projection_is_not_authority": true
+        },
+        "reader_need": {
+          "source_fields": [
+            "reader_facing_projection"
+          ],
+          "value": "Teaching transmits representation and correction; the student still has to build a working method and the teacher does not own the student's progress.",
+          "exact_backend_required": false
+        }
+      },
+      "entry_digest": "sha256:02340de81d5fc701058ecd6a7aefe0e929270d1c47d2af8b74b7627f5bb09958"
+    },
+    {
+      "scenario_id": "scenario://cal0/i6/craft-salvage@1",
+      "family": "craft_repair_appraisal_salvage",
+      "layers": {
+        "causal_truth": {
+          "source_fields": [
+            "inputs",
+            "causal_sequence",
+            "state_changes"
+          ],
+          "value": {
+            "inputs": {
+              "item": "river-sword",
+              "replaced_components": [
+                "grip",
+                "guard"
+              ],
+              "salvaged_fragment": "old-guard"
+            },
+            "causal_sequence": [
+              "appraise facets",
+              "repair grip",
+              "replace guard",
+              "test",
+              "record salvage and owner consent"
+            ],
+            "state_changes": {
+              "item_identity": "preserved",
+              "quality": "improved",
+              "unknown_enchantment": "still unknown",
+              "salvage_identity": "derived component",
+              "ownership": "unchanged"
+            }
+          }
+        },
+        "source_record": {
+          "source_fields": [
+            "interface_outputs"
+          ],
+          "value": [
+            "Condition improved",
+            "Enchantment: unresolved facet"
+          ],
+          "record_is_not_cause": true
+        },
+        "viewpoint_access": {
+          "source_fields": [
+            "actor_knowledge"
+          ],
+          "value": [
+            "smith sees material and wear",
+            "enchantment remains partly unidentified"
+          ],
+          "omission_is_not_negative_fact": true
+        },
+        "viewpoint_interpretation": {
+          "rule": "Interpretation is bounded by declared knowledge, available evidence, skill, uncertainty, and culture; it cannot upgrade an interface omission into proof.",
+          "confidence": "SCENARIO_BOUNDED"
+        },
+        "interface_or_cultural_presentation": {
+          "source_fields": [
+            "interface_outputs"
+          ],
+          "value": [
+            "Condition improved",
+            "Enchantment: unresolved facet"
+          ],
+          "projection_is_not_authority": true
+        },
+        "reader_need": {
+          "source_fields": [
+            "reader_facing_projection"
+          ],
+          "value": "Repair can restore function without revealing every secret, changing ownership, or cloning the sword's history onto a discarded guard.",
+          "exact_backend_required": false
+        }
+      },
+      "entry_digest": "sha256:3215a562f968645b11ee4c4f65d7f2de51cdb00a511be59bb64f7062cb81cd5a"
+    },
+    {
+      "scenario_id": "scenario://cal0/i6/injury-return@1",
+      "family": "injury_rehabilitation_resurrection",
+      "layers": {
+        "causal_truth": {
+          "source_fields": [
+            "inputs",
+            "causal_sequence",
+            "state_changes"
+          ],
+          "value": {
+            "inputs": {
+              "injury": "severed_tendon",
+              "death_minutes": 4,
+              "return_mechanism": "exclusive-soul-reconstitution"
+            },
+            "causal_sequence": [
+              "stabilise",
+              "repair",
+              "rehabilitate",
+              "death occurs in counterfactual branch",
+              "verify exclusive identity",
+              "reconstitute if feasible"
+            ],
+            "state_changes": {
+              "healing": "repair incomplete without rehabilitation",
+              "skill_xp_preserved": true,
+              "reinforcement_reclaimed": false,
+              "continuing_identity_holders": 1
+            }
+          }
+        },
+        "source_record": {
+          "source_fields": [
+            "interface_outputs"
+          ],
+          "value": [
+            "Condition: recovering",
+            "Return confirmed; no duplicate continuity"
+          ],
+          "record_is_not_cause": true
+        },
+        "viewpoint_access": {
+          "source_fields": [
+            "actor_knowledge"
+          ],
+          "value": [
+            "healer knows anatomy and ritual limits",
+            "identity evidence is incomplete until return"
+          ],
+          "omission_is_not_negative_fact": true
+        },
+        "viewpoint_interpretation": {
+          "rule": "Interpretation is bounded by declared knowledge, available evidence, skill, uncertainty, and culture; it cannot upgrade an interface omission into proof.",
+          "confidence": "SCENARIO_BOUNDED"
+        },
+        "interface_or_cultural_presentation": {
+          "source_fields": [
+            "interface_outputs"
+          ],
+          "value": [
+            "Condition: recovering",
+            "Return confirmed; no duplicate continuity"
+          ],
+          "projection_is_not_authority": true
+        },
+        "reader_need": {
+          "source_fields": [
+            "reader_facing_projection"
+          ],
+          "value": "Magic can restore a life only through a supported path; it does not erase rehabilitation, create a spare original, or repay completed levels.",
+          "exact_backend_required": false
+        }
+      },
+      "entry_digest": "sha256:b3a74ccd3be23c0a316670f9d4cda80c46ae70b9b39c22215af808c484f4caa2"
+    },
+    {
+      "scenario_id": "scenario://cal0/i6/institution-vs-power@1",
+      "family": "powerful_individual_vs_institution",
+      "layers": {
+        "causal_truth": {
+          "source_fields": [
+            "inputs",
+            "causal_sequence",
+            "state_changes"
+          ],
+          "value": {
+            "inputs": {
+              "individual_mana": "6.20",
+              "ward_nodes": 24,
+              "responders": 80,
+              "preparation_days": 12
+            },
+            "causal_sequence": [
+              "prepare layered wards",
+              "disperse reserves",
+              "deny information",
+              "force repeated commitments",
+              "rotate responders"
+            ],
+            "state_changes": {
+              "individual_first_breach": "successful",
+              "second_layer": "holds",
+              "individual_mana_remaining": "1.10",
+              "institutional_losses": 7
+            }
+          }
+        },
+        "source_record": {
+          "source_fields": [
+            "interface_outputs"
+          ],
+          "value": [
+            "Ward layer one breached",
+            "Countermeasure network adapting"
+          ],
+          "record_is_not_cause": true
+        },
+        "viewpoint_access": {
+          "source_fields": [
+            "actor_knowledge"
+          ],
+          "value": [
+            "institution has partial intelligence",
+            "individual does not know every ward"
+          ],
+          "omission_is_not_negative_fact": true
+        },
+        "viewpoint_interpretation": {
+          "rule": "Interpretation is bounded by declared knowledge, available evidence, skill, uncertainty, and culture; it cannot upgrade an interface omission into proof.",
+          "confidence": "SCENARIO_BOUNDED"
+        },
+        "interface_or_cultural_presentation": {
+          "source_fields": [
+            "interface_outputs"
+          ],
+          "value": [
+            "Ward layer one breached",
+            "Countermeasure network adapting"
+          ],
+          "projection_is_not_authority": true
+        },
+        "reader_need": {
+          "source_fields": [
+            "reader_facing_projection"
+          ],
+          "value": "The mage is terrifying and wins local exchanges, but preparation, information, distributed capacity, and recovery prevent one number from deciding the conflict.",
+          "exact_backend_required": false
+        }
+      },
+      "entry_digest": "sha256:51a8c8925c3bb3890d3ee5e39a27ab86b38db655252f74b58e70e05324a0b19f"
+    },
+    {
+      "scenario_id": "scenario://cal0/i6/knowledge-to-magic@1",
+      "family": "nonmagical_knowledge_to_magic",
+      "layers": {
+        "causal_truth": {
+          "source_fields": [
+            "inputs",
+            "causal_sequence",
+            "state_changes"
+          ],
+          "value": {
+            "inputs": {
+              "anatomy_knowledge": "advanced",
+              "mathematical_model": "validated",
+              "arcane_experiments": 27
+            },
+            "causal_sequence": [
+              "observe local anatomy",
+              "test Earth-derived hypothesis",
+              "build magical representation",
+              "run failed experiments",
+              "validate narrow repair method"
+            ],
+            "state_changes": {
+              "earth_knowledge_xp_transfer": "0",
+              "local_research_skill_xp": "3.10",
+              "arcane_method_skill_xp": "2.20",
+              "new_spell": "Tendon Alignment Lattice",
+              "failed_experiments": 19
+            }
+          }
+        },
+        "source_record": {
+          "source_fields": [
+            "interface_outputs"
+          ],
+          "value": [
+            "New spell validated: tendon alignment only",
+            "Source knowledge recorded; mastery earned locally"
+          ],
+          "record_is_not_cause": true
+        },
+        "viewpoint_access": {
+          "source_fields": [
+            "actor_knowledge"
+          ],
+          "value": [
+            "protagonist remembers concepts but must map them to local bodies, Mana, and spell grammar"
+          ],
+          "omission_is_not_negative_fact": true
+        },
+        "viewpoint_interpretation": {
+          "rule": "Interpretation is bounded by declared knowledge, available evidence, skill, uncertainty, and culture; it cannot upgrade an interface omission into proof.",
+          "confidence": "SCENARIO_BOUNDED"
+        },
+        "interface_or_cultural_presentation": {
+          "source_fields": [
+            "interface_outputs"
+          ],
+          "value": [
+            "New spell validated: tendon alignment only",
+            "Source knowledge recorded; mastery earned locally"
+          ],
+          "projection_is_not_authority": true
+        },
+        "reader_need": {
+          "source_fields": [
+            "reader_facing_projection"
+          ],
+          "value": "Old knowledge shortens the path to a useful question; the magical answer is still invented, tested, and learned in this world.",
+          "exact_backend_required": false
+        }
+      },
+      "entry_digest": "sha256:21650e40f5fc5d26cb28975a6aa7253ebcfdca332025f5c19afaacf3f117407c"
+    }
+  ],
+  "matrix_digest": "sha256:a0282017cae6e40a763a2dd57074e54ebd5eeb20e9218af499850acbbd301c65"
+}

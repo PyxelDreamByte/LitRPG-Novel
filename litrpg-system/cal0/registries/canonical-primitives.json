@@ -1,0 +1,119 @@
+{
+  "registry_id": "registry://cal0/canonical-primitives@1",
+  "version": "1",
+  "lifecycle": "ACTIVE",
+  "entries": [
+    {
+      "primitive_id": "primitive://cal0/identifier@1",
+      "name": "identifier",
+      "schema_id": "schema://cal0/canonical-primitive@1",
+      "domain": "non-empty Unicode string constrained by the owning schema",
+      "canonical_rule": "preserve exact code points after schema-level normalisation; identifiers are case-sensitive",
+      "rejects": ["empty identity", "unregistered alias", "implicit case folding"]
+    },
+    {
+      "primitive_id": "primitive://cal0/exact-decimal@1",
+      "name": "exact-decimal",
+      "schema_id": "schema://cal0/canonical-primitive@1",
+      "domain": "finite base-10 decimal encoded as a string",
+      "canonical_rule": "optional minus, one zero or non-zero integer prefix, optional fractional digits; remove redundant trailing fractional zeros and negative zero",
+      "rejects": ["binary float", "NaN", "Infinity", "exponent notation", "locale separator"]
+    },
+    {
+      "primitive_id": "primitive://cal0/bounded-integer@1",
+      "name": "bounded-integer",
+      "schema_id": "schema://cal0/canonical-primitive@1",
+      "domain": "integer within schema-declared inclusive bounds",
+      "canonical_rule": "base-10 mathematical integer with no representation metadata",
+      "rejects": ["boolean as integer", "out-of-domain integer", "fractional token"]
+    },
+    {
+      "primitive_id": "primitive://cal0/enum@1",
+      "name": "enum",
+      "schema_id": "schema://cal0/canonical-primitive@1",
+      "domain": "one exact member of a versioned schema-declared vocabulary",
+      "canonical_rule": "retain the stable member identity, not a display label",
+      "rejects": ["unknown member", "display-label substitution", "implicit synonym"]
+    },
+    {
+      "primitive_id": "primitive://cal0/unit@1",
+      "name": "unit",
+      "schema_id": "schema://cal0/canonical-primitive@1",
+      "domain": "registered unit identity with explicit reference basis",
+      "canonical_rule": "normalise only through a registered exact conversion; otherwise preserve authored unit",
+      "rejects": ["unregistered conversion", "lossy conversion", "omitted reference basis"]
+    },
+    {
+      "primitive_id": "primitive://cal0/map@1",
+      "name": "map",
+      "schema_id": "schema://cal0/canonical-primitive@1",
+      "domain": "finite string-keyed mapping",
+      "canonical_rule": "sort keys lexicographically by Unicode code point and canonicalise each value recursively",
+      "rejects": ["non-string key", "duplicate semantic key", "unknown semantic field"]
+    },
+    {
+      "primitive_id": "primitive://cal0/set@1",
+      "name": "set",
+      "schema_id": "schema://cal0/canonical-primitive@1",
+      "domain": "finite collection explicitly declared unordered",
+      "canonical_rule": "canonicalise members, reject duplicates, then order by canonical bytes",
+      "rejects": ["duplicate member", "undeclared ordering semantics", "non-canonical member"]
+    },
+    {
+      "primitive_id": "primitive://cal0/sequence@1",
+      "name": "sequence",
+      "schema_id": "schema://cal0/canonical-primitive@1",
+      "domain": "finite ordered collection",
+      "canonical_rule": "preserve authored element order and canonicalise members recursively",
+      "rejects": ["order erasure", "implicit sorting", "non-canonical member"]
+    },
+    {
+      "primitive_id": "primitive://cal0/tagged-union@1",
+      "name": "tagged-union",
+      "schema_id": "schema://cal0/canonical-primitive@1",
+      "domain": "one registered variant selected by an explicit stable discriminator",
+      "canonical_rule": "canonicalise the discriminator and only the fields admitted by that variant",
+      "rejects": ["missing discriminator", "unknown variant", "fields from incompatible variants"]
+    },
+    {
+      "primitive_id": "primitive://cal0/explicit-absence@1",
+      "name": "explicit-absence",
+      "schema_id": "schema://cal0/canonical-primitive@1",
+      "domain": "schema-authorised ABSENT state",
+      "canonical_rule": "encode absence as a tagged state; omission is not equivalent unless the schema says so",
+      "rejects": ["ambiguous omission", "null substituted for absence", "unstated absence policy"]
+    },
+    {
+      "primitive_id": "primitive://cal0/explicit-default@1",
+      "name": "explicit-default",
+      "schema_id": "schema://cal0/canonical-primitive@1",
+      "domain": "schema-versioned default with stable semantic identity",
+      "canonical_rule": "record DEFAULT plus the exact schema version that defines its value",
+      "rejects": ["implicit default", "floating default", "default from another schema version"]
+    },
+    {
+      "primitive_id": "primitive://cal0/executable-ir@1",
+      "name": "executable-ir",
+      "schema_id": "schema://cal0/canonical-primitive@1",
+      "domain": "frozen typed intermediate representation",
+      "canonical_rule": "include operator identities, operands, dependencies, numerical mode, tolerances, and boundary semantics",
+      "rejects": ["source-text-only identity", "missing boundary semantics", "ambient dependency"]
+    },
+    {
+      "primitive_id": "primitive://cal0/evidence-ref@1",
+      "name": "evidence-ref",
+      "schema_id": "schema://cal0/canonical-primitive@1",
+      "domain": "immutable evidence-event reference",
+      "canonical_rule": "retain event identity, provenance, scope, coverage, lifecycle, and evidence strength",
+      "rejects": ["pass-count-only evidence", "missing provenance", "floating lifecycle"]
+    },
+    {
+      "primitive_id": "primitive://cal0/witness-ref@1",
+      "name": "witness-ref",
+      "schema_id": "schema://cal0/canonical-primitive@1",
+      "domain": "immutable executable witness reference",
+      "canonical_rule": "retain runner semantics, inputs, assertions, coverage, dependencies, result, and lifecycle",
+      "rejects": ["unnamed runner", "assertion-free success", "mutable expected result"]
+    }
+  ]
+}

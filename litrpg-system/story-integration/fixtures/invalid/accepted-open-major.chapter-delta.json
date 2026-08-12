@@ -1,0 +1,40 @@
+{
+  "schema_version": "1.0.0",
+  "delta_id": "delta://fixture/open-major/001",
+  "chapter_id": "chapter://fixture/open-major/001",
+  "base_snapshot_ids": [],
+  "status": "ACCEPTED",
+  "manuscript": {
+    "path": "litrpg-system/story-integration/examples/accepted-chapter-001.md",
+    "revision": "fixture-r1",
+    "sha256": "sha256:77614dc5288334ba2c6ca9b7ee359afc1337178135c5b0fd6193c478a4f36cec"
+  },
+  "events": [{
+    "schema_version": "1.0.0",
+    "event_id": "event://fixture/open-major/001/0001",
+    "chapter_id": "chapter://fixture/open-major/001",
+    "sequence": 1,
+    "event_type": "OBSERVATION",
+    "summary": "The accepted delta deliberately retains a major finding.",
+    "participants": [],
+    "viewpoint_access": []
+  }],
+  "character_changes": [],
+  "progression_events": [],
+  "thread_changes": [],
+  "canon_proposals": [],
+  "review": {
+    "blocking_findings": [],
+    "major_findings": ["FINDING-MAJOR-001"],
+    "minor_findings": [],
+    "optional_findings": []
+  },
+  "author_approval": {
+    "decision_id": "decision://fixture/open-major/acceptance",
+    "decided_by": "AUTHOR",
+    "decision": "ACCEPT",
+    "decided_at": "2026-08-12T18:00:00Z",
+    "evidence": ["delta://fixture/open-major/001"]
+  }
+}
+

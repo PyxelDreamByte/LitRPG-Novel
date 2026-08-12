@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+
+# Editors and operating systems
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+.idea/
+.vscode/
+
+# Generated and local working output
+*.log
+*.tmp
+*.bak
+exports/
+workbench/context-packs/*
+workbench/runs/*
+!workbench/context-packs/.gitkeep
+!workbench/runs/.gitkeep
+

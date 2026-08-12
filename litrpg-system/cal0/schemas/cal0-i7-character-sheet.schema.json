@@ -1,0 +1,100 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "schema://cal0/i7-character-sheet@1",
+  "title": "CAL0-I7 complete private or authoring character sheet",
+  "type": "object",
+  "required": [
+    "sheet_id",
+    "canonicality",
+    "identity",
+    "traits",
+    "attributes",
+    "resources",
+    "progression",
+    "magic",
+    "equipment",
+    "social",
+    "conditions",
+    "epistemic_access",
+    "causal_ledgers",
+    "backend_uncertainty",
+    "unresolved_inputs",
+    "secrets",
+    "author_notes",
+    "sheet_digest"
+  ],
+  "properties": {
+    "sheet_id": {"type": "string", "pattern": "^sheet://cal0/i6/[a-z0-9-]+@1$"},
+    "canonicality": {"const": "I6_AUTHORING_REFERENCE_NOT_FIXED_STORY_CANON"},
+    "identity": {
+      "type": "object",
+      "required": ["label", "role", "milestone", "age", "life_stage", "species", "exclusive_identity_holder", "identity_lineage"],
+      "properties": {
+        "label": {"type": "string", "minLength": 1},
+        "role": {"type": "string", "minLength": 1},
+        "milestone": {"type": "string", "minLength": 1},
+        "age": {"type": "string", "minLength": 1},
+        "life_stage": {"type": "string", "minLength": 1},
+        "species": {"type": "string", "minLength": 1},
+        "exclusive_identity_holder": {"const": true},
+        "identity_lineage": {"type": "string", "pattern": "^identity-lineage://"}
+      }
+    },
+    "traits": {"type": "array", "items": {"type": "string"}},
+    "attributes": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["Might", "Finesse", "Alacrity", "Vitality", "Perception", "Cognition", "Focus", "Will", "Depth", "Coherence", "Resonance"],
+      "properties": {
+        "Might": {"$ref": "#/$defs/attribute"},
+        "Finesse": {"$ref": "#/$defs/attribute"},
+        "Alacrity": {"$ref": "#/$defs/attribute"},
+        "Vitality": {"$ref": "#/$defs/attribute"},
+        "Perception": {"$ref": "#/$defs/attribute"},
+        "Cognition": {"$ref": "#/$defs/attribute"},
+        "Focus": {"$ref": "#/$defs/attribute"},
+        "Will": {"$ref": "#/$defs/attribute"},
+        "Depth": {"$ref": "#/$defs/attribute"},
+        "Coherence": {"$ref": "#/$defs/attribute"},
+        "Resonance": {"$ref": "#/$defs/attribute"}
+      }
+    },
+    "resources": {
+      "type": "object",
+      "required": ["health", "stamina", "mana"]
+    },
+    "progression": {
+      "type": "object",
+      "required": ["skills", "classes"],
+      "properties": {
+        "skills": {"type": "array", "items": {"type": "object"}},
+        "classes": {"type": "array", "items": {"type": "object"}}
+      }
+    },
+    "magic": {"type": "object", "required": ["methods", "independent", "constraints"]},
+    "equipment": {"type": "array"},
+    "social": {"type": "object", "required": ["institution", "offices", "authority_scopes"]},
+    "conditions": {"type": "array"},
+    "epistemic_access": {"type": "object", "required": ["self_exact_core", "self_exact_owned_progression", "appraisal_disclosure", "institutional_disclosure"]},
+    "causal_ledgers": {
+      "type": "object",
+      "required": ["natural_maturation", "purposeful_training", "organic_adaptation", "skill_xp", "class_xp", "reinforcement", "assimilation"]
+    },
+    "backend_uncertainty": {"type": "array", "items": {"type": "string"}},
+    "unresolved_inputs": {"type": "array", "items": {"type": "string"}},
+    "secrets": {"type": "array", "items": {"type": "string"}},
+    "author_notes": {"type": "object", "required": ["reader_summary", "power_is_not_totalled", "causal_vulnerabilities_remain"]},
+    "sheet_digest": {"type": "string", "pattern": "^sha256:[0-9a-f]{64}$"}
+  },
+  "$defs": {
+    "attribute": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["reference_capacity", "absolute_index"],
+      "properties": {
+        "reference_capacity": {"type": "string", "pattern": "^-?[0-9]+(?:\\.[0-9]+)?$"},
+        "absolute_index": {"type": "string", "pattern": "^-?[0-9]+(?:\\.[0-9]+)?$"}
+      }
+    }
+  }
+}

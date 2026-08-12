@@ -1,0 +1,33 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "schema://cal0/i3-parameter-registry@1",
+  "title": "CAL0-I3 provisional parameter registry",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "registry_id",
+    "version",
+    "lifecycle",
+    "calibration_status",
+    "scope_contract",
+    "definitions",
+    "bindings",
+    "distributions",
+    "dependence_blocks",
+    "constraints",
+    "parameter_sets"
+  ],
+  "properties": {
+    "registry_id": {"const": "registry://cal0/i3-parameters@1"},
+    "version": {"const": "1"},
+    "lifecycle": {"const": "ACTIVE"},
+    "calibration_status": {"const": "PROVISIONAL_UNCALIBRATED"},
+    "scope_contract": {"type": "string", "minLength": 1},
+    "definitions": {"type": "array", "minItems": 1, "items": {"type": "object"}},
+    "bindings": {"type": "array", "minItems": 1, "items": {"type": "object"}},
+    "distributions": {"type": "array", "minItems": 1, "items": {"type": "object"}},
+    "dependence_blocks": {"type": "array", "minItems": 1, "items": {"type": "object"}},
+    "constraints": {"type": "array", "minItems": 1, "items": {"type": "object"}},
+    "parameter_sets": {"type": "array", "minItems": 1, "items": {"type": "object"}}
+  }
+}

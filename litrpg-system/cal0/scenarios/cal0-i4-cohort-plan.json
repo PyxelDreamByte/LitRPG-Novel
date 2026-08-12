@@ -1,0 +1,158 @@
+{
+  "cohort_plan_id": "cohort-plan://cal0/i4-human-reference@1",
+  "canonicality": "INTERNAL_WORLD_CALIBRATION_NOT_EMPIRICAL_FACT",
+  "parameter_parent": "parameter-set://cal0/i3-reference@1",
+  "births_per_seed": 10000,
+  "seeds": [1103, 2207, 3301, 4409, 5519],
+  "life_stage_coordinates": {
+    "late_prenatal": "0.20",
+    "newborn": "0.25",
+    "child": "0.60",
+    "adult": "1"
+  },
+  "environments": [
+    {
+      "environment_id": "environment://cal0/i4/constrained-rural@1",
+      "weight": "0.30",
+      "nutrition": "0.86",
+      "education": "0.55",
+      "training_access": "0.50",
+      "magic_access": "0.20",
+      "safety": "0.88",
+      "institution": "0.15"
+    },
+    {
+      "environment_id": "environment://cal0/i4/ordinary-town@1",
+      "weight": "0.35",
+      "nutrition": "0.98",
+      "education": "0.82",
+      "training_access": "0.70",
+      "magic_access": "0.45",
+      "safety": "0.92",
+      "institution": "0.45"
+    },
+    {
+      "environment_id": "environment://cal0/i4/guild-city@1",
+      "weight": "0.25",
+      "nutrition": "1.02",
+      "education": "0.95",
+      "training_access": "0.92",
+      "magic_access": "0.72",
+      "safety": "0.88",
+      "institution": "0.78"
+    },
+    {
+      "environment_id": "environment://cal0/i4/elite-institution@1",
+      "weight": "0.10",
+      "nutrition": "1.06",
+      "education": "1.15",
+      "training_access": "1.12",
+      "magic_access": "0.92",
+      "safety": "0.94",
+      "institution": "1.20"
+    }
+  ],
+  "trial_inputs": {
+    "rare_soul_prevalence": "0.001",
+    "prenatal_consciousness_prevalence": "0",
+    "human_reference_species_scale": "1",
+    "lifetime_injury_base_probability": "0.24",
+    "rarity_probabilities": {
+      "basic": "0.78",
+      "uncommon": "0.17",
+      "rare": "0.045",
+      "exceptional": "0.005"
+    },
+    "status": "LOW_CONFIDENCE_TRIAL_ASSUMPTIONS",
+    "may_resolve_parent_unresolved_bindings": false
+  },
+  "calibration_iterations": [
+    {
+      "iteration_id": "calibration-iteration://cal0/i4/initial-priors@1",
+      "parent": "parameter-set://cal0/i3-reference@1",
+      "overrides": {},
+      "purpose": "Measure the unmodified I3 rehearsal priors against quantitative translations of the declared envelopes."
+    },
+    {
+      "iteration_id": "calibration-iteration://cal0/i4/progression-brake@1",
+      "parent": "calibration-iteration://cal0/i4/initial-priors@1",
+      "overrides": {
+        "parameter://cal0/adaptation/gain-scale@1": "0.034",
+        "parameter://cal0/xp/skill-total-scale@1": "112",
+        "parameter://cal0/xp/class-total-scale@1": "215",
+        "parameter://cal0/xp/class-exponent@1": "1.92"
+      },
+      "purpose": "Reduce excessive generic adaptation and formal progression without changing causal topology."
+    },
+    {
+      "iteration_id": "calibration-iteration://cal0/i4/reference-successor@1",
+      "parent": "calibration-iteration://cal0/i4/progression-brake@1",
+      "overrides": {
+        "parameter://cal0/adaptation/gain-scale@1": "0.036",
+        "parameter://cal0/xp/skill-total-scale@1": "106",
+        "parameter://cal0/xp/class-total-scale@1": "205",
+        "parameter://cal0/xp/class-exponent@1": "1.90"
+      },
+      "purpose": "Restore useful vocational progression while retaining scarcity of completed class forms and independent battle-capable mages."
+    }
+  ],
+  "envelopes": [
+    {"envelope_id": "adult-capacity-median", "metric": "adult_capacity_p50", "minimum": "0.50", "maximum": "1.15"},
+    {"envelope_id": "training-contribution-median", "metric": "training_contribution_p50", "minimum": "0.015", "maximum": "0.20"},
+    {"envelope_id": "skill-form-completion", "metric": "skill_form_completion_rate", "minimum": "0.20", "maximum": "0.65"},
+    {"envelope_id": "class-form-completion", "metric": "class_form_completion_rate", "minimum": "0.025", "maximum": "0.25"},
+    {"envelope_id": "later-grade-class", "metric": "later_grade_class_rate", "minimum": "0.0001", "maximum": "0.04"},
+    {"envelope_id": "independent-mage", "metric": "independent_mage_rate", "minimum": "0.002", "maximum": "0.05"},
+    {"envelope_id": "battle-capable-mage", "metric": "battle_capable_mage_rate", "minimum": "0", "maximum": "0.015"},
+    {"envelope_id": "civilian-combat-readiness", "metric": "civilian_combat_ready_rate", "minimum": "0.03", "maximum": "0.25"},
+    {"envelope_id": "injury-incidence", "metric": "injury_rate", "minimum": "0.10", "maximum": "0.40"},
+    {"envelope_id": "seed-stability", "metric": "maximum_seed_standardised_range", "minimum": "0", "maximum": "0.08"}
+  ],
+  "comparison_ensembles": [
+    {"ensemble_id": "comparison://cal0/i4/ordinary-same-household@1", "kind": "population", "members_per_seed": 2048},
+    {"ensemble_id": "comparison://cal0/i4/talented-nonreincarnated@1", "kind": "population", "members_per_seed": 2048},
+    {"ensemble_id": "comparison://cal0/i4/institutional-trainee@1", "kind": "population", "members_per_seed": 2048},
+    {"ensemble_id": "comparison://cal0/i4/early-magic-no-continuity@1", "kind": "population", "members_per_seed": 2048},
+    {"ensemble_id": "comparison://cal0/i4/protagonist-no-directed-practice@1", "kind": "scenario_ensemble_not_population", "members_per_seed": 256},
+    {"ensemble_id": "comparison://cal0/i4/protagonist-directed-practice@1", "kind": "scenario_ensemble_not_population", "members_per_seed": 256}
+  ],
+  "sensitivity": {
+    "seeds": [701, 1601],
+    "births_per_seed": 1000,
+    "fractional_perturbation": "0.20",
+    "moderate_effect_threshold": "0.01",
+    "influential_effect_threshold": "0.05",
+    "dependence_variants": ["independent", "provisional", "strong-shared"]
+  },
+  "required_outputs": [
+    "life_stage_attribute_distributions",
+    "causal_growth_contributions",
+    "skill_and_class_progression",
+    "reinforcement_and_assimilation",
+    "representative_performances",
+    "magic_and_institutional_access",
+    "social_environment_inequality",
+    "injury_disability_retirement_and_death",
+    "causal_outlier_histories",
+    "parameter_sensitivity_and_identifiability",
+    "comparison_ensembles",
+    "calibration_iteration_lineage"
+  ],
+  "expected_checks": [
+    "at_least_ten_thousand_births_per_seed",
+    "multiple_recorded_seeds",
+    "all_social_environments_present",
+    "complete_life_course_outputs",
+    "causal_ledgers_separate",
+    "outliers_retain_histories",
+    "all_provisional_parameters_classified",
+    "all_unresolved_parameters_classified",
+    "protagonist_excluded_from_population",
+    "final_iteration_envelopes_pass",
+    "repeat_digest_stable"
+  ],
+  "provenance": [
+    "litrpg-system-specification.md#VAL1.0",
+    "litrpg-system-calibration-annex.md#CAL0-I4"
+  ]
+}

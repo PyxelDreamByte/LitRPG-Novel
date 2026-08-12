@@ -1,0 +1,198 @@
+{
+  "registry_id": "registry://cal0/i3-reference-scenarios@1",
+  "version": "1",
+  "lifecycle": "ACTIVE",
+  "canonicality": "REFERENCE_ONLY_NOT_STORY_CANON",
+  "parameter_set_id": "parameter-set://cal0/i3-reference@1",
+  "separation_contract": "Every scenario emits separate natural_maturation, purposeful_training, organic_adaptation, skill_xp, class_xp, reinforcement, and assimilation ledgers. Zero activity is recorded explicitly. Reference characters test causal and narrative envelopes; they do not establish population cohorts or canonical protagonist values.",
+  "characters": [
+    {
+      "character_id": "character://cal0/i3/ordinary-reference@1",
+      "label": "Ordinary reference human",
+      "comparison_role": "ordinary_reference",
+      "canonicality": "REFERENCE_ONLY",
+      "life_stage": "adult unless a scenario projects the same reference endowment prenatally",
+      "population_position": "median rehearsal point, not an estimated median",
+      "endowment_multiplier": "1",
+      "trainability_multiplier": "1",
+      "recovery_multiplier": "1",
+      "initial_reference_capacity": "0.65",
+      "initial_functional_adaptation": "0",
+      "traits": [],
+      "provenance": ["litrpg-system-calibration-annex.md#CAL0-I3"]
+    },
+    {
+      "character_id": "character://cal0/i3/trained-reference@1",
+      "label": "Purposefully trained ordinary human",
+      "comparison_role": "trained_reference",
+      "canonicality": "REFERENCE_ONLY",
+      "life_stage": "adult",
+      "population_position": "same rehearsal endowment as ordinary reference",
+      "endowment_multiplier": "1",
+      "trainability_multiplier": "1",
+      "recovery_multiplier": "1",
+      "initial_reference_capacity": "0.65",
+      "initial_functional_adaptation": "0.10",
+      "traits": ["prior consistent training"],
+      "provenance": ["litrpg-system-calibration-annex.md#CAL0-I3"]
+    },
+    {
+      "character_id": "character://cal0/i3/exceptional-reference@1",
+      "label": "Exceptional natural human",
+      "comparison_role": "exceptional_reference",
+      "canonicality": "REFERENCE_ONLY",
+      "life_stage": "adult",
+      "population_position": "authored upper reference point, not an estimated quantile",
+      "endowment_multiplier": "1.15",
+      "trainability_multiplier": "1.18",
+      "recovery_multiplier": "1.12",
+      "initial_reference_capacity": "0.76",
+      "initial_functional_adaptation": "0.04",
+      "traits": ["exceptional natural endowment"],
+      "provenance": ["litrpg-system-calibration-annex.md#CAL0-I3"]
+    },
+    {
+      "character_id": "character://cal0/i3/protagonist-proxy@1",
+      "label": "Reincarnated protagonist reference proxy",
+      "comparison_role": "protagonist_proxy",
+      "canonicality": "REFERENCE_ONLY_NOT_STORY_CANON",
+      "life_stage": "prenatal",
+      "population_position": "not inserted into any population distribution",
+      "endowment_multiplier": "1",
+      "trainability_multiplier": "1",
+      "recovery_multiplier": "1",
+      "initial_reference_capacity": "0",
+      "initial_functional_adaptation": "0",
+      "traits": ["Reincarnate Continuity", "Embodied Integration", "Unusual Soul Strength (magnitude unresolved)"],
+      "provenance": ["litrpg-system-calibration-annex.md#CAL0-I3", "litrpg-system-design-handoff.md#protagonist-origin"]
+    }
+  ],
+  "scenarios": [
+    {
+      "scenario_id": "scenario://cal0/i3/prenatal-maturation@1",
+      "title": "Prenatal natural growth with separately recorded directed consciousness",
+      "characters": ["character://cal0/i3/ordinary-reference@1", "character://cal0/i3/protagonist-proxy@1"],
+      "coordinates": ["0.25", "0.60", "1"],
+      "required_parameter_ids": [
+        "parameter://cal0/maturation/anchor-coordinates@1",
+        "parameter://cal0/maturation/physical-programme@1",
+        "parameter://cal0/maturation/neural-programme@1",
+        "parameter://cal0/maturation/soul-programme@1",
+        "parameter://cal0/maturation/structural-gate-programme@1",
+        "parameter://cal0/maturation/foundation-rise-rate@1",
+        "parameter://cal0/maturation/foundation-loss-rate@1",
+        "parameter://cal0/scenario/prenatal-directed-load@1",
+        "parameter://cal0/scenario/prenatal-consciousness-fraction@1",
+        "parameter://cal0/reinforcement/skill-level-budget@1",
+        "parameter://cal0/reinforcement/skill-distribution@1",
+        "parameter://cal0/reinforcement/fetal-assimilation@1"
+      ],
+      "causal_ledgers": ["natural_maturation", "purposeful_training", "organic_adaptation", "skill_xp", "class_xp", "reinforcement", "assimilation"],
+      "narrative_envelopes": [
+        "The fetus gains bodily foundations and visible stats primarily because its body grows.",
+        "Directed consciousness may earn low, relevant Skill XP without being relabelled as physical maturation.",
+        "An absolute reinforcement claim may exist before full bodily expression; unassimilated value remains backlog.",
+        "The proxy's unusual soul-strength magnitude remains unresolved and no multiplier is inferred."
+      ],
+      "expected_checks": ["natural_foundations_monotone", "directed_load_separate", "skill_xp_non_negative", "claim_conserved", "assimilation_backlog_positive", "no_story_canon_claim"]
+    },
+    {
+      "scenario_id": "scenario://cal0/i3/matched-training@1",
+      "title": "Eight-week matched training across ordinary, trained, and exceptional references",
+      "characters": ["character://cal0/i3/ordinary-reference@1", "character://cal0/i3/trained-reference@1", "character://cal0/i3/exceptional-reference@1"],
+      "required_parameter_ids": [
+        "parameter://cal0/adaptation/maintenance@1",
+        "parameter://cal0/adaptation/peak@1",
+        "parameter://cal0/adaptation/excessive@1",
+        "parameter://cal0/adaptation/stop@1",
+        "parameter://cal0/adaptation/harm-scale@1",
+        "parameter://cal0/adaptation/harm-exponent@1",
+        "parameter://cal0/adaptation/headroom-beta@1",
+        "parameter://cal0/adaptation/gain-scale@1",
+        "parameter://cal0/adaptation/functional-envelope-scale@1",
+        "parameter://cal0/scenario/training-weeks@1",
+        "parameter://cal0/scenario/ordinary-training-challenge@1",
+        "parameter://cal0/scenario/trained-training-challenge@1",
+        "parameter://cal0/scenario/exceptional-training-challenge@1"
+      ],
+      "causal_ledgers": ["natural_maturation", "purposeful_training", "organic_adaptation", "skill_xp", "class_xp", "reinforcement", "assimilation"],
+      "narrative_envelopes": [
+        "Purposeful training produces adaptation only through productive load and remaining headroom.",
+        "Prior training and exceptional endowment remain distinct causal advantages.",
+        "No character exceeds its declared moving envelope.",
+        "The results compare authored individuals, not population cohorts."
+      ],
+      "expected_checks": ["all_training_gains_positive", "capacity_envelopes_respected", "natural_and_training_ledgers_separate", "exceptional_starts_above_ordinary", "no_cohort_claim"]
+    },
+    {
+      "scenario_id": "scenario://cal0/i3/progression-and-reinforcement@1",
+      "title": "Separate Skill XP, class XP, absolute reinforcement, and life-stage assimilation",
+      "characters": ["character://cal0/i3/ordinary-reference@1", "character://cal0/i3/protagonist-proxy@1"],
+      "required_parameter_ids": [
+        "parameter://cal0/xp/skill-total-scale@1",
+        "parameter://cal0/xp/skill-threshold-count@1",
+        "parameter://cal0/xp/skill-exponent@1",
+        "parameter://cal0/xp/class-total-scale@1",
+        "parameter://cal0/xp/class-threshold-count@1",
+        "parameter://cal0/xp/class-exponent@1",
+        "parameter://cal0/xp/blocked-overhang@1",
+        "parameter://cal0/xp/blocked-taper-exponent@1",
+        "parameter://cal0/reinforcement/skill-level-budget@1",
+        "parameter://cal0/reinforcement/class-level-budget@1",
+        "parameter://cal0/reinforcement/skill-distribution@1",
+        "parameter://cal0/reinforcement/class-distribution@1",
+        "parameter://cal0/reinforcement/fetal-assimilation@1",
+        "parameter://cal0/reinforcement/adult-assimilation@1"
+      ],
+      "causal_ledgers": ["natural_maturation", "purposeful_training", "organic_adaptation", "skill_xp", "class_xp", "reinforcement", "assimilation"],
+      "narrative_envelopes": [
+        "Skill XP and class XP have distinct threshold curves and cannot pay one another's costs.",
+        "Rarity does not change XP requirements.",
+        "One completed level creates the same absolute claim for fetal and adult recipients.",
+        "Life stage changes current expression throughput, not claim size; backlog is conserved."
+      ],
+      "expected_checks": ["skill_and_class_curves_distinct", "blocked_xp_cannot_cascade", "claim_budget_recipient_independent", "fetal_backlog_exceeds_adult_backlog", "claim_conserved"]
+    },
+    {
+      "scenario_id": "scenario://cal0/i3/overload-harm@1",
+      "title": "Productive training versus excessive load",
+      "characters": ["character://cal0/i3/trained-reference@1"],
+      "required_parameter_ids": [
+        "parameter://cal0/adaptation/maintenance@1",
+        "parameter://cal0/adaptation/peak@1",
+        "parameter://cal0/adaptation/excessive@1",
+        "parameter://cal0/adaptation/stop@1",
+        "parameter://cal0/adaptation/harm-scale@1",
+        "parameter://cal0/adaptation/harm-exponent@1",
+        "parameter://cal0/scenario/trained-training-challenge@1",
+        "parameter://cal0/scenario/overload-challenge@1"
+      ],
+      "causal_ledgers": ["natural_maturation", "purposeful_training", "organic_adaptation", "skill_xp", "class_xp", "reinforcement", "assimilation"],
+      "narrative_envelopes": [
+        "Excessive challenge produces more harm than productive challenge.",
+        "Risk does not become free progress or a hidden rarity bonus.",
+        "Fatigue and harm remain separate from productive adaptation opportunity."
+      ],
+      "expected_checks": ["productive_opportunity_positive", "overload_harm_positive", "overload_opportunity_lower", "fatigue_harm_opportunity_separate"]
+    },
+    {
+      "scenario_id": "scenario://cal0/i3/structural-transition@1",
+      "title": "Constraint-first structural transition with atomic recovery-gated commit",
+      "characters": ["character://cal0/i3/exceptional-reference@1"],
+      "required_parameter_ids": [
+        "parameter://cal0/transition/min-readiness@1",
+        "parameter://cal0/transition/min-execution@1",
+        "parameter://cal0/transition/min-stability@1",
+        "parameter://cal0/transition/min-recovery@1",
+        "parameter://cal0/transition/envelope-multiplier@1"
+      ],
+      "causal_ledgers": ["natural_maturation", "purposeful_training", "organic_adaptation", "skill_xp", "class_xp", "reinforcement", "assimilation"],
+      "narrative_envelopes": [
+        "A missing structure or failed non-compensable minimum blocks the transition.",
+        "Passing latent checks without completed recovery remains provisional.",
+        "The envelope changes only after complete validation and one atomic commit."
+      ],
+      "expected_checks": ["failed_minimum_rejected", "recovery_incomplete_not_committed", "successful_transition_atomic", "failed_transition_preserves_envelope"]
+    }
+  ]
+}

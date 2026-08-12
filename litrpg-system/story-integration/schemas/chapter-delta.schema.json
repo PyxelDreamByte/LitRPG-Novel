@@ -1,0 +1,117 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://pyxeldreambyte.github.io/LitRPG-Novel/schemas/chapter-delta.schema.json",
+  "title": "Atomic chapter delta",
+  "type": "object",
+  "required": [
+    "schema_version",
+    "delta_id",
+    "chapter_id",
+    "base_snapshot_ids",
+    "status",
+    "events",
+    "character_changes",
+    "progression_events",
+    "thread_changes",
+    "canon_proposals",
+    "review"
+  ],
+  "properties": {
+    "schema_version": {"const": "1.0.0"},
+    "delta_id": {"$ref": "story-common.schema.json#/$defs/identifier"},
+    "chapter_id": {"$ref": "story-common.schema.json#/$defs/identifier"},
+    "base_snapshot_ids": {
+      "type": "array",
+      "uniqueItems": true,
+      "items": {"$ref": "story-common.schema.json#/$defs/identifier"}
+    },
+    "status": {"enum": ["DRAFT", "AWAITING_AUTHOR", "ACCEPTED", "REJECTED"]},
+    "manuscript": {
+      "type": "object",
+      "required": ["path", "revision", "sha256"],
+      "properties": {
+        "path": {"type": "string", "minLength": 1},
+        "revision": {"type": "string", "minLength": 1},
+        "sha256": {"type": "string", "pattern": "^sha256:[0-9a-f]{64}$"}
+      },
+      "additionalProperties": false
+    },
+    "events": {
+      "type": "array",
+      "minItems": 1,
+      "items": {"$ref": "chapter-event.schema.json"}
+    },
+    "character_changes": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["change_id", "character_id", "path", "operation", "value_type", "source_event_ids"],
+        "properties": {
+          "change_id": {"$ref": "story-common.schema.json#/$defs/identifier"},
+          "character_id": {"$ref": "story-common.schema.json#/$defs/identifier"},
+          "path": {"type": "string", "minLength": 1},
+          "operation": {"enum": ["SET", "ADD", "REMOVE", "TRANSITION"]},
+          "value_type": {"enum": ["EXACT_DECIMAL", "STRING", "BOOLEAN", "IDENTIFIER", "OBJECT"]},
+          "before": {},
+          "after": {},
+          "source_event_ids": {
+            "type": "array",
+            "minItems": 1,
+            "uniqueItems": true,
+            "items": {"$ref": "story-common.schema.json#/$defs/identifier"}
+          }
+        },
+        "additionalProperties": false
+      }
+    },
+    "progression_events": {
+      "type": "array",
+      "items": {"$ref": "progression-event.schema.json"}
+    },
+    "thread_changes": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["thread_id", "operation", "summary", "source_event_ids"],
+        "properties": {
+          "thread_id": {"type": "string", "minLength": 1},
+          "operation": {"enum": ["OPEN", "ADVANCE", "COMPLICATE", "RESOLVE", "SUSPEND"]},
+          "summary": {"type": "string", "minLength": 1},
+          "source_event_ids": {
+            "type": "array",
+            "minItems": 1,
+            "uniqueItems": true,
+            "items": {"$ref": "story-common.schema.json#/$defs/identifier"}
+          }
+        },
+        "additionalProperties": false
+      }
+    },
+    "canon_proposals": {
+      "type": "array",
+      "items": {"$ref": "canon-proposal.schema.json"}
+    },
+    "review": {
+      "type": "object",
+      "required": ["blocking_findings", "major_findings", "minor_findings", "optional_findings"],
+      "properties": {
+        "blocking_findings": {"type": "array", "items": {"type": "string"}},
+        "major_findings": {"type": "array", "items": {"type": "string"}},
+        "minor_findings": {"type": "array", "items": {"type": "string"}},
+        "optional_findings": {"type": "array", "items": {"type": "string"}}
+      },
+      "additionalProperties": false
+    },
+    "author_approval": {"$ref": "story-common.schema.json#/$defs/authorApproval"}
+  },
+  "additionalProperties": false,
+  "allOf": [
+    {
+      "if": {
+        "properties": {"status": {"const": "ACCEPTED"}},
+        "required": ["status"]
+      },
+      "then": {"required": ["manuscript", "author_approval"]}
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "schema_version": "1.0.0",
+  "delta_id": "delta://fixture/unknown-parameter-set/001",
+  "chapter_id": "chapter://fixture/unknown-parameter-set/001",
+  "base_snapshot_ids": [],
+  "status": "DRAFT",
+  "events": [{
+    "schema_version": "1.0.0",
+    "event_id": "event://fixture/unknown-parameter-set/001/0001",
+    "chapter_id": "chapter://fixture/unknown-parameter-set/001",
+    "sequence": 1,
+    "event_type": "STATE_TRANSITION",
+    "summary": "A progression event cites an unknown parameter set.",
+    "participants": ["character://fixture/protagonist"],
+    "viewpoint_access": []
+  }],
+  "character_changes": [],
+  "progression_events": [{
+    "schema_version": "1.0.0",
+    "progression_event_id": "progression://fixture/unknown-parameter-set/001/0001",
+    "chapter_id": "chapter://fixture/unknown-parameter-set/001",
+    "actor_id": "character://fixture/protagonist",
+    "source_event_id": "event://fixture/unknown-parameter-set/001/0001",
+    "operation": "NATURAL_MATURATION",
+    "track": {"kind": "ATTRIBUTE", "track_id": "attribute:might"},
+    "amount": "0.01",
+    "before_value": "0.1",
+    "after_value": "0.11",
+    "provenance": {
+      "provenance_id": "provenance://fixture/unknown-parameter-set/001/0001",
+      "source_event_ids": ["event://fixture/unknown-parameter-set/001/0001"],
+      "mechanism_decision_refs": ["ATR3.4.1C"],
+      "reward_claim_id": "claim://fixture/unknown-parameter-set/001/0001"
+    },
+    "cal0_authority": {
+      "bundle_id": "bundle://cal0/i7@0.7.0",
+      "parameter_set_id": "parameter-set://cal0/nonexistent@1",
+      "decision_refs": ["ATR3.4.1C"]
+    },
+    "projection": "AUTHOR_FACING",
+    "retrospective_reclassification": false
+  }],
+  "thread_changes": [],
+  "canon_proposals": [],
+  "review": {
+    "blocking_findings": [],
+    "major_findings": [],
+    "minor_findings": [],
+    "optional_findings": []
+  }
+}
+

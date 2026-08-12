@@ -1,0 +1,116 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://pyxeldreambyte.github.io/LitRPG-Novel/schemas/progression-event.schema.json",
+  "title": "CAL0-governed progression event",
+  "type": "object",
+  "required": [
+    "schema_version",
+    "progression_event_id",
+    "chapter_id",
+    "actor_id",
+    "source_event_id",
+    "operation",
+    "track",
+    "amount",
+    "before_value",
+    "after_value",
+    "provenance",
+    "cal0_authority",
+    "projection",
+    "retrospective_reclassification"
+  ],
+  "properties": {
+    "schema_version": {"const": "1.0.0"},
+    "progression_event_id": {"$ref": "story-common.schema.json#/$defs/identifier"},
+    "chapter_id": {"$ref": "story-common.schema.json#/$defs/identifier"},
+    "actor_id": {"$ref": "story-common.schema.json#/$defs/identifier"},
+    "source_event_id": {"$ref": "story-common.schema.json#/$defs/identifier"},
+    "operation": {
+      "enum": [
+        "XP_GAIN",
+        "LEVEL_CHANGE",
+        "OFFER_CREATED",
+        "OFFER_DEFERRED",
+        "OFFER_REJECTED",
+        "OFFER_ACCEPTED",
+        "REINFORCEMENT_CLAIMED",
+        "ASSIMILATION_PROGRESS",
+        "NATURAL_MATURATION",
+        "ATTRIBUTE_ADAPTATION",
+        "RESOURCE_CHANGE",
+        "CONDITION_CHANGE"
+      ]
+    },
+    "track": {
+      "type": "object",
+      "required": ["kind", "track_id"],
+      "properties": {
+        "kind": {
+          "enum": [
+            "ATTRIBUTE",
+            "RESOURCE",
+            "SKILL",
+            "CLASS",
+            "CONDITION"
+          ]
+        },
+        "track_id": {"type": "string", "minLength": 1},
+        "lineage_id": {"type": "string", "minLength": 1}
+      },
+      "additionalProperties": false
+    },
+    "amount": {"$ref": "story-common.schema.json#/$defs/exactDecimal"},
+    "before_value": {"$ref": "story-common.schema.json#/$defs/exactDecimal"},
+    "after_value": {"$ref": "story-common.schema.json#/$defs/exactDecimal"},
+    "provenance": {"$ref": "story-common.schema.json#/$defs/provenance"},
+    "eligibility": {
+      "type": "object",
+      "required": ["prior_state_ref", "accepted_lineage_id", "evidence_refs"],
+      "properties": {
+        "prior_state_ref": {"$ref": "story-common.schema.json#/$defs/identifier"},
+        "accepted_lineage_id": {"type": "string", "minLength": 1},
+        "evidence_refs": {
+          "type": "array",
+          "minItems": 1,
+          "uniqueItems": true,
+          "items": {"type": "string", "minLength": 1}
+        }
+      },
+      "additionalProperties": false
+    },
+    "cal0_authority": {
+      "type": "object",
+      "required": ["bundle_id", "parameter_set_id", "decision_refs"],
+      "properties": {
+        "bundle_id": {"const": "bundle://cal0/i7@0.7.0"},
+        "parameter_set_id": {"type": "string", "minLength": 1},
+        "decision_refs": {
+          "type": "array",
+          "minItems": 1,
+          "uniqueItems": true,
+          "items": {"$ref": "story-common.schema.json#/$defs/decisionReference"}
+        }
+      },
+      "additionalProperties": false
+    },
+    "projection": {"$ref": "story-common.schema.json#/$defs/projection"},
+    "retrospective_reclassification": {"const": false},
+    "notes": {"type": "string"}
+  },
+  "additionalProperties": false,
+  "allOf": [
+    {
+      "if": {
+        "properties": {
+          "operation": {"const": "XP_GAIN"},
+          "track": {
+            "properties": {"kind": {"enum": ["SKILL", "CLASS"]}},
+            "required": ["kind"]
+          }
+        },
+        "required": ["operation", "track"]
+      },
+      "then": {"required": ["eligibility"]}
+    }
+  ]
+}

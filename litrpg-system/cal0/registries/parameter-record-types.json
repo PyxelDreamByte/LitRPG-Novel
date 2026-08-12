@@ -1,0 +1,71 @@
+{
+  "registry_id": "registry://cal0/parameter-record-types@1",
+  "version": "1",
+  "lifecycle": "ACTIVE",
+  "default_unresolved": {
+    "state": "UNRESOLVED",
+    "reason_code": "EMPIRICAL_EVIDENCE_REQUIRED",
+    "required_stage": "CAL0-I4",
+    "owner": "CAL0",
+    "blocking": false,
+    "provenance": ["litrpg-system-calibration-annex.md#parameter-registry"]
+  },
+  "entries": [
+    {
+      "record_type": "parameter_definition",
+      "record_id": "record-type://cal0/parameter-definition@1",
+      "schema_id": "schema://cal0/parameter-record-type@1",
+      "purpose": "Stable meaning, ownership, units, domain, precision, and boundary behaviour",
+      "required_fields": ["parameter_id", "meaning", "owner", "classification", "value_type", "units", "domain", "boundary_behaviour", "provenance", "version"]
+    },
+    {
+      "record_type": "value_binding",
+      "record_id": "record-type://cal0/value-binding@1",
+      "schema_id": "schema://cal0/parameter-record-type@1",
+      "purpose": "Locked, calibrated, provisional, scenario, derived, or unresolved value at an exact scope and version",
+      "required_fields": ["binding_id", "parameter_id", "state", "scope", "version", "provenance"]
+    },
+    {
+      "record_type": "function_definition",
+      "record_id": "record-type://cal0/function-definition@1",
+      "schema_id": "schema://cal0/parameter-record-type@1",
+      "purpose": "Inputs, output, executable expression, domain, discontinuities, and numerical method",
+      "required_fields": ["function_id", "inputs", "output", "executable_ir", "domain", "boundary_behaviour", "numerical_method", "version"]
+    },
+    {
+      "record_type": "distribution_definition",
+      "record_id": "record-type://cal0/distribution-definition@1",
+      "schema_id": "schema://cal0/parameter-record-type@1",
+      "purpose": "Distribution family, parameters, support, truncation, dependence, and sampling rule",
+      "required_fields": ["distribution_id", "family", "parameters", "support", "truncation", "dependence", "sampling_rule", "version"]
+    },
+    {
+      "record_type": "constraint_definition",
+      "record_id": "record-type://cal0/constraint-definition@1",
+      "schema_id": "schema://cal0/parameter-record-type@1",
+      "purpose": "Invariant, inequality, conservation rule, scope, and deterministic failure behaviour",
+      "required_fields": ["constraint_id", "predicate", "scope", "severity", "failure_code", "version"]
+    },
+    {
+      "record_type": "observable_definition",
+      "record_id": "record-type://cal0/observable-definition@1",
+      "schema_id": "schema://cal0/parameter-record-type@1",
+      "purpose": "Validation output, aggregation, uncertainty, and presentation scope",
+      "required_fields": ["observable_id", "source", "aggregation", "uncertainty", "scope", "version"]
+    },
+    {
+      "record_type": "parameter_set",
+      "record_id": "record-type://cal0/parameter-set@1",
+      "schema_id": "schema://cal0/parameter-record-type@1",
+      "purpose": "Dependency-closed collection of exact bindings for a scenario or cohort run",
+      "required_fields": ["parameter_set_id", "parents", "bindings", "compatibility_contracts", "status", "version"]
+    },
+    {
+      "record_type": "run_manifest",
+      "record_id": "record-type://cal0/run-manifest@1",
+      "schema_id": "schema://cal0/parameter-record-type@1",
+      "purpose": "Pinned parameter set, scenario, seed, solver, tolerances, registries, and output identity",
+      "required_fields": ["run_id", "parameter_set_id", "scenario_id", "seed", "solver", "tolerances", "registries", "output_id", "version"]
+    }
+  ]
+}

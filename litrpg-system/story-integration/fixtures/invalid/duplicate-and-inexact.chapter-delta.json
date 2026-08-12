@@ -1,0 +1,80 @@
+{
+  "schema_version": "1.0.0",
+  "delta_id": "delta://fixture/invalid/001",
+  "chapter_id": "chapter://fixture/invalid/001",
+  "base_snapshot_ids": [],
+  "status": "DRAFT",
+  "events": [
+    {
+      "schema_version": "1.0.0",
+      "event_id": "event://fixture/invalid/001/0001",
+      "chapter_id": "chapter://fixture/invalid/001",
+      "sequence": 1,
+      "event_type": "ACTION",
+      "summary": "One action is incorrectly rewarded twice.",
+      "participants": ["character://fixture/protagonist"],
+      "viewpoint_access": []
+    }
+  ],
+  "character_changes": [],
+  "progression_events": [
+    {
+      "schema_version": "1.0.0",
+      "progression_event_id": "progression://fixture/invalid/001/0001",
+      "chapter_id": "chapter://fixture/invalid/001",
+      "actor_id": "character://fixture/protagonist",
+      "source_event_id": "event://fixture/invalid/001/0001",
+      "operation": "XP_GAIN",
+      "track": {"kind": "SKILL", "track_id": "skill:focus"},
+      "amount": 0.1,
+      "before_value": "0",
+      "after_value": "0.1",
+      "provenance": {
+        "provenance_id": "provenance://fixture/invalid/001/0001",
+        "source_event_ids": ["event://fixture/invalid/001/0001"],
+        "mechanism_decision_refs": ["SKL1.1D"],
+        "reward_claim_id": "claim://fixture/invalid/shared"
+      },
+      "cal0_authority": {
+        "bundle_id": "bundle://cal0/i7@0.7.0",
+        "parameter_set_id": "parameter-set://cal0/i4-reference@1",
+        "decision_refs": ["SKL1.1D"]
+      },
+      "projection": "AUTHOR_FACING",
+      "retrospective_reclassification": false
+    },
+    {
+      "schema_version": "1.0.0",
+      "progression_event_id": "progression://fixture/invalid/001/0002",
+      "chapter_id": "chapter://fixture/invalid/001",
+      "actor_id": "character://fixture/protagonist",
+      "source_event_id": "event://fixture/invalid/001/9999",
+      "operation": "XP_GAIN",
+      "track": {"kind": "CLASS", "track_id": "class:mage"},
+      "amount": "0.1",
+      "before_value": "0",
+      "after_value": "0.1",
+      "provenance": {
+        "provenance_id": "provenance://fixture/invalid/001/0002",
+        "source_event_ids": ["event://fixture/invalid/001/0001"],
+        "mechanism_decision_refs": ["CLS2.2D"],
+        "reward_claim_id": "claim://fixture/invalid/shared"
+      },
+      "cal0_authority": {
+        "bundle_id": "bundle://cal0/i7@0.7.0",
+        "parameter_set_id": "parameter-set://cal0/i4-reference@1",
+        "decision_refs": ["CLS2.2D"]
+      },
+      "projection": "AUTHOR_FACING",
+      "retrospective_reclassification": true
+    }
+  ],
+  "thread_changes": [],
+  "canon_proposals": [],
+  "review": {
+    "blocking_findings": [],
+    "major_findings": [],
+    "minor_findings": [],
+    "optional_findings": []
+  }
+}

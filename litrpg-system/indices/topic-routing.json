@@ -1,0 +1,520 @@
+{
+  "cal0_bundle_id": "bundle://cal0/i7@0.7.0",
+  "generated_from": "litrpg-system/cal0/canonical/litrpg-system-specification.md",
+  "index_version": "1.0.0",
+  "rule": "Load the smallest sufficient authoritative context; generated routes never override canonical sources.",
+  "source_sha256": "sha256:080e23cfa15d18d1ab443b346be62bb92f0af36d717e37d84b295028d9de5ee5",
+  "topics": [
+    {
+      "context_order": [
+        "litrpg-system/cal0/guide/litrpg-system-story-guide.md",
+        "litrpg-system/cal0/guide/litrpg-system-worked-scenarios.md",
+        "the specification sections listed in this route",
+        "litrpg-system/cal0/canonical/litrpg-system-calibration-annex.md",
+        "litrpg-system/cal0/registries/ and executable code when exact behaviour matters"
+      ],
+      "decision_refs": [
+        "ATR0C",
+        "ATR1C",
+        "ATR2B",
+        "ATR3.0C",
+        "ATR3.1D",
+        "ATR3.2.0C",
+        "ATR3.2.1B",
+        "ATR3.3.0C",
+        "ATR3.3.1C",
+        "ATR3.3.2.0C",
+        "ATR3.3.2.1B",
+        "ATR3.3.3.0C",
+        "ATR3.3.3.1B",
+        "ATR3.3.3.2D",
+        "ATR3.4.0C",
+        "ATR3.4.1C",
+        "ATR3.4.2.0D"
+      ],
+      "description": "Attributes, growth, reinforcement, and life stages",
+      "specification_sections": [
+        {
+          "anchor": "atr0--attribute-ontology",
+          "line_end": 107,
+          "line_start": 30,
+          "section_code": "ATR0",
+          "title": "Attribute ontology"
+        },
+        {
+          "anchor": "atr1--attribute-architecture",
+          "line_end": 300,
+          "line_start": 108,
+          "section_code": "ATR1",
+          "title": "Attribute architecture"
+        },
+        {
+          "anchor": "atr2--numerical-scale",
+          "line_end": 433,
+          "line_start": 301,
+          "section_code": "ATR2",
+          "title": "Numerical scale"
+        },
+        {
+          "anchor": "atr3--permanent-attribute-change",
+          "line_end": 2190,
+          "line_start": 434,
+          "section_code": "ATR3",
+          "title": "Permanent attribute change"
+        },
+        {
+          "anchor": "atr34--prenatal-childhood-and-life-stage-calibration",
+          "line_end": 2582,
+          "line_start": 2191,
+          "section_code": "ATR3.4",
+          "title": "Prenatal, childhood, and life-stage calibration"
+        }
+      ],
+      "topic": "attributes"
+    },
+    {
+      "context_order": [
+        "litrpg-system/cal0/guide/litrpg-system-story-guide.md",
+        "litrpg-system/cal0/guide/litrpg-system-worked-scenarios.md",
+        "the specification sections listed in this route",
+        "litrpg-system/cal0/canonical/litrpg-system-calibration-annex.md",
+        "litrpg-system/cal0/registries/ and executable code when exact behaviour matters"
+      ],
+      "decision_refs": [
+        "RES0.0D",
+        "RES0.1D",
+        "RES0.2D",
+        "RES0.3D",
+        "RES0.4D",
+        "RES0.5D",
+        "RES0.6D",
+        "RES0.7D",
+        "RES0.8D",
+        "RES0.9D",
+        "RES0.10D",
+        "RES0.11D",
+        "RES0.12D",
+        "RES0.13D",
+        "RES0.14D",
+        "RES0.15D",
+        "RES0.16D"
+      ],
+      "description": "Resources, condition, action, Soul, and checks",
+      "specification_sections": [
+        {
+          "anchor": "res0--resource-and-action-architecture",
+          "line_end": 8754,
+          "line_start": 2583,
+          "section_code": "RES0",
+          "title": "Resource and action architecture"
+        }
+      ],
+      "topic": "resources"
+    },
+    {
+      "context_order": [
+        "litrpg-system/cal0/guide/litrpg-system-story-guide.md",
+        "litrpg-system/cal0/guide/litrpg-system-worked-scenarios.md",
+        "the specification sections listed in this route",
+        "litrpg-system/cal0/canonical/litrpg-system-calibration-annex.md",
+        "litrpg-system/cal0/registries/ and executable code when exact behaviour matters"
+      ],
+      "decision_refs": [
+        "SKL0.0D",
+        "SKL0.1D",
+        "SKL0.2D",
+        "SKL1.0D",
+        "SKL1.1D",
+        "SKL1.2D",
+        "SKL2.0D",
+        "SKL2.1D",
+        "SKL2.2D",
+        "SKL3.0D",
+        "SKL3.1D",
+        "SKL3.2D",
+        "SKL4.0D",
+        "SKL4.1D",
+        "SKL4.2D"
+      ],
+      "description": "Skill identity, progression, evolution, and transmission",
+      "specification_sections": [
+        {
+          "anchor": "skl0--skills-and-abilities-foundational-architecture",
+          "line_end": 9008,
+          "line_start": 8755,
+          "section_code": "SKL0",
+          "title": "Skills and abilities: foundational architecture"
+        },
+        {
+          "anchor": "skl1--skill-identity-and-advancement",
+          "line_end": 9326,
+          "line_start": 9009,
+          "section_code": "SKL1",
+          "title": "Skill identity and advancement"
+        },
+        {
+          "anchor": "skl2--skill-portfolios-and-internal-structure",
+          "line_end": 9592,
+          "line_start": 9327,
+          "section_code": "SKL2",
+          "title": "Skill portfolios and internal structure"
+        },
+        {
+          "anchor": "skl3--skill-evolution-and-restructuring",
+          "line_end": 9907,
+          "line_start": 9593,
+          "section_code": "SKL3",
+          "title": "Skill evolution and restructuring"
+        },
+        {
+          "anchor": "skl4--skill-transmission-dependency-loss-and-recovery",
+          "line_end": 10219,
+          "line_start": 9908,
+          "section_code": "SKL4",
+          "title": "Skill transmission, dependency, loss, and recovery"
+        }
+      ],
+      "topic": "skills"
+    },
+    {
+      "context_order": [
+        "litrpg-system/cal0/guide/litrpg-system-story-guide.md",
+        "litrpg-system/cal0/guide/litrpg-system-worked-scenarios.md",
+        "the specification sections listed in this route",
+        "litrpg-system/cal0/canonical/litrpg-system-calibration-annex.md",
+        "litrpg-system/cal0/registries/ and executable code when exact behaviour matters"
+      ],
+      "decision_refs": [
+        "TRT1.0D",
+        "TRT1.1D",
+        "TRT1.2D",
+        "TRT2.0D",
+        "TRT2.1D",
+        "TRT2.2D"
+      ],
+      "description": "Traits, ancestry, bloodlines, and alterations",
+      "specification_sections": [
+        {
+          "anchor": "trt1--traits-talents-species-and-ancestry",
+          "line_end": 10440,
+          "line_start": 10220,
+          "section_code": "TRT1",
+          "title": "Traits, talents, species, and ancestry"
+        },
+        {
+          "anchor": "trt2--bloodlines-alterations-and-trait-restructuring",
+          "line_end": 10663,
+          "line_start": 10441,
+          "section_code": "TRT2",
+          "title": "Bloodlines, alterations, and trait restructuring"
+        }
+      ],
+      "topic": "traits"
+    },
+    {
+      "context_order": [
+        "litrpg-system/cal0/guide/litrpg-system-story-guide.md",
+        "litrpg-system/cal0/guide/litrpg-system-worked-scenarios.md",
+        "the specification sections listed in this route",
+        "litrpg-system/cal0/canonical/litrpg-system-calibration-annex.md",
+        "litrpg-system/cal0/registries/ and executable code when exact behaviour matters"
+      ],
+      "decision_refs": [
+        "CLS1.0D",
+        "CLS1.1D",
+        "CLS1.2D",
+        "CLS2.0D",
+        "CLS2.1D",
+        "CLS2.2D",
+        "CLS3.0D",
+        "CLS3.1D",
+        "CLS3.2D",
+        "CLS4.0D",
+        "CLS4.1D",
+        "CLS4.2D"
+      ],
+      "description": "Class offers, advancement, rewards, and evolution",
+      "specification_sections": [
+        {
+          "anchor": "cls1--class-foundations",
+          "line_end": 10844,
+          "line_start": 10664,
+          "section_code": "CLS1",
+          "title": "Class foundations"
+        },
+        {
+          "anchor": "cls2--class-offers-and-advancement",
+          "line_end": 11071,
+          "line_start": 10845,
+          "section_code": "CLS2",
+          "title": "Class offers and advancement"
+        },
+        {
+          "anchor": "cls3--class-capabilities-rewards-and-quality",
+          "line_end": 11287,
+          "line_start": 11072,
+          "section_code": "CLS3",
+          "title": "Class capabilities, rewards, and quality"
+        },
+        {
+          "anchor": "cls4--class-evolution-continuity-and-the-mage-centred-trajectory",
+          "line_end": 11607,
+          "line_start": 11288,
+          "section_code": "CLS4",
+          "title": "Class evolution, continuity, and the Mage-centred trajectory"
+        }
+      ],
+      "topic": "classes"
+    },
+    {
+      "context_order": [
+        "litrpg-system/cal0/guide/litrpg-system-story-guide.md",
+        "litrpg-system/cal0/guide/litrpg-system-worked-scenarios.md",
+        "the specification sections listed in this route",
+        "litrpg-system/cal0/canonical/litrpg-system-calibration-annex.md",
+        "litrpg-system/cal0/registries/ and executable code when exact behaviour matters"
+      ],
+      "decision_refs": [
+        "PRG1.0D",
+        "PRG1.1D",
+        "PRG1.2D",
+        "PRG2.0D",
+        "PRG2.1D",
+        "PRG2.2D",
+        "PRG3.0D",
+        "PRG3.1D",
+        "PRG3.2D"
+      ],
+      "description": "XP, achievements, titles, quests, and rarity",
+      "specification_sections": [
+        {
+          "anchor": "prg1--overall-progression-xp-and-milestones",
+          "line_end": 11863,
+          "line_start": 11608,
+          "section_code": "PRG1",
+          "title": "Overall progression, XP, and milestones"
+        },
+        {
+          "anchor": "prg2--achievements-titles-perks-and-boons",
+          "line_end": 12248,
+          "line_start": 11864,
+          "section_code": "PRG2",
+          "title": "Achievements, titles, perks, and boons"
+        },
+        {
+          "anchor": "prg3--quests-rarity-and-contribution-attribution",
+          "line_end": 12664,
+          "line_start": 12249,
+          "section_code": "PRG3",
+          "title": "Quests, rarity, and contribution attribution"
+        }
+      ],
+      "topic": "progression"
+    },
+    {
+      "context_order": [
+        "litrpg-system/cal0/guide/litrpg-system-story-guide.md",
+        "litrpg-system/cal0/guide/litrpg-system-worked-scenarios.md",
+        "the specification sections listed in this route",
+        "litrpg-system/cal0/canonical/litrpg-system-calibration-annex.md",
+        "litrpg-system/cal0/registries/ and executable code when exact behaviour matters"
+      ],
+      "decision_refs": [
+        "MAG1.0D",
+        "MAG1.1D",
+        "MAG1.2D",
+        "MAG2.0D",
+        "MAG2.1D",
+        "MAG2.2D"
+      ],
+      "description": "Spells, casting, magical research, and distributed systems",
+      "specification_sections": [
+        {
+          "anchor": "mag1--spells-axioms-construction-and-learning",
+          "line_end": 13137,
+          "line_start": 12665,
+          "section_code": "MAG1",
+          "title": "Spells, axioms, construction, and learning"
+        },
+        {
+          "anchor": "mag2--casting-research-and-distributed-magical-systems",
+          "line_end": 13588,
+          "line_start": 13138,
+          "section_code": "MAG2",
+          "title": "Casting, research, and distributed magical systems"
+        }
+      ],
+      "topic": "magic"
+    },
+    {
+      "context_order": [
+        "litrpg-system/cal0/guide/litrpg-system-story-guide.md",
+        "litrpg-system/cal0/guide/litrpg-system-worked-scenarios.md",
+        "the specification sections listed in this route",
+        "litrpg-system/cal0/canonical/litrpg-system-calibration-annex.md",
+        "litrpg-system/cal0/registries/ and executable code when exact behaviour matters"
+      ],
+      "decision_refs": [
+        "ITM1.0D",
+        "ITM1.1D",
+        "ITM1.2D",
+        "ITM2.0D",
+        "ITM2.1D",
+        "ITM2.2D"
+      ],
+      "description": "Items, equipment, storage, crafting, and loot",
+      "specification_sections": [
+        {
+          "anchor": "itm1--items-equipment-and-storage",
+          "line_end": 13943,
+          "line_start": 13589,
+          "section_code": "ITM1",
+          "title": "Items, equipment, and storage"
+        },
+        {
+          "anchor": "itm2--crafting-relics-identification-salvage-and-loot",
+          "line_end": 14324,
+          "line_start": 13944,
+          "section_code": "ITM2",
+          "title": "Crafting, relics, identification, salvage, and loot"
+        }
+      ],
+      "topic": "items"
+    },
+    {
+      "context_order": [
+        "litrpg-system/cal0/guide/litrpg-system-story-guide.md",
+        "litrpg-system/cal0/guide/litrpg-system-worked-scenarios.md",
+        "the specification sections listed in this route",
+        "litrpg-system/cal0/canonical/litrpg-system-calibration-annex.md",
+        "litrpg-system/cal0/registries/ and executable code when exact behaviour matters"
+      ],
+      "decision_refs": [
+        "SOC1.0D",
+        "SOC1.1D",
+        "SOC1.2D"
+      ],
+      "description": "Parties, companions, factions, and reputation",
+      "specification_sections": [
+        {
+          "anchor": "soc1--parties-companions-factions-and-reputation",
+          "line_end": 14640,
+          "line_start": 14325,
+          "section_code": "SOC1",
+          "title": "Parties, companions, factions, and reputation"
+        }
+      ],
+      "topic": "society"
+    },
+    {
+      "context_order": [
+        "litrpg-system/cal0/guide/litrpg-system-story-guide.md",
+        "litrpg-system/cal0/guide/litrpg-system-worked-scenarios.md",
+        "the specification sections listed in this route",
+        "litrpg-system/cal0/canonical/litrpg-system-calibration-annex.md",
+        "litrpg-system/cal0/registries/ and executable code when exact behaviour matters"
+      ],
+      "decision_refs": [
+        "UI1.0D",
+        "UI1.1D",
+        "UI1.2D"
+      ],
+      "description": "Interface, notifications, information, and privacy",
+      "specification_sections": [
+        {
+          "anchor": "ui1--interface-information-and-privacy",
+          "line_end": 15021,
+          "line_start": 14641,
+          "section_code": "UI1",
+          "title": "Interface, information, and privacy"
+        }
+      ],
+      "topic": "interface"
+    },
+    {
+      "context_order": [
+        "litrpg-system/cal0/guide/litrpg-system-story-guide.md",
+        "litrpg-system/cal0/guide/litrpg-system-worked-scenarios.md",
+        "the specification sections listed in this route",
+        "litrpg-system/cal0/canonical/litrpg-system-calibration-annex.md",
+        "litrpg-system/cal0/registries/ and executable code when exact behaviour matters"
+      ],
+      "decision_refs": [
+        "WLD1.0D",
+        "WLD1.1D",
+        "WLD1.2D",
+        "WLD2.0D",
+        "WLD2.1A+D",
+        "WLD2.2D"
+      ],
+      "description": "Awakening, creatures, exceptional places, and ecology",
+      "specification_sections": [
+        {
+          "anchor": "wld1--awakening-eligibility-and-creature-progression",
+          "line_end": 15482,
+          "line_start": 15022,
+          "section_code": "WLD1",
+          "title": "Awakening, eligibility, and creature progression"
+        },
+        {
+          "anchor": "wld2--exceptional-places-ecology-and-population-distributions",
+          "line_end": 15989,
+          "line_start": 15483,
+          "section_code": "WLD2",
+          "title": "Exceptional places, ecology, and population distributions"
+        }
+      ],
+      "topic": "world"
+    },
+    {
+      "context_order": [
+        "litrpg-system/cal0/guide/litrpg-system-story-guide.md",
+        "litrpg-system/cal0/guide/litrpg-system-worked-scenarios.md",
+        "the specification sections listed in this route",
+        "litrpg-system/cal0/canonical/litrpg-system-calibration-annex.md",
+        "litrpg-system/cal0/registries/ and executable code when exact behaviour matters"
+      ],
+      "decision_refs": [
+        "PRO1.0D",
+        "PRO1.1D",
+        "PRO1.2D"
+      ],
+      "description": "Protagonist continuity, prenatal access, and Mage trajectory",
+      "specification_sections": [
+        {
+          "anchor": "pro1--protagonist-specific-configuration",
+          "line_end": 16292,
+          "line_start": 15990,
+          "section_code": "PRO1",
+          "title": "Protagonist-specific configuration"
+        }
+      ],
+      "topic": "protagonist"
+    },
+    {
+      "context_order": [
+        "litrpg-system/cal0/guide/litrpg-system-story-guide.md",
+        "litrpg-system/cal0/guide/litrpg-system-worked-scenarios.md",
+        "the specification sections listed in this route",
+        "litrpg-system/cal0/canonical/litrpg-system-calibration-annex.md",
+        "litrpg-system/cal0/registries/ and executable code when exact behaviour matters"
+      ],
+      "decision_refs": [
+        "VAL1.0D",
+        "VAL1.1D",
+        "VAL1.2D"
+      ],
+      "description": "Calibration, adversarial validation, and closure",
+      "specification_sections": [
+        {
+          "anchor": "val1--calibration-adversarial-validation-and-closure",
+          "line_end": 16607,
+          "line_start": 16293,
+          "section_code": "VAL1",
+          "title": "Calibration, adversarial validation, and closure"
+        }
+      ],
+      "topic": "validation"
+    }
+  ]
+}

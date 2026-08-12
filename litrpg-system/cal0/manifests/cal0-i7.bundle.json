@@ -1,0 +1,518 @@
+{
+  "bundle_id": "bundle://cal0/i7@0.7.0",
+  "package_version": "0.7.0",
+  "stage": "CAL0-I7",
+  "stage_status": "COMPLETE",
+  "parameter_status": "AUTHORING_VALIDATED_PROVISIONAL",
+  "closure_status": "VALIDATED_BASELINE_WITH_BOUNDED_RESIDUALS",
+  "canonical_specification": "0.89",
+  "calibration_annex": "2.9",
+  "numerical_environment": {
+    "language": "Python",
+    "minimum_version": "3.11",
+    "decimal_policy": "exact decimal strings until explicitly parsed",
+    "float_policy": "forbidden in canonical records",
+    "canonical_json": "UTF-8, sorted keys, compact separators, no NaN/Infinity"
+  },
+  "fixture_contract": {
+    "suite_id": "fixture-suite://cal0/i2-reference@1",
+    "case_count": 66,
+    "seed_set": [
+      17,
+      83
+    ],
+    "traversal_set": [
+      "forward",
+      "reverse"
+    ],
+    "synthetic_only": true
+  },
+  "reference_contract": {
+    "parameter_set_id": "parameter-set://cal0/i3-reference@1",
+    "parameter_set_status": "PROVISIONAL",
+    "scenario_suite_id": "scenario-suite://cal0/i3-reference@1",
+    "character_count": 4,
+    "scenario_count": 5,
+    "canonicality": "REFERENCE_ONLY_NOT_STORY_CANON",
+    "cohort_claims_permitted": false
+  },
+  "cohort_contract": {
+    "plan_id": "cohort-plan://cal0/i4-human-reference@1",
+    "suite_id": "cohort-suite://cal0/i4-reference@1",
+    "successor_parameter_set_id": "parameter-set://cal0/i4-reference@1",
+    "births_per_seed": 10000,
+    "seed_count": 5,
+    "iteration_count": 3,
+    "comparison_ensemble_count": 6,
+    "report_digest": "sha256:fb5057acf2c534a8178a3d39125f47006243d2bc711b89326249086219b64178",
+    "canonicality": "INTERNAL_WORLD_CALIBRATION_NOT_EMPIRICAL_FACT"
+  },
+  "adversarial_contract": {
+    "suite_id": "adversarial-suite://cal0/i5-reference@1",
+    "attack_count": 42,
+    "execution_count": 168,
+    "surface_count": 9,
+    "repair_count": 5,
+    "unresolved_invariant_violation_count": 0,
+    "report_digest": "sha256:a5436b77af57d5a3e155ff7ccb5e8b55f7741a8a69b5596c352eb088fae677ba",
+    "canonicality": "INTERNAL_SYSTEM_VALIDATION_NOT_EMPIRICAL_FACT_OR_STORY_CANON"
+  },
+  "authoring_contract": {
+    "suite_id": "authoring-suite://cal0/i6-reference@1",
+    "sheet_count": 14,
+    "projection_count": 84,
+    "scenario_count": 15,
+    "authoring_template_count": 10,
+    "notification_template_count": 4,
+    "change_entry_count": 6,
+    "active_residual_count": 5,
+    "report_digest": "sha256:dbbf20567cbb5d2f123224a52a3bc1b039599556447d010a5d84609048f85aee",
+    "canonicality": "AUTHORING_REFERENCE_NOT_EMPIRICAL_FACT_OR_FIXED_PLOT"
+  },
+  "closure_contract": {
+    "suite_id": "closure-suite://cal0/i7@1",
+    "architecture_decision_count": 106,
+    "cal0_model_selection_count": 66,
+    "criterion_count": 9,
+    "required_artifact_count": 9,
+    "residual_group_count": 71,
+    "residual_item_count": 305,
+    "blocking_residual_count": 0,
+    "change_entry_count": 10,
+    "scene_projection_cell_count": 90,
+    "report_digest": "sha256:d0200cdb56745cd7530bda8d9b8e5554ec985503a0b775e6b8bcdf79585a3bf4",
+    "closure_status": "VALIDATED_BASELINE_WITH_BOUNDED_RESIDUALS"
+  },
+  "artifacts": [
+    {
+      "path": "README.md",
+      "role": "documentation",
+      "sha256": "sha256:dd3e67f6e86ee2eae553f9dadbe36b5bf0a36ef7a75d46e62bce340033d61b81"
+    },
+    {
+      "path": "authoring/cal0-i6-authoring-checklists.json",
+      "role": "bootstrap",
+      "sha256": "sha256:a4481651cb412f3240c0004173f5fce7b1eeb8b175be7ab2a067a7ec0203317d"
+    },
+    {
+      "path": "authoring/cal0-i6-notification-templates.json",
+      "role": "bootstrap",
+      "sha256": "sha256:431efa514acd21d8d9834028d2838afcbf21d12b668d04603d8fd93db157b6d5"
+    },
+    {
+      "path": "authoring/cal0-i6-projection-contracts.json",
+      "role": "bootstrap",
+      "sha256": "sha256:e2bd1c449c0a83f550ee0ad44748190a58f62046d8b2ee327fb98fed793a6264"
+    },
+    {
+      "path": "authoring/cal0-i7-character-sheet-checklist.json",
+      "role": "bootstrap",
+      "sha256": "sha256:30eebe39e440521a76aa66a668000f5767a1f4a26cfd216ebba095fa658a02fd"
+    },
+    {
+      "path": "authoring/cal0-i7-scene-projection-matrix.json",
+      "role": "bootstrap",
+      "sha256": "sha256:50ad6b0c26cf48ebaf3f26c4f917d1b9d44cdb4d187dbfdf5e58fc6e7120c99a"
+    },
+    {
+      "path": "canonical/litrpg-system-calibration-annex.md",
+      "role": "documentation",
+      "sha256": "sha256:fbaedea4bd3268303c10cff4e1b2ae4ba256da2c28516596208971a5a18c63cf"
+    },
+    {
+      "path": "canonical/litrpg-system-specification.md",
+      "role": "documentation",
+      "sha256": "sha256:080e23cfa15d18d1ab443b346be62bb92f0af36d717e37d84b295028d9de5ee5"
+    },
+    {
+      "path": "characters/cal0-i6-reference-sheets.json",
+      "role": "bootstrap",
+      "sha256": "sha256:4858574f8b8c516a4ee4a185c296775bf5eb8bc9ef60a4f43581d7012bcdbd1d"
+    },
+    {
+      "path": "closure/cal0-i7-closure-review.json",
+      "role": "fixture",
+      "sha256": "sha256:b93ad200f2f860ab92c8edc470c601569bcf9b6ef38845a868302c69ef510844"
+    },
+    {
+      "path": "fixtures/cal0-i1-fixtures.json",
+      "role": "fixture",
+      "sha256": "sha256:1dcc1e2f6c14dffeeabd4be99a44b00dcb3b12aeeb333e419123f7d2042ceeb0"
+    },
+    {
+      "path": "fixtures/cal0-i2-fixtures.json",
+      "role": "fixture",
+      "sha256": "sha256:9d9fe5c107b61f07eb87b15da4c236d3571a514764e347e219c8fbcc3951a332"
+    },
+    {
+      "path": "fixtures/cal0-i3-parameter-fixtures.json",
+      "role": "fixture",
+      "sha256": "sha256:d35c26faf323025faed9a3041cc708b3f13cfa532fa90c46e738b2d64de60f2c"
+    },
+    {
+      "path": "fixtures/cal0-i4-fixtures.json",
+      "role": "fixture",
+      "sha256": "sha256:8c4fd29be992b781c9d1dd56918131922ea1bcceacecdb07976c268092547242"
+    },
+    {
+      "path": "fixtures/cal0-i5-fixtures.json",
+      "role": "fixture",
+      "sha256": "sha256:ca47cb3ad4bc0534b4c949861ada144c616597f650744358c5fbdac828875f30"
+    },
+    {
+      "path": "fixtures/cal0-i6-fixtures.json",
+      "role": "fixture",
+      "sha256": "sha256:46efb4368a0d25952fc7ad546b455bffe906cd53555fa861107e69dd997852d5"
+    },
+    {
+      "path": "fixtures/cal0-i7-fixtures.json",
+      "role": "fixture",
+      "sha256": "sha256:43967ea825e081c26df9648969cb92c63d4f5d354e2433e9a21a2b3e14c6ccfa"
+    },
+    {
+      "path": "guide/litrpg-system-authoring-templates.md",
+      "role": "documentation",
+      "sha256": "sha256:127388897a3473b34205e170a8a2de67213374c3348069973c522aefb86a48d0"
+    },
+    {
+      "path": "guide/litrpg-system-reference-sheets.md",
+      "role": "documentation",
+      "sha256": "sha256:f8052e510becbae2df4d5a7ee4b54c92caf10b0c7937fb90ec1e203bf146c890"
+    },
+    {
+      "path": "guide/litrpg-system-residual-uncertainty-register.md",
+      "role": "documentation",
+      "sha256": "sha256:565dd7cc3a0e5c1539019f4b4ac64c61d606871b888a9d9a0d3bcd09b6203c52"
+    },
+    {
+      "path": "guide/litrpg-system-story-guide.md",
+      "role": "documentation",
+      "sha256": "sha256:5a98ccd5a814bbbeb66d87e3fc2fb753e1828906978130c655e3e04fdba34a7b"
+    },
+    {
+      "path": "guide/litrpg-system-validated-closure.md",
+      "role": "documentation",
+      "sha256": "sha256:ffb2ed799dd17efc982d61a09a9d634d7f5aaa83e0031bd443107100f100dd50"
+    },
+    {
+      "path": "guide/litrpg-system-worked-scenarios.md",
+      "role": "documentation",
+      "sha256": "sha256:00dc0cb8d94b43cb187ba175f8d8fbff336e1b3be622880bad48950443e5eccf"
+    },
+    {
+      "path": "pyproject.toml",
+      "role": "bootstrap",
+      "sha256": "sha256:45277e8de49ff1bad1fa79956e5bdf3e76e9bc288ff385bc5d97c15f6302c94c"
+    },
+    {
+      "path": "registries/cal0-i3-parameters.json",
+      "role": "registry",
+      "sha256": "sha256:88898d230a83a00a6907f08927265b4b216045dee314b67a031f32660d9a85c0"
+    },
+    {
+      "path": "registries/cal0-i4-parameter-assessment.json",
+      "role": "registry",
+      "sha256": "sha256:205cdb643c9edb7aebbe6eed4357333700287c51040f277a08a099bea1e271ad"
+    },
+    {
+      "path": "registries/cal0-i6-change-register.json",
+      "role": "registry",
+      "sha256": "sha256:b0a0905c2a758fd3d35c9ea0852ef27db3142f6102c5335238fbb321d8a4d79c"
+    },
+    {
+      "path": "registries/cal0-i6-decision-resolution.json",
+      "role": "registry",
+      "sha256": "sha256:10b205e45f8dbadd95fa2d8a5c7bdfec249c146dfa1dcdc704fd8044be67749c"
+    },
+    {
+      "path": "registries/cal0-i7-change-register.json",
+      "role": "registry",
+      "sha256": "sha256:d46e0ff86dd99945f7f8bd791dbb7afede37d7e137828b4a24472576742f01a8"
+    },
+    {
+      "path": "registries/cal0-i7-residual-uncertainty.json",
+      "role": "registry",
+      "sha256": "sha256:10b892879027ef051dbc5f7248bb4b94b4a2338d97eb64977c168e9e7afcfe46"
+    },
+    {
+      "path": "registries/canonical-primitives.json",
+      "role": "registry",
+      "sha256": "sha256:a0232564ff009065bb0a03091540f9d0cbcf380e3cb6ad7e345a8a763e11bd46"
+    },
+    {
+      "path": "registries/model-families.json",
+      "role": "registry",
+      "sha256": "sha256:f31e846eb26ed3994be0a09b3d6f634eb3a6d3eda7182c1c58738f43439d8479"
+    },
+    {
+      "path": "registries/parameter-record-types.json",
+      "role": "registry",
+      "sha256": "sha256:a433c8539bec8b89f058f7f713046895ba23d640fad4af81b1aee8b9e264d9b4"
+    },
+    {
+      "path": "registries/schema-registry.json",
+      "role": "registry",
+      "sha256": "sha256:52ce36673b5c61bbd3452fff5add344367fcf456c9e7f5775efd1fb82820f62e"
+    },
+    {
+      "path": "reports/cal0-i2-fixture-report.json",
+      "role": "fixture",
+      "sha256": "sha256:3889563d91d7945a1e4c6b5156132e11ff7986b42a52be80c0e7dbed2a86b8e3"
+    },
+    {
+      "path": "reports/cal0-i3-reference-report.json",
+      "role": "fixture",
+      "sha256": "sha256:2f7f8c2edd72b1a0733e6f5d4ce601294eb67acab5522fda469ab06072dc22f5"
+    },
+    {
+      "path": "reports/cal0-i4-cohort-report.json",
+      "role": "fixture",
+      "sha256": "sha256:e3b63f17119b1047e373811691f70fa52bef2da5eb58469565946e85983ab2af"
+    },
+    {
+      "path": "reports/cal0-i5-adversarial-report.json",
+      "role": "fixture",
+      "sha256": "sha256:3ec5a398c101c56903fbd1904e466380d417814ca3cdbff30daf707676889252"
+    },
+    {
+      "path": "reports/cal0-i6-usability-report.json",
+      "role": "fixture",
+      "sha256": "sha256:81c80cafa4dc9969573101f9a9dc7cbcd70ef8b68b3eaf28948b066a789e4720"
+    },
+    {
+      "path": "reports/cal0-i7-closure-report.json",
+      "role": "fixture",
+      "sha256": "sha256:86487ac03f301468997a30071cfef712546456feab39ddb5a4d41a1e24123113"
+    },
+    {
+      "path": "scenarios/cal0-i3-reference-scenarios.json",
+      "role": "fixture",
+      "sha256": "sha256:71b4dbe7fbfe7412133c1e248fad2b62cfa56c828c30cb974457ab77358d38a3"
+    },
+    {
+      "path": "scenarios/cal0-i4-cohort-plan.json",
+      "role": "fixture",
+      "sha256": "sha256:cbc66ae5c20342f5e413c2a5651fdf8d1c08e121e4da766c106521e9df88014f"
+    },
+    {
+      "path": "scenarios/cal0-i6-story-scenarios.json",
+      "role": "fixture",
+      "sha256": "sha256:e0c33cc025a6b298d0d3b466c3b2cb121b06bbecd41e3c8fbc966a5b1328fc43"
+    },
+    {
+      "path": "schemas/cal0-i3-parameter-registry.schema.json",
+      "role": "schema",
+      "sha256": "sha256:878dc0906df0ee96fc3ba74f7942c63cc26e322983d16306525718254f69d5d9"
+    },
+    {
+      "path": "schemas/cal0-i3-reference-scenarios.schema.json",
+      "role": "schema",
+      "sha256": "sha256:26d1b5c7cff3297fcd4ea8aad12e848a8aff710d4293e9a4c141e3f7101a61c4"
+    },
+    {
+      "path": "schemas/cal0-i4-cohort-plan.schema.json",
+      "role": "schema",
+      "sha256": "sha256:0e4e22b80ba3ced29922583ee75b493d2c23810bcde666e43dafcf27c293d3f0"
+    },
+    {
+      "path": "schemas/cal0-i4-parameter-assessment.schema.json",
+      "role": "schema",
+      "sha256": "sha256:646bd18ea007a6aad477afedd063462b6d6a1dada1d3a2da7d9ad8468f59ed49"
+    },
+    {
+      "path": "schemas/cal0-i7-character-sheet.schema.json",
+      "role": "schema",
+      "sha256": "sha256:e1c4f6ec8d5aa9024f4aa8127832bcde2f3736f54824e4617259e7a7c492c8bd"
+    },
+    {
+      "path": "schemas/cal0-i7-sheet-projection.schema.json",
+      "role": "schema",
+      "sha256": "sha256:00f96bef95928df61ffce151f410e48291e53b5b40616c19ec07a7f319444e28"
+    },
+    {
+      "path": "schemas/canonical-primitive.schema.json",
+      "role": "schema",
+      "sha256": "sha256:160e6223e9032873b91a7d17ee485e5f86eedfd856df8e5c9783d51fe6fe9fcf"
+    },
+    {
+      "path": "schemas/model-family.schema.json",
+      "role": "schema",
+      "sha256": "sha256:6780090a1435fc6dc56f95f3ec208ef5a842a08c2d79a936b2116dee8cfb3626"
+    },
+    {
+      "path": "schemas/parameter-record-type.schema.json",
+      "role": "schema",
+      "sha256": "sha256:d752d13e32aa908255e5ccf41db04d95a9295cdb0d1bffdc89ba39de43deba3e"
+    },
+    {
+      "path": "schemas/registry-envelope.schema.json",
+      "role": "schema",
+      "sha256": "sha256:6c6fbd40954d9890619002c8141c3fd40ce868be882735186dd578c9193d0dcd"
+    },
+    {
+      "path": "schemas/unresolved-value.schema.json",
+      "role": "schema",
+      "sha256": "sha256:0874a727196ca2963d0f902a6cb62633ed3c6828a727a208848cebc2540a7b19"
+    },
+    {
+      "path": "schemas/version-manifest.schema.json",
+      "role": "schema",
+      "sha256": "sha256:e73ebafc367b1b776fca36da04973370fbc962d009f8b897e4d5727f44454bab"
+    },
+    {
+      "path": "sitecustomize.py",
+      "role": "bootstrap",
+      "sha256": "sha256:5fdc36df66a53d47a107f2b5b7f6375e5e43f1bcd1f0f8bbd29235eea8710862"
+    },
+    {
+      "path": "src/cal0/__init__.py",
+      "role": "engine",
+      "sha256": "sha256:0be09393b2532691735276ef19f52c1a835cadb1d4f538eb16c3e0df64aa5a1f"
+    },
+    {
+      "path": "src/cal0/adversarial.py",
+      "role": "engine",
+      "sha256": "sha256:e632836d4c82a8f851271f20567c3f8554f89cb8b60a59ddc97f3f1722548c96"
+    },
+    {
+      "path": "src/cal0/authoring.py",
+      "role": "engine",
+      "sha256": "sha256:e4a90b9e70cf009e009b020ced05d0a3c362421e96f74d41251ccbb30c4a954e"
+    },
+    {
+      "path": "src/cal0/canonical.py",
+      "role": "validator",
+      "sha256": "sha256:7db21cf7cd45d3356e098e9483986127c1469aede90509af1cc33932cb71339b"
+    },
+    {
+      "path": "src/cal0/cli.py",
+      "role": "validator",
+      "sha256": "sha256:de8ede660bc05c0cd7f3d8c3f9b49f9a9b454918dd0d27575fe9904f5f13277d"
+    },
+    {
+      "path": "src/cal0/closure.py",
+      "role": "engine",
+      "sha256": "sha256:53fcb68ec2aeb5cecfa6d0f7352f2bd8cd97416275b15e9bfced11b9f133346e"
+    },
+    {
+      "path": "src/cal0/cohort_runner.py",
+      "role": "engine",
+      "sha256": "sha256:724b6b56ab35cbc4f6357881d810d718b713fd61e9167c4339c92a07959c4890"
+    },
+    {
+      "path": "src/cal0/engines.py",
+      "role": "engine",
+      "sha256": "sha256:610ff30176bd205f52fbfc4089518bca1322fe4693f36f8fed11cd69f2c2f36d"
+    },
+    {
+      "path": "src/cal0/exact.py",
+      "role": "engine",
+      "sha256": "sha256:97543d853acdc97576494b98ba5d273c42ad3c161aa730de382fc432494cb483"
+    },
+    {
+      "path": "src/cal0/fixture_runner.py",
+      "role": "engine",
+      "sha256": "sha256:43c48166dfbc396d617f9a7a9dffbdeecaa49e0f1058d1dc7cfe9696d2d35fae"
+    },
+    {
+      "path": "src/cal0/governance.py",
+      "role": "engine",
+      "sha256": "sha256:8f7e14532652ddff3c63f68e2f2c9ad6a659e0638b0e0ce43febbfc70db704b2"
+    },
+    {
+      "path": "src/cal0/parameter_runtime.py",
+      "role": "engine",
+      "sha256": "sha256:c09ea807fe886f2b78fdbfc70b98a57c6ce13ef92134472cb381dee0057b7e32"
+    },
+    {
+      "path": "src/cal0/scenario_runner.py",
+      "role": "engine",
+      "sha256": "sha256:b11c5ba665ea472d3691a53b68e3dd92dc8a752acbdbbf482aa8425347b1a3f7"
+    },
+    {
+      "path": "src/cal0/validator.py",
+      "role": "validator",
+      "sha256": "sha256:08c460c63d4ef33b39083aa250955be3a6fee0b9a9c865e492fbd121809a907d"
+    },
+    {
+      "path": "tests/test_cal0_i1.py",
+      "role": "test",
+      "sha256": "sha256:304f2d2534dceb41e7d0e92844d7714e8f8580803a4cd438a6ab85d611df60a4"
+    },
+    {
+      "path": "tests/test_cal0_i2.py",
+      "role": "test",
+      "sha256": "sha256:d036bfafbe541e4dee9cd7837b01853726c69916382fb9d03d23e3f4002cd1be"
+    },
+    {
+      "path": "tests/test_cal0_i3.py",
+      "role": "test",
+      "sha256": "sha256:54e5704c862ce7fc98d3f632f3059328d3a111b686fa1a48b1e0af9551801833"
+    },
+    {
+      "path": "tests/test_cal0_i4.py",
+      "role": "test",
+      "sha256": "sha256:7c17108a7d6b7e034bf14005b305b87f130267d2691df2d5cf1bbfffe6ce1157"
+    },
+    {
+      "path": "tests/test_cal0_i5.py",
+      "role": "test",
+      "sha256": "sha256:85db39dfdacea3f69cec32ba7dda9db980c3fb9725815fbfe2e29da2a2b27a06"
+    },
+    {
+      "path": "tests/test_cal0_i6.py",
+      "role": "test",
+      "sha256": "sha256:77f329d0d8c0510ff5d515a428ca60631cb66dbc417ce9851b3f9d435b7195b2"
+    },
+    {
+      "path": "tests/test_cal0_i7.py",
+      "role": "test",
+      "sha256": "sha256:f0ed076b5f65f02f4abbaae617522ec0badbefd324fb6181f1c2252683a4d41f"
+    },
+    {
+      "path": "tools/build_fixture_report.py",
+      "role": "bootstrap",
+      "sha256": "sha256:3ec84ed2a281ed493aa3a129fa4fa123eef826baeec8279a99f37c2e6e798d03"
+    },
+    {
+      "path": "tools/build_i3_report.py",
+      "role": "bootstrap",
+      "sha256": "sha256:4144b49df332a3c5e3bbe8df214ae04c65c11ccb61958302e0b9ca6c82cf7081"
+    },
+    {
+      "path": "tools/build_i4_report.py",
+      "role": "bootstrap",
+      "sha256": "sha256:d98a0a34a45e8f7ffd0241afc1e78518813d2408ea582fccbb94972ef34f820c"
+    },
+    {
+      "path": "tools/build_i5_report.py",
+      "role": "bootstrap",
+      "sha256": "sha256:70807f169049329a70658f78e9be42ec750e65910f5c6edd025b20622e7b95e7"
+    },
+    {
+      "path": "tools/build_i6_artifacts.py",
+      "role": "bootstrap",
+      "sha256": "sha256:64186b313b407df98afdf51a68156c7b9818f34f8a2a629b49842e08a28a00d7"
+    },
+    {
+      "path": "tools/build_i6_handbooks.py",
+      "role": "bootstrap",
+      "sha256": "sha256:377055f92104379325fe9301d500547d446525d11ea0fa39916adb315248b8b8"
+    },
+    {
+      "path": "tools/build_i7_artifacts.py",
+      "role": "bootstrap",
+      "sha256": "sha256:0ac130b3b83f2238cdb1ca836fcad462ce78eef3a09395127f52b35f78ca07c4"
+    },
+    {
+      "path": "tools/build_i7_handbooks.py",
+      "role": "bootstrap",
+      "sha256": "sha256:975a8c07d7abfa12e106f36162a5838c3e85439bb4badcce17ee5ddf4f686af9"
+    },
+    {
+      "path": "tools/build_manifest.py",
+      "role": "bootstrap",
+      "sha256": "sha256:09dbdf9ae892cfbdab41301015f8b521e5811baee54c77d265991d50a93245ba"
+    }
+  ]
+}

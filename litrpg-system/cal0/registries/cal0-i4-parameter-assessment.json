@@ -1,0 +1,963 @@
+{
+  "assessment_digest": "sha256:cd9dad54fae3849538859784b8167bb49df9a9a2c71660fe79890e756701c313",
+  "canonicality": "INTERNAL_WORLD_CALIBRATION_NOT_EMPIRICAL_FACT",
+  "final_iteration_id": "calibration-iteration://cal0/i4/reference-successor@1",
+  "final_overrides": {
+    "parameter://cal0/adaptation/gain-scale@1": "0.036",
+    "parameter://cal0/xp/class-exponent@1": "1.90",
+    "parameter://cal0/xp/class-total-scale@1": "205",
+    "parameter://cal0/xp/skill-total-scale@1": "106"
+  },
+  "parameter_set_id": "parameter-set://cal0/i4-reference@1",
+  "parent_parameter_set_id": "parameter-set://cal0/i3-reference@1",
+  "provenance": [
+    "litrpg-system-specification.md#VAL1.0",
+    "litrpg-system-calibration-annex.md#CAL0-I4",
+    "cohort-plan://cal0/i4-human-reference@1"
+  ],
+  "provisional_parameter_assessments": [
+    {
+      "classification": "NOT_IDENTIFIABLE_FROM_I4_COHORT_OBSERVABLES",
+      "confounding_family": null,
+      "high_shifts": {
+        "adult_capacity_p50": "0",
+        "class_form_completion_rate": "0",
+        "independent_mage_rate": "0",
+        "injury_rate": "0",
+        "skill_form_completion_rate": "0",
+        "training_contribution_p50": "0"
+      },
+      "low_shifts": {
+        "adult_capacity_p50": "0",
+        "class_form_completion_rate": "0",
+        "independent_mage_rate": "0",
+        "injury_rate": "0",
+        "skill_form_completion_rate": "0",
+        "training_contribution_p50": "0"
+      },
+      "maximum_relative_effect": "0",
+      "parameter_id": "parameter://cal0/adaptation/beta-concentration@1",
+      "reason": "The active I4 life-course observables do not contain this parameter's mechanism; zero numerical sensitivity is not evidence that the parameter is causally irrelevant."
+    },
+    {
+      "classification": "NOT_IDENTIFIABLE_FROM_I4_COHORT_OBSERVABLES",
+      "confounding_family": null,
+      "high_shifts": {
+        "adult_capacity_p50": "0",
+        "class_form_completion_rate": "0",
+        "independent_mage_rate": "0",
+        "injury_rate": "0",
+        "skill_form_completion_rate": "0",
+        "training_contribution_p50": "0"
+      },
+      "low_shifts": {
+        "adult_capacity_p50": "0",
+        "class_form_completion_rate": "0",
+        "independent_mage_rate": "0",
+        "injury_rate": "0",
+        "skill_form_completion_rate": "0",
+        "training_contribution_p50": "0"
+      },
+      "maximum_relative_effect": "0",
+      "parameter_id": "parameter://cal0/adaptation/beta-mode@1",
+      "reason": "The active I4 life-course observables do not contain this parameter's mechanism; zero numerical sensitivity is not evidence that the parameter is causally irrelevant."
+    },
+    {
+      "classification": "WEAKLY_IDENTIFIED",
+      "confounding_family": null,
+      "high_shifts": {
+        "adult_capacity_p50": "0.00034628",
+        "class_form_completion_rate": "0",
+        "independent_mage_rate": "0",
+        "injury_rate": "0",
+        "skill_form_completion_rate": "0",
+        "training_contribution_p50": "0.0035391"
+      },
+      "low_shifts": {
+        "adult_capacity_p50": "0.00019214",
+        "class_form_completion_rate": "0",
+        "independent_mage_rate": "0",
+        "injury_rate": "0",
+        "skill_form_completion_rate": "0",
+        "training_contribution_p50": "0.00483366"
+      },
+      "maximum_relative_effect": "0.00483366",
+      "parameter_id": "parameter://cal0/adaptation/detraining-weekly@1",
+      "reason": "One-at-a-time perturbation changes at least one protected I4 output."
+    },
+    {
+      "classification": "WEAKLY_IDENTIFIED",
+      "confounding_family": null,
+      "high_shifts": {
+        "adult_capacity_p50": "0",
+        "class_form_completion_rate": "0",
+        "independent_mage_rate": "0",
+        "injury_rate": "0",
+        "skill_form_completion_rate": "0",
+        "training_contribution_p50": "0"
+      },
+      "low_shifts": {
+        "adult_capacity_p50": "0",
+        "class_form_completion_rate": "0",
+        "independent_mage_rate": "0",
+        "injury_rate": "0.00230947",
+        "skill_form_completion_rate": "0",
+        "training_contribution_p50": "0"
+      },
+      "maximum_relative_effect": "0.00230947",
+      "parameter_id": "parameter://cal0/adaptation/excessive@1",
+      "reason": "One-at-a-time perturbation changes at least one protected I4 output."
+    },
+    {
+      "classification": "INFLUENTIAL_CONFOUNDED",
+      "confounding_family": "adaptation_gain_x_trainability_x_access",
+      "high_shifts": {
+        "adult_capacity_p50": "0.00342808",
+        "class_form_completion_rate": "0",
+        "independent_mage_rate": "0",
+        "injury_rate": "0",
+        "skill_form_completion_rate": "0",
+        "training_contribution_p50": "0.05196427"
+      },
+      "low_shifts": {
+        "adult_capacity_p50": "0.00646241",
+        "class_form_completion_rate": "0",
+        "independent_mage_rate": "0",
+        "injury_rate": "0",
+        "skill_form_completion_rate": "0",
+        "training_contribution_p50": "0.07741586"
+      },
+      "maximum_relative_effect": "0.07741586",
+      "parameter_id": "parameter://cal0/adaptation/functional-envelope-scale@1",
+      "reason": "One-at-a-time perturbation changes at least one protected I4 output."
+    },
+    {
+      "classification": "INFLUENTIAL_CONFOUNDED",
+      "confounding_family": "adaptation_gain_x_trainability_x_access",
+      "high_shifts": {
+        "adult_capacity_p50": "0.01033068",
+        "class_form_completion_rate": "0",
+        "independent_mage_rate": "0",
+        "injury_rate": "0",
+        "skill_form_completion_rate": "0",
+        "training_contribution_p50": "0.19374662"
+      },
+      "low_shifts": {
+        "adult_capacity_p50": "0.0039056",
+        "class_form_completion_rate": "0",
+        "independent_mage_rate": "0",
+        "injury_rate": "0",
+        "skill_form_completion_rate": "0",
+        "training_contribution_p50": "0.08081692"
+      },
+      "maximum_relative_effect": "0.19374662",
+      "parameter_id": "parameter://cal0/adaptation/gain-scale@1",
+      "reason": "One-at-a-time perturbation changes at least one protected I4 output."
+    },
+    {
+      "classification": "PRACTICALLY_NON_IDENTIFIABLE",
+      "confounding_family": null,
+      "high_shifts": {
+        "adult_capacity_p50": "0",
+        "class_form_completion_rate": "0",
+        "independent_mage_rate": "0",
+        "injury_rate": "0",
+        "skill_form_completion_rate": "0",
+        "training_contribution_p50": "0"
+      },
+      "low_shifts": {
+        "adult_capacity_p50": "0",
+        "class_form_completion_rate": "0",
+        "independent_mage_rate": "0",
+        "injury_rate": "0",
+        "skill_form_completion_rate": "0",
+        "training_contribution_p50": "0"
+      },
+      "maximum_relative_effect": "0",
+      "parameter_id": "parameter://cal0/adaptation/harm-exponent@1",
+      "reason": "The current summaries are invariant to the admissible perturbation."
+    },
+    {
+      "classification": "PRACTICALLY_NON_IDENTIFIABLE",
+      "confounding_family": null,
+      "high_shifts": {
+        "adult_capacity_p50": "0",
+        "class_form_completion_rate": "0",
+        "independent_mage_rate": "0",
+        "injury_rate": "0",
+        "skill_form_completion_rate": "0",
+        "training_contribution_p50": "0"
+      },
+      "low_shifts": {
+        "adult_capacity_p50": "0",
+        "class_form_completion_rate": "0",
+        "independent_mage_rate": "0",
+        "injury_rate": "0",
+        "skill_form_completion_rate": "0",
+        "training_contribution_p50": "0"
+      },
+      "maximum_relative_effect": "0",
+      "parameter_id": "parameter://cal0/adaptation/harm-scale@1",
+      "reason": "The current summaries are invariant to the admissible perturbation."
+    },
+    {
+      "classification": "INFLUENTIAL",
+      "confounding_family": null,
+      "high_shifts": {
+        "adult_capacity_p50": "0.00355752",
+        "class_form_completion_rate": "0",
+        "independent_mage_rate": "0",
+        "injury_rate": "0",
+        "skill_form_completion_rate": "0",
+        "training_contribution_p50": "0.05366122"
+      },
+      "low_shifts": {
+        "adult_capacity_p50": "0.00365907",
+        "class_form_completion_rate": "0",
+        "independent_mage_rate": "0",
+        "injury_rate": "0",
+        "skill_form_completion_rate": "0",
+        "training_contribution_p50": "0.05789707"
+      },
+      "maximum_relative_effect": "0.05789707",
+      "parameter_id": "parameter://cal0/adaptation/headroom-beta@1",
+      "reason": "One-at-a-time perturbation changes at least one protected I4 output."
+    },
+    {
+      "classification": "MODERATE",
+      "confounding_family": null,
+      "high_shifts": {
+        "adult_capacity_p50": "0.00269965",
+        "class_form_completion_rate": "0",
+        "independent_mage_rate": "0",
+        "injury_rate": "0",
+        "skill_form_completion_rate": "0",
+        "training_contribution_p50": "0.01256295"
+      },
+      "low_shifts": {
+        "adult_capacity_p50": "0.00216588",
+        "class_form_completion_rate": "0",
+        "independent_mage_rate": "0",
+        "injury_rate": "0",
+        "skill_form_completion_rate": "0",
+        "training_contribution_p50": "0.01488298"
+      },
+      "maximum_relative_effect": "0.01488298",
+      "parameter_id": "parameter://cal0/adaptation/maintenance@1",
+      "reason": "One-at-a-time perturbation changes at least one protected I4 output."
+    },
+    {
+      "classification": "INFLUENTIAL",
+      "confounding_family": null,
+      "high_shifts": {
+        "adult_capacity_p50": "0.0051688",
+        "class_form_completion_rate": "0",
+        "independent_mage_rate": "0",
+        "injury_rate": "0",
+        "skill_form_completion_rate": "0",
+        "training_contribution_p50": "0.05248203"
+      },
+      "low_shifts": {
+        "adult_capacity_p50": "0.00193676",
+        "class_form_completion_rate": "0",
+        "independent_mage_rate": "0",
+        "injury_rate": "0",
+        "skill_form_completion_rate": "0",
+        "training_contribution_p50": "0.00741805"
+      },
+      "maximum_relative_effect": "0.05248203",
+      "parameter_id": "parameter://cal0/adaptation/peak@1",
+      "reason": "One-at-a-time perturbation changes at least one protected I4 output."
+    },
+    {
+      "classification": "INFLUENTIAL",
+      "confounding_family": null,
+      "high_shifts": {
+        "adult_capacity_p50": "0.0008524",
+        "class_form_completion_rate": "0",
+        "independent_mage_rate": "0",
+        "injury_rate": "0",
+        "skill_form_completion_rate": "0",
+        "training_contribution_p50": "0.02786476"
+      },
+      "low_shifts": {
+        "adult_capacity_p50": "0.00553589",
+        "class_form_completion_rate": "0",
+        "independent_mage_rate": "0",
+        "injury_rate": "0",
+        "skill_form_completion_rate": "0",
+        "training_contribution_p50": "0.10711485"
+      },
+      "maximum_relative_effect": "0.10711485",
+      "parameter_id": "parameter://cal0/adaptation/stop@1",
+      "reason": "One-at-a-time perturbation changes at least one protected I4 output."
+    },
+    {
+      "classification": "WEAKLY_IDENTIFIED",
+      "confounding_family": null,
+      "high_shifts": {
+        "adult_capacity_p50": "0.00000181",
+        "class_form_completion_rate": "0",
+        "independent_mage_rate": "0",
+        "injury_rate": "0",
+        "skill_form_completion_rate": "0",
+        "training_contribution_p50": "0.0000003"
+      },
+      "low_shifts": {
+        "adult_capacity_p50": "0.0000018",
+        "class_form_completion_rate": "0",
+        "independent_mage_rate": "0",
+        "injury_rate": "0",
+        "skill_form_completion_rate": "0",
+        "training_contribution_p50": "0.0000003"
+      },
+      "maximum_relative_effect": "0.00000181",
+      "parameter_id": "parameter://cal0/maturation/aggregate-rho@1",
+      "reason": "One-at-a-time perturbation changes at least one protected I4 output."
+    },
+    {
+      "classification": "WEAKLY_IDENTIFIED",
+      "confounding_family": null,
+      "high_shifts": {
+        "adult_capacity_p50": "0.00035191",
+        "class_form_completion_rate": "0",
+        "independent_mage_rate": "0",
+        "injury_rate": "0",
+        "skill_form_completion_rate": "0",
+        "training_contribution_p50": "0.00012389"
+      },
+      "low_shifts": {
+        "adult_capacity_p50": "0.00015202",
+        "class_form_completion_rate": "0",
+        "independent_mage_rate": "0",
+        "injury_rate": "0",
+        "skill_form_completion_rate": "0",
+        "training_contribution_p50": "0.00012373"
+      },
+      "maximum_relative_effect": "0.00035191",
+      "parameter_id": "parameter://cal0/maturation/aggregate-weights@1",
+      "reason": "One-at-a-time perturbation changes at least one protected I4 output."
+    },
+    {
+      "classification": "NOT_IDENTIFIABLE_FROM_I4_COHORT_OBSERVABLES",
+      "confounding_family": null,
+      "high_shifts": {
+        "adult_capacity_p50": "0",
+        "class_form_completion_rate": "0",
+        "independent_mage_rate": "0",
+        "injury_rate": "0",
+        "skill_form_completion_rate": "0",
+        "training_contribution_p50": "0"
+      },
+      "low_shifts": {
+        "adult_capacity_p50": "0",
+        "class_form_completion_rate": "0",
+        "independent_mage_rate": "0",
+        "injury_rate": "0",
+        "skill_form_completion_rate": "0",
+        "training_contribution_p50": "0"
+      },
+      "maximum_relative_effect": "0",
+      "parameter_id": "parameter://cal0/maturation/foundation-loss-rate@1",
+      "reason": "The active I4 life-course observables do not contain this parameter's mechanism; zero numerical sensitivity is not evidence that the parameter is causally irrelevant."
+    },
+    {
+      "classification": "NOT_IDENTIFIABLE_FROM_I4_COHORT_OBSERVABLES",
+      "confounding_family": null,
+      "high_shifts": {
+        "adult_capacity_p50": "0",
+        "class_form_completion_rate": "0",
+        "independent_mage_rate": "0",
+        "injury_rate": "0",
+        "skill_form_completion_rate": "0",
+        "training_contribution_p50": "0"
+      },
+      "low_shifts": {
+        "adult_capacity_p50": "0",
+        "class_form_completion_rate": "0",
+        "independent_mage_rate": "0",
+        "injury_rate": "0",
+        "skill_form_completion_rate": "0",
+        "training_contribution_p50": "0"
+      },
+      "maximum_relative_effect": "0",
+      "parameter_id": "parameter://cal0/maturation/foundation-rise-rate@1",
+      "reason": "The active I4 life-course observables do not contain this parameter's mechanism; zero numerical sensitivity is not evidence that the parameter is causally irrelevant."
+    },
+    {
+      "classification": "INFLUENTIAL",
+      "confounding_family": null,
+      "high_shifts": {
+        "adult_capacity_p50": "0.00197494",
+        "class_form_completion_rate": "0",
+        "independent_mage_rate": "0",
+        "injury_rate": "0",
+        "skill_form_completion_rate": "0",
+        "training_contribution_p50": "0.00082184"
+      },
+      "low_shifts": {
+        "adult_capacity_p50": "0.08856501",
+        "class_form_completion_rate": "0",
+        "independent_mage_rate": "0",
+        "injury_rate": "0",
+        "skill_form_completion_rate": "0",
+        "training_contribution_p50": "0.03136597"
+      },
+      "maximum_relative_effect": "0.08856501",
+      "parameter_id": "parameter://cal0/maturation/neural-programme@1",
+      "reason": "One-at-a-time perturbation changes at least one protected I4 output."
+    },
+    {
+      "classification": "INFLUENTIAL",
+      "confounding_family": null,
+      "high_shifts": {
+        "adult_capacity_p50": "0.00225489",
+        "class_form_completion_rate": "0",
+        "independent_mage_rate": "0",
+        "injury_rate": "0",
+        "skill_form_completion_rate": "0",
+        "training_contribution_p50": "0.00103568"
+      },
+      "low_shifts": {
+        "adult_capacity_p50": "0.10687632",
+        "class_form_completion_rate": "0",
+        "independent_mage_rate": "0",
+        "injury_rate": "0",
+        "skill_form_completion_rate": "0",
+        "training_contribution_p50": "0.03851951"
+      },
+      "maximum_relative_effect": "0.10687632",
+      "parameter_id": "parameter://cal0/maturation/physical-programme@1",
+      "reason": "One-at-a-time perturbation changes at least one protected I4 output."
+    },
+    {
+      "classification": "INFLUENTIAL",
+      "confounding_family": null,
+      "high_shifts": {
+        "adult_capacity_p50": "0",
+        "class_form_completion_rate": "0",
+        "independent_mage_rate": "0",
+        "injury_rate": "0",
+        "skill_form_completion_rate": "0",
+        "training_contribution_p50": "0"
+      },
+      "low_shifts": {
+        "adult_capacity_p50": "0",
+        "class_form_completion_rate": "0",
+        "independent_mage_rate": "0.15",
+        "injury_rate": "0",
+        "skill_form_completion_rate": "0",
+        "training_contribution_p50": "0"
+      },
+      "maximum_relative_effect": "0.15",
+      "parameter_id": "parameter://cal0/maturation/soul-programme@1",
+      "reason": "One-at-a-time perturbation changes at least one protected I4 output."
+    },
+    {
+      "classification": "INFLUENTIAL",
+      "confounding_family": null,
+      "high_shifts": {
+        "adult_capacity_p50": "0.00477652",
+        "class_form_completion_rate": "0",
+        "independent_mage_rate": "0",
+        "injury_rate": "0",
+        "skill_form_completion_rate": "0",
+        "training_contribution_p50": "0.00239141"
+      },
+      "low_shifts": {
+        "adult_capacity_p50": "0.18745427",
+        "class_form_completion_rate": "0",
+        "independent_mage_rate": "0",
+        "injury_rate": "0",
+        "skill_form_completion_rate": "0",
+        "training_contribution_p50": "0.07741586"
+      },
+      "maximum_relative_effect": "0.18745427",
+      "parameter_id": "parameter://cal0/maturation/structural-gate-programme@1",
+      "reason": "One-at-a-time perturbation changes at least one protected I4 output."
+    },
+    {
+      "classification": "NOT_IDENTIFIABLE_FROM_I4_COHORT_OBSERVABLES",
+      "confounding_family": null,
+      "high_shifts": {
+        "adult_capacity_p50": "0",
+        "class_form_completion_rate": "0",
+        "independent_mage_rate": "0",
+        "injury_rate": "0",
+        "skill_form_completion_rate": "0",
+        "training_contribution_p50": "0"
+      },
+      "low_shifts": {
+        "adult_capacity_p50": "0",
+        "class_form_completion_rate": "0",
+        "independent_mage_rate": "0",
+        "injury_rate": "0",
+        "skill_form_completion_rate": "0",
+        "training_contribution_p50": "0"
+      },
+      "maximum_relative_effect": "0",
+      "parameter_id": "parameter://cal0/maturation/timing-offset-bound@1",
+      "reason": "The active I4 life-course observables do not contain this parameter's mechanism; zero numerical sensitivity is not evidence that the parameter is causally irrelevant."
+    },
+    {
+      "classification": "MODERATE",
+      "confounding_family": null,
+      "high_shifts": {
+        "adult_capacity_p50": "0.01001314",
+        "class_form_completion_rate": "0",
+        "independent_mage_rate": "0",
+        "injury_rate": "0",
+        "skill_form_completion_rate": "0",
+        "training_contribution_p50": "0"
+      },
+      "low_shifts": {
+        "adult_capacity_p50": "0.00956339",
+        "class_form_completion_rate": "0",
+        "independent_mage_rate": "0",
+        "injury_rate": "0",
+        "skill_form_completion_rate": "0",
+        "training_contribution_p50": "0"
+      },
+      "maximum_relative_effect": "0.01001314",
+      "parameter_id": "parameter://cal0/reinforcement/adult-assimilation@1",
+      "reason": "One-at-a-time perturbation changes at least one protected I4 output."
+    },
+    {
+      "classification": "NOT_IDENTIFIABLE_FROM_I4_COHORT_OBSERVABLES",
+      "confounding_family": null,
+      "high_shifts": {
+        "adult_capacity_p50": "0",
+        "class_form_completion_rate": "0",
+        "independent_mage_rate": "0",
+        "injury_rate": "0",
+        "skill_form_completion_rate": "0",
+        "training_contribution_p50": "0"
+      },
+      "low_shifts": {
+        "adult_capacity_p50": "0",
+        "class_form_completion_rate": "0",
+        "independent_mage_rate": "0",
+        "injury_rate": "0",
+        "skill_form_completion_rate": "0",
+        "training_contribution_p50": "0"
+      },
+      "maximum_relative_effect": "0",
+      "parameter_id": "parameter://cal0/reinforcement/child-assimilation@1",
+      "reason": "The active I4 life-course observables do not contain this parameter's mechanism; zero numerical sensitivity is not evidence that the parameter is causally irrelevant."
+    },
+    {
+      "classification": "WEAKLY_IDENTIFIED",
+      "confounding_family": null,
+      "high_shifts": {
+        "adult_capacity_p50": "0.00775774",
+        "class_form_completion_rate": "0",
+        "independent_mage_rate": "0",
+        "injury_rate": "0",
+        "skill_form_completion_rate": "0",
+        "training_contribution_p50": "0"
+      },
+      "low_shifts": {
+        "adult_capacity_p50": "0.00750675",
+        "class_form_completion_rate": "0",
+        "independent_mage_rate": "0",
+        "injury_rate": "0",
+        "skill_form_completion_rate": "0",
+        "training_contribution_p50": "0"
+      },
+      "maximum_relative_effect": "0.00775774",
+      "parameter_id": "parameter://cal0/reinforcement/class-level-budget@1",
+      "reason": "One-at-a-time perturbation changes at least one protected I4 output."
+    },
+    {
+      "classification": "NOT_IDENTIFIABLE_FROM_I4_COHORT_OBSERVABLES",
+      "confounding_family": null,
+      "high_shifts": {
+        "adult_capacity_p50": "0",
+        "class_form_completion_rate": "0",
+        "independent_mage_rate": "0",
+        "injury_rate": "0",
+        "skill_form_completion_rate": "0",
+        "training_contribution_p50": "0"
+      },
+      "low_shifts": {
+        "adult_capacity_p50": "0",
+        "class_form_completion_rate": "0",
+        "independent_mage_rate": "0",
+        "injury_rate": "0",
+        "skill_form_completion_rate": "0",
+        "training_contribution_p50": "0"
+      },
+      "maximum_relative_effect": "0",
+      "parameter_id": "parameter://cal0/reinforcement/fetal-assimilation@1",
+      "reason": "The active I4 life-course observables do not contain this parameter's mechanism; zero numerical sensitivity is not evidence that the parameter is causally irrelevant."
+    },
+    {
+      "classification": "WEAKLY_IDENTIFIED",
+      "confounding_family": null,
+      "high_shifts": {
+        "adult_capacity_p50": "0.00202922",
+        "class_form_completion_rate": "0",
+        "independent_mage_rate": "0",
+        "injury_rate": "0",
+        "skill_form_completion_rate": "0",
+        "training_contribution_p50": "0"
+      },
+      "low_shifts": {
+        "adult_capacity_p50": "0.00196686",
+        "class_form_completion_rate": "0",
+        "independent_mage_rate": "0",
+        "injury_rate": "0",
+        "skill_form_completion_rate": "0",
+        "training_contribution_p50": "0"
+      },
+      "maximum_relative_effect": "0.00202922",
+      "parameter_id": "parameter://cal0/reinforcement/skill-level-budget@1",
+      "reason": "One-at-a-time perturbation changes at least one protected I4 output."
+    },
+    {
+      "classification": "NOT_IDENTIFIABLE_FROM_I4_COHORT_OBSERVABLES",
+      "confounding_family": null,
+      "high_shifts": {
+        "adult_capacity_p50": "0",
+        "class_form_completion_rate": "0",
+        "independent_mage_rate": "0",
+        "injury_rate": "0",
+        "skill_form_completion_rate": "0",
+        "training_contribution_p50": "0"
+      },
+      "low_shifts": {
+        "adult_capacity_p50": "0",
+        "class_form_completion_rate": "0",
+        "independent_mage_rate": "0",
+        "injury_rate": "0",
+        "skill_form_completion_rate": "0",
+        "training_contribution_p50": "0"
+      },
+      "maximum_relative_effect": "0",
+      "parameter_id": "parameter://cal0/transition/envelope-multiplier@1",
+      "reason": "The active I4 life-course observables do not contain this parameter's mechanism; zero numerical sensitivity is not evidence that the parameter is causally irrelevant."
+    },
+    {
+      "classification": "NOT_IDENTIFIABLE_FROM_I4_COHORT_OBSERVABLES",
+      "confounding_family": null,
+      "high_shifts": {
+        "adult_capacity_p50": "0",
+        "class_form_completion_rate": "0",
+        "independent_mage_rate": "0",
+        "injury_rate": "0",
+        "skill_form_completion_rate": "0",
+        "training_contribution_p50": "0"
+      },
+      "low_shifts": {
+        "adult_capacity_p50": "0",
+        "class_form_completion_rate": "0",
+        "independent_mage_rate": "0",
+        "injury_rate": "0",
+        "skill_form_completion_rate": "0",
+        "training_contribution_p50": "0"
+      },
+      "maximum_relative_effect": "0",
+      "parameter_id": "parameter://cal0/transition/min-execution@1",
+      "reason": "The active I4 life-course observables do not contain this parameter's mechanism; zero numerical sensitivity is not evidence that the parameter is causally irrelevant."
+    },
+    {
+      "classification": "NOT_IDENTIFIABLE_FROM_I4_COHORT_OBSERVABLES",
+      "confounding_family": null,
+      "high_shifts": {
+        "adult_capacity_p50": "0",
+        "class_form_completion_rate": "0",
+        "independent_mage_rate": "0",
+        "injury_rate": "0",
+        "skill_form_completion_rate": "0",
+        "training_contribution_p50": "0"
+      },
+      "low_shifts": {
+        "adult_capacity_p50": "0",
+        "class_form_completion_rate": "0",
+        "independent_mage_rate": "0",
+        "injury_rate": "0",
+        "skill_form_completion_rate": "0",
+        "training_contribution_p50": "0"
+      },
+      "maximum_relative_effect": "0",
+      "parameter_id": "parameter://cal0/transition/min-readiness@1",
+      "reason": "The active I4 life-course observables do not contain this parameter's mechanism; zero numerical sensitivity is not evidence that the parameter is causally irrelevant."
+    },
+    {
+      "classification": "NOT_IDENTIFIABLE_FROM_I4_COHORT_OBSERVABLES",
+      "confounding_family": null,
+      "high_shifts": {
+        "adult_capacity_p50": "0",
+        "class_form_completion_rate": "0",
+        "independent_mage_rate": "0",
+        "injury_rate": "0",
+        "skill_form_completion_rate": "0",
+        "training_contribution_p50": "0"
+      },
+      "low_shifts": {
+        "adult_capacity_p50": "0",
+        "class_form_completion_rate": "0",
+        "independent_mage_rate": "0",
+        "injury_rate": "0",
+        "skill_form_completion_rate": "0",
+        "training_contribution_p50": "0"
+      },
+      "maximum_relative_effect": "0",
+      "parameter_id": "parameter://cal0/transition/min-recovery@1",
+      "reason": "The active I4 life-course observables do not contain this parameter's mechanism; zero numerical sensitivity is not evidence that the parameter is causally irrelevant."
+    },
+    {
+      "classification": "NOT_IDENTIFIABLE_FROM_I4_COHORT_OBSERVABLES",
+      "confounding_family": null,
+      "high_shifts": {
+        "adult_capacity_p50": "0",
+        "class_form_completion_rate": "0",
+        "independent_mage_rate": "0",
+        "injury_rate": "0",
+        "skill_form_completion_rate": "0",
+        "training_contribution_p50": "0"
+      },
+      "low_shifts": {
+        "adult_capacity_p50": "0",
+        "class_form_completion_rate": "0",
+        "independent_mage_rate": "0",
+        "injury_rate": "0",
+        "skill_form_completion_rate": "0",
+        "training_contribution_p50": "0"
+      },
+      "maximum_relative_effect": "0",
+      "parameter_id": "parameter://cal0/transition/min-stability@1",
+      "reason": "The active I4 life-course observables do not contain this parameter's mechanism; zero numerical sensitivity is not evidence that the parameter is causally irrelevant."
+    },
+    {
+      "classification": "NOT_IDENTIFIABLE_FROM_I4_COHORT_OBSERVABLES",
+      "confounding_family": null,
+      "high_shifts": {
+        "adult_capacity_p50": "0",
+        "class_form_completion_rate": "0",
+        "independent_mage_rate": "0",
+        "injury_rate": "0",
+        "skill_form_completion_rate": "0",
+        "training_contribution_p50": "0"
+      },
+      "low_shifts": {
+        "adult_capacity_p50": "0",
+        "class_form_completion_rate": "0",
+        "independent_mage_rate": "0",
+        "injury_rate": "0",
+        "skill_form_completion_rate": "0",
+        "training_contribution_p50": "0"
+      },
+      "maximum_relative_effect": "0",
+      "parameter_id": "parameter://cal0/xp/blocked-overhang@1",
+      "reason": "The active I4 life-course observables do not contain this parameter's mechanism; zero numerical sensitivity is not evidence that the parameter is causally irrelevant."
+    },
+    {
+      "classification": "NOT_IDENTIFIABLE_FROM_I4_COHORT_OBSERVABLES",
+      "confounding_family": null,
+      "high_shifts": {
+        "adult_capacity_p50": "0",
+        "class_form_completion_rate": "0",
+        "independent_mage_rate": "0",
+        "injury_rate": "0",
+        "skill_form_completion_rate": "0",
+        "training_contribution_p50": "0"
+      },
+      "low_shifts": {
+        "adult_capacity_p50": "0",
+        "class_form_completion_rate": "0",
+        "independent_mage_rate": "0",
+        "injury_rate": "0",
+        "skill_form_completion_rate": "0",
+        "training_contribution_p50": "0"
+      },
+      "maximum_relative_effect": "0",
+      "parameter_id": "parameter://cal0/xp/blocked-taper-exponent@1",
+      "reason": "The active I4 life-course observables do not contain this parameter's mechanism; zero numerical sensitivity is not evidence that the parameter is causally irrelevant."
+    },
+    {
+      "classification": "WEAKLY_IDENTIFIED",
+      "confounding_family": "xp_scale_x_institutional_access",
+      "high_shifts": {
+        "adult_capacity_p50": "0.00052397",
+        "class_form_completion_rate": "0",
+        "independent_mage_rate": "0",
+        "injury_rate": "0",
+        "skill_form_completion_rate": "0",
+        "training_contribution_p50": "0"
+      },
+      "low_shifts": {
+        "adult_capacity_p50": "0.00256264",
+        "class_form_completion_rate": "0",
+        "independent_mage_rate": "0",
+        "injury_rate": "0",
+        "skill_form_completion_rate": "0",
+        "training_contribution_p50": "0"
+      },
+      "maximum_relative_effect": "0.00256264",
+      "parameter_id": "parameter://cal0/xp/class-exponent@1",
+      "reason": "One-at-a-time perturbation changes at least one protected I4 output."
+    },
+    {
+      "classification": "PRACTICALLY_NON_IDENTIFIABLE",
+      "confounding_family": null,
+      "high_shifts": {
+        "adult_capacity_p50": "0",
+        "class_form_completion_rate": "0",
+        "independent_mage_rate": "0",
+        "injury_rate": "0",
+        "skill_form_completion_rate": "0",
+        "training_contribution_p50": "0"
+      },
+      "low_shifts": {
+        "adult_capacity_p50": "0",
+        "class_form_completion_rate": "0",
+        "independent_mage_rate": "0",
+        "injury_rate": "0",
+        "skill_form_completion_rate": "0",
+        "training_contribution_p50": "0"
+      },
+      "maximum_relative_effect": "0",
+      "parameter_id": "parameter://cal0/xp/class-grade-multiplier@1",
+      "reason": "The current summaries are invariant to the admissible perturbation."
+    },
+    {
+      "classification": "INFLUENTIAL_CONFOUNDED",
+      "confounding_family": "xp_scale_x_institutional_access",
+      "high_shifts": {
+        "adult_capacity_p50": "0.00214636",
+        "class_form_completion_rate": "0.24861878",
+        "independent_mage_rate": "0",
+        "injury_rate": "0",
+        "skill_form_completion_rate": "0",
+        "training_contribution_p50": "0"
+      },
+      "low_shifts": {
+        "adult_capacity_p50": "0.00590351",
+        "class_form_completion_rate": "3.27071823",
+        "independent_mage_rate": "0",
+        "injury_rate": "0",
+        "skill_form_completion_rate": "0",
+        "training_contribution_p50": "0"
+      },
+      "maximum_relative_effect": "3.27071823",
+      "parameter_id": "parameter://cal0/xp/class-total-scale@1",
+      "reason": "One-at-a-time perturbation changes at least one protected I4 output."
+    },
+    {
+      "classification": "INFLUENTIAL_CONFOUNDED",
+      "confounding_family": "xp_scale_x_evidence_opportunity",
+      "high_shifts": {
+        "adult_capacity_p50": "0.00013396",
+        "class_form_completion_rate": "0",
+        "independent_mage_rate": "0.9",
+        "injury_rate": "0",
+        "skill_form_completion_rate": "0",
+        "training_contribution_p50": "0"
+      },
+      "low_shifts": {
+        "adult_capacity_p50": "0.00038853",
+        "class_form_completion_rate": "0.01657459",
+        "independent_mage_rate": "0.6",
+        "injury_rate": "0",
+        "skill_form_completion_rate": "0",
+        "training_contribution_p50": "0"
+      },
+      "maximum_relative_effect": "0.9",
+      "parameter_id": "parameter://cal0/xp/skill-exponent@1",
+      "reason": "One-at-a-time perturbation changes at least one protected I4 output."
+    },
+    {
+      "classification": "PRACTICALLY_NON_IDENTIFIABLE",
+      "confounding_family": null,
+      "high_shifts": {
+        "adult_capacity_p50": "0",
+        "class_form_completion_rate": "0",
+        "independent_mage_rate": "0",
+        "injury_rate": "0",
+        "skill_form_completion_rate": "0",
+        "training_contribution_p50": "0"
+      },
+      "low_shifts": {
+        "adult_capacity_p50": "0",
+        "class_form_completion_rate": "0",
+        "independent_mage_rate": "0",
+        "injury_rate": "0",
+        "skill_form_completion_rate": "0",
+        "training_contribution_p50": "0"
+      },
+      "maximum_relative_effect": "0",
+      "parameter_id": "parameter://cal0/xp/skill-grade-multiplier@1",
+      "reason": "The current summaries are invariant to the admissible perturbation."
+    },
+    {
+      "classification": "INFLUENTIAL_CONFOUNDED",
+      "confounding_family": "xp_scale_x_evidence_opportunity",
+      "high_shifts": {
+        "adult_capacity_p50": "0.00251044",
+        "class_form_completion_rate": "0.12707182",
+        "independent_mage_rate": "0.6",
+        "injury_rate": "0",
+        "skill_form_completion_rate": "0.69767442",
+        "training_contribution_p50": "0"
+      },
+      "low_shifts": {
+        "adult_capacity_p50": "0.00242515",
+        "class_form_completion_rate": "0.16022099",
+        "independent_mage_rate": "2.5",
+        "injury_rate": "0",
+        "skill_form_completion_rate": "3.09043928",
+        "training_contribution_p50": "0"
+      },
+      "maximum_relative_effect": "3.09043928",
+      "parameter_id": "parameter://cal0/xp/skill-total-scale@1",
+      "reason": "One-at-a-time perturbation changes at least one protected I4 output."
+    }
+  ],
+  "report_digest": "sha256:fb5057acf2c534a8178a3d39125f47006243d2bc711b89326249086219b64178",
+  "status": "COHORT_CALIBRATED_PROVISIONAL",
+  "unresolved_parameter_assessments": [
+    {
+      "classification": "ASSUMPTION_DRIVEN_NOT_IDENTIFIABLE",
+      "parameter_id": "parameter://cal0/unresolved/rare-soul-prevalence@1",
+      "reason": "The cohort can propagate a prevalence but cannot estimate that prevalence from its own generated outliers.",
+      "remains_unresolved": true,
+      "required_stage": "CAL0-I4"
+    },
+    {
+      "classification": "ORDINARY_COHORT_STRUCTURALLY_NON_IDENTIFIABLE",
+      "parameter_id": "parameter://cal0/unresolved/prenatal-consciousness-distribution@1",
+      "reason": "Ordinary prenatal consciousness is excluded from the current contact model; protagonist continuity is a separate scenario mechanism.",
+      "remains_unresolved": true,
+      "required_stage": "CAL0-I4"
+    },
+    {
+      "classification": "OUTSIDE_HUMAN_REFERENCE_SCOPE",
+      "parameter_id": "parameter://cal0/unresolved/cross-species-scale@1",
+      "reason": "A human-reference cohort contains no cross-species contrast.",
+      "remains_unresolved": true,
+      "required_stage": "CAL0-I4"
+    },
+    {
+      "classification": "INFLUENTIAL_TRIAL_INPUT_NOT_ESTIMATED",
+      "parameter_id": "parameter://cal0/unresolved/injury-incidence@1",
+      "reason": "Injury incidence materially changes survivorship and capacity tails, but the authored envelope does not identify a unique rate.",
+      "remains_unresolved": true,
+      "required_stage": "CAL0-I4"
+    },
+    {
+      "classification": "INFLUENTIAL_TRIAL_INPUT_NOT_ESTIMATED",
+      "parameter_id": "parameter://cal0/unresolved/rarity-distribution@1",
+      "reason": "Rarity proportions are propagated as a trial assumption and cannot be inferred from the same progression outputs they label.",
+      "remains_unresolved": true,
+      "required_stage": "CAL0-I4"
+    },
+    {
+      "classification": "DEFERRED_STORY_DECISION",
+      "parameter_id": "parameter://cal0/unresolved/protagonist-long-term-soul-multiplier@1",
+      "reason": "The protagonist's long-term Soul multiplier remains explicitly owned by CAL0-I6 and is absent from population calibration.",
+      "remains_unresolved": true,
+      "required_stage": "CAL0-I6"
+    }
+  ]
+}

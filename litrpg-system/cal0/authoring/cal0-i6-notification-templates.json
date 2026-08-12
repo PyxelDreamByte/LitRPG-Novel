@@ -1,0 +1,38 @@
+{
+  "notification_registry_id": "notification-registry://cal0/i6-authoring@1",
+  "templates": [
+    {
+      "notification_type": "skill_progress",
+      "template": "{skill} increased. Improved: {facet}. Reinforcement: {assimilation_state}. Recovery demand: {recovery_state}.",
+      "must_not_imply": [
+        "full backend access",
+        "instant assimilation"
+      ]
+    },
+    {
+      "notification_type": "offer",
+      "template": "New {lineage_type} offer: {name}. Basis: {evidence_summary}. Acceptance creates prospective progression.",
+      "must_not_imply": [
+        "retroactive XP",
+        "random reroll"
+      ]
+    },
+    {
+      "notification_type": "condition",
+      "template": "Condition: {label}. Known cause: {cause_or_unknown}. Current risk: {risk_scope}. Recommended response: {response}.",
+      "must_not_imply": [
+        "perfect diagnosis",
+        "fixed timer"
+      ]
+    },
+    {
+      "notification_type": "appraisal",
+      "template": "Appraisal result ({confidence}): {disclosed_facets}. Unresolved: {unknown_facets}.",
+      "must_not_imply": [
+        "omniscience",
+        "authority",
+        "ownership"
+      ]
+    }
+  ]
+}

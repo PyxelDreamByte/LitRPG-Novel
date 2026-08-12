@@ -1,0 +1,46 @@
+{
+  "schema_version": "1.0.0",
+  "snapshot_id": "snapshot://first-awakening/protagonist/book-01/001",
+  "character_id": "character://first-awakening/protagonist",
+  "as_of_chapter_id": "chapter://first-awakening/book-01/001",
+  "as_of_event_sequence": 1,
+  "derived_from_delta_ids": [
+    "delta://first-awakening/book-01/001"
+  ],
+  "location_id": "location://first-awakening/maternal-womb",
+  "attributes": {
+    "Focus": "0.01"
+  },
+  "resources": {
+    "attention": {
+      "current": "0.01",
+      "capacity": "0.01"
+    }
+  },
+  "progression": [
+    {
+      "kind": "SKILL",
+      "track_id": "skill:developmental-intentional-control",
+      "lineage_id": "lineage:developmental-intentional-control",
+      "level": "0",
+      "xp": "0.02"
+    }
+  ],
+  "traits": [],
+  "achievements": [],
+  "inventory": [],
+  "conditions": [],
+  "knowledge": [
+    {
+      "fact_id": "fact:can-sustain-brief-attention",
+      "certainty": "KNOWN",
+      "source_refs": [
+        {
+          "source_id": "event://first-awakening/book-01/001/0001",
+          "source_type": "CHAPTER_EVENT",
+          "projection": "CHARACTER_ACCESSIBLE"
+        }
+      ]
+    }
+  ]
+}

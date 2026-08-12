@@ -1,0 +1,272 @@
+{
+  "checklist_registry_id": "checklist-registry://cal0/i6-authoring@1",
+  "templates": [
+    {
+      "artifact_type": "character",
+      "required_questions": [
+        "What is causally true?",
+        "What source records or observes it?",
+        "Who can access and interpret it?",
+        "What costs, dependencies, recovery, and failure remain?",
+        "What provenance key prevents semantic duplication?",
+        "What should the viewpoint and reader actually see?"
+      ],
+      "locked_checks": [
+        "no universal total power",
+        "no label-created capability",
+        "no retrospective progression",
+        "no duplicated identity or entitlement",
+        "no unwitnessed resource or renewal",
+        "no damage-derived free growth"
+      ],
+      "type_specific_checks": [
+        "species and life stage",
+        "absolute attributes",
+        "condition",
+        "Skills/classes separately",
+        "access and relationships"
+      ]
+    },
+    {
+      "artifact_type": "skill",
+      "required_questions": [
+        "What is causally true?",
+        "What source records or observes it?",
+        "Who can access and interpret it?",
+        "What costs, dependencies, recovery, and failure remain?",
+        "What provenance key prevents semantic duplication?",
+        "What should the viewpoint and reader actually see?"
+      ],
+      "locked_checks": [
+        "no universal total power",
+        "no label-created capability",
+        "no retrospective progression",
+        "no duplicated identity or entitlement",
+        "no unwitnessed resource or renewal",
+        "no damage-derived free growth"
+      ],
+      "type_specific_checks": [
+        "coherent domain",
+        "evidence",
+        "acceptance",
+        "XP",
+        "attestation",
+        "techniques",
+        "reinforcement"
+      ]
+    },
+    {
+      "artifact_type": "class",
+      "required_questions": [
+        "What is causally true?",
+        "What source records or observes it?",
+        "Who can access and interpret it?",
+        "What costs, dependencies, recovery, and failure remain?",
+        "What provenance key prevents semantic duplication?",
+        "What should the viewpoint and reader actually see?"
+      ],
+      "locked_checks": [
+        "no universal total power",
+        "no label-created capability",
+        "no retrospective progression",
+        "no duplicated identity or entitlement",
+        "no unwitnessed resource or renewal",
+        "no damage-derived free growth"
+      ],
+      "type_specific_checks": [
+        "role pattern",
+        "prospective acceptance",
+        "responsibility",
+        "Class XP",
+        "successor ancestry"
+      ]
+    },
+    {
+      "artifact_type": "spell",
+      "required_questions": [
+        "What is causally true?",
+        "What source records or observes it?",
+        "Who can access and interpret it?",
+        "What costs, dependencies, recovery, and failure remain?",
+        "What provenance key prevents semantic duplication?",
+        "What should the viewpoint and reader actually see?"
+      ],
+      "locked_checks": [
+        "no universal total power",
+        "no label-created capability",
+        "no retrospective progression",
+        "no duplicated identity or entitlement",
+        "no unwitnessed resource or renewal",
+        "no damage-derived free growth"
+      ],
+      "type_specific_checks": [
+        "method graph",
+        "Mana source",
+        "control",
+        "casting stages",
+        "interruption",
+        "residuals"
+      ]
+    },
+    {
+      "artifact_type": "item",
+      "required_questions": [
+        "What is causally true?",
+        "What source records or observes it?",
+        "Who can access and interpret it?",
+        "What costs, dependencies, recovery, and failure remain?",
+        "What provenance key prevents semantic duplication?",
+        "What should the viewpoint and reader actually see?"
+      ],
+      "locked_checks": [
+        "no universal total power",
+        "no label-created capability",
+        "no retrospective progression",
+        "no duplicated identity or entitlement",
+        "no unwitnessed resource or renewal",
+        "no damage-derived free growth"
+      ],
+      "type_specific_checks": [
+        "components",
+        "identity continuity",
+        "quality",
+        "condition",
+        "ownership",
+        "appraisal uncertainty"
+      ]
+    },
+    {
+      "artifact_type": "dungeon",
+      "required_questions": [
+        "What is causally true?",
+        "What source records or observes it?",
+        "Who can access and interpret it?",
+        "What costs, dependencies, recovery, and failure remain?",
+        "What provenance key prevents semantic duplication?",
+        "What should the viewpoint and reader actually see?"
+      ],
+      "locked_checks": [
+        "no universal total power",
+        "no label-created capability",
+        "no retrospective progression",
+        "no duplicated identity or entitlement",
+        "no unwitnessed resource or renewal",
+        "no damage-derived free growth"
+      ],
+      "type_specific_checks": [
+        "site/controller",
+        "inputs",
+        "spawn mechanism",
+        "recovery",
+        "ecology",
+        "claims"
+      ]
+    },
+    {
+      "artifact_type": "institution",
+      "required_questions": [
+        "What is causally true?",
+        "What source records or observes it?",
+        "Who can access and interpret it?",
+        "What costs, dependencies, recovery, and failure remain?",
+        "What provenance key prevents semantic duplication?",
+        "What should the viewpoint and reader actually see?"
+      ],
+      "locked_checks": [
+        "no universal total power",
+        "no label-created capability",
+        "no retrospective progression",
+        "no duplicated identity or entitlement",
+        "no unwitnessed resource or renewal",
+        "no damage-derived free growth"
+      ],
+      "type_specific_checks": [
+        "people",
+        "assets",
+        "procedures",
+        "authority scopes",
+        "distributed capability",
+        "turnover"
+      ]
+    },
+    {
+      "artifact_type": "progression_event",
+      "required_questions": [
+        "What is causally true?",
+        "What source records or observes it?",
+        "Who can access and interpret it?",
+        "What costs, dependencies, recovery, and failure remain?",
+        "What provenance key prevents semantic duplication?",
+        "What should the viewpoint and reader actually see?"
+      ],
+      "locked_checks": [
+        "no universal total power",
+        "no label-created capability",
+        "no retrospective progression",
+        "no duplicated identity or entitlement",
+        "no unwitnessed resource or renewal",
+        "no damage-derived free growth"
+      ],
+      "type_specific_checks": [
+        "canonical event origin",
+        "live requirements",
+        "contribution",
+        "entitlement",
+        "assimilation"
+      ]
+    },
+    {
+      "artifact_type": "notification",
+      "required_questions": [
+        "What is causally true?",
+        "What source records or observes it?",
+        "Who can access and interpret it?",
+        "What costs, dependencies, recovery, and failure remain?",
+        "What provenance key prevents semantic duplication?",
+        "What should the viewpoint and reader actually see?"
+      ],
+      "locked_checks": [
+        "no universal total power",
+        "no label-created capability",
+        "no retrospective progression",
+        "no duplicated identity or entitlement",
+        "no unwitnessed resource or renewal",
+        "no damage-derived free growth"
+      ],
+      "type_specific_checks": [
+        "source",
+        "access",
+        "confidence",
+        "significance",
+        "reader relevance"
+      ]
+    },
+    {
+      "artifact_type": "scene",
+      "required_questions": [
+        "What is causally true?",
+        "What source records or observes it?",
+        "Who can access and interpret it?",
+        "What costs, dependencies, recovery, and failure remain?",
+        "What provenance key prevents semantic duplication?",
+        "What should the viewpoint and reader actually see?"
+      ],
+      "locked_checks": [
+        "no universal total power",
+        "no label-created capability",
+        "no retrospective progression",
+        "no duplicated identity or entitlement",
+        "no unwitnessed resource or renewal",
+        "no damage-derived free growth"
+      ],
+      "type_specific_checks": [
+        "truth",
+        "record",
+        "access",
+        "interpretation",
+        "presentation",
+        "reader need"
+      ]
+    }
+  ]
+}

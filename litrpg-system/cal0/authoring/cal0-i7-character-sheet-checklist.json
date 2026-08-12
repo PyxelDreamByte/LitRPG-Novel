@@ -1,0 +1,28 @@
+{
+  "checklist_id": "checklist://cal0/i7/character-sheet@1",
+  "artifact_type": "character_sheet",
+  "required_questions": [
+    "Which canonical entity and life-stage snapshot does this sheet represent?",
+    "Which facts are causally true, recorded, accessible, interpretable, presentable, and reader-relevant?",
+    "Which progression, resource, condition, institution, and causal-ledger states are in scope?"
+  ],
+  "locked_checks": [
+    "All eleven attributes use the absolute-capacity architecture and are not totalled into power.",
+    "Natural maturation, purposeful training, organic adaptation, Skill XP, Class XP, reinforcement, and assimilation remain distinct.",
+    "Projection cannot create capability, evidence, access, authority, ownership, identity, or causal truth.",
+    "Exactly one of the six registered views is declared and private backend fields do not leak into non-author views."
+  ],
+  "required_view_kinds": [
+    "private_backend",
+    "author_facing",
+    "character_accessible",
+    "appraisal_derived",
+    "institutional_record",
+    "reader_facing"
+  ],
+  "schema_ids": [
+    "schema://cal0/i7-character-sheet@1",
+    "schema://cal0/i7-sheet-projection@1"
+  ],
+  "checklist_digest": "sha256:4b6016a114b67e00895204c04be768e7797157e5a7df185d1a2dae6c7afd9120"
+}

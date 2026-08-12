@@ -1,0 +1,13 @@
+[project]
+name = "litrpg-cal0"
+version = "0.7.0"
+description = "Executable CAL0-I7 validated closure, residual governance, schemas, evidence matrix, fixtures, and validators"
+requires-python = ">=3.11"
+dependencies = []
+
+[project.scripts]
+cal0-validate = "cal0.cli:main"
+
+[tool.cal0]
+bundle = "manifests/cal0-i7.bundle.json"
+dependency_policy = "standard-library-only"

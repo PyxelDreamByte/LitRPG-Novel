@@ -1,0 +1,289 @@
+{
+  "review_id": "closure-review://cal0/i7@1",
+  "stage": "CAL0-I7",
+  "status": "COMPLETE",
+  "closure_status": "VALIDATED_BASELINE_WITH_BOUNDED_RESIDUALS",
+  "parameter_status_preserved": "AUTHORING_VALIDATED_PROVISIONAL",
+  "architecture_decision_count": 106,
+  "architecture_decisions": [
+    "ATR0C",
+    "ATR1C",
+    "ATR2B",
+    "ATR3.0C",
+    "ATR3.1D",
+    "ATR3.2.0C",
+    "ATR3.2.1B",
+    "ATR3.3.0C",
+    "ATR3.3.1C",
+    "ATR3.3.2.0C",
+    "ATR3.3.2.1B",
+    "ATR3.3.3.0C",
+    "ATR3.3.3.1B",
+    "ATR3.3.3.2D",
+    "ATR3.4.0C",
+    "ATR3.4.1C",
+    "ATR3.4.2.0D",
+    "RES0.0D",
+    "RES0.1D",
+    "RES0.2D",
+    "RES0.3D",
+    "RES0.4D",
+    "RES0.5D",
+    "RES0.6D",
+    "RES0.7D",
+    "RES0.8D",
+    "RES0.9D",
+    "RES0.10D",
+    "RES0.11D",
+    "RES0.12D",
+    "RES0.13D",
+    "RES0.14D",
+    "RES0.15D",
+    "RES0.16D",
+    "SKL0.0D",
+    "SKL0.1D",
+    "SKL0.2D",
+    "SKL1.0D",
+    "SKL1.1D",
+    "SKL1.2D",
+    "SKL2.0D",
+    "SKL2.1D",
+    "SKL2.2D",
+    "SKL3.0D",
+    "SKL3.1D",
+    "SKL3.2D",
+    "SKL4.0D",
+    "SKL4.1D",
+    "SKL4.2D",
+    "TRT1.0D",
+    "TRT1.1D",
+    "TRT1.2D",
+    "TRT2.0D",
+    "TRT2.1D",
+    "TRT2.2D",
+    "CLS1.0D",
+    "CLS1.1D",
+    "CLS1.2D",
+    "CLS2.0D",
+    "CLS2.1D",
+    "CLS2.2D",
+    "CLS3.0D",
+    "CLS3.1D",
+    "CLS3.2D",
+    "CLS4.0D",
+    "CLS4.1D",
+    "CLS4.2D",
+    "PRG1.0D",
+    "PRG1.1D",
+    "PRG1.2D",
+    "PRG2.0D",
+    "PRG2.1D",
+    "PRG2.2D",
+    "PRG3.0D",
+    "PRG3.1D",
+    "PRG3.2D",
+    "MAG1.0D",
+    "MAG1.1D",
+    "MAG1.2D",
+    "MAG2.0D",
+    "MAG2.1D",
+    "MAG2.2D",
+    "ITM1.0D",
+    "ITM1.1D",
+    "ITM1.2D",
+    "ITM2.0D",
+    "ITM2.1D",
+    "ITM2.2D",
+    "SOC1.0D",
+    "SOC1.1D",
+    "SOC1.2D",
+    "UI1.0D",
+    "UI1.1D",
+    "UI1.2D",
+    "WLD1.0D",
+    "WLD1.1D",
+    "WLD1.2D",
+    "WLD2.0D",
+    "WLD2.1A+D",
+    "WLD2.2D",
+    "PRO1.0D",
+    "PRO1.1D",
+    "PRO1.2D",
+    "VAL1.0D",
+    "VAL1.1D",
+    "VAL1.2D"
+  ],
+  "cal0_model_selection_count": 66,
+  "required_artifact_count": 9,
+  "required_artifacts": [
+    {
+      "artifact": "canonical_causal_specification",
+      "paths": [
+        "canonical/litrpg-system-specification.md"
+      ],
+      "status": "CONNECTED"
+    },
+    {
+      "artifact": "numerical_calibration_annex",
+      "paths": [
+        "canonical/litrpg-system-calibration-annex.md"
+      ],
+      "status": "CONNECTED"
+    },
+    {
+      "artifact": "story_facing_system_guide",
+      "paths": [
+        "guide/litrpg-system-story-guide.md"
+      ],
+      "status": "CONNECTED"
+    },
+    {
+      "artifact": "character_sheet_schemas",
+      "paths": [
+        "schemas/cal0-i7-character-sheet.schema.json",
+        "schemas/cal0-i7-sheet-projection.schema.json"
+      ],
+      "status": "CONNECTED"
+    },
+    {
+      "artifact": "reference_character_sheets",
+      "paths": [
+        "characters/cal0-i6-reference-sheets.json",
+        "guide/litrpg-system-reference-sheets.md"
+      ],
+      "status": "CONNECTED"
+    },
+    {
+      "artifact": "scenario_validation_suite",
+      "paths": [
+        "scenarios/cal0-i6-story-scenarios.json",
+        "authoring/cal0-i7-scene-projection-matrix.json",
+        "guide/litrpg-system-worked-scenarios.md"
+      ],
+      "status": "CONNECTED"
+    },
+    {
+      "artifact": "contradiction_and_change_register",
+      "paths": [
+        "registries/cal0-i7-change-register.json"
+      ],
+      "status": "CONNECTED"
+    },
+    {
+      "artifact": "authoring_checks_and_templates",
+      "paths": [
+        "authoring/cal0-i6-authoring-checklists.json",
+        "authoring/cal0-i7-character-sheet-checklist.json",
+        "guide/litrpg-system-authoring-templates.md"
+      ],
+      "status": "CONNECTED"
+    },
+    {
+      "artifact": "validated_closure_review",
+      "paths": [
+        "closure/cal0-i7-closure-review.json",
+        "reports/cal0-i7-closure-report.json",
+        "guide/litrpg-system-validated-closure.md"
+      ],
+      "status": "CONNECTED"
+    }
+  ],
+  "criterion_count": 9,
+  "criteria": [
+    {
+      "criterion_id": "binding_decisions_consistent",
+      "outcome": "PASS",
+      "finding": "All 106 architecture decisions and all 66 CAL0 model-family selections retain unique binding identities.",
+      "evidence": [
+        "canonical/litrpg-system-specification.md",
+        "registries/model-families.json"
+      ]
+    },
+    {
+      "criterion_id": "multiseed_distributions_stable_and_reproducible",
+      "outcome": "PASS",
+      "finding": "The final I4 successor passes all declared envelopes across five seeds of 10,000 births each, with sensitivity and outlier records.",
+      "evidence": [
+        "reports/cal0-i4-cohort-report.json",
+        "registries/cal0-i4-parameter-assessment.json"
+      ]
+    },
+    {
+      "criterion_id": "causal_progression_ledgers_separable",
+      "outcome": "PASS",
+      "finding": "Reference engines, scenarios, sheets, and authoring checks keep maturation, training, adaptation, Skill XP, Class XP, reinforcement, and assimilation separate.",
+      "evidence": [
+        "scenarios/cal0-i3-reference-scenarios.json",
+        "scenarios/cal0-i6-story-scenarios.json",
+        "characters/cal0-i6-reference-sheets.json"
+      ]
+    },
+    {
+      "criterion_id": "no_unresolved_invariant_violation",
+      "outcome": "PASS",
+      "finding": "Forty-two attacks across nine surfaces produce no unresolved invariant violation, and every accepted repair has regressions.",
+      "evidence": [
+        "reports/cal0-i5-adversarial-report.json",
+        "registries/cal0-i7-change-register.json"
+      ]
+    },
+    {
+      "criterion_id": "reference_scenarios_replay_consistently",
+      "outcome": "PASS",
+      "finding": "All five I3 references and fifteen I6 story scenarios replay, retain digests, and satisfy declared checks.",
+      "evidence": [
+        "reports/cal0-i3-reference-report.json",
+        "reports/cal0-i6-usability-report.json",
+        "authoring/cal0-i7-scene-projection-matrix.json"
+      ]
+    },
+    {
+      "criterion_id": "protagonist_exceptional_without_cohort_redefinition",
+      "outcome": "PASS",
+      "finding": "Eight protagonist milestones remain scenario references outside ordinary cohorts, use no numerical Soul multiplier, and retain biological and institutional constraints.",
+      "evidence": [
+        "characters/cal0-i6-reference-sheets.json",
+        "registries/cal0-i6-decision-resolution.json",
+        "registries/cal0-i7-residual-uncertainty.json"
+      ]
+    },
+    {
+      "criterion_id": "institutions_and_long_lived_actors_behave_plausibly",
+      "outcome": "PASS",
+      "finding": "Cohorts model institutions and long lives; I5-A08 and I5-A13 validate causally funded intergenerational institutional and ecological optimisation without granting free power.",
+      "evidence": [
+        "reports/cal0-i4-cohort-report.json",
+        "reports/cal0-i5-adversarial-report.json",
+        "scenarios/cal0-i6-story-scenarios.json"
+      ]
+    },
+    {
+      "criterion_id": "reader_projections_comprehensible_without_falsification",
+      "outcome": "PASS",
+      "finding": "Fourteen sheets produce eighty-four non-leaking views; notifications and the explicit scene matrix preserve epistemic and presentation boundaries.",
+      "evidence": [
+        "authoring/cal0-i6-projection-contracts.json",
+        "authoring/cal0-i6-notification-templates.json",
+        "schemas/cal0-i7-sheet-projection.schema.json",
+        "authoring/cal0-i7-scene-projection-matrix.json"
+      ]
+    },
+    {
+      "criterion_id": "outstanding_uncertainty_classified_and_owned",
+      "outcome": "PASS",
+      "finding": "All 305 residual items have one permitted classification, an owner, activation condition, boundary, and non-blocking disposition; the former Soul multiplier is resolved rather than hidden among residuals.",
+      "evidence": [
+        "registries/cal0-i7-residual-uncertainty.json",
+        "registries/cal0-i7-change-register.json"
+      ]
+    }
+  ],
+  "residual_registry_id": "residual-registry://cal0/i7-closure@1",
+  "residual_registry_digest": "sha256:1d3a7db6206ef6f25aa7636cc2e7044580738aab89dd4270b04977cf28eb795b",
+  "change_register_id": "change-register://cal0/i7-governance@1",
+  "change_register_digest": "sha256:e439f22c2cfd7d1b75d3f0860f0fe407e65879618f2c8187df5beb1a7ac87f72",
+  "scene_matrix_id": "scene-projection-matrix://cal0/i7-closure@1",
+  "scene_matrix_digest": "sha256:a0282017cae6e40a763a2dd57074e54ebd5eeb20e9218af499850acbbd301c65",
+  "governance_boundary": "Validated closure freezes a controlled baseline, not every setting fact, coefficient, future extension, character decision, or plot event. Successor changes remain prospective, classified, evidenced, migration-aware, and regression-tested.",
+  "review_digest": "sha256:3bf43f57351a9f0242188877c31c333fcdd6c569193d7c16b2f6bb0c66710aad"
+}

@@ -1,0 +1,620 @@
+{
+  "scenario_suite_id": "scenario-suite://cal0/i6-story@1",
+  "scenarios": [
+    {
+      "scenario_id": "scenario://cal0/i6/natural-growth@1",
+      "family": "natural_growth_without_xp",
+      "title": "Fetal and childhood attributes rise through maturation",
+      "canonicality": "I6_WORKED_REFERENCE_NOT_FIXED_PLOT",
+      "parameter_set": "parameter-set://cal0/i4-reference@1",
+      "inputs": {
+        "start_capacity": "0.01928119",
+        "birth_capacity": "0.65381944",
+        "child_capacity": "0.82",
+        "formal_xp": "0"
+      },
+      "actor_knowledge": [
+        "author knows developmental programme",
+        "character has no ordinary fetal interface"
+      ],
+      "causal_sequence": [
+        "structures mature",
+        "foundation becomes realised",
+        "rated capacities rise",
+        "no progression reward is issued"
+      ],
+      "state_changes": {
+        "natural_maturation": "positive",
+        "skill_xp": "0",
+        "class_xp": "0",
+        "reinforcement": "0"
+      },
+      "interface_outputs": [
+        "Physical development increased",
+        "No Skill notification"
+      ],
+      "reader_facing_projection": "The child grows stronger because a body is forming and maturing, not because infancy awards levels.",
+      "expected_checks": [
+        "maturation_positive",
+        "xp_zero",
+        "ledgers_separate"
+      ],
+      "scenario_digest": "sha256:f2cc8a91360a756678c7ecf0ff669ade38b2968aa62e462709c61aeac1cd6f42"
+    },
+    {
+      "scenario_id": "scenario://cal0/i6/prenatal-skill@1",
+      "family": "prenatal_skill_progression",
+      "title": "Prenatal Skill acceptance, reinforcement, and partial assimilation",
+      "canonicality": "I6_WORKED_REFERENCE_NOT_FIXED_PLOT",
+      "parameter_set": "parameter-set://cal0/i4-reference@1",
+      "inputs": {
+        "directed_load": "0.18",
+        "conscious_fraction": "0.12",
+        "skill_xp": "0.216",
+        "reinforcement_claim": "0.0015",
+        "assimilated": "0.000375",
+        "backlog": "0.001125"
+      },
+      "actor_knowledge": [
+        "protagonist can access self-only interface",
+        "he does not know the backend formula"
+      ],
+      "causal_sequence": [
+        "repeat intent-sensation calibration",
+        "System recognises coherent domain",
+        "accept Embodied Integration",
+        "earn prospective XP",
+        "create absolute claim",
+        "safe governor assimilates part"
+      ],
+      "state_changes": {
+        "natural_maturation": "unchanged route",
+        "skill_xp": "0.216",
+        "reinforcement": "0.0015",
+        "assimilation": "0.000375",
+        "backlog": "0.001125"
+      },
+      "interface_outputs": [
+        "Embodied Integration accepted",
+        "Reinforcement partially assimilated",
+        "Recovery demand elevated"
+      ],
+      "reader_facing_projection": "A tiny success matters because it is coherent and repeatable; most of the fetus's growth still comes from gestation.",
+      "expected_checks": [
+        "claim_conserved",
+        "partial_assimilation",
+        "no_retroactive_xp"
+      ],
+      "scenario_digest": "sha256:48591888fbeb649816a695ca1516ee1efb991e05dab6ecb30a86f149f925df10"
+    },
+    {
+      "scenario_id": "scenario://cal0/i6/resistance@1",
+      "family": "resistance_training",
+      "title": "Press-ups create adaptation and Skill evidence",
+      "canonicality": "I6_WORKED_REFERENCE_NOT_FIXED_PLOT",
+      "parameter_set": "parameter-set://cal0/i4-reference@1",
+      "inputs": {
+        "sessions": 24,
+        "challenge": "0.65",
+        "supported_adaptation": "0.018",
+        "skill_xp": "0.52"
+      },
+      "actor_knowledge": [
+        "trainee knows technique and recovery plan"
+      ],
+      "causal_sequence": [
+        "load chest, arms, trunk",
+        "recover",
+        "remodel loaded structures",
+        "record movement-quality evidence"
+      ],
+      "state_changes": {
+        "purposeful_training": "15.60 load-units",
+        "organic_adaptation": "0.018",
+        "skill_xp": "0.52",
+        "class_xp": "0"
+      },
+      "interface_outputs": [
+        "Condition: fatigued",
+        "Calisthenics evidence increased"
+      ],
+      "reader_facing_projection": "Repeated press-ups improve the structures actually loaded; renaming each set would not multiply the gain.",
+      "expected_checks": [
+        "adaptation_supported",
+        "skill_and_attribute_separate",
+        "no_label_duplication"
+      ],
+      "scenario_digest": "sha256:307713b3f3cf0f240e52fbf866cffb07b184f5a143abd0d6ba248863e70008bd"
+    },
+    {
+      "scenario_id": "scenario://cal0/i6/assault-course@1",
+      "family": "running_and_assault_course",
+      "title": "Running and an assault course create a different portfolio",
+      "canonicality": "I6_WORKED_REFERENCE_NOT_FIXED_PLOT",
+      "parameter_set": "parameter-set://cal0/i4-reference@1",
+      "inputs": {
+        "sessions": 16,
+        "endurance_load": "0.58",
+        "coordination_load": "0.72",
+        "adaptation": "0.021"
+      },
+      "actor_knowledge": [
+        "coach sees gait and obstacle errors"
+      ],
+      "causal_sequence": [
+        "sustain running",
+        "climb and vault",
+        "receive feedback",
+        "recover"
+      ],
+      "state_changes": {
+        "Might": "0.003",
+        "Alacrity": "0.006",
+        "Vitality": "0.008",
+        "Finesse": "0.004",
+        "organic_adaptation": "0.021"
+      },
+      "interface_outputs": [
+        "Movement portfolio improved",
+        "Fatigue elevated"
+      ],
+      "reader_facing_projection": "The runner gains endurance, timing, balance, and obstacle method rather than the same portfolio as a lifter.",
+      "expected_checks": [
+        "portfolio_distinct",
+        "recovery_required",
+        "headroom_respected"
+      ],
+      "scenario_digest": "sha256:7ace5935d0dea970f2a386b161c8315565c2595f70b30668d254a241f54b6bde"
+    },
+    {
+      "scenario_id": "scenario://cal0/i6/mathematics@1",
+      "family": "mathematics_and_puzzles",
+      "title": "Mathematics separates knowledge, Skill, Cognition, and Focus",
+      "canonicality": "I6_WORKED_REFERENCE_NOT_FIXED_PLOT",
+      "parameter_set": "parameter-set://cal0/i4-reference@1",
+      "inputs": {
+        "novel_problems": 40,
+        "repeated_solved_problems": 60,
+        "study_hours": "32"
+      },
+      "actor_knowledge": [
+        "student knows the taught methods",
+        "teacher supplies corrective feedback"
+      ],
+      "causal_sequence": [
+        "learn representation",
+        "solve novel problems",
+        "receive correction",
+        "consolidate knowledge"
+      ],
+      "state_changes": {
+        "knowledge_units": "12",
+        "Mathematics_skill_xp": "0.90",
+        "Cognition_adaptation": "0.006",
+        "Focus_adaptation": "0.008",
+        "repeated_problem_extra_gain": "0"
+      },
+      "interface_outputs": [
+        "Mathematics evidence increased",
+        "Focus strained"
+      ],
+      "reader_facing_projection": "Knowing a theorem, practising mathematical method, and developing reliable mental capacity are related but not interchangeable.",
+      "expected_checks": [
+        "knowledge_separate",
+        "skill_xp_separate",
+        "repetition_deduplicated"
+      ],
+      "scenario_digest": "sha256:9119c7b11ea51b932f10d1886792adf4d6214474385ed5512e42c5ab367bab0b"
+    },
+    {
+      "scenario_id": "scenario://cal0/i6/meditation@1",
+      "family": "meditation",
+      "title": "Meditation separates attention, regulation, and Soul contact",
+      "canonicality": "I6_WORKED_REFERENCE_NOT_FIXED_PLOT",
+      "parameter_set": "parameter-set://cal0/i4-reference@1",
+      "inputs": {
+        "sessions": 30,
+        "minutes": 20,
+        "verified_soul_contact_events": 3
+      },
+      "actor_knowledge": [
+        "practitioner can distinguish breath, attention, emotion, and anomalous contact imperfectly"
+      ],
+      "causal_sequence": [
+        "stabilise attention",
+        "observe emotion",
+        "recover",
+        "test suspected Soul contact"
+      ],
+      "state_changes": {
+        "Focus_adaptation": "0.007",
+        "Will_adaptation": "0.003",
+        "attention_skill_xp": "0.64",
+        "soul_contact_evidence": "3",
+        "unsupported_spiritual_power": "0"
+      },
+      "interface_outputs": [
+        "Attention steadier",
+        "Possible Soul contact: low confidence"
+      ],
+      "reader_facing_projection": "Calm attention becomes more reliable; three unusual contacts justify investigation, not a universal spiritual-power bonus.",
+      "expected_checks": [
+        "attention_and_soul_separate",
+        "unsupported_claim_zero",
+        "evidence_confidence_present"
+      ],
+      "scenario_digest": "sha256:5ad19797f81d3c6da25bf4820b6b8f902d4008a121c80d69636314982ef42e02"
+    },
+    {
+      "scenario_id": "scenario://cal0/i6/civilian@1",
+      "family": "civilian_vocation",
+      "title": "Civilian vocational mastery without generic combat",
+      "canonicality": "I6_WORKED_REFERENCE_NOT_FIXED_PLOT",
+      "parameter_set": "parameter-set://cal0/i4-reference@1",
+      "inputs": {
+        "years": 14,
+        "baking_level": 47,
+        "class_level": 28
+      },
+      "actor_knowledge": [
+        "baker knows recipes, ovens, suppliers, and local demand"
+      ],
+      "causal_sequence": [
+        "work repeatedly with variation",
+        "correct failures",
+        "teach apprentices",
+        "manage production"
+      ],
+      "state_changes": {
+        "Baking_skill": 47,
+        "Baker_class": 28,
+        "combat_readiness": "0.06"
+      },
+      "interface_outputs": [
+        "Baking 47",
+        "Baker 28"
+      ],
+      "reader_facing_projection": "Mara can run a bakery under pressure and teach others; she has not become a fighter merely by gaining levels.",
+      "expected_checks": [
+        "vocation_capable",
+        "combat_not_generic",
+        "institutional_support_causal"
+      ],
+      "scenario_digest": "sha256:f2e77e4e58e235c3dd8b1c8666a082739fe6e15310a57d4486f491e8fcbe35de"
+    },
+    {
+      "scenario_id": "scenario://cal0/i6/institutional-inequality@1",
+      "family": "institutional_inequality",
+      "title": "Elite academy and under-resourced trainee diverge causally",
+      "canonicality": "I6_WORKED_REFERENCE_NOT_FIXED_PLOT",
+      "parameter_set": "parameter-set://cal0/i4-reference@1",
+      "inputs": {
+        "same_endowment": true,
+        "years": 6,
+        "elite_support": "0.90",
+        "low_support": "0.35"
+      },
+      "actor_knowledge": [
+        "author knows nutrition, coaching, safety, peers, and archives differ"
+      ],
+      "causal_sequence": [
+        "assign equal initial aptitude",
+        "vary support",
+        "train",
+        "record interruptions and recovery"
+      ],
+      "state_changes": {
+        "elite_skill_level": 54,
+        "low_resource_skill_level": 31,
+        "elite_injury_days": 12,
+        "low_resource_injury_days": 49
+      },
+      "interface_outputs": [
+        "Progress differs; cause: support and interruption"
+      ],
+      "reader_facing_projection": "The academy does not create talent from nothing; it converts resources and institutional capability into more reliable development.",
+      "expected_checks": [
+        "same_endowment_retained",
+        "support_causes_difference",
+        "no_free_institutional_skill"
+      ],
+      "scenario_digest": "sha256:7bd87e1c0ff6a1d72ed3f879fe54ec09632d1d2121c2a7e666ac2b768953938c"
+    },
+    {
+      "scenario_id": "scenario://cal0/i6/party-dispute@1",
+      "family": "party_contribution_dispute",
+      "title": "Party contribution and reward dispute",
+      "canonicality": "I6_WORKED_REFERENCE_NOT_FIXED_PLOT",
+      "parameter_set": "parameter-set://cal0/i4-reference@1",
+      "inputs": {
+        "event_id": "event:ogre-bridge",
+        "contributions": {
+          "fighter": "0.42",
+          "healer": "0.25",
+          "scout": "0.18",
+          "porter": "0.15"
+        },
+        "reward_units": "100"
+      },
+      "actor_knowledge": [
+        "party observes only part of each contribution",
+        "ledger has evidence with uncertainty"
+      ],
+      "causal_sequence": [
+        "fight and evacuate",
+        "record causal contribution",
+        "compare claims",
+        "allocate scoped reward"
+      ],
+      "state_changes": {
+        "fighter_reward": "42",
+        "healer_reward": "25",
+        "scout_reward": "18",
+        "porter_reward": "15",
+        "personal_kill_claims": 1
+      },
+      "interface_outputs": [
+        "Contribution ledger contested",
+        "Allocation recorded with evidence scope"
+      ],
+      "reader_facing_projection": "The killing blow matters, but so do warning, treatment, supply, and evacuation; one event is not four personal solo victories.",
+      "expected_checks": [
+        "contribution_sums_one",
+        "reward_conserved",
+        "event_not_duplicated"
+      ],
+      "scenario_digest": "sha256:89b924aab2407e251ba2be5aad3891c8f1e9db9fd62d70e54a469c5d2e38a657"
+    },
+    {
+      "scenario_id": "scenario://cal0/i6/dungeon-economy@1",
+      "family": "dungeon_spawn_economy",
+      "title": "Dungeon spawning and treasure economy remain source-bounded",
+      "canonicality": "I6_WORKED_REFERENCE_NOT_FIXED_PLOT",
+      "parameter_set": "parameter-set://cal0/i4-reference@1",
+      "inputs": {
+        "mana_input": "1000",
+        "biomass_input": "500",
+        "spawn_cost": "800",
+        "treasure_input": "150",
+        "maintenance": "500",
+        "harvest": "700"
+      },
+      "actor_knowledge": [
+        "controller knows measured flows, not hidden maximums"
+      ],
+      "causal_sequence": [
+        "collect inputs",
+        "spawn organisms",
+        "form treasure",
+        "harvest",
+        "allow recovery"
+      ],
+      "state_changes": {
+        "total_input": "1500",
+        "total_committed": "1450",
+        "residual": "50",
+        "unwitnessed_restock": "0"
+      },
+      "interface_outputs": [
+        "Dungeon reserve low",
+        "Spawn rate reduced"
+      ],
+      "reader_facing_projection": "Industrial use is possible, but heavy harvest lowers later output unless real inputs and recovery restore the mechanism.",
+      "expected_checks": [
+        "matter_conserved",
+        "mana_conserved",
+        "renewal_witnessed"
+      ],
+      "scenario_digest": "sha256:c9c2b40a5a9fa7dbbc8fc630e498facc867716c8ef2175a7bca942ba262cdcdb"
+    },
+    {
+      "scenario_id": "scenario://cal0/i6/magical-research@1",
+      "family": "magical_research_and_invention",
+      "title": "Research, spell construction, teaching, and derivative invention",
+      "canonicality": "I6_WORKED_REFERENCE_NOT_FIXED_PLOT",
+      "parameter_set": "parameter-set://cal0/i4-reference@1",
+      "inputs": {
+        "experiments": 18,
+        "successful_replications": 5,
+        "teacher_scaffolding": true
+      },
+      "actor_knowledge": [
+        "researcher knows anatomy and current spell grammar",
+        "student receives method but not mastery"
+      ],
+      "causal_sequence": [
+        "form hypothesis",
+        "build spell graph",
+        "test",
+        "replicate",
+        "document",
+        "teach",
+        "student reconstructs derivative"
+      ],
+      "state_changes": {
+        "knowledge_claims": 7,
+        "research_skill_xp": "2.40",
+        "spell_identity": "derived-method",
+        "student_skill_xp": "0.48",
+        "teacher_xp_from_student_work": "0"
+      },
+      "interface_outputs": [
+        "New method validated: narrow scope",
+        "Derivative method recorded"
+      ],
+      "reader_facing_projection": "Teaching transmits representation and correction; the student still has to build a working method and the teacher does not own the student's progress.",
+      "expected_checks": [
+        "knowledge_and_skill_separate",
+        "replication_required",
+        "derivative_provenance_preserved"
+      ],
+      "scenario_digest": "sha256:3839fb836248d531b97a6ca9aa51b5b77f0062c493db415d88a8bf1d9f2413c9"
+    },
+    {
+      "scenario_id": "scenario://cal0/i6/craft-salvage@1",
+      "family": "craft_repair_appraisal_salvage",
+      "title": "Crafting, repair, appraisal, salvage, and ownership",
+      "canonicality": "I6_WORKED_REFERENCE_NOT_FIXED_PLOT",
+      "parameter_set": "parameter-set://cal0/i4-reference@1",
+      "inputs": {
+        "item": "river-sword",
+        "replaced_components": [
+          "grip",
+          "guard"
+        ],
+        "salvaged_fragment": "old-guard"
+      },
+      "actor_knowledge": [
+        "smith sees material and wear",
+        "enchantment remains partly unidentified"
+      ],
+      "causal_sequence": [
+        "appraise facets",
+        "repair grip",
+        "replace guard",
+        "test",
+        "record salvage and owner consent"
+      ],
+      "state_changes": {
+        "item_identity": "preserved",
+        "quality": "improved",
+        "unknown_enchantment": "still unknown",
+        "salvage_identity": "derived component",
+        "ownership": "unchanged"
+      },
+      "interface_outputs": [
+        "Condition improved",
+        "Enchantment: unresolved facet"
+      ],
+      "reader_facing_projection": "Repair can restore function without revealing every secret, changing ownership, or cloning the sword's history onto a discarded guard.",
+      "expected_checks": [
+        "identity_preserved_once",
+        "unknown_not_erased",
+        "ownership_separate"
+      ],
+      "scenario_digest": "sha256:00b91fb855699fa29133d06b390c1961916dd4ab8a1f71e44a7b760ba0bebd3b"
+    },
+    {
+      "scenario_id": "scenario://cal0/i6/injury-return@1",
+      "family": "injury_rehabilitation_resurrection",
+      "title": "Injury, healing, rehabilitation, death, and return",
+      "canonicality": "I6_WORKED_REFERENCE_NOT_FIXED_PLOT",
+      "parameter_set": "parameter-set://cal0/i4-reference@1",
+      "inputs": {
+        "injury": "severed_tendon",
+        "death_minutes": 4,
+        "return_mechanism": "exclusive-soul-reconstitution"
+      },
+      "actor_knowledge": [
+        "healer knows anatomy and ritual limits",
+        "identity evidence is incomplete until return"
+      ],
+      "causal_sequence": [
+        "stabilise",
+        "repair",
+        "rehabilitate",
+        "death occurs in counterfactual branch",
+        "verify exclusive identity",
+        "reconstitute if feasible"
+      ],
+      "state_changes": {
+        "healing": "repair incomplete without rehabilitation",
+        "skill_xp_preserved": true,
+        "reinforcement_reclaimed": false,
+        "continuing_identity_holders": 1
+      },
+      "interface_outputs": [
+        "Condition: recovering",
+        "Return confirmed; no duplicate continuity"
+      ],
+      "reader_facing_projection": "Magic can restore a life only through a supported path; it does not erase rehabilitation, create a spare original, or repay completed levels.",
+      "expected_checks": [
+        "healing_staged",
+        "identity_exclusive",
+        "rewards_not_replayed"
+      ],
+      "scenario_digest": "sha256:3f1f06a2fd759224a98a075207ce65f5f5c1fd2ca94e3ec4472f3a1c08b5dd0d"
+    },
+    {
+      "scenario_id": "scenario://cal0/i6/institution-vs-power@1",
+      "family": "powerful_individual_vs_institution",
+      "title": "Prepared institution opposes a powerful individual",
+      "canonicality": "I6_WORKED_REFERENCE_NOT_FIXED_PLOT",
+      "parameter_set": "parameter-set://cal0/i4-reference@1",
+      "inputs": {
+        "individual_mana": "6.20",
+        "ward_nodes": 24,
+        "responders": 80,
+        "preparation_days": 12
+      },
+      "actor_knowledge": [
+        "institution has partial intelligence",
+        "individual does not know every ward"
+      ],
+      "causal_sequence": [
+        "prepare layered wards",
+        "disperse reserves",
+        "deny information",
+        "force repeated commitments",
+        "rotate responders"
+      ],
+      "state_changes": {
+        "individual_first_breach": "successful",
+        "second_layer": "holds",
+        "individual_mana_remaining": "1.10",
+        "institutional_losses": 7
+      },
+      "interface_outputs": [
+        "Ward layer one breached",
+        "Countermeasure network adapting"
+      ],
+      "reader_facing_projection": "The mage is terrifying and wins local exchanges, but preparation, information, distributed capacity, and recovery prevent one number from deciding the conflict.",
+      "expected_checks": [
+        "individual_power_real",
+        "institutional_capability_real",
+        "no_total_power_score"
+      ],
+      "scenario_digest": "sha256:c2297f4102fcee1a17c3ba2986d15d37c702407a31f6a2672989a809e4a8d3a1"
+    },
+    {
+      "scenario_id": "scenario://cal0/i6/knowledge-to-magic@1",
+      "family": "nonmagical_knowledge_to_magic",
+      "title": "Anatomy and mathematics become inputs to a new magical method",
+      "canonicality": "I6_WORKED_REFERENCE_NOT_FIXED_PLOT",
+      "parameter_set": "parameter-set://cal0/i4-reference@1",
+      "inputs": {
+        "anatomy_knowledge": "advanced",
+        "mathematical_model": "validated",
+        "arcane_experiments": 27
+      },
+      "actor_knowledge": [
+        "protagonist remembers concepts but must map them to local bodies, Mana, and spell grammar"
+      ],
+      "causal_sequence": [
+        "observe local anatomy",
+        "test Earth-derived hypothesis",
+        "build magical representation",
+        "run failed experiments",
+        "validate narrow repair method"
+      ],
+      "state_changes": {
+        "earth_knowledge_xp_transfer": "0",
+        "local_research_skill_xp": "3.10",
+        "arcane_method_skill_xp": "2.20",
+        "new_spell": "Tendon Alignment Lattice",
+        "failed_experiments": 19
+      },
+      "interface_outputs": [
+        "New spell validated: tendon alignment only",
+        "Source knowledge recorded; mastery earned locally"
+      ],
+      "reader_facing_projection": "Old knowledge shortens the path to a useful question; the magical answer is still invented, tested, and learned in this world.",
+      "expected_checks": [
+        "no_retroactive_mage_xp",
+        "local_validation_required",
+        "new_method_provenance_complete"
+      ],
+      "scenario_digest": "sha256:fc771b5e140d9d83afcdbdabe126c710b0e350c7afdbd3f273a5aef1f4bdc307"
+    }
+  ]
+}
