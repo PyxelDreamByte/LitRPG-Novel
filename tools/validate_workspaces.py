@@ -570,7 +570,10 @@ def main() -> int:
                 f"{path.relative_to(ROOT)}: expected targeted failure {expected!r}; found {file_errors}"
             )
 
-    cross_setting_path = INVALID_FIXTURE_ROOT / "cross-setting-world-reference.workspace.invalid.json"
+    cross_setting_path = (
+        INTEGRATION
+        / "fixtures/workspaces/invalid/cross-setting-world-reference.workspace.json"
+    )
     cross_setting = load_json(cross_setting_path)
     cross_setting_errors: list[str] = []
     if isinstance(cross_setting, dict):
