@@ -20,8 +20,21 @@ Every workflow receives:
 Load the project world index, the named setting manifest, directly affected
 setting-local canon, related accepted decisions, relevant research citations,
 and any System rules the proposal touches. Load a project default only when the
-work manifest explicitly adopts it. Do not load unrelated settings, continents,
-cultures, or history.
+work manifest explicitly adopts it.
+
+For setting initiation before a manifest exists, load only the current explicit
+Author instruction, project world index, governance rules, and empty setting
+templates. Limit output to identity, slug, title, authority envelope,
+constitutional scope, and creation of an empty proposed shell after approval.
+
+For setting authority work before or after adoption by a story work, use the discoverable setting
+manifest and paired constitution as the mutable boundary. Load an unadopted
+project default only when the Author explicitly asks to consider adoption.
+Reading or comparing that default never adopts it, and it cannot be recorded as a work-level adoption until a work manifest confirms the decision URI, scope, and revision. Before a work exists, the Author may instead approve a setting-local rule with explicit provenance and scope.
+Do not create story or character context to satisfy a setting-authority run.
+
+Do not load unrelated settings, continents, cultures, history, work overlays, or
+synthetic evaluation material.
 
 ### Character work
 

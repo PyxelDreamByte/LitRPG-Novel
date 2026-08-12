@@ -22,7 +22,7 @@
       "pattern": "^(worldbuilding/settings|litrpg-system/story-integration/fixtures/valid/settings)/[a-z0-9]+(?:-[a-z0-9]+)*$"
     },
     "workflow_status": {"enum": ["DRAFT", "IN_REVIEW", "AWAITING_AUTHOR", "ACCEPTED", "REJECTED", "SUPERSEDED"]},
-    "canon_status": {"enum": ["ACCEPTED", "PROVISIONAL", "PROPOSED", "DEFERRED", "REJECTED", "SUPERSEDED"]},
+    "canon_status": {"enum": ["ACCEPTED", "PROVISIONAL", "PROPOSED", "SUPERSEDED"]},
     "index_path": {"type": "string", "minLength": 1},
     "adopting_work_ids": {
       "type": "array",

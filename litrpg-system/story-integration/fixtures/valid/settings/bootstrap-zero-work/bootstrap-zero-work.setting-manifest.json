@@ -1,0 +1,12 @@
+{
+  "schema_version": "1.0.0",
+  "setting_id": "setting://bootstrap-zero-work",
+  "title": "Zero-work setting bootstrap validation fixture",
+  "setting_root": "litrpg-system/story-integration/fixtures/valid/settings/bootstrap-zero-work",
+  "workflow_status": "ACCEPTED",
+  "canon_status": "PROVISIONAL",
+  "index_path": "litrpg-system/story-integration/fixtures/valid/settings/bootstrap-zero-work/indexes/INDEX.md",
+  "adopting_work_ids": [],
+  "accepted_on": "2026-08-12",
+  "approval_decision_uri": "author-decision://world/WLD-FIX-BOOT-001A"
+}
