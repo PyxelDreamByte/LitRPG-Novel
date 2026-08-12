@@ -34,6 +34,7 @@
     "display_code": {"type": "string", "pattern": "^[A-Z][A-Z0-9]*(?:[.-][A-Z0-9]+)*$"},
     "title": {"type": "string", "minLength": 1},
     "domain": {"type": "string", "minLength": 1},
+    "setting_id": {"type": "string", "pattern": "^setting://[^\\s]+$"},
     "workflow_status": {
       "enum": ["DRAFT", "IN_REVIEW", "AWAITING_AUTHOR", "ACCEPTED", "REJECTED", "SUPERSEDED"]
     },
