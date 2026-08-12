@@ -1,0 +1,38 @@
+{
+  "registry_id": "decision-resolution://cal0/i6/authoring@1",
+  "parent_unresolved_record_preserved": true,
+  "resolutions": [
+    {
+      "parameter_id": "parameter://cal0/protagonist/long-term-soul-multiplier@1",
+      "parent_state": "UNRESOLVED",
+      "active_resolution": "NOT_APPLICABLE_NONSCALAR_PROFILE",
+      "classification": "STORY_DECISION_RESOLVED_WITHOUT_NUMERICAL_COEFFICIENT",
+      "rule": "No universal Soul multiplier exists. Reincarnate Continuity preserves identity; Embodied Integration and Soul Consolidation earn facet-specific development in Depth, Coherence, Resonance, boundary integrity, coupling, recovery, and safe assimilation.",
+      "reference_sheet_values_are": "I6_AUTHORING_REFERENCE_NOT_FIXED_STORY_CANON",
+      "architecture_reopened": false,
+      "coefficient_changed": false
+    }
+  ],
+  "remaining_active_residuals": [
+    {
+      "name": "rare-Soul prevalence",
+      "classification": "SETTING_CONTENT"
+    },
+    {
+      "name": "ordinary prenatal consciousness",
+      "classification": "SETTING_CONTENT"
+    },
+    {
+      "name": "cross-species scale",
+      "classification": "FUTURE_OPTIONAL_EXTENSION"
+    },
+    {
+      "name": "injury incidence",
+      "classification": "CALIBRATION_INPUT_NOT_EMPIRICAL_ESTIMATE"
+    },
+    {
+      "name": "rarity distribution",
+      "classification": "SETTING_AND_CALIBRATION_INPUT"
+    }
+  ]
+}

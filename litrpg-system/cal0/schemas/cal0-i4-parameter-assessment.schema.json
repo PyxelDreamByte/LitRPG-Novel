@@ -1,0 +1,33 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "schema://cal0/i4-parameter-assessment@1",
+  "title": "CAL0-I4 cohort-calibrated parameter assessment",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "parameter_set_id",
+    "parent_parameter_set_id",
+    "status",
+    "canonicality",
+    "final_iteration_id",
+    "final_overrides",
+    "provisional_parameter_assessments",
+    "unresolved_parameter_assessments",
+    "report_digest",
+    "assessment_digest",
+    "provenance"
+  ],
+  "properties": {
+    "parameter_set_id": {"const": "parameter-set://cal0/i4-reference@1"},
+    "parent_parameter_set_id": {"const": "parameter-set://cal0/i3-reference@1"},
+    "status": {"const": "COHORT_CALIBRATED_PROVISIONAL"},
+    "canonicality": {"const": "INTERNAL_WORLD_CALIBRATION_NOT_EMPIRICAL_FACT"},
+    "final_iteration_id": {"type": "string"},
+    "final_overrides": {"type": "object"},
+    "provisional_parameter_assessments": {"type": "array", "minItems": 39, "maxItems": 39},
+    "unresolved_parameter_assessments": {"type": "array", "minItems": 6, "maxItems": 6},
+    "report_digest": {"type": "string", "pattern": "^sha256:[0-9a-f]{64}$"},
+    "assessment_digest": {"type": "string", "pattern": "^sha256:[0-9a-f]{64}$"},
+    "provenance": {"type": "array", "minItems": 1}
+  }
+}

@@ -1,0 +1,147 @@
+{
+  "schema_version": "1.0.0",
+  "delta_id": "delta://first-awakening/book-01/001",
+  "chapter_id": "chapter://first-awakening/book-01/001",
+  "base_snapshot_ids": [
+    "snapshot://first-awakening/protagonist/pre-chapter-001"
+  ],
+  "status": "ACCEPTED",
+  "manuscript": {
+    "path": "litrpg-system/story-integration/examples/accepted-chapter-001.md",
+    "revision": "fixture-r1",
+    "sha256": "sha256:77614dc5288334ba2c6ca9b7ee359afc1337178135c5b0fd6193c478a4f36cec"
+  },
+  "events": [
+    {
+      "schema_version": "1.0.0",
+      "event_id": "event://first-awakening/book-01/001/0001",
+      "chapter_id": "chapter://first-awakening/book-01/001",
+      "sequence": 1,
+      "event_type": "ACTION",
+      "summary": "The protagonist deliberately sustains attention through a brief sensory disturbance.",
+      "participants": [
+        "character://first-awakening/protagonist"
+      ],
+      "witnesses": [],
+      "time": {
+        "label": "late prenatal development, relative instant",
+        "certainty": "RELATIVE"
+      },
+      "viewpoint_access": [
+        {
+          "character_id": "character://first-awakening/protagonist",
+          "access": "DIRECT",
+          "basis": "Retained awareness and direct internal experience."
+        }
+      ],
+      "tags": [
+        "prenatal",
+        "purposeful-training"
+      ]
+    }
+  ],
+  "character_changes": [
+    {
+      "change_id": "change://first-awakening/book-01/001/attention-evidence",
+      "character_id": "character://first-awakening/protagonist",
+      "path": "developmental_evidence.attention",
+      "operation": "ADD",
+      "value_type": "EXACT_DECIMAL",
+      "before": "0",
+      "after": "0.02",
+      "source_event_ids": [
+        "event://first-awakening/book-01/001/0001"
+      ]
+    }
+  ],
+  "progression_events": [
+    {
+      "schema_version": "1.0.0",
+      "progression_event_id": "progression://first-awakening/book-01/001/0001",
+      "chapter_id": "chapter://first-awakening/book-01/001",
+      "actor_id": "character://first-awakening/protagonist",
+      "source_event_id": "event://first-awakening/book-01/001/0001",
+      "operation": "XP_GAIN",
+      "track": {
+        "kind": "SKILL",
+        "track_id": "skill:developmental-intentional-control",
+        "lineage_id": "lineage:developmental-intentional-control"
+      },
+      "amount": "0.02",
+      "before_value": "0",
+      "after_value": "0.02",
+      "provenance": {
+        "provenance_id": "provenance://first-awakening/book-01/001/0001",
+        "source_event_ids": [
+          "event://first-awakening/book-01/001/0001"
+        ],
+        "mechanism_decision_refs": [
+          "ATR3.4.2.0D",
+          "PRO1.1D"
+        ],
+        "reward_claim_id": "claim://first-awakening/book-01/001/intentional-control-0001",
+        "attribution_share": "1"
+      },
+      "eligibility": {
+        "prior_state_ref": "snapshot://first-awakening/protagonist/pre-chapter-001",
+        "accepted_lineage_id": "lineage:developmental-intentional-control",
+        "evidence_refs": [
+          "decision://first-awakening/protagonist/developmental-lineage"
+        ]
+      },
+      "cal0_authority": {
+        "bundle_id": "bundle://cal0/i7@0.7.0",
+        "parameter_set_id": "parameter-set://cal0/i4-reference@1",
+        "decision_refs": [
+          "ATR3.4.2.0D",
+          "PRO1.1D"
+        ]
+      },
+      "projection": "AUTHOR_FACING",
+      "retrospective_reclassification": false,
+      "notes": "Reference-only quantity pending the story-specific character contract."
+    }
+  ],
+  "thread_changes": [
+    {
+      "thread_id": "thread:prenatal-self-training",
+      "operation": "OPEN",
+      "summary": "Intentional development becomes a repeatable but biologically constrained practice.",
+      "source_event_ids": [
+        "event://first-awakening/book-01/001/0001"
+      ]
+    }
+  ],
+  "canon_proposals": [
+    {
+      "schema_version": "1.0.0",
+      "proposal_id": "canon-proposal://first-awakening/book-01/001/01",
+      "chapter_id": "chapter://first-awakening/book-01/001",
+      "classification": "CHARACTER_STATE_CHANGE",
+      "scope": "protagonist developmental history",
+      "statement": "The protagonist first sustains deliberate attention during this chapter.",
+      "source_event_ids": [
+        "event://first-awakening/book-01/001/0001"
+      ],
+      "affected_canon_refs": [],
+      "status": "PROPOSED",
+      "required_review": "CONTINUITY_REVIEW"
+    }
+  ],
+  "review": {
+    "blocking_findings": [],
+    "major_findings": [],
+    "minor_findings": [],
+    "optional_findings": []
+  },
+  "author_approval": {
+    "decision_id": "decision://first-awakening/book-01/001/acceptance",
+    "decided_by": "AUTHOR",
+    "decision": "ACCEPT",
+    "decided_at": "2026-08-12T18:00:00Z",
+    "evidence": [
+      "litrpg-system/story-integration/examples/accepted-chapter-001.md",
+      "delta://first-awakening/book-01/001"
+    ]
+  }
+}

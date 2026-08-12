@@ -1,0 +1,60 @@
+{
+  "schema_version": "1.0.0",
+  "delta_id": "delta://fixture/deferred-offer/001",
+  "chapter_id": "chapter://fixture/deferred-offer/001",
+  "base_snapshot_ids": [],
+  "status": "DRAFT",
+  "events": [{
+    "schema_version": "1.0.0",
+    "event_id": "event://fixture/deferred-offer/001/0001",
+    "chapter_id": "chapter://fixture/deferred-offer/001",
+    "sequence": 1,
+    "event_type": "SYSTEM_INTERACTION",
+    "summary": "A valid class offer is deferred without an additive state transition.",
+    "participants": ["character://fixture/protagonist"],
+    "viewpoint_access": [{
+      "character_id": "character://fixture/protagonist",
+      "access": "DIRECT",
+      "basis": "The offer is directly presented to the character."
+    }]
+  }],
+  "character_changes": [],
+  "progression_events": [{
+    "schema_version": "1.0.0",
+    "progression_event_id": "progression://fixture/deferred-offer/001/0001",
+    "chapter_id": "chapter://fixture/deferred-offer/001",
+    "actor_id": "character://fixture/protagonist",
+    "source_event_id": "event://fixture/deferred-offer/001/0001",
+    "operation": "OFFER_DEFERRED",
+    "track": {
+      "kind": "CLASS",
+      "track_id": "class:mage-candidate",
+      "lineage_id": "lineage:mage"
+    },
+    "amount": "1",
+    "before_value": "0",
+    "after_value": "0",
+    "provenance": {
+      "provenance_id": "provenance://fixture/deferred-offer/001/0001",
+      "source_event_ids": ["event://fixture/deferred-offer/001/0001"],
+      "mechanism_decision_refs": ["CLS2.1D"],
+      "reward_claim_id": "claim://fixture/deferred-offer/001/offer-state"
+    },
+    "cal0_authority": {
+      "bundle_id": "bundle://cal0/i7@0.7.0",
+      "parameter_set_id": "parameter-set://cal0/i4-reference@1",
+      "decision_refs": ["CLS2.1D"]
+    },
+    "projection": "CHARACTER_ACCESSIBLE",
+    "retrospective_reclassification": false
+  }],
+  "thread_changes": [],
+  "canon_proposals": [],
+  "review": {
+    "blocking_findings": [],
+    "major_findings": [],
+    "minor_findings": [],
+    "optional_findings": []
+  }
+}
+

@@ -1,0 +1,2857 @@
+{
+  "registry_id": "sheet-registry://cal0/i6-reference@1",
+  "sheets": [
+    {
+      "sheet_id": "sheet://cal0/i6/protagonist-contact@1",
+      "canonicality": "I6_AUTHORING_REFERENCE_NOT_FIXED_STORY_CANON",
+      "identity": {
+        "label": "Protagonist",
+        "role": "protagonist",
+        "milestone": "earliest_coherent_prenatal_contact",
+        "age": "gestational-week-20",
+        "life_stage": "early_prenatal",
+        "species": "human",
+        "exclusive_identity_holder": true,
+        "identity_lineage": "identity-lineage://cal0/i6/protagonist-contact@1"
+      },
+      "traits": [
+        "Reincarnate Continuity",
+        "Unusual Soul Strength (non-scalar)"
+      ],
+      "attributes": {
+        "Might": {
+          "reference_capacity": "0.0475",
+          "absolute_index": "0.6695"
+        },
+        "Finesse": {
+          "reference_capacity": "0.0425",
+          "absolute_index": "0.6005"
+        },
+        "Alacrity": {
+          "reference_capacity": "0.045",
+          "absolute_index": "0.635"
+        },
+        "Vitality": {
+          "reference_capacity": "0.0525",
+          "absolute_index": "0.7382"
+        },
+        "Perception": {
+          "reference_capacity": "0.059375",
+          "absolute_index": "0.8321"
+        },
+        "Cognition": {
+          "reference_capacity": "0.075",
+          "absolute_index": "1.0434"
+        },
+        "Focus": {
+          "reference_capacity": "0.07125",
+          "absolute_index": "0.993"
+        },
+        "Will": {
+          "reference_capacity": "0.08",
+          "absolute_index": "1.1103"
+        },
+        "Depth": {
+          "reference_capacity": "0.095",
+          "absolute_index": "1.3093"
+        },
+        "Coherence": {
+          "reference_capacity": "0.1",
+          "absolute_index": "1.375"
+        },
+        "Resonance": {
+          "reference_capacity": "0.105",
+          "absolute_index": "1.4405"
+        }
+      },
+      "resources": {
+        "health": {
+          "state": "healthy",
+          "projection": "typed integrity and viability; not a universal hit-point pool"
+        },
+        "stamina": {
+          "state": "available",
+          "projection": "task-conditioned operating headroom"
+        },
+        "mana": {
+          "working_reserve": "0",
+          "projection": "source-to-effect network; reserve is not generation"
+        }
+      },
+      "progression": {
+        "skills": [],
+        "classes": []
+      },
+      "magic": {
+        "methods": [],
+        "independent": false,
+        "constraints": [
+          "knowledge",
+          "compatible Mana",
+          "control",
+          "recovery",
+          "preparation",
+          "countermeasures"
+        ]
+      },
+      "equipment": [],
+      "social": {
+        "institution": null,
+        "offices": [],
+        "authority_scopes": []
+      },
+      "conditions": [],
+      "epistemic_access": {
+        "self_exact_core": false,
+        "self_exact_owned_progression": true,
+        "appraisal_disclosure": [
+          "identity.label",
+          "identity.life_stage",
+          "visible_conditions"
+        ],
+        "institutional_disclosure": [
+          "identity.label",
+          "licensed_roles",
+          "verified_progression"
+        ]
+      },
+      "causal_ledgers": {
+        "natural_maturation": {
+          "present": true,
+          "separate_from_xp": true
+        },
+        "purposeful_training": {
+          "present": false,
+          "separate_from_adaptation": true
+        },
+        "organic_adaptation": {
+          "present": false,
+          "damage_grants_growth": false
+        },
+        "skill_xp": {
+          "present": false,
+          "prospective": true
+        },
+        "class_xp": {
+          "present": false,
+          "prospective": true
+        },
+        "reinforcement": {
+          "claims_conserved": true
+        },
+        "assimilation": {
+          "safe_governor": true,
+          "backlog_preserved": true
+        }
+      },
+      "backend_uncertainty": [
+        "scenario timing",
+        "local opportunity",
+        "plot-specific opposition"
+      ],
+      "unresolved_inputs": [
+        "rare-Soul prevalence",
+        "ordinary prenatal consciousness",
+        "cross-species scale",
+        "injury incidence",
+        "rarity distribution"
+      ],
+      "secrets": [
+        "No undeclared secret."
+      ],
+      "author_notes": {
+        "reader_summary": "A flicker of coherent awareness survives between long silences.",
+        "power_is_not_totalled": true,
+        "causal_vulnerabilities_remain": [
+          "surprise",
+          "incomplete information",
+          "commitment",
+          "recovery",
+          "environment",
+          "institutions",
+          "dependants"
+        ]
+      },
+      "sheet_digest": "sha256:4941176b9ab2d1ab573385c9682cffab4a3377045d9e138d6ab90fee04711bc2"
+    },
+    {
+      "sheet_id": "sheet://cal0/i6/protagonist-first-skill@1",
+      "canonicality": "I6_AUTHORING_REFERENCE_NOT_FIXED_STORY_CANON",
+      "identity": {
+        "label": "Protagonist",
+        "role": "protagonist",
+        "milestone": "first_accepted_skill",
+        "age": "gestational-week-24",
+        "life_stage": "mid_prenatal",
+        "species": "human",
+        "exclusive_identity_holder": true,
+        "identity_lineage": "identity-lineage://cal0/i6/protagonist-first-skill@1"
+      },
+      "traits": [
+        "Reincarnate Continuity",
+        "Embodied Integration",
+        "Unusual Soul Strength (non-scalar)"
+      ],
+      "attributes": {
+        "Might": {
+          "reference_capacity": "0.095",
+          "absolute_index": "1.3093"
+        },
+        "Finesse": {
+          "reference_capacity": "0.085",
+          "absolute_index": "1.177"
+        },
+        "Alacrity": {
+          "reference_capacity": "0.09",
+          "absolute_index": "1.2433"
+        },
+        "Vitality": {
+          "reference_capacity": "0.105",
+          "absolute_index": "1.4405"
+        },
+        "Perception": {
+          "reference_capacity": "0.114",
+          "absolute_index": "1.5575"
+        },
+        "Cognition": {
+          "reference_capacity": "0.14",
+          "absolute_index": "1.8903"
+        },
+        "Focus": {
+          "reference_capacity": "0.133",
+          "absolute_index": "1.8015"
+        },
+        "Will": {
+          "reference_capacity": "0.148",
+          "absolute_index": "1.9912"
+        },
+        "Depth": {
+          "reference_capacity": "0.171",
+          "absolute_index": "2.2774"
+        },
+        "Coherence": {
+          "reference_capacity": "0.18",
+          "absolute_index": "2.3879"
+        },
+        "Resonance": {
+          "reference_capacity": "0.189",
+          "absolute_index": "2.4975"
+        }
+      },
+      "resources": {
+        "health": {
+          "state": "healthy",
+          "projection": "typed integrity and viability; not a universal hit-point pool"
+        },
+        "stamina": {
+          "state": "available",
+          "projection": "task-conditioned operating headroom"
+        },
+        "mana": {
+          "working_reserve": "0",
+          "projection": "source-to-effect network; reserve is not generation"
+        }
+      },
+      "progression": {
+        "skills": [
+          {
+            "name": "Embodied Integration",
+            "level": 1,
+            "xp": "0.216",
+            "state": "active",
+            "source": "earned",
+            "reinforcement_claims_conserved": true
+          }
+        ],
+        "classes": []
+      },
+      "magic": {
+        "methods": [],
+        "independent": false,
+        "constraints": [
+          "knowledge",
+          "compatible Mana",
+          "control",
+          "recovery",
+          "preparation",
+          "countermeasures"
+        ]
+      },
+      "equipment": [],
+      "social": {
+        "institution": null,
+        "offices": [],
+        "authority_scopes": []
+      },
+      "conditions": [],
+      "epistemic_access": {
+        "self_exact_core": false,
+        "self_exact_owned_progression": true,
+        "appraisal_disclosure": [
+          "identity.label",
+          "identity.life_stage",
+          "visible_conditions"
+        ],
+        "institutional_disclosure": [
+          "identity.label",
+          "licensed_roles",
+          "verified_progression"
+        ]
+      },
+      "causal_ledgers": {
+        "natural_maturation": {
+          "present": true,
+          "separate_from_xp": true
+        },
+        "purposeful_training": {
+          "present": true,
+          "separate_from_adaptation": true
+        },
+        "organic_adaptation": {
+          "present": true,
+          "damage_grants_growth": false
+        },
+        "skill_xp": {
+          "present": true,
+          "prospective": true
+        },
+        "class_xp": {
+          "present": false,
+          "prospective": true
+        },
+        "reinforcement": {
+          "claims_conserved": true
+        },
+        "assimilation": {
+          "safe_governor": true,
+          "backlog_preserved": true
+        }
+      },
+      "backend_uncertainty": [
+        "scenario timing",
+        "local opportunity",
+        "plot-specific opposition"
+      ],
+      "unresolved_inputs": [
+        "rare-Soul prevalence",
+        "ordinary prenatal consciousness",
+        "cross-species scale",
+        "injury incidence",
+        "rarity distribution"
+      ],
+      "secrets": [
+        "No undeclared secret."
+      ],
+      "author_notes": {
+        "reader_summary": "Intent, sensation, and movement become one fragile repeatable practice.",
+        "power_is_not_totalled": true,
+        "causal_vulnerabilities_remain": [
+          "surprise",
+          "incomplete information",
+          "commitment",
+          "recovery",
+          "environment",
+          "institutions",
+          "dependants"
+        ]
+      },
+      "sheet_digest": "sha256:0c63a3f46653e526af5539cf8927c7b00228b07c50e5a32d98631a91eb852e1c"
+    },
+    {
+      "sheet_id": "sheet://cal0/i6/protagonist-late-gestation@1",
+      "canonicality": "I6_AUTHORING_REFERENCE_NOT_FIXED_STORY_CANON",
+      "identity": {
+        "label": "Protagonist",
+        "role": "protagonist",
+        "milestone": "late_gestation",
+        "age": "gestational-week-37",
+        "life_stage": "late_prenatal",
+        "species": "human",
+        "exclusive_identity_holder": true,
+        "identity_lineage": "identity-lineage://cal0/i6/protagonist-late-gestation@1"
+      },
+      "traits": [
+        "Reincarnate Continuity",
+        "Embodied Integration",
+        "Soul Consolidation (candidate evidence)"
+      ],
+      "attributes": {
+        "Might": {
+          "reference_capacity": "0.4275",
+          "absolute_index": "5.1349"
+        },
+        "Finesse": {
+          "reference_capacity": "0.3825",
+          "absolute_index": "4.6728"
+        },
+        "Alacrity": {
+          "reference_capacity": "0.405",
+          "absolute_index": "4.9057"
+        },
+        "Vitality": {
+          "reference_capacity": "0.4725",
+          "absolute_index": "5.5827"
+        },
+        "Perception": {
+          "reference_capacity": "0.46075",
+          "absolute_index": "5.4671"
+        },
+        "Cognition": {
+          "reference_capacity": "0.52",
+          "absolute_index": "6.0407"
+        },
+        "Focus": {
+          "reference_capacity": "0.494",
+          "absolute_index": "5.7918"
+        },
+        "Will": {
+          "reference_capacity": "0.532",
+          "absolute_index": "6.1542"
+        },
+        "Depth": {
+          "reference_capacity": "0.551",
+          "absolute_index": "6.332"
+        },
+        "Coherence": {
+          "reference_capacity": "0.58",
+          "absolute_index": "6.5992"
+        },
+        "Resonance": {
+          "reference_capacity": "0.609",
+          "absolute_index": "6.8616"
+        }
+      },
+      "resources": {
+        "health": {
+          "state": "healthy",
+          "projection": "typed integrity and viability; not a universal hit-point pool"
+        },
+        "stamina": {
+          "state": "available",
+          "projection": "task-conditioned operating headroom"
+        },
+        "mana": {
+          "working_reserve": "0",
+          "projection": "source-to-effect network; reserve is not generation"
+        }
+      },
+      "progression": {
+        "skills": [
+          {
+            "name": "Embodied Integration",
+            "level": 2,
+            "xp": "1.84",
+            "state": "active",
+            "source": "earned",
+            "reinforcement_claims_conserved": true
+          },
+          {
+            "name": "Directed Attention",
+            "level": 1,
+            "xp": "0.72",
+            "state": "active",
+            "source": "earned",
+            "reinforcement_claims_conserved": true
+          }
+        ],
+        "classes": []
+      },
+      "magic": {
+        "methods": [],
+        "independent": false,
+        "constraints": [
+          "knowledge",
+          "compatible Mana",
+          "control",
+          "recovery",
+          "preparation",
+          "countermeasures"
+        ]
+      },
+      "equipment": [],
+      "social": {
+        "institution": null,
+        "offices": [],
+        "authority_scopes": []
+      },
+      "conditions": [],
+      "epistemic_access": {
+        "self_exact_core": true,
+        "self_exact_owned_progression": true,
+        "appraisal_disclosure": [
+          "identity.label",
+          "identity.life_stage",
+          "visible_conditions"
+        ],
+        "institutional_disclosure": [
+          "identity.label",
+          "licensed_roles",
+          "verified_progression"
+        ]
+      },
+      "causal_ledgers": {
+        "natural_maturation": {
+          "present": true,
+          "separate_from_xp": true
+        },
+        "purposeful_training": {
+          "present": true,
+          "separate_from_adaptation": true
+        },
+        "organic_adaptation": {
+          "present": true,
+          "damage_grants_growth": false
+        },
+        "skill_xp": {
+          "present": true,
+          "prospective": true
+        },
+        "class_xp": {
+          "present": false,
+          "prospective": true
+        },
+        "reinforcement": {
+          "claims_conserved": true
+        },
+        "assimilation": {
+          "safe_governor": true,
+          "backlog_preserved": true
+        }
+      },
+      "backend_uncertainty": [
+        "scenario timing",
+        "local opportunity",
+        "plot-specific opposition"
+      ],
+      "unresolved_inputs": [
+        "rare-Soul prevalence",
+        "ordinary prenatal consciousness",
+        "cross-species scale",
+        "injury incidence",
+        "rarity distribution"
+      ],
+      "secrets": [
+        "No undeclared secret."
+      ],
+      "author_notes": {
+        "reader_summary": "He can practise in brief windows, but growth and recovery still belong to the body around him.",
+        "power_is_not_totalled": true,
+        "causal_vulnerabilities_remain": [
+          "surprise",
+          "incomplete information",
+          "commitment",
+          "recovery",
+          "environment",
+          "institutions",
+          "dependants"
+        ]
+      },
+      "sheet_digest": "sha256:95ab7af822be19cc34502b28faa72866d88a5f3917420c386a5fa29ae5724a5f"
+    },
+    {
+      "sheet_id": "sheet://cal0/i6/protagonist-birth@1",
+      "canonicality": "I6_AUTHORING_REFERENCE_NOT_FIXED_STORY_CANON",
+      "identity": {
+        "label": "Protagonist",
+        "role": "protagonist",
+        "milestone": "birth",
+        "age": "newborn",
+        "life_stage": "newborn",
+        "species": "human",
+        "exclusive_identity_holder": true,
+        "identity_lineage": "identity-lineage://cal0/i6/protagonist-birth@1"
+      },
+      "traits": [
+        "Reincarnate Continuity",
+        "Embodied Integration",
+        "Unusual Soul Strength (non-scalar)"
+      ],
+      "attributes": {
+        "Might": {
+          "reference_capacity": "0.60889062",
+          "absolute_index": "6.8607"
+        },
+        "Finesse": {
+          "reference_capacity": "0.54479688",
+          "absolute_index": "6.2742"
+        },
+        "Alacrity": {
+          "reference_capacity": "0.57684375",
+          "absolute_index": "6.5704"
+        },
+        "Vitality": {
+          "reference_capacity": "0.67298438",
+          "absolute_index": "7.4242"
+        },
+        "Perception": {
+          "reference_capacity": "0.62262109",
+          "absolute_index": "6.9833"
+        },
+        "Cognition": {
+          "reference_capacity": "0.66984375",
+          "absolute_index": "7.3971"
+        },
+        "Focus": {
+          "reference_capacity": "0.63635156",
+          "absolute_index": "7.1048"
+        },
+        "Will": {
+          "reference_capacity": "0.673",
+          "absolute_index": "7.4244"
+        },
+        "Depth": {
+          "reference_capacity": "0.65134375",
+          "absolute_index": "7.2364"
+        },
+        "Coherence": {
+          "reference_capacity": "0.685625",
+          "absolute_index": "7.5328"
+        },
+        "Resonance": {
+          "reference_capacity": "0.71990625",
+          "absolute_index": "7.8233"
+        }
+      },
+      "resources": {
+        "health": {
+          "state": "healthy",
+          "projection": "typed integrity and viability; not a universal hit-point pool"
+        },
+        "stamina": {
+          "state": "available",
+          "projection": "task-conditioned operating headroom"
+        },
+        "mana": {
+          "working_reserve": "0",
+          "projection": "source-to-effect network; reserve is not generation"
+        }
+      },
+      "progression": {
+        "skills": [
+          {
+            "name": "Embodied Integration",
+            "level": 2,
+            "xp": "2.46",
+            "state": "active",
+            "source": "earned",
+            "reinforcement_claims_conserved": true
+          },
+          {
+            "name": "Directed Attention",
+            "level": 1,
+            "xp": "1.10",
+            "state": "active",
+            "source": "earned",
+            "reinforcement_claims_conserved": true
+          }
+        ],
+        "classes": []
+      },
+      "magic": {
+        "methods": [],
+        "independent": false,
+        "constraints": [
+          "knowledge",
+          "compatible Mana",
+          "control",
+          "recovery",
+          "preparation",
+          "countermeasures"
+        ]
+      },
+      "equipment": [],
+      "social": {
+        "institution": null,
+        "offices": [],
+        "authority_scopes": []
+      },
+      "conditions": [],
+      "epistemic_access": {
+        "self_exact_core": true,
+        "self_exact_owned_progression": true,
+        "appraisal_disclosure": [
+          "identity.label",
+          "identity.life_stage",
+          "visible_conditions"
+        ],
+        "institutional_disclosure": [
+          "identity.label",
+          "licensed_roles",
+          "verified_progression"
+        ]
+      },
+      "causal_ledgers": {
+        "natural_maturation": {
+          "present": true,
+          "separate_from_xp": true
+        },
+        "purposeful_training": {
+          "present": true,
+          "separate_from_adaptation": true
+        },
+        "organic_adaptation": {
+          "present": true,
+          "damage_grants_growth": false
+        },
+        "skill_xp": {
+          "present": true,
+          "prospective": true
+        },
+        "class_xp": {
+          "present": false,
+          "prospective": true
+        },
+        "reinforcement": {
+          "claims_conserved": true
+        },
+        "assimilation": {
+          "safe_governor": true,
+          "backlog_preserved": true
+        }
+      },
+      "backend_uncertainty": [
+        "scenario timing",
+        "local opportunity",
+        "plot-specific opposition"
+      ],
+      "unresolved_inputs": [
+        "rare-Soul prevalence",
+        "ordinary prenatal consciousness",
+        "cross-species scale",
+        "injury incidence",
+        "rarity distribution"
+      ],
+      "secrets": [
+        "No undeclared secret."
+      ],
+      "author_notes": {
+        "reader_summary": "Exceptional continuity does not make a newborn physically independent.",
+        "power_is_not_totalled": true,
+        "causal_vulnerabilities_remain": [
+          "surprise",
+          "incomplete information",
+          "commitment",
+          "recovery",
+          "environment",
+          "institutions",
+          "dependants"
+        ]
+      },
+      "sheet_digest": "sha256:7db42b4d6ae438e8b6435c29f556a9704f6a79dd959acc9920705eca87975141"
+    },
+    {
+      "sheet_id": "sheet://cal0/i6/protagonist-awakening@1",
+      "canonicality": "I6_AUTHORING_REFERENCE_NOT_FIXED_STORY_CANON",
+      "identity": {
+        "label": "Protagonist",
+        "role": "protagonist",
+        "milestone": "ordinary_awakening_age",
+        "age": "10-years",
+        "life_stage": "child",
+        "species": "human",
+        "exclusive_identity_holder": true,
+        "identity_lineage": "identity-lineage://cal0/i6/protagonist-awakening@1"
+      },
+      "traits": [
+        "Reincarnate Continuity",
+        "Embodied Integration",
+        "Soul Consolidation"
+      ],
+      "attributes": {
+        "Might": {
+          "reference_capacity": "0.779",
+          "absolute_index": "8.3107"
+        },
+        "Finesse": {
+          "reference_capacity": "0.697",
+          "absolute_index": "7.6299"
+        },
+        "Alacrity": {
+          "reference_capacity": "0.738",
+          "absolute_index": "7.9743"
+        },
+        "Vitality": {
+          "reference_capacity": "0.861",
+          "absolute_index": "8.9608"
+        },
+        "Perception": {
+          "reference_capacity": "0.817",
+          "absolute_index": "8.6156"
+        },
+        "Cognition": {
+          "reference_capacity": "0.9",
+          "absolute_index": "9.26"
+        },
+        "Focus": {
+          "reference_capacity": "0.855",
+          "absolute_index": "8.9142"
+        },
+        "Will": {
+          "reference_capacity": "0.91",
+          "absolute_index": "9.3357"
+        },
+        "Depth": {
+          "reference_capacity": "0.9025",
+          "absolute_index": "9.279"
+        },
+        "Coherence": {
+          "reference_capacity": "0.95",
+          "absolute_index": "9.6347"
+        },
+        "Resonance": {
+          "reference_capacity": "0.9975",
+          "absolute_index": "9.982"
+        }
+      },
+      "resources": {
+        "health": {
+          "state": "healthy",
+          "projection": "typed integrity and viability; not a universal hit-point pool"
+        },
+        "stamina": {
+          "state": "available",
+          "projection": "task-conditioned operating headroom"
+        },
+        "mana": {
+          "working_reserve": "0.08",
+          "projection": "source-to-effect network; reserve is not generation"
+        }
+      },
+      "progression": {
+        "skills": [
+          {
+            "name": "Embodied Integration",
+            "level": 16,
+            "xp": "19.20",
+            "state": "active",
+            "source": "earned",
+            "reinforcement_claims_conserved": true
+          },
+          {
+            "name": "Directed Attention",
+            "level": 12,
+            "xp": "13.40",
+            "state": "active",
+            "source": "earned",
+            "reinforcement_claims_conserved": true
+          },
+          {
+            "name": "Soul Consolidation",
+            "level": 8,
+            "xp": "8.90",
+            "state": "active",
+            "source": "earned",
+            "reinforcement_claims_conserved": true
+          }
+        ],
+        "classes": []
+      },
+      "magic": {
+        "methods": [],
+        "independent": false,
+        "constraints": [
+          "knowledge",
+          "compatible Mana",
+          "control",
+          "recovery",
+          "preparation",
+          "countermeasures"
+        ]
+      },
+      "equipment": [],
+      "social": {
+        "institution": null,
+        "offices": [],
+        "authority_scopes": []
+      },
+      "conditions": [],
+      "epistemic_access": {
+        "self_exact_core": true,
+        "self_exact_owned_progression": true,
+        "appraisal_disclosure": [
+          "identity.label",
+          "identity.life_stage",
+          "visible_conditions"
+        ],
+        "institutional_disclosure": [
+          "identity.label",
+          "licensed_roles",
+          "verified_progression"
+        ]
+      },
+      "causal_ledgers": {
+        "natural_maturation": {
+          "present": true,
+          "separate_from_xp": true
+        },
+        "purposeful_training": {
+          "present": true,
+          "separate_from_adaptation": true
+        },
+        "organic_adaptation": {
+          "present": true,
+          "damage_grants_growth": false
+        },
+        "skill_xp": {
+          "present": true,
+          "prospective": true
+        },
+        "class_xp": {
+          "present": false,
+          "prospective": true
+        },
+        "reinforcement": {
+          "claims_conserved": true
+        },
+        "assimilation": {
+          "safe_governor": true,
+          "backlog_preserved": true
+        }
+      },
+      "backend_uncertainty": [
+        "scenario timing",
+        "local opportunity",
+        "plot-specific opposition"
+      ],
+      "unresolved_inputs": [
+        "rare-Soul prevalence",
+        "ordinary prenatal consciousness",
+        "cross-species scale",
+        "injury incidence",
+        "rarity distribution"
+      ],
+      "secrets": [
+        "No undeclared secret."
+      ],
+      "author_notes": {
+        "reader_summary": "Years of private practice make him strange and disciplined, not adult.",
+        "power_is_not_totalled": true,
+        "causal_vulnerabilities_remain": [
+          "surprise",
+          "incomplete information",
+          "commitment",
+          "recovery",
+          "environment",
+          "institutions",
+          "dependants"
+        ]
+      },
+      "sheet_digest": "sha256:0c4b6d9dd6cefd223ce81cad0f068057ae609b7452fe9ad1ef77f7dfc6158b74"
+    },
+    {
+      "sheet_id": "sheet://cal0/i6/protagonist-mage-acceptance@1",
+      "canonicality": "I6_AUTHORING_REFERENCE_NOT_FIXED_STORY_CANON",
+      "identity": {
+        "label": "Protagonist",
+        "role": "protagonist",
+        "milestone": "first_mage_acceptance",
+        "age": "12.4-years",
+        "life_stage": "adolescent",
+        "species": "human",
+        "exclusive_identity_holder": true,
+        "identity_lineage": "identity-lineage://cal0/i6/protagonist-mage-acceptance@1"
+      },
+      "traits": [
+        "Reincarnate Continuity",
+        "Embodied Integration",
+        "Soul Consolidation"
+      ],
+      "attributes": {
+        "Might": {
+          "reference_capacity": "0.9025",
+          "absolute_index": "9.279"
+        },
+        "Finesse": {
+          "reference_capacity": "0.8075",
+          "absolute_index": "8.54"
+        },
+        "Alacrity": {
+          "reference_capacity": "0.855",
+          "absolute_index": "8.9142"
+        },
+        "Vitality": {
+          "reference_capacity": "0.9975",
+          "absolute_index": "9.982"
+        },
+        "Perception": {
+          "reference_capacity": "0.98325",
+          "absolute_index": "9.8787"
+        },
+        "Cognition": {
+          "reference_capacity": "1.12",
+          "absolute_index": "10.8406"
+        },
+        "Focus": {
+          "reference_capacity": "1.064",
+          "absolute_index": "10.4544"
+        },
+        "Will": {
+          "reference_capacity": "1.146",
+          "absolute_index": "11.0165"
+        },
+        "Depth": {
+          "reference_capacity": "1.1875",
+          "absolute_index": "11.2928"
+        },
+        "Coherence": {
+          "reference_capacity": "1.25",
+          "absolute_index": "11.6993"
+        },
+        "Resonance": {
+          "reference_capacity": "1.3125",
+          "absolute_index": "12.0945"
+        }
+      },
+      "resources": {
+        "health": {
+          "state": "healthy",
+          "projection": "typed integrity and viability; not a universal hit-point pool"
+        },
+        "stamina": {
+          "state": "available",
+          "projection": "task-conditioned operating headroom"
+        },
+        "mana": {
+          "working_reserve": "0.22",
+          "projection": "source-to-effect network; reserve is not generation"
+        }
+      },
+      "progression": {
+        "skills": [
+          {
+            "name": "Embodied Integration",
+            "level": 22,
+            "xp": "27.60",
+            "state": "active",
+            "source": "earned",
+            "reinforcement_claims_conserved": true
+          },
+          {
+            "name": "Mana Perception",
+            "level": 14,
+            "xp": "16.90",
+            "state": "active",
+            "source": "earned",
+            "reinforcement_claims_conserved": true
+          },
+          {
+            "name": "Arcane Method",
+            "level": 9,
+            "xp": "10.20",
+            "state": "active",
+            "source": "earned",
+            "reinforcement_claims_conserved": true
+          }
+        ],
+        "classes": [
+          {
+            "name": "Mage",
+            "level": 1,
+            "xp": "0",
+            "form": "first",
+            "state": "active",
+            "prospective_since_acceptance": true,
+            "parent_xp_transferred": false
+          }
+        ]
+      },
+      "magic": {
+        "methods": [
+          "mana perception",
+          "contained spark",
+          "simple shaping"
+        ],
+        "independent": true,
+        "constraints": [
+          "knowledge",
+          "compatible Mana",
+          "control",
+          "recovery",
+          "preparation",
+          "countermeasures"
+        ]
+      },
+      "equipment": [],
+      "social": {
+        "institution": null,
+        "offices": [],
+        "authority_scopes": []
+      },
+      "conditions": [],
+      "epistemic_access": {
+        "self_exact_core": true,
+        "self_exact_owned_progression": true,
+        "appraisal_disclosure": [
+          "identity.label",
+          "identity.life_stage",
+          "visible_conditions"
+        ],
+        "institutional_disclosure": [
+          "identity.label",
+          "licensed_roles",
+          "verified_progression"
+        ]
+      },
+      "causal_ledgers": {
+        "natural_maturation": {
+          "present": true,
+          "separate_from_xp": true
+        },
+        "purposeful_training": {
+          "present": true,
+          "separate_from_adaptation": true
+        },
+        "organic_adaptation": {
+          "present": true,
+          "damage_grants_growth": false
+        },
+        "skill_xp": {
+          "present": true,
+          "prospective": true
+        },
+        "class_xp": {
+          "present": true,
+          "prospective": true
+        },
+        "reinforcement": {
+          "claims_conserved": true
+        },
+        "assimilation": {
+          "safe_governor": true,
+          "backlog_preserved": true
+        }
+      },
+      "backend_uncertainty": [
+        "scenario timing",
+        "local opportunity",
+        "plot-specific opposition"
+      ],
+      "unresolved_inputs": [
+        "rare-Soul prevalence",
+        "ordinary prenatal consciousness",
+        "cross-species scale",
+        "injury incidence",
+        "rarity distribution"
+      ],
+      "secrets": [
+        "No undeclared secret."
+      ],
+      "author_notes": {
+        "reader_summary": "The Mage offer recognises what he has begun to do; it does not retroactively pay for childhood.",
+        "power_is_not_totalled": true,
+        "causal_vulnerabilities_remain": [
+          "surprise",
+          "incomplete information",
+          "commitment",
+          "recovery",
+          "environment",
+          "institutions",
+          "dependants"
+        ]
+      },
+      "sheet_digest": "sha256:35024b99fd86f6b4e19232189c46e57fc0865ec3226e992c210b81941bd4ba74"
+    },
+    {
+      "sheet_id": "sheet://cal0/i6/protagonist-mage-completion@1",
+      "canonicality": "I6_AUTHORING_REFERENCE_NOT_FIXED_STORY_CANON",
+      "identity": {
+        "label": "Protagonist",
+        "role": "protagonist",
+        "milestone": "first_mage_form_completion",
+        "age": "30-years",
+        "life_stage": "adult",
+        "species": "human",
+        "exclusive_identity_holder": true,
+        "identity_lineage": "identity-lineage://cal0/i6/protagonist-mage-completion@1"
+      },
+      "traits": [
+        "Reincarnate Continuity",
+        "Embodied Integration",
+        "Soul Consolidation",
+        "Arcane Synthesis"
+      ],
+      "attributes": {
+        "Might": {
+          "reference_capacity": "1.2825",
+          "absolute_index": "11.9061"
+        },
+        "Finesse": {
+          "reference_capacity": "1.1475",
+          "absolute_index": "11.0266"
+        },
+        "Alacrity": {
+          "reference_capacity": "1.215",
+          "absolute_index": "11.4731"
+        },
+        "Vitality": {
+          "reference_capacity": "1.4175",
+          "absolute_index": "12.7352"
+        },
+        "Perception": {
+          "reference_capacity": "1.97125",
+          "absolute_index": "15.7107"
+        },
+        "Cognition": {
+          "reference_capacity": "2.8",
+          "absolute_index": "19.26"
+        },
+        "Focus": {
+          "reference_capacity": "2.66",
+          "absolute_index": "18.7184"
+        },
+        "Will": {
+          "reference_capacity": "2.88",
+          "absolute_index": "19.5606"
+        },
+        "Depth": {
+          "reference_capacity": "3.04",
+          "absolute_index": "20.1436"
+        },
+        "Coherence": {
+          "reference_capacity": "3.2",
+          "absolute_index": "20.7039"
+        },
+        "Resonance": {
+          "reference_capacity": "3.36",
+          "absolute_index": "21.2433"
+        }
+      },
+      "resources": {
+        "health": {
+          "state": "healthy",
+          "projection": "typed integrity and viability; not a universal hit-point pool"
+        },
+        "stamina": {
+          "state": "available",
+          "projection": "task-conditioned operating headroom"
+        },
+        "mana": {
+          "working_reserve": "2.40",
+          "projection": "source-to-effect network; reserve is not generation"
+        }
+      },
+      "progression": {
+        "skills": [
+          {
+            "name": "Embodied Integration",
+            "level": 74,
+            "xp": "82.10",
+            "state": "active",
+            "source": "earned",
+            "reinforcement_claims_conserved": true
+          },
+          {
+            "name": "Mana Perception",
+            "level": 100,
+            "xp": "106",
+            "state": "active",
+            "source": "earned",
+            "reinforcement_claims_conserved": true
+          },
+          {
+            "name": "Arcane Method",
+            "level": 100,
+            "xp": "106",
+            "state": "active",
+            "source": "earned",
+            "reinforcement_claims_conserved": true
+          },
+          {
+            "name": "Magical Research",
+            "level": 88,
+            "xp": "94.40",
+            "state": "active",
+            "source": "earned",
+            "reinforcement_claims_conserved": true
+          }
+        ],
+        "classes": [
+          {
+            "name": "Mage",
+            "level": 100,
+            "xp": "205",
+            "form": "first",
+            "state": "complete",
+            "prospective_since_acceptance": true,
+            "parent_xp_transferred": false
+          }
+        ]
+      },
+      "magic": {
+        "methods": [
+          "structured spell design",
+          "wards",
+          "ritual participation",
+          "diagnostic magic"
+        ],
+        "independent": true,
+        "constraints": [
+          "knowledge",
+          "compatible Mana",
+          "control",
+          "recovery",
+          "preparation",
+          "countermeasures"
+        ]
+      },
+      "equipment": [],
+      "social": {
+        "institution": "independent researcher with negotiated archive access",
+        "offices": [],
+        "authority_scopes": []
+      },
+      "conditions": [],
+      "epistemic_access": {
+        "self_exact_core": true,
+        "self_exact_owned_progression": true,
+        "appraisal_disclosure": [
+          "identity.label",
+          "identity.life_stage",
+          "visible_conditions"
+        ],
+        "institutional_disclosure": [
+          "identity.label",
+          "licensed_roles",
+          "verified_progression"
+        ]
+      },
+      "causal_ledgers": {
+        "natural_maturation": {
+          "present": true,
+          "separate_from_xp": true
+        },
+        "purposeful_training": {
+          "present": true,
+          "separate_from_adaptation": true
+        },
+        "organic_adaptation": {
+          "present": true,
+          "damage_grants_growth": false
+        },
+        "skill_xp": {
+          "present": true,
+          "prospective": true
+        },
+        "class_xp": {
+          "present": true,
+          "prospective": true
+        },
+        "reinforcement": {
+          "claims_conserved": true
+        },
+        "assimilation": {
+          "safe_governor": true,
+          "backlog_preserved": true
+        }
+      },
+      "backend_uncertainty": [
+        "scenario timing",
+        "local opportunity",
+        "plot-specific opposition"
+      ],
+      "unresolved_inputs": [
+        "rare-Soul prevalence",
+        "ordinary prenatal consciousness",
+        "cross-species scale",
+        "injury incidence",
+        "rarity distribution"
+      ],
+      "secrets": [
+        "No undeclared secret."
+      ],
+      "author_notes": {
+        "reader_summary": "His first Mage form is complete, but breadth, preparation, politics, and recovery still decide what he can accomplish.",
+        "power_is_not_totalled": true,
+        "causal_vulnerabilities_remain": [
+          "surprise",
+          "incomplete information",
+          "commitment",
+          "recovery",
+          "environment",
+          "institutions",
+          "dependants"
+        ]
+      },
+      "sheet_digest": "sha256:70ca0f18f5cab0dcacd3c0f155ef46272feb4ffa45e4098bcee2d12e372bca2b"
+    },
+    {
+      "sheet_id": "sheet://cal0/i6/protagonist-advanced@1",
+      "canonicality": "I6_AUTHORING_REFERENCE_NOT_FIXED_STORY_CANON",
+      "identity": {
+        "label": "Protagonist",
+        "role": "protagonist",
+        "milestone": "advanced_not_overwhelming",
+        "age": "55-years",
+        "life_stage": "mature_adult",
+        "species": "human",
+        "exclusive_identity_holder": true,
+        "identity_lineage": "identity-lineage://cal0/i6/protagonist-advanced@1"
+      },
+      "traits": [
+        "Reincarnate Continuity",
+        "Embodied Integration",
+        "Soul Consolidation",
+        "Arcane Synthesis"
+      ],
+      "attributes": {
+        "Might": {
+          "reference_capacity": "1.7575",
+          "absolute_index": "14.6336"
+        },
+        "Finesse": {
+          "reference_capacity": "1.5725",
+          "absolute_index": "13.6317"
+        },
+        "Alacrity": {
+          "reference_capacity": "1.665",
+          "absolute_index": "14.1414"
+        },
+        "Vitality": {
+          "reference_capacity": "1.9425",
+          "absolute_index": "15.5704"
+        },
+        "Perception": {
+          "reference_capacity": "3.49125",
+          "absolute_index": "21.6712"
+        },
+        "Cognition": {
+          "reference_capacity": "5.5",
+          "absolute_index": "27.0044"
+        },
+        "Focus": {
+          "reference_capacity": "5.225",
+          "absolute_index": "26.3807"
+        },
+        "Will": {
+          "reference_capacity": "5.76",
+          "absolute_index": "27.5702"
+        },
+        "Depth": {
+          "reference_capacity": "6.46",
+          "absolute_index": "28.9918"
+        },
+        "Coherence": {
+          "reference_capacity": "6.8",
+          "absolute_index": "29.6347"
+        },
+        "Resonance": {
+          "reference_capacity": "7.14",
+          "absolute_index": "30.2503"
+        }
+      },
+      "resources": {
+        "health": {
+          "state": "healthy",
+          "projection": "typed integrity and viability; not a universal hit-point pool"
+        },
+        "stamina": {
+          "state": "available",
+          "projection": "task-conditioned operating headroom"
+        },
+        "mana": {
+          "working_reserve": "7.60",
+          "projection": "source-to-effect network; reserve is not generation"
+        }
+      },
+      "progression": {
+        "skills": [
+          {
+            "name": "Embodied Integration",
+            "level": 100,
+            "xp": "106",
+            "state": "complete",
+            "source": "earned",
+            "reinforcement_claims_conserved": true
+          },
+          {
+            "name": "Mana Perception",
+            "level": 100,
+            "xp": "106",
+            "state": "complete",
+            "source": "earned",
+            "reinforcement_claims_conserved": true
+          },
+          {
+            "name": "Arcane Method",
+            "level": 100,
+            "xp": "106",
+            "state": "complete",
+            "source": "earned",
+            "reinforcement_claims_conserved": true
+          },
+          {
+            "name": "Magical Research",
+            "level": 100,
+            "xp": "106",
+            "state": "complete",
+            "source": "earned",
+            "reinforcement_claims_conserved": true
+          },
+          {
+            "name": "Soul Consolidation",
+            "level": 76,
+            "xp": "84.20",
+            "state": "active",
+            "source": "earned",
+            "reinforcement_claims_conserved": true
+          }
+        ],
+        "classes": [
+          {
+            "name": "Mage",
+            "level": 100,
+            "xp": "205",
+            "form": "first",
+            "state": "complete",
+            "prospective_since_acceptance": true,
+            "parent_xp_transferred": false
+          },
+          {
+            "name": "Synthetic Archmage",
+            "level": 47,
+            "xp": "96.10",
+            "form": "successor",
+            "state": "active",
+            "prospective_since_acceptance": true,
+            "parent_xp_transferred": false
+          }
+        ]
+      },
+      "magic": {
+        "methods": [
+          "novel spell systems",
+          "regional wards with infrastructure",
+          "ritual leadership",
+          "arcane medicine",
+          "prepared counter-magic"
+        ],
+        "independent": true,
+        "constraints": [
+          "knowledge",
+          "compatible Mana",
+          "control",
+          "recovery",
+          "preparation",
+          "countermeasures"
+        ]
+      },
+      "equipment": [],
+      "social": {
+        "institution": "independent school and research network",
+        "offices": [],
+        "authority_scopes": []
+      },
+      "conditions": [],
+      "epistemic_access": {
+        "self_exact_core": true,
+        "self_exact_owned_progression": true,
+        "appraisal_disclosure": [
+          "identity.label",
+          "identity.life_stage",
+          "visible_conditions"
+        ],
+        "institutional_disclosure": [
+          "identity.label",
+          "licensed_roles",
+          "verified_progression"
+        ]
+      },
+      "causal_ledgers": {
+        "natural_maturation": {
+          "present": true,
+          "separate_from_xp": true
+        },
+        "purposeful_training": {
+          "present": true,
+          "separate_from_adaptation": true
+        },
+        "organic_adaptation": {
+          "present": true,
+          "damage_grants_growth": false
+        },
+        "skill_xp": {
+          "present": true,
+          "prospective": true
+        },
+        "class_xp": {
+          "present": true,
+          "prospective": true
+        },
+        "reinforcement": {
+          "claims_conserved": true
+        },
+        "assimilation": {
+          "safe_governor": true,
+          "backlog_preserved": true
+        }
+      },
+      "backend_uncertainty": [
+        "scenario timing",
+        "local opportunity",
+        "plot-specific opposition"
+      ],
+      "unresolved_inputs": [
+        "rare-Soul prevalence",
+        "ordinary prenatal consciousness",
+        "cross-species scale",
+        "injury incidence",
+        "rarity distribution"
+      ],
+      "secrets": [
+        "No undeclared secret."
+      ],
+      "author_notes": {
+        "reader_summary": "He is formidable through synthesis and preparation, yet cannot ignore logistics, surprise, hostile environments, simultaneous demands, or people he must protect.",
+        "power_is_not_totalled": true,
+        "causal_vulnerabilities_remain": [
+          "surprise",
+          "incomplete information",
+          "commitment",
+          "recovery",
+          "environment",
+          "institutions",
+          "dependants"
+        ]
+      },
+      "sheet_digest": "sha256:d9238921a3d27d9a2135cd7b3a91fc7f40742dadc5dcc9628c50c2223a9cebc9"
+    },
+    {
+      "sheet_id": "sheet://cal0/i6/ordinary-civilian@1",
+      "canonicality": "I6_AUTHORING_REFERENCE_NOT_FIXED_STORY_CANON",
+      "identity": {
+        "label": "Mara the Baker",
+        "role": "ordinary_civilian",
+        "milestone": "comparison",
+        "age": "35-years",
+        "life_stage": "adult",
+        "species": "human",
+        "exclusive_identity_holder": true,
+        "identity_lineage": "identity-lineage://cal0/i6/ordinary-civilian@1"
+      },
+      "traits": [
+        "Experienced Artisan"
+      ],
+      "attributes": {
+        "Might": {
+          "reference_capacity": "0.95",
+          "absolute_index": "9.6347"
+        },
+        "Finesse": {
+          "reference_capacity": "0.85",
+          "absolute_index": "8.8753"
+        },
+        "Alacrity": {
+          "reference_capacity": "0.9",
+          "absolute_index": "9.26"
+        },
+        "Vitality": {
+          "reference_capacity": "1.05",
+          "absolute_index": "10.3562"
+        },
+        "Perception": {
+          "reference_capacity": "0.97375",
+          "absolute_index": "9.8094"
+        },
+        "Cognition": {
+          "reference_capacity": "1.05",
+          "absolute_index": "10.3562"
+        },
+        "Focus": {
+          "reference_capacity": "0.9975",
+          "absolute_index": "9.982"
+        },
+        "Will": {
+          "reference_capacity": "1.03",
+          "absolute_index": "10.2148"
+        },
+        "Depth": {
+          "reference_capacity": "0.9025",
+          "absolute_index": "9.279"
+        },
+        "Coherence": {
+          "reference_capacity": "0.95",
+          "absolute_index": "9.6347"
+        },
+        "Resonance": {
+          "reference_capacity": "0.9975",
+          "absolute_index": "9.982"
+        }
+      },
+      "resources": {
+        "health": {
+          "state": "healthy",
+          "projection": "typed integrity and viability; not a universal hit-point pool"
+        },
+        "stamina": {
+          "state": "available",
+          "projection": "task-conditioned operating headroom"
+        },
+        "mana": {
+          "working_reserve": "0",
+          "projection": "source-to-effect network; reserve is not generation"
+        }
+      },
+      "progression": {
+        "skills": [
+          {
+            "name": "Baking",
+            "level": 47,
+            "xp": "50.8",
+            "state": "active",
+            "source": "earned",
+            "reinforcement_claims_conserved": true
+          },
+          {
+            "name": "Household Accounting",
+            "level": 21,
+            "xp": "23.1",
+            "state": "active",
+            "source": "earned",
+            "reinforcement_claims_conserved": true
+          }
+        ],
+        "classes": [
+          {
+            "name": "Baker",
+            "level": 28,
+            "xp": "35.0",
+            "form": "first",
+            "state": "active",
+            "prospective_since_acceptance": true,
+            "parent_xp_transferred": false
+          }
+        ]
+      },
+      "magic": {
+        "methods": [],
+        "independent": false,
+        "constraints": [
+          "knowledge",
+          "compatible Mana",
+          "control",
+          "recovery",
+          "preparation",
+          "countermeasures"
+        ]
+      },
+      "equipment": [],
+      "social": {
+        "institution": "town bakers' fellowship",
+        "offices": [],
+        "authority_scopes": []
+      },
+      "conditions": [],
+      "epistemic_access": {
+        "self_exact_core": true,
+        "self_exact_owned_progression": true,
+        "appraisal_disclosure": [
+          "identity.label",
+          "identity.life_stage",
+          "visible_conditions"
+        ],
+        "institutional_disclosure": [
+          "identity.label",
+          "licensed_roles",
+          "verified_progression"
+        ]
+      },
+      "causal_ledgers": {
+        "natural_maturation": {
+          "present": true,
+          "separate_from_xp": true
+        },
+        "purposeful_training": {
+          "present": true,
+          "separate_from_adaptation": true
+        },
+        "organic_adaptation": {
+          "present": true,
+          "damage_grants_growth": false
+        },
+        "skill_xp": {
+          "present": true,
+          "prospective": true
+        },
+        "class_xp": {
+          "present": true,
+          "prospective": true
+        },
+        "reinforcement": {
+          "claims_conserved": true
+        },
+        "assimilation": {
+          "safe_governor": true,
+          "backlog_preserved": true
+        }
+      },
+      "backend_uncertainty": [
+        "scenario timing",
+        "local opportunity",
+        "plot-specific opposition"
+      ],
+      "unresolved_inputs": [
+        "rare-Soul prevalence",
+        "ordinary prenatal consciousness",
+        "cross-species scale",
+        "injury incidence",
+        "rarity distribution"
+      ],
+      "secrets": [
+        "No undeclared secret."
+      ],
+      "author_notes": {
+        "reader_summary": "A capable civilian with economically valuable mastery and no generic combat package.",
+        "power_is_not_totalled": true,
+        "causal_vulnerabilities_remain": [
+          "surprise",
+          "incomplete information",
+          "commitment",
+          "recovery",
+          "environment",
+          "institutions",
+          "dependants"
+        ]
+      },
+      "sheet_digest": "sha256:55934b85d09d66dc62dbe46c8382e8a9f4813b67b5eaa5b30d03bdb7e2dd59a1"
+    },
+    {
+      "sheet_id": "sheet://cal0/i6/trained-professional@1",
+      "canonicality": "I6_AUTHORING_REFERENCE_NOT_FIXED_STORY_CANON",
+      "identity": {
+        "label": "Edrin the Field Surgeon",
+        "role": "trained_professional",
+        "milestone": "comparison",
+        "age": "32-years",
+        "life_stage": "adult",
+        "species": "human",
+        "exclusive_identity_holder": true,
+        "identity_lineage": "identity-lineage://cal0/i6/trained-professional@1"
+      },
+      "traits": [
+        "Institutionally Trained"
+      ],
+      "attributes": {
+        "Might": {
+          "reference_capacity": "1.33",
+          "absolute_index": "12.2033"
+        },
+        "Finesse": {
+          "reference_capacity": "1.19",
+          "absolute_index": "11.3093"
+        },
+        "Alacrity": {
+          "reference_capacity": "1.26",
+          "absolute_index": "11.7632"
+        },
+        "Vitality": {
+          "reference_capacity": "1.47",
+          "absolute_index": "13.0451"
+        },
+        "Perception": {
+          "reference_capacity": "1.40125",
+          "absolute_index": "12.6379"
+        },
+        "Cognition": {
+          "reference_capacity": "1.55",
+          "absolute_index": "13.505"
+        },
+        "Focus": {
+          "reference_capacity": "1.4725",
+          "absolute_index": "13.0597"
+        },
+        "Will": {
+          "reference_capacity": "1.46",
+          "absolute_index": "12.9866"
+        },
+        "Depth": {
+          "reference_capacity": "1.045",
+          "absolute_index": "10.321"
+        },
+        "Coherence": {
+          "reference_capacity": "1.1",
+          "absolute_index": "10.7039"
+        },
+        "Resonance": {
+          "reference_capacity": "1.155",
+          "absolute_index": "11.0769"
+        }
+      },
+      "resources": {
+        "health": {
+          "state": "healthy",
+          "projection": "typed integrity and viability; not a universal hit-point pool"
+        },
+        "stamina": {
+          "state": "available",
+          "projection": "task-conditioned operating headroom"
+        },
+        "mana": {
+          "working_reserve": "0",
+          "projection": "source-to-effect network; reserve is not generation"
+        }
+      },
+      "progression": {
+        "skills": [
+          {
+            "name": "Surgery",
+            "level": 63,
+            "xp": "70.1",
+            "state": "active",
+            "source": "earned",
+            "reinforcement_claims_conserved": true
+          },
+          {
+            "name": "Diagnosis",
+            "level": 58,
+            "xp": "64.2",
+            "state": "active",
+            "source": "earned",
+            "reinforcement_claims_conserved": true
+          },
+          {
+            "name": "Endurance",
+            "level": 31,
+            "xp": "36.4",
+            "state": "active",
+            "source": "earned",
+            "reinforcement_claims_conserved": true
+          }
+        ],
+        "classes": [
+          {
+            "name": "Field Surgeon",
+            "level": 49,
+            "xp": "61.7",
+            "form": "first",
+            "state": "active",
+            "prospective_since_acceptance": true,
+            "parent_xp_transferred": false
+          }
+        ]
+      },
+      "magic": {
+        "methods": [],
+        "independent": false,
+        "constraints": [
+          "knowledge",
+          "compatible Mana",
+          "control",
+          "recovery",
+          "preparation",
+          "countermeasures"
+        ]
+      },
+      "equipment": [],
+      "social": {
+        "institution": "royal medical college",
+        "offices": [],
+        "authority_scopes": []
+      },
+      "conditions": [],
+      "epistemic_access": {
+        "self_exact_core": true,
+        "self_exact_owned_progression": true,
+        "appraisal_disclosure": [
+          "identity.label",
+          "identity.life_stage",
+          "visible_conditions"
+        ],
+        "institutional_disclosure": [
+          "identity.label",
+          "licensed_roles",
+          "verified_progression"
+        ]
+      },
+      "causal_ledgers": {
+        "natural_maturation": {
+          "present": true,
+          "separate_from_xp": true
+        },
+        "purposeful_training": {
+          "present": true,
+          "separate_from_adaptation": true
+        },
+        "organic_adaptation": {
+          "present": true,
+          "damage_grants_growth": false
+        },
+        "skill_xp": {
+          "present": true,
+          "prospective": true
+        },
+        "class_xp": {
+          "present": true,
+          "prospective": true
+        },
+        "reinforcement": {
+          "claims_conserved": true
+        },
+        "assimilation": {
+          "safe_governor": true,
+          "backlog_preserved": true
+        }
+      },
+      "backend_uncertainty": [
+        "scenario timing",
+        "local opportunity",
+        "plot-specific opposition"
+      ],
+      "unresolved_inputs": [
+        "rare-Soul prevalence",
+        "ordinary prenatal consciousness",
+        "cross-species scale",
+        "injury incidence",
+        "rarity distribution"
+      ],
+      "secrets": [
+        "No undeclared secret."
+      ],
+      "author_notes": {
+        "reader_summary": "Training, tools, and institutional support create real expertise without transferring it to every member.",
+        "power_is_not_totalled": true,
+        "causal_vulnerabilities_remain": [
+          "surprise",
+          "incomplete information",
+          "commitment",
+          "recovery",
+          "environment",
+          "institutions",
+          "dependants"
+        ]
+      },
+      "sheet_digest": "sha256:e64bce20ff6b89174e55114d239bf2fc5b33aedbfbfa00f6d854cfef7673f8fa"
+    },
+    {
+      "sheet_id": "sheet://cal0/i6/institutional-mage@1",
+      "canonicality": "I6_AUTHORING_REFERENCE_NOT_FIXED_STORY_CANON",
+      "identity": {
+        "label": "Sister Aelwen",
+        "role": "institutional_mage",
+        "milestone": "comparison",
+        "age": "42-years",
+        "life_stage": "adult",
+        "species": "human",
+        "exclusive_identity_holder": true,
+        "identity_lineage": "identity-lineage://cal0/i6/institutional-mage@1"
+      },
+      "traits": [
+        "Licensed Ritual Custodian"
+      ],
+      "attributes": {
+        "Might": {
+          "reference_capacity": "1.14",
+          "absolute_index": "10.9761"
+        },
+        "Finesse": {
+          "reference_capacity": "1.02",
+          "absolute_index": "10.1436"
+        },
+        "Alacrity": {
+          "reference_capacity": "1.08",
+          "absolute_index": "10.5658"
+        },
+        "Vitality": {
+          "reference_capacity": "1.26",
+          "absolute_index": "11.7632"
+        },
+        "Perception": {
+          "reference_capacity": "1.71",
+          "absolute_index": "14.3829"
+        },
+        "Cognition": {
+          "reference_capacity": "2.4",
+          "absolute_index": "17.6553"
+        },
+        "Focus": {
+          "reference_capacity": "2.28",
+          "absolute_index": "17.137"
+        },
+        "Will": {
+          "reference_capacity": "2.44",
+          "absolute_index": "17.8241"
+        },
+        "Depth": {
+          "reference_capacity": "2.47",
+          "absolute_index": "17.9494"
+        },
+        "Coherence": {
+          "reference_capacity": "2.6",
+          "absolute_index": "18.48"
+        },
+        "Resonance": {
+          "reference_capacity": "2.73",
+          "absolute_index": "18.9918"
+        }
+      },
+      "resources": {
+        "health": {
+          "state": "healthy",
+          "projection": "typed integrity and viability; not a universal hit-point pool"
+        },
+        "stamina": {
+          "state": "available",
+          "projection": "task-conditioned operating headroom"
+        },
+        "mana": {
+          "working_reserve": "2.10",
+          "projection": "source-to-effect network; reserve is not generation"
+        }
+      },
+      "progression": {
+        "skills": [
+          {
+            "name": "Mana Perception",
+            "level": 71,
+            "xp": "78.3",
+            "state": "active",
+            "source": "earned",
+            "reinforcement_claims_conserved": true
+          },
+          {
+            "name": "Ward Maintenance",
+            "level": 76,
+            "xp": "83.7",
+            "state": "active",
+            "source": "earned",
+            "reinforcement_claims_conserved": true
+          },
+          {
+            "name": "Ritual Coordination",
+            "level": 68,
+            "xp": "74.2",
+            "state": "active",
+            "source": "earned",
+            "reinforcement_claims_conserved": true
+          }
+        ],
+        "classes": [
+          {
+            "name": "Temple Mage",
+            "level": 64,
+            "xp": "92.5",
+            "form": "first",
+            "state": "active",
+            "prospective_since_acceptance": true,
+            "parent_xp_transferred": false
+          }
+        ]
+      },
+      "magic": {
+        "methods": [
+          "ward maintenance",
+          "ritual casting",
+          "sanctuary diagnostics"
+        ],
+        "independent": true,
+        "constraints": [
+          "knowledge",
+          "compatible Mana",
+          "control",
+          "recovery",
+          "preparation",
+          "countermeasures"
+        ]
+      },
+      "equipment": [],
+      "social": {
+        "institution": "island temple network",
+        "offices": [],
+        "authority_scopes": []
+      },
+      "conditions": [],
+      "epistemic_access": {
+        "self_exact_core": true,
+        "self_exact_owned_progression": true,
+        "appraisal_disclosure": [
+          "identity.label",
+          "identity.life_stage",
+          "visible_conditions"
+        ],
+        "institutional_disclosure": [
+          "identity.label",
+          "licensed_roles",
+          "verified_progression"
+        ]
+      },
+      "causal_ledgers": {
+        "natural_maturation": {
+          "present": true,
+          "separate_from_xp": true
+        },
+        "purposeful_training": {
+          "present": true,
+          "separate_from_adaptation": true
+        },
+        "organic_adaptation": {
+          "present": true,
+          "damage_grants_growth": false
+        },
+        "skill_xp": {
+          "present": true,
+          "prospective": true
+        },
+        "class_xp": {
+          "present": true,
+          "prospective": true
+        },
+        "reinforcement": {
+          "claims_conserved": true
+        },
+        "assimilation": {
+          "safe_governor": true,
+          "backlog_preserved": true
+        }
+      },
+      "backend_uncertainty": [
+        "scenario timing",
+        "local opportunity",
+        "plot-specific opposition"
+      ],
+      "unresolved_inputs": [
+        "rare-Soul prevalence",
+        "ordinary prenatal consciousness",
+        "cross-species scale",
+        "injury incidence",
+        "rarity distribution"
+      ],
+      "secrets": [
+        "No undeclared secret."
+      ],
+      "author_notes": {
+        "reader_summary": "Her office supplies keys, archives, peers, and infrastructure; it is not the source of her personal Skills.",
+        "power_is_not_totalled": true,
+        "causal_vulnerabilities_remain": [
+          "surprise",
+          "incomplete information",
+          "commitment",
+          "recovery",
+          "environment",
+          "institutions",
+          "dependants"
+        ]
+      },
+      "sheet_digest": "sha256:d97d27c04ee94b996d3dd8071f3ba856e9916364d9e0f2f1eb266c68a2bb554c"
+    },
+    {
+      "sheet_id": "sheet://cal0/i6/soldier@1",
+      "canonicality": "I6_AUTHORING_REFERENCE_NOT_FIXED_STORY_CANON",
+      "identity": {
+        "label": "Cadoc",
+        "role": "soldier",
+        "milestone": "comparison",
+        "age": "29-years",
+        "life_stage": "adult",
+        "species": "human",
+        "exclusive_identity_holder": true,
+        "identity_lineage": "identity-lineage://cal0/i6/soldier@1"
+      },
+      "traits": [
+        "Campaign Veteran"
+      ],
+      "attributes": {
+        "Might": {
+          "reference_capacity": "1.5675",
+          "absolute_index": "13.6036"
+        },
+        "Finesse": {
+          "reference_capacity": "1.4025",
+          "absolute_index": "12.6454"
+        },
+        "Alacrity": {
+          "reference_capacity": "1.485",
+          "absolute_index": "13.1325"
+        },
+        "Vitality": {
+          "reference_capacity": "1.7325",
+          "absolute_index": "14.5022"
+        },
+        "Perception": {
+          "reference_capacity": "1.35375",
+          "absolute_index": "12.3496"
+        },
+        "Cognition": {
+          "reference_capacity": "1.2",
+          "absolute_index": "11.375"
+        },
+        "Focus": {
+          "reference_capacity": "1.14",
+          "absolute_index": "10.9761"
+        },
+        "Will": {
+          "reference_capacity": "1.15",
+          "absolute_index": "11.0434"
+        },
+        "Depth": {
+          "reference_capacity": "0.9025",
+          "absolute_index": "9.279"
+        },
+        "Coherence": {
+          "reference_capacity": "0.95",
+          "absolute_index": "9.6347"
+        },
+        "Resonance": {
+          "reference_capacity": "0.9975",
+          "absolute_index": "9.982"
+        }
+      },
+      "resources": {
+        "health": {
+          "state": "healthy",
+          "projection": "typed integrity and viability; not a universal hit-point pool"
+        },
+        "stamina": {
+          "state": "available",
+          "projection": "task-conditioned operating headroom"
+        },
+        "mana": {
+          "working_reserve": "0",
+          "projection": "source-to-effect network; reserve is not generation"
+        }
+      },
+      "progression": {
+        "skills": [
+          {
+            "name": "Spear",
+            "level": 61,
+            "xp": "67.5",
+            "state": "active",
+            "source": "earned",
+            "reinforcement_claims_conserved": true
+          },
+          {
+            "name": "Shield",
+            "level": 57,
+            "xp": "62.1",
+            "state": "active",
+            "source": "earned",
+            "reinforcement_claims_conserved": true
+          },
+          {
+            "name": "Marching",
+            "level": 52,
+            "xp": "56.0",
+            "state": "active",
+            "source": "earned",
+            "reinforcement_claims_conserved": true
+          }
+        ],
+        "classes": [
+          {
+            "name": "Household Soldier",
+            "level": 52,
+            "xp": "66.8",
+            "form": "first",
+            "state": "active",
+            "prospective_since_acceptance": true,
+            "parent_xp_transferred": false
+          }
+        ]
+      },
+      "magic": {
+        "methods": [],
+        "independent": false,
+        "constraints": [
+          "knowledge",
+          "compatible Mana",
+          "control",
+          "recovery",
+          "preparation",
+          "countermeasures"
+        ]
+      },
+      "equipment": [],
+      "social": {
+        "institution": "regional warband",
+        "offices": [],
+        "authority_scopes": []
+      },
+      "conditions": [],
+      "epistemic_access": {
+        "self_exact_core": true,
+        "self_exact_owned_progression": true,
+        "appraisal_disclosure": [
+          "identity.label",
+          "identity.life_stage",
+          "visible_conditions"
+        ],
+        "institutional_disclosure": [
+          "identity.label",
+          "licensed_roles",
+          "verified_progression"
+        ]
+      },
+      "causal_ledgers": {
+        "natural_maturation": {
+          "present": true,
+          "separate_from_xp": true
+        },
+        "purposeful_training": {
+          "present": true,
+          "separate_from_adaptation": true
+        },
+        "organic_adaptation": {
+          "present": true,
+          "damage_grants_growth": false
+        },
+        "skill_xp": {
+          "present": true,
+          "prospective": true
+        },
+        "class_xp": {
+          "present": true,
+          "prospective": true
+        },
+        "reinforcement": {
+          "claims_conserved": true
+        },
+        "assimilation": {
+          "safe_governor": true,
+          "backlog_preserved": true
+        }
+      },
+      "backend_uncertainty": [
+        "scenario timing",
+        "local opportunity",
+        "plot-specific opposition"
+      ],
+      "unresolved_inputs": [
+        "rare-Soul prevalence",
+        "ordinary prenatal consciousness",
+        "cross-species scale",
+        "injury incidence",
+        "rarity distribution"
+      ],
+      "secrets": [
+        "No undeclared secret."
+      ],
+      "author_notes": {
+        "reader_summary": "A trained fighter whose readiness still depends on formation, equipment, condition, orders, and terrain.",
+        "power_is_not_totalled": true,
+        "causal_vulnerabilities_remain": [
+          "surprise",
+          "incomplete information",
+          "commitment",
+          "recovery",
+          "environment",
+          "institutions",
+          "dependants"
+        ]
+      },
+      "sheet_digest": "sha256:a524d932077d5b9eabe9b771e4c6b1df377c23a46709b75d3d130d53a7f94615"
+    },
+    {
+      "sheet_id": "sheet://cal0/i6/glimmerhart@1",
+      "canonicality": "I6_AUTHORING_REFERENCE_NOT_FIXED_STORY_CANON",
+      "identity": {
+        "label": "Old Antler",
+        "role": "creature",
+        "milestone": "comparison",
+        "age": "9-years",
+        "life_stage": "adult",
+        "species": "glimmerhart",
+        "exclusive_identity_holder": true,
+        "identity_lineage": "identity-lineage://cal0/i6/glimmerhart@1"
+      },
+      "traits": [
+        "Mana-Sensitive Herbivore",
+        "Seasonal Migrant"
+      ],
+      "attributes": {
+        "Might": {
+          "reference_capacity": "1.71",
+          "absolute_index": "14.3829"
+        },
+        "Finesse": {
+          "reference_capacity": "1.53",
+          "absolute_index": "13.3914"
+        },
+        "Alacrity": {
+          "reference_capacity": "1.62",
+          "absolute_index": "13.8957"
+        },
+        "Vitality": {
+          "reference_capacity": "1.89",
+          "absolute_index": "15.3107"
+        },
+        "Perception": {
+          "reference_capacity": "1.11625",
+          "absolute_index": "10.8151"
+        },
+        "Cognition": {
+          "reference_capacity": "0.55",
+          "absolute_index": "6.3227"
+        },
+        "Focus": {
+          "reference_capacity": "0.5225",
+          "absolute_index": "6.0644"
+        },
+        "Will": {
+          "reference_capacity": "0.68",
+          "absolute_index": "7.4846"
+        },
+        "Depth": {
+          "reference_capacity": "1.14",
+          "absolute_index": "10.9761"
+        },
+        "Coherence": {
+          "reference_capacity": "1.2",
+          "absolute_index": "11.375"
+        },
+        "Resonance": {
+          "reference_capacity": "1.26",
+          "absolute_index": "11.7632"
+        }
+      },
+      "resources": {
+        "health": {
+          "state": "healthy",
+          "projection": "typed integrity and viability; not a universal hit-point pool"
+        },
+        "stamina": {
+          "state": "available",
+          "projection": "task-conditioned operating headroom"
+        },
+        "mana": {
+          "working_reserve": "0.18",
+          "projection": "source-to-effect network; reserve is not generation"
+        }
+      },
+      "progression": {
+        "skills": [
+          {
+            "name": "Forest Navigation",
+            "level": 39,
+            "xp": "42.0",
+            "state": "active",
+            "source": "earned",
+            "reinforcement_claims_conserved": true
+          },
+          {
+            "name": "Threat Sensing",
+            "level": 33,
+            "xp": "35.1",
+            "state": "active",
+            "source": "earned",
+            "reinforcement_claims_conserved": true
+          }
+        ],
+        "classes": []
+      },
+      "magic": {
+        "methods": [
+          "ambient Mana sensing"
+        ],
+        "independent": true,
+        "constraints": [
+          "knowledge",
+          "compatible Mana",
+          "control",
+          "recovery",
+          "preparation",
+          "countermeasures"
+        ]
+      },
+      "equipment": [],
+      "social": {
+        "institution": null,
+        "offices": [],
+        "authority_scopes": []
+      },
+      "conditions": [],
+      "epistemic_access": {
+        "self_exact_core": false,
+        "self_exact_owned_progression": false,
+        "appraisal_disclosure": [
+          "identity.label",
+          "identity.life_stage",
+          "visible_conditions"
+        ],
+        "institutional_disclosure": [
+          "identity.label",
+          "licensed_roles",
+          "verified_progression"
+        ]
+      },
+      "causal_ledgers": {
+        "natural_maturation": {
+          "present": true,
+          "separate_from_xp": true
+        },
+        "purposeful_training": {
+          "present": true,
+          "separate_from_adaptation": true
+        },
+        "organic_adaptation": {
+          "present": true,
+          "damage_grants_growth": false
+        },
+        "skill_xp": {
+          "present": true,
+          "prospective": true
+        },
+        "class_xp": {
+          "present": false,
+          "prospective": true
+        },
+        "reinforcement": {
+          "claims_conserved": true
+        },
+        "assimilation": {
+          "safe_governor": true,
+          "backlog_preserved": true
+        }
+      },
+      "backend_uncertainty": [
+        "scenario timing",
+        "local opportunity",
+        "plot-specific opposition"
+      ],
+      "unresolved_inputs": [
+        "rare-Soul prevalence",
+        "ordinary prenatal consciousness",
+        "cross-species scale",
+        "injury incidence",
+        "rarity distribution"
+      ],
+      "secrets": [
+        "No undeclared secret."
+      ],
+      "author_notes": {
+        "reader_summary": "A mythological animal with a real life cycle, learned capabilities, and no universal monster level or corpse loot table.",
+        "power_is_not_totalled": true,
+        "causal_vulnerabilities_remain": [
+          "surprise",
+          "incomplete information",
+          "commitment",
+          "recovery",
+          "environment",
+          "institutions",
+          "dependants"
+        ]
+      },
+      "sheet_digest": "sha256:b1e3a450705edc5f48665d76d53062bab5edc194fa274ff8420cbfee48f95dd6"
+    },
+    {
+      "sheet_id": "sheet://cal0/i6/exceptional-non-protagonist@1",
+      "canonicality": "I6_AUTHORING_REFERENCE_NOT_FIXED_STORY_CANON",
+      "identity": {
+        "label": "Master Iorwerth",
+        "role": "exceptional_non_protagonist",
+        "milestone": "comparison",
+        "age": "70-years",
+        "life_stage": "older_adult",
+        "species": "human",
+        "exclusive_identity_holder": true,
+        "identity_lineage": "identity-lineage://cal0/i6/exceptional-non-protagonist@1"
+      },
+      "traits": [
+        "Exceptional Natural Endowment",
+        "Long Institutional Career"
+      ],
+      "attributes": {
+        "Might": {
+          "reference_capacity": "1.9",
+          "absolute_index": "15.3605"
+        },
+        "Finesse": {
+          "reference_capacity": "1.7",
+          "absolute_index": "14.3296"
+        },
+        "Alacrity": {
+          "reference_capacity": "1.8",
+          "absolute_index": "14.8543"
+        },
+        "Vitality": {
+          "reference_capacity": "2.1",
+          "absolute_index": "16.3227"
+        },
+        "Perception": {
+          "reference_capacity": "3.23",
+          "absolute_index": "20.8066"
+        },
+        "Cognition": {
+          "reference_capacity": "4.8",
+          "absolute_index": "25.3605"
+        },
+        "Focus": {
+          "reference_capacity": "4.56",
+          "absolute_index": "24.7508"
+        },
+        "Will": {
+          "reference_capacity": "4.74",
+          "absolute_index": "25.2105"
+        },
+        "Depth": {
+          "reference_capacity": "4.275",
+          "absolute_index": "23.9917"
+        },
+        "Coherence": {
+          "reference_capacity": "4.5",
+          "absolute_index": "24.5943"
+        },
+        "Resonance": {
+          "reference_capacity": "4.725",
+          "absolute_index": "25.1728"
+        }
+      },
+      "resources": {
+        "health": {
+          "state": "healthy",
+          "projection": "typed integrity and viability; not a universal hit-point pool"
+        },
+        "stamina": {
+          "state": "available",
+          "projection": "task-conditioned operating headroom"
+        },
+        "mana": {
+          "working_reserve": "5.30",
+          "projection": "source-to-effect network; reserve is not generation"
+        }
+      },
+      "progression": {
+        "skills": [
+          {
+            "name": "Arcane Method",
+            "level": 100,
+            "xp": "106",
+            "state": "complete",
+            "source": "earned",
+            "reinforcement_claims_conserved": true
+          },
+          {
+            "name": "Battle Magic",
+            "level": 94,
+            "xp": "101.3",
+            "state": "active",
+            "source": "earned",
+            "reinforcement_claims_conserved": true
+          },
+          {
+            "name": "Magical Research",
+            "level": 88,
+            "xp": "93.0",
+            "state": "active",
+            "source": "earned",
+            "reinforcement_claims_conserved": true
+          }
+        ],
+        "classes": [
+          {
+            "name": "War Mage",
+            "level": 100,
+            "xp": "205",
+            "form": "first",
+            "state": "complete",
+            "prospective_since_acceptance": true,
+            "parent_xp_transferred": false
+          },
+          {
+            "name": "Arcane Strategist",
+            "level": 22,
+            "xp": "38.4",
+            "form": "successor",
+            "state": "active",
+            "prospective_since_acceptance": true,
+            "parent_xp_transferred": false
+          }
+        ]
+      },
+      "magic": {
+        "methods": [
+          "battle magic",
+          "counter-magic",
+          "fortification rituals",
+          "strategic scrying"
+        ],
+        "independent": true,
+        "constraints": [
+          "knowledge",
+          "compatible Mana",
+          "control",
+          "recovery",
+          "preparation",
+          "countermeasures"
+        ]
+      },
+      "equipment": [],
+      "social": {
+        "institution": "royal arcane command",
+        "offices": [],
+        "authority_scopes": []
+      },
+      "conditions": [],
+      "epistemic_access": {
+        "self_exact_core": true,
+        "self_exact_owned_progression": true,
+        "appraisal_disclosure": [
+          "identity.label",
+          "identity.life_stage",
+          "visible_conditions"
+        ],
+        "institutional_disclosure": [
+          "identity.label",
+          "licensed_roles",
+          "verified_progression"
+        ]
+      },
+      "causal_ledgers": {
+        "natural_maturation": {
+          "present": true,
+          "separate_from_xp": true
+        },
+        "purposeful_training": {
+          "present": true,
+          "separate_from_adaptation": true
+        },
+        "organic_adaptation": {
+          "present": true,
+          "damage_grants_growth": false
+        },
+        "skill_xp": {
+          "present": true,
+          "prospective": true
+        },
+        "class_xp": {
+          "present": true,
+          "prospective": true
+        },
+        "reinforcement": {
+          "claims_conserved": true
+        },
+        "assimilation": {
+          "safe_governor": true,
+          "backlog_preserved": true
+        }
+      },
+      "backend_uncertainty": [
+        "scenario timing",
+        "local opportunity",
+        "plot-specific opposition"
+      ],
+      "unresolved_inputs": [
+        "rare-Soul prevalence",
+        "ordinary prenatal consciousness",
+        "cross-species scale",
+        "injury incidence",
+        "rarity distribution"
+      ],
+      "secrets": [
+        "No undeclared secret."
+      ],
+      "author_notes": {
+        "reader_summary": "An exceptional rival whose advantages arise from talent, survival, responsibility, archives, staff, and decades of work.",
+        "power_is_not_totalled": true,
+        "causal_vulnerabilities_remain": [
+          "surprise",
+          "incomplete information",
+          "commitment",
+          "recovery",
+          "environment",
+          "institutions",
+          "dependants"
+        ]
+      },
+      "sheet_digest": "sha256:40d3c0c80604bdb631d7d48754511adb84577df51d50246c92aa29d0494dd4bb"
+    }
+  ]
+}

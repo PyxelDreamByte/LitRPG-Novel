@@ -1,0 +1,1064 @@
+{
+  "canonicality": "REFERENCE_ONLY_NOT_STORY_CANON",
+  "character_count": 4,
+  "cohort_claims_permitted": false,
+  "parameter_set_id": "parameter-set://cal0/i3-reference@1",
+  "parameter_set_status": "PROVISIONAL",
+  "parameter_status": "UNCALIBRATED",
+  "passed": true,
+  "passed_count": 5,
+  "rehearsal_samples": {
+    "17": {
+      "parameter://cal0/population/developmental-timing-offset@1": "0.056674088139",
+      "parameter://cal0/population/endowment-multiplier@1": "1.001128507966",
+      "parameter://cal0/population/recovery-multiplier@1": "0.972238127557",
+      "parameter://cal0/population/trainability-multiplier@1": "1.046881521254"
+    },
+    "83": {
+      "parameter://cal0/population/developmental-timing-offset@1": "-0.002960631508",
+      "parameter://cal0/population/endowment-multiplier@1": "0.892588013961",
+      "parameter://cal0/population/recovery-multiplier@1": "1.071853379169",
+      "parameter://cal0/population/trainability-multiplier@1": "1.098998357706"
+    }
+  },
+  "report_digest": "sha256:0c24af246f6e13cb1bdb2ed5011057e5077aa4e6438270945cb818a313fe04b0",
+  "results": [
+    {
+      "canonicality": "REFERENCE_ONLY_NOT_STORY_CANON",
+      "checks": {
+        "all_training_gains_positive": true,
+        "capacity_envelopes_respected": true,
+        "exceptional_starts_above_ordinary": true,
+        "natural_and_training_ledgers_separate": true,
+        "no_cohort_claim": true
+      },
+      "expected_checks": [
+        "all_training_gains_positive",
+        "capacity_envelopes_respected",
+        "exceptional_starts_above_ordinary",
+        "natural_and_training_ledgers_separate",
+        "no_cohort_claim"
+      ],
+      "narrative_envelopes": [
+        "Purposeful training produces adaptation only through productive load and remaining headroom.",
+        "Prior training and exceptional endowment remain distinct causal advantages.",
+        "No character exceeds its declared moving envelope.",
+        "The results compare authored individuals, not population cohorts."
+      ],
+      "output": {
+        "characters": {
+          "character://cal0/i3/exceptional-reference@1": {
+            "final_functional_adaptation": "0.2103487714139163824347165083",
+            "final_reference_capacity": "0.9703487714139163824347165083",
+            "functional_envelope": "0.345",
+            "ledgers": {
+              "assimilation": {
+                "events": [],
+                "total": "0"
+              },
+              "class_xp": {
+                "events": [],
+                "total": "0"
+              },
+              "natural_maturation": {
+                "events": [],
+                "total": "0"
+              },
+              "organic_adaptation": {
+                "events": [
+                  {
+                    "gain": "0.03567713234354569352439104356",
+                    "harm": "0",
+                    "headroom": "0.83122982279506341469814810082259771646715606441632",
+                    "opportunity": "0.9093411078717201166180758018",
+                    "week": 1
+                  },
+                  {
+                    "gain": "0.02960397477084075217980785278",
+                    "harm": "0",
+                    "headroom": "0.68973331336836652135319216415688311435702135473831",
+                    "opportunity": "0.9093411078717201166180758018",
+                    "week": 2
+                  },
+                  {
+                    "gain": "0.02485956788158469452667443328",
+                    "harm": "0",
+                    "headroom": "0.57919493097123309661945435996911620635137475460645",
+                    "opportunity": "0.9093411078717201166180758018",
+                    "week": 3
+                  },
+                  {
+                    "gain": "0.02109460953441491665140242053",
+                    "harm": "0",
+                    "headroom": "0.49147639940279296684338269904601179411254414323602",
+                    "opportunity": "0.9093411078717201166180758018",
+                    "week": 4
+                  },
+                  {
+                    "gain": "0.01806559304166667878340330973",
+                    "harm": "0",
+                    "headroom": "0.42090433609160209488535417720082902624429424021076",
+                    "opportunity": "0.9093411078717201166180758018",
+                    "week": 5
+                  },
+                  {
+                    "gain": "0.01559892136703701595488195646",
+                    "harm": "0",
+                    "headroom": "0.36343416053902725124982169810500767144546972530695",
+                    "opportunity": "0.9093411078717201166180758018",
+                    "week": 6
+                  },
+                  {
+                    "gain": "0.01356837994670340741204992333",
+                    "harm": "0",
+                    "headroom": "0.31612524095577245888328550388261562249331120096598",
+                    "opportunity": "0.9093411078717201166180758018",
+                    "week": 7
+                  },
+                  {
+                    "gain": "0.01188059252812322340210556868",
+                    "harm": "0",
+                    "headroom": "0.27680203461304217212710182941248498992177133049756",
+                    "opportunity": "0.9093411078717201166180758018",
+                    "week": 8
+                  }
+                ],
+                "total": "0.1703487714139163824347165083"
+              },
+              "purposeful_training": {
+                "events": [
+                  {
+                    "challenge": "0.68",
+                    "fatigue": "0.68",
+                    "week": 1
+                  },
+                  {
+                    "challenge": "0.68",
+                    "fatigue": "0.68",
+                    "week": 2
+                  },
+                  {
+                    "challenge": "0.68",
+                    "fatigue": "0.68",
+                    "week": 3
+                  },
+                  {
+                    "challenge": "0.68",
+                    "fatigue": "0.68",
+                    "week": 4
+                  },
+                  {
+                    "challenge": "0.68",
+                    "fatigue": "0.68",
+                    "week": 5
+                  },
+                  {
+                    "challenge": "0.68",
+                    "fatigue": "0.68",
+                    "week": 6
+                  },
+                  {
+                    "challenge": "0.68",
+                    "fatigue": "0.68",
+                    "week": 7
+                  },
+                  {
+                    "challenge": "0.68",
+                    "fatigue": "0.68",
+                    "week": 8
+                  }
+                ],
+                "total": "5.44"
+              },
+              "reinforcement": {
+                "events": [],
+                "total": "0"
+              },
+              "skill_xp": {
+                "events": [],
+                "total": "0"
+              }
+            },
+            "start_functional_adaptation": "0.04",
+            "start_reference_capacity": "0.76"
+          },
+          "character://cal0/i3/ordinary-reference@1": {
+            "final_functional_adaptation": "0.1784420048513508995928757938",
+            "final_reference_capacity": "0.8284420048513508995928757938",
+            "functional_envelope": "0.3",
+            "ledgers": {
+              "assimilation": {
+                "events": [],
+                "total": "0"
+              },
+              "class_xp": {
+                "events": [],
+                "total": "0"
+              },
+              "natural_maturation": {
+                "events": [],
+                "total": "0"
+              },
+              "organic_adaptation": {
+                "events": [
+                  {
+                    "gain": "0.03935875",
+                    "harm": "0",
+                    "headroom": "1",
+                    "opportunity": "0.98396875",
+                    "week": 1
+                  },
+                  {
+                    "gain": "0.03187308784999118953704154164",
+                    "harm": "0",
+                    "headroom": "0.80980945406018203162045394329792531211946064263953",
+                    "opportunity": "0.98396875",
+                    "week": 2
+                  },
+                  {
+                    "gain": "0.02620914115958675101844249271",
+                    "harm": "0",
+                    "headroom": "0.66590379927174392018147153333285009684974883304731",
+                    "opportunity": "0.98396875",
+                    "week": 3
+                  },
+                  {
+                    "gain": "0.02183668951069634067604458048",
+                    "harm": "0",
+                    "headroom": "0.55481156059824919937865355167946277439221418023578",
+                    "opportunity": "0.98396875",
+                    "week": 4
+                  },
+                  {
+                    "gain": "0.01840251355014831684093790368",
+                    "harm": "0",
+                    "headroom": "0.46755838409879167506432251234830001541986174958822",
+                    "opportunity": "0.98396875",
+                    "week": 5
+                  },
+                  {
+                    "gain": "0.01566450715431442394365767848",
+                    "harm": "0",
+                    "headroom": "0.39799300420654680201118375152577644936363802921456",
+                    "opportunity": "0.98396875",
+                    "week": 6
+                  },
+                  {
+                    "gain": "0.01345259621605982117535132465",
+                    "harm": "0",
+                    "headroom": "0.34179429519636221108016196278205254094164119198113",
+                    "opportunity": "0.98396875",
+                    "week": 7
+                  },
+                  {
+                    "gain": "0.01164471941055405640140027221",
+                    "harm": "0",
+                    "headroom": "0.29586100703284673424334543665661883526908714624715",
+                    "opportunity": "0.98396875",
+                    "week": 8
+                  }
+                ],
+                "total": "0.1784420048513508995928757938"
+              },
+              "purposeful_training": {
+                "events": [
+                  {
+                    "challenge": "0.52",
+                    "fatigue": "0.52",
+                    "week": 1
+                  },
+                  {
+                    "challenge": "0.52",
+                    "fatigue": "0.52",
+                    "week": 2
+                  },
+                  {
+                    "challenge": "0.52",
+                    "fatigue": "0.52",
+                    "week": 3
+                  },
+                  {
+                    "challenge": "0.52",
+                    "fatigue": "0.52",
+                    "week": 4
+                  },
+                  {
+                    "challenge": "0.52",
+                    "fatigue": "0.52",
+                    "week": 5
+                  },
+                  {
+                    "challenge": "0.52",
+                    "fatigue": "0.52",
+                    "week": 6
+                  },
+                  {
+                    "challenge": "0.52",
+                    "fatigue": "0.52",
+                    "week": 7
+                  },
+                  {
+                    "challenge": "0.52",
+                    "fatigue": "0.52",
+                    "week": 8
+                  }
+                ],
+                "total": "4.16"
+              },
+              "reinforcement": {
+                "events": [],
+                "total": "0"
+              },
+              "skill_xp": {
+                "events": [],
+                "total": "0"
+              }
+            },
+            "start_functional_adaptation": "0",
+            "start_reference_capacity": "0.65"
+          },
+          "character://cal0/i3/trained-reference@1": {
+            "final_functional_adaptation": "0.20538885415437937496692466",
+            "final_reference_capacity": "0.85538885415437937496692466",
+            "functional_envelope": "0.3",
+            "ledgers": {
+              "assimilation": {
+                "events": [],
+                "total": "0"
+              },
+              "class_xp": {
+                "events": [],
+                "total": "0"
+              },
+              "natural_maturation": {
+                "events": [],
+                "total": "0"
+              },
+              "organic_adaptation": {
+                "events": [
+                  {
+                    "gain": "0.02116359137764665876842453441",
+                    "harm": "0",
+                    "headroom": "0.5443310539518173551549520166421340272610412973381",
+                    "opportunity": "0.972",
+                    "week": 1
+                  },
+                  {
+                    "gain": "0.01789485912874916622299221373",
+                    "harm": "0",
+                    "headroom": "0.46025872244725221766955282238494380380871803141351",
+                    "opportunity": "0.972",
+                    "week": 2
+                  },
+                  {
+                    "gain": "0.0152773012178921123984035167",
+                    "harm": "0",
+                    "headroom": "0.39293470210627861107004929778517678028610234617095",
+                    "opportunity": "0.972",
+                    "week": 3
+                  },
+                  {
+                    "gain": "0.01315448445527076044173141804",
+                    "harm": "0",
+                    "headroom": "0.33833550553679939407745416781191793485761287785614",
+                    "opportunity": "0.972",
+                    "week": 4
+                  },
+                  {
+                    "gain": "0.01141343038001656247686125474",
+                    "harm": "0",
+                    "headroom": "0.29355530812799800609211046146504919200344787530647",
+                    "opportunity": "0.972",
+                    "week": 5
+                  },
+                  {
+                    "gain": "0.009971049328932976352477236627",
+                    "harm": "0",
+                    "headroom": "0.25645703006514856873655444000149652442216739603932",
+                    "opportunity": "0.972",
+                    "week": 6
+                  },
+                  {
+                    "gain": "0.008765237753908249190353448626",
+                    "harm": "0",
+                    "headroom": "0.22544335786801052444324713543940990340099534383915",
+                    "opportunity": "0.972",
+                    "week": 7
+                  },
+                  {
+                    "gain": "0.00774890051196288911568103732",
+                    "harm": "0",
+                    "headroom": "0.19930299670686443198768100101848653035130790684815",
+                    "opportunity": "0.972",
+                    "week": 8
+                  }
+                ],
+                "total": "0.10538885415437937496692466"
+              },
+              "purposeful_training": {
+                "events": [
+                  {
+                    "challenge": "0.62",
+                    "fatigue": "0.62",
+                    "week": 1
+                  },
+                  {
+                    "challenge": "0.62",
+                    "fatigue": "0.62",
+                    "week": 2
+                  },
+                  {
+                    "challenge": "0.62",
+                    "fatigue": "0.62",
+                    "week": 3
+                  },
+                  {
+                    "challenge": "0.62",
+                    "fatigue": "0.62",
+                    "week": 4
+                  },
+                  {
+                    "challenge": "0.62",
+                    "fatigue": "0.62",
+                    "week": 5
+                  },
+                  {
+                    "challenge": "0.62",
+                    "fatigue": "0.62",
+                    "week": 6
+                  },
+                  {
+                    "challenge": "0.62",
+                    "fatigue": "0.62",
+                    "week": 7
+                  },
+                  {
+                    "challenge": "0.62",
+                    "fatigue": "0.62",
+                    "week": 8
+                  }
+                ],
+                "total": "4.96"
+              },
+              "reinforcement": {
+                "events": [],
+                "total": "0"
+              },
+              "skill_xp": {
+                "events": [],
+                "total": "0"
+              }
+            },
+            "start_functional_adaptation": "0.1",
+            "start_reference_capacity": "0.65"
+          }
+        },
+        "checks": {
+          "all_training_gains_positive": true,
+          "capacity_envelopes_respected": true,
+          "exceptional_starts_above_ordinary": true,
+          "natural_and_training_ledgers_separate": true,
+          "no_cohort_claim": true
+        }
+      },
+      "passed": true,
+      "scenario_digest": "sha256:875270214d38a053c020bec65b87c1cf2c575290bd5ea031e2a0c6d2ebf68933",
+      "scenario_id": "scenario://cal0/i3/matched-training@1",
+      "title": "Eight-week matched training across ordinary, trained, and exceptional references"
+    },
+    {
+      "canonicality": "REFERENCE_ONLY_NOT_STORY_CANON",
+      "checks": {
+        "fatigue_harm_opportunity_separate": true,
+        "overload_harm_positive": true,
+        "overload_opportunity_lower": true,
+        "productive_opportunity_positive": true
+      },
+      "expected_checks": [
+        "fatigue_harm_opportunity_separate",
+        "overload_harm_positive",
+        "overload_opportunity_lower",
+        "productive_opportunity_positive"
+      ],
+      "narrative_envelopes": [
+        "Excessive challenge produces more harm than productive challenge.",
+        "Risk does not become free progress or a hidden rarity bonus.",
+        "Fatigue and harm remain separate from productive adaptation opportunity."
+      ],
+      "output": {
+        "checks": {
+          "fatigue_harm_opportunity_separate": true,
+          "overload_harm_positive": true,
+          "overload_opportunity_lower": true,
+          "productive_opportunity_positive": true
+        },
+        "ledgers": {
+          "assimilation": {
+            "events": [],
+            "total": "0"
+          },
+          "class_xp": {
+            "events": [],
+            "total": "0"
+          },
+          "natural_maturation": {
+            "events": [],
+            "total": "0"
+          },
+          "organic_adaptation": {
+            "events": [],
+            "total": "0"
+          },
+          "purposeful_training": {
+            "events": [],
+            "total": "0"
+          },
+          "reinforcement": {
+            "events": [],
+            "total": "0"
+          },
+          "skill_xp": {
+            "events": [],
+            "total": "0"
+          }
+        },
+        "overload": {
+          "fatigue": "1.08",
+          "harm": "0.002592",
+          "opportunity": "0.1482915451895043731778425653"
+        },
+        "productive": {
+          "fatigue": "0.62",
+          "harm": "0",
+          "opportunity": "0.972"
+        }
+      },
+      "passed": true,
+      "scenario_digest": "sha256:5694faa58b26eccc74391eae525056caef852db614fbc1505f02f4e5f6b081e0",
+      "scenario_id": "scenario://cal0/i3/overload-harm@1",
+      "title": "Productive training versus excessive load"
+    },
+    {
+      "canonicality": "REFERENCE_ONLY_NOT_STORY_CANON",
+      "checks": {
+        "assimilation_backlog_positive": true,
+        "claim_conserved": true,
+        "directed_load_separate": true,
+        "natural_foundations_monotone": true,
+        "no_story_canon_claim": true,
+        "skill_xp_non_negative": true
+      },
+      "expected_checks": [
+        "assimilation_backlog_positive",
+        "claim_conserved",
+        "directed_load_separate",
+        "natural_foundations_monotone",
+        "no_story_canon_claim",
+        "skill_xp_non_negative"
+      ],
+      "narrative_envelopes": [
+        "The fetus gains bodily foundations and visible stats primarily because its body grows.",
+        "Directed consciousness may earn low, relevant Skill XP without being relabelled as physical maturation.",
+        "An absolute reinforcement claim may exist before full bodily expression; unassimilated value remains backlog.",
+        "The proxy's unusual soul-strength magnitude remains unresolved and no multiplier is inferred."
+      ],
+      "output": {
+        "characters": {
+          "character://cal0/i3/ordinary-reference@1": {
+            "ledgers": {
+              "assimilation": {
+                "events": [],
+                "total": "0"
+              },
+              "class_xp": {
+                "events": [],
+                "total": "0"
+              },
+              "natural_maturation": {
+                "events": [
+                  {
+                    "channel": "physical",
+                    "coordinate": "0.25",
+                    "realised": "0.05",
+                    "target": "0.16"
+                  },
+                  {
+                    "channel": "neural",
+                    "coordinate": "0.25",
+                    "realised": "0.075",
+                    "target": "0.24"
+                  },
+                  {
+                    "channel": "soul",
+                    "coordinate": "0.25",
+                    "realised": "0.1",
+                    "target": "0.32"
+                  },
+                  {
+                    "channel": "physical",
+                    "coordinate": "0.6",
+                    "realised": "0.281875",
+                    "target": "0.58"
+                  },
+                  {
+                    "channel": "neural",
+                    "coordinate": "0.6",
+                    "realised": "0.3396875",
+                    "target": "0.68"
+                  },
+                  {
+                    "channel": "soul",
+                    "coordinate": "0.6",
+                    "realised": "0.37125",
+                    "target": "0.72"
+                  },
+                  {
+                    "channel": "physical",
+                    "coordinate": "1",
+                    "realised": "0.6409375",
+                    "target": "1"
+                  },
+                  {
+                    "channel": "neural",
+                    "coordinate": "1",
+                    "realised": "0.66984375",
+                    "target": "1"
+                  },
+                  {
+                    "channel": "soul",
+                    "coordinate": "1",
+                    "realised": "0.685625",
+                    "target": "1"
+                  }
+                ],
+                "total": "1.99640625"
+              },
+              "organic_adaptation": {
+                "events": [],
+                "total": "0"
+              },
+              "purposeful_training": {
+                "events": [],
+                "total": "0"
+              },
+              "reinforcement": {
+                "events": [],
+                "total": "0"
+              },
+              "skill_xp": {
+                "events": [],
+                "total": "0"
+              }
+            },
+            "stages": [
+              {
+                "capacity": "0.01928119406970248299735281566",
+                "coordinate": "0.25",
+                "foundations": {
+                  "neural": "0.075",
+                  "physical": "0.05",
+                  "soul": "0.1"
+                }
+              },
+              {
+                "capacity": "0.2086426903933118260307284417",
+                "coordinate": "0.6",
+                "foundations": {
+                  "neural": "0.3396875",
+                  "physical": "0.281875",
+                  "soul": "0.37125"
+                }
+              },
+              {
+                "capacity": "0.6538194413559220151322726393",
+                "coordinate": "1",
+                "foundations": {
+                  "neural": "0.66984375",
+                  "physical": "0.6409375",
+                  "soul": "0.685625"
+                }
+              }
+            ]
+          },
+          "character://cal0/i3/protagonist-proxy@1": {
+            "ledgers": {
+              "assimilation": {
+                "backlog": "0.001125",
+                "events": [
+                  {
+                    "Coherence": {
+                      "assimilated": "0.0001125",
+                      "backlog": "0.0003375",
+                      "claim": "0.00045",
+                      "new_index": "1.3765106456181745005023214361227546417444516805751",
+                      "new_reference": "0.1001125",
+                      "start": "0.1"
+                    },
+                    "Focus": {
+                      "assimilated": "0.00020625",
+                      "backlog": "0.00061875",
+                      "claim": "0.000825",
+                      "new_index": "1.11306800762215138706722169373937602703830195853",
+                      "new_reference": "0.08020625",
+                      "start": "0.08"
+                    },
+                    "Perception": {
+                      "assimilated": "0.00005625",
+                      "backlog": "0.00016875",
+                      "claim": "0.000225",
+                      "new_index": "1.6357118724562158498924425901653026686870937988518",
+                      "new_reference": "0.12005625",
+                      "start": "0.12"
+                    }
+                  }
+                ],
+                "total": "0.000375"
+              },
+              "class_xp": {
+                "events": [],
+                "total": "0"
+              },
+              "natural_maturation": {
+                "events": [
+                  {
+                    "channel": "physical",
+                    "coordinate": "0.25",
+                    "realised": "0.05",
+                    "target": "0.16"
+                  },
+                  {
+                    "channel": "neural",
+                    "coordinate": "0.25",
+                    "realised": "0.075",
+                    "target": "0.24"
+                  },
+                  {
+                    "channel": "soul",
+                    "coordinate": "0.25",
+                    "realised": "0.1",
+                    "target": "0.32"
+                  },
+                  {
+                    "channel": "physical",
+                    "coordinate": "0.6",
+                    "realised": "0.281875",
+                    "target": "0.58"
+                  },
+                  {
+                    "channel": "neural",
+                    "coordinate": "0.6",
+                    "realised": "0.3396875",
+                    "target": "0.68"
+                  },
+                  {
+                    "channel": "soul",
+                    "coordinate": "0.6",
+                    "realised": "0.37125",
+                    "target": "0.72"
+                  },
+                  {
+                    "channel": "physical",
+                    "coordinate": "1",
+                    "realised": "0.6409375",
+                    "target": "1"
+                  },
+                  {
+                    "channel": "neural",
+                    "coordinate": "1",
+                    "realised": "0.66984375",
+                    "target": "1"
+                  },
+                  {
+                    "channel": "soul",
+                    "coordinate": "1",
+                    "realised": "0.685625",
+                    "target": "1"
+                  }
+                ],
+                "total": "1.99640625"
+              },
+              "organic_adaptation": {
+                "events": [
+                  {
+                    "fatigue": "0.18",
+                    "harm": "0",
+                    "opportunity": "0.01603125"
+                  }
+                ],
+                "total": "0.00007695"
+              },
+              "purposeful_training": {
+                "events": [
+                  {
+                    "conscious_fraction": "0.12",
+                    "load": "0.18",
+                    "practice": "directed_attention"
+                  }
+                ],
+                "total": "0.0216"
+              },
+              "reinforcement": {
+                "events": [
+                  {
+                    "budget": "0.0015",
+                    "claim_id": "sha256:2b36df26acb7c3d8fe39d5c8bbca6b056178c37bf7f89fcc82306ea5af9977e6"
+                  }
+                ],
+                "total": "0.0015"
+              },
+              "skill_xp": {
+                "events": [
+                  {
+                    "skill": "Directed Attention",
+                    "xp": "0.216"
+                  }
+                ],
+                "total": "0.216"
+              }
+            },
+            "stages": [
+              {
+                "capacity": "0.01928119406970248299735281566",
+                "coordinate": "0.25",
+                "foundations": {
+                  "neural": "0.075",
+                  "physical": "0.05",
+                  "soul": "0.1"
+                }
+              },
+              {
+                "capacity": "0.2086426903933118260307284417",
+                "coordinate": "0.6",
+                "foundations": {
+                  "neural": "0.3396875",
+                  "physical": "0.281875",
+                  "soul": "0.37125"
+                }
+              },
+              {
+                "capacity": "0.6538194413559220151322726393",
+                "coordinate": "1",
+                "foundations": {
+                  "neural": "0.66984375",
+                  "physical": "0.6409375",
+                  "soul": "0.685625"
+                }
+              }
+            ]
+          }
+        },
+        "checks": {
+          "assimilation_backlog_positive": true,
+          "claim_conserved": true,
+          "directed_load_separate": true,
+          "natural_foundations_monotone": true,
+          "no_story_canon_claim": true,
+          "skill_xp_non_negative": true
+        }
+      },
+      "passed": true,
+      "scenario_digest": "sha256:ababfbf6f2cb50434e6d2f4903b07e1b318536f50eeeca89b54964f7b58b21d7",
+      "scenario_id": "scenario://cal0/i3/prenatal-maturation@1",
+      "title": "Prenatal natural growth with separately recorded directed consciousness"
+    },
+    {
+      "canonicality": "REFERENCE_ONLY_NOT_STORY_CANON",
+      "checks": {
+        "blocked_xp_cannot_cascade": true,
+        "claim_budget_recipient_independent": true,
+        "claim_conserved": true,
+        "fetal_backlog_exceeds_adult_backlog": true,
+        "skill_and_class_curves_distinct": true
+      },
+      "expected_checks": [
+        "blocked_xp_cannot_cascade",
+        "claim_budget_recipient_independent",
+        "claim_conserved",
+        "fetal_backlog_exceeds_adult_backlog",
+        "skill_and_class_curves_distinct"
+      ],
+      "narrative_envelopes": [
+        "Skill XP and class XP have distinct threshold curves and cannot pay one another's costs.",
+        "Rarity does not change XP requirements.",
+        "One completed level creates the same absolute claim for fetal and adult recipients.",
+        "Life stage changes current expression throughput, not claim size; backlog is conserved."
+      ],
+      "output": {
+        "checks": {
+          "blocked_xp_cannot_cascade": true,
+          "claim_budget_recipient_independent": true,
+          "claim_conserved": true,
+          "fetal_backlog_exceeds_adult_backlog": true,
+          "skill_and_class_curves_distinct": true
+        },
+        "class_claim_budget": "0.006",
+        "class_curve": [
+          "2.542567580320957743880094155",
+          "9.165960831934249796180845113",
+          "19.40648256110937944307938292"
+        ],
+        "ledgers": {
+          "assimilation": {
+            "events": [
+              {
+                "adult_backlog": "0.000225",
+                "fetal_backlog": "0.001125"
+              }
+            ],
+            "total": "0.000375"
+          },
+          "class_xp": {
+            "events": [
+              {
+                "thresholds": [
+                  "2.542567580320957743880094155",
+                  "9.165960831934249796180845113",
+                  "19.40648256110937944307938292"
+                ]
+              }
+            ],
+            "total": "2.542567580320957743880094155"
+          },
+          "natural_maturation": {
+            "events": [],
+            "total": "0"
+          },
+          "organic_adaptation": {
+            "events": [],
+            "total": "0"
+          },
+          "purposeful_training": {
+            "events": [],
+            "total": "0"
+          },
+          "reinforcement": {
+            "events": [
+              {
+                "skill_claim": "sha256:6acd493f20816cdfe225a4c941ad4e8a386038ad0d5b6d3fc138bb2f77d6a289"
+              },
+              {
+                "class_claim": "sha256:3c3010d3e25265726836f567a8deb802b92b2c7684eb2b1e3aa9214288c0fc7a"
+              }
+            ],
+            "total": "0.0075"
+          },
+          "skill_xp": {
+            "events": [
+              {
+                "blocked_credit": "0.1",
+                "cap": "4.238944350869964670977135957",
+                "thresholds": [
+                  "1.995262314968879601352455397",
+                  "6.482626386771049740601816518",
+                  "12.91534860749802672257598894"
+                ]
+              }
+            ],
+            "total": "3.217103332919422136164795677"
+          }
+        },
+        "skill_curve": [
+          "1.995262314968879601352455397",
+          "6.482626386771049740601816518",
+          "12.91534860749802672257598894"
+        ]
+      },
+      "passed": true,
+      "scenario_digest": "sha256:e7be31ebfd6367849affaf0fffb2088717659493cffeb789059887534891ef6d",
+      "scenario_id": "scenario://cal0/i3/progression-and-reinforcement@1",
+      "title": "Separate Skill XP, class XP, absolute reinforcement, and life-stage assimilation"
+    },
+    {
+      "canonicality": "REFERENCE_ONLY_NOT_STORY_CANON",
+      "checks": {
+        "failed_minimum_rejected": true,
+        "failed_transition_preserves_envelope": true,
+        "recovery_incomplete_not_committed": true,
+        "successful_transition_atomic": true
+      },
+      "expected_checks": [
+        "failed_minimum_rejected",
+        "failed_transition_preserves_envelope",
+        "recovery_incomplete_not_committed",
+        "successful_transition_atomic"
+      ],
+      "narrative_envelopes": [
+        "A missing structure or failed non-compensable minimum blocks the transition.",
+        "Passing latent checks without completed recovery remains provisional.",
+        "The envelope changes only after complete validation and one atomic commit."
+      ],
+      "output": {
+        "checks": {
+          "failed_minimum_rejected": true,
+          "failed_transition_preserves_envelope": true,
+          "recovery_incomplete_not_committed": true,
+          "successful_transition_atomic": true
+        },
+        "failed": {
+          "cause": "non_compensable_minimum",
+          "committed": false,
+          "failed": [
+            "readiness"
+          ],
+          "status": "rejected"
+        },
+        "failed_commit": {
+          "committed": false,
+          "envelope": "0.76",
+          "realised": "0.04"
+        },
+        "ledgers": {
+          "assimilation": {
+            "events": [],
+            "total": "0"
+          },
+          "class_xp": {
+            "events": [],
+            "total": "0"
+          },
+          "natural_maturation": {
+            "events": [],
+            "total": "0"
+          },
+          "organic_adaptation": {
+            "events": [],
+            "total": "0"
+          },
+          "purposeful_training": {
+            "events": [],
+            "total": "0"
+          },
+          "reinforcement": {
+            "events": [],
+            "total": "0"
+          },
+          "skill_xp": {
+            "events": [],
+            "total": "0"
+          }
+        },
+        "provisional": {
+          "cause": null,
+          "committed": false,
+          "status": "provisional"
+        },
+        "successful": {
+          "cause": null,
+          "committed": true,
+          "status": "successful"
+        },
+        "successful_commit": {
+          "committed": true,
+          "envelope": "0.8208",
+          "realised": "0.04"
+        }
+      },
+      "passed": true,
+      "scenario_digest": "sha256:64d0d65ddf6a91548a081a6b9fb922c84a7f225342ca99f1ff2d7c3b15f470db",
+      "scenario_id": "scenario://cal0/i3/structural-transition@1",
+      "title": "Constraint-first structural transition with atomic recovery-gated commit"
+    }
+  ],
+  "scenario_count": 5,
+  "scenario_suite_id": "scenario-suite://cal0/i3-reference@1"
+}

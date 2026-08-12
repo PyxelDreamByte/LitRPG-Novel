@@ -1,0 +1,11 @@
+{
+  "fixture_suite_id": "fixture-suite://cal0/i3-parameter-boundaries@1",
+  "cases": [
+    {"case_id": "i3-missing-binding", "mutation": {"operation": "remove_i3_binding", "parameter_id": "parameter://cal0/adaptation/peak@1"}, "expected_codes": ["I3_BINDING_CLOSURE", "I3_HORMETIC_ORDER"]},
+    {"case_id": "i3-value-out-of-domain", "mutation": {"operation": "i3_value_out_of_domain", "parameter_id": "parameter://cal0/reinforcement/fetal-assimilation@1", "value": "1.5"}, "expected_codes": ["I3_VALUE_OUT_OF_DOMAIN"]},
+    {"case_id": "i3-unbounded-distribution", "mutation": {"operation": "i3_distribution_unbounded"}, "expected_codes": ["I3_DISTRIBUTION_BOUNDS"]},
+    {"case_id": "i3-infeasible-dependence", "mutation": {"operation": "i3_dependence_non_psd", "correlation": "1.20"}, "expected_codes": ["I3_DEPENDENCE_NOT_PSD"]},
+    {"case_id": "i3-unresolved-conceals-value", "mutation": {"operation": "i3_unresolved_contains_value", "value": "1"}, "expected_codes": ["I3_VALUE_STATE_CONFLICT"]},
+    {"case_id": "i3-scenario-unknown-character", "mutation": {"operation": "i3_unknown_character"}, "expected_codes": ["I3_SCENARIO_UNKNOWN_CHARACTER"]}
+  ]
+}

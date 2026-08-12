@@ -1,0 +1,26 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "schema://cal0/parameter-record-type@1",
+  "title": "CAL0 parameter record type",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["record_type", "record_id", "schema_id", "purpose", "required_fields"],
+  "properties": {
+    "record_type": {
+      "enum": [
+        "parameter_definition",
+        "value_binding",
+        "function_definition",
+        "distribution_definition",
+        "constraint_definition",
+        "observable_definition",
+        "parameter_set",
+        "run_manifest"
+      ]
+    },
+    "record_id": {"type": "string", "pattern": "^record-type://cal0/[a-z-]+@1$"},
+    "schema_id": {"const": "schema://cal0/parameter-record-type@1"},
+    "purpose": {"type": "string", "minLength": 1},
+    "required_fields": {"type": "array", "items": {"type": "string"}, "minItems": 1, "uniqueItems": true}
+  }
+}

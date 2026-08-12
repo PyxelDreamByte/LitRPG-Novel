@@ -1,0 +1,79 @@
+{
+  "registry_id": "registry://cal0/schemas@4",
+  "version": "4",
+  "lifecycle": "ACTIVE",
+  "entries": [
+    {
+      "name": "model-family",
+      "schema_id": "schema://cal0/model-family@1",
+      "source": "schemas/model-family.schema.json",
+      "protected_facets": ["identity", "meaning", "lifecycle", "parameters", "provenance"]
+    },
+    {
+      "name": "canonical-primitive",
+      "schema_id": "schema://cal0/canonical-primitive@1",
+      "source": "schemas/canonical-primitive.schema.json",
+      "protected_facets": ["identity", "domain", "canonical_rule", "rejection_boundary"]
+    },
+    {
+      "name": "parameter-record-type",
+      "schema_id": "schema://cal0/parameter-record-type@1",
+      "source": "schemas/parameter-record-type.schema.json",
+      "protected_facets": ["identity", "meaning", "required_fields"]
+    },
+    {
+      "name": "unresolved-value",
+      "schema_id": "schema://cal0/unresolved-value@1",
+      "source": "schemas/unresolved-value.schema.json",
+      "protected_facets": ["state", "reason", "resolution_stage", "provenance"]
+    },
+    {
+      "name": "registry-envelope",
+      "schema_id": "schema://cal0/registry-envelope@1",
+      "source": "schemas/registry-envelope.schema.json",
+      "protected_facets": ["identity", "version", "lifecycle", "membership"]
+    },
+    {
+      "name": "version-manifest",
+      "schema_id": "schema://cal0/version-manifest@6",
+      "source": "schemas/version-manifest.schema.json",
+      "protected_facets": ["bundle", "versions", "environment", "artifact_digests"]
+    },
+    {
+      "name": "i3-parameter-registry",
+      "schema_id": "schema://cal0/i3-parameter-registry@1",
+      "source": "schemas/cal0-i3-parameter-registry.schema.json",
+      "protected_facets": ["identity", "definitions", "bindings", "distributions", "dependence", "constraints", "parameter_sets", "provenance"]
+    },
+    {
+      "name": "i3-reference-scenarios",
+      "schema_id": "schema://cal0/i3-reference-scenarios@1",
+      "source": "schemas/cal0-i3-reference-scenarios.schema.json",
+      "protected_facets": ["identity", "characters", "scenario_inputs", "causal_ledgers", "narrative_envelopes", "provenance"]
+    },
+    {
+      "name": "i4-cohort-plan",
+      "schema_id": "schema://cal0/i4-cohort-plan@1",
+      "source": "schemas/cal0-i4-cohort-plan.schema.json",
+      "protected_facets": ["identity", "cohort_size", "seeds", "environments", "trial_inputs", "iterations", "envelopes", "comparisons", "sensitivity"]
+    },
+    {
+      "name": "i4-parameter-assessment",
+      "schema_id": "schema://cal0/i4-parameter-assessment@1",
+      "source": "schemas/cal0-i4-parameter-assessment.schema.json",
+      "protected_facets": ["identity", "parentage", "overrides", "sensitivity", "identifiability", "unresolved_lineage", "provenance"]
+    },
+    {
+      "name": "i7-character-sheet",
+      "schema_id": "schema://cal0/i7-character-sheet@1",
+      "source": "schemas/cal0-i7-character-sheet.schema.json",
+      "protected_facets": ["identity", "attributes", "resources", "progression", "conditions", "epistemic_access", "causal_ledgers", "digest"]
+    },
+    {
+      "name": "i7-sheet-projection",
+      "schema_id": "schema://cal0/i7-sheet-projection@1",
+      "source": "schemas/cal0-i7-sheet-projection.schema.json",
+      "protected_facets": ["source_sheet", "view_kind", "required_fields", "epistemic_boundary", "digest"]
+    }
+  ]
+}

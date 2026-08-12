@@ -1,0 +1,44 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "schema://cal0/model-family@1",
+  "title": "CAL0 selected model family",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "decision_id",
+    "selection_id",
+    "model_id",
+    "title",
+    "mechanism_type",
+    "schema_id",
+    "lifecycle",
+    "parameters",
+    "source"
+  ],
+  "properties": {
+    "decision_id": {"type": "string", "pattern": "^CAL0-Q([1-9]|[1-5][0-9]|6[0-6])$"},
+    "selection_id": {"type": "string", "pattern": "^CAL0-Q([1-9]|[1-5][0-9]|6[0-6])[ABC]$"},
+    "model_id": {"type": "string", "pattern": "^model://cal0/q[0-9]+-[a-z0-9-]+@1$"},
+    "title": {"type": "string", "minLength": 1},
+    "mechanism_type": {
+      "enum": [
+        "numerical_topology",
+        "transition_composition",
+        "evidence_versioning",
+        "semantic_proof_governance",
+        "convergence_appeal_concurrency"
+      ]
+    },
+    "schema_id": {"const": "schema://cal0/model-family@1"},
+    "lifecycle": {"const": "ACTIVE"},
+    "parameters": {"$ref": "schema://cal0/unresolved-value@1"},
+    "source": {
+      "type": "object",
+      "required": ["artifact", "section"],
+      "properties": {
+        "artifact": {"const": "litrpg-system-calibration-annex.md"},
+        "section": {"type": "string", "pattern": "^CAL0-Q[0-9]+[ABC]$"}
+      }
+    }
+  }
+}

@@ -1,0 +1,3 @@
+[agents]
+# Permit one three-specialist council wave alongside the primary orchestrator.
+max_concurrent_threads_per_session = 3

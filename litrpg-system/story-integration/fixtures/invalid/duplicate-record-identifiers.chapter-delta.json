@@ -1,0 +1,73 @@
+{
+  "schema_version": "1.0.0",
+  "delta_id": "delta://fixture/duplicate-identifiers/001",
+  "chapter_id": "chapter://fixture/duplicate-identifiers/001",
+  "base_snapshot_ids": [],
+  "status": "DRAFT",
+  "events": [
+    {
+      "schema_version": "1.0.0",
+      "event_id": "event://fixture/duplicate-identifiers/001/0001",
+      "chapter_id": "chapter://fixture/duplicate-identifiers/001",
+      "sequence": 1,
+      "event_type": "STATE_TRANSITION",
+      "summary": "A fixture event supports two accidentally duplicated records.",
+      "participants": ["character://fixture/protagonist"],
+      "viewpoint_access": []
+    }
+  ],
+  "character_changes": [
+    {
+      "change_id": "change://fixture/duplicate-identifiers/shared",
+      "character_id": "character://fixture/protagonist",
+      "path": "resources.attention.current",
+      "operation": "ADD",
+      "value_type": "EXACT_DECIMAL",
+      "before": "0",
+      "after": "0.1",
+      "source_event_ids": ["event://fixture/duplicate-identifiers/001/0001"]
+    },
+    {
+      "change_id": "change://fixture/duplicate-identifiers/shared",
+      "character_id": "character://fixture/protagonist",
+      "path": "resources.attention.current",
+      "operation": "ADD",
+      "value_type": "EXACT_DECIMAL",
+      "before": "0",
+      "after": "0.1",
+      "source_event_ids": ["event://fixture/duplicate-identifiers/001/0001"]
+    }
+  ],
+  "progression_events": [],
+  "thread_changes": [],
+  "canon_proposals": [
+    {
+      "schema_version": "1.0.0",
+      "proposal_id": "canon-proposal://fixture/duplicate-identifiers/shared",
+      "chapter_id": "chapter://fixture/duplicate-identifiers/001",
+      "classification": "LOCAL_COLOUR",
+      "scope": "fixture",
+      "statement": "A local detail.",
+      "source_event_ids": ["event://fixture/duplicate-identifiers/001/0001"],
+      "status": "PROPOSED",
+      "required_review": "CHAPTER_ACCEPTANCE"
+    },
+    {
+      "schema_version": "1.0.0",
+      "proposal_id": "canon-proposal://fixture/duplicate-identifiers/shared",
+      "chapter_id": "chapter://fixture/duplicate-identifiers/001",
+      "classification": "LOCAL_COLOUR",
+      "scope": "fixture",
+      "statement": "Another local detail.",
+      "source_event_ids": ["event://fixture/duplicate-identifiers/001/0001"],
+      "status": "PROPOSED",
+      "required_review": "CHAPTER_ACCEPTANCE"
+    }
+  ],
+  "review": {
+    "blocking_findings": [],
+    "major_findings": [],
+    "minor_findings": [],
+    "optional_findings": []
+  }
+}

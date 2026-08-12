@@ -1,0 +1,105 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://pyxeldreambyte.github.io/LitRPG-Novel/schemas/story-common.schema.json",
+  "title": "Story integration common definitions",
+  "$defs": {
+    "identifier": {
+      "type": "string",
+      "minLength": 3,
+      "pattern": "^[a-z][a-z0-9-]*://[^\\s]+$"
+    },
+    "exactDecimal": {
+      "type": "string",
+      "pattern": "^-?(0|[1-9][0-9]*)(\\.[0-9]+)?$"
+    },
+    "nonNegativeDecimal": {
+      "type": "string",
+      "pattern": "^(0|[1-9][0-9]*)(\\.[0-9]+)?$"
+    },
+    "decisionReference": {
+      "type": "string",
+      "pattern": "^[A-Z][A-Z0-9]*(\\.[0-9]+)*([A-Z]|\\.[0-9]+[A-Z])(\\+[A-Z])?$"
+    },
+    "projection": {
+      "type": "string",
+      "enum": [
+        "PRIVATE_BACKEND",
+        "AUTHOR_FACING",
+        "CHARACTER_ACCESSIBLE",
+        "APPRAISAL_DERIVED",
+        "INSTITUTIONAL",
+        "READER_FACING"
+      ]
+    },
+    "sourceReference": {
+      "type": "object",
+      "required": ["source_id", "source_type"],
+      "properties": {
+        "source_id": {"type": "string", "minLength": 1},
+        "source_type": {
+          "type": "string",
+          "enum": [
+            "CHAPTER_EVENT",
+            "CAL0_DECISION",
+            "CANON_ENTRY",
+            "PRIOR_DELTA",
+            "OBSERVATION",
+            "AUTHOR_DECISION"
+          ]
+        },
+        "source_path": {"type": "string", "minLength": 1},
+        "projection": {"$ref": "#/$defs/projection"}
+      },
+      "additionalProperties": false
+    },
+    "provenance": {
+      "type": "object",
+      "required": [
+        "provenance_id",
+        "source_event_ids",
+        "mechanism_decision_refs",
+        "reward_claim_id"
+      ],
+      "properties": {
+        "provenance_id": {"$ref": "#/$defs/identifier"},
+        "source_event_ids": {
+          "type": "array",
+          "minItems": 1,
+          "uniqueItems": true,
+          "items": {"$ref": "#/$defs/identifier"}
+        },
+        "mechanism_decision_refs": {
+          "type": "array",
+          "minItems": 1,
+          "uniqueItems": true,
+          "items": {"$ref": "#/$defs/decisionReference"}
+        },
+        "reward_claim_id": {"$ref": "#/$defs/identifier"},
+        "attribution_share": {"$ref": "#/$defs/nonNegativeDecimal"},
+        "notes": {"type": "string"}
+      },
+      "additionalProperties": false
+    },
+    "authorApproval": {
+      "type": "object",
+      "required": ["decision_id", "decided_by", "decision", "decided_at", "evidence"],
+      "properties": {
+        "decision_id": {"$ref": "#/$defs/identifier"},
+        "decided_by": {"const": "AUTHOR"},
+        "decision": {"enum": ["ACCEPT", "REJECT", "REVISE"]},
+        "decided_at": {
+          "type": "string",
+          "pattern": "^[0-9]{4}-[0-9]{2}-[0-9]{2}T[0-9]{2}:[0-9]{2}:[0-9]{2}(Z|[+-][0-9]{2}:[0-9]{2})$"
+        },
+        "evidence": {
+          "type": "array",
+          "minItems": 1,
+          "uniqueItems": true,
+          "items": {"type": "string", "minLength": 1}
+        },
+        "notes": {"type": "string"}
+      },
+      "additionalProperties": false
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "schema://cal0/registry-envelope@1",
+  "title": "Versioned CAL0 registry envelope",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["registry_id", "version", "lifecycle", "entries"],
+  "properties": {
+    "registry_id": {"type": "string", "pattern": "^registry://cal0/[a-z0-9-]+@1$"},
+    "version": {"const": "1"},
+    "lifecycle": {"const": "ACTIVE"},
+    "entries": {"type": "array"}
+  }
+}

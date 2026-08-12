@@ -1,0 +1,85 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://pyxeldreambyte.github.io/LitRPG-Novel/schemas/chapter-event.schema.json",
+  "title": "Causal chapter event",
+  "type": "object",
+  "required": [
+    "schema_version",
+    "event_id",
+    "chapter_id",
+    "sequence",
+    "event_type",
+    "summary",
+    "participants",
+    "viewpoint_access"
+  ],
+  "properties": {
+    "schema_version": {"const": "1.0.0"},
+    "event_id": {"$ref": "story-common.schema.json#/$defs/identifier"},
+    "chapter_id": {"$ref": "story-common.schema.json#/$defs/identifier"},
+    "sequence": {"type": "integer", "minimum": 1},
+    "event_type": {
+      "enum": [
+        "ACTION",
+        "OBSERVATION",
+        "DIALOGUE",
+        "DISCOVERY",
+        "SYSTEM_INTERACTION",
+        "STATE_TRANSITION",
+        "TIME_TRANSITION"
+      ]
+    },
+    "summary": {"type": "string", "minLength": 1},
+    "participants": {
+      "type": "array",
+      "uniqueItems": true,
+      "items": {"$ref": "story-common.schema.json#/$defs/identifier"}
+    },
+    "witnesses": {
+      "type": "array",
+      "uniqueItems": true,
+      "items": {"$ref": "story-common.schema.json#/$defs/identifier"}
+    },
+    "time": {
+      "type": "object",
+      "required": ["label", "certainty"],
+      "properties": {
+        "label": {"type": "string", "minLength": 1},
+        "certainty": {"enum": ["EXACT", "BOUNDED", "RELATIVE", "UNKNOWN"]}
+      },
+      "additionalProperties": false
+    },
+    "location": {
+      "type": "object",
+      "properties": {
+        "before": {"$ref": "story-common.schema.json#/$defs/identifier"},
+        "after": {"$ref": "story-common.schema.json#/$defs/identifier"}
+      },
+      "additionalProperties": false
+    },
+    "viewpoint_access": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["character_id", "access", "basis"],
+        "properties": {
+          "character_id": {"$ref": "story-common.schema.json#/$defs/identifier"},
+          "access": {"enum": ["DIRECT", "INFERRED", "REPORTED", "NONE"]},
+          "basis": {"type": "string", "minLength": 1}
+        },
+        "additionalProperties": false
+      }
+    },
+    "source_refs": {
+      "type": "array",
+      "items": {"$ref": "story-common.schema.json#/$defs/sourceReference"}
+    },
+    "tags": {
+      "type": "array",
+      "uniqueItems": true,
+      "items": {"type": "string", "minLength": 1}
+    }
+  },
+  "additionalProperties": false
+}
+

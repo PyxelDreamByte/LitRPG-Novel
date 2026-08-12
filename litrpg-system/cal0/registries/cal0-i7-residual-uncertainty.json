@@ -1,0 +1,3393 @@
+{
+  "registry_id": "residual-registry://cal0/i7-closure@1",
+  "closure_status": "VALIDATED_BASELINE_WITH_BOUNDED_RESIDUALS",
+  "allowed_classifications": [
+    "CALIBRATION",
+    "SETTING_CONTENT",
+    "CHARACTER_CHOICE",
+    "PLOT_CHOICE",
+    "IMPLEMENTATION",
+    "FUTURE_OPTIONAL_EXTENSION"
+  ],
+  "classification_definitions": {
+    "CALIBRATION": "A coefficient, distribution, threshold, tolerance, or quantitative model must be pinned for a named scope before that scope is claimed.",
+    "SETTING_CONTENT": "The world must author a contingent fact; the System architecture does not determine it.",
+    "CHARACTER_CHOICE": "A person must choose within causal possibilities; no universal outcome should be specified.",
+    "PLOT_CHOICE": "A later narrative event must select among valid possibilities without changing the System rule.",
+    "IMPLEMENTATION": "A schema, algorithm, policy, witness, or optimisation is required only when a future implementation exercises that branch.",
+    "FUTURE_OPTIONAL_EXTENSION": "The current baseline excludes this scope and does not depend upon it."
+  },
+  "group_count": 71,
+  "item_count": 305,
+  "blocking_group_count": 0,
+  "blocking_item_count": 0,
+  "group_classification_counts": {
+    "CALIBRATION": 19,
+    "SETTING_CONTENT": 3,
+    "CHARACTER_CHOICE": 0,
+    "PLOT_CHOICE": 0,
+    "IMPLEMENTATION": 48,
+    "FUTURE_OPTIONAL_EXTENSION": 1
+  },
+  "item_classification_counts": {
+    "CALIBRATION": 109,
+    "SETTING_CONTENT": 3,
+    "CHARACTER_CHOICE": 0,
+    "PLOT_CHOICE": 0,
+    "IMPLEMENTATION": 192,
+    "FUTURE_OPTIONAL_EXTENSION": 1
+  },
+  "groups": [
+    {
+      "residual_group_id": "residual-group://cal0/i7/cal0-q1b@1",
+      "source_selection_id": "CAL0-Q1B",
+      "classification": "CALIBRATION",
+      "owner": "Calibration parameter-set authors",
+      "closure_disposition": "BOUNDED_NONBLOCKING",
+      "boundary": "The active reference parameter set pins every value it executes. This residual becomes mandatory only when a successor set exercises the wider mechanism or makes a stronger quantitative claim.",
+      "activation_condition": "A successor manifest expands the active reference scope or claims the unresolved surface.",
+      "item_count": 7,
+      "items": [
+        {
+          "item_id": "residual://cal0/i7/cal0-q1b/01@1",
+          "text": "component inventory and cross-attribute mapping;",
+          "classification": "CALIBRATION",
+          "owner": "Calibration parameter-set authors",
+          "blocking": false
+        },
+        {
+          "item_id": "residual://cal0/i7/cal0-q1b/02@1",
+          "text": "milestone locations and anchor values for each developmental component;",
+          "classification": "CALIBRATION",
+          "owner": "Calibration parameter-set authors",
+          "blocking": false
+        },
+        {
+          "item_id": "residual://cal0/i7/cal0-q1b/03@1",
+          "text": "inherited endowment distributions and correlations;",
+          "classification": "CALIBRATION",
+          "owner": "Calibration parameter-set authors",
+          "blocking": false
+        },
+        {
+          "item_id": "residual://cal0/i7/cal0-q1b/04@1",
+          "text": "support, deprivation, disease, injury, catch-up, rehabilitation, and ageing functions;",
+          "classification": "CALIBRATION",
+          "owner": "Calibration parameter-set authors",
+          "blocking": false
+        },
+        {
+          "item_id": "residual://cal0/i7/cal0-q1b/05@1",
+          "text": "structural gates, aggregation weights, bottleneck exponents, and species scales;",
+          "classification": "CALIBRATION",
+          "owner": "Calibration parameter-set authors",
+          "blocking": false
+        },
+        {
+          "item_id": "residual://cal0/i7/cal0-q1b/06@1",
+          "text": "prenatal maternal–fetal resource coupling and recovery constraints;",
+          "classification": "CALIBRATION",
+          "owner": "Calibration parameter-set authors",
+          "blocking": false
+        },
+        {
+          "item_id": "residual://cal0/i7/cal0-q1b/07@1",
+          "text": "ordinary and exceptional variation envelopes.",
+          "classification": "CALIBRATION",
+          "owner": "Calibration parameter-set authors",
+          "blocking": false
+        }
+      ],
+      "evidence": [
+        "canonical/litrpg-system-calibration-annex.md",
+        "registries/cal0-i3-parameters.json",
+        "manifests/cal0-i7.bundle.json"
+      ]
+    },
+    {
+      "residual_group_id": "residual-group://cal0/i7/cal0-q4b@1",
+      "source_selection_id": "CAL0-Q4B",
+      "classification": "CALIBRATION",
+      "owner": "Calibration parameter-set authors",
+      "closure_disposition": "BOUNDED_NONBLOCKING",
+      "boundary": "The active reference parameter set pins every value it executes. This residual becomes mandatory only when a successor set exercises the wider mechanism or makes a stronger quantitative claim.",
+      "activation_condition": "A successor manifest expands the active reference scope or claims the unresolved surface.",
+      "item_count": 5,
+      "items": [
+        {
+          "item_id": "residual://cal0/i7/cal0-q4b/01@1",
+          "text": "species baseline event timings, coordinate values, and chronological-time interpolation;",
+          "classification": "CALIBRATION",
+          "owner": "Calibration parameter-set authors",
+          "blocking": false
+        },
+        {
+          "item_id": "residual://cal0/i7/cal0-q4b/02@1",
+          "text": "the canonical milestone vocabulary and which components require distinct prenatal anchors;",
+          "classification": "CALIBRATION",
+          "owner": "Calibration parameter-set authors",
+          "blocking": false
+        },
+        {
+          "item_id": "residual://cal0/i7/cal0-q4b/03@1",
+          "text": "anchor timings, target values, turning points, and boundary policies;",
+          "classification": "CALIBRATION",
+          "owner": "Calibration parameter-set authors",
+          "blocking": false
+        },
+        {
+          "item_id": "residual://cal0/i7/cal0-q4b/04@1",
+          "text": "allowed individual timing variation and cross-component synchronisation;",
+          "classification": "CALIBRATION",
+          "owner": "Calibration parameter-set authors",
+          "blocking": false
+        },
+        {
+          "item_id": "residual://cal0/i7/cal0-q4b/05@1",
+          "text": "which anchor changes are ordinary calibration versus transformation or injury events.",
+          "classification": "CALIBRATION",
+          "owner": "Calibration parameter-set authors",
+          "blocking": false
+        }
+      ],
+      "evidence": [
+        "canonical/litrpg-system-calibration-annex.md",
+        "registries/cal0-i3-parameters.json",
+        "manifests/cal0-i7.bundle.json"
+      ]
+    },
+    {
+      "residual_group_id": "residual-group://cal0/i7/cal0-q7b@1",
+      "source_selection_id": "CAL0-Q7B",
+      "classification": "CALIBRATION",
+      "owner": "Calibration parameter-set authors",
+      "closure_disposition": "BOUNDED_NONBLOCKING",
+      "boundary": "The active reference parameter set pins every value it executes. This residual becomes mandatory only when a successor set exercises the wider mechanism or makes a stronger quantitative claim.",
+      "activation_condition": "A successor manifest expands the active reference scope or claims the unresolved surface.",
+      "item_count": 6,
+      "items": [
+        {
+          "item_id": "residual://cal0/i7/cal0-q7b/01@1",
+          "text": "the canonical event vocabulary and coordinate values for the human reference programme;",
+          "classification": "CALIBRATION",
+          "owner": "Calibration parameter-set authors",
+          "blocking": false
+        },
+        {
+          "item_id": "residual://cal0/i7/cal0-q7b/02@1",
+          "text": "component-specific advance, lag, synchronisation, and prerequisite bounds;",
+          "classification": "CALIBRATION",
+          "owner": "Calibration parameter-set authors",
+          "blocking": false
+        },
+        {
+          "item_id": "residual://cal0/i7/cal0-q7b/03@1",
+          "text": "correlated inherited timing distributions and their separation from environmental timing effects;",
+          "classification": "CALIBRATION",
+          "owner": "Calibration parameter-set authors",
+          "blocking": false
+        },
+        {
+          "item_id": "residual://cal0/i7/cal0-q7b/04@1",
+          "text": "(Z^+), (Z^-), \\(\\eta^+\\), \\(\\eta^-\\), and resynchronisation functions;",
+          "classification": "CALIBRATION",
+          "owner": "Calibration parameter-set authors",
+          "blocking": false
+        },
+        {
+          "item_id": "residual://cal0/i7/cal0-q7b/05@1",
+          "text": "rules for variable gestation, premature birth, delayed transitions, catch-up, magical development, and transformation;",
+          "classification": "CALIBRATION",
+          "owner": "Calibration parameter-set authors",
+          "blocking": false
+        },
+        {
+          "item_id": "residual://cal0/i7/cal0-q7b/06@1",
+          "text": "coordinate precision, update cadence, and cross-species homologous-event mappings.",
+          "classification": "CALIBRATION",
+          "owner": "Calibration parameter-set authors",
+          "blocking": false
+        }
+      ],
+      "evidence": [
+        "canonical/litrpg-system-calibration-annex.md",
+        "registries/cal0-i3-parameters.json",
+        "manifests/cal0-i7.bundle.json"
+      ]
+    },
+    {
+      "residual_group_id": "residual-group://cal0/i7/cal0-q10b@1",
+      "source_selection_id": "CAL0-Q10B",
+      "classification": "CALIBRATION",
+      "owner": "Calibration parameter-set authors",
+      "closure_disposition": "BOUNDED_NONBLOCKING",
+      "boundary": "The active reference parameter set pins every value it executes. This residual becomes mandatory only when a successor set exercises the wider mechanism or makes a stronger quantitative claim.",
+      "activation_condition": "A successor manifest expands the active reference scope or claims the unresolved surface.",
+      "item_count": 6,
+      "items": [
+        {
+          "item_id": "residual://cal0/i7/cal0-q10b/01@1",
+          "text": "factor vocabulary, component loadings, covariance matrices, and residual scales by species and population scope;",
+          "classification": "CALIBRATION",
+          "owner": "Calibration parameter-set authors",
+          "blocking": false
+        },
+        {
+          "item_id": "residual://cal0/i7/cal0-q10b/02@1",
+          "text": "distribution families, tail treatment, truncation, and ordered-event projection method;",
+          "classification": "CALIBRATION",
+          "owner": "Calibration parameter-set authors",
+          "blocking": false
+        },
+        {
+          "item_id": "residual://cal0/i7/cal0-q10b/03@1",
+          "text": "inheritance, maternal or gestational, environmental, and Soul-factor separation;",
+          "classification": "CALIBRATION",
+          "owner": "Calibration parameter-set authors",
+          "blocking": false
+        },
+        {
+          "item_id": "residual://cal0/i7/cal0-q10b/04@1",
+          "text": "event-family coupling across prenatal, childhood, adolescent, mature, and ageing transitions;",
+          "classification": "CALIBRATION",
+          "owner": "Calibration parameter-set authors",
+          "blocking": false
+        },
+        {
+          "item_id": "residual://cal0/i7/cal0-q10b/05@1",
+          "text": "calibration targets for within-person coherence, population dispersion, and rare but ordinary outliers;",
+          "classification": "CALIBRATION",
+          "owner": "Calibration parameter-set authors",
+          "blocking": false
+        },
+        {
+          "item_id": "residual://cal0/i7/cal0-q10b/06@1",
+          "text": "sensitivity and identifiability tests required before any factor receives a causal interpretation.",
+          "classification": "CALIBRATION",
+          "owner": "Calibration parameter-set authors",
+          "blocking": false
+        }
+      ],
+      "evidence": [
+        "canonical/litrpg-system-calibration-annex.md",
+        "registries/cal0-i3-parameters.json",
+        "manifests/cal0-i7.bundle.json"
+      ]
+    },
+    {
+      "residual_group_id": "residual-group://cal0/i7/cal0-q13b@1",
+      "source_selection_id": "CAL0-Q13B",
+      "classification": "CALIBRATION",
+      "owner": "Calibration parameter-set authors",
+      "closure_disposition": "BOUNDED_NONBLOCKING",
+      "boundary": "The active reference parameter set pins every value it executes. This residual becomes mandatory only when a successor set exercises the wider mechanism or makes a stronger quantitative claim.",
+      "activation_condition": "A successor manifest expands the active reference scope or claims the unresolved surface.",
+      "item_count": 6,
+      "items": [
+        {
+          "item_id": "residual://cal0/i7/cal0-q13b/01@1",
+          "text": "bounded marginal families and parameters for each shared factor and residual;",
+          "classification": "CALIBRATION",
+          "owner": "Calibration parameter-set authors",
+          "blocking": false
+        },
+        {
+          "item_id": "residual://cal0/i7/cal0-q13b/02@1",
+          "text": "correlation matrices, permitted structural zeros, and any justified conditional dependence by scope;",
+          "classification": "CALIBRATION",
+          "owner": "Calibration parameter-set authors",
+          "blocking": false
+        },
+        {
+          "item_id": "residual://cal0/i7/cal0-q13b/03@1",
+          "text": "positive-semidefinite validation, repair policy, inverse-CDF precision, and sampling order;",
+          "classification": "CALIBRATION",
+          "owner": "Calibration parameter-set authors",
+          "blocking": false
+        },
+        {
+          "item_id": "residual://cal0/i7/cal0-q13b/04@1",
+          "text": "cohort diagnostics for marginal recovery, rank dependence, transformed Pearson dependence, and boundary accumulation;",
+          "classification": "CALIBRATION",
+          "owner": "Calibration parameter-set authors",
+          "blocking": false
+        },
+        {
+          "item_id": "residual://cal0/i7/cal0-q13b/05@1",
+          "text": "treatment of missing observations, selection, mortality, and uncertain population targets;",
+          "classification": "CALIBRATION",
+          "owner": "Calibration parameter-set authors",
+          "blocking": false
+        },
+        {
+          "item_id": "residual://cal0/i7/cal0-q13b/06@1",
+          "text": "sensitivity thresholds at which conclusions must be reported as dependence-model contingent.",
+          "classification": "CALIBRATION",
+          "owner": "Calibration parameter-set authors",
+          "blocking": false
+        }
+      ],
+      "evidence": [
+        "canonical/litrpg-system-calibration-annex.md",
+        "registries/cal0-i3-parameters.json",
+        "manifests/cal0-i7.bundle.json"
+      ]
+    },
+    {
+      "residual_group_id": "residual-group://cal0/i7/cal0-q16b@1",
+      "source_selection_id": "CAL0-Q16B",
+      "classification": "CALIBRATION",
+      "owner": "Calibration parameter-set authors",
+      "closure_disposition": "BOUNDED_NONBLOCKING",
+      "boundary": "The active reference parameter set pins every value it executes. This residual becomes mandatory only when a successor set exercises the wider mechanism or makes a stronger quantitative claim.",
+      "activation_condition": "A successor manifest expands the active reference scope or claims the unresolved surface.",
+      "item_count": 6,
+      "items": [
+        {
+          "item_id": "residual://cal0/i7/cal0-q16b/01@1",
+          "text": "block vocabulary, membership, loading signs, loading bounds, and allowed cross-domain blocks by scope;",
+          "classification": "CALIBRATION",
+          "owner": "Calibration parameter-set authors",
+          "blocking": false
+        },
+        {
+          "item_id": "residual://cal0/i7/cal0-q16b/02@1",
+          "text": "residual-variance floors, permitted residual graph, and maximum residual-link density;",
+          "classification": "CALIBRATION",
+          "owner": "Calibration parameter-set authors",
+          "blocking": false
+        },
+        {
+          "item_id": "residual://cal0/i7/cal0-q16b/03@1",
+          "text": "identifiability conventions, sign orientation, and equivalent-factor-rotation policy;",
+          "classification": "CALIBRATION",
+          "owner": "Calibration parameter-set authors",
+          "blocking": false
+        },
+        {
+          "item_id": "residual://cal0/i7/cal0-q16b/04@1",
+          "text": "parameter-set rejection tolerances and diagnostics for near-singular covariance;",
+          "classification": "CALIBRATION",
+          "owner": "Calibration parameter-set authors",
+          "blocking": false
+        },
+        {
+          "item_id": "residual://cal0/i7/cal0-q16b/05@1",
+          "text": "cohort targets for within-block, cross-block, and residual rank dependence;",
+          "classification": "CALIBRATION",
+          "owner": "Calibration parameter-set authors",
+          "blocking": false
+        },
+        {
+          "item_id": "residual://cal0/i7/cal0-q16b/06@1",
+          "text": "escalation criteria for replacing the Gaussian copula if validated asymmetric or tail dependence cannot be represented.",
+          "classification": "CALIBRATION",
+          "owner": "Calibration parameter-set authors",
+          "blocking": false
+        }
+      ],
+      "evidence": [
+        "canonical/litrpg-system-calibration-annex.md",
+        "registries/cal0-i3-parameters.json",
+        "manifests/cal0-i7.bundle.json"
+      ]
+    },
+    {
+      "residual_group_id": "residual-group://cal0/i7/cal0-q2c@1",
+      "source_selection_id": "CAL0-Q2C",
+      "classification": "CALIBRATION",
+      "owner": "Calibration parameter-set authors",
+      "closure_disposition": "BOUNDED_NONBLOCKING",
+      "boundary": "The active reference parameter set pins every value it executes. This residual becomes mandatory only when a successor set exercises the wider mechanism or makes a stronger quantitative claim.",
+      "activation_condition": "A successor manifest expands the active reference scope or claims the unresolved surface.",
+      "item_count": 7,
+      "items": [
+        {
+          "item_id": "residual://cal0/i7/cal0-q2c/01@1",
+          "text": "channel reference demands, dose-field units, and response kernels;",
+          "classification": "CALIBRATION",
+          "owner": "Calibration parameter-set authors",
+          "blocking": false
+        },
+        {
+          "item_id": "residual://cal0/i7/cal0-q2c/02@1",
+          "text": "gains, thresholds, nonlinear damage exponents, and recovery time constants;",
+          "classification": "CALIBRATION",
+          "owner": "Calibration parameter-set authors",
+          "blocking": false
+        },
+        {
+          "item_id": "residual://cal0/i7/cal0-q2c/03@1",
+          "text": "novelty, feedback, technique, and transfer functions;",
+          "classification": "CALIBRATION",
+          "owner": "Calibration parameter-set authors",
+          "blocking": false
+        },
+        {
+          "item_id": "residual://cal0/i7/cal0-q2c/04@1",
+          "text": "cross-channel interference and cooperation matrices;",
+          "classification": "CALIBRATION",
+          "owner": "Calibration parameter-set authors",
+          "blocking": false
+        },
+        {
+          "item_id": "residual://cal0/i7/cal0-q2c/05@1",
+          "text": "age, development, health, resource, and foundation modifiers;",
+          "classification": "CALIBRATION",
+          "owner": "Calibration parameter-set authors",
+          "blocking": false
+        },
+        {
+          "item_id": "residual://cal0/i7/cal0-q2c/06@1",
+          "text": "consolidation success, maladaptation, envelope motion, maintenance, and detraining;",
+          "classification": "CALIBRATION",
+          "owner": "Calibration parameter-set authors",
+          "blocking": false
+        },
+        {
+          "item_id": "residual://cal0/i7/cal0-q2c/07@1",
+          "text": "relationship between organic adaptation load and the already locked assimilation scheduler.",
+          "classification": "CALIBRATION",
+          "owner": "Calibration parameter-set authors",
+          "blocking": false
+        }
+      ],
+      "evidence": [
+        "canonical/litrpg-system-calibration-annex.md",
+        "registries/cal0-i3-parameters.json",
+        "manifests/cal0-i7.bundle.json"
+      ]
+    },
+    {
+      "residual_group_id": "residual-group://cal0/i7/cal0-q8b@1",
+      "source_selection_id": "CAL0-Q8B",
+      "classification": "CALIBRATION",
+      "owner": "Calibration parameter-set authors",
+      "closure_disposition": "BOUNDED_NONBLOCKING",
+      "boundary": "The active reference parameter set pins every value it executes. This residual becomes mandatory only when a successor set exercises the wider mechanism or makes a stronger quantitative claim.",
+      "activation_condition": "A successor manifest expands the active reference scope or claims the unresolved surface.",
+      "item_count": 6,
+      "items": [
+        {
+          "item_id": "residual://cal0/i7/cal0-q8b/01@1",
+          "text": "channel-specific absolute-demand units, references, exposure integrals, and task-conditioned capacity functions;",
+          "classification": "CALIBRATION",
+          "owner": "Calibration parameter-set authors",
+          "blocking": false
+        },
+        {
+          "item_id": "residual://cal0/i7/cal0-q8b/02@1",
+          "text": "measurement and inference rules for technique, novelty, feedback, and structure loading;",
+          "classification": "CALIBRATION",
+          "owner": "Calibration parameter-set authors",
+          "blocking": false
+        },
+        {
+          "item_id": "residual://cal0/i7/cal0-q8b/03@1",
+          "text": "productive, fatigue, and harm response surfaces over absolute and relative challenge;",
+          "classification": "CALIBRATION",
+          "owner": "Calibration parameter-set authors",
+          "blocking": false
+        },
+        {
+          "item_id": "residual://cal0/i7/cal0-q8b/04@1",
+          "text": "interaction terms, uncertainty propagation, and dose aggregation across interrupted or compound episodes;",
+          "classification": "CALIBRATION",
+          "owner": "Calibration parameter-set authors",
+          "blocking": false
+        },
+        {
+          "item_id": "residual://cal0/i7/cal0-q8b/05@1",
+          "text": "maintenance-dose, minimum-effective-dose, saturation, overload, and recovery-spacing behaviour;",
+          "classification": "CALIBRATION",
+          "owner": "Calibration parameter-set authors",
+          "blocking": false
+        },
+        {
+          "item_id": "residual://cal0/i7/cal0-q8b/06@1",
+          "text": "cross-channel transfer rules for complex activities and mixed physical, cognitive, magical, or Soul practice.",
+          "classification": "CALIBRATION",
+          "owner": "Calibration parameter-set authors",
+          "blocking": false
+        }
+      ],
+      "evidence": [
+        "canonical/litrpg-system-calibration-annex.md",
+        "registries/cal0-i3-parameters.json",
+        "manifests/cal0-i7.bundle.json"
+      ]
+    },
+    {
+      "residual_group_id": "residual-group://cal0/i7/cal0-q11b@1",
+      "source_selection_id": "CAL0-Q11B",
+      "classification": "CALIBRATION",
+      "owner": "Calibration parameter-set authors",
+      "closure_disposition": "BOUNDED_NONBLOCKING",
+      "boundary": "The active reference parameter set pins every value it executes. This residual becomes mandatory only when a successor set exercises the wider mechanism or makes a stronger quantitative claim.",
+      "activation_condition": "A successor manifest expands the active reference scope or claims the unresolved surface.",
+      "item_count": 6,
+      "items": [
+        {
+          "item_id": "residual://cal0/i7/cal0-q11b/01@1",
+          "text": "challenge-coordinate functions and window boundaries for each physical, cognitive, perceptual, magical, and Soul channel;",
+          "classification": "CALIBRATION",
+          "owner": "Calibration parameter-set authors",
+          "blocking": false
+        },
+        {
+          "item_id": "residual://cal0/i7/cal0-q11b/02@1",
+          "text": "shape functions, minimum effective doses, maintenance responses, and peak widths;",
+          "classification": "CALIBRATION",
+          "owner": "Calibration parameter-set authors",
+          "blocking": false
+        },
+        {
+          "item_id": "residual://cal0/i7/cal0-q11b/03@1",
+          "text": "fatigue and harm functions, exponents, protective inhibition, and stop conditions;",
+          "classification": "CALIBRATION",
+          "owner": "Calibration parameter-set authors",
+          "blocking": false
+        },
+        {
+          "item_id": "residual://cal0/i7/cal0-q11b/04@1",
+          "text": "effects of novelty, technique, feedback, recovery, development, health, equipment, and assistance on each window;",
+          "classification": "CALIBRATION",
+          "owner": "Calibration parameter-set authors",
+          "blocking": false
+        },
+        {
+          "item_id": "residual://cal0/i7/cal0-q11b/05@1",
+          "text": "session aggregation, spacing, repeated-bout effects, and cross-channel interference;",
+          "classification": "CALIBRATION",
+          "owner": "Calibration parameter-set authors",
+          "blocking": false
+        },
+        {
+          "item_id": "residual://cal0/i7/cal0-q11b/06@1",
+          "text": "calibration observables distinguishing productive overload from survivorship bias and hidden injury.",
+          "classification": "CALIBRATION",
+          "owner": "Calibration parameter-set authors",
+          "blocking": false
+        }
+      ],
+      "evidence": [
+        "canonical/litrpg-system-calibration-annex.md",
+        "registries/cal0-i3-parameters.json",
+        "manifests/cal0-i7.bundle.json"
+      ]
+    },
+    {
+      "residual_group_id": "residual-group://cal0/i7/cal0-q14b@1",
+      "source_selection_id": "CAL0-Q14B",
+      "classification": "CALIBRATION",
+      "owner": "Calibration parameter-set authors",
+      "closure_disposition": "BOUNDED_NONBLOCKING",
+      "boundary": "The active reference parameter set pins every value it executes. This residual becomes mandatory only when a successor set exercises the wider mechanism or makes a stronger quantitative claim.",
+      "activation_condition": "A successor manifest expands the active reference scope or claims the unresolved surface.",
+      "item_count": 6,
+      "items": [
+        {
+          "item_id": "residual://cal0/i7/cal0-q14b/01@1",
+          "text": "maintenance and stop boundaries, modes, concentrations, and excessive-load boundaries by channel;",
+          "classification": "CALIBRATION",
+          "owner": "Calibration parameter-set authors",
+          "blocking": false
+        },
+        {
+          "item_id": "residual://cal0/i7/cal0-q14b/02@1",
+          "text": "bounded modifiers for development, health, recovery, technique, novelty, equipment, Mana stability, and Soul stability;",
+          "classification": "CALIBRATION",
+          "owner": "Calibration parameter-set authors",
+          "blocking": false
+        },
+        {
+          "item_id": "residual://cal0/i7/cal0-q14b/03@1",
+          "text": "minimum reporting precision and log-domain numerical tolerances;",
+          "classification": "CALIBRATION",
+          "owner": "Calibration parameter-set authors",
+          "blocking": false
+        },
+        {
+          "item_id": "residual://cal0/i7/cal0-q14b/04@1",
+          "text": "separate fatigue and harm functions and their coupling to the same challenge coordinate;",
+          "classification": "CALIBRATION",
+          "owner": "Calibration parameter-set authors",
+          "blocking": false
+        },
+        {
+          "item_id": "residual://cal0/i7/cal0-q14b/05@1",
+          "text": "calibration targets for peak location, productive width, asymmetry, overload reversal, and session spacing;",
+          "classification": "CALIBRATION",
+          "owner": "Calibration parameter-set authors",
+          "blocking": false
+        },
+        {
+          "item_id": "residual://cal0/i7/cal0-q14b/06@1",
+          "text": "cross-channel constraints preventing implausibly narrow or broad windows from being used as hidden balance multipliers.",
+          "classification": "CALIBRATION",
+          "owner": "Calibration parameter-set authors",
+          "blocking": false
+        }
+      ],
+      "evidence": [
+        "canonical/litrpg-system-calibration-annex.md",
+        "registries/cal0-i3-parameters.json",
+        "manifests/cal0-i7.bundle.json"
+      ]
+    },
+    {
+      "residual_group_id": "residual-group://cal0/i7/cal0-q17b@1",
+      "source_selection_id": "CAL0-Q17B",
+      "classification": "CALIBRATION",
+      "owner": "Calibration parameter-set authors",
+      "closure_disposition": "BOUNDED_NONBLOCKING",
+      "boundary": "The active reference parameter set pins every value it executes. This residual becomes mandatory only when a successor set exercises the wider mechanism or makes a stronger quantitative claim.",
+      "activation_condition": "A successor manifest expands the active reference scope or claims the unresolved surface.",
+      "item_count": 6,
+      "items": [
+        {
+          "item_id": "residual://cal0/i7/cal0-q17b/01@1",
+          "text": "permitted effect masks and transform families for recovery, illness, injury, technique, novelty, feedback, equipment, assistance, development, Mana stability, and Soul stability;",
+          "classification": "CALIBRATION",
+          "owner": "Calibration parameter-set authors",
+          "blocking": false
+        },
+        {
+          "item_id": "residual://cal0/i7/cal0-q17b/02@1",
+          "text": "composition order, interaction terms, saturation rules, and projection-versus-rejection tolerances;",
+          "classification": "CALIBRATION",
+          "owner": "Calibration parameter-set authors",
+          "blocking": false
+        },
+        {
+          "item_id": "residual://cal0/i7/cal0-q17b/03@1",
+          "text": "bounds on interval width, mode movement, concentration, attainable height, fatigue, and harm;",
+          "classification": "CALIBRATION",
+          "owner": "Calibration parameter-set authors",
+          "blocking": false
+        },
+        {
+          "item_id": "residual://cal0/i7/cal0-q17b/04@1",
+          "text": "cross-channel load-routing and conservation rules;",
+          "classification": "CALIBRATION",
+          "owner": "Calibration parameter-set authors",
+          "blocking": false
+        },
+        {
+          "item_id": "residual://cal0/i7/cal0-q17b/05@1",
+          "text": "condition observables and uncertainty when the actor cannot measure the latent transform inputs;",
+          "classification": "CALIBRATION",
+          "owner": "Calibration parameter-set authors",
+          "blocking": false
+        },
+        {
+          "item_id": "residual://cal0/i7/cal0-q17b/06@1",
+          "text": "fixtures and cohort diagnostics for continuity, monotonic safety effects, and non-interchangeability.",
+          "classification": "CALIBRATION",
+          "owner": "Calibration parameter-set authors",
+          "blocking": false
+        }
+      ],
+      "evidence": [
+        "canonical/litrpg-system-calibration-annex.md",
+        "registries/cal0-i3-parameters.json",
+        "manifests/cal0-i7.bundle.json"
+      ]
+    },
+    {
+      "residual_group_id": "residual-group://cal0/i7/cal0-q9b@1",
+      "source_selection_id": "CAL0-Q9B",
+      "classification": "CALIBRATION",
+      "owner": "Calibration parameter-set authors",
+      "closure_disposition": "BOUNDED_NONBLOCKING",
+      "boundary": "The active reference parameter set pins every value it executes. This residual becomes mandatory only when a successor set exercises the wider mechanism or makes a stronger quantitative claim.",
+      "activation_condition": "A successor manifest expands the active reference scope or claims the unresolved surface.",
+      "item_count": 6,
+      "items": [
+        {
+          "item_id": "residual://cal0/i7/cal0-q9b/01@1",
+          "text": "layer units, routing fractions, integration functions, and diminishing-return exponents;",
+          "classification": "CALIBRATION",
+          "owner": "Calibration parameter-set authors",
+          "blocking": false
+        },
+        {
+          "item_id": "residual://cal0/i7/cal0-q9b/02@1",
+          "text": "channel-specific envelope target functions and foundation bottlenecks;",
+          "classification": "CALIBRATION",
+          "owner": "Calibration parameter-set authors",
+          "blocking": false
+        },
+        {
+          "item_id": "residual://cal0/i7/cal0-q9b/03@1",
+          "text": "timescale ordering, fill rates, motion rates, maintenance demand, and detraining constants;",
+          "classification": "CALIBRATION",
+          "owner": "Calibration parameter-set authors",
+          "blocking": false
+        },
+        {
+          "item_id": "residual://cal0/i7/cal0-q9b/04@1",
+          "text": "chronic-load history, recovery, interference, and injury effects on envelope movement;",
+          "classification": "CALIBRATION",
+          "owner": "Calibration parameter-set authors",
+          "blocking": false
+        },
+        {
+          "item_id": "residual://cal0/i7/cal0-q9b/05@1",
+          "text": "rules for plateaus, catch-up, breakthroughs, transformation, and post-transformation conserved adaptation;",
+          "classification": "CALIBRATION",
+          "owner": "Calibration parameter-set authors",
+          "blocking": false
+        },
+        {
+          "item_id": "residual://cal0/i7/cal0-q9b/06@1",
+          "text": "interaction between organic adaptation, natural maturation, temporary effects, and reinforcement assimilation.",
+          "classification": "CALIBRATION",
+          "owner": "Calibration parameter-set authors",
+          "blocking": false
+        }
+      ],
+      "evidence": [
+        "canonical/litrpg-system-calibration-annex.md",
+        "registries/cal0-i3-parameters.json",
+        "manifests/cal0-i7.bundle.json"
+      ]
+    },
+    {
+      "residual_group_id": "residual-group://cal0/i7/cal0-q12b@1",
+      "source_selection_id": "CAL0-Q12B",
+      "classification": "CALIBRATION",
+      "owner": "Calibration parameter-set authors",
+      "closure_disposition": "BOUNDED_NONBLOCKING",
+      "boundary": "The active reference parameter set pins every value it executes. This residual becomes mandatory only when a successor set exercises the wider mechanism or makes a stronger quantitative claim.",
+      "activation_condition": "A successor manifest expands the active reference scope or claims the unresolved surface.",
+      "item_count": 6,
+      "items": [
+        {
+          "item_id": "residual://cal0/i7/cal0-q12b/01@1",
+          "text": "which structural reorganisations justify phase transitions rather than continuous remodelling;",
+          "classification": "CALIBRATION",
+          "owner": "Calibration parameter-set authors",
+          "blocking": false
+        },
+        {
+          "item_id": "residual://cal0/i7/cal0-q12b/02@1",
+          "text": "prerequisite schemas, evidence sufficiency, attempt definitions, and outcome-resolution families;",
+          "classification": "CALIBRATION",
+          "owner": "Calibration parameter-set authors",
+          "blocking": false
+        },
+        {
+          "item_id": "residual://cal0/i7/cal0-q12b/03@1",
+          "text": "recovery, stabilisation, validation, relapse, partial-success, and maladaptation rules;",
+          "classification": "CALIBRATION",
+          "owner": "Calibration parameter-set authors",
+          "blocking": false
+        },
+        {
+          "item_id": "residual://cal0/i7/cal0-q12b/04@1",
+          "text": "state-transfer maps, conservation requirements, new maintenance costs, and post-transition detraining;",
+          "classification": "CALIBRATION",
+          "owner": "Calibration parameter-set authors",
+          "blocking": false
+        },
+        {
+          "item_id": "residual://cal0/i7/cal0-q12b/05@1",
+          "text": "interaction with age, developmental windows, injury, support, reinforcement assimilation, Skill evolution, and class evolution;",
+          "classification": "CALIBRATION",
+          "owner": "Calibration parameter-set authors",
+          "blocking": false
+        },
+        {
+          "item_id": "residual://cal0/i7/cal0-q12b/06@1",
+          "text": "story-facing visibility of eligibility, uncertainty, failed attempts, and validated completion.",
+          "classification": "CALIBRATION",
+          "owner": "Calibration parameter-set authors",
+          "blocking": false
+        }
+      ],
+      "evidence": [
+        "canonical/litrpg-system-calibration-annex.md",
+        "registries/cal0-i3-parameters.json",
+        "manifests/cal0-i7.bundle.json"
+      ]
+    },
+    {
+      "residual_group_id": "residual-group://cal0/i7/cal0-q15b@1",
+      "source_selection_id": "CAL0-Q15B",
+      "classification": "CALIBRATION",
+      "owner": "Calibration parameter-set authors",
+      "closure_disposition": "BOUNDED_NONBLOCKING",
+      "boundary": "The active reference parameter set pins every value it executes. This residual becomes mandatory only when a successor set exercises the wider mechanism or makes a stronger quantitative claim.",
+      "activation_condition": "A successor manifest expands the active reference scope or claims the unresolved surface.",
+      "item_count": 6,
+      "items": [
+        {
+          "item_id": "residual://cal0/i7/cal0-q15b/01@1",
+          "text": "latent readiness, execution, stability, and incompatibility variables for each transition family;",
+          "classification": "CALIBRATION",
+          "owner": "Calibration parameter-set authors",
+          "blocking": false
+        },
+        {
+          "item_id": "residual://cal0/i7/cal0-q15b/02@1",
+          "text": "deterministic decision surfaces and rules for failed, partial, successful, and maladaptive outcomes;",
+          "classification": "CALIBRATION",
+          "owner": "Calibration parameter-set authors",
+          "blocking": false
+        },
+        {
+          "item_id": "residual://cal0/i7/cal0-q15b/03@1",
+          "text": "attempt-identity construction, solver seeding, version migration, and replay guarantees;",
+          "classification": "CALIBRATION",
+          "owner": "Calibration parameter-set authors",
+          "blocking": false
+        },
+        {
+          "item_id": "residual://cal0/i7/cal0-q15b/04@1",
+          "text": "observer models, evidence channels, forecast granularity, calibration error, and System-facing visibility;",
+          "classification": "CALIBRATION",
+          "owner": "Calibration parameter-set authors",
+          "blocking": false
+        },
+        {
+          "item_id": "residual://cal0/i7/cal0-q15b/05@1",
+          "text": "minimum material-change requirements for a genuinely new attempt;",
+          "classification": "CALIBRATION",
+          "owner": "Calibration parameter-set authors",
+          "blocking": false
+        },
+        {
+          "item_id": "residual://cal0/i7/cal0-q15b/06@1",
+          "text": "recovery and validation evidence capable of revising provisional classification without changing causal history.",
+          "classification": "CALIBRATION",
+          "owner": "Calibration parameter-set authors",
+          "blocking": false
+        }
+      ],
+      "evidence": [
+        "canonical/litrpg-system-calibration-annex.md",
+        "registries/cal0-i3-parameters.json",
+        "manifests/cal0-i7.bundle.json"
+      ]
+    },
+    {
+      "residual_group_id": "residual-group://cal0/i7/cal0-q18b@1",
+      "source_selection_id": "CAL0-Q18B",
+      "classification": "CALIBRATION",
+      "owner": "Calibration parameter-set authors",
+      "closure_disposition": "BOUNDED_NONBLOCKING",
+      "boundary": "The active reference parameter set pins every value it executes. This residual becomes mandatory only when a successor set exercises the wider mechanism or makes a stronger quantitative claim.",
+      "activation_condition": "A successor manifest expands the active reference scope or claims the unresolved surface.",
+      "item_count": 6,
+      "items": [
+        {
+          "item_id": "residual://cal0/i7/cal0-q18b/01@1",
+          "text": "hard-constraint schemas, incompatibility vocabulary, and non-compensable minima by transition family;",
+          "classification": "CALIBRATION",
+          "owner": "Calibration parameter-set authors",
+          "blocking": false
+        },
+        {
+          "item_id": "residual://cal0/i7/cal0-q18b/02@1",
+          "text": "dimension definitions, bounds, vetoes, allowed trade-offs, and outcome surfaces;",
+          "classification": "CALIBRATION",
+          "owner": "Calibration parameter-set authors",
+          "blocking": false
+        },
+        {
+          "item_id": "residual://cal0/i7/cal0-q18b/03@1",
+          "text": "causal definitions of partial change, failure, and maladaptation;",
+          "classification": "CALIBRATION",
+          "owner": "Calibration parameter-set authors",
+          "blocking": false
+        },
+        {
+          "item_id": "residual://cal0/i7/cal0-q18b/04@1",
+          "text": "recovery and validation criteria for committing or revising provisional outcomes;",
+          "classification": "CALIBRATION",
+          "owner": "Calibration parameter-set authors",
+          "blocking": false
+        },
+        {
+          "item_id": "residual://cal0/i7/cal0-q18b/05@1",
+          "text": "observer-visible explanations and forecast limits without exposing omniscient hidden state;",
+          "classification": "CALIBRATION",
+          "owner": "Calibration parameter-set authors",
+          "blocking": false
+        },
+        {
+          "item_id": "residual://cal0/i7/cal0-q18b/06@1",
+          "text": "cross-family consistency tests and minimum material-change requirements for a new attempt.",
+          "classification": "CALIBRATION",
+          "owner": "Calibration parameter-set authors",
+          "blocking": false
+        }
+      ],
+      "evidence": [
+        "canonical/litrpg-system-calibration-annex.md",
+        "registries/cal0-i3-parameters.json",
+        "manifests/cal0-i7.bundle.json"
+      ]
+    },
+    {
+      "residual_group_id": "residual-group://cal0/i7/cal0-q3a@1",
+      "source_selection_id": "CAL0-Q3A",
+      "classification": "CALIBRATION",
+      "owner": "Calibration parameter-set authors",
+      "closure_disposition": "BOUNDED_NONBLOCKING",
+      "boundary": "The active reference parameter set pins every value it executes. This residual becomes mandatory only when a successor set exercises the wider mechanism or makes a stronger quantitative claim.",
+      "activation_condition": "A successor manifest expands the active reference scope or claims the unresolved surface.",
+      "item_count": 7,
+      "items": [
+        {
+          "item_id": "residual://cal0/i7/cal0-q3a/01@1",
+          "text": "visible XP unit and baseline \\(K_s\\) for Skill and class forms;",
+          "classification": "CALIBRATION",
+          "owner": "Calibration parameter-set authors",
+          "blocking": false
+        },
+        {
+          "item_id": "residual://cal0/i7/cal0-q3a/02@1",
+          "text": "steepness exponent \\(p_s\\) and whether it is shared or family-specific;",
+          "classification": "CALIBRATION",
+          "owner": "Calibration parameter-set authors",
+          "blocking": false
+        },
+        {
+          "item_id": "residual://cal0/i7/cal0-q3a/03@1",
+          "text": "exact evolutionary-grade multiplier functions for Skills and classes;",
+          "classification": "CALIBRATION",
+          "owner": "Calibration parameter-set authors",
+          "blocking": false
+        },
+        {
+          "item_id": "residual://cal0/i7/cal0-q3a/04@1",
+          "text": "exact evidence-to-XP recognition scales by lineage family;",
+          "classification": "CALIBRATION",
+          "owner": "Calibration parameter-set authors",
+          "blocking": false
+        },
+        {
+          "item_id": "residual://cal0/i7/cal0-q3a/05@1",
+          "text": "qualitative-gate profiles and milestone cadence;",
+          "classification": "CALIBRATION",
+          "owner": "Calibration parameter-set authors",
+          "blocking": false
+        },
+        {
+          "item_id": "residual://cal0/i7/cal0-q3a/06@1",
+          "text": "taper exponent, relevance weighting, and overhang fraction while an attestation gate is blocked;",
+          "classification": "CALIBRATION",
+          "owner": "Calibration parameter-set authors",
+          "blocking": false
+        },
+        {
+          "item_id": "residual://cal0/i7/cal0-q3a/07@1",
+          "text": "cap, deferral, evolution, and display rounding behaviour in numerical implementation.",
+          "classification": "CALIBRATION",
+          "owner": "Calibration parameter-set authors",
+          "blocking": false
+        }
+      ],
+      "evidence": [
+        "canonical/litrpg-system-calibration-annex.md",
+        "registries/cal0-i3-parameters.json",
+        "manifests/cal0-i7.bundle.json"
+      ]
+    },
+    {
+      "residual_group_id": "residual-group://cal0/i7/cal0-q5b@1",
+      "source_selection_id": "CAL0-Q5B",
+      "classification": "CALIBRATION",
+      "owner": "Calibration parameter-set authors",
+      "closure_disposition": "BOUNDED_NONBLOCKING",
+      "boundary": "The active reference parameter set pins every value it executes. This residual becomes mandatory only when a successor set exercises the wider mechanism or makes a stronger quantitative claim.",
+      "activation_condition": "A successor manifest expands the active reference scope or claims the unresolved surface.",
+      "item_count": 5,
+      "items": [
+        {
+          "item_id": "residual://cal0/i7/cal0-q5b/01@1",
+          "text": "grade-0 cumulative XP totals for standard Skill and class forms;",
+          "classification": "CALIBRATION",
+          "owner": "Calibration parameter-set authors",
+          "blocking": false
+        },
+        {
+          "item_id": "residual://cal0/i7/cal0-q5b/02@1",
+          "text": "whether Skills and classes use different geometric grade multipliers;",
+          "classification": "CALIBRATION",
+          "owner": "Calibration parameter-set authors",
+          "blocking": false
+        },
+        {
+          "item_id": "residual://cal0/i7/cal0-q5b/03@1",
+          "text": "the maximum grade for which a geometric multiplier remains plausible;",
+          "classification": "CALIBRATION",
+          "owner": "Calibration parameter-set authors",
+          "blocking": false
+        },
+        {
+          "item_id": "residual://cal0/i7/cal0-q5b/04@1",
+          "text": "whether the exponent \\(p_s\\) is type-specific while remaining smooth;",
+          "classification": "CALIBRATION",
+          "owner": "Calibration parameter-set authors",
+          "blocking": false
+        },
+        {
+          "item_id": "residual://cal0/i7/cal0-q5b/05@1",
+          "text": "display-unit scaling and rounding without loss of exact ledger values.",
+          "classification": "CALIBRATION",
+          "owner": "Calibration parameter-set authors",
+          "blocking": false
+        }
+      ],
+      "evidence": [
+        "canonical/litrpg-system-calibration-annex.md",
+        "registries/cal0-i3-parameters.json",
+        "manifests/cal0-i7.bundle.json"
+      ]
+    },
+    {
+      "residual_group_id": "residual-group://cal0/i7/cal0-q6c@1",
+      "source_selection_id": "CAL0-Q6C",
+      "classification": "CALIBRATION",
+      "owner": "Calibration parameter-set authors",
+      "closure_disposition": "BOUNDED_NONBLOCKING",
+      "boundary": "The active reference parameter set pins every value it executes. This residual becomes mandatory only when a successor set exercises the wider mechanism or makes a stronger quantitative claim.",
+      "activation_condition": "A successor manifest expands the active reference scope or claims the unresolved surface.",
+      "item_count": 5,
+      "items": [
+        {
+          "item_id": "residual://cal0/i7/cal0-q6c/01@1",
+          "text": "the overhang fraction \\(\\omega_s\\) by Skill or class type and grade;",
+          "classification": "CALIBRATION",
+          "owner": "Calibration parameter-set authors",
+          "blocking": false
+        },
+        {
+          "item_id": "residual://cal0/i7/cal0-q6c/02@1",
+          "text": "taper exponent \\(q_s\\) and whether it varies by lineage family;",
+          "classification": "CALIBRATION",
+          "owner": "Calibration parameter-set authors",
+          "blocking": false
+        },
+        {
+          "item_id": "residual://cal0/i7/cal0-q6c/03@1",
+          "text": "the deterministic relevance rubric used to calculate \\(r_{s,e}\\);",
+          "classification": "CALIBRATION",
+          "owner": "Calibration parameter-set authors",
+          "blocking": false
+        },
+        {
+          "item_id": "residual://cal0/i7/cal0-q6c/04@1",
+          "text": "terminal-threshold behaviour and the relationship to successor offers;",
+          "classification": "CALIBRATION",
+          "owner": "Calibration parameter-set authors",
+          "blocking": false
+        },
+        {
+          "item_id": "residual://cal0/i7/cal0-q6c/05@1",
+          "text": "UI disclosure of blocked XP, capped XP, missing evidence, and uncertainty.",
+          "classification": "CALIBRATION",
+          "owner": "Calibration parameter-set authors",
+          "blocking": false
+        }
+      ],
+      "evidence": [
+        "canonical/litrpg-system-calibration-annex.md",
+        "registries/cal0-i3-parameters.json",
+        "manifests/cal0-i7.bundle.json"
+      ]
+    },
+    {
+      "residual_group_id": "residual-group://cal0/i7/cal0-q19b@1",
+      "source_selection_id": "CAL0-Q19B",
+      "classification": "IMPLEMENTATION",
+      "owner": "Executable implementation and version-governance authors",
+      "closure_disposition": "BOUNDED_NONBLOCKING",
+      "boundary": "The active bundle implements or fails closed over the exercised path. This residual becomes mandatory before a future manifest may rely on the wider optional governance or optimisation branch.",
+      "activation_condition": "A successor manifest expands the active reference scope or claims the unresolved surface.",
+      "item_count": 4,
+      "items": [
+        {
+          "item_id": "residual://cal0/i7/cal0-q19b/01@1",
+          "text": "loading bounds and minimum identifiable energy by block family;",
+          "classification": "IMPLEMENTATION",
+          "owner": "Executable implementation and version-governance authors",
+          "blocking": false
+        },
+        {
+          "item_id": "residual://cal0/i7/cal0-q19b/02@1",
+          "text": "permitted sign patterns and whether any block admits mixed signs;",
+          "classification": "IMPLEMENTATION",
+          "owner": "Executable implementation and version-governance authors",
+          "blocking": false
+        },
+        {
+          "item_id": "residual://cal0/i7/cal0-q19b/03@1",
+          "text": "component-level overlap-energy ceilings;",
+          "classification": "IMPLEMENTATION",
+          "owner": "Executable implementation and version-governance authors",
+          "blocking": false
+        },
+        {
+          "item_id": "residual://cal0/i7/cal0-q19b/04@1",
+          "text": "stability tolerances across fitted parameter versions.",
+          "classification": "IMPLEMENTATION",
+          "owner": "Executable implementation and version-governance authors",
+          "blocking": false
+        }
+      ],
+      "evidence": [
+        "canonical/litrpg-system-calibration-annex.md",
+        "registries/cal0-i3-parameters.json",
+        "manifests/cal0-i7.bundle.json"
+      ]
+    },
+    {
+      "residual_group_id": "residual-group://cal0/i7/cal0-q20b@1",
+      "source_selection_id": "CAL0-Q20B",
+      "classification": "IMPLEMENTATION",
+      "owner": "Executable implementation and version-governance authors",
+      "closure_disposition": "BOUNDED_NONBLOCKING",
+      "boundary": "The active bundle implements or fails closed over the exercised path. This residual becomes mandatory before a future manifest may rely on the wider optional governance or optimisation branch.",
+      "activation_condition": "A successor manifest expands the active reference scope or claims the unresolved surface.",
+      "item_count": 4,
+      "items": [
+        {
+          "item_id": "residual://cal0/i7/cal0-q20b/01@1",
+          "text": "complete stage graph and registered field operators;",
+          "classification": "IMPLEMENTATION",
+          "owner": "Executable implementation and version-governance authors",
+          "blocking": false
+        },
+        {
+          "item_id": "residual://cal0/i7/cal0-q20b/02@1",
+          "text": "authorised within-stage and cross-condition interaction families;",
+          "classification": "IMPLEMENTATION",
+          "owner": "Executable implementation and version-governance authors",
+          "blocking": false
+        },
+        {
+          "item_id": "residual://cal0/i7/cal0-q20b/03@1",
+          "text": "projection tolerances and invalid-parameter thresholds;",
+          "classification": "IMPLEMENTATION",
+          "owner": "Executable implementation and version-governance authors",
+          "blocking": false
+        },
+        {
+          "item_id": "residual://cal0/i7/cal0-q20b/04@1",
+          "text": "provenance granularity for compound equipment, technique, illness, and support effects.",
+          "classification": "IMPLEMENTATION",
+          "owner": "Executable implementation and version-governance authors",
+          "blocking": false
+        }
+      ],
+      "evidence": [
+        "canonical/litrpg-system-calibration-annex.md",
+        "registries/cal0-i3-parameters.json",
+        "manifests/cal0-i7.bundle.json"
+      ]
+    },
+    {
+      "residual_group_id": "residual-group://cal0/i7/cal0-q21b@1",
+      "source_selection_id": "CAL0-Q21B",
+      "classification": "IMPLEMENTATION",
+      "owner": "Executable implementation and version-governance authors",
+      "closure_disposition": "BOUNDED_NONBLOCKING",
+      "boundary": "The active bundle implements or fails closed over the exercised path. This residual becomes mandatory before a future manifest may rely on the wider optional governance or optimisation branch.",
+      "activation_condition": "A successor manifest expands the active reference scope or claims the unresolved surface.",
+      "item_count": 4,
+      "items": [
+        {
+          "item_id": "residual://cal0/i7/cal0-q21b/01@1",
+          "text": "the canonical structural-delta schema and dependency vocabulary;",
+          "classification": "IMPLEMENTATION",
+          "owner": "Executable implementation and version-governance authors",
+          "blocking": false
+        },
+        {
+          "item_id": "residual://cal0/i7/cal0-q21b/02@1",
+          "text": "which provisional functions, if any, are safe to express;",
+          "classification": "IMPLEMENTATION",
+          "owner": "Executable implementation and version-governance authors",
+          "blocking": false
+        },
+        {
+          "item_id": "residual://cal0/i7/cal0-q21b/03@1",
+          "text": "recovery, validation, rollback, and repair policies by transition family;",
+          "classification": "IMPLEMENTATION",
+          "owner": "Executable implementation and version-governance authors",
+          "blocking": false
+        },
+        {
+          "item_id": "residual://cal0/i7/cal0-q21b/04@1",
+          "text": "projection rules for reader-facing aggregate outcome labels.",
+          "classification": "IMPLEMENTATION",
+          "owner": "Executable implementation and version-governance authors",
+          "blocking": false
+        }
+      ],
+      "evidence": [
+        "canonical/litrpg-system-calibration-annex.md",
+        "registries/cal0-i3-parameters.json",
+        "manifests/cal0-i7.bundle.json"
+      ]
+    },
+    {
+      "residual_group_id": "residual-group://cal0/i7/cal0-q22b@1",
+      "source_selection_id": "CAL0-Q22B",
+      "classification": "IMPLEMENTATION",
+      "owner": "Executable implementation and version-governance authors",
+      "closure_disposition": "BOUNDED_NONBLOCKING",
+      "boundary": "The active bundle implements or fails closed over the exercised path. This residual becomes mandatory before a future manifest may rely on the wider optional governance or optimisation branch.",
+      "activation_condition": "A successor manifest expands the active reference scope or claims the unresolved surface.",
+      "item_count": 4,
+      "items": [
+        {
+          "item_id": "residual://cal0/i7/cal0-q22b/01@1",
+          "text": "component-energy ceilings and primary-block reservations by family;",
+          "classification": "IMPLEMENTATION",
+          "owner": "Executable implementation and version-governance authors",
+          "blocking": false
+        },
+        {
+          "item_id": "residual://cal0/i7/cal0-q22b/02@1",
+          "text": "the residual-correlation accounting convention and safety margin;",
+          "classification": "IMPLEMENTATION",
+          "owner": "Executable implementation and version-governance authors",
+          "blocking": false
+        },
+        {
+          "item_id": "residual://cal0/i7/cal0-q22b/03@1",
+          "text": "evidence required to add, enlarge, split, or remove an overlap;",
+          "classification": "IMPLEMENTATION",
+          "owner": "Executable implementation and version-governance authors",
+          "blocking": false
+        },
+        {
+          "item_id": "residual://cal0/i7/cal0-q22b/04@1",
+          "text": "ablation and sensitivity thresholds that retire an unjustified bridge.",
+          "classification": "IMPLEMENTATION",
+          "owner": "Executable implementation and version-governance authors",
+          "blocking": false
+        }
+      ],
+      "evidence": [
+        "canonical/litrpg-system-calibration-annex.md",
+        "registries/cal0-i3-parameters.json",
+        "manifests/cal0-i7.bundle.json"
+      ]
+    },
+    {
+      "residual_group_id": "residual-group://cal0/i7/cal0-q23b@1",
+      "source_selection_id": "CAL0-Q23B",
+      "classification": "IMPLEMENTATION",
+      "owner": "Executable implementation and version-governance authors",
+      "closure_disposition": "BOUNDED_NONBLOCKING",
+      "boundary": "The active bundle implements or fails closed over the exercised path. This residual becomes mandatory before a future manifest may rely on the wider optional governance or optimisation branch.",
+      "activation_condition": "A successor manifest expands the active reference scope or claims the unresolved surface.",
+      "item_count": 4,
+      "items": [
+        {
+          "item_id": "residual://cal0/i7/cal0-q23b/01@1",
+          "text": "field scales and total interaction budgets by stage and mechanism family;",
+          "classification": "IMPLEMENTATION",
+          "owner": "Executable implementation and version-governance authors",
+          "blocking": false
+        },
+        {
+          "item_id": "residual://cal0/i7/cal0-q23b/02@1",
+          "text": "permitted interaction arity and whether any justified term may span adjacent stages;",
+          "classification": "IMPLEMENTATION",
+          "owner": "Executable implementation and version-governance authors",
+          "blocking": false
+        },
+        {
+          "item_id": "residual://cal0/i7/cal0-q23b/03@1",
+          "text": "compatibility predicates, conflict handling, and numerical tolerances;",
+          "classification": "IMPLEMENTATION",
+          "owner": "Executable implementation and version-governance authors",
+          "blocking": false
+        },
+        {
+          "item_id": "residual://cal0/i7/cal0-q23b/04@1",
+          "text": "minimum materiality and ablation evidence for retaining a term.",
+          "classification": "IMPLEMENTATION",
+          "owner": "Executable implementation and version-governance authors",
+          "blocking": false
+        }
+      ],
+      "evidence": [
+        "canonical/litrpg-system-calibration-annex.md",
+        "registries/cal0-i3-parameters.json",
+        "manifests/cal0-i7.bundle.json"
+      ]
+    },
+    {
+      "residual_group_id": "residual-group://cal0/i7/cal0-q24b@1",
+      "source_selection_id": "CAL0-Q24B",
+      "classification": "IMPLEMENTATION",
+      "owner": "Executable implementation and version-governance authors",
+      "closure_disposition": "BOUNDED_NONBLOCKING",
+      "boundary": "The active bundle implements or fails closed over the exercised path. This residual becomes mandatory before a future manifest may rely on the wider optional governance or optimisation branch.",
+      "activation_condition": "A successor manifest expands the active reference scope or claims the unresolved surface.",
+      "item_count": 4,
+      "items": [
+        {
+          "item_id": "residual://cal0/i7/cal0-q24b/01@1",
+          "text": "deterministic selection policy when several maximal safe subsets compete;",
+          "classification": "IMPLEMENTATION",
+          "owner": "Executable implementation and version-governance authors",
+          "blocking": false
+        },
+        {
+          "item_id": "residual://cal0/i7/cal0-q24b/02@1",
+          "text": "whether independent safe components share one transaction or several linked atomic commits;",
+          "classification": "IMPLEMENTATION",
+          "owner": "Executable implementation and version-governance authors",
+          "blocking": false
+        },
+        {
+          "item_id": "residual://cal0/i7/cal0-q24b/03@1",
+          "text": "concurrency, rollback, recovery-validation, and stale-proposal rules;",
+          "classification": "IMPLEMENTATION",
+          "owner": "Executable implementation and version-governance authors",
+          "blocking": false
+        },
+        {
+          "item_id": "residual://cal0/i7/cal0-q24b/04@1",
+          "text": "event-ledger representation for rejected and superseded proposals.",
+          "classification": "IMPLEMENTATION",
+          "owner": "Executable implementation and version-governance authors",
+          "blocking": false
+        }
+      ],
+      "evidence": [
+        "canonical/litrpg-system-calibration-annex.md",
+        "registries/cal0-i3-parameters.json",
+        "manifests/cal0-i7.bundle.json"
+      ]
+    },
+    {
+      "residual_group_id": "residual-group://cal0/i7/cal0-q25b@1",
+      "source_selection_id": "CAL0-Q25B",
+      "classification": "IMPLEMENTATION",
+      "owner": "Executable implementation and version-governance authors",
+      "closure_disposition": "BOUNDED_NONBLOCKING",
+      "boundary": "The active bundle implements or fails closed over the exercised path. This residual becomes mandatory before a future manifest may rely on the wider optional governance or optimisation branch.",
+      "activation_condition": "A successor manifest expands the active reference scope or claims the unresolved surface.",
+      "item_count": 4,
+      "items": [
+        {
+          "item_id": "residual://cal0/i7/cal0-q25b/01@1",
+          "text": "minimum primary and residual reservations by component family;",
+          "classification": "IMPLEMENTATION",
+          "owner": "Executable implementation and version-governance authors",
+          "blocking": false
+        },
+        {
+          "item_id": "residual://cal0/i7/cal0-q25b/02@1",
+          "text": "maximum number, energy share, and cumulative share of secondary allocations;",
+          "classification": "IMPLEMENTATION",
+          "owner": "Executable implementation and version-governance authors",
+          "blocking": false
+        },
+        {
+          "item_id": "residual://cal0/i7/cal0-q25b/03@1",
+          "text": "evidence and sensitivity thresholds for creating or enlarging an allocation;",
+          "classification": "IMPLEMENTATION",
+          "owner": "Executable implementation and version-governance authors",
+          "blocking": false
+        },
+        {
+          "item_id": "residual://cal0/i7/cal0-q25b/04@1",
+          "text": "versioning and migration rules when an allocation is reduced, retired, or reclassified as primary.",
+          "classification": "IMPLEMENTATION",
+          "owner": "Executable implementation and version-governance authors",
+          "blocking": false
+        }
+      ],
+      "evidence": [
+        "canonical/litrpg-system-calibration-annex.md",
+        "registries/cal0-i3-parameters.json",
+        "manifests/cal0-i7.bundle.json"
+      ]
+    },
+    {
+      "residual_group_id": "residual-group://cal0/i7/cal0-q26b@1",
+      "source_selection_id": "CAL0-Q26B",
+      "classification": "IMPLEMENTATION",
+      "owner": "Executable implementation and version-governance authors",
+      "closure_disposition": "BOUNDED_NONBLOCKING",
+      "boundary": "The active bundle implements or fails closed over the exercised path. This residual becomes mandatory before a future manifest may rely on the wider optional governance or optimisation branch.",
+      "activation_condition": "A successor manifest expands the active reference scope or claims the unresolved surface.",
+      "item_count": 4,
+      "items": [
+        {
+          "item_id": "residual://cal0/i7/cal0-q26b/01@1",
+          "text": "registered loss and materiality measures by mechanism and scenario family;",
+          "classification": "IMPLEMENTATION",
+          "owner": "Executable implementation and version-governance authors",
+          "blocking": false
+        },
+        {
+          "item_id": "residual://cal0/i7/cal0-q26b/02@1",
+          "text": "minimum scenario coverage, stability, and out-of-sample evidence for retention;",
+          "classification": "IMPLEMENTATION",
+          "owner": "Executable implementation and version-governance authors",
+          "blocking": false
+        },
+        {
+          "item_id": "residual://cal0/i7/cal0-q26b/03@1",
+          "text": "review intervals, grace rules, and protected-boundary tolerances;",
+          "classification": "IMPLEMENTATION",
+          "owner": "Executable implementation and version-governance authors",
+          "blocking": false
+        },
+        {
+          "item_id": "residual://cal0/i7/cal0-q26b/04@1",
+          "text": "whether a retired interaction may be reinstated or must receive a new identity.",
+          "classification": "IMPLEMENTATION",
+          "owner": "Executable implementation and version-governance authors",
+          "blocking": false
+        }
+      ],
+      "evidence": [
+        "canonical/litrpg-system-calibration-annex.md",
+        "registries/cal0-i3-parameters.json",
+        "manifests/cal0-i7.bundle.json"
+      ]
+    },
+    {
+      "residual_group_id": "residual-group://cal0/i7/cal0-q27b@1",
+      "source_selection_id": "CAL0-Q27B",
+      "classification": "IMPLEMENTATION",
+      "owner": "Executable implementation and version-governance authors",
+      "closure_disposition": "BOUNDED_NONBLOCKING",
+      "boundary": "The active bundle implements or fails closed over the exercised path. This residual becomes mandatory before a future manifest may rely on the wider optional governance or optimisation branch.",
+      "activation_condition": "A successor manifest expands the active reference scope or claims the unresolved surface.",
+      "item_count": 4,
+      "items": [
+        {
+          "item_id": "residual://cal0/i7/cal0-q27b/01@1",
+          "text": "the objective vocabulary, type-specific comparison operators, and equality tolerances;",
+          "classification": "IMPLEMENTATION",
+          "owner": "Executable implementation and version-governance authors",
+          "blocking": false
+        },
+        {
+          "item_id": "residual://cal0/i7/cal0-q27b/02@1",
+          "text": "permitted transition-family overrides and governance for changing objective order;",
+          "classification": "IMPLEMENTATION",
+          "owner": "Executable implementation and version-governance authors",
+          "blocking": false
+        },
+        {
+          "item_id": "residual://cal0/i7/cal0-q27b/03@1",
+          "text": "treatment of genuinely incomparable objective values before deterministic tie-breaking;",
+          "classification": "IMPLEMENTATION",
+          "owner": "Executable implementation and version-governance authors",
+          "blocking": false
+        },
+        {
+          "item_id": "residual://cal0/i7/cal0-q27b/04@1",
+          "text": "canonical subset-identity construction and cross-version replay rules.",
+          "classification": "IMPLEMENTATION",
+          "owner": "Executable implementation and version-governance authors",
+          "blocking": false
+        }
+      ],
+      "evidence": [
+        "canonical/litrpg-system-calibration-annex.md",
+        "registries/cal0-i3-parameters.json",
+        "manifests/cal0-i7.bundle.json"
+      ]
+    },
+    {
+      "residual_group_id": "residual-group://cal0/i7/cal0-q28b@1",
+      "source_selection_id": "CAL0-Q28B",
+      "classification": "IMPLEMENTATION",
+      "owner": "Executable implementation and version-governance authors",
+      "closure_disposition": "BOUNDED_NONBLOCKING",
+      "boundary": "The active bundle implements or fails closed over the exercised path. This residual becomes mandatory before a future manifest may rely on the wider optional governance or optimisation branch.",
+      "activation_condition": "A successor manifest expands the active reference scope or claims the unresolved surface.",
+      "item_count": 4,
+      "items": [
+        {
+          "item_id": "residual://cal0/i7/cal0-q28b/01@1",
+          "text": "minimum evidence duration, scenario coverage, and ablation stability before a transfer may be proposed;",
+          "classification": "IMPLEMENTATION",
+          "owner": "Executable implementation and version-governance authors",
+          "blocking": false
+        },
+        {
+          "item_id": "residual://cal0/i7/cal0-q28b/02@1",
+          "text": "minimum primary and residual reservations by component family after reallocation;",
+          "classification": "IMPLEMENTATION",
+          "owner": "Executable implementation and version-governance authors",
+          "blocking": false
+        },
+        {
+          "item_id": "residual://cal0/i7/cal0-q28b/03@1",
+          "text": "maximum transfer magnitude and frequency per version lineage;",
+          "classification": "IMPLEMENTATION",
+          "owner": "Executable implementation and version-governance authors",
+          "blocking": false
+        },
+        {
+          "item_id": "residual://cal0/i7/cal0-q28b/04@1",
+          "text": "compatibility, migration-reporting, and deprecation rules for successor parameter sets.",
+          "classification": "IMPLEMENTATION",
+          "owner": "Executable implementation and version-governance authors",
+          "blocking": false
+        }
+      ],
+      "evidence": [
+        "canonical/litrpg-system-calibration-annex.md",
+        "registries/cal0-i3-parameters.json",
+        "manifests/cal0-i7.bundle.json"
+      ]
+    },
+    {
+      "residual_group_id": "residual-group://cal0/i7/cal0-q29b@1",
+      "source_selection_id": "CAL0-Q29B",
+      "classification": "IMPLEMENTATION",
+      "owner": "Executable implementation and version-governance authors",
+      "closure_disposition": "BOUNDED_NONBLOCKING",
+      "boundary": "The active bundle implements or fails closed over the exercised path. This residual becomes mandatory before a future manifest may rely on the wider optional governance or optimisation branch.",
+      "activation_condition": "A successor manifest expands the active reference scope or claims the unresolved surface.",
+      "item_count": 4,
+      "items": [
+        {
+          "item_id": "residual://cal0/i7/cal0-q29b/01@1",
+          "text": "exact scope-lattice precedence where population, life-stage, condition, and scenario refinements intersect;",
+          "classification": "IMPLEMENTATION",
+          "owner": "Executable implementation and version-governance authors",
+          "blocking": false
+        },
+        {
+          "item_id": "residual://cal0/i7/cal0-q29b/02@1",
+          "text": "minimum shared evidence required before a parent binding may be inherited;",
+          "classification": "IMPLEMENTATION",
+          "owner": "Executable implementation and version-governance authors",
+          "blocking": false
+        },
+        {
+          "item_id": "residual://cal0/i7/cal0-q29b/03@1",
+          "text": "partial-pooling rules, uncertainty widening, and multiple-comparison controls;",
+          "classification": "IMPLEMENTATION",
+          "owner": "Executable implementation and version-governance authors",
+          "blocking": false
+        },
+        {
+          "item_id": "residual://cal0/i7/cal0-q29b/04@1",
+          "text": "conflict resolution when two incomparable scope bindings both cover one request.",
+          "classification": "IMPLEMENTATION",
+          "owner": "Executable implementation and version-governance authors",
+          "blocking": false
+        }
+      ],
+      "evidence": [
+        "canonical/litrpg-system-calibration-annex.md",
+        "registries/cal0-i3-parameters.json",
+        "manifests/cal0-i7.bundle.json"
+      ]
+    },
+    {
+      "residual_group_id": "residual-group://cal0/i7/cal0-q30b@1",
+      "source_selection_id": "CAL0-Q30B",
+      "classification": "IMPLEMENTATION",
+      "owner": "Executable implementation and version-governance authors",
+      "closure_disposition": "BOUNDED_NONBLOCKING",
+      "boundary": "The active bundle implements or fails closed over the exercised path. This residual becomes mandatory before a future manifest may rely on the wider optional governance or optimisation branch.",
+      "activation_condition": "A successor manifest expands the active reference scope or claims the unresolved surface.",
+      "item_count": 4,
+      "items": [
+        {
+          "item_id": "residual://cal0/i7/cal0-q30b/01@1",
+          "text": "initial objective vocabulary and type-specific comparison/equality semantics;",
+          "classification": "IMPLEMENTATION",
+          "owner": "Executable implementation and version-governance authors",
+          "blocking": false
+        },
+        {
+          "item_id": "residual://cal0/i7/cal0-q30b/02@1",
+          "text": "permitted family templates and the governance threshold for refinements;",
+          "classification": "IMPLEMENTATION",
+          "owner": "Executable implementation and version-governance authors",
+          "blocking": false
+        },
+        {
+          "item_id": "residual://cal0/i7/cal0-q30b/03@1",
+          "text": "handling of incomparable typed values without collapsing them into scalar utility;",
+          "classification": "IMPLEMENTATION",
+          "owner": "Executable implementation and version-governance authors",
+          "blocking": false
+        },
+        {
+          "item_id": "residual://cal0/i7/cal0-q30b/04@1",
+          "text": "cross-version replay, deprecation, and migration rules for template changes.",
+          "classification": "IMPLEMENTATION",
+          "owner": "Executable implementation and version-governance authors",
+          "blocking": false
+        }
+      ],
+      "evidence": [
+        "canonical/litrpg-system-calibration-annex.md",
+        "registries/cal0-i3-parameters.json",
+        "manifests/cal0-i7.bundle.json"
+      ]
+    },
+    {
+      "residual_group_id": "residual-group://cal0/i7/cal0-q31b@1",
+      "source_selection_id": "CAL0-Q31B",
+      "classification": "IMPLEMENTATION",
+      "owner": "Executable implementation and version-governance authors",
+      "closure_disposition": "BOUNDED_NONBLOCKING",
+      "boundary": "The active bundle implements or fails closed over the exercised path. This residual becomes mandatory before a future manifest may rely on the wider optional governance or optimisation branch.",
+      "activation_condition": "A successor manifest expands the active reference scope or claims the unresolved surface.",
+      "item_count": 4,
+      "items": [
+        {
+          "item_id": "residual://cal0/i7/cal0-q31b/01@1",
+          "text": "stable node, edge, branch, and merge identity construction;",
+          "classification": "IMPLEMENTATION",
+          "owner": "Executable implementation and version-governance authors",
+          "blocking": false
+        },
+        {
+          "item_id": "residual://cal0/i7/cal0-q31b/02@1",
+          "text": "compatibility dimensions, directions, tolerances, and protected observables;",
+          "classification": "IMPLEMENTATION",
+          "owner": "Executable implementation and version-governance authors",
+          "blocking": false
+        },
+        {
+          "item_id": "residual://cal0/i7/cal0-q31b/03@1",
+          "text": "common-ancestor selection and typed conflict resolution where several ancestors exist;",
+          "classification": "IMPLEMENTATION",
+          "owner": "Executable implementation and version-governance authors",
+          "blocking": false
+        },
+        {
+          "item_id": "residual://cal0/i7/cal0-q31b/04@1",
+          "text": "branch activation, review, convergence, deprecation, and orphan-handling rules.",
+          "classification": "IMPLEMENTATION",
+          "owner": "Executable implementation and version-governance authors",
+          "blocking": false
+        }
+      ],
+      "evidence": [
+        "canonical/litrpg-system-calibration-annex.md",
+        "registries/cal0-i3-parameters.json",
+        "manifests/cal0-i7.bundle.json"
+      ]
+    },
+    {
+      "residual_group_id": "residual-group://cal0/i7/cal0-q32b@1",
+      "source_selection_id": "CAL0-Q32B",
+      "classification": "IMPLEMENTATION",
+      "owner": "Executable implementation and version-governance authors",
+      "closure_disposition": "BOUNDED_NONBLOCKING",
+      "boundary": "The active bundle implements or fails closed over the exercised path. This residual becomes mandatory before a future manifest may rely on the wider optional governance or optimisation branch.",
+      "activation_condition": "A successor manifest expands the active reference scope or claims the unresolved surface.",
+      "item_count": 4,
+      "items": [
+        {
+          "item_id": "residual://cal0/i7/cal0-q32b/01@1",
+          "text": "support-distance topology, path composition, and attenuation functions by scope dimension;",
+          "classification": "IMPLEMENTATION",
+          "owner": "Executable implementation and version-governance authors",
+          "blocking": false
+        },
+        {
+          "item_id": "residual://cal0/i7/cal0-q32b/02@1",
+          "text": "transfer-variance floors, per-source and total effective-sample caps, and uncertainty coverage targets;",
+          "classification": "IMPLEMENTATION",
+          "owner": "Executable implementation and version-governance authors",
+          "blocking": false
+        },
+        {
+          "item_id": "residual://cal0/i7/cal0-q32b/03@1",
+          "text": "conflict tests, multiple-source reconciliation, deduplication, and protected-boundary tolerances;",
+          "classification": "IMPLEMENTATION",
+          "owner": "Executable implementation and version-governance authors",
+          "blocking": false
+        },
+        {
+          "item_id": "residual://cal0/i7/cal0-q32b/04@1",
+          "text": "minimum local evidence required before borrowed evidence may influence an active binding.",
+          "classification": "IMPLEMENTATION",
+          "owner": "Executable implementation and version-governance authors",
+          "blocking": false
+        }
+      ],
+      "evidence": [
+        "canonical/litrpg-system-calibration-annex.md",
+        "registries/cal0-i3-parameters.json",
+        "manifests/cal0-i7.bundle.json"
+      ]
+    },
+    {
+      "residual_group_id": "residual-group://cal0/i7/cal0-q33b@1",
+      "source_selection_id": "CAL0-Q33B",
+      "classification": "IMPLEMENTATION",
+      "owner": "Executable implementation and version-governance authors",
+      "closure_disposition": "BOUNDED_NONBLOCKING",
+      "boundary": "The active bundle implements or fails closed over the exercised path. This residual becomes mandatory before a future manifest may rely on the wider optional governance or optimisation branch.",
+      "activation_condition": "A successor manifest expands the active reference scope or claims the unresolved surface.",
+      "item_count": 4,
+      "items": [
+        {
+          "item_id": "residual://cal0/i7/cal0-q33b/01@1",
+          "text": "initial typed comparison relations, equivalence tolerances, and incomparability reasons;",
+          "classification": "IMPLEMENTATION",
+          "owner": "Executable implementation and version-governance authors",
+          "blocking": false
+        },
+        {
+          "item_id": "residual://cal0/i7/cal0-q33b/02@1",
+          "text": "admissible family-resolution rule forms, ordering, invariance requirements, and review governance;",
+          "classification": "IMPLEMENTATION",
+          "owner": "Executable implementation and version-governance authors",
+          "blocking": false
+        },
+        {
+          "item_id": "residual://cal0/i7/cal0-q33b/03@1",
+          "text": "treatment of uncertainty intervals, set-valued objectives, and partially observed values;",
+          "classification": "IMPLEMENTATION",
+          "owner": "Executable implementation and version-governance authors",
+          "blocking": false
+        },
+        {
+          "item_id": "residual://cal0/i7/cal0-q33b/04@1",
+          "text": "canonical tie-break identity and cross-version replay when comparison semantics change.",
+          "classification": "IMPLEMENTATION",
+          "owner": "Executable implementation and version-governance authors",
+          "blocking": false
+        }
+      ],
+      "evidence": [
+        "canonical/litrpg-system-calibration-annex.md",
+        "registries/cal0-i3-parameters.json",
+        "manifests/cal0-i7.bundle.json"
+      ]
+    },
+    {
+      "residual_group_id": "residual-group://cal0/i7/cal0-q34b@1",
+      "source_selection_id": "CAL0-Q34B",
+      "classification": "IMPLEMENTATION",
+      "owner": "Executable implementation and version-governance authors",
+      "closure_disposition": "BOUNDED_NONBLOCKING",
+      "boundary": "The active bundle implements or fails closed over the exercised path. This residual becomes mandatory before a future manifest may rely on the wider optional governance or optimisation branch.",
+      "activation_condition": "A successor manifest expands the active reference scope or claims the unresolved surface.",
+      "item_count": 4,
+      "items": [
+        {
+          "item_id": "residual://cal0/i7/cal0-q34b/01@1",
+          "text": "the minimum protected outputs, mappings, tolerances, and witness suites for each compatibility dimension;",
+          "classification": "IMPLEMENTATION",
+          "owner": "Executable implementation and version-governance authors",
+          "blocking": false
+        },
+        {
+          "item_id": "residual://cal0/i7/cal0-q34b/02@1",
+          "text": "which changes invalidate a claim immediately, place it under review, or remain outside its dependency set;",
+          "classification": "IMPLEMENTATION",
+          "owner": "Executable implementation and version-governance authors",
+          "blocking": false
+        },
+        {
+          "item_id": "residual://cal0/i7/cal0-q34b/03@1",
+          "text": "admissible composition and transitivity proofs, if any, and their maximum scope;",
+          "classification": "IMPLEMENTATION",
+          "owner": "Executable implementation and version-governance authors",
+          "blocking": false
+        },
+        {
+          "item_id": "residual://cal0/i7/cal0-q34b/04@1",
+          "text": "claim expiry, revalidation, and presentation rules for authors and validation tooling.",
+          "classification": "IMPLEMENTATION",
+          "owner": "Executable implementation and version-governance authors",
+          "blocking": false
+        }
+      ],
+      "evidence": [
+        "canonical/litrpg-system-calibration-annex.md",
+        "registries/cal0-i3-parameters.json",
+        "manifests/cal0-i7.bundle.json"
+      ]
+    },
+    {
+      "residual_group_id": "residual-group://cal0/i7/cal0-q35b@1",
+      "source_selection_id": "CAL0-Q35B",
+      "classification": "IMPLEMENTATION",
+      "owner": "Executable implementation and version-governance authors",
+      "closure_disposition": "BOUNDED_NONBLOCKING",
+      "boundary": "The active bundle implements or fails closed over the exercised path. This residual becomes mandatory before a future manifest may rely on the wider optional governance or optimisation branch.",
+      "activation_condition": "A successor manifest expands the active reference scope or claims the unresolved surface.",
+      "item_count": 4,
+      "items": [
+        {
+          "item_id": "residual://cal0/i7/cal0-q35b/01@1",
+          "text": "edge attenuation, transfer-variance, effective-sample ceilings, and maximum path lengths by observable and scope dimension;",
+          "classification": "IMPLEMENTATION",
+          "owner": "Executable implementation and version-governance authors",
+          "blocking": false
+        },
+        {
+          "item_id": "residual://cal0/i7/cal0-q35b/02@1",
+          "text": "canonical edge decomposition and equivalence rules that prevent path-length or path-splitting exploits;",
+          "classification": "IMPLEMENTATION",
+          "owner": "Executable implementation and version-governance authors",
+          "blocking": false
+        },
+        {
+          "item_id": "residual://cal0/i7/cal0-q35b/03@1",
+          "text": "boundary and conflict tests, including whether any protected edge forces a stronger terminal status than `unsupported`;",
+          "classification": "IMPLEMENTATION",
+          "owner": "Executable implementation and version-governance authors",
+          "blocking": false
+        },
+        {
+          "item_id": "residual://cal0/i7/cal0-q35b/04@1",
+          "text": "governed selection and aggregation when several non-dominated admissible paths connect the same source and target.",
+          "classification": "IMPLEMENTATION",
+          "owner": "Executable implementation and version-governance authors",
+          "blocking": false
+        }
+      ],
+      "evidence": [
+        "canonical/litrpg-system-calibration-annex.md",
+        "registries/cal0-i3-parameters.json",
+        "manifests/cal0-i7.bundle.json"
+      ]
+    },
+    {
+      "residual_group_id": "residual-group://cal0/i7/cal0-q36b@1",
+      "source_selection_id": "CAL0-Q36B",
+      "classification": "IMPLEMENTATION",
+      "owner": "Executable implementation and version-governance authors",
+      "closure_disposition": "BOUNDED_NONBLOCKING",
+      "boundary": "The active bundle implements or fails closed over the exercised path. This residual becomes mandatory before a future manifest may rely on the wider optional governance or optimisation branch.",
+      "activation_condition": "A successor manifest expands the active reference scope or claims the unresolved surface.",
+      "item_count": 4,
+      "items": [
+        {
+          "item_id": "residual://cal0/i7/cal0-q36b/01@1",
+          "text": "the first registered predicate vocabulary, permitted input types, and transition-family templates;",
+          "classification": "IMPLEMENTATION",
+          "owner": "Executable implementation and version-governance authors",
+          "blocking": false
+        },
+        {
+          "item_id": "residual://cal0/i7/cal0-q36b/02@1",
+          "text": "non-emptiness, monotonicity, renaming, unit, perturbation, and lower-priority invariance fixtures;",
+          "classification": "IMPLEMENTATION",
+          "owner": "Executable implementation and version-governance authors",
+          "blocking": false
+        },
+        {
+          "item_id": "residual://cal0/i7/cal0-q36b/03@1",
+          "text": "handling of partially observed predicate inputs and observer-specific uncertainty without changing the latent outcome;",
+          "classification": "IMPLEMENTATION",
+          "owner": "Executable implementation and version-governance authors",
+          "blocking": false
+        },
+        {
+          "item_id": "residual://cal0/i7/cal0-q36b/04@1",
+          "text": "review, retirement, and migration rules when a predicate or cascade version fails validation.",
+          "classification": "IMPLEMENTATION",
+          "owner": "Executable implementation and version-governance authors",
+          "blocking": false
+        }
+      ],
+      "evidence": [
+        "canonical/litrpg-system-calibration-annex.md",
+        "registries/cal0-i3-parameters.json",
+        "manifests/cal0-i7.bundle.json"
+      ]
+    },
+    {
+      "residual_group_id": "residual-group://cal0/i7/cal0-q37b@1",
+      "source_selection_id": "CAL0-Q37B",
+      "classification": "IMPLEMENTATION",
+      "owner": "Executable implementation and version-governance authors",
+      "closure_disposition": "BOUNDED_NONBLOCKING",
+      "boundary": "The active bundle implements or fails closed over the exercised path. This residual becomes mandatory before a future manifest may rely on the wider optional governance or optimisation branch.",
+      "activation_condition": "A successor manifest expands the active reference scope or claims the unresolved surface.",
+      "item_count": 4,
+      "items": [
+        {
+          "item_id": "residual://cal0/i7/cal0-q37b/01@1",
+          "text": "the typed dependency vocabulary, transitive-closure rules, and semantic fingerprint construction;",
+          "classification": "IMPLEMENTATION",
+          "owner": "Executable implementation and version-governance authors",
+          "blocking": false
+        },
+        {
+          "item_id": "residual://cal0/i7/cal0-q37b/02@1",
+          "text": "which change classes make each dependency unaffected, stale, or immediately invalid;",
+          "classification": "IMPLEMENTATION",
+          "owner": "Executable implementation and version-governance authors",
+          "blocking": false
+        },
+        {
+          "item_id": "residual://cal0/i7/cal0-q37b/03@1",
+          "text": "revalidation witness coverage, expiry, review, and failure-to-verdict rules by compatibility dimension;",
+          "classification": "IMPLEMENTATION",
+          "owner": "Executable implementation and version-governance authors",
+          "blocking": false
+        },
+        {
+          "item_id": "residual://cal0/i7/cal0-q37b/04@1",
+          "text": "presentation rules distinguishing current evidence, stale evidence, invalidated semantics, incompatibility, and lack of support.",
+          "classification": "IMPLEMENTATION",
+          "owner": "Executable implementation and version-governance authors",
+          "blocking": false
+        }
+      ],
+      "evidence": [
+        "canonical/litrpg-system-calibration-annex.md",
+        "registries/cal0-i3-parameters.json",
+        "manifests/cal0-i7.bundle.json"
+      ]
+    },
+    {
+      "residual_group_id": "residual-group://cal0/i7/cal0-q38b@1",
+      "source_selection_id": "CAL0-Q38B",
+      "classification": "IMPLEMENTATION",
+      "owner": "Executable implementation and version-governance authors",
+      "closure_disposition": "BOUNDED_NONBLOCKING",
+      "boundary": "The active bundle implements or fails closed over the exercised path. This residual becomes mandatory before a future manifest may rely on the wider optional governance or optimisation branch.",
+      "activation_condition": "A successor manifest expands the active reference scope or claims the unresolved surface.",
+      "item_count": 4,
+      "items": [
+        {
+          "item_id": "residual://cal0/i7/cal0-q38b/01@1",
+          "text": "path-dominance relations, canonical route equivalence, and maximum retained-path budgets by observable;",
+          "classification": "IMPLEMENTATION",
+          "owner": "Executable implementation and version-governance authors",
+          "blocking": false
+        },
+        {
+          "item_id": "residual://cal0/i7/cal0-q38b/02@1",
+          "text": "event, source, edge, witness, and causal-ancestor overlap representation;",
+          "classification": "IMPLEMENTATION",
+          "owner": "Executable implementation and version-governance authors",
+          "blocking": false
+        },
+        {
+          "item_id": "residual://cal0/i7/cal0-q38b/03@1",
+          "text": "conservative dependence aggregation, corroboration credit, uncertainty widening, and effective-sample ceilings;",
+          "classification": "IMPLEMENTATION",
+          "owner": "Executable implementation and version-governance authors",
+          "blocking": false
+        },
+        {
+          "item_id": "residual://cal0/i7/cal0-q38b/04@1",
+          "text": "conflict propagation, pre-outcome path freezing, and sensitivity tests against graph densification or edge splitting.",
+          "classification": "IMPLEMENTATION",
+          "owner": "Executable implementation and version-governance authors",
+          "blocking": false
+        }
+      ],
+      "evidence": [
+        "canonical/litrpg-system-calibration-annex.md",
+        "registries/cal0-i3-parameters.json",
+        "manifests/cal0-i7.bundle.json"
+      ]
+    },
+    {
+      "residual_group_id": "residual-group://cal0/i7/cal0-q39b@1",
+      "source_selection_id": "CAL0-Q39B",
+      "classification": "IMPLEMENTATION",
+      "owner": "Executable implementation and version-governance authors",
+      "closure_disposition": "BOUNDED_NONBLOCKING",
+      "boundary": "The active bundle implements or fails closed over the exercised path. This residual becomes mandatory before a future manifest may rely on the wider optional governance or optimisation branch.",
+      "activation_condition": "A successor manifest expands the active reference scope or claims the unresolved surface.",
+      "item_count": 4,
+      "items": [
+        {
+          "item_id": "residual://cal0/i7/cal0-q39b/01@1",
+          "text": "the initial predicate type vocabulary, registry namespaces, and authorised transition-family templates;",
+          "classification": "IMPLEMENTATION",
+          "owner": "Executable implementation and version-governance authors",
+          "blocking": false
+        },
+        {
+          "item_id": "residual://cal0/i7/cal0-q39b/02@1",
+          "text": "formal non-emptiness, monotonicity, perturbation, liveness, and cross-predicate composition fixtures;",
+          "classification": "IMPLEMENTATION",
+          "owner": "Executable implementation and version-governance authors",
+          "blocking": false
+        },
+        {
+          "item_id": "residual://cal0/i7/cal0-q39b/03@1",
+          "text": "governance thresholds for registration, restriction, retirement, replacement, and family-template evolution;",
+          "classification": "IMPLEMENTATION",
+          "owner": "Executable implementation and version-governance authors",
+          "blocking": false
+        },
+        {
+          "item_id": "residual://cal0/i7/cal0-q39b/04@1",
+          "text": "behavioural compatibility and replay rules across predicate and template versions.",
+          "classification": "IMPLEMENTATION",
+          "owner": "Executable implementation and version-governance authors",
+          "blocking": false
+        }
+      ],
+      "evidence": [
+        "canonical/litrpg-system-calibration-annex.md",
+        "registries/cal0-i3-parameters.json",
+        "manifests/cal0-i7.bundle.json"
+      ]
+    },
+    {
+      "residual_group_id": "residual-group://cal0/i7/cal0-q40b@1",
+      "source_selection_id": "CAL0-Q40B",
+      "classification": "IMPLEMENTATION",
+      "owner": "Executable implementation and version-governance authors",
+      "closure_disposition": "BOUNDED_NONBLOCKING",
+      "boundary": "The active bundle implements or fails closed over the exercised path. This residual becomes mandatory before a future manifest may rely on the wider optional governance or optimisation branch.",
+      "activation_condition": "A successor manifest expands the active reference scope or claims the unresolved surface.",
+      "item_count": 4,
+      "items": [
+        {
+          "item_id": "residual://cal0/i7/cal0-q40b/01@1",
+          "text": "the first semantic-facet, dependency-edge, and successor-change vocabularies;",
+          "classification": "IMPLEMENTATION",
+          "owner": "Executable implementation and version-governance authors",
+          "blocking": false
+        },
+        {
+          "item_id": "residual://cal0/i7/cal0-q40b/02@1",
+          "text": "canonical projection, fingerprint, equivalence, and atomic-bundle rules;",
+          "classification": "IMPLEMENTATION",
+          "owner": "Executable implementation and version-governance authors",
+          "blocking": false
+        },
+        {
+          "item_id": "residual://cal0/i7/cal0-q40b/03@1",
+          "text": "the complete typed impact table and cross-edge composition witnesses;",
+          "classification": "IMPLEMENTATION",
+          "owner": "Executable implementation and version-governance authors",
+          "blocking": false
+        },
+        {
+          "item_id": "residual://cal0/i7/cal0-q40b/04@1",
+          "text": "claim-specific revalidation planning, explanation presentation, and change-set review thresholds.",
+          "classification": "IMPLEMENTATION",
+          "owner": "Executable implementation and version-governance authors",
+          "blocking": false
+        }
+      ],
+      "evidence": [
+        "canonical/litrpg-system-calibration-annex.md",
+        "registries/cal0-i3-parameters.json",
+        "manifests/cal0-i7.bundle.json"
+      ]
+    },
+    {
+      "residual_group_id": "residual-group://cal0/i7/cal0-q41b@1",
+      "source_selection_id": "CAL0-Q41B",
+      "classification": "IMPLEMENTATION",
+      "owner": "Executable implementation and version-governance authors",
+      "closure_disposition": "BOUNDED_NONBLOCKING",
+      "boundary": "The active bundle implements or fails closed over the exercised path. This residual becomes mandatory before a future manifest may rely on the wider optional governance or optimisation branch.",
+      "activation_condition": "A successor manifest expands the active reference scope or claims the unresolved surface.",
+      "item_count": 4,
+      "items": [
+        {
+          "item_id": "residual://cal0/i7/cal0-q41b/01@1",
+          "text": "the first provenance-node types, equivalence rules, and graph-construction contracts;",
+          "classification": "IMPLEMENTATION",
+          "owner": "Executable implementation and version-governance authors",
+          "blocking": false
+        },
+        {
+          "item_id": "residual://cal0/i7/cal0-q41b/02@1",
+          "text": "overlap-to-bound compilation, unknown-dependence defaults, and PSD-feasibility rules;",
+          "classification": "IMPLEMENTATION",
+          "owner": "Executable implementation and version-governance authors",
+          "blocking": false
+        },
+        {
+          "item_id": "residual://cal0/i7/cal0-q41b/03@1",
+          "text": "path-weight, source-cap, structural-uncertainty, and effective-support policies;",
+          "classification": "IMPLEMENTATION",
+          "owner": "Executable implementation and version-governance authors",
+          "blocking": false
+        },
+        {
+          "item_id": "residual://cal0/i7/cal0-q41b/04@1",
+          "text": "solver precision, worst-case dependence search, and graph-densification sensitivity fixtures.",
+          "classification": "IMPLEMENTATION",
+          "owner": "Executable implementation and version-governance authors",
+          "blocking": false
+        }
+      ],
+      "evidence": [
+        "canonical/litrpg-system-calibration-annex.md",
+        "registries/cal0-i3-parameters.json",
+        "manifests/cal0-i7.bundle.json"
+      ]
+    },
+    {
+      "residual_group_id": "residual-group://cal0/i7/cal0-q42b@1",
+      "source_selection_id": "CAL0-Q42B",
+      "classification": "IMPLEMENTATION",
+      "owner": "Executable implementation and version-governance authors",
+      "closure_disposition": "BOUNDED_NONBLOCKING",
+      "boundary": "The active bundle implements or fails closed over the exercised path. This residual becomes mandatory before a future manifest may rely on the wider optional governance or optimisation branch.",
+      "activation_condition": "A successor manifest expands the active reference scope or claims the unresolved surface.",
+      "item_count": 4,
+      "items": [
+        {
+          "item_id": "residual://cal0/i7/cal0-q42b/01@1",
+          "text": "the initial behavioural-compatibility dimensions, allowed implications, and scope vocabulary;",
+          "classification": "IMPLEMENTATION",
+          "owner": "Executable implementation and version-governance authors",
+          "blocking": false
+        },
+        {
+          "item_id": "residual://cal0/i7/cal0-q42b/02@1",
+          "text": "mandatory regression, boundary, metamorphic, differential, and composition witness suites;",
+          "classification": "IMPLEMENTATION",
+          "owner": "Executable implementation and version-governance authors",
+          "blocking": false
+        },
+        {
+          "item_id": "residual://cal0/i7/cal0-q42b/03@1",
+          "text": "activation, restriction, retirement, invalidation, rollback, and replacement authority thresholds;",
+          "classification": "IMPLEMENTATION",
+          "owner": "Executable implementation and version-governance authors",
+          "blocking": false
+        },
+        {
+          "item_id": "residual://cal0/i7/cal0-q42b/04@1",
+          "text": "template-upgrade, deprecation-window, diagnostic migration, and long-term replay-retention rules.",
+          "classification": "IMPLEMENTATION",
+          "owner": "Executable implementation and version-governance authors",
+          "blocking": false
+        }
+      ],
+      "evidence": [
+        "canonical/litrpg-system-calibration-annex.md",
+        "registries/cal0-i3-parameters.json",
+        "manifests/cal0-i7.bundle.json"
+      ]
+    },
+    {
+      "residual_group_id": "residual-group://cal0/i7/cal0-q43b@1",
+      "source_selection_id": "CAL0-Q43B",
+      "classification": "IMPLEMENTATION",
+      "owner": "Executable implementation and version-governance authors",
+      "closure_disposition": "BOUNDED_NONBLOCKING",
+      "boundary": "The active bundle implements or fails closed over the exercised path. This residual becomes mandatory before a future manifest may rely on the wider optional governance or optimisation branch.",
+      "activation_condition": "A successor manifest expands the active reference scope or claims the unresolved surface.",
+      "item_count": 4,
+      "items": [
+        {
+          "item_id": "residual://cal0/i7/cal0-q43b/01@1",
+          "text": "the initial typed schema and facet-projection registry, including ordered, unordered, absent, default, unit, decimal, and executable representations;",
+          "classification": "IMPLEMENTATION",
+          "owner": "Executable implementation and version-governance authors",
+          "blocking": false
+        },
+        {
+          "item_id": "residual://cal0/i7/cal0-q43b/02@1",
+          "text": "digest algorithms, canonical encodings, collision response, independent canonicalisation witnesses, and algorithm-migration rules;",
+          "classification": "IMPLEMENTATION",
+          "owner": "Executable implementation and version-governance authors",
+          "blocking": false
+        },
+        {
+          "item_id": "residual://cal0/i7/cal0-q43b/03@1",
+          "text": "typed cross-version facet-equivalence contracts and when a changed facet is stale, invalid, or behaviour-preserving;",
+          "classification": "IMPLEMENTATION",
+          "owner": "Executable implementation and version-governance authors",
+          "blocking": false
+        },
+        {
+          "item_id": "residual://cal0/i7/cal0-q43b/04@1",
+          "text": "authoring views, explanation granularity, storage policy, and historical retention for semantic and representation fingerprints.",
+          "classification": "IMPLEMENTATION",
+          "owner": "Executable implementation and version-governance authors",
+          "blocking": false
+        }
+      ],
+      "evidence": [
+        "canonical/litrpg-system-calibration-annex.md",
+        "registries/cal0-i3-parameters.json",
+        "manifests/cal0-i7.bundle.json"
+      ]
+    },
+    {
+      "residual_group_id": "residual-group://cal0/i7/cal0-q44b@1",
+      "source_selection_id": "CAL0-Q44B",
+      "classification": "IMPLEMENTATION",
+      "owner": "Executable implementation and version-governance authors",
+      "closure_disposition": "BOUNDED_NONBLOCKING",
+      "boundary": "The active bundle implements or fails closed over the exercised path. This residual becomes mandatory before a future manifest may rely on the wider optional governance or optimisation branch.",
+      "activation_condition": "A successor manifest expands the active reference scope or claims the unresolved surface.",
+      "item_count": 4,
+      "items": [
+        {
+          "item_id": "residual://cal0/i7/cal0-q44b/01@1",
+          "text": "the initial overlap taxonomy, typed rule grammar, precedence, interval-composition semantics, and conservative unknown-dependence defaults;",
+          "classification": "IMPLEMENTATION",
+          "owner": "Executable implementation and version-governance authors",
+          "blocking": false
+        },
+        {
+          "item_id": "residual://cal0/i7/cal0-q44b/02@1",
+          "text": "evidence standards and bounds for event, cohort, process, instrument, institution, witness, mechanism, and ancestry relationships;",
+          "classification": "IMPLEMENTATION",
+          "owner": "Executable implementation and version-governance authors",
+          "blocking": false
+        },
+        {
+          "item_id": "residual://cal0/i7/cal0-q44b/03@1",
+          "text": "PSD-feasibility solver, precision, conflict-core extraction, worst-case optimisation, and numerical reproducibility contracts;",
+          "classification": "IMPLEMENTATION",
+          "owner": "Executable implementation and version-governance authors",
+          "blocking": false
+        },
+        {
+          "item_id": "residual://cal0/i7/cal0-q44b/04@1",
+          "text": "registry review, scope restriction, successor-version, graph-refactoring, and sensitivity requirements.",
+          "classification": "IMPLEMENTATION",
+          "owner": "Executable implementation and version-governance authors",
+          "blocking": false
+        }
+      ],
+      "evidence": [
+        "canonical/litrpg-system-calibration-annex.md",
+        "registries/cal0-i3-parameters.json",
+        "manifests/cal0-i7.bundle.json"
+      ]
+    },
+    {
+      "residual_group_id": "residual-group://cal0/i7/cal0-q45b@1",
+      "source_selection_id": "CAL0-Q45B",
+      "classification": "IMPLEMENTATION",
+      "owner": "Executable implementation and version-governance authors",
+      "closure_disposition": "BOUNDED_NONBLOCKING",
+      "boundary": "The active bundle implements or fails closed over the exercised path. This residual becomes mandatory before a future manifest may rely on the wider optional governance or optimisation branch.",
+      "activation_condition": "A successor manifest expands the active reference scope or claims the unresolved surface.",
+      "item_count": 4,
+      "items": [
+        {
+          "item_id": "residual://cal0/i7/cal0-q45b/01@1",
+          "text": "the exact behavioural dimensions, subdimensions, scope language, verdict predicates, and protected inputs, outputs, traces, and diagnostics;",
+          "classification": "IMPLEMENTATION",
+          "owner": "Executable implementation and version-governance authors",
+          "blocking": false
+        },
+        {
+          "item_id": "residual://cal0/i7/cal0-q45b/02@1",
+          "text": "the first registered implication and composition rules, including proof obligations and prohibited inferences;",
+          "classification": "IMPLEMENTATION",
+          "owner": "Executable implementation and version-governance authors",
+          "blocking": false
+        },
+        {
+          "item_id": "residual://cal0/i7/cal0-q45b/03@1",
+          "text": "conflict, restriction, staleness, invalidity, expiry, revalidation, and presentation rules for profile cells;",
+          "classification": "IMPLEMENTATION",
+          "owner": "Executable implementation and version-governance authors",
+          "blocking": false
+        },
+        {
+          "item_id": "residual://cal0/i7/cal0-q45b/04@1",
+          "text": "witness coverage, boundary partitions, tolerance semantics, manifest bindings, and long-term executable replay retention.",
+          "classification": "IMPLEMENTATION",
+          "owner": "Executable implementation and version-governance authors",
+          "blocking": false
+        }
+      ],
+      "evidence": [
+        "canonical/litrpg-system-calibration-annex.md",
+        "registries/cal0-i3-parameters.json",
+        "manifests/cal0-i7.bundle.json"
+      ]
+    },
+    {
+      "residual_group_id": "residual-group://cal0/i7/cal0-q46b@1",
+      "source_selection_id": "CAL0-Q46B",
+      "classification": "IMPLEMENTATION",
+      "owner": "Executable implementation and version-governance authors",
+      "closure_disposition": "BOUNDED_NONBLOCKING",
+      "boundary": "The active bundle implements or fails closed over the exercised path. This residual becomes mandatory before a future manifest may rely on the wider optional governance or optimisation branch.",
+      "activation_condition": "A successor manifest expands the active reference scope or claims the unresolved surface.",
+      "item_count": 4,
+      "items": [
+        {
+          "item_id": "residual://cal0/i7/cal0-q46b/01@1",
+          "text": "the first schema language, primitive-type registry, semantic-role vocabulary, facet-assignment rules, and domain-override boundaries;",
+          "classification": "IMPLEMENTATION",
+          "owner": "Executable implementation and version-governance authors",
+          "blocking": false
+        },
+        {
+          "item_id": "residual://cal0/i7/cal0-q46b/02@1",
+          "text": "compiler determinism, totality, independent implementation, golden-vector, fuzz, and cross-platform conformance suites;",
+          "classification": "IMPLEMENTATION",
+          "owner": "Executable implementation and version-governance authors",
+          "blocking": false
+        },
+        {
+          "item_id": "residual://cal0/i7/cal0-q46b/03@1",
+          "text": "equivalence-migration direction, invertibility, round-trip, loss, scope, and facet-specific evidence standards;",
+          "classification": "IMPLEMENTATION",
+          "owner": "Executable implementation and version-governance authors",
+          "blocking": false
+        },
+        {
+          "item_id": "residual://cal0/i7/cal0-q46b/04@1",
+          "text": "schema, primitive, compiler, and migration activation, restriction, retirement, invalidation, and replay-retention governance.",
+          "classification": "IMPLEMENTATION",
+          "owner": "Executable implementation and version-governance authors",
+          "blocking": false
+        }
+      ],
+      "evidence": [
+        "canonical/litrpg-system-calibration-annex.md",
+        "registries/cal0-i3-parameters.json",
+        "manifests/cal0-i7.bundle.json"
+      ]
+    },
+    {
+      "residual_group_id": "residual-group://cal0/i7/cal0-q47b@1",
+      "source_selection_id": "CAL0-Q47B",
+      "classification": "IMPLEMENTATION",
+      "owner": "Executable implementation and version-governance authors",
+      "closure_disposition": "BOUNDED_NONBLOCKING",
+      "boundary": "The active bundle implements or fails closed over the exercised path. This residual becomes mandatory before a future manifest may rely on the wider optional governance or optimisation branch.",
+      "activation_condition": "A successor manifest expands the active reference scope or claims the unresolved surface.",
+      "item_count": 4,
+      "items": [
+        {
+          "item_id": "residual://cal0/i7/cal0-q47b/01@1",
+          "text": "the complete atomic constraint language, canonical expansion rules, variable mappings, and semantic equivalence treatment;",
+          "classification": "IMPLEMENTATION",
+          "owner": "Executable implementation and version-governance authors",
+          "blocking": false
+        },
+        {
+          "item_id": "residual://cal0/i7/cal0-q47b/02@1",
+          "text": "certified feasibility, PSD, interval, precision, residual, solver-independence, and cross-platform reproducibility contracts;",
+          "classification": "IMPLEMENTATION",
+          "owner": "Executable implementation and version-governance authors",
+          "blocking": false
+        },
+        {
+          "item_id": "residual://cal0/i7/cal0-q47b/03@1",
+          "text": "irreducible and bounded conflict-core extraction, deterministic core ranking, explanation, and authoring diagnostics;",
+          "classification": "IMPLEMENTATION",
+          "owner": "Executable implementation and version-governance authors",
+          "blocking": false
+        },
+        {
+          "item_id": "residual://cal0/i7/cal0-q47b/04@1",
+          "text": "conservative-refinement proofs and the governance of withdrawal, weakening, rescoping, correction, replacement, and sensitivity reruns.",
+          "classification": "IMPLEMENTATION",
+          "owner": "Executable implementation and version-governance authors",
+          "blocking": false
+        }
+      ],
+      "evidence": [
+        "canonical/litrpg-system-calibration-annex.md",
+        "registries/cal0-i3-parameters.json",
+        "manifests/cal0-i7.bundle.json"
+      ]
+    },
+    {
+      "residual_group_id": "residual-group://cal0/i7/cal0-q48b@1",
+      "source_selection_id": "CAL0-Q48B",
+      "classification": "IMPLEMENTATION",
+      "owner": "Executable implementation and version-governance authors",
+      "closure_disposition": "BOUNDED_NONBLOCKING",
+      "boundary": "The active bundle implements or fails closed over the exercised path. This residual becomes mandatory before a future manifest may rely on the wider optional governance or optimisation branch.",
+      "activation_condition": "A successor manifest expands the active reference scope or claims the unresolved surface.",
+      "item_count": 4,
+      "items": [
+        {
+          "item_id": "residual://cal0/i7/cal0-q48b/01@1",
+          "text": "the first admissible implication and composition constructors for each behavioural dimension and direction;",
+          "classification": "IMPLEMENTATION",
+          "owner": "Executable implementation and version-governance authors",
+          "blocking": false
+        },
+        {
+          "item_id": "residual://cal0/i7/cal0-q48b/02@1",
+          "text": "scope intersection, restriction, exclusion, tolerance, counterexample, evidence-strength, and lifecycle propagation laws;",
+          "classification": "IMPLEMENTATION",
+          "owner": "Executable implementation and version-governance authors",
+          "blocking": false
+        },
+        {
+          "item_id": "residual://cal0/i7/cal0-q48b/03@1",
+          "text": "proof-DAG canonicalisation, cycle rejection, minimal explanation, cache invalidation, and manifest-binding rules;",
+          "classification": "IMPLEMENTATION",
+          "owner": "Executable implementation and version-governance authors",
+          "blocking": false
+        },
+        {
+          "item_id": "residual://cal0/i7/cal0-q48b/04@1",
+          "text": "rule registration, differential and composition witness coverage, algebra-version compatibility, retirement, and long-term proof replay.",
+          "classification": "IMPLEMENTATION",
+          "owner": "Executable implementation and version-governance authors",
+          "blocking": false
+        }
+      ],
+      "evidence": [
+        "canonical/litrpg-system-calibration-annex.md",
+        "registries/cal0-i3-parameters.json",
+        "manifests/cal0-i7.bundle.json"
+      ]
+    },
+    {
+      "residual_group_id": "residual-group://cal0/i7/cal0-q49b@1",
+      "source_selection_id": "CAL0-Q49B",
+      "classification": "IMPLEMENTATION",
+      "owner": "Executable implementation and version-governance authors",
+      "closure_disposition": "BOUNDED_NONBLOCKING",
+      "boundary": "The active bundle implements or fails closed over the exercised path. This residual becomes mandatory before a future manifest may rely on the wider optional governance or optimisation branch.",
+      "activation_condition": "A successor manifest expands the active reference scope or claims the unresolved surface.",
+      "item_count": 4,
+      "items": [
+        {
+          "item_id": "residual://cal0/i7/cal0-q49b/01@1",
+          "text": "the evolution-node types, impact classes, facet-dependency vocabulary, closure algorithm, and unknown-impact failure policy;",
+          "classification": "IMPLEMENTATION",
+          "owner": "Executable implementation and version-governance authors",
+          "blocking": false
+        },
+        {
+          "item_id": "residual://cal0/i7/cal0-q49b/02@1",
+          "text": "conformance-contract grammar, admitted bundle combinations, independent compiler witnesses, and cross-platform reproducibility requirements;",
+          "classification": "IMPLEMENTATION",
+          "owner": "Executable implementation and version-governance authors",
+          "blocking": false
+        },
+        {
+          "item_id": "residual://cal0/i7/cal0-q49b/03@1",
+          "text": "single- and multi-parent proposal, conflict-resolution, atomic activation, restriction, retirement, rollback, and invalidation governance;",
+          "classification": "IMPLEMENTATION",
+          "owner": "Executable implementation and version-governance authors",
+          "blocking": false
+        },
+        {
+          "item_id": "residual://cal0/i7/cal0-q49b/04@1",
+          "text": "migration-obligation matrices, historical executable retention, graph compaction, and long-term replay support.",
+          "classification": "IMPLEMENTATION",
+          "owner": "Executable implementation and version-governance authors",
+          "blocking": false
+        }
+      ],
+      "evidence": [
+        "canonical/litrpg-system-calibration-annex.md",
+        "registries/cal0-i3-parameters.json",
+        "manifests/cal0-i7.bundle.json"
+      ]
+    },
+    {
+      "residual_group_id": "residual-group://cal0/i7/cal0-q50b@1",
+      "source_selection_id": "CAL0-Q50B",
+      "classification": "IMPLEMENTATION",
+      "owner": "Executable implementation and version-governance authors",
+      "closure_disposition": "BOUNDED_NONBLOCKING",
+      "boundary": "The active bundle implements or fails closed over the exercised path. This residual becomes mandatory before a future manifest may rely on the wider optional governance or optimisation branch.",
+      "activation_condition": "A successor manifest expands the active reference scope or claims the unresolved surface.",
+      "item_count": 4,
+      "items": [
+        {
+          "item_id": "residual://cal0/i7/cal0-q50b/01@1",
+          "text": "type-specific evidence standards, authority thresholds, review roles, and correction-versus-relaxation classification tests;",
+          "classification": "IMPLEMENTATION",
+          "owner": "Executable implementation and version-governance authors",
+          "blocking": false
+        },
+        {
+          "item_id": "residual://cal0/i7/cal0-q50b/02@1",
+          "text": "feasible-set mapping, set-difference approximation, worst-case output, effective-support, factor-identity, and uncertainty-delta methods;",
+          "classification": "IMPLEMENTATION",
+          "owner": "Executable implementation and version-governance authors",
+          "blocking": false
+        },
+        {
+          "item_id": "residual://cal0/i7/cal0-q50b/03@1",
+          "text": "split and rescope exhaustiveness, overlap, boundary, fallback, and ungoverned-gap rules;",
+          "classification": "IMPLEMENTATION",
+          "owner": "Executable implementation and version-governance authors",
+          "blocking": false
+        },
+        {
+          "item_id": "residual://cal0/i7/cal0-q50b/04@1",
+          "text": "competing-repair comparison, activation, appeal, supersession, model-rejection, and historical-retention governance.",
+          "classification": "IMPLEMENTATION",
+          "owner": "Executable implementation and version-governance authors",
+          "blocking": false
+        }
+      ],
+      "evidence": [
+        "canonical/litrpg-system-calibration-annex.md",
+        "registries/cal0-i3-parameters.json",
+        "manifests/cal0-i7.bundle.json"
+      ]
+    },
+    {
+      "residual_group_id": "residual-group://cal0/i7/cal0-q51b@1",
+      "source_selection_id": "CAL0-Q51B",
+      "classification": "IMPLEMENTATION",
+      "owner": "Executable implementation and version-governance authors",
+      "closure_disposition": "BOUNDED_NONBLOCKING",
+      "boundary": "The active bundle implements or fails closed over the exercised path. This residual becomes mandatory before a future manifest may rely on the wider optional governance or optimisation branch.",
+      "activation_condition": "A successor manifest expands the active reference scope or claims the unresolved surface.",
+      "item_count": 4,
+      "items": [
+        {
+          "item_id": "residual://cal0/i7/cal0-q51b/01@1",
+          "text": "proof-object schema, canonical DAG identity, semantic deduplication, minimal explanation, and direct-versus-derived evidence presentation;",
+          "classification": "IMPLEMENTATION",
+          "owner": "Executable implementation and version-governance authors",
+          "blocking": false
+        },
+        {
+          "item_id": "residual://cal0/i7/cal0-q51b/02@1",
+          "text": "dimension-specific strength partial orders, corroboration ceilings, shared-evidence treatment, and tolerance-composition laws;",
+          "classification": "IMPLEMENTATION",
+          "owner": "Executable implementation and version-governance authors",
+          "blocking": false
+        },
+        {
+          "item_id": "residual://cal0/i7/cal0-q51b/03@1",
+          "text": "dependency-impact, stale, invalid, conflicted, restricted, superseded, revalidated, and retired lifecycle propagation;",
+          "classification": "IMPLEMENTATION",
+          "owner": "Executable implementation and version-governance authors",
+          "blocking": false
+        },
+        {
+          "item_id": "residual://cal0/i7/cal0-q51b/04@1",
+          "text": "proof storage, incremental revalidation, manifest binding, executable replay retention, and governed compaction.",
+          "classification": "IMPLEMENTATION",
+          "owner": "Executable implementation and version-governance authors",
+          "blocking": false
+        }
+      ],
+      "evidence": [
+        "canonical/litrpg-system-calibration-annex.md",
+        "registries/cal0-i3-parameters.json",
+        "manifests/cal0-i7.bundle.json"
+      ]
+    },
+    {
+      "residual_group_id": "residual-group://cal0/i7/cal0-q52b@1",
+      "source_selection_id": "CAL0-Q52B",
+      "classification": "IMPLEMENTATION",
+      "owner": "Executable implementation and version-governance authors",
+      "closure_disposition": "BOUNDED_NONBLOCKING",
+      "boundary": "The active bundle implements or fails closed over the exercised path. This residual becomes mandatory before a future manifest may rely on the wider optional governance or optimisation branch.",
+      "activation_condition": "A successor manifest expands the active reference scope or claims the unresolved surface.",
+      "item_count": 4,
+      "items": [
+        {
+          "item_id": "residual://cal0/i7/cal0-q52b/01@1",
+          "text": "maximal-common-base discovery, facet-specific comparison-base selection, criss-cross ancestry, and canonical virtual-base rules;",
+          "classification": "IMPLEMENTATION",
+          "owner": "Executable implementation and version-governance authors",
+          "blocking": false
+        },
+        {
+          "item_id": "residual://cal0/i7/cal0-q52b/02@1",
+          "text": "conflict classes, interaction promotion, resolution types, authority, evidence thresholds, and exhaustive scope-partition tests;",
+          "classification": "IMPLEMENTATION",
+          "owner": "Executable implementation and version-governance authors",
+          "blocking": false
+        },
+        {
+          "item_id": "residual://cal0/i7/cal0-q52b/03@1",
+          "text": "merged impact-closure compilation, bundle witness matrices, atomic activation, rollback, and failed-merge retention;",
+          "classification": "IMPLEMENTATION",
+          "owner": "Executable implementation and version-governance authors",
+          "blocking": false
+        },
+        {
+          "item_id": "residual://cal0/i7/cal0-q52b/04@1",
+          "text": "convergence identity, compatibility claims to each parent, repeated merges, graph compaction, and long-term branch replay.",
+          "classification": "IMPLEMENTATION",
+          "owner": "Executable implementation and version-governance authors",
+          "blocking": false
+        }
+      ],
+      "evidence": [
+        "canonical/litrpg-system-calibration-annex.md",
+        "registries/cal0-i3-parameters.json",
+        "manifests/cal0-i7.bundle.json"
+      ]
+    },
+    {
+      "residual_group_id": "residual-group://cal0/i7/cal0-q53b@1",
+      "source_selection_id": "CAL0-Q53B",
+      "classification": "IMPLEMENTATION",
+      "owner": "Executable implementation and version-governance authors",
+      "closure_disposition": "BOUNDED_NONBLOCKING",
+      "boundary": "The active bundle implements or fails closed over the exercised path. This residual becomes mandatory before a future manifest may rely on the wider optional governance or optimisation branch.",
+      "activation_condition": "A successor manifest expands the active reference scope or claims the unresolved surface.",
+      "item_count": 4,
+      "items": [
+        {
+          "item_id": "residual://cal0/i7/cal0-q53b/01@1",
+          "text": "non-compensable gate vocabularies, evidence cutoffs, protected-meaning thresholds, disclosure standards, and missing-data policy;",
+          "classification": "IMPLEMENTATION",
+          "owner": "Executable implementation and version-governance authors",
+          "blocking": false
+        },
+        {
+          "item_id": "residual://cal0/i7/cal0-q53b/02@1",
+          "text": "repair-type comparison constructors, dominance witnesses, incomparable dimensions, canonical frontier identity, and perturbation tests;",
+          "classification": "IMPLEMENTATION",
+          "owner": "Executable implementation and version-governance authors",
+          "blocking": false
+        },
+        {
+          "item_id": "residual://cal0/i7/cal0-q53b/03@1",
+          "text": "selection authority, mandate, rationale schema, conflict-of-interest controls, appeal, reconsideration, and successor-decision governance;",
+          "classification": "IMPLEMENTATION",
+          "owner": "Executable implementation and version-governance authors",
+          "blocking": false
+        },
+        {
+          "item_id": "residual://cal0/i7/cal0-q53b/04@1",
+          "text": "counterfactual retention, downstream monitoring, manifest binding, frontier compaction, and long-term audit presentation.",
+          "classification": "IMPLEMENTATION",
+          "owner": "Executable implementation and version-governance authors",
+          "blocking": false
+        }
+      ],
+      "evidence": [
+        "canonical/litrpg-system-calibration-annex.md",
+        "registries/cal0-i3-parameters.json",
+        "manifests/cal0-i7.bundle.json"
+      ]
+    },
+    {
+      "residual_group_id": "residual-group://cal0/i7/cal0-q54b@1",
+      "source_selection_id": "CAL0-Q54B",
+      "classification": "IMPLEMENTATION",
+      "owner": "Executable implementation and version-governance authors",
+      "closure_disposition": "BOUNDED_NONBLOCKING",
+      "boundary": "The active bundle implements or fails closed over the exercised path. This residual becomes mandatory before a future manifest may rely on the wider optional governance or optimisation branch.",
+      "activation_condition": "A successor manifest expands the active reference scope or claims the unresolved surface.",
+      "item_count": 4,
+      "items": [
+        {
+          "item_id": "residual://cal0/i7/cal0-q54b/01@1",
+          "text": "semantic change-batch schema, snapshot isolation, impact closure, minimal-frontier construction, topological scheduling, and cycle policy;",
+          "classification": "IMPLEMENTATION",
+          "owner": "Executable implementation and version-governance authors",
+          "blocking": false
+        },
+        {
+          "item_id": "residual://cal0/i7/cal0-q54b/02@1",
+          "text": "content-addressed subproof identity, context equality, lifecycle admissibility, deduplication, and proof-reuse eligibility;",
+          "classification": "IMPLEMENTATION",
+          "owner": "Executable implementation and version-governance authors",
+          "blocking": false
+        },
+        {
+          "item_id": "residual://cal0/i7/cal0-q54b/03@1",
+          "text": "staged successor creation, atomic dependency-closed commit, interruption recovery, concurrent batches, and supersession topology;",
+          "classification": "IMPLEMENTATION",
+          "owner": "Executable implementation and version-governance authors",
+          "blocking": false
+        },
+        {
+          "item_id": "residual://cal0/i7/cal0-q54b/04@1",
+          "text": "revalidation budgets, prioritisation, failed-batch retention, manifest migration, graph compaction, and replay-service requirements.",
+          "classification": "IMPLEMENTATION",
+          "owner": "Executable implementation and version-governance authors",
+          "blocking": false
+        }
+      ],
+      "evidence": [
+        "canonical/litrpg-system-calibration-annex.md",
+        "registries/cal0-i3-parameters.json",
+        "manifests/cal0-i7.bundle.json"
+      ]
+    },
+    {
+      "residual_group_id": "residual-group://cal0/i7/cal0-q55b@1",
+      "source_selection_id": "CAL0-Q55B",
+      "classification": "IMPLEMENTATION",
+      "owner": "Executable implementation and version-governance authors",
+      "closure_disposition": "BOUNDED_NONBLOCKING",
+      "boundary": "The active bundle implements or fails closed over the exercised path. This residual becomes mandatory before a future manifest may rely on the wider optional governance or optimisation branch.",
+      "activation_condition": "A successor manifest expands the active reference scope or claims the unresolved surface.",
+      "item_count": 4,
+      "items": [
+        {
+          "item_id": "residual://cal0/i7/cal0-q55b/01@1",
+          "text": "typed maximal-common-ancestor discovery, criss-cross graph validation, missing-history policy, and canonical graph-snapshot identity;",
+          "classification": "IMPLEMENTATION",
+          "owner": "Executable implementation and version-governance authors",
+          "blocking": false
+        },
+        {
+          "item_id": "residual://cal0/i7/cal0-q55b/02@1",
+          "text": "facet-state antichain representation, equivalence and subsumption witnesses, scope projection, restrictions, and conflict classification;",
+          "classification": "IMPLEMENTATION",
+          "owner": "Executable implementation and version-governance authors",
+          "blocking": false
+        },
+        {
+          "item_id": "residual://cal0/i7/cal0-q55b/03@1",
+          "text": "multi-base delta compilation, interaction promotion, virtual-base lifecycle, invalidation, succession, and reuse eligibility;",
+          "classification": "IMPLEMENTATION",
+          "owner": "Executable implementation and version-governance authors",
+          "blocking": false
+        },
+        {
+          "item_id": "residual://cal0/i7/cal0-q55b/04@1",
+          "text": "comparison-artifact storage, explanation, compaction, manifest binding, and long-term convergence replay.",
+          "classification": "IMPLEMENTATION",
+          "owner": "Executable implementation and version-governance authors",
+          "blocking": false
+        }
+      ],
+      "evidence": [
+        "canonical/litrpg-system-calibration-annex.md",
+        "registries/cal0-i3-parameters.json",
+        "manifests/cal0-i7.bundle.json"
+      ]
+    },
+    {
+      "residual_group_id": "residual-group://cal0/i7/cal0-q56b@1",
+      "source_selection_id": "CAL0-Q56B",
+      "classification": "IMPLEMENTATION",
+      "owner": "Executable implementation and version-governance authors",
+      "closure_disposition": "BOUNDED_NONBLOCKING",
+      "boundary": "The active bundle implements or fails closed over the exercised path. This residual becomes mandatory before a future manifest may rely on the wider optional governance or optimisation branch.",
+      "activation_condition": "A successor manifest expands the active reference scope or claims the unresolved surface.",
+      "item_count": 4,
+      "items": [
+        {
+          "item_id": "residual://cal0/i7/cal0-q56b/01@1",
+          "text": "standing, grounds, materiality, evidence-admission, mandate, timeliness, conflict-of-interest, and emergency-suspension rules;",
+          "classification": "IMPLEMENTATION",
+          "owner": "Executable implementation and version-governance authors",
+          "blocking": false
+        },
+        {
+          "item_id": "residual://cal0/i7/cal0-q56b/02@1",
+          "text": "successor-frontier compilation, candidate carry-forward, corrected-evidence treatment, comparison-law changes, and differential witnesses;",
+          "classification": "IMPLEMENTATION",
+          "owner": "Executable implementation and version-governance authors",
+          "blocking": false
+        },
+        {
+          "item_id": "residual://cal0/i7/cal0-q56b/03@1",
+          "text": "affirm, supersede, narrow, suspend, remand, and reject effects; effective-scope and effective-time semantics;",
+          "classification": "IMPLEMENTATION",
+          "owner": "Executable implementation and version-governance authors",
+          "blocking": false
+        },
+        {
+          "item_id": "residual://cal0/i7/cal0-q56b/04@1",
+          "text": "concurrent appeals, episode-lineage topology, manifest migration, notification, retention, compaction, and historical replay.",
+          "classification": "IMPLEMENTATION",
+          "owner": "Executable implementation and version-governance authors",
+          "blocking": false
+        }
+      ],
+      "evidence": [
+        "canonical/litrpg-system-calibration-annex.md",
+        "registries/cal0-i3-parameters.json",
+        "manifests/cal0-i7.bundle.json"
+      ]
+    },
+    {
+      "residual_group_id": "residual-group://cal0/i7/cal0-q57b@1",
+      "source_selection_id": "CAL0-Q57B",
+      "classification": "IMPLEMENTATION",
+      "owner": "Executable implementation and version-governance authors",
+      "closure_disposition": "BOUNDED_NONBLOCKING",
+      "boundary": "The active bundle implements or fails closed over the exercised path. This residual becomes mandatory before a future manifest may rely on the wider optional governance or optimisation branch.",
+      "activation_condition": "A successor manifest expands the active reference scope or claims the unresolved surface.",
+      "item_count": 4,
+      "items": [
+        {
+          "item_id": "residual://cal0/i7/cal0-q57b/01@1",
+          "text": "snapshot and graph-root schema, isolation level, dependency and registry guards, read visibility, and manifest-admission boundary;",
+          "classification": "IMPLEMENTATION",
+          "owner": "Executable implementation and version-governance authors",
+          "blocking": false
+        },
+        {
+          "item_id": "residual://cal0/i7/cal0-q57b/02@1",
+          "text": "staging namespace, obligation closure, worker scheduling, witness caching, resource budgets, and failed-stage retention;",
+          "classification": "IMPLEMENTATION",
+          "owner": "Executable implementation and version-governance authors",
+          "blocking": false
+        },
+        {
+          "item_id": "residual://cal0/i7/cal0-q57b/03@1",
+          "text": "atomic publication mechanism, idempotency key, crash recovery, audit log, garbage collection, rollback, and supersession indexing;",
+          "classification": "IMPLEMENTATION",
+          "owner": "Executable implementation and version-governance authors",
+          "blocking": false
+        },
+        {
+          "item_id": "residual://cal0/i7/cal0-q57b/04@1",
+          "text": "overlapping and disjoint concurrent batches, conflict detection, serialisation, deterministic rebase, starvation, and long-term replay service.",
+          "classification": "IMPLEMENTATION",
+          "owner": "Executable implementation and version-governance authors",
+          "blocking": false
+        }
+      ],
+      "evidence": [
+        "canonical/litrpg-system-calibration-annex.md",
+        "registries/cal0-i3-parameters.json",
+        "manifests/cal0-i7.bundle.json"
+      ]
+    },
+    {
+      "residual_group_id": "residual-group://cal0/i7/cal0-q58b@1",
+      "source_selection_id": "CAL0-Q58B",
+      "classification": "IMPLEMENTATION",
+      "owner": "Executable implementation and version-governance authors",
+      "closure_disposition": "BOUNDED_NONBLOCKING",
+      "boundary": "The active bundle implements or fails closed over the exercised path. This residual becomes mandatory before a future manifest may rely on the wider optional governance or optimisation branch.",
+      "activation_condition": "A successor manifest expands the active reference scope or claims the unresolved surface.",
+      "item_count": 4,
+      "items": [
+        {
+          "item_id": "residual://cal0/i7/cal0-q58b/01@1",
+          "text": "protected comparison-query vocabularies, typed answer equivalence, boundary completeness, subsumption, and multi-state coverage rules;",
+          "classification": "IMPLEMENTATION",
+          "owner": "Executable implementation and version-governance authors",
+          "blocking": false
+        },
+        {
+          "item_id": "residual://cal0/i7/cal0-q58b/02@1",
+          "text": "canonical reduction selection, partial compaction, minimum useful reduction, proof search budgets, and denial-of-service limits;",
+          "classification": "IMPLEMENTATION",
+          "owner": "Executable implementation and version-governance authors",
+          "blocking": false
+        },
+        {
+          "item_id": "residual://cal0/i7/cal0-q58b/03@1",
+          "text": "reversible recovery maps, content retention, certificate composition, lifecycle propagation, revalidation, and successor topology;",
+          "classification": "IMPLEMENTATION",
+          "owner": "Executable implementation and version-governance authors",
+          "blocking": false
+        },
+        {
+          "item_id": "residual://cal0/i7/cal0-q58b/04@1",
+          "text": "explanation expansion, audit presentation, storage compaction, manifest binding, long-term availability, and garbage-collection prohibitions.",
+          "classification": "IMPLEMENTATION",
+          "owner": "Executable implementation and version-governance authors",
+          "blocking": false
+        }
+      ],
+      "evidence": [
+        "canonical/litrpg-system-calibration-annex.md",
+        "registries/cal0-i3-parameters.json",
+        "manifests/cal0-i7.bundle.json"
+      ]
+    },
+    {
+      "residual_group_id": "residual-group://cal0/i7/cal0-q59b@1",
+      "source_selection_id": "CAL0-Q59B",
+      "classification": "IMPLEMENTATION",
+      "owner": "Executable implementation and version-governance authors",
+      "closure_disposition": "BOUNDED_NONBLOCKING",
+      "boundary": "The active bundle implements or fails closed over the exercised path. This residual becomes mandatory before a future manifest may rely on the wider optional governance or optimisation branch.",
+      "activation_condition": "A successor manifest expands the active reference scope or claims the unresolved surface.",
+      "item_count": 4,
+      "items": [
+        {
+          "item_id": "residual://cal0/i7/cal0-q59b/01@1",
+          "text": "standing classes, represented interests, authority credentials, jurisdiction, mandate, timeliness, waiver, and conflict-of-interest rules;",
+          "classification": "IMPLEMENTATION",
+          "owner": "Executable implementation and version-governance authors",
+          "blocking": false
+        },
+        {
+          "item_id": "residual://cal0/i7/cal0-q59b/02@1",
+          "text": "typed grounds, provenance thresholds, materiality witnesses, protected dimensions, duplicate identity, and abuse controls;",
+          "classification": "IMPLEMENTATION",
+          "owner": "Executable implementation and version-governance authors",
+          "blocking": false
+        },
+        {
+          "item_id": "residual://cal0/i7/cal0-q59b/03@1",
+          "text": "affirmance, supersession, narrowing, suspension, remand, rejection, dismissal, withdrawal, and emergency-effect semantics;",
+          "classification": "IMPLEMENTATION",
+          "owner": "Executable implementation and version-governance authors",
+          "blocking": false
+        },
+        {
+          "item_id": "residual://cal0/i7/cal0-q59b/04@1",
+          "text": "concurrent and consolidated requests, notice, participation, deadlines, effective boundaries, manifest admission, and historical-use review.",
+          "classification": "IMPLEMENTATION",
+          "owner": "Executable implementation and version-governance authors",
+          "blocking": false
+        }
+      ],
+      "evidence": [
+        "canonical/litrpg-system-calibration-annex.md",
+        "registries/cal0-i3-parameters.json",
+        "manifests/cal0-i7.bundle.json"
+      ]
+    },
+    {
+      "residual_group_id": "residual-group://cal0/i7/cal0-q60b@1",
+      "source_selection_id": "CAL0-Q60B",
+      "classification": "IMPLEMENTATION",
+      "owner": "Executable implementation and version-governance authors",
+      "closure_disposition": "BOUNDED_NONBLOCKING",
+      "boundary": "The active bundle implements or fails closed over the exercised path. This residual becomes mandatory before a future manifest may rely on the wider optional governance or optimisation branch.",
+      "activation_condition": "A successor manifest expands the active reference scope or claims the unresolved surface.",
+      "item_count": 4,
+      "items": [
+        {
+          "item_id": "residual://cal0/i7/cal0-q60b/01@1",
+          "text": "semantic read/write/guard key schema, dependency closure, alias normalisation, scope intersection, and conservative unknown handling;",
+          "classification": "IMPLEMENTATION",
+          "owner": "Executable implementation and version-governance authors",
+          "blocking": false
+        },
+        {
+          "item_id": "residual://cal0/i7/cal0-q60b/02@1",
+          "text": "admission index, lock or certification mechanism, disjointness witnesses, deadlock avoidance, fairness, starvation, priority, and resource budgets;",
+          "classification": "IMPLEMENTATION",
+          "owner": "Executable implementation and version-governance authors",
+          "blocking": false
+        },
+        {
+          "item_id": "residual://cal0/i7/cal0-q60b/03@1",
+          "text": "intervening-delta calculation, deterministic rebase identity, reusable-stage eligibility, obligation replay, and order-invariant root composition;",
+          "classification": "IMPLEMENTATION",
+          "owner": "Executable implementation and version-governance authors",
+          "blocking": false
+        },
+        {
+          "item_id": "residual://cal0/i7/cal0-q60b/04@1",
+          "text": "conflict retention, retry limits, crash recovery, monitoring, manifest admission, distributed implementation, and long-term serialisability witnesses.",
+          "classification": "IMPLEMENTATION",
+          "owner": "Executable implementation and version-governance authors",
+          "blocking": false
+        }
+      ],
+      "evidence": [
+        "canonical/litrpg-system-calibration-annex.md",
+        "registries/cal0-i3-parameters.json",
+        "manifests/cal0-i7.bundle.json"
+      ]
+    },
+    {
+      "residual_group_id": "residual-group://cal0/i7/cal0-q61b@1",
+      "source_selection_id": "CAL0-Q61B",
+      "classification": "IMPLEMENTATION",
+      "owner": "Executable implementation and version-governance authors",
+      "closure_disposition": "BOUNDED_NONBLOCKING",
+      "boundary": "The active bundle implements or fails closed over the exercised path. This residual becomes mandatory before a future manifest may rely on the wider optional governance or optimisation branch.",
+      "activation_condition": "A successor manifest expands the active reference scope or claims the unresolved surface.",
+      "item_count": 4,
+      "items": [
+        {
+          "item_id": "residual://cal0/i7/cal0-q61b/01@1",
+          "text": "certificate-node and composition-edge schemas, canonical DAG identity, facet compatibility, path normalisation, cycle detection, and duplicate-route handling;",
+          "classification": "IMPLEMENTATION",
+          "owner": "Executable implementation and version-governance authors",
+          "blocking": false
+        },
+        {
+          "item_id": "residual://cal0/i7/cal0-q61b/02@1",
+          "text": "protected-query closure, scope intersection, weakest-authority and evidence ceilings, restriction accumulation, recovery composition, and conflict semantics;",
+          "classification": "IMPLEMENTATION",
+          "owner": "Executable implementation and version-governance authors",
+          "blocking": false
+        },
+        {
+          "item_id": "residual://cal0/i7/cal0-q61b/03@1",
+          "text": "checkpoint admission thresholds, independent end-to-end witness suites, checkpoint placement, refresh, succession, invalidation, and replay budgets;",
+          "classification": "IMPLEMENTATION",
+          "owner": "Executable implementation and version-governance authors",
+          "blocking": false
+        },
+        {
+          "item_id": "residual://cal0/i7/cal0-q61b/04@1",
+          "text": "premise retention, recovery service, explanation expansion, dependency indexing, DAG compaction, denial-of-service controls, and long-term availability.",
+          "classification": "IMPLEMENTATION",
+          "owner": "Executable implementation and version-governance authors",
+          "blocking": false
+        }
+      ],
+      "evidence": [
+        "canonical/litrpg-system-calibration-annex.md",
+        "registries/cal0-i3-parameters.json",
+        "manifests/cal0-i7.bundle.json"
+      ]
+    },
+    {
+      "residual_group_id": "residual-group://cal0/i7/cal0-q62b@1",
+      "source_selection_id": "CAL0-Q62B",
+      "classification": "IMPLEMENTATION",
+      "owner": "Executable implementation and version-governance authors",
+      "closure_disposition": "BOUNDED_NONBLOCKING",
+      "boundary": "The active bundle implements or fails closed over the exercised path. This residual becomes mandatory before a future manifest may rely on the wider optional governance or optimisation branch.",
+      "activation_condition": "A successor manifest expands the active reference scope or claims the unresolved surface.",
+      "item_count": 4,
+      "items": [
+        {
+          "item_id": "residual://cal0/i7/cal0-q62b/01@1",
+          "text": "appeal semantic identity, participant retention, evidence deduplication, relation vocabulary, dependency closure, component identity, and frozen-snapshot rules;",
+          "classification": "IMPLEMENTATION",
+          "owner": "Executable implementation and version-governance authors",
+          "blocking": false
+        },
+        {
+          "item_id": "residual://cal0/i7/cal0-q62b/02@1",
+          "text": "compatible, competing, and conflicting remedy algebra; scope, time, mandate, jurisdiction, authority, and participation-right intersections;",
+          "classification": "IMPLEMENTATION",
+          "owner": "Executable implementation and version-governance authors",
+          "blocking": false
+        },
+        {
+          "item_id": "residual://cal0/i7/cal0-q62b/03@1",
+          "text": "consolidation, severance, coordinated review, remand, adjudication, atomic publication, deadlines, stays, fairness, and starvation controls;",
+          "classification": "IMPLEMENTATION",
+          "owner": "Executable implementation and version-governance authors",
+          "blocking": false
+        },
+        {
+          "item_id": "residual://cal0/i7/cal0-q62b/04@1",
+          "text": "late requests, successor dockets, notice, explanation, manifest-admission boundaries, historical-use review, retention, and long-term procedural replay.",
+          "classification": "IMPLEMENTATION",
+          "owner": "Executable implementation and version-governance authors",
+          "blocking": false
+        }
+      ],
+      "evidence": [
+        "canonical/litrpg-system-calibration-annex.md",
+        "registries/cal0-i3-parameters.json",
+        "manifests/cal0-i7.bundle.json"
+      ]
+    },
+    {
+      "residual_group_id": "residual-group://cal0/i7/cal0-q63b@1",
+      "source_selection_id": "CAL0-Q63B",
+      "classification": "IMPLEMENTATION",
+      "owner": "Executable implementation and version-governance authors",
+      "closure_disposition": "BOUNDED_NONBLOCKING",
+      "boundary": "The active bundle implements or fails closed over the exercised path. This residual becomes mandatory before a future manifest may rely on the wider optional governance or optimisation branch.",
+      "activation_condition": "A successor manifest expands the active reference scope or claims the unresolved surface.",
+      "item_count": 4,
+      "items": [
+        {
+          "item_id": "residual://cal0/i7/cal0-q63b/01@1",
+          "text": "base-access vocabulary, semantic-root and facet atom schema, access modes, negative obligations, alias closure, and transitive policy closure;",
+          "classification": "IMPLEMENTATION",
+          "owner": "Executable implementation and version-governance authors",
+          "blocking": false
+        },
+        {
+          "item_id": "residual://cal0/i7/cal0-q63b/02@1",
+          "text": "scope algebra, intersection certificates, conservative unknown atoms, conflict indexing, canonical explanations, and deterministic digest construction;",
+          "classification": "IMPLEMENTATION",
+          "owner": "Executable implementation and version-governance authors",
+          "blocking": false
+        },
+        {
+          "item_id": "residual://cal0/i7/cal0-q63b/03@1",
+          "text": "compiler soundness, completeness envelopes, monotone-conservatism, metamorphic refactoring, known-conflict corpora, liveness metrics, and performance budgets;",
+          "classification": "IMPLEMENTATION",
+          "owner": "Executable implementation and version-governance authors",
+          "blocking": false
+        },
+        {
+          "item_id": "residual://cal0/i7/cal0-q63b/04@1",
+          "text": "compiler evolution, compatibility and differential witnesses, staged-batch invalidation, guard-index migration, distributed admission, audit, and historical replay.",
+          "classification": "IMPLEMENTATION",
+          "owner": "Executable implementation and version-governance authors",
+          "blocking": false
+        }
+      ],
+      "evidence": [
+        "canonical/litrpg-system-calibration-annex.md",
+        "registries/cal0-i3-parameters.json",
+        "manifests/cal0-i7.bundle.json"
+      ]
+    },
+    {
+      "residual_group_id": "residual-group://cal0/i7/cal0-q64b@1",
+      "source_selection_id": "CAL0-Q64B",
+      "classification": "IMPLEMENTATION",
+      "owner": "Executable implementation and version-governance authors",
+      "closure_disposition": "BOUNDED_NONBLOCKING",
+      "boundary": "The active bundle implements or fails closed over the exercised path. This residual becomes mandatory before a future manifest may rely on the wider optional governance or optimisation branch.",
+      "activation_condition": "A successor manifest expands the active reference scope or claims the unresolved surface.",
+      "item_count": 4,
+      "items": [
+        {
+          "item_id": "residual://cal0/i7/cal0-q64b/01@1",
+          "text": "workload-manifest schema, benchmark isolation, cost dimensions, confidence rules, minimum-benefit frontiers, placement candidates, and stopping boundaries;",
+          "classification": "IMPLEMENTATION",
+          "owner": "Executable implementation and version-governance authors",
+          "blocking": false
+        },
+        {
+          "item_id": "residual://cal0/i7/cal0-q64b/02@1",
+          "text": "end-to-end protected-query closure, non-loss corpus, explanation and recovery equivalence, perturbation coverage, and adversarial reference implementations;",
+          "classification": "IMPLEMENTATION",
+          "owner": "Executable implementation and version-governance authors",
+          "blocking": false
+        },
+        {
+          "item_id": "residual://cal0/i7/cal0-q64b/03@1",
+          "text": "facet-impact mapping, lifecycle states, renewal frontier, unaffected-subproof reuse, successor identity, expiry, retirement, and historical replay;",
+          "classification": "IMPLEMENTATION",
+          "owner": "Executable implementation and version-governance authors",
+          "blocking": false
+        },
+        {
+          "item_id": "residual://cal0/i7/cal0-q64b/04@1",
+          "text": "checkpoint index, admission cadence, storage and compute budgets, eviction, denial-of-service controls, observability, and long-term dependency availability.",
+          "classification": "IMPLEMENTATION",
+          "owner": "Executable implementation and version-governance authors",
+          "blocking": false
+        }
+      ],
+      "evidence": [
+        "canonical/litrpg-system-calibration-annex.md",
+        "registries/cal0-i3-parameters.json",
+        "manifests/cal0-i7.bundle.json"
+      ]
+    },
+    {
+      "residual_group_id": "residual-group://cal0/i7/cal0-q65b@1",
+      "source_selection_id": "CAL0-Q65B",
+      "classification": "IMPLEMENTATION",
+      "owner": "Executable implementation and version-governance authors",
+      "closure_disposition": "BOUNDED_NONBLOCKING",
+      "boundary": "The active bundle implements or fails closed over the exercised path. This residual becomes mandatory before a future manifest may rely on the wider optional governance or optimisation branch.",
+      "activation_condition": "A successor manifest expands the active reference scope or claims the unresolved surface.",
+      "item_count": 4,
+      "items": [
+        {
+          "item_id": "residual://cal0/i7/cal0-q65b/01@1",
+          "text": "authority-source, standing, mandate, jurisdiction, delegation, concurrence, recusal, conflict, participation, and remedy schemas;",
+          "classification": "IMPLEMENTATION",
+          "owner": "Executable implementation and version-governance authors",
+          "blocking": false
+        },
+        {
+          "item_id": "residual://cal0/i7/cal0-q65b/02@1",
+          "text": "dimension-specific lattice relations, implication and composition rules, scope and time algebra, unknown handling, and deterministic conflict classification;",
+          "classification": "IMPLEMENTATION",
+          "owner": "Executable implementation and version-governance authors",
+          "blocking": false
+        },
+        {
+          "item_id": "residual://cal0/i7/cal0-q65b/03@1",
+          "text": "coordination, severance, remand, interim protection, review, adjudicator admission, dissent, deadlock, fairness, deadline, and starvation controls;",
+          "classification": "IMPLEMENTATION",
+          "owner": "Executable implementation and version-governance authors",
+          "blocking": false
+        },
+        {
+          "item_id": "residual://cal0/i7/cal0-q65b/04@1",
+          "text": "mandate evolution, succession, notice, historical-use review, explanation, registry governance, audit, retention, and procedural replay.",
+          "classification": "IMPLEMENTATION",
+          "owner": "Executable implementation and version-governance authors",
+          "blocking": false
+        }
+      ],
+      "evidence": [
+        "canonical/litrpg-system-calibration-annex.md",
+        "registries/cal0-i3-parameters.json",
+        "manifests/cal0-i7.bundle.json"
+      ]
+    },
+    {
+      "residual_group_id": "residual-group://cal0/i7/cal0-q66b@1",
+      "source_selection_id": "CAL0-Q66B",
+      "classification": "IMPLEMENTATION",
+      "owner": "Executable implementation and version-governance authors",
+      "closure_disposition": "BOUNDED_NONBLOCKING",
+      "boundary": "The active bundle implements or fails closed over the exercised path. This residual becomes mandatory before a future manifest may rely on the wider optional governance or optimisation branch.",
+      "activation_condition": "A successor manifest expands the active reference scope or claims the unresolved surface.",
+      "item_count": 4,
+      "items": [
+        {
+          "item_id": "residual://cal0/i7/cal0-q66b/01@1",
+          "text": "quotient-class and compound-atom schemas, typed equivalence envelopes, operation interaction tables, scope-cover proofs, reverse expansion, and canonical identity;",
+          "classification": "IMPLEMENTATION",
+          "owner": "Executable implementation and version-governance authors",
+          "blocking": false
+        },
+        {
+          "item_id": "residual://cal0/i7/cal0-q66b/02@1",
+          "text": "reference conflict compiler, protected explanation equivalence, finite and generated witness corpora, unknown boundaries, and completeness claims;",
+          "classification": "IMPLEMENTATION",
+          "owner": "Executable implementation and version-governance authors",
+          "blocking": false
+        },
+        {
+          "item_id": "residual://cal0/i7/cal0-q66b/03@1",
+          "text": "quotient search, certificate construction, incremental invalidation, fallback, staged-batch handling, index migration, and distributed admission;",
+          "classification": "IMPLEMENTATION",
+          "owner": "Executable implementation and version-governance authors",
+          "blocking": false
+        },
+        {
+          "item_id": "residual://cal0/i7/cal0-q66b/04@1",
+          "text": "liveness and compression metrics, performance budgets, adversarial collision generation, monitoring, retention, audit, and historical explanation replay.",
+          "classification": "IMPLEMENTATION",
+          "owner": "Executable implementation and version-governance authors",
+          "blocking": false
+        }
+      ],
+      "evidence": [
+        "canonical/litrpg-system-calibration-annex.md",
+        "registries/cal0-i3-parameters.json",
+        "manifests/cal0-i7.bundle.json"
+      ]
+    },
+    {
+      "residual_group_id": "residual-group://cal0/i7/rare-soul-prevalence@1",
+      "source_selection_id": "parameter://cal0/unresolved/rare-soul-prevalence@1",
+      "classification": "SETTING_CONTENT",
+      "owner": "Setting design",
+      "closure_disposition": "BOUNDED_NONBLOCKING",
+      "boundary": "No population claim may infer this prevalence from generated outliers. A setting version must author it before a world population uses it.",
+      "activation_condition": "A story, population model, or institution requires a numerical prevalence.",
+      "item_count": 1,
+      "items": [
+        {
+          "item_id": "residual://cal0/i7/rare-soul-prevalence@1",
+          "text": "Rare-Soul prevalence",
+          "classification": "SETTING_CONTENT",
+          "owner": "Setting design",
+          "blocking": false
+        }
+      ],
+      "evidence": [
+        "registries/cal0-i3-parameters.json",
+        "registries/cal0-i4-parameter-assessment.json",
+        "registries/cal0-i6-decision-resolution.json"
+      ]
+    },
+    {
+      "residual_group_id": "residual-group://cal0/i7/ordinary-prenatal-consciousness@1",
+      "source_selection_id": "parameter://cal0/unresolved/prenatal-consciousness-distribution@1",
+      "classification": "SETTING_CONTENT",
+      "owner": "Setting design",
+      "closure_disposition": "BOUNDED_NONBLOCKING",
+      "boundary": "The protagonist's reincarnate continuity remains a separate scenario mechanism. Ordinary cohorts assume no directed prenatal System practice unless a setting version states otherwise.",
+      "activation_condition": "Ordinary prenatal awareness becomes relevant to a plot, culture, or population model.",
+      "item_count": 1,
+      "items": [
+        {
+          "item_id": "residual://cal0/i7/ordinary-prenatal-consciousness@1",
+          "text": "Ordinary prenatal-consciousness distribution",
+          "classification": "SETTING_CONTENT",
+          "owner": "Setting design",
+          "blocking": false
+        }
+      ],
+      "evidence": [
+        "registries/cal0-i3-parameters.json",
+        "registries/cal0-i4-parameter-assessment.json",
+        "registries/cal0-i6-decision-resolution.json"
+      ]
+    },
+    {
+      "residual_group_id": "residual-group://cal0/i7/cross-species-scale@1",
+      "source_selection_id": "parameter://cal0/unresolved/cross-species-scale@1",
+      "classification": "FUTURE_OPTIONAL_EXTENSION",
+      "owner": "Species-extension design",
+      "closure_disposition": "BOUNDED_NONBLOCKING",
+      "boundary": "Human-reference values cannot be extrapolated into a nonhuman species. A species-specific extension must declare morphology, life course, anchors, and comparison evidence.",
+      "activation_condition": "A nonhuman species requires numerical sheets or population calibration.",
+      "item_count": 1,
+      "items": [
+        {
+          "item_id": "residual://cal0/i7/cross-species-scale@1",
+          "text": "Cross-species absolute-capacity scale",
+          "classification": "FUTURE_OPTIONAL_EXTENSION",
+          "owner": "Species-extension design",
+          "blocking": false
+        }
+      ],
+      "evidence": [
+        "registries/cal0-i3-parameters.json",
+        "registries/cal0-i4-parameter-assessment.json",
+        "registries/cal0-i6-decision-resolution.json"
+      ]
+    },
+    {
+      "residual_group_id": "residual-group://cal0/i7/injury-incidence@1",
+      "source_selection_id": "parameter://cal0/unresolved/injury-incidence@1",
+      "classification": "CALIBRATION",
+      "owner": "Population-calibration authors",
+      "closure_disposition": "BOUNDED_NONBLOCKING",
+      "boundary": "The I4 rate is a sensitivity-tested trial input, not an empirical world estimate. New populations must pin their own exposure model and rerun survivorship envelopes.",
+      "activation_condition": "A setting population makes quantitative injury, disability, or survivorship claims.",
+      "item_count": 1,
+      "items": [
+        {
+          "item_id": "residual://cal0/i7/injury-incidence@1",
+          "text": "World injury incidence",
+          "classification": "CALIBRATION",
+          "owner": "Population-calibration authors",
+          "blocking": false
+        }
+      ],
+      "evidence": [
+        "registries/cal0-i3-parameters.json",
+        "registries/cal0-i4-parameter-assessment.json",
+        "registries/cal0-i6-decision-resolution.json"
+      ]
+    },
+    {
+      "residual_group_id": "residual-group://cal0/i7/rarity-distribution@1",
+      "source_selection_id": "parameter://cal0/unresolved/rarity-distribution@1",
+      "classification": "SETTING_CONTENT",
+      "owner": "Setting design, consumed by population calibration",
+      "closure_disposition": "BOUNDED_NONBLOCKING",
+      "boundary": "Rarity labels remain typed and scope-specific. A setting version must author eligible denominators and evidence before a population distribution is claimed.",
+      "activation_condition": "The story or a population model needs numerical rarity proportions.",
+      "item_count": 1,
+      "items": [
+        {
+          "item_id": "residual://cal0/i7/rarity-distribution@1",
+          "text": "Rarity distribution",
+          "classification": "SETTING_CONTENT",
+          "owner": "Setting design, consumed by population calibration",
+          "blocking": false
+        }
+      ],
+      "evidence": [
+        "registries/cal0-i3-parameters.json",
+        "registries/cal0-i4-parameter-assessment.json",
+        "registries/cal0-i6-decision-resolution.json"
+      ]
+    }
+  ],
+  "soul_multiplier_disposition": {
+    "historical_parameter_id": "parameter://cal0/unresolved/protagonist-long-term-soul-multiplier@1",
+    "i6_active_projection_id": "parameter://cal0/protagonist/long-term-soul-multiplier@1",
+    "relationship": "RESOLVES_AS_NONSCALAR_PROFILE",
+    "status": "RESOLVED_NOT_A_RESIDUAL",
+    "active_resolution": "NOT_APPLICABLE_NONSCALAR_PROFILE"
+  },
+  "closure_rule": "A bounded residual does not block validated closure when it has one allowed classification, a named owner, an activation condition, a failure boundary, and no current baseline dependency that assumes its answer.",
+  "registry_digest": "sha256:1d3a7db6206ef6f25aa7636cc2e7044580738aab89dd4270b04977cf28eb795b"
+}

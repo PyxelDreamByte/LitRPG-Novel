@@ -1,0 +1,60 @@
+{
+  "schema_version": "1.0.0",
+  "delta_id": "delta://fixture/shared-author-decision/001",
+  "chapter_id": "chapter://fixture/shared-author-decision/001",
+  "base_snapshot_ids": [],
+  "status": "ACCEPTED",
+  "manuscript": {
+    "path": "litrpg-system/story-integration/examples/accepted-chapter-001.md",
+    "revision": "fixture-r1",
+    "sha256": "sha256:77614dc5288334ba2c6ca9b7ee359afc1337178135c5b0fd6193c478a4f36cec"
+  },
+  "events": [
+    {
+      "schema_version": "1.0.0",
+      "event_id": "event://fixture/shared-author-decision/001/0001",
+      "chapter_id": "chapter://fixture/shared-author-decision/001",
+      "sequence": 1,
+      "event_type": "SYSTEM_INTERACTION",
+      "summary": "A fixture proposes a System change.",
+      "participants": [],
+      "viewpoint_access": []
+    }
+  ],
+  "character_changes": [],
+  "progression_events": [],
+  "thread_changes": [],
+  "canon_proposals": [
+    {
+      "schema_version": "1.0.0",
+      "proposal_id": "canon-proposal://fixture/shared-author-decision/system-change",
+      "chapter_id": "chapter://fixture/shared-author-decision/001",
+      "classification": "SYSTEM_CHANGE",
+      "scope": "fixture",
+      "statement": "A deliberately invalid System change acceptance.",
+      "source_event_ids": ["event://fixture/shared-author-decision/001/0001"],
+      "status": "ACCEPTED",
+      "required_review": "AUTHOR_DECISION_REQUIRED",
+      "author_approval": {
+        "decision_id": "decision://fixture/shared-author-decision",
+        "decided_by": "AUTHOR",
+        "decision": "ACCEPT",
+        "decided_at": "2026-08-12T18:00:00Z",
+        "evidence": ["canon-proposal://fixture/shared-author-decision/system-change"]
+      }
+    }
+  ],
+  "review": {
+    "blocking_findings": [],
+    "major_findings": [],
+    "minor_findings": [],
+    "optional_findings": []
+  },
+  "author_approval": {
+    "decision_id": "decision://fixture/shared-author-decision",
+    "decided_by": "AUTHOR",
+    "decision": "ACCEPT",
+    "decided_at": "2026-08-12T18:01:00Z",
+    "evidence": ["delta://fixture/shared-author-decision/001"]
+  }
+}

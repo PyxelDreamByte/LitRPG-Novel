@@ -1,0 +1,11 @@
+{
+  "fixture_set_id": "fixture-set://cal0/i4-invalid-plan@1",
+  "cases": [
+    {"case_id": "I4-F01-cohort-too-small", "mutation": {"operation": "i4_cohort_too_small", "births_per_seed": 9999}, "expected_codes": ["I4_COHORT_TOO_SMALL"]},
+    {"case_id": "I4-F02-duplicate-seed", "mutation": {"operation": "i4_duplicate_seed"}, "expected_codes": ["I4_SEED_SET"]},
+    {"case_id": "I4-F03-environment-weight-drift", "mutation": {"operation": "i4_environment_weight", "weight": "0.31"}, "expected_codes": ["I4_ENVIRONMENT_CLOSURE"]},
+    {"case_id": "I4-F04-trial-resolves-parent", "mutation": {"operation": "i4_trial_resolves_parent"}, "expected_codes": ["I4_TRIAL_OVERCLAIM"]},
+    {"case_id": "I4-F05-broken-iteration-lineage", "mutation": {"operation": "i4_broken_iteration_lineage"}, "expected_codes": ["I4_ITERATION_LINEAGE"]},
+    {"case_id": "I4-F06-protagonist-population-contamination", "mutation": {"operation": "i4_protagonist_population"}, "expected_codes": ["I4_PROTAGONIST_CONTAMINATION"]}
+  ]
+}

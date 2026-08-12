@@ -1,0 +1,96 @@
+{
+  "schema_version": "1.0.0",
+  "delta_id": "delta://fixture/wrong-canon-review/001",
+  "chapter_id": "chapter://fixture/wrong-canon-review/001",
+  "base_snapshot_ids": [],
+  "status": "DRAFT",
+  "events": [
+    {
+      "schema_version": "1.0.0",
+      "event_id": "event://fixture/wrong-canon-review/001/0001",
+      "chapter_id": "chapter://fixture/wrong-canon-review/001",
+      "sequence": 1,
+      "event_type": "DISCOVERY",
+      "summary": "A fixture event supplies proposals with deliberately wrong review routes.",
+      "participants": [],
+      "viewpoint_access": []
+    }
+  ],
+  "character_changes": [],
+  "progression_events": [],
+  "thread_changes": [],
+  "canon_proposals": [
+    {
+      "schema_version": "1.0.0",
+      "proposal_id": "canon-proposal://fixture/wrong-review/local",
+      "chapter_id": "chapter://fixture/wrong-canon-review/001",
+      "classification": "LOCAL_COLOUR",
+      "scope": "fixture",
+      "statement": "Local colour routed as worldbuilding.",
+      "source_event_ids": ["event://fixture/wrong-canon-review/001/0001"],
+      "status": "PROPOSED",
+      "required_review": "WORLDBUILDING_REVIEW"
+    },
+    {
+      "schema_version": "1.0.0",
+      "proposal_id": "canon-proposal://fixture/wrong-review/setting",
+      "chapter_id": "chapter://fixture/wrong-canon-review/001",
+      "classification": "SETTING_EXTENSION",
+      "scope": "fixture",
+      "statement": "A setting extension routed as continuity.",
+      "source_event_ids": ["event://fixture/wrong-canon-review/001/0001"],
+      "status": "PROPOSED",
+      "required_review": "CONTINUITY_REVIEW"
+    },
+    {
+      "schema_version": "1.0.0",
+      "proposal_id": "canon-proposal://fixture/wrong-review/character",
+      "chapter_id": "chapter://fixture/wrong-canon-review/001",
+      "classification": "CHARACTER_STATE_CHANGE",
+      "scope": "fixture",
+      "statement": "A character change routed as a CAL0 review.",
+      "source_event_ids": ["event://fixture/wrong-canon-review/001/0001"],
+      "status": "PROPOSED",
+      "required_review": "CAL0_MECHANICS_REVIEW"
+    },
+    {
+      "schema_version": "1.0.0",
+      "proposal_id": "canon-proposal://fixture/wrong-review/application",
+      "chapter_id": "chapter://fixture/wrong-canon-review/001",
+      "classification": "SYSTEM_APPLICATION",
+      "scope": "fixture",
+      "statement": "A System application routed as chapter acceptance.",
+      "source_event_ids": ["event://fixture/wrong-canon-review/001/0001"],
+      "status": "PROPOSED",
+      "required_review": "CHAPTER_ACCEPTANCE"
+    },
+    {
+      "schema_version": "1.0.0",
+      "proposal_id": "canon-proposal://fixture/wrong-review/system-change",
+      "chapter_id": "chapter://fixture/wrong-canon-review/001",
+      "classification": "SYSTEM_CHANGE",
+      "scope": "fixture",
+      "statement": "A System change routed as mechanics review.",
+      "source_event_ids": ["event://fixture/wrong-canon-review/001/0001"],
+      "status": "PROPOSED",
+      "required_review": "CAL0_MECHANICS_REVIEW"
+    },
+    {
+      "schema_version": "1.0.0",
+      "proposal_id": "canon-proposal://fixture/wrong-review/retcon",
+      "chapter_id": "chapter://fixture/wrong-canon-review/001",
+      "classification": "CONTRADICTION_OR_RETCON",
+      "scope": "fixture",
+      "statement": "A retcon routed as worldbuilding review.",
+      "source_event_ids": ["event://fixture/wrong-canon-review/001/0001"],
+      "status": "PROPOSED",
+      "required_review": "WORLDBUILDING_REVIEW"
+    }
+  ],
+  "review": {
+    "blocking_findings": [],
+    "major_findings": [],
+    "minor_findings": [],
+    "optional_findings": []
+  }
+}

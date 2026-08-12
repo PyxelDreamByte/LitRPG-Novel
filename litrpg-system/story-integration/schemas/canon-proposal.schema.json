@@ -1,0 +1,59 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://pyxeldreambyte.github.io/LitRPG-Novel/schemas/canon-proposal.schema.json",
+  "title": "Canon proposal",
+  "type": "object",
+  "required": [
+    "schema_version",
+    "proposal_id",
+    "chapter_id",
+    "classification",
+    "scope",
+    "statement",
+    "source_event_ids",
+    "status",
+    "required_review"
+  ],
+  "properties": {
+    "schema_version": {"const": "1.0.0"},
+    "proposal_id": {"$ref": "story-common.schema.json#/$defs/identifier"},
+    "chapter_id": {"$ref": "story-common.schema.json#/$defs/identifier"},
+    "classification": {
+      "enum": [
+        "LOCAL_COLOUR",
+        "SETTING_EXTENSION",
+        "CHARACTER_STATE_CHANGE",
+        "SYSTEM_APPLICATION",
+        "SYSTEM_CHANGE",
+        "CONTRADICTION_OR_RETCON"
+      ]
+    },
+    "scope": {"type": "string", "minLength": 1},
+    "statement": {"type": "string", "minLength": 1},
+    "source_event_ids": {
+      "type": "array",
+      "minItems": 1,
+      "uniqueItems": true,
+      "items": {"$ref": "story-common.schema.json#/$defs/identifier"}
+    },
+    "affected_canon_refs": {
+      "type": "array",
+      "uniqueItems": true,
+      "items": {"type": "string", "minLength": 1}
+    },
+    "status": {"enum": ["PROPOSED", "ACCEPTED", "REJECTED", "SUPERSEDED"]},
+    "required_review": {
+      "enum": [
+        "CHAPTER_ACCEPTANCE",
+        "WORLDBUILDING_REVIEW",
+        "CONTINUITY_REVIEW",
+        "CAL0_MECHANICS_REVIEW",
+        "AUTHOR_DECISION_REQUIRED"
+      ]
+    },
+    "author_approval": {"$ref": "story-common.schema.json#/$defs/authorApproval"},
+    "notes": {"type": "string"}
+  },
+  "additionalProperties": false
+}
+

@@ -1,0 +1,19 @@
+{
+  "fixture_suite_id": "fixture-suite://cal0/i7-closure@1",
+  "cases": [
+    {"case_id": "I7-F01-report-failed", "mutation": {"operation": "i7_report_failed"}, "expected_codes": ["I7_REPORT_FAILED"]},
+    {"case_id": "I7-F02-parent-digest-drift", "mutation": {"operation": "i7_parent_digest_drift"}, "expected_codes": ["I7_PARENT_REPORT"]},
+    {"case_id": "I7-F03-criterion-missing", "mutation": {"operation": "i7_remove_criterion"}, "expected_codes": ["I7_CRITERION_COVERAGE"]},
+    {"case_id": "I7-F04-residual-unclassified", "mutation": {"operation": "i7_unclassified_residual"}, "expected_codes": ["I7_RESIDUAL_REGISTRY"]},
+    {"case_id": "I7-F05-residual-owner-missing", "mutation": {"operation": "i7_ownerless_residual"}, "expected_codes": ["I7_RESIDUAL_REGISTRY"]},
+    {"case_id": "I7-F06-blocking-residual", "mutation": {"operation": "i7_blocking_residual"}, "expected_codes": ["I7_RESIDUAL_REGISTRY"]},
+    {"case_id": "I7-F07-cal0-group-missing", "mutation": {"operation": "i7_remove_residual_group"}, "expected_codes": ["I7_RESIDUAL_COVERAGE"]},
+    {"case_id": "I7-F08-soul-lineage-broken", "mutation": {"operation": "i7_break_soul_lineage"}, "expected_codes": ["I7_SOUL_LINEAGE"]},
+    {"case_id": "I7-F09-scene-layer-missing", "mutation": {"operation": "i7_remove_scene_layer"}, "expected_codes": ["I7_SCENE_MATRIX"]},
+    {"case_id": "I7-F10-change-register-open", "mutation": {"operation": "i7_open_change"}, "expected_codes": ["I7_CHANGE_REGISTER"]},
+    {"case_id": "I7-F11-artifact-disconnected", "mutation": {"operation": "i7_disconnect_artifact"}, "expected_codes": ["I7_ARTIFACT_SET"]},
+    {"case_id": "I7-F12-sheet-schema-incomplete", "mutation": {"operation": "i7_incomplete_sheet_schema"}, "expected_codes": ["I7_SHEET_SCHEMA"]},
+    {"case_id": "I7-F13-checklist-view-missing", "mutation": {"operation": "i7_remove_checklist_view"}, "expected_codes": ["I7_SHEET_CHECKLIST"]},
+    {"case_id": "I7-F14-report-digest-drift", "mutation": {"operation": "i7_report_digest_drift"}, "expected_codes": ["I7_REPORT_DIGEST"]}
+  ]
+}

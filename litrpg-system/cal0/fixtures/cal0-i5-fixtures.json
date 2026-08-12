@@ -1,0 +1,36 @@
+{
+  "fixture_suite_id": "fixture-suite://cal0/i5-validation@1",
+  "cases": [
+    {
+      "case_id": "I5-F01-report-failed",
+      "mutation": {"operation": "i5_report_failed"},
+      "expected_codes": ["I5_REPORT_FAILED"]
+    },
+    {
+      "case_id": "I5-F02-parent-digest-drift",
+      "mutation": {"operation": "i5_parent_digest_drift"},
+      "expected_codes": ["I5_PARENT_REPORT"]
+    },
+    {
+      "case_id": "I5-F03-surface-coverage-missing",
+      "mutation": {"operation": "i5_remove_surface"},
+      "expected_codes": ["I5_SURFACE_COVERAGE"]
+    },
+    {
+      "case_id": "I5-F04-unresolved-invariant",
+      "mutation": {"operation": "i5_unresolved_invariant"},
+      "expected_codes": ["I5_UNRESOLVED_INVARIANT"]
+    },
+    {
+      "case_id": "I5-F05-repair-without-regression",
+      "mutation": {"operation": "i5_repair_uncovered"},
+      "expected_codes": ["I5_REPAIR_COVERAGE"]
+    },
+    {
+      "case_id": "I5-F06-report-digest-drift",
+      "mutation": {"operation": "i5_report_digest_drift"},
+      "expected_codes": ["I5_REPORT_DIGEST"]
+    }
+  ]
+}
+

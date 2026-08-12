@@ -1,0 +1,16 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "schema://cal0/canonical-primitive@1",
+  "title": "CAL0 canonical primitive",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["primitive_id", "name", "schema_id", "domain", "canonical_rule", "rejects"],
+  "properties": {
+    "primitive_id": {"type": "string", "pattern": "^primitive://cal0/[a-z0-9-]+@1$"},
+    "name": {"type": "string", "pattern": "^[a-z0-9-]+$"},
+    "schema_id": {"const": "schema://cal0/canonical-primitive@1"},
+    "domain": {"type": "string", "minLength": 1},
+    "canonical_rule": {"type": "string", "minLength": 1},
+    "rejects": {"type": "array", "items": {"type": "string"}, "uniqueItems": true}
+  }
+}

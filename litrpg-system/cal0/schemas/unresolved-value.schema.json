@@ -1,0 +1,25 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "schema://cal0/unresolved-value@1",
+  "title": "Explicit unresolved CAL0 value",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["state", "reason_code", "required_stage", "owner", "blocking", "provenance"],
+  "properties": {
+    "state": {"const": "UNRESOLVED"},
+    "reason_code": {
+      "enum": [
+        "COEFFICIENT_NOT_CALIBRATED",
+        "DISTRIBUTION_NOT_AUTHORED",
+        "BOUND_NOT_VALIDATED",
+        "FIXTURE_IMPLEMENTATION_PENDING",
+        "EMPIRICAL_EVIDENCE_REQUIRED"
+      ]
+    },
+    "required_stage": {"enum": ["CAL0-I2", "CAL0-I3", "CAL0-I4", "CAL0-I5", "CAL0-I6", "CAL0-I7"]},
+    "owner": {"type": "string", "minLength": 1},
+    "blocking": {"type": "boolean"},
+    "provenance": {"type": "array", "items": {"type": "string"}, "minItems": 1, "uniqueItems": true}
+  },
+  "not": {"required": ["value"]}
+}

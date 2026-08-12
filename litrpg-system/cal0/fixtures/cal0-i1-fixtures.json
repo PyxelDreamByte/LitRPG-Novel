@@ -1,0 +1,42 @@
+{
+  "fixture_suite_id": "fixture-suite://cal0/i1-conformance@1",
+  "version": "1",
+  "cases": [
+    {
+      "case_id": "valid-complete-bundle",
+      "purpose": "The exact active I1 bundle has no validation issues",
+      "mutation": {},
+      "expected_codes": []
+    },
+    {
+      "case_id": "invalid-missing-selected-model",
+      "purpose": "An incomplete Q1-Q66 sequence fails deterministically",
+      "mutation": {"operation": "remove_model", "selection_id": "CAL0-Q66B"},
+      "expected_codes": ["MODEL_SEQUENCE_INCOMPLETE"]
+    },
+    {
+      "case_id": "invalid-duplicate-selected-model",
+      "purpose": "A repeated decision and model identity cannot manufacture a second active model",
+      "mutation": {"operation": "duplicate_model", "selection_id": "CAL0-Q1B"},
+      "expected_codes": ["MODEL_DECISION_DUPLICATE", "MODEL_ID_DUPLICATE_OR_INVALID", "MODEL_SEQUENCE_INCOMPLETE"]
+    },
+    {
+      "case_id": "invalid-unknown-schema",
+      "purpose": "No model may float to an unregistered schema",
+      "mutation": {"operation": "unknown_schema", "schema_id": "schema://cal0/model-family@2"},
+      "expected_codes": ["UNKNOWN_SCHEMA"]
+    },
+    {
+      "case_id": "invalid-unresolved-conceals-value",
+      "purpose": "An unresolved marker cannot carry a hidden coefficient",
+      "mutation": {"operation": "unresolved_contains_value", "value": "1.25"},
+      "expected_codes": ["VALUE_STATE_CONFLICT"]
+    },
+    {
+      "case_id": "invalid-manifest-omits-registry",
+      "purpose": "Every executable input must be pinned by the active bundle",
+      "mutation": {"operation": "manifest_remove_artifact", "path": "registries/model-families.json"},
+      "expected_codes": ["MANIFEST_INCOMPLETE"]
+    }
+  ]
+}

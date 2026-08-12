@@ -1,0 +1,1069 @@
+{
+  "decision_count": 106,
+  "decisions": [
+    {
+      "decision_id": "ATR0",
+      "decision_title": "Attribute ontology",
+      "heading_anchor": "atr0--attribute-ontology",
+      "line_start": 30,
+      "selected_option_id": "ATR0C",
+      "selected_option_title": "Layered absolute capacity",
+      "selection_line": 33,
+      "status": "DECIDED"
+    },
+    {
+      "decision_id": "ATR1",
+      "decision_title": "Attribute architecture",
+      "heading_anchor": "atr1--attribute-architecture",
+      "line_start": 108,
+      "selected_option_id": "ATR1C",
+      "selected_option_title": "Eleven attributes across Body, Mind, and Soul",
+      "selection_line": 111,
+      "status": "DECIDED"
+    },
+    {
+      "decision_id": "ATR2",
+      "decision_title": "Numerical scale",
+      "heading_anchor": "atr2--numerical-scale",
+      "line_start": 301,
+      "selected_option_id": "ATR2B",
+      "selected_option_title": "Anchored geometric index",
+      "selection_line": 304,
+      "status": "DECIDED"
+    },
+    {
+      "decision_id": "ATR3.0",
+      "decision_title": "Growth-channel architecture",
+      "heading_anchor": "atr30--growth-channel-architecture",
+      "line_start": 441,
+      "selected_option_id": "ATR3.0C",
+      "selected_option_title": "Typed growth and guaranteed reinforcement",
+      "selection_line": 444,
+      "status": "DECIDED"
+    },
+    {
+      "decision_id": "ATR3.1",
+      "decision_title": "Attribute reward distribution",
+      "heading_anchor": "atr31--attribute-reward-distribution",
+      "line_start": 593,
+      "selected_option_id": "ATR3.1D",
+      "selected_option_title": "Core signature plus evidence-shaped expression",
+      "selection_line": 596,
+      "status": "DECIDED"
+    },
+    {
+      "decision_id": "ATR3.2.0",
+      "decision_title": "Numerical reward operation",
+      "heading_anchor": "atr320--numerical-reward-operation",
+      "line_start": 710,
+      "selected_option_id": "ATR3.2.0C",
+      "selected_option_title": "Source-rated reference-capacity budgets",
+      "selection_line": 713,
+      "status": "DECIDED"
+    },
+    {
+      "decision_id": "ATR3.2.1",
+      "decision_title": "Concrete reinforcement budgets",
+      "heading_anchor": "atr321--concrete-reinforcement-budgets",
+      "line_start": 812,
+      "selected_option_id": "ATR3.2.1B",
+      "selected_option_title": "Balanced doubling ladder",
+      "selection_line": 815,
+      "status": "DECIDED"
+    },
+    {
+      "decision_id": "ATR3.3.0",
+      "decision_title": "Assimilation architecture",
+      "heading_anchor": "atr330--assimilation-architecture",
+      "line_start": 1004,
+      "selected_option_id": "ATR3.3.0C",
+      "selected_option_title": "Coupled domain throughput with a safe governor",
+      "selection_line": 1007,
+      "status": "DECIDED"
+    },
+    {
+      "decision_id": "ATR3.3.1",
+      "decision_title": "Numerical assimilation rates and scaling",
+      "heading_anchor": "atr331--numerical-assimilation-rates-and-scaling",
+      "line_start": 1133,
+      "selected_option_id": "ATR3.3.1C",
+      "selected_option_title": "Sublinear foundation-scaled reference throughput",
+      "selection_line": 1136,
+      "status": "DECIDED"
+    },
+    {
+      "decision_id": "ATR3.3.2.0",
+      "decision_title": "Acceleration and overload architecture",
+      "heading_anchor": "atr3320--acceleration-and-overload-architecture",
+      "line_start": 1308,
+      "selected_option_id": "ATR3.3.2.0C",
+      "selected_option_title": "Supported uplift plus typed overload strain",
+      "selection_line": 1311,
+      "status": "DECIDED"
+    },
+    {
+      "decision_id": "ATR3.3.2.1",
+      "decision_title": "Numerical acceleration and strain calibration",
+      "heading_anchor": "atr3321--numerical-acceleration-and-strain-calibration",
+      "line_start": 1491,
+      "selected_option_id": "ATR3.3.2.1B",
+      "selected_option_title": "Balanced emergency overdrive",
+      "selection_line": 1494,
+      "status": "DECIDED"
+    },
+    {
+      "decision_id": "ATR3.3.3.0",
+      "decision_title": "Safe-throughput scheduling architecture",
+      "heading_anchor": "atr3330--safe-throughput-scheduling-architecture",
+      "line_start": 1750,
+      "selected_option_id": "ATR3.3.3.0C",
+      "selected_option_title": "Safety-reserved fair scheduling with eligibility aging",
+      "selection_line": 1753,
+      "status": "DECIDED"
+    },
+    {
+      "decision_id": "ATR3.3.3.1",
+      "decision_title": "Numerical scheduling calibration",
+      "heading_anchor": "atr3331--numerical-scheduling-calibration",
+      "line_start": 1890,
+      "selected_option_id": "ATR3.3.3.1B",
+      "selected_option_title": "Balanced fair-recovery calibration",
+      "selection_line": 1893,
+      "status": "DECIDED"
+    },
+    {
+      "decision_id": "ATR3.3.3.2",
+      "decision_title": "Capability-gated assimilation diagnostics",
+      "heading_anchor": "atr3332--capability-gated-assimilation-diagnostics",
+      "line_start": 2066,
+      "selected_option_id": "ATR3.3.3.2D",
+      "selected_option_title": "Capability-gated assimilation diagnostics",
+      "selection_line": 2069,
+      "status": "DECIDED"
+    },
+    {
+      "decision_id": "ATR3.4.0",
+      "decision_title": "Initial prenatal diagnostic access",
+      "heading_anchor": "atr340--initial-prenatal-diagnostic-access",
+      "line_start": 2203,
+      "selected_option_id": "ATR3.4.0C",
+      "selected_option_title": "Seeded evolving introspection",
+      "selection_line": 2206,
+      "status": "DECIDED"
+    },
+    {
+      "decision_id": "ATR3.4.1",
+      "decision_title": "Diagnostic development gates and ceilings",
+      "heading_anchor": "atr341--diagnostic-development-gates-and-ceilings",
+      "line_start": 2311,
+      "selected_option_id": "ATR3.4.1C",
+      "selected_option_title": "Evidence-validated growth with developmental bandwidth",
+      "selection_line": 2314,
+      "status": "DECIDED"
+    },
+    {
+      "decision_id": "ATR3.4.2.0",
+      "decision_title": "Exceptional prenatal progression architecture",
+      "heading_anchor": "atr3420--exceptional-prenatal-progression-architecture",
+      "line_start": 2456,
+      "selected_option_id": "ATR3.4.2.0D",
+      "selected_option_title": "Seeded trait-to-skill developmental lineage, with the earned developmental skill as the principal uplift",
+      "selection_line": 2459,
+      "status": "DECIDED"
+    },
+    {
+      "decision_id": "RES0.0",
+      "decision_title": "Resource ontology architecture",
+      "heading_anchor": "res00--resource-ontology-architecture",
+      "line_start": 2606,
+      "selected_option_id": "RES0.0D",
+      "selected_option_title": "Coupled state-and-flow resource network",
+      "selection_line": 2609,
+      "status": "DECIDED"
+    },
+    {
+      "decision_id": "RES0.1",
+      "decision_title": "Conserved carriers and cross-domain conversion",
+      "heading_anchor": "res01--conserved-carriers-and-cross-domain-conversion",
+      "line_start": 2781,
+      "selected_option_id": "RES0.1D",
+      "selected_option_title": "Typed carriers with mechanism-defined transformation edges",
+      "selection_line": 2784,
+      "status": "DECIDED"
+    },
+    {
+      "decision_id": "RES0.2",
+      "decision_title": "Mana source and reserve topology",
+      "heading_anchor": "res02--mana-source-and-reserve-topology",
+      "line_start": 2976,
+      "selected_option_id": "RES0.2D",
+      "selected_option_title": "Source–capture–storage–circulation network",
+      "selection_line": 2979,
+      "status": "DECIDED"
+    },
+    {
+      "decision_id": "RES0.3",
+      "decision_title": "Mana state and compatibility architecture",
+      "heading_anchor": "res03--mana-state-and-compatibility-architecture",
+      "line_start": 3247,
+      "selected_option_id": "RES0.3D",
+      "selected_option_title": "Layered transformable Mana state",
+      "selection_line": 3250,
+      "status": "DECIDED"
+    },
+    {
+      "decision_id": "RES0.4",
+      "decision_title": "Affinity formation and evolution",
+      "heading_anchor": "res04--affinity-formation-and-evolution",
+      "line_start": 3572,
+      "selected_option_id": "RES0.4D",
+      "selected_option_title": "Layered predisposition-and-development affinity ecology",
+      "selection_line": 3575,
+      "status": "DECIDED"
+    },
+    {
+      "decision_id": "RES0.5",
+      "decision_title": "Affinity-portfolio capacity and interference",
+      "heading_anchor": "res05--affinity-portfolio-capacity-and-interference",
+      "line_start": 3901,
+      "selected_option_id": "RES0.5D",
+      "selected_option_title": "Capacity-constrained relational portfolio",
+      "selection_line": 3904,
+      "status": "DECIDED"
+    },
+    {
+      "decision_id": "RES0.6",
+      "decision_title": "Mana containment capacity, density, and overfill",
+      "heading_anchor": "res06--mana-containment-capacity-density-and-overfill",
+      "line_start": 4159,
+      "selected_option_id": "RES0.6D",
+      "selected_option_title": "Typed containment envelope",
+      "selection_line": 4162,
+      "status": "DECIDED"
+    },
+    {
+      "decision_id": "RES0.7",
+      "decision_title": "Casting demand, spell cost, and output architecture",
+      "heading_anchor": "res07--casting-demand-spell-cost-and-output-architecture",
+      "line_start": 4504,
+      "selected_option_id": "RES0.7D",
+      "selected_option_title": "Mechanism-defined staged demand graph",
+      "selection_line": 4507,
+      "status": "DECIDED"
+    },
+    {
+      "decision_id": "RES0.8",
+      "decision_title": "Physical exertion, Stamina, fatigue, and recovery",
+      "heading_anchor": "res08--physical-exertion-stamina-fatigue-and-recovery",
+      "line_start": 4846,
+      "selected_option_id": "RES0.8D",
+      "selected_option_title": "Coupled supply–work–load–recovery network",
+      "selection_line": 4849,
+      "status": "DECIDED"
+    },
+    {
+      "decision_id": "RES0.9",
+      "decision_title": "Health, injury, damage, healing, and survival",
+      "heading_anchor": "res09--health-injury-damage-healing-and-survival",
+      "line_start": 5210,
+      "selected_option_id": "RES0.9D",
+      "selected_option_title": "Layered integrity–function–homeostasis–viability network",
+      "selection_line": 5213,
+      "status": "DECIDED"
+    },
+    {
+      "decision_id": "RES0.10",
+      "decision_title": "Death, continuity, resurrection, and reincarnation",
+      "heading_anchor": "res010--death-continuity-resurrection-and-reincarnation",
+      "line_start": 5527,
+      "selected_option_id": "RES0.10D",
+      "selected_option_title": "Layered continuity-and-reconstitution topology",
+      "selection_line": 5530,
+      "status": "DECIDED"
+    },
+    {
+      "decision_id": "RES0.11",
+      "decision_title": "Mental exertion, attention, memory, emotion, and recovery",
+      "heading_anchor": "res011--mental-exertion-attention-memory-emotion-and-recovery",
+      "line_start": 5924,
+      "selected_option_id": "RES0.11D",
+      "selected_option_title": "Coupled cognitive-work–control–load–recovery network",
+      "selection_line": 5927,
+      "status": "DECIDED"
+    },
+    {
+      "decision_id": "RES0.12",
+      "decision_title": "Soul exertion, metaphysical load, coherence, coupling, and recovery",
+      "heading_anchor": "res012--soul-exertion-metaphysical-load-coherence-coupling-and-recovery",
+      "line_start": 6379,
+      "selected_option_id": "RES0.12D",
+      "selected_option_title": "Layered soul-structure–load–coupling–recovery topology",
+      "selection_line": 6382,
+      "status": "DECIDED"
+    },
+    {
+      "decision_id": "RES0.13",
+      "decision_title": "Conditions, buffs, debuffs, and stacking",
+      "heading_anchor": "res013--conditions-buffs-debuffs-and-stacking",
+      "line_start": 6843,
+      "selected_option_id": "RES0.13D",
+      "selected_option_title": "Cause-linked condition-process graph with scoped projections",
+      "selection_line": 6846,
+      "status": "DECIDED"
+    },
+    {
+      "decision_id": "RES0.14",
+      "decision_title": "Application, resistance, mitigation, immunity, penetration, and opposed effects",
+      "heading_anchor": "res014--application-resistance-mitigation-immunity-penetration-and-opposed-effects",
+      "line_start": 7334,
+      "selected_option_id": "RES0.14D",
+      "selected_option_title": "Staged exposure–coupling–response defence graph",
+      "selection_line": 7337,
+      "status": "DECIDED"
+    },
+    {
+      "decision_id": "RES0.15",
+      "decision_title": "Action checks, uncertainty, and critical outcomes",
+      "heading_anchor": "res015--action-checks-uncertainty-and-critical-outcomes",
+      "line_start": 7872,
+      "selected_option_id": "RES0.15D",
+      "selected_option_title": "Causal task-state outcome distribution with scoped check projections",
+      "selection_line": 7875,
+      "status": "DECIDED"
+    },
+    {
+      "decision_id": "RES0.16",
+      "decision_title": "Time and action economy",
+      "heading_anchor": "res016--time-and-action-economy",
+      "line_start": 8406,
+      "selected_option_id": "RES0.16D",
+      "selected_option_title": "Multi-timescale causal event–commitment–reaction topology with scoped action-economy projections",
+      "selection_line": 8409,
+      "status": "DECIDED"
+    },
+    {
+      "decision_id": "SKL0.0",
+      "decision_title": "Ability ontology",
+      "heading_anchor": "skl00--ability-ontology",
+      "line_start": 8759,
+      "selected_option_id": "SKL0.0D",
+      "selected_option_title": "Layered capability–method–lineage–source ontology with scoped ability projections",
+      "selection_line": 8762,
+      "status": "DECIDED"
+    },
+    {
+      "decision_id": "SKL0.1",
+      "decision_title": "Recognition and acquisition",
+      "heading_anchor": "skl01--recognition-and-acquisition",
+      "line_start": 8835,
+      "selected_option_id": "SKL0.1D",
+      "selected_option_title": "Provenance-preserving staged acquisition and recognition pipeline",
+      "selection_line": 8838,
+      "status": "DECIDED"
+    },
+    {
+      "decision_id": "SKL0.2",
+      "decision_title": "Expression modes",
+      "heading_anchor": "skl02--expression-modes",
+      "line_start": 8931,
+      "selected_option_id": "SKL0.2D",
+      "selected_option_title": "Composable causal expression contracts with scoped active/passive projections",
+      "selection_line": 8934,
+      "status": "DECIDED"
+    },
+    {
+      "decision_id": "SKL1.0",
+      "decision_title": "Skill boundaries and granularity",
+      "heading_anchor": "skl10--skill-boundaries-and-granularity",
+      "line_start": 9013,
+      "selected_option_id": "SKL1.0D",
+      "selected_option_title": "Evidence-derived coherent developmental domains with shared method graphs",
+      "selection_line": 9016,
+      "status": "DECIDED"
+    },
+    {
+      "decision_id": "SKL1.1",
+      "decision_title": "Skill evidence and Skill XP",
+      "heading_anchor": "skl11--skill-evidence-and-skill-xp",
+      "line_start": 9091,
+      "selected_option_id": "SKL1.1D",
+      "selected_option_title": "Provenance-preserving causal evidence ledger with lineage-local Skill XP",
+      "selection_line": 9094,
+      "status": "DECIDED"
+    },
+    {
+      "decision_id": "SKL1.2",
+      "decision_title": "Skill levels, proficiency, and qualitative breakpoints",
+      "heading_anchor": "skl12--skill-levels-proficiency-and-qualitative-breakpoints",
+      "line_start": 9194,
+      "selected_option_id": "SKL1.2D",
+      "selected_option_title": "Dual-gated form progression with attested mastery profiles",
+      "selection_line": 9197,
+      "status": "DECIDED"
+    },
+    {
+      "decision_id": "SKL2.0",
+      "decision_title": "Skill capacity, limits, and slots",
+      "heading_anchor": "skl20--skill-capacity-limits-and-slots",
+      "line_start": 9331,
+      "selected_option_id": "SKL2.0D",
+      "selected_option_title": "Causally constrained developmental portfolio with archived lineage continuity",
+      "selection_line": 9334,
+      "status": "DECIDED"
+    },
+    {
+      "decision_id": "SKL2.1",
+      "decision_title": "Internal structure, techniques, specialisations, and automaticity",
+      "heading_anchor": "skl21--internal-structure-techniques-specialisations-and-automaticity",
+      "line_start": 9409,
+      "selected_option_id": "SKL2.1D",
+      "selected_option_title": "Layered method graph with evidenced specialisation and calibrated controllers",
+      "selection_line": 9412,
+      "status": "DECIDED"
+    },
+    {
+      "decision_id": "SKL2.2",
+      "decision_title": "Coexistence, synergy, interference, and dormancy",
+      "heading_anchor": "skl22--coexistence-synergy-interference-and-dormancy",
+      "line_start": 9501,
+      "selected_option_id": "SKL2.2D",
+      "selected_option_title": "Causal contribution graph with scoped transfer, interference, and access states",
+      "selection_line": 9504,
+      "status": "DECIDED"
+    },
+    {
+      "decision_id": "SKL3.0",
+      "decision_title": "Evolution eligibility, offers, rejection, and deferral",
+      "heading_anchor": "skl30--evolution-eligibility-offers-rejection-and-deferral",
+      "line_start": 9597,
+      "selected_option_id": "SKL3.0D",
+      "selected_option_title": "Evidence-constructed successor frontier with persistent offers",
+      "selection_line": 9600,
+      "status": "DECIDED"
+    },
+    {
+      "decision_id": "SKL3.1",
+      "decision_title": "Straight, divergent, grade, and rarity upgrades",
+      "heading_anchor": "skl31--straight-divergent-grade-and-rarity-upgrades",
+      "line_start": 9697,
+      "selected_option_id": "SKL3.1D",
+      "selected_option_title": "Orthogonal successor-form classification with prospective rewards",
+      "selection_line": 9700,
+      "status": "DECIDED"
+    },
+    {
+      "decision_id": "SKL3.2",
+      "decision_title": "Fusion, splitting, replacement, and lineage reconciliation",
+      "heading_anchor": "skl32--fusion-splitting-replacement-and-lineage-reconciliation",
+      "line_start": 9802,
+      "selected_option_id": "SKL3.2D",
+      "selected_option_title": "Provenance-preserving lineage reconciliation graph",
+      "selection_line": 9805,
+      "status": "DECIDED"
+    },
+    {
+      "decision_id": "SKL4.0",
+      "decision_title": "Teaching, transfer, copying, and impartation",
+      "heading_anchor": "skl40--teaching-transfer-copying-and-impartation",
+      "line_start": 9912,
+      "selected_option_id": "SKL4.0D",
+      "selected_option_title": "Provenance-preserving instructional pipeline with learner-local development",
+      "selection_line": 9915,
+      "status": "DECIDED"
+    },
+    {
+      "decision_id": "SKL4.1",
+      "decision_title": "Granted abilities, external sources, delegation, and dependency",
+      "heading_anchor": "skl41--granted-abilities-external-sources-delegation-and-dependency",
+      "line_start": 10008,
+      "selected_option_id": "SKL4.1D",
+      "selected_option_title": "Layered grant–ownership–dependency graph with scoped delegation",
+      "selection_line": 10011,
+      "status": "DECIDED"
+    },
+    {
+      "decision_id": "SKL4.2",
+      "decision_title": "Loss, removal, suppression, dormancy, and reactivation",
+      "heading_anchor": "skl42--loss-removal-suppression-dormancy-and-reactivation",
+      "line_start": 10114,
+      "selected_option_id": "SKL4.2D",
+      "selected_option_title": "Componentwise loss–continuity–reactivation topology",
+      "selection_line": 10117,
+      "status": "DECIDED"
+    },
+    {
+      "decision_id": "TRT1.0",
+      "decision_title": "Trait ontology, origin, acquisition, and reward status",
+      "heading_anchor": "trt10--trait-ontology-origin-acquisition-and-reward-status",
+      "line_start": 10224,
+      "selected_option_id": "TRT1.0D",
+      "selected_option_title": "Provenance-layered characteristic graph with scoped trait recognition",
+      "selection_line": 10227,
+      "status": "DECIDED"
+    },
+    {
+      "decision_id": "TRT1.1",
+      "decision_title": "Talents, aptitudes, predispositions, and developmental acceleration",
+      "heading_anchor": "trt11--talents-aptitudes-predispositions-and-developmental-acceleration",
+      "line_start": 10307,
+      "selected_option_id": "TRT1.1D",
+      "selected_option_title": "Factorised developmental predisposition profile with evidence-gated diagnosis",
+      "selection_line": 10310,
+      "status": "DECIDED"
+    },
+    {
+      "decision_id": "TRT1.2",
+      "decision_title": "Species, ancestry, and lineage structures",
+      "heading_anchor": "trt12--species-ancestry-and-lineage-structures",
+      "line_start": 10371,
+      "selected_option_id": "TRT1.2D",
+      "selected_option_title": "Layered ancestry–development–individual topology with non-duplicating species projections",
+      "selection_line": 10374,
+      "status": "DECIDED"
+    },
+    {
+      "decision_id": "TRT2.0",
+      "decision_title": "Bloodlines, inheritance, latency, and activation",
+      "heading_anchor": "trt20--bloodlines-inheritance-latency-and-activation",
+      "line_start": 10445,
+      "selected_option_id": "TRT2.0D",
+      "selected_option_title": "Provenance-preserving inheritance–development–activation graph",
+      "selection_line": 10448,
+      "status": "DECIDED"
+    },
+    {
+      "decision_id": "TRT2.1",
+      "decision_title": "Boons, curses, mutations, and transformations",
+      "heading_anchor": "trt21--boons-curses-mutations-and-transformations",
+      "line_start": 10530,
+      "selected_option_id": "TRT2.1D",
+      "selected_option_title": "Typed causal alteration contract with continuity and reversal topology",
+      "selection_line": 10533,
+      "status": "DECIDED"
+    },
+    {
+      "decision_id": "TRT2.2",
+      "decision_title": "Trait growth, suppression, conflict, replacement, and compatibility",
+      "heading_anchor": "trt22--trait-growth-suppression-conflict-replacement-and-compatibility",
+      "line_start": 10599,
+      "selected_option_id": "TRT2.2D",
+      "selected_option_title": "Coupled trait-state topology with provenance-safe restructuring",
+      "selection_line": 10602,
+      "status": "DECIDED"
+    },
+    {
+      "decision_id": "CLS1.0",
+      "decision_title": "Class ontology and causal role",
+      "heading_anchor": "cls10--class-ontology-and-causal-role",
+      "line_start": 10668,
+      "selected_option_id": "CLS1.0D",
+      "selected_option_title": "Layered role-pattern–developmental-lineage ontology",
+      "selection_line": 10671,
+      "status": "DECIDED"
+    },
+    {
+      "decision_id": "CLS1.1",
+      "decision_title": "Class number, coexistence, and scope",
+      "heading_anchor": "cls11--class-number-coexistence-and-scope",
+      "line_start": 10731,
+      "selected_option_id": "CLS1.1D",
+      "selected_option_title": "Causally constrained class portfolio with scoped overlap",
+      "selection_line": 10734,
+      "status": "DECIDED"
+    },
+    {
+      "decision_id": "CLS1.2",
+      "decision_title": "Class evidence and Class XP",
+      "heading_anchor": "cls12--class-evidence-and-class-xp",
+      "line_start": 10782,
+      "selected_option_id": "CLS1.2D",
+      "selected_option_title": "Provenance-preserving integrated-role evidence ledger",
+      "selection_line": 10785,
+      "status": "DECIDED"
+    },
+    {
+      "decision_id": "CLS2.0",
+      "decision_title": "Class-offer construction, eligibility, and calibration",
+      "heading_anchor": "cls20--class-offer-construction-eligibility-and-calibration",
+      "line_start": 10849,
+      "selected_option_id": "CLS2.0D",
+      "selected_option_title": "Evidence-constructed persistent candidate frontier with declared offer contracts",
+      "selection_line": 10852,
+      "status": "DECIDED"
+    },
+    {
+      "decision_id": "CLS2.1",
+      "decision_title": "Acceptance, rejection, deferral, expiry, and consent",
+      "heading_anchor": "cls21--acceptance-rejection-deferral-expiry-and-consent",
+      "line_start": 10925,
+      "selected_option_id": "CLS2.1D",
+      "selected_option_title": "Stateful offer lifecycle with consent, persistence, and evidence-gated revision",
+      "selection_line": 10928,
+      "status": "DECIDED"
+    },
+    {
+      "decision_id": "CLS2.2",
+      "decision_title": "Class levels, caps, milestones, trials, and advancement gates",
+      "heading_anchor": "cls22--class-levels-caps-milestones-trials-and-advancement-gates",
+      "line_start": 10996,
+      "selected_option_id": "CLS2.2D",
+      "selected_option_title": "Dual-gated class-form progression with qualitative attestation and cap conservation",
+      "selection_line": 10999,
+      "status": "DECIDED"
+    },
+    {
+      "decision_id": "CLS3.0",
+      "decision_title": "Class-associated Skills, non-class Skills, and class capacity",
+      "heading_anchor": "cls30--class-associated-skills-non-class-skills-and-class-capacity",
+      "line_start": 11076,
+      "selected_option_id": "CLS3.0D",
+      "selected_option_title": "Scoped class–capability integration graph without Skill ownership or universal slots",
+      "selection_line": 11079,
+      "status": "DECIDED"
+    },
+    {
+      "decision_id": "CLS3.1",
+      "decision_title": "Class passives, perks, actives, and threshold choices",
+      "heading_anchor": "cls31--class-passives-perks-actives-and-threshold-choices",
+      "line_start": 11139,
+      "selected_option_id": "CLS3.1D",
+      "selected_option_title": "Typed class-reward topology with evidence-shaped offers and provenance-safe reconfiguration",
+      "selection_line": 11142,
+      "status": "DECIDED"
+    },
+    {
+      "decision_id": "CLS3.2",
+      "decision_title": "Class grade, rarity, quality, and reward scaling",
+      "heading_anchor": "cls32--class-grade-rarity-quality-and-reward-scaling",
+      "line_start": 11213,
+      "selected_option_id": "CLS3.2D",
+      "selected_option_title": "Orthogonal grade–rarity–coherence model with fixed prospective reward schedules",
+      "selection_line": 11216,
+      "status": "DECIDED"
+    },
+    {
+      "decision_id": "CLS4.0",
+      "decision_title": "Class evolution, successor forms, and lineage restructuring",
+      "heading_anchor": "cls40--class-evolution-successor-forms-and-lineage-restructuring",
+      "line_start": 11292,
+      "selected_option_id": "CLS4.0D",
+      "selected_option_title": "Provenance-preserving successor frontier with conserved class ancestry",
+      "selection_line": 11295,
+      "status": "DECIDED"
+    },
+    {
+      "decision_id": "CLS4.1",
+      "decision_title": "Dormancy, abandonment, replacement, reclassification, and reacquisition",
+      "heading_anchor": "cls41--dormancy-abandonment-replacement-reclassification-and-reacquisition",
+      "line_start": 11392,
+      "selected_option_id": "CLS4.1D",
+      "selected_option_title": "Componentwise class continuity with stateful transition and reactivation",
+      "selection_line": 11395,
+      "status": "DECIDED"
+    },
+    {
+      "decision_id": "CLS4.2",
+      "decision_title": "Mage-centred development, cross-domain learning, and class-boundary attribution",
+      "heading_anchor": "cls42--mage-centred-development-cross-domain-learning-and-class-boundary-attribution",
+      "line_start": 11488,
+      "selected_option_id": "CLS4.2D",
+      "selected_option_title": "Magic-centred developmental orientation with porous knowledge intake and strict evidence attribution",
+      "selection_line": 11491,
+      "status": "DECIDED"
+    },
+    {
+      "decision_id": "PRG1.0",
+      "decision_title": "Overall character level and universal progression",
+      "heading_anchor": "prg10--overall-character-level-and-universal-progression",
+      "line_start": 11610,
+      "selected_option_id": "PRG1.0D",
+      "selected_option_title": "Scoped lineage progression with non-rewarding whole-person projections",
+      "selection_line": 11613,
+      "status": "DECIDED"
+    },
+    {
+      "decision_id": "PRG1.1",
+      "decision_title": "XP, evidence, and progress presentation",
+      "heading_anchor": "prg11--xp-evidence-and-progress-presentation",
+      "line_start": 11676,
+      "selected_option_id": "PRG1.1D",
+      "selected_option_title": "Exact lineage-local XP with capability-gated evidence diagnosis",
+      "selection_line": 11679,
+      "status": "DECIDED"
+    },
+    {
+      "decision_id": "PRG1.2",
+      "decision_title": "Milestones, gates, and cross-lineage recognition",
+      "heading_anchor": "prg12--milestones-gates-and-cross-lineage-recognition",
+      "line_start": 11774,
+      "selected_option_id": "PRG1.2D",
+      "selected_option_title": "Shared event facts with distinct causal attestations and conserved rewards",
+      "selection_line": 11777,
+      "status": "DECIDED"
+    },
+    {
+      "decision_id": "PRG2.0",
+      "decision_title": "Achievements and historical recognition",
+      "heading_anchor": "prg20--achievements-and-historical-recognition",
+      "line_start": 11866,
+      "selected_option_id": "PRG2.0D",
+      "selected_option_title": "Provenance-preserving achievement records with separate reward entitlements",
+      "selection_line": 11869,
+      "status": "DECIDED"
+    },
+    {
+      "decision_id": "PRG2.1",
+      "decision_title": "Titles, identity, reputation, and authority",
+      "heading_anchor": "prg21--titles-identity-reputation-and-authority",
+      "line_start": 11990,
+      "selected_option_id": "PRG2.1D",
+      "selected_option_title": "Layered title-claim graph with causal authority and audience-scoped recognition",
+      "selection_line": 11993,
+      "status": "DECIDED"
+    },
+    {
+      "decision_id": "PRG2.2",
+      "decision_title": "Perks, boons, and achievement rewards",
+      "heading_anchor": "prg22--perks-boons-and-achievement-rewards",
+      "line_start": 12120,
+      "selected_option_id": "PRG2.2D",
+      "selected_option_title": "Typed accomplishment-reward contracts with conserved entitlement and causal payloads",
+      "selection_line": 12123,
+      "status": "DECIDED"
+    },
+    {
+      "decision_id": "PRG3.0",
+      "decision_title": "Quests, contracts, objectives, and obligations",
+      "heading_anchor": "prg30--quests-contracts-objectives-and-obligations",
+      "line_start": 12251,
+      "selected_option_id": "PRG3.0D",
+      "selected_option_title": "Layered objective–obligation–entitlement graph with source-bound quest projections",
+      "selection_line": 12254,
+      "status": "DECIDED"
+    },
+    {
+      "decision_id": "PRG3.1",
+      "decision_title": "Rarity semantics across System objects",
+      "heading_anchor": "prg31--rarity-semantics-across-system-objects",
+      "line_start": 12380,
+      "selected_option_id": "PRG3.1D",
+      "selected_option_title": "Typed, scope-declared rarity profiles with object-local projections",
+      "selection_line": 12383,
+      "status": "DECIDED"
+    },
+    {
+      "decision_id": "PRG3.2",
+      "decision_title": "Contribution, kills, groups, discoveries, and anti-farming attribution",
+      "heading_anchor": "prg32--contribution-kills-groups-discoveries-and-anti-farming-attribution",
+      "line_start": 12491,
+      "selected_option_id": "PRG3.2D",
+      "selected_option_title": "Requirement-specific causal contribution graphs with provenance-safe group attribution",
+      "selection_line": 12494,
+      "status": "DECIDED"
+    },
+    {
+      "decision_id": "MAG1.0",
+      "decision_title": "Spell, technique, Skill, and class boundary",
+      "heading_anchor": "mag10--spell-technique-skill-and-class-boundary",
+      "line_start": 12667,
+      "selected_option_id": "MAG1.0D",
+      "selected_option_title": "Provenance-preserving executable magical method graphs with scoped spell projections",
+      "selection_line": 12670,
+      "status": "DECIDED"
+    },
+    {
+      "decision_id": "MAG1.1",
+      "decision_title": "Magical axioms, primitives, and compositional laws",
+      "heading_anchor": "mag11--magical-axioms-primitives-and-compositional-laws",
+      "line_start": 12788,
+      "selected_option_id": "MAG1.1D",
+      "selected_option_title": "Layered magical law–representation–primitive topology with capability-gated execution",
+      "selection_line": 12791,
+      "status": "DECIDED"
+    },
+    {
+      "decision_id": "MAG1.2",
+      "decision_title": "Spell construction, learning, mastery, and progression",
+      "heading_anchor": "mag12--spell-construction-learning-mastery-and-progression",
+      "line_start": 12942,
+      "selected_option_id": "MAG1.2D",
+      "selected_option_title": "Provenance-preserving spell lifecycle with componentwise learning and Skill-local mastery",
+      "selection_line": 12945,
+      "status": "DECIDED"
+    },
+    {
+      "decision_id": "MAG2.0",
+      "decision_title": "Casting modes, preparation, stored execution, and interruption",
+      "heading_anchor": "mag20--casting-modes-preparation-stored-execution-and-interruption",
+      "line_start": 13140,
+      "selected_option_id": "MAG2.0D",
+      "selected_option_title": "Stateful casting-commitment graphs with causally stored preparation and stage-local interruption",
+      "selection_line": 13143,
+      "status": "DECIDED"
+    },
+    {
+      "decision_id": "MAG2.1",
+      "decision_title": "Magical research, invention, validation, and teaching",
+      "heading_anchor": "mag21--magical-research-invention-validation-and-teaching",
+      "line_start": 13283,
+      "selected_option_id": "MAG2.1D",
+      "selected_option_title": "Provenance-preserving epistemic research graphs with claim-specific validation and componentwise transmission",
+      "selection_line": 13286,
+      "status": "DECIDED"
+    },
+    {
+      "decision_id": "MAG2.2",
+      "decision_title": "Rituals, wards, enchantment, constructs, familiars, and Mage-discipline breadth",
+      "heading_anchor": "mag22--rituals-wards-enchantment-constructs-familiars-and-mage-discipline-breadth",
+      "line_start": 13434,
+      "selected_option_id": "MAG2.2D",
+      "selected_option_title": "Distributed magical-system topology with typed embodiment, autonomy, ownership, and discipline projections",
+      "selection_line": 13437,
+      "status": "DECIDED"
+    },
+    {
+      "decision_id": "ITM1.0",
+      "decision_title": "Item identity, composition, quality, durability, and repair",
+      "heading_anchor": "itm10--item-identity-composition-quality-durability-and-repair",
+      "line_start": 13591,
+      "selected_option_id": "ITM1.0D",
+      "selected_option_title": "Provenance-preserving item-assembly graphs with typed condition and function-scoped quality projections",
+      "selection_line": 13594,
+      "status": "DECIDED"
+    },
+    {
+      "decision_id": "ITM1.1",
+      "decision_title": "Equipment use, fit, requirements, attunement, binding, and loadout",
+      "heading_anchor": "itm11--equipment-use-fit-requirements-attunement-binding-and-loadout",
+      "line_start": 13727,
+      "selected_option_id": "ITM1.1D",
+      "selected_option_title": "Causal bearer–equipment integration graphs with typed fit, access, control, attunement, and loadout projections",
+      "selection_line": 13730,
+      "status": "DECIDED"
+    },
+    {
+      "decision_id": "ITM1.2",
+      "decision_title": "Carriage, containers, encumbrance, spatial storage, and System inventory",
+      "heading_anchor": "itm12--carriage-containers-encumbrance-spatial-storage-and-system-inventory",
+      "line_start": 13841,
+      "selected_option_id": "ITM1.2D",
+      "selected_option_title": "Causally embodied storage networks with capability-gated inventory projections and no universal free storage",
+      "selection_line": 13844,
+      "status": "DECIDED"
+    },
+    {
+      "decision_id": "ITM2.0",
+      "decision_title": "Crafting, recipes, designs, quality, repair, and discovery",
+      "heading_anchor": "itm20--crafting-recipes-designs-quality-repair-and-discovery",
+      "line_start": 13946,
+      "selected_option_id": "ITM2.0D",
+      "selected_option_title": "Provenance-preserving production graphs with typed design, process-control, quality, and contribution projections",
+      "selection_line": 13949,
+      "status": "DECIDED"
+    },
+    {
+      "decision_id": "ITM2.1",
+      "decision_title": "Enchanted objects, relics, curses, identification, appraisal, and safe use",
+      "heading_anchor": "itm21--enchanted-objects-relics-curses-identification-appraisal-and-safe-use",
+      "line_start": 14069,
+      "selected_option_id": "ITM2.1D",
+      "selected_option_title": "Evidence-bearing object epistemology with facet-specific identification, adversarial concealment, and validated safe-use envelopes",
+      "selection_line": 14072,
+      "status": "DECIDED"
+    },
+    {
+      "decision_id": "ITM2.2",
+      "decision_title": "Loot, salvage, harvesting, ownership, rewards, and drops",
+      "heading_anchor": "itm22--loot-salvage-harvesting-ownership-rewards-and-drops",
+      "line_start": 14202,
+      "selected_option_id": "ITM2.2D",
+      "selected_option_title": "Causal post-event asset and entitlement graphs with provenance-preserving recovery, allocation, and no universal corpse drops",
+      "selection_line": 14205,
+      "status": "DECIDED"
+    },
+    {
+      "decision_id": "SOC1.0",
+      "decision_title": "Cooperation, groups, parties, contribution, and shared progression",
+      "heading_anchor": "soc10--cooperation-groups-parties-contribution-and-shared-progression",
+      "line_start": 14329,
+      "selected_option_id": "SOC1.0D",
+      "selected_option_title": "Layered cooperation–party–capability topology with conserved local progression and Skill-gated formal party formation",
+      "selection_line": 14332,
+      "status": "DECIDED"
+    },
+    {
+      "decision_id": "SOC1.1",
+      "decision_title": "Companions, followers, summons, familiars, command, dependency, and autonomy",
+      "heading_anchor": "soc11--companions-followers-summons-familiars-command-dependency-and-autonomy",
+      "line_start": 14432,
+      "selected_option_id": "SOC1.1D",
+      "selected_option_title": "Typed relationship–agency–dependency graph with independent identity and development",
+      "selection_line": 14435,
+      "status": "DECIDED"
+    },
+    {
+      "decision_id": "SOC1.2",
+      "decision_title": "Guilds, factions, reputation, authority, institutions, and social progression",
+      "heading_anchor": "soc12--guilds-factions-reputation-authority-institutions-and-social-progression",
+      "line_start": 14521,
+      "selected_option_id": "SOC1.2D",
+      "selected_option_title": "Provenance-bearing institutional–reputation graph with scoped collective progression",
+      "selection_line": 14524,
+      "status": "DECIDED"
+    },
+    {
+      "decision_id": "UI1.0",
+      "decision_title": "Status sheets, object views, disclosure, and customisation",
+      "heading_anchor": "ui10--status-sheets-object-views-disclosure-and-customisation",
+      "line_start": 14645,
+      "selected_option_id": "UI1.0D",
+      "selected_option_title": "Layered fact–access–view–presentation topology",
+      "selection_line": 14648,
+      "status": "DECIDED"
+    },
+    {
+      "decision_id": "UI1.1",
+      "decision_title": "Notifications, logs, offers, alerts, comparison, and attention",
+      "heading_anchor": "ui11--notifications-logs-offers-alerts-comparison-and-attention",
+      "line_start": 14758,
+      "selected_option_id": "UI1.1D",
+      "selected_option_title": "Causal event–delivery–attention topology",
+      "selection_line": 14761,
+      "status": "DECIDED"
+    },
+    {
+      "decision_id": "UI1.2",
+      "decision_title": "Appraisal, privacy, concealment, consent, uncertainty, and interface access",
+      "heading_anchor": "ui12--appraisal-privacy-concealment-consent-uncertainty-and-interface-access",
+      "line_start": 14869,
+      "selected_option_id": "UI1.2D",
+      "selected_option_title": "Observer-relative access–evidence–disclosure graph",
+      "selection_line": 14872,
+      "status": "DECIDED"
+    },
+    {
+      "decision_id": "WLD1.0",
+      "decision_title": "Awakening, pre-awakening recognition, childhood safety, and consent",
+      "heading_anchor": "wld10--awakening-pre-awakening-recognition-childhood-safety-and-consent",
+      "line_start": 15024,
+      "selected_option_id": "WLD1.0D",
+      "selected_option_title": "Staged recognition–contact–awakening–consent topology",
+      "selection_line": 15027,
+      "status": "DECIDED"
+    },
+    {
+      "decision_id": "WLD1.1",
+      "decision_title": "System eligibility, species, nonhuman minds, constructs, and personhood",
+      "heading_anchor": "wld11--system-eligibility-species-nonhuman-minds-constructs-and-personhood",
+      "line_start": 15179,
+      "selected_option_id": "WLD1.1D",
+      "selected_option_title": "Capability–identity–continuity eligibility topology",
+      "selection_line": 15182,
+      "status": "DECIDED"
+    },
+    {
+      "decision_id": "WLD1.2",
+      "decision_title": "Animals, monsters, sapient nonhumans, and creature progression",
+      "heading_anchor": "wld12--animals-monsters-sapient-nonhumans-and-creature-progression",
+      "line_start": 15288,
+      "selected_option_id": "WLD1.2D",
+      "selected_option_title": "Layered organism–learner–actor–ecology progression graph",
+      "selection_line": 15291,
+      "status": "DECIDED"
+    },
+    {
+      "decision_id": "WLD2.0",
+      "decision_title": "Dungeons, ruins, labyrinths, domains, and exceptional places",
+      "heading_anchor": "wld20--dungeons-ruins-labyrinths-domains-and-exceptional-places",
+      "line_start": 15485,
+      "selected_option_id": "WLD2.0D",
+      "selected_option_title": "Layered site–boundary–controller–ecology–record topology",
+      "selection_line": 15488,
+      "status": "DECIDED"
+    },
+    {
+      "decision_id": "WLD2.1",
+      "decision_title": "Spawning, replenishment, treasure, territorial effects, and ecological consequence",
+      "heading_anchor": "wld21--spawning-replenishment-treasure-territorial-effects-and-ecological-consequence",
+      "line_start": 15645,
+      "selected_option_id": "WLD2.1A+D",
+      "selected_option_title": "Ordinary-world life cycles with dungeon- and labyrinth-bounded provenance–conversion spawning",
+      "selection_line": 15648,
+      "status": "DECIDED"
+    },
+    {
+      "decision_id": "WLD2.2",
+      "decision_title": "Population progression, rarity, power distributions, and social equilibrium",
+      "heading_anchor": "wld22--population-progression-rarity-power-distributions-and-social-equilibrium",
+      "line_start": 15812,
+      "selected_option_id": "WLD2.2D",
+      "selected_option_title": "Opportunity–evidence–survival–institution distribution network",
+      "selection_line": 15815,
+      "status": "DECIDED"
+    },
+    {
+      "decision_id": "PRO1.0",
+      "decision_title": "Reincarnation seed, embodied integration, and Soul development",
+      "heading_anchor": "pro10--reincarnation-seed-embodied-integration-and-soul-development",
+      "line_start": 15992,
+      "selected_option_id": "PRO1.0D",
+      "selected_option_title": "Continuity-seed–embodied-integration lineage with differentiated Soul consolidation",
+      "selection_line": 15995,
+      "status": "DECIDED"
+    },
+    {
+      "decision_id": "PRO1.1",
+      "decision_title": "Starting state, prenatal progression, and asymmetric self-knowledge",
+      "heading_anchor": "pro11--starting-state-prenatal-progression-and-asymmetric-self-knowledge",
+      "line_start": 16080,
+      "selected_option_id": "PRO1.1D",
+      "selected_option_title": "Staged asymmetric self-knowledge with real natural and directed prenatal progression",
+      "selection_line": 16083,
+      "status": "DECIDED"
+    },
+    {
+      "decision_id": "PRO1.2",
+      "decision_title": "Pure-Mage trajectory and weak-to-overwhelming arc",
+      "heading_anchor": "pro12--pure-mage-trajectory-and-weak-to-overwhelming-arc",
+      "line_start": 16213,
+      "selected_option_id": "PRO1.2D",
+      "selected_option_title": "Anchored emergent Mage lineage with constructed breadth",
+      "selection_line": 16216,
+      "status": "DECIDED"
+    },
+    {
+      "decision_id": "VAL1.0",
+      "decision_title": "Numerical calibration and the 10,000-birth model",
+      "heading_anchor": "val10--numerical-calibration-and-the-10000-birth-model",
+      "line_start": 16295,
+      "selected_option_id": "VAL1.0D",
+      "selected_option_title": "Causal life-course cohort simulation with calibration envelopes",
+      "selection_line": 16298,
+      "status": "DECIDED"
+    },
+    {
+      "decision_id": "VAL1.1",
+      "decision_title": "Exploit, conservation, and institutional validation",
+      "heading_anchor": "val11--exploit-conservation-and-institutional-validation",
+      "line_start": 16397,
+      "selected_option_id": "VAL1.1D",
+      "selected_option_title": "Invariant-led adversarial and institutional test network",
+      "selection_line": 16400,
+      "status": "DECIDED"
+    },
+    {
+      "decision_id": "VAL1.2",
+      "decision_title": "Narrative usability, scenario validation, and specification closure",
+      "heading_anchor": "val12--narrative-usability-scenario-validation-and-specification-closure",
+      "line_start": 16498,
+      "selected_option_id": "VAL1.2D",
+      "selected_option_title": "Layered canonical model with authoring projections and closure tests",
+      "selection_line": 16501,
+      "status": "DECIDED"
+    }
+  ],
+  "generated_from": "litrpg-system/cal0/canonical/litrpg-system-specification.md",
+  "index_version": "1.0.0",
+  "source_sha256": "sha256:080e23cfa15d18d1ab443b346be62bb92f0af36d717e37d84b295028d9de5ee5",
+  "specification_version": "0.89"
+}

@@ -1,0 +1,10 @@
+* text=auto
+
+# CAL0 manifests hash raw text bytes; preserve repository-normalized LF endings
+# on every platform so a checkout remains content-pinned and reproducible.
+*.md text eol=lf
+*.json text eol=lf
+*.py text eol=lf
+*.toml text eol=lf
+*.yml text eol=lf
+*.yaml text eol=lf

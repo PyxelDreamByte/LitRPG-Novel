@@ -1,0 +1,55 @@
+{
+  "fixture_suite_id": "fixture-suite://cal0/i6-usability@1",
+  "cases": [
+    {
+      "case_id": "I6-F01-report-failed",
+      "mutation": {"operation": "i6_report_failed"},
+      "expected_codes": ["I6_REPORT_FAILED"]
+    },
+    {
+      "case_id": "I6-F02-parent-digest-drift",
+      "mutation": {"operation": "i6_parent_digest_drift"},
+      "expected_codes": ["I6_PARENT_REPORT"]
+    },
+    {
+      "case_id": "I6-F03-reference-sheet-missing",
+      "mutation": {"operation": "i6_remove_sheet"},
+      "expected_codes": ["I6_SHEET_COVERAGE", "I6_PROJECTION_COVERAGE"]
+    },
+    {
+      "case_id": "I6-F04-projection-missing",
+      "mutation": {"operation": "i6_remove_projection"},
+      "expected_codes": ["I6_PROJECTION_COVERAGE"]
+    },
+    {
+      "case_id": "I6-F05-private-field-leak",
+      "mutation": {"operation": "i6_projection_leak"},
+      "expected_codes": ["I6_PROJECTION_LEAK"]
+    },
+    {
+      "case_id": "I6-F06-scenario-family-missing",
+      "mutation": {"operation": "i6_remove_scenario"},
+      "expected_codes": ["I6_SCENARIO_COVERAGE"]
+    },
+    {
+      "case_id": "I6-F07-scalar-soul-resolution",
+      "mutation": {"operation": "i6_scalar_soul_resolution"},
+      "expected_codes": ["I6_SOUL_RESOLUTION"]
+    },
+    {
+      "case_id": "I6-F08-unclassified-residual",
+      "mutation": {"operation": "i6_unclassified_residual"},
+      "expected_codes": ["I6_RESIDUAL_CLASSIFICATION"]
+    },
+    {
+      "case_id": "I6-F09-report-digest-drift",
+      "mutation": {"operation": "i6_report_digest_drift"},
+      "expected_codes": ["I6_REPORT_DIGEST"]
+    },
+    {
+      "case_id": "I6-F10-unclassified-change",
+      "mutation": {"operation": "i6_unclassified_change"},
+      "expected_codes": ["I6_CHANGE_REGISTER"]
+    }
+  ]
+}
