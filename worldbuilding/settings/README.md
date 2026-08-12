@@ -1,6 +1,12 @@
 # Setting Isolation
 
-No setting exists here yet. When the Author begins one, create:
+One real setting shell currently exists:
+
+- [`Continuity One`](continuity-one/) — stable ID `setting://continuity-one`,
+  provisional display title, `DRAFT`/`PROPOSED`, with no accepted detailed
+  setting canon or adopting works.
+
+When the Author begins another setting, create:
 
 ```text
 worldbuilding/settings/<setting-slug>/

@@ -20,7 +20,7 @@ The Author is the sole authority for accepting canon, plot, voice, and changes t
 - [`litrpg-system/story-integration/`](litrpg-system/story-integration/) — machine-readable chapter, progression, and state contracts.
 - [`.agents/skills/`](.agents/skills/) — Author-callable repository workflows.
 - [`.codex/agents/`](.codex/agents/) — specialist drafting and review roles.
-- [`worldbuilding/`](worldbuilding/) — project defaults plus isolated future settings; no real setting exists yet.
+- [`worldbuilding/`](worldbuilding/) — project defaults plus the isolated Continuity One proposed setting shell.
 - [`characters/`](characters/) — profiles, knowledge, relationships, arcs, and story state.
 - [`stories/`](stories/) — series, books, shorter fiction, and drafting templates.
 - [`research/`](research/) — non-canonical evidence and inspiration.
@@ -41,14 +41,17 @@ Research, examples, calibration fixtures, agent output, and manuscript invention
 
 ## Current worldbuilding boundary
 
-No detailed setting or setting constitution exists. Two reusable provisional
-human-reference modelling defaults are recorded: rare-Soul prevalence `0.001`
-with typed non-scalar Souls, and no ordinary persistent self-aware continuity
-or directed prenatal System practice in population models. A future work must
-explicitly adopt either default; neither silently binds an independent world.
-Universal rarity proportions are Author-deferred until their object type,
-rarity dimension, eligible denominator, population, period, and evidence are
-defined. See [`worldbuilding/INDEX.md`](worldbuilding/INDEX.md).
+The first real shared-setting shell exists at
+[`worldbuilding/settings/continuity-one/`](worldbuilding/settings/continuity-one/).
+Its stable ID is `setting://continuity-one`; `Continuity One` is a provisional
+display title. Its manifest and constitution are `DRAFT`/`PROPOSED`, its layered
+foundation map is unanswered, and it has no adopting works or accepted detailed
+setting canon.
+
+Two reusable provisional human-reference modelling defaults and one rarity
+deferral remain at project level. Continuity One does not adopt or assume
+`WLD-SOUL-001A` or `WLD-PRENATAL-001A`, and `WLD-RARITY-001D` is not a setting
+distribution. See [`worldbuilding/INDEX.md`](worldbuilding/INDEX.md).
 
 ## CAL0 boundary
 
@@ -75,5 +78,5 @@ agents, non-CAL0 JSON, CAL0, its regression suite, generated routing indexes,
 and the current story-integration schemas and fixtures. Use
 `python3 tools/validate_system.py` only for the narrower System gate. Neither
 command proves that the multi-agent chapter workflow produces publication-ready
-fiction; that requires the pending workflow evaluations and a successful pilot
-described in [`governance/evals/`](governance/evals/).
+fiction; that requires the pending workflow evaluations and further successful
+end-to-end evidence described in [`governance/evals/`](governance/evals/).
