@@ -1,6 +1,6 @@
 # Canon
 
-No fully accepted Project Hearthway setting record exists. Twenty-one bounded
+No fully accepted Project Hearthway setting record exists. Thirty-two bounded
 provisional setting records are available for declared downstream use:
 
 - [`WLD-ECOLOGY-001`](ecology/WLD-ECOLOGY-001.md) — Lineage II
@@ -55,6 +55,40 @@ provisional setting records are available for declared downstream use:
 - [`WLD-FLORA-004`](ecology/WLD-FLORA-004.md) — six-kingdom planetary
   producer-and-decomposer roster with the reserve-web guild homed in the
   networked-modular kingdom.
+- [`WLD-FLORA-005`](ecology/WLD-FLORA-005.md) — tower-flora core-and-casing
+  growth architecture: living core columns sheathed in successive dead
+  casings, slow replacement, and episodic heavy seeding years.
+- [`WLD-FLORA-006`](ecology/WLD-FLORA-006.md) — water-flora
+  anchor-and-streamer growth architecture: persistent reserve-holding anchors
+  with expendable seasonal streamers regrown after the freshet.
+- [`WLD-FLORA-007`](ecology/WLD-FLORA-007.md) — free-seeder vault-seed
+  strategy: short-lived opening specialists persisting as buried dormant
+  vault banks woken by disturbance cues.
+- [`WLD-FLORA-008`](ecology/WLD-FLORA-008.md) — thread-decomposer
+  weaver-and-bloom architecture: diffuse hidden feeding threads, wrapped
+  felted decomposition masses, and episodic fruiting eruptions.
+- [`WLD-FLORA-009`](ecology/WLD-FLORA-009.md) — crust-and-cushion revival
+  strategy: slow surface pioneers surviving by metabolic shutdown and rapid
+  revival, with cover marking undisturbed time and initiating soil.
+- [`WLD-FAUNA-002`](ecology/WLD-FAUNA-002.md) — Lineage I foundational body
+  plan: six-limbed tailed frame, filament-and-scute covering, warm-active
+  physiology, guarded mineral-latticed brood eggs, and mid-pair wings.
+- [`WLD-FAUNA-003`](ecology/WLD-FAUNA-003.md) — Lineage III foundational body
+  plan: low-frame four-limbed generalists with flexible skin, forelimb-derived
+  wings, and a litter-and-disperse high-throughput life history.
+- [`WLD-FAUNA-004`](ecology/WLD-FAUNA-004.md) — Lineage VI foundational body
+  plan: segmented jointed exoskeletons with moult, seam-growth, and
+  rolling-replacement branches, moult ancestral, and large seam-growth forms.
+- [`WLD-FAUNA-005`](ecology/WLD-FAUNA-005.md) — Lineage IV lineage-level body
+  plan: fully aquatic trunk-and-fan core, with the mass breeder's shield,
+  salt organs, and gel chambers reclassified as derived specialisations.
+- [`WLD-FAUNA-006`](ecology/WLD-FAUNA-006.md) — Lineage V lineage-level body
+  plan: tri-radial hydrostatic core with travelling margin waves, with the
+  family-care migrant's vault, paddle-columns, refuge, and care derived.
+- [`WLD-FAUNA-007`](ecology/WLD-FAUNA-007.md) — Lineage VII foundational body
+  plan: unsegmented soft axial bodies with filter, substrate, and grazer
+  branches, filter feeding ancestral, and substrate branches owning soil
+  turnover and parasitism.
 - [`WLD-HISTORY-001`](history/WLD-HISTORY-001.md) — combined three-phase
   imperial collapse arc with multi-causal contributing pressures and an
   explicitly open trigger, collapse-era wildlife and pest-like-race

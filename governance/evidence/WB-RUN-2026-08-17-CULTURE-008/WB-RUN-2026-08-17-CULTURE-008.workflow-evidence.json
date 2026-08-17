@@ -1,0 +1,90 @@
+{
+  "$schema": "../../schemas/workflow-evidence-manifest.schema.json",
+  "schema_version": "1.0.0",
+  "run_id": "run://develop-worldbuilding/WB-RUN-2026-08-17-CULTURE-008",
+  "evidence_kind": "ACCEPTED_OUTCOME",
+  "workflow": "develop-worldbuilding+author-decision",
+  "completed_on": "2026-08-17",
+  "canonicality": "ACCEPTED",
+  "promotion": "ALLOWED_WITH_AUTHOR_GATE",
+  "source_manifest": [
+    {
+      "path": "worldbuilding/settings/shared-universe-001/proposals/WLD-CULTURE-008.md",
+      "revision": "WLD-CULTURE-008-promoted-proposal@2026-08-17",
+      "sha256": "sha256:d55a99c5f033c64a2ce2bd08fe1cb0261ba61dc4ef706d6e984b38ac9fe4d9e1"
+    },
+    {
+      "path": "governance/evidence/WB-RUN-2026-08-17-CULTURE-008/sources/option-capture-proposal.md",
+      "revision": "WLD-CULTURE-008-option-capture@2026-08-17",
+      "sha256": "sha256:97004e750c05aedea2bb53c01bddc1ba4bcc6cd79e495818228b04910fb36322"
+    }
+  ],
+  "target_artifacts": [
+    {
+      "path": "worldbuilding/settings/shared-universe-001/canon/culture/WLD-CULTURE-008.md",
+      "revision": "WLD-CULTURE-008@2026-08-17",
+      "sha256": "sha256:636a224f9a195a7f8adaf6d117b3413445810ee5cf37e0464319675a6b77b57e"
+    },
+    {
+      "path": "worldbuilding/settings/shared-universe-001/canon/culture/WLD-CULTURE-008.worldbuilding.json",
+      "revision": "WLD-CULTURE-008@2026-08-17",
+      "sha256": "sha256:d904cb5fd8b3b54d17cd6934e8a85dbe5433c53ac7471c0679b3db629f57c829"
+    },
+    {
+      "path": "worldbuilding/settings/shared-universe-001/decisions/WLD-CULTURE-008A.md",
+      "revision": "WLD-CULTURE-008A@2026-08-17",
+      "sha256": "sha256:c99272f5f93ffe3ef791d6aa255544f0020990b6688768e5c379bd20a4b4173c"
+    },
+    {
+      "path": "worldbuilding/settings/shared-universe-001/decisions/WLD-CULTURE-008A.decision.json",
+      "revision": "WLD-CULTURE-008A@2026-08-17",
+      "sha256": "sha256:a54ed3306226d61f92b03ebd82649fcd0c7b6fe241d0ce6b246ed94c178acdd2"
+    },
+    {
+      "path": "worldbuilding/settings/shared-universe-001/indexes/INDEX.md",
+      "revision": "culture-batch-indexed@2026-08-17",
+      "sha256": "sha256:e811c062bbb3edabb2f5261cf5b9ecdaa9616b24e427b0c5bd3ba17fcf8d36da"
+    },
+    {
+      "path": "worldbuilding/INDEX.md",
+      "revision": "culture-batch-indexed@2026-08-17",
+      "sha256": "sha256:0250840674457e22ff9e0630cdfd8172b9b4d9c0b78f60df2174327499158c3f"
+    },
+    {
+      "path": "worldbuilding/settings/shared-universe-001/setting-constitution.md",
+      "revision": "culture-batch-reconciled@2026-08-17",
+      "sha256": "sha256:e5a28a4ba3aa193e91943e6b3a1d7c0e092dc60deedccd4fac62f937318114ee"
+    },
+    {
+      "path": "STATUS.md",
+      "revision": "culture-batch-updated@2026-08-17",
+      "sha256": "sha256:e76f44deb12a96f61bd8fe9a5831264fc931ccd9df90fdfcf12dfb08bb6d0ca5"
+    }
+  ],
+  "findings": [
+    "PASS: a prestige sphere of surviving imperial coin is promoted above an internal customary sphere of obligation, labour-exchange, tally credit, and in-kind return, with socially marked conversion between spheres.",
+    "PASS: the cross-lake rivalry lives in the coin sphere as argument classes only, with no occurred incident, negotiation, or conflict event established.",
+    "BOUNDARY PRESERVED: no prices, denominations, rates, or quantities; no functioning mint or treasury; coin worth is social belief with no System recognition; whether the outlet settlement ever tests, re-melts, or strikes metal stays an explicit open question.",
+    "BOUNDARY PRESERVED: WLD-ECOLOGY-006's harvest-institution boundary and WLD-CULTURE-002's open compact-finance space are untouched."
+  ],
+  "validations": [
+    "python tools/validate_governance.py: PASS with 118 repository records, 5 valid fixtures, 5 rejected fixtures.",
+    "python tools/validate_workspaces.py: PASS with 4 work manifests, 3 setting manifests, 2 workflow evaluations, 4 rejected workspace/eval fixtures.",
+    "python -m unittest discover -s tools/tests: PASS with 3 evidence-mode regression tests.",
+    "python tools/validate_repository.py: PASS including complete System validation."
+  ],
+  "retained_files": [
+    "governance/evidence/WB-RUN-2026-08-17-CULTURE-008/WB-RUN-2026-08-17-CULTURE-008.workflow-evidence.json",
+    "governance/evidence/WB-RUN-2026-08-17-CULTURE-008/final-findings.md",
+    "governance/evidence/WB-RUN-2026-08-17-CULTURE-008/approved-change-set.md",
+    "governance/evidence/WB-RUN-2026-08-17-CULTURE-008/validation-summary.md",
+    "governance/evidence/WB-RUN-2026-08-17-CULTURE-008/sources/option-capture-proposal.md"
+  ],
+  "approval": {
+    "decision_uri": "author-decision://world/WLD-CULTURE-008A",
+    "decided_by": "Author",
+    "decision": "ACCEPT",
+    "decided_on": "2026-08-17",
+    "evidence": "On 2026-08-17 the Author selected 'C — DUAL-SPHERE' from three displayed exchange-media options, accepting Option C exactly as drafted together with the proposal's shared claim set."
+  }
+}

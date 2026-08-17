@@ -1,0 +1,85 @@
+{
+  "$schema": "../../../../../governance/schemas/worldbuilding-record.schema.json",
+  "schema_version": "1.0.0",
+  "id": "WLD-FAUNA-007",
+  "record_uri": "canon://world/shared-universe-001/ecology/lineage-vii-foundational-body-plan",
+  "display_code": "WLD-FAUNA-007",
+  "setting_id": "setting://shared-universe-001",
+  "title": "Lineage VII foundational body plan",
+  "workflow_status": "ACCEPTED",
+  "canon_status": "PROVISIONAL",
+  "scope": "Foundational body plan of Lineage VII, the unsegmented soft-bodied lineage, including life mode as a branch-level axis and its ancestral state; usable within shared-setting ecology and adopted downstream story development.",
+  "claims": [
+    "Lineage VII bodies are unsegmented and soft, without a rigid internal skeleton or a jointed exoskeleton.",
+    "Bodies are broadly bilateral and elongate along a single axis, in contrast with Lineage V's tri-radial organisation.",
+    "Movement is driven by muscular waves running along the body axis rather than by Lineage V's travelling margin waves.",
+    "The lineage occurs in water, soil, and other moist substrates.",
+    "Life mode varies by branch across three modes.",
+    "Filter branches draw suspended material from water, sessile or weakly mobile on submerged surfaces.",
+    "Substrate branches live inside material such as soil, mud, litter, sediment, and decaying matter, driving through it by muscular waves and processing it as they go.",
+    "Grazer branches move over exposed surfaces, feeding from them and relying on protective secretions.",
+    "Aquatic filter feeding is ancestral; substrate branches derived from filterers by invading sediment and soil, and grazer branches derived from substrate branches by emerging onto exposed surfaces.",
+    "Substrate branches own substrate turnover, complementing rather than duplicating the thread decomposers that wrap and digest concentrated dead material from outside.",
+    "Internal parasitism derives from the substrate habit."
+  ],
+  "boundaries": [
+    "Filter branch, substrate branch, grazer branch, and muscular wave are author-facing functional descriptions, not in-world names or formal taxonomy.",
+    "The plan establishes no worm, mollusc, snail, slug, leech, flatworm, or other Earth-clade homology and no direct Earth-animal transplant.",
+    "Species, names, sizes, proportions, colours, lifespans, and the branch inventory remain open.",
+    "Bilateral and axially elongate describe qualitative organisation only; they establish no fixed proportions, head, tail, or invariant external form, and derived branches may be secondarily reduced or asymmetric.",
+    "Whether any branch carries mineralised structures, shells, plates, or other hard parts remains open; softness describes the absence of a rigid internal skeleton and jointed exoskeleton, not the absence of all hard tissue.",
+    "Feeding mechanisms, digestion, senses, respiration, circulation, and internal organisation remain open across every branch.",
+    "Moisture dependence is a lineage tendency; exact desiccation, freezing, salinity, and compaction tolerances remain open, and no branch is established as unable to endure dry conditions in some resting state.",
+    "Substrate turnover is an ecological role, not a rate, yield, soil model, or guarantee that any particular ground is worked, fertile, or recoverable.",
+    "Protective secretions establish a functional adaptation only; their chemistry, effectiveness, toxicity, edibility, and any human use remain open.",
+    "Internal parasitism is available as a derived habit; no parasitic species, host, transmission route, symptom, prevalence, disease, treatment, or effect on any person, animal, or population is established.",
+    "The three modes describe life strategy only; they establish no fixed branch count, no exclusive niche assignment, and no rule that any niche belongs to one mode.",
+    "Ancestral filter feeding is an evolutionary-history claim establishing no timeline, transitional form, or surviving ancestral species.",
+    "No Lineage VII branch is established as present, abundant, or absent at any particular location, including the initial basin.",
+    "Mana patterns remain open; no Mana organ, specialised ability, System progression, universal creature level, spawn mechanism, reward, Skill, trait payload, or Ancestry Development rule is established.",
+    "Earth life of any era and mythological creatures may inspire author-facing design; no living, extinct, or legendary Earth species is transplanted directly.",
+    "Moisture, oxygen, food, energy, materials, reproduction, disease, injury, mortality, and carrying capacity remain binding ecological constraints."
+  ],
+  "dependencies": [
+    "author-decision://world/WLD-SETTING-001A",
+    "author-decision://world/WLD-FAUNA-007A",
+    "canon://world/shared-universe-001/ecology/planetary-faunal-lineage-roster",
+    "canon://world/shared-universe-001/ecology/lineage-v-foundational-body-plan",
+    "canon://world/shared-universe-001/ecology/thread-decomposer-foundational-body-architecture",
+    "CAL0 WLD1.2D",
+    "CAL0 WLD2.1A+D"
+  ],
+  "contradictions": [],
+  "story_implications": [
+    "Digging, ploughing, butchery, flood deposits, and rot can uncover the lineage's hidden populations.",
+    "Submerged surfaces can carry filter branches and damp surfaces can carry grazers.",
+    "Soil fertility depends on invisible but load-bearing substrate turnover.",
+    "Internal parasites are biologically available, but every species, host, presence, and consequence requires its own evidence."
+  ],
+  "system_implications": [
+    "The body plan describes ordinary planetary ecology under CAL0 WLD1.2D and WLD2.1A+D.",
+    "No System mechanic, creature progression rule, spawn source, reward, or specialised Mana ability is established."
+  ],
+  "research_questions": [
+    "What feeding, digestive, sensory, and respiratory mechanisms serve each branch mode?",
+    "Do any branches carry shells or other hard parts, and in which mode?",
+    "How do members reproduce and develop across the three modes?",
+    "Which parasitic branches exist, with what hosts and effects?",
+    "What substrate-turnover rates and soil consequences follow, and how do they interact with agriculture?",
+    "How do the lineage's moisture limits bound its range in the initial region?"
+  ],
+  "sources": [
+    "worldbuilding/settings/shared-universe-001/proposals/WLD-FAUNA-007.md",
+    "canon://world/shared-universe-001/ecology/planetary-faunal-lineage-roster",
+    "canon://world/shared-universe-001/ecology/lineage-v-foundational-body-plan",
+    "Author structural direction and selection on 2026-08-17"
+  ],
+  "supersedes": [],
+  "superseded_by": null,
+  "author_approval": {
+    "decision_uri": "author-decision://world/WLD-FAUNA-007A",
+    "accepted_on": "2026-08-17",
+    "accepted_by": "Author",
+    "evidence": "After the life-mode cards were presented, the Author directed that all three modes be included as branches on one shared body plan, and selected 'A — Filter ancestral' for the ancestry question on 2026-08-17."
+  }
+}

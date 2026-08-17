@@ -1,0 +1,82 @@
+{
+  "$schema": "../../../../governance/schemas/decision-record.schema.json",
+  "schema_version": "1.0.0",
+  "id": "WLD-FLORA-006A",
+  "decision_uri": "author-decision://world/WLD-FLORA-006A",
+  "display_code": "WLD-FLORA-006A",
+  "title": "Water-flora foundational growth architecture",
+  "domain": "world",
+  "setting_id": "setting://shared-universe-001",
+  "workflow_status": "ACCEPTED",
+  "canon_status": "PROVISIONAL",
+  "scope": "Foundational growth architecture of the K4 water-flora kingdom at qualitative strategy grain. Species, forms, chemistry, reproduction, salinity tolerances, the egg-substrate assignment, floating-branch existence, symbioses, Mana patterns, and local presence remain open.",
+  "accepted_on": "2026-08-17",
+  "accepted_by": "Author",
+  "approval_evidence": "After the A/B/C architecture cards were presented with A recommended, the Author selected 'A — Anchor-and-streamer' on 2026-08-17.",
+  "question": "What foundational growth architecture should define the K4 water-flora kingdom?",
+  "selection": "Anchor-and-streamer flora: individual non-networked organisms with durable reserve-holding anchors gripping bed, stone, or bank, plus expendable seasonal streamer growth shed to ice, flood scouring, and grazing and regrown after the spring freshet. The kingdom spans submerged, floating-surface, and wet-margin emergent forms, with mature anchored forms as the natural but unassigned candidate for the lake's sturdy egg-substrate plants.",
+  "alternatives": [
+    "K4-ARCH-A: persistent anchors with expendable streamers; selected.",
+    "K4-ARCH-B: buoyant vessel flora with seasonal sinking; not selected (weak sturdy-substrate fit, freshet exposure).",
+    "K4-ARCH-C: dense clonal turf meadows; not selected (blurs K1 and K5 identities)."
+  ],
+  "rationale": "The anchor-and-streamer architecture survives the established freshet-and-ice regime with the least special pleading, makes the sturdy egg-substrate connection natural without forcing the assignment, spans all three K4 habits, and keeps the individual-organism contrast with K1 crisp.",
+  "evidence": [
+    "Author selection on 2026-08-17.",
+    "worldbuilding/settings/shared-universe-001/proposals/WLD-FLORA-006.md",
+    "canon://world/shared-universe-001/ecology/planetary-floral-kingdom-roster",
+    "canon://world/shared-universe-001/geography/initial-region-physical-scaffold",
+    "canon://world/shared-universe-001/ecology/basin-lake-spring-breeding-pulse",
+    "CAL0 WLD2.1A+D"
+  ],
+  "consequences": [
+    "K4 members are individual organisms of anchor plus expendable streamer growth.",
+    "Winter and flood survival is anchor-and-reserves survival; anchor loss is the lasting damage.",
+    "Kingdom rhythms couple to the freshet, high-water margins, summer growth, and winter ice or die-back.",
+    "Mature anchored forms are the standing candidate for the egg-substrate plants pending their own record.",
+    "Later lake flora, nursery, forage, and fishery development must build on this architecture.",
+    "No Earth-plant homology, human practice, guaranteed harvest, or System mechanic is created."
+  ],
+  "affected_sources": [
+    "worldbuilding/settings/shared-universe-001/proposals/WLD-FLORA-006.md",
+    "worldbuilding/settings/shared-universe-001/canon/ecology/WLD-FLORA-006.worldbuilding.json",
+    "worldbuilding/settings/shared-universe-001/canon/ecology/WLD-FLORA-006.md",
+    "worldbuilding/settings/shared-universe-001/setting-constitution.md",
+    "worldbuilding/settings/shared-universe-001/canon/README.md",
+    "worldbuilding/settings/shared-universe-001/proposals/README.md",
+    "worldbuilding/settings/shared-universe-001/decisions/README.md",
+    "worldbuilding/settings/shared-universe-001/indexes/INDEX.md",
+    "worldbuilding/INDEX.md",
+    "workbench/proposals/flora-fauna-development-plan.md",
+    "README.md"
+  ],
+  "dependencies": [
+    "WLD-SETTING-001A",
+    "WLD-FLORA-004A",
+    "WLD-FLORA-004",
+    "WLD-GEOGRAPHY-001A",
+    "WLD-GEOGRAPHY-001",
+    "WLD-ECOLOGY-006A",
+    "WLD-ECOLOGY-006",
+    "CAL0 WLD1.2D",
+    "CAL0 WLD2.1A+D"
+  ],
+  "conflicts": [],
+  "residual_unknowns": [
+    "Species, forms, dimensions, silhouettes, and lifespan remain open.",
+    "Anchor and streamer anatomy, chemistry, reserves, and material properties remain open.",
+    "Energy capture, reproduction, dispersal, and seasonal timing mechanisms remain open.",
+    "Whether the egg-substrate plants are anchored K4 members requires its own record.",
+    "Salinity tolerances toward the brackish coast remain open.",
+    "Floating-branch existence and form remain open.",
+    "Symbioses, grazing relationships, pests, diseases, and Mana patterns remain open.",
+    "Human uses, practices, and knowledge remain open."
+  ],
+  "supersedes": [],
+  "superseded_by": null,
+  "reopening_conditions": [
+    "The architecture cannot support required lake ecology or nursery functions.",
+    "A concrete contradiction with an accepted or provisional record emerges.",
+    "The Author explicitly reopens the decision."
+  ]
+}

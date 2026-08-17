@@ -1,0 +1,78 @@
+{
+  "$schema": "../../../../governance/schemas/decision-record.schema.json",
+  "schema_version": "1.0.0",
+  "id": "WLD-FAUNA-003A",
+  "decision_uri": "author-decision://world/WLD-FAUNA-003A",
+  "display_code": "WLD-FAUNA-003A",
+  "title": "Lineage III foundational body plan",
+  "domain": "world",
+  "setting_id": "setting://shared-universe-001",
+  "workflow_status": "ACCEPTED",
+  "canon_status": "PROVISIONAL",
+  "scope": "Foundational body plan and life-history signature of Lineage III, the low-frame four-limbed generalist radiation. Species, names, taxonomy, sizes, branch inventory, egg-laying versus live-bearing, skin structures, wing structure and performance, diet, senses, cognition, sociality, domestication potential, Mana patterns, and local presence remain open.",
+  "accepted_on": "2026-08-17",
+  "accepted_by": "Author",
+  "approval_evidence": "After the A/B/C life-history cards were presented with A recommended, the Author selected 'A — Litter-and-disperse' on 2026-08-17.",
+  "question": "What is Lineage III's bounded foundational body plan, and what life-history signature explains its breadth as the planet's generalist radiation?",
+  "selection": "Litter-and-disperse generalists: four-limbed ancestry with a low-slung ancestral posture, an internal supporting frame, flexible skin bearing branch-specific structures, and forelimb-derived wings in winged branches leaving two walking legs. The lineage is the planet's broadest generalist radiation, and its signature is reproductive throughput — several to many young per breeding, fast juvenile growth, early dispersal, high early mortality, and quick generational turnover. Large-bodied branches may moderate the pattern, and parental care occurs in some branches without being the lineage's defining investment.",
+  "alternatives": [
+    "L3-LIFE-A: litter-and-disperse high-throughput reproduction; selected.",
+    "L3-LIFE-B: two-form metamorphosis splitting juvenile and adult niches; not selected (doubles per-species design cost).",
+    "L3-LIFE-C: few young with long parental teaching; not selected (duplicates Lineage II's reproductive identity, leaves no ordinary-prey engine)."
+  ],
+  "rationale": "High reproductive throughput supplies the causal mechanism for the lineage's breadth rather than asserting breadth by fiat, gives the food web the renewable ordinary base other lineages' predators require, contrasts cleanly with both already-developed lineages' reproductive strategies, and keeps per-species design cost low for the lineage that will need the most species.",
+  "evidence": [
+    "Author selection on 2026-08-17.",
+    "worldbuilding/settings/shared-universe-001/proposals/WLD-FAUNA-003.md",
+    "canon://world/shared-universe-001/ecology/planetary-faunal-lineage-roster",
+    "canon://world/shared-universe-001/ecology/lineage-i-foundational-body-plan",
+    "CAL0 WLD2.1A+D"
+  ],
+  "consequences": [
+    "Lineage III's breadth has a causal mechanism: fast turnover plus wide dispersal.",
+    "The lineage is the food web's renewable ordinary base for predators across lineages.",
+    "Local abundance tracks seasonal productivity, producing visible surges, crashes, and quick recoveries.",
+    "Winged Lineage III branches carry the two-legged, two-winged silhouette.",
+    "Three distinct reproductive identities now separate the developed lineages.",
+    "Later Lineage III branch and species development must build on this plan.",
+    "No Earth homology, domesticate, System mechanic, or creature progression rule is created."
+  ],
+  "affected_sources": [
+    "worldbuilding/settings/shared-universe-001/proposals/WLD-FAUNA-003.md",
+    "worldbuilding/settings/shared-universe-001/canon/ecology/WLD-FAUNA-003.worldbuilding.json",
+    "worldbuilding/settings/shared-universe-001/canon/ecology/WLD-FAUNA-003.md",
+    "worldbuilding/settings/shared-universe-001/setting-constitution.md",
+    "worldbuilding/settings/shared-universe-001/canon/README.md",
+    "worldbuilding/settings/shared-universe-001/proposals/README.md",
+    "worldbuilding/settings/shared-universe-001/decisions/README.md",
+    "worldbuilding/settings/shared-universe-001/indexes/INDEX.md",
+    "worldbuilding/INDEX.md",
+    "workbench/proposals/flora-fauna-development-plan.md",
+    "README.md"
+  ],
+  "dependencies": [
+    "WLD-SETTING-001A",
+    "WLD-FAUNA-001A",
+    "WLD-FAUNA-001",
+    "WLD-FAUNA-002A",
+    "WLD-FAUNA-002",
+    "CAL0 WLD1.2D",
+    "CAL0 WLD2.1A+D"
+  ],
+  "conflicts": [],
+  "residual_unknowns": [
+    "Species, names, taxonomy, sizes, proportions, and branch inventory remain open.",
+    "Whether reproduction is egg-laying, live-bearing, or varies by branch remains open.",
+    "Skin structures, insulation, colour, sensory features, and moult remain open.",
+    "Wing structure, size ceilings, and flight performance in winged branches remain open.",
+    "Large-bodied branch handling of the throughput pattern remains open.",
+    "Diet, senses, cognition, sociality, domestication potential, Mana patterns, and local presence remain open."
+  ],
+  "supersedes": [],
+  "superseded_by": null,
+  "reopening_conditions": [
+    "High-throughput reproduction cannot support required large-bodied or long-lived branches.",
+    "A concrete contradiction with an accepted or provisional record emerges.",
+    "The Author explicitly reopens the decision."
+  ]
+}

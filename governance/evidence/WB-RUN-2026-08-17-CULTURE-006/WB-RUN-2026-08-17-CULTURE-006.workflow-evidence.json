@@ -1,0 +1,90 @@
+{
+  "$schema": "../../schemas/workflow-evidence-manifest.schema.json",
+  "schema_version": "1.0.0",
+  "run_id": "run://develop-worldbuilding/WB-RUN-2026-08-17-CULTURE-006",
+  "evidence_kind": "ACCEPTED_OUTCOME",
+  "workflow": "develop-worldbuilding+author-decision",
+  "completed_on": "2026-08-17",
+  "canonicality": "ACCEPTED",
+  "promotion": "ALLOWED_WITH_AUTHOR_GATE",
+  "source_manifest": [
+    {
+      "path": "worldbuilding/settings/shared-universe-001/proposals/WLD-CULTURE-006.md",
+      "revision": "WLD-CULTURE-006-promoted-proposal@2026-08-17",
+      "sha256": "sha256:4ad6110d9890c53124183b688987ac0536f215a41df139349afcefda46cc488d"
+    },
+    {
+      "path": "governance/evidence/WB-RUN-2026-08-17-CULTURE-006/sources/option-capture-proposal.md",
+      "revision": "WLD-CULTURE-006-option-capture@2026-08-17",
+      "sha256": "sha256:e2591aad9db8b54813179b86f06a7e230f1c2557f2a60f3ee977ba45733f9f2b"
+    }
+  ],
+  "target_artifacts": [
+    {
+      "path": "worldbuilding/settings/shared-universe-001/canon/culture/WLD-CULTURE-006.md",
+      "revision": "WLD-CULTURE-006@2026-08-17",
+      "sha256": "sha256:262b6b0af867c996015be8526d1a99b8bcff3f83bfe0f7227d0226bf4a3ba2b0"
+    },
+    {
+      "path": "worldbuilding/settings/shared-universe-001/canon/culture/WLD-CULTURE-006.worldbuilding.json",
+      "revision": "WLD-CULTURE-006@2026-08-17",
+      "sha256": "sha256:b5dbb9637ce7227cb637e2481c3e45c0e35d0b572e7c5a082af95b0112b2d229"
+    },
+    {
+      "path": "worldbuilding/settings/shared-universe-001/decisions/WLD-CULTURE-006A.md",
+      "revision": "WLD-CULTURE-006A@2026-08-17",
+      "sha256": "sha256:483ea4c810d3f4788d15945d90885e59b8a7d124b76108d9a0e1214b7f04bf16"
+    },
+    {
+      "path": "worldbuilding/settings/shared-universe-001/decisions/WLD-CULTURE-006A.decision.json",
+      "revision": "WLD-CULTURE-006A@2026-08-17",
+      "sha256": "sha256:9e801ddab2f13e60fca4cd20a2354a86590d1fad60bc7efd90a0d407d88bdbdb"
+    },
+    {
+      "path": "worldbuilding/settings/shared-universe-001/indexes/INDEX.md",
+      "revision": "culture-batch-indexed@2026-08-17",
+      "sha256": "sha256:e811c062bbb3edabb2f5261cf5b9ecdaa9616b24e427b0c5bd3ba17fcf8d36da"
+    },
+    {
+      "path": "worldbuilding/INDEX.md",
+      "revision": "culture-batch-indexed@2026-08-17",
+      "sha256": "sha256:0250840674457e22ff9e0630cdfd8172b9b4d9c0b78f60df2174327499158c3f"
+    },
+    {
+      "path": "worldbuilding/settings/shared-universe-001/setting-constitution.md",
+      "revision": "culture-batch-reconciled@2026-08-17",
+      "sha256": "sha256:e5a28a4ba3aa193e91943e6b3a1d7c0e092dc60deedccd4fac62f937318114ee"
+    },
+    {
+      "path": "STATUS.md",
+      "revision": "culture-batch-updated@2026-08-17",
+      "sha256": "sha256:e76f44deb12a96f61bd8fe9a5831264fc931ccd9df90fdfcf12dfb08bb6d0ca5"
+    }
+  ],
+  "findings": [
+    "PASS: all four rite classes across all three cultures are promoted as witnessed crossings that socially ratify a new state, with no rite creating, transferring, or extinguishing assembly standing, property, or tenure.",
+    "SYSTEM DISCIPLINE HELD: awakening follows natural law identically regardless of ceremony (ceremony wraps, never triggers or modifies); death rites establish belief only and nothing about Souls; any appraisal custom claims no guaranteed readout.",
+    "GUARDRAIL HELD: birth customs carry beliefs and blessings aimed at the unborn but nothing mechanically effective, per the series-adopted WLD-PRENATAL-001A guardrail; no reincarnate or exceptional individual is mentioned.",
+    "BOUNDARY PRESERVED: marriage and relationship forms remain an open qualitative field with no numeric norms and plural-versus-monogamous variety left explicitly open; liturgy, officiants, calendars, and per-culture rite logic remain open."
+  ],
+  "validations": [
+    "python tools/validate_governance.py: PASS with 118 repository records, 5 valid fixtures, 5 rejected fixtures.",
+    "python tools/validate_workspaces.py: PASS with 4 work manifests, 3 setting manifests, 2 workflow evaluations, 4 rejected workspace/eval fixtures.",
+    "python -m unittest discover -s tools/tests: PASS with 3 evidence-mode regression tests.",
+    "python tools/validate_repository.py: PASS including complete System validation."
+  ],
+  "retained_files": [
+    "governance/evidence/WB-RUN-2026-08-17-CULTURE-006/WB-RUN-2026-08-17-CULTURE-006.workflow-evidence.json",
+    "governance/evidence/WB-RUN-2026-08-17-CULTURE-006/final-findings.md",
+    "governance/evidence/WB-RUN-2026-08-17-CULTURE-006/approved-change-set.md",
+    "governance/evidence/WB-RUN-2026-08-17-CULTURE-006/validation-summary.md",
+    "governance/evidence/WB-RUN-2026-08-17-CULTURE-006/sources/option-capture-proposal.md"
+  ],
+  "approval": {
+    "decision_uri": "author-decision://world/WLD-CULTURE-006A",
+    "decided_by": "Author",
+    "decision": "ACCEPT",
+    "decided_on": "2026-08-17",
+    "evidence": "On 2026-08-17 the Author selected 'A — THRESHOLD-WITNESS' from three displayed rite-architecture options, accepting Option A exactly as drafted together with the proposal's shared claim set."
+  }
+}

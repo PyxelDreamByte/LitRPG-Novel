@@ -1,0 +1,80 @@
+{
+  "$schema": "../../../../../governance/schemas/worldbuilding-record.schema.json",
+  "schema_version": "1.0.0",
+  "id": "WLD-FAUNA-006",
+  "record_uri": "canon://world/shared-universe-001/ecology/lineage-v-foundational-body-plan",
+  "display_code": "WLD-FAUNA-006",
+  "setting_id": "setting://shared-universe-001",
+  "title": "Lineage V foundational body plan",
+  "workflow_status": "ACCEPTED",
+  "canon_status": "PROVISIONAL",
+  "scope": "Lineage-level body plan of Lineage V, the tri-radial hydrostatic lineage, distinguishing its ancestral core from the family-care migrant's derived specialisations; usable within shared-setting ecology and adopted downstream story development.",
+  "claims": [
+    "Lineage V bodies are organised on tri-radial symmetry rather than the bilateral symmetry of Lineages I, III, and IV.",
+    "Support and movement are hydrostatic: pressurised internal fluid working against flexible tissue, with no rigid internal skeleton and no exoskeleton.",
+    "Travelling waves passing along body margins are a basic lineage-wide movement mode.",
+    "The lineage is predominantly aquatic.",
+    "The family-care migrant's low three-lobed vault silhouette, ring of short paddle-columns, underside refuge, and shelter–forage–regroup care system are derived and branch-specific rather than lineage-wide.",
+    "The family-care migrant is one specialised caregiving member of the lineage, and its own records continue to govern it unchanged."
+  ],
+  "boundaries": [
+    "Tri-radial, hydrostatic, and margin wave are author-facing functional descriptions, not in-world names or formal taxonomy.",
+    "The plan establishes no cnidarian, echinoderm, worm, or other Earth-clade homology and no direct Earth-animal transplant.",
+    "Tri-radial symmetry describes qualitative body organisation; it establishes no perfect symmetry, fixed angles, three of any organ, three identities, or invariant external form, and derived branches may be secondarily asymmetric.",
+    "Hydrostatic support establishes a mechanical principle, not exact fluid, chambering, pressure, valves, musculature, control, or performance, and it does not preclude local stiffening tissues short of a rigid skeleton.",
+    "Travelling margin waves establish local tissue motion contributing to movement, not environmental waves, Mana pulses, sonar, signalling, an aura, group control, or a specialised ability; their actuation, speed, and efficiency remain open, and the family-care migrant's bounded outlet-passage sequence remains governed by its own record.",
+    "Predominantly aquatic is qualitative; whether any branch is fully terrestrial, amphibious, sessile, or colonial remains open, as do desiccation and freezing tolerances.",
+    "Body-wall breaches are mechanically serious for hydrostatic bodies as a structural tendency; no wound threshold, healing rate, or mortality outcome is established.",
+    "Which branches, if any, carry vaults, paddle-columns, underside refuges, or parental care remains open; this record establishes none of them for any organism other than the family-care migrant and adds nothing to that migrant's own anatomy or behaviour.",
+    "Species, names, sizes, proportions, colours, lifespans, and the branch inventory remain open.",
+    "Reproduction and care across the lineage remain open; the family-care migrant's care system is its own established behaviour and is not lineage-wide.",
+    "Feeding, digestion, senses, respiration, circulation, internal organisation, cognition, sociality, distribution, migration, and disease remain open.",
+    "No Lineage V branch other than the family-care migrant is established as present, abundant, or absent at any particular location, including the basin lake.",
+    "Mana patterns remain open; no Mana organ, specialised ability, System progression, universal creature level, spawn mechanism, reward, Skill, trait payload, or Ancestry Development rule is established.",
+    "Earth life of any era and mythological creatures may inspire author-facing design; no living, extinct, or legendary Earth species is transplanted directly.",
+    "Food, oxygen, energy, materials, reproduction, disease, injury, mortality, and carrying capacity remain binding ecological constraints."
+  ],
+  "dependencies": [
+    "author-decision://world/WLD-SETTING-001A",
+    "author-decision://world/WLD-FAUNA-006A",
+    "canon://world/shared-universe-001/ecology/planetary-faunal-lineage-roster",
+    "canon://world/shared-universe-001/ecology/basin-lake-family-care-migrant-foundational-body-plan",
+    "canon://world/shared-universe-001/ecology/basin-lake-family-care-migrant-outlet-passage-choreography",
+    "canon://world/shared-universe-001/ecology/lineage-iv-foundational-body-plan",
+    "CAL0 WLD1.2D",
+    "CAL0 WLD2.1A+D"
+  ],
+  "contradictions": [],
+  "story_implications": [
+    "Water and margin scenes can show genuinely alien radial silhouettes moving by travelling margin waves.",
+    "The vaulted brood-carrying migrant reads as the elaborate exception rather than the lineage rule.",
+    "Hydrostatic bodies make body-wall breaches, desiccation, and freezing distinctively dangerous.",
+    "Every species, branch, local presence, and encounter requires its own evidence and records."
+  ],
+  "system_implications": [
+    "The body plan describes ordinary planetary ecology under CAL0 WLD1.2D and WLD2.1A+D.",
+    "No System mechanic, creature progression rule, spawn source, reward, or specialised Mana ability is established."
+  ],
+  "research_questions": [
+    "What branches exist, and what forms do radial hydrostatic bodies take beyond the vault?",
+    "Is any branch fully terrestrial, amphibious, sessile, or colonial?",
+    "How do members reproduce and, where applicable, care for young outside the migrant's system?",
+    "What feeding, sensory, and respiratory strategies suit a radial hydrostatic body?",
+    "Which basin-lake residents, if any, belong to this lineage?",
+    "How do hydrostatic bodies handle freezing, desiccation, and wounding across habitats?"
+  ],
+  "sources": [
+    "worldbuilding/settings/shared-universe-001/proposals/WLD-FAUNA-006.md",
+    "canon://world/shared-universe-001/ecology/planetary-faunal-lineage-roster",
+    "canon://world/shared-universe-001/ecology/basin-lake-family-care-migrant-foundational-body-plan",
+    "Author selection on 2026-08-17"
+  ],
+  "supersedes": [],
+  "superseded_by": null,
+  "author_approval": {
+    "decision_uri": "author-decision://world/WLD-FAUNA-006A",
+    "accepted_on": "2026-08-17",
+    "accepted_by": "Author",
+    "evidence": "After the A/B/C ancestral-scope cards were presented with A recommended, the Author selected 'A — Radial-hydrostatic core' on 2026-08-17."
+  }
+}

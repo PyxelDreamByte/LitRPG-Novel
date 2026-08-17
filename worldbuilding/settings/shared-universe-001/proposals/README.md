@@ -56,6 +56,42 @@
 - [`WLD-FLORA-004`](WLD-FLORA-004.md) — retained option analysis for the
   planetary floral kingdom roster now represented by a bounded provisional
   record.
+- [`WLD-FLORA-005`](WLD-FLORA-005.md) — retained option analysis for the
+  tower-flora core-and-casing growth architecture now represented by a bounded
+  provisional record.
+- [`WLD-FLORA-006`](WLD-FLORA-006.md) — retained option analysis for the
+  water-flora anchor-and-streamer growth architecture now represented by a
+  bounded provisional record.
+- [`WLD-FLORA-007`](WLD-FLORA-007.md) — retained option analysis for the
+  free-seeder vault-seed strategy now represented by a bounded provisional
+  record.
+- [`WLD-FLORA-008`](WLD-FLORA-008.md) — retained option analysis for the
+  thread-decomposer weaver-and-bloom architecture, accepted as an Author
+  custom combination of the displayed options and now represented by a
+  bounded provisional record.
+- [`WLD-FLORA-009`](WLD-FLORA-009.md) — retained option analysis for the
+  crust-and-cushion revival survival strategy now represented by a bounded
+  provisional record.
+- [`WLD-FAUNA-002`](WLD-FAUNA-002.md) — retained option analysis for the
+  Lineage I foundational body plan and its mid-pair wing derivation now
+  represented by a bounded provisional record.
+- [`WLD-FAUNA-003`](WLD-FAUNA-003.md) — retained option analysis for the
+  Lineage III foundational body plan and its litter-and-disperse life history
+  now represented by a bounded provisional record.
+- [`WLD-FAUNA-004`](WLD-FAUNA-004.md) — retained option analysis for the
+  Lineage VI foundational body plan, restructured on Author direction into a
+  three-branch growth-mode axis and now represented by a bounded provisional
+  record.
+- [`WLD-FAUNA-005`](WLD-FAUNA-005.md) — retained option analysis for the
+  Lineage IV lineage-level body plan and its ancestral trunk-and-fan core now
+  represented by a bounded provisional record.
+- [`WLD-FAUNA-006`](WLD-FAUNA-006.md) — retained option analysis for the
+  Lineage V lineage-level body plan and its ancestral radial-hydrostatic core
+  now represented by a bounded provisional record.
+- [`WLD-FAUNA-007`](WLD-FAUNA-007.md) — retained option analysis for the
+  Lineage VII foundational body plan, restructured on Author direction into a
+  three-branch life-mode axis and now represented by a bounded provisional
+  record.
 
 Other current conversation material remains under `workbench/proposals/` until
 split into bounded proposals. Material placed here remains non-canonical unless

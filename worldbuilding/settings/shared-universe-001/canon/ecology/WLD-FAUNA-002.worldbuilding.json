@@ -1,0 +1,80 @@
+{
+  "$schema": "../../../../../governance/schemas/worldbuilding-record.schema.json",
+  "schema_version": "1.0.0",
+  "id": "WLD-FAUNA-002",
+  "record_uri": "canon://world/shared-universe-001/ecology/lineage-i-foundational-body-plan",
+  "display_code": "WLD-FAUNA-002",
+  "setting_id": "setting://shared-universe-001",
+  "title": "Lineage I foundational body plan",
+  "workflow_status": "ACCEPTED",
+  "canon_status": "PROVISIONAL",
+  "scope": "Foundational body plan of Lineage I, the six-limbed filament-and-scute lineage, including the wing-pair derivation used by its winged branches; usable within shared-setting ecology and adopted downstream story development.",
+  "claims": [
+    "Lineage I descends from a six-limbed ancestor with a tail.",
+    "Branches repurpose limb pairs for locomotion, handling, display, defence, digging, climbing, swimming, or flight.",
+    "The outer covering combines insulating or sensory filaments with flexible scutes, in proportions varying by branch and body region.",
+    "They are warm-active animals.",
+    "Reproduction uses flexible, mineral-latticed brood eggs that require guarded nests or brooding.",
+    "Large-bodied branches reproduce slowly, making breeding adults and successful nesting sites ecologically consequential.",
+    "In winged branches the middle limb pair becomes the wing pair, leaving four well-spaced walking legs with wings rising near the body's centre of mass.",
+    "In non-flying branches the middle pair carries the lineage's most variable roles, including grasping, digging, display, and reduced vestiges.",
+    "Winged branches build flight surfaces from the lineage's existing filament-and-scute materials rather than novel membranes."
+  ],
+  "boundaries": [
+    "Filament, scute, brood egg, and wing pair are author-facing functional descriptions, not in-world names or formal taxonomy.",
+    "The covering establishes no fur, feather, hair, reptile-scale, or turtle-scute homology; the six-limbed frame establishes no insect, vertebrate, or Earth-tetrapod homology.",
+    "Species, names, sizes, proportions, colours, lifespans, and the branch inventory remain open.",
+    "Warm-active describes sustained activity and thermal independence at qualitative grain; exact thermoregulation, metabolic rates, temperature tolerances, torpor, hibernation, and seasonal strategies remain open.",
+    "Limb repurposing lists possible roles, not a fixed branch map; no particular branch, limb configuration, or role combination is established.",
+    "Wing structure, vane or brace arrangement, wingspan, size ceilings, flight performance, launch, endurance, range, gliding branches, and flightless descendants of flyers remain open; mid-pair derivation establishes wing position and leg count only, not aerodynamic capability.",
+    "Brood eggs are flexible and mineral-latticed at qualitative grain; exact lattice chemistry, shell mechanics, size, clutch size, incubation period, temperature needs, hatching, and viability remain open.",
+    "Guarded nests or brooding establish a care requirement, not a guarantee of success, a fixed nest form, site type, parental sex or number, colony behaviour, or defence capability; nests can fail, and no branch is established as live-bearing.",
+    "Slow large-body reproduction is a qualitative tendency; no reproductive rate, age at maturity, population size, or recovery time is established.",
+    "Lineage II's live birth from retained egg capsules belongs to a separate lineage and is unaffected by this record.",
+    "No Lineage I branch is established as present, abundant, or absent at any particular location, including the initial basin, and no branch is identified with any megafaunal, mythic, returning, or settlement-adjacent animal.",
+    "Diet, digestion, senses, cognition, sociality, communication, migration, disease, and predator-prey relationships remain open.",
+    "Mana patterns remain open; no Mana organ, specialised ability, System progression, universal creature level, spawn mechanism, reward, Skill, trait payload, or Ancestry Development rule is established.",
+    "Earth life of any era and mythological creatures may inspire author-facing design; no living, extinct, or legendary Earth species is transplanted directly.",
+    "Food, energy, materials, reproduction, disease, injury, mortality, and carrying capacity remain binding ecological constraints."
+  ],
+  "dependencies": [
+    "author-decision://world/WLD-SETTING-001A",
+    "author-decision://world/WLD-FAUNA-002A",
+    "canon://world/shared-universe-001/ecology/planetary-faunal-lineage-roster",
+    "CAL0 WLD1.2D",
+    "CAL0 WLD2.1A+D"
+  ],
+  "contradictions": [],
+  "story_implications": [
+    "The lineage can supply both ordinary six-limbed animals and four-legs-plus-wings silhouettes.",
+    "Guarded nest sites become defensible, losable, story-bearing places.",
+    "Slow-breeding large branches make sustained hunting or habitat pressure consequential rather than instantly recoverable.",
+    "Every species, branch, local presence, and encounter requires its own evidence and records."
+  ],
+  "system_implications": [
+    "The body plan describes ordinary planetary ecology under CAL0 WLD1.2D and WLD2.1A+D.",
+    "No System mechanic, creature progression rule, spawn source, reward, or specialised Mana ability is established."
+  ],
+  "research_questions": [
+    "What branches exist, and how do their limb configurations and sizes vary?",
+    "What wing structures do filament-and-scute flight surfaces produce, and what size ceilings follow?",
+    "What filament and scute microstructure, moult, colour, and sensory functions occur?",
+    "What egg-lattice chemistry, clutch sizes, incubation, and parental roles apply?",
+    "Which branches, if any, occur in the initial basin and wider region?",
+    "What Mana patterns, if any, characterise the lineage?"
+  ],
+  "sources": [
+    "worldbuilding/settings/shared-universe-001/proposals/WLD-FAUNA-002.md",
+    "canon://world/shared-universe-001/ecology/planetary-faunal-lineage-roster",
+    "workbench/proposals/project-hearthway-foundation-capture.md",
+    "Author selection on 2026-08-17"
+  ],
+  "supersedes": [],
+  "superseded_by": null,
+  "author_approval": {
+    "decision_uri": "author-decision://world/WLD-FAUNA-002A",
+    "accepted_on": "2026-08-17",
+    "accepted_by": "Author",
+    "evidence": "After the A/B/C wing-derivation cards were presented with A recommended, the Author selected 'A — Middle pair' on 2026-08-17."
+  }
+}

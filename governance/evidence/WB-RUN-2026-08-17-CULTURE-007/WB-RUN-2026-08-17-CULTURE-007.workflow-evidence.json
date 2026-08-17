@@ -1,0 +1,90 @@
+{
+  "$schema": "../../schemas/workflow-evidence-manifest.schema.json",
+  "schema_version": "1.0.0",
+  "run_id": "run://develop-worldbuilding/WB-RUN-2026-08-17-CULTURE-007",
+  "evidence_kind": "ACCEPTED_OUTCOME",
+  "workflow": "develop-worldbuilding+author-decision",
+  "completed_on": "2026-08-17",
+  "canonicality": "ACCEPTED",
+  "promotion": "ALLOWED_WITH_AUTHOR_GATE",
+  "source_manifest": [
+    {
+      "path": "worldbuilding/settings/shared-universe-001/proposals/WLD-CULTURE-007.md",
+      "revision": "WLD-CULTURE-007-promoted-proposal@2026-08-17",
+      "sha256": "sha256:ac558ea72c52233aa9108c26f265cd5e52a0fdbaec045814bdd65022e10015a4"
+    },
+    {
+      "path": "governance/evidence/WB-RUN-2026-08-17-CULTURE-007/sources/option-capture-proposal.md",
+      "revision": "WLD-CULTURE-007-option-capture@2026-08-17",
+      "sha256": "sha256:8d70c4667c1cbea01d8de99a8d4e48cbd12dc75f609940fc545e9f6fa0d8c789"
+    }
+  ],
+  "target_artifacts": [
+    {
+      "path": "worldbuilding/settings/shared-universe-001/canon/culture/WLD-CULTURE-007.md",
+      "revision": "WLD-CULTURE-007@2026-08-17",
+      "sha256": "sha256:7adaa13716f2c701f404030c4f692a2bd8001c3ed962518359ddba07c45b1295"
+    },
+    {
+      "path": "worldbuilding/settings/shared-universe-001/canon/culture/WLD-CULTURE-007.worldbuilding.json",
+      "revision": "WLD-CULTURE-007@2026-08-17",
+      "sha256": "sha256:78b6ba1502c8f7e65b11055b3e2bfdbe62a730720875944453095f6be5e0e575"
+    },
+    {
+      "path": "worldbuilding/settings/shared-universe-001/decisions/WLD-CULTURE-007A.md",
+      "revision": "WLD-CULTURE-007A@2026-08-17",
+      "sha256": "sha256:e9fddb6879bf843c6db14658436072f738dbabbbc4b8f39eb0204674484c59eb"
+    },
+    {
+      "path": "worldbuilding/settings/shared-universe-001/decisions/WLD-CULTURE-007A.decision.json",
+      "revision": "WLD-CULTURE-007A@2026-08-17",
+      "sha256": "sha256:003757384e14b8739731779c581ca0f3c9b33a07c4cc7aaeff85e9492cc28a43"
+    },
+    {
+      "path": "worldbuilding/settings/shared-universe-001/indexes/INDEX.md",
+      "revision": "culture-batch-indexed@2026-08-17",
+      "sha256": "sha256:e811c062bbb3edabb2f5261cf5b9ecdaa9616b24e427b0c5bd3ba17fcf8d36da"
+    },
+    {
+      "path": "worldbuilding/INDEX.md",
+      "revision": "culture-batch-indexed@2026-08-17",
+      "sha256": "sha256:0250840674457e22ff9e0630cdfd8172b9b4d9c0b78f60df2174327499158c3f"
+    },
+    {
+      "path": "worldbuilding/settings/shared-universe-001/setting-constitution.md",
+      "revision": "culture-batch-reconciled@2026-08-17",
+      "sha256": "sha256:e5a28a4ba3aa193e91943e6b3a1d7c0e092dc60deedccd4fac62f937318114ee"
+    },
+    {
+      "path": "STATUS.md",
+      "revision": "culture-batch-updated@2026-08-17",
+      "sha256": "sha256:e76f44deb12a96f61bd8fe9a5831264fc931ccd9df90fdfcf12dfb08bb6d0ca5"
+    }
+  ],
+  "findings": [
+    "PASS: the generational split is recorded as an Author-amended custom combination per the WLD-HISTORY-001A precedent, with the three displayed options retained as nonbinding decision evidence.",
+    "PASS: the younger generation's hybridising speech is bounded as an in-progress generational development, explicitly not a settled or named third language, with stabilisation left open and argued within the fiction.",
+    "BOUNDARY PRESERVED: strictly sociolinguistic logic — no word, name, sound, grammar feature, letterform, or sample utterance appears, and no variety is named.",
+    "PASS: interpreter-capable individuals are personal competence and reputation only, creating no office, procedure, standing, entitlement, or right to be heard."
+  ],
+  "validations": [
+    "python tools/validate_governance.py: PASS with 118 repository records, 5 valid fixtures, 5 rejected fixtures.",
+    "python tools/validate_workspaces.py: PASS with 4 work manifests, 3 setting manifests, 2 workflow evaluations, 4 rejected workspace/eval fixtures.",
+    "python -m unittest discover -s tools/tests: PASS with 3 evidence-mode regression tests.",
+    "python tools/validate_repository.py: PASS including complete System validation."
+  ],
+  "retained_files": [
+    "governance/evidence/WB-RUN-2026-08-17-CULTURE-007/WB-RUN-2026-08-17-CULTURE-007.workflow-evidence.json",
+    "governance/evidence/WB-RUN-2026-08-17-CULTURE-007/final-findings.md",
+    "governance/evidence/WB-RUN-2026-08-17-CULTURE-007/approved-change-set.md",
+    "governance/evidence/WB-RUN-2026-08-17-CULTURE-007/validation-summary.md",
+    "governance/evidence/WB-RUN-2026-08-17-CULTURE-007/sources/option-capture-proposal.md"
+  ],
+  "approval": {
+    "decision_uri": "author-decision://world/WLD-CULTURE-007A",
+    "decided_by": "Author",
+    "decision": "ACCEPT",
+    "decided_on": "2026-08-17",
+    "evidence": "On 2026-08-17 the Author specified an amended custom combination rather than selecting one displayed option: parallel bilingualism among the older generation, and among the younger generation — raised with both tongues — an actively hybridising speech that mixes words from both languages within a single sentence."
+  }
+}

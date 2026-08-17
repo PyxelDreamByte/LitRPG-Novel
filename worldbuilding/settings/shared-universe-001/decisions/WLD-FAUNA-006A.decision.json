@@ -1,0 +1,81 @@
+{
+  "$schema": "../../../../governance/schemas/decision-record.schema.json",
+  "schema_version": "1.0.0",
+  "id": "WLD-FAUNA-006A",
+  "decision_uri": "author-decision://world/WLD-FAUNA-006A",
+  "display_code": "WLD-FAUNA-006A",
+  "title": "Lineage V foundational body plan",
+  "domain": "world",
+  "setting_id": "setting://shared-universe-001",
+  "workflow_status": "ACCEPTED",
+  "canon_status": "PROVISIONAL",
+  "scope": "Lineage-level body plan of Lineage V, the tri-radial hydrostatic lineage, distinguishing its ancestral core from the family-care migrant's derived specialisations. Species, names, taxonomy, sizes, branch inventory, terrestrial or sessile branches, reproduction and care across the lineage, feeding, senses, respiration, internal organisation, distribution, Mana patterns, and local presence remain open. No accepted family-care migrant claim is altered.",
+  "accepted_on": "2026-08-17",
+  "accepted_by": "Author",
+  "approval_evidence": "After the A/B/C ancestral-scope cards were presented with A recommended, the Author selected 'A — Radial-hydrostatic core' on 2026-08-17.",
+  "question": "What is Lineage V's lineage-level body plan, and how much of the family-care migrant's anatomy is ancestral rather than its own specialisation?",
+  "selection": "Radial-hydrostatic core: Lineage V bodies are organised on tri-radial symmetry with hydrostatic support and actuation, no rigid internal skeleton and no exoskeleton, and travelling margin waves as a basic lineage-wide movement mode. The lineage is predominantly aquatic, with fully terrestrial branches left open. The family-care migrant's low three-lobed vault, paddle-column ring, underside refuge, and shelter–forage–regroup care system are derived and branch-specific, making it one specialised caregiving member rather than the lineage template.",
+  "alternatives": [
+    "L5-CORE-A: radial-hydrostatic mechanical core with margin waves ancestral; selected.",
+    "L5-CORE-B: the full vault-and-paddle package ancestral; not selected (turns the lineage into variations on one nursery animal).",
+    "L5-CORE-C: tri-radial symmetry only, hydrostatic support optional; not selected (lineage loses its mechanical identity)."
+  ],
+  "rationale": "The radial-hydrostatic core keeps the lineage mechanically defined while leaving vaults, paddle-columns, refuges, and parental care as the family-care migrant's own achievements. It preserves the strangeness the roster reserved for this lineage without forcing every future member to be a nursery-animal variant, respects WLD-ECOLOGY-009's self-scoping to the migrant's caregiving form, and mirrors the treatment just accepted for Lineage IV.",
+  "evidence": [
+    "Author selection on 2026-08-17.",
+    "worldbuilding/settings/shared-universe-001/proposals/WLD-FAUNA-006.md",
+    "canon://world/shared-universe-001/ecology/planetary-faunal-lineage-roster",
+    "canon://world/shared-universe-001/ecology/basin-lake-family-care-migrant-foundational-body-plan",
+    "canon://world/shared-universe-001/ecology/lineage-iv-foundational-body-plan",
+    "CAL0 WLD2.1A+D"
+  ],
+  "consequences": [
+    "Lineage V members share tri-radial symmetry, hydrostatic support, and travelling margin waves.",
+    "Vaults, paddle-column rings, underside refuges, and parental care are derived, not lineage-wide.",
+    "The family-care migrant is repositioned as an elaborate caregiving specialist without any change to its own records.",
+    "Hydrostatic support makes body-wall breaches mechanically serious and desiccation and freezing dangerous.",
+    "The two migrant-anchored lineages now receive structurally consistent treatment.",
+    "Later Lineage V branch and species development must build on this core.",
+    "No Earth homology, particular species, or System mechanic is created."
+  ],
+  "affected_sources": [
+    "worldbuilding/settings/shared-universe-001/proposals/WLD-FAUNA-006.md",
+    "worldbuilding/settings/shared-universe-001/canon/ecology/WLD-FAUNA-006.worldbuilding.json",
+    "worldbuilding/settings/shared-universe-001/canon/ecology/WLD-FAUNA-006.md",
+    "worldbuilding/settings/shared-universe-001/setting-constitution.md",
+    "worldbuilding/settings/shared-universe-001/canon/README.md",
+    "worldbuilding/settings/shared-universe-001/proposals/README.md",
+    "worldbuilding/settings/shared-universe-001/decisions/README.md",
+    "worldbuilding/settings/shared-universe-001/indexes/INDEX.md",
+    "worldbuilding/INDEX.md",
+    "workbench/proposals/flora-fauna-development-plan.md",
+    "README.md"
+  ],
+  "dependencies": [
+    "WLD-SETTING-001A",
+    "WLD-FAUNA-001A",
+    "WLD-FAUNA-001",
+    "WLD-ECOLOGY-009A",
+    "WLD-ECOLOGY-009",
+    "WLD-ECOLOGY-010A",
+    "WLD-ECOLOGY-010",
+    "WLD-FAUNA-005",
+    "CAL0 WLD1.2D",
+    "CAL0 WLD2.1A+D"
+  ],
+  "conflicts": [],
+  "residual_unknowns": [
+    "Species, names, taxonomy, sizes, and branch inventory remain open.",
+    "Whether any branch is fully terrestrial, sessile, or colonial remains open.",
+    "Reproduction and care across the lineage remain open; the migrant's family care is its own.",
+    "Feeding, senses, respiration, circulation, and internal organisation remain open.",
+    "Freshwater, brackish, and marine distribution, Mana patterns, and local presence remain open."
+  ],
+  "supersedes": [],
+  "superseded_by": null,
+  "reopening_conditions": [
+    "The radial-hydrostatic core cannot support a needed design.",
+    "A concrete contradiction with an accepted or provisional record emerges.",
+    "The Author explicitly reopens the decision."
+  ]
+}

@@ -1,0 +1,78 @@
+{
+  "$schema": "../../../../governance/schemas/decision-record.schema.json",
+  "schema_version": "1.0.0",
+  "id": "WLD-FLORA-007A",
+  "decision_uri": "author-decision://world/WLD-FLORA-007A",
+  "display_code": "WLD-FLORA-007A",
+  "title": "Free-seeder-flora foundational growth architecture",
+  "domain": "world",
+  "setting_id": "setting://shared-universe-001",
+  "workflow_status": "ACCEPTED",
+  "canon_status": "PROVISIONAL",
+  "scope": "Foundational strategy of the K3 free-seeder kingdom at qualitative grain. Species, vault anatomy, dormancy limits, cues, bank densities, dispersal, crop candidates, human uses, Mana patterns, and local presence remain open.",
+  "accepted_on": "2026-08-17",
+  "accepted_by": "Author",
+  "approval_evidence": "After the A/B/C strategy cards were presented with A recommended, the Author selected 'A — Vault-seed' on 2026-08-17.",
+  "question": "What foundational strategy should define the K3 free-seeder kingdom?",
+  "selection": "Vault-seed flora: individual, short-lived, fast-growing opening specialists whose signature is the seed vault, a durable dormant capsule waiting in soil for years or decades until disturbance cues wake it. The population's persistent form is the buried vault bank; disturbed ground erupts primarily from banks already present, and old worked land carries buried seed legacies. Dispersal is secondary and remains open.",
+  "alternatives": [
+    "K3-ARCH-A: dormant vault-seed banks; selected.",
+    "K3-ARCH-B: far-travelling wanderer seeds chasing disturbance; not selected (loses buried-legacy texture).",
+    "K3-ARCH-C: extreme multi-generation seasonal tempo; not selected (echoes the declined boom-and-bust direction)."
+  ],
+  "rationale": "Dormant vault banks are the strongest fit for a world where seventy years of suppressed land is waking, give farming and disturbance scenes a concrete mechanism, and complete a distinct non-overlapping persistence strategy for every producer kingdom: K1 living networks, K2 standing structure, K4 anchors, K3 dormant vaults.",
+  "evidence": [
+    "Author selection on 2026-08-17.",
+    "worldbuilding/settings/shared-universe-001/proposals/WLD-FLORA-007.md",
+    "canon://world/shared-universe-001/ecology/planetary-floral-kingdom-roster",
+    "canon://world/shared-universe-001/ecology/basin-reserve-web-vegetation-guild",
+    "CAL0 WLD2.1A+D"
+  ],
+  "consequences": [
+    "K3 members are individual short-lived opening specialists persisting as buried dormant vault banks.",
+    "Disturbance history becomes a living archive: old clearances and worked land carry buried seed legacies.",
+    "Fields and disturbed ground gain grounded flush-and-weed pressure from their own banks.",
+    "Each producer kingdom persists by a distinct strategy, keeping kingdom identities crisp.",
+    "Later weed, pioneer, and crop-ancestor development must build on this strategy.",
+    "No germination guarantee, crop, human practice, guaranteed harvest, or System mechanic is created."
+  ],
+  "affected_sources": [
+    "worldbuilding/settings/shared-universe-001/proposals/WLD-FLORA-007.md",
+    "worldbuilding/settings/shared-universe-001/canon/ecology/WLD-FLORA-007.worldbuilding.json",
+    "worldbuilding/settings/shared-universe-001/canon/ecology/WLD-FLORA-007.md",
+    "worldbuilding/settings/shared-universe-001/setting-constitution.md",
+    "worldbuilding/settings/shared-universe-001/canon/README.md",
+    "worldbuilding/settings/shared-universe-001/proposals/README.md",
+    "worldbuilding/settings/shared-universe-001/decisions/README.md",
+    "worldbuilding/settings/shared-universe-001/indexes/INDEX.md",
+    "worldbuilding/INDEX.md",
+    "workbench/proposals/flora-fauna-development-plan.md",
+    "README.md"
+  ],
+  "dependencies": [
+    "WLD-SETTING-001A",
+    "WLD-FLORA-004A",
+    "WLD-FLORA-004",
+    "WLD-FLORA-001A",
+    "WLD-FLORA-001",
+    "WLD-GEOGRAPHY-001A",
+    "WLD-GEOGRAPHY-001",
+    "CAL0 WLD1.2D",
+    "CAL0 WLD2.1A+D"
+  ],
+  "conflicts": [],
+  "residual_unknowns": [
+    "Species, forms, sizes, chemistry, energy capture, and growth habits remain open.",
+    "Vault anatomy, dormancy limits, cue specifics, viability decay, and bank densities remain open.",
+    "Dispersal mechanisms, ranges, and animal interactions remain open.",
+    "Crop-ancestor candidates and any human use remain open.",
+    "Mana patterns, pests, diseases, and symbioses remain open."
+  ],
+  "supersedes": [],
+  "superseded_by": null,
+  "reopening_conditions": [
+    "The vault-bank strategy cannot support required opening ecology or agricultural texture.",
+    "A concrete contradiction with an accepted or provisional record emerges.",
+    "The Author explicitly reopens the decision."
+  ]
+}

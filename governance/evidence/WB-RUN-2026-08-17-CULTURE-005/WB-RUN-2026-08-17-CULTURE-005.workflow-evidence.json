@@ -1,0 +1,90 @@
+{
+  "$schema": "../../schemas/workflow-evidence-manifest.schema.json",
+  "schema_version": "1.0.0",
+  "run_id": "run://develop-worldbuilding/WB-RUN-2026-08-17-CULTURE-005",
+  "evidence_kind": "ACCEPTED_OUTCOME",
+  "workflow": "develop-worldbuilding+author-decision",
+  "completed_on": "2026-08-17",
+  "canonicality": "ACCEPTED",
+  "promotion": "ALLOWED_WITH_AUTHOR_GATE",
+  "source_manifest": [
+    {
+      "path": "worldbuilding/settings/shared-universe-001/proposals/WLD-CULTURE-005.md",
+      "revision": "WLD-CULTURE-005-promoted-proposal@2026-08-17",
+      "sha256": "sha256:507f87a13c05706c8aa039efdf067af5b123692a63b18ab1a9b5cd78f9b3a870"
+    },
+    {
+      "path": "governance/evidence/WB-RUN-2026-08-17-CULTURE-005/sources/option-capture-proposal.md",
+      "revision": "WLD-CULTURE-005-option-capture@2026-08-17",
+      "sha256": "sha256:577d814f76766bac595b07813213cc19796ddbdb14ce3a454434f85fc31f4725"
+    }
+  ],
+  "target_artifacts": [
+    {
+      "path": "worldbuilding/settings/shared-universe-001/canon/culture/WLD-CULTURE-005.md",
+      "revision": "WLD-CULTURE-005@2026-08-17",
+      "sha256": "sha256:ecda268b8daaedc28d34a631104b177b95f09988656ea6a685f5d96e0b3a1501"
+    },
+    {
+      "path": "worldbuilding/settings/shared-universe-001/canon/culture/WLD-CULTURE-005.worldbuilding.json",
+      "revision": "WLD-CULTURE-005@2026-08-17",
+      "sha256": "sha256:703b44f1d039175822ffb1a66e42d8f92f88f2d4ed16f7b16b5856e9ef91247c"
+    },
+    {
+      "path": "worldbuilding/settings/shared-universe-001/decisions/WLD-CULTURE-005A.md",
+      "revision": "WLD-CULTURE-005A@2026-08-17",
+      "sha256": "sha256:b6d2ea7adb436c0066372299b67fc2bfc1508f670b70472354b898351e45b633"
+    },
+    {
+      "path": "worldbuilding/settings/shared-universe-001/decisions/WLD-CULTURE-005A.decision.json",
+      "revision": "WLD-CULTURE-005A@2026-08-17",
+      "sha256": "sha256:e06f5743999c485a251ed290eaffc887ff1fbbe79ff3ebc6b35c305ea34e50e9"
+    },
+    {
+      "path": "worldbuilding/settings/shared-universe-001/indexes/INDEX.md",
+      "revision": "culture-batch-indexed@2026-08-17",
+      "sha256": "sha256:e811c062bbb3edabb2f5261cf5b9ecdaa9616b24e427b0c5bd3ba17fcf8d36da"
+    },
+    {
+      "path": "worldbuilding/INDEX.md",
+      "revision": "culture-batch-indexed@2026-08-17",
+      "sha256": "sha256:0250840674457e22ff9e0630cdfd8172b9b4d9c0b78f60df2174327499158c3f"
+    },
+    {
+      "path": "worldbuilding/settings/shared-universe-001/setting-constitution.md",
+      "revision": "culture-batch-reconciled@2026-08-17",
+      "sha256": "sha256:e5a28a4ba3aa193e91943e6b3a1d7c0e092dc60deedccd4fac62f937318114ee"
+    },
+    {
+      "path": "STATUS.md",
+      "revision": "culture-batch-updated@2026-08-17",
+      "sha256": "sha256:e76f44deb12a96f61bd8fe9a5831264fc931ccd9df90fdfcf12dfb08bb6d0ca5"
+    }
+  ],
+  "findings": [
+    "PASS: the blend is promoted as a remembered founding-era fusion disposition with no founding occasion, decision, or event fixed, standing accruing to those seen to embody the joined way, and purists of either inheritance holding narrower prestige.",
+    "DECLARED CLOSURE: the founder's origin is recorded as a narrow, explicit closure of the founder-origin question WLD-CULTURE-002 left open; the dynasty's later composition, office-holders' origins, and the first-succession ambiguity remain open.",
+    "PASS: the host-and-member relation is scoped as a present settlement-relations claim and explicitly leaves WLD-HISTORY-001's account of historical regional imperial administration untouched.",
+    "COMPOSABILITY: the record's outlet-side abstention is scoped to itself and denies nothing its siblings establish, and its option-local-illustrative markings survive promotion."
+  ],
+  "validations": [
+    "python tools/validate_governance.py: PASS with 118 repository records, 5 valid fixtures, 5 rejected fixtures.",
+    "python tools/validate_workspaces.py: PASS with 4 work manifests, 3 setting manifests, 2 workflow evaluations, 4 rejected workspace/eval fixtures.",
+    "python -m unittest discover -s tools/tests: PASS with 3 evidence-mode regression tests.",
+    "python tools/validate_repository.py: PASS including complete System validation."
+  ],
+  "retained_files": [
+    "governance/evidence/WB-RUN-2026-08-17-CULTURE-005/WB-RUN-2026-08-17-CULTURE-005.workflow-evidence.json",
+    "governance/evidence/WB-RUN-2026-08-17-CULTURE-005/final-findings.md",
+    "governance/evidence/WB-RUN-2026-08-17-CULTURE-005/approved-change-set.md",
+    "governance/evidence/WB-RUN-2026-08-17-CULTURE-005/validation-summary.md",
+    "governance/evidence/WB-RUN-2026-08-17-CULTURE-005/sources/option-capture-proposal.md"
+  ],
+  "approval": {
+    "decision_uri": "author-decision://world/WLD-CULTURE-005A",
+    "decided_by": "Author",
+    "decision": "ACCEPT",
+    "decided_on": "2026-08-17",
+    "evidence": "On 2026-08-17 the Author selected 'B — FOUNDING-FUSION' from three displayed blend-logic options and separately directed the founding frame: the founder was a native of the original culture who admitted imperial refugees early to help build the settlement, his leadership produced unity and mutual respect, and cultural hybridisation is only now beginning."
+  }
+}

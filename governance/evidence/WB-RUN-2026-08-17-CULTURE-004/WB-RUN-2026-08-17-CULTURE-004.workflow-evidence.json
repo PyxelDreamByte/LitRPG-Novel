@@ -1,0 +1,90 @@
+{
+  "$schema": "../../schemas/workflow-evidence-manifest.schema.json",
+  "schema_version": "1.0.0",
+  "run_id": "run://develop-worldbuilding/WB-RUN-2026-08-17-CULTURE-004",
+  "evidence_kind": "ACCEPTED_OUTCOME",
+  "workflow": "develop-worldbuilding+author-decision",
+  "completed_on": "2026-08-17",
+  "canonicality": "ACCEPTED",
+  "promotion": "ALLOWED_WITH_AUTHOR_GATE",
+  "source_manifest": [
+    {
+      "path": "worldbuilding/settings/shared-universe-001/proposals/WLD-CULTURE-004.md",
+      "revision": "WLD-CULTURE-004-promoted-proposal@2026-08-17",
+      "sha256": "sha256:fdc0d0ff82b2d4c8772cc18421d9882a903229a58435c76630720e0abb602274"
+    },
+    {
+      "path": "governance/evidence/WB-RUN-2026-08-17-CULTURE-004/sources/option-capture-proposal.md",
+      "revision": "WLD-CULTURE-004-option-capture@2026-08-17",
+      "sha256": "sha256:ece9c43e85c2d70b83f66946d2a3c6c637da0286812f33e43b93bbd5d857ac7e"
+    }
+  ],
+  "target_artifacts": [
+    {
+      "path": "worldbuilding/settings/shared-universe-001/canon/culture/WLD-CULTURE-004.md",
+      "revision": "WLD-CULTURE-004@2026-08-17",
+      "sha256": "sha256:1f34a710a7884faf158f78f8f0b1f6456bdaea6c56b60db8f76cb87369d3f53b"
+    },
+    {
+      "path": "worldbuilding/settings/shared-universe-001/canon/culture/WLD-CULTURE-004.worldbuilding.json",
+      "revision": "WLD-CULTURE-004@2026-08-17",
+      "sha256": "sha256:5ed0fb11a46e841638d3c34d5580338e67f0af4d23cee742fd2dcc1f74ceb381"
+    },
+    {
+      "path": "worldbuilding/settings/shared-universe-001/decisions/WLD-CULTURE-004A.md",
+      "revision": "WLD-CULTURE-004A@2026-08-17",
+      "sha256": "sha256:58ac09248aa726ab27c46f64048f1b583ba770388c4ef96b0324badd49116979"
+    },
+    {
+      "path": "worldbuilding/settings/shared-universe-001/decisions/WLD-CULTURE-004A.decision.json",
+      "revision": "WLD-CULTURE-004A@2026-08-17",
+      "sha256": "sha256:302cfa4c085be77791e3cfc46110cbda74a5e3ce6c77f22074cfe66c1f36c19a"
+    },
+    {
+      "path": "worldbuilding/settings/shared-universe-001/indexes/INDEX.md",
+      "revision": "culture-batch-indexed@2026-08-17",
+      "sha256": "sha256:e811c062bbb3edabb2f5261cf5b9ecdaa9616b24e427b0c5bd3ba17fcf8d36da"
+    },
+    {
+      "path": "worldbuilding/INDEX.md",
+      "revision": "culture-batch-indexed@2026-08-17",
+      "sha256": "sha256:0250840674457e22ff9e0630cdfd8172b9b4d9c0b78f60df2174327499158c3f"
+    },
+    {
+      "path": "worldbuilding/settings/shared-universe-001/setting-constitution.md",
+      "revision": "culture-batch-reconciled@2026-08-17",
+      "sha256": "sha256:e5a28a4ba3aa193e91943e6b3a1d7c0e092dc60deedccd4fac62f937318114ee"
+    },
+    {
+      "path": "STATUS.md",
+      "revision": "culture-batch-updated@2026-08-17",
+      "sha256": "sha256:e76f44deb12a96f61bd8fe9a5831264fc931ccd9df90fdfcf12dfb08bb6d0ca5"
+    }
+  ],
+  "findings": [
+    "PASS: the imperial culture is promoted as a lattice of chartered bodies with corporate personhood, charter-interpretation law, and absorbed peoples incorporated as recognized native bodies under limited charters.",
+    "PASS: imperial virtues remain genuinely admirable in part (charters restrained arbitrary power and gave the low-born collective standing), with the failure mode that the same fidelity froze out the unincorporated.",
+    "PASS: the remnant expression at the outlet settlement keeps membership-identity and craft pride while charter authority hollows, leaving disputed and possibly forged documents carrying weight with no court able to renew them.",
+    "BOUNDARY PRESERVED: the drift span stays unfixed per WLD-HISTORY-001, the suppression ideology stays a cultural value rather than an added collapse cause, and the remnant settlement is neither uniform nor fanatical by default."
+  ],
+  "validations": [
+    "python tools/validate_governance.py: PASS with 118 repository records, 5 valid fixtures, 5 rejected fixtures.",
+    "python tools/validate_workspaces.py: PASS with 4 work manifests, 3 setting manifests, 2 workflow evaluations, 4 rejected workspace/eval fixtures.",
+    "python -m unittest discover -s tools/tests: PASS with 3 evidence-mode regression tests.",
+    "python tools/validate_repository.py: PASS including complete System validation."
+  ],
+  "retained_files": [
+    "governance/evidence/WB-RUN-2026-08-17-CULTURE-004/WB-RUN-2026-08-17-CULTURE-004.workflow-evidence.json",
+    "governance/evidence/WB-RUN-2026-08-17-CULTURE-004/final-findings.md",
+    "governance/evidence/WB-RUN-2026-08-17-CULTURE-004/approved-change-set.md",
+    "governance/evidence/WB-RUN-2026-08-17-CULTURE-004/validation-summary.md",
+    "governance/evidence/WB-RUN-2026-08-17-CULTURE-004/sources/option-capture-proposal.md"
+  ],
+  "approval": {
+    "decision_uri": "author-decision://world/WLD-CULTURE-004A",
+    "decided_by": "Author",
+    "decision": "ACCEPT",
+    "decided_on": "2026-08-17",
+    "evidence": "On 2026-08-17 the Author selected 'C — CHARTER-AND-GUILD' from three displayed imperial-logic options, accepting Option C exactly as drafted together with the proposal's shared claim set."
+  }
+}

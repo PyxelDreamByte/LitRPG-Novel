@@ -1,0 +1,78 @@
+{
+  "$schema": "../../../../governance/schemas/decision-record.schema.json",
+  "schema_version": "1.0.0",
+  "id": "WLD-FLORA-009A",
+  "decision_uri": "author-decision://world/WLD-FLORA-009A",
+  "display_code": "WLD-FLORA-009A",
+  "title": "Crust-and-cushion-flora foundational survival strategy",
+  "domain": "world",
+  "setting_id": "setting://shared-universe-001",
+  "workflow_status": "ACCEPTED",
+  "canon_status": "PROVISIONAL",
+  "scope": "Foundational survival strategy of the K5 crust-and-cushion kingdom at qualitative grain. Species, chemistry, reproduction, shutdown limits, rates, dating methods, human uses, Mana patterns, and local presence remain open.",
+  "accepted_on": "2026-08-17",
+  "accepted_by": "Author",
+  "approval_evidence": "After the A/B/C strategy cards were presented with A recommended, the Author selected 'A — Revival flora' on 2026-08-17.",
+  "question": "What foundational survival strategy should define the K5 crust-and-cushion kingdom?",
+  "selection": "Revival flora: low, slow, surface-hugging pioneers of bare and hostile surfaces growing as thin crusts and dense dome cushions, whose signature is metabolic shutdown and rapid revival — tolerating near-total desiccation and deep freezing in a seemingly dead dormant state and reviving quickly on wetting or thaw. Growth is extremely slow and confined to active windows, so undisturbed cover marks elapsed undisturbed time without any calibrated dating method, and their growth and decay initiate soil formation.",
+  "alternatives": [
+    "K5-ARCH-A: shutdown-and-revival desiccation tolerance; selected.",
+    "K5-ARCH-B: self-microclimate buffering cushions; not selected (favours cushions over crusts, weak on bare rock).",
+    "K5-ARCH-C: mineral-armoured living stone veneers; not selected (blurs the rock/life boundary, slowest story payoff)."
+  ],
+  "rationale": "Shutdown-and-revival answers the established climate's dry spells and hard winters directly, gives the kingdom the most visible and repeatable scene texture, equips ruins with an honest sense of age without a measurable clock, and leaves cushion microclimates and mineral binding available as later branch details.",
+  "evidence": [
+    "Author selection on 2026-08-17.",
+    "worldbuilding/settings/shared-universe-001/proposals/WLD-FLORA-009.md",
+    "canon://world/shared-universe-001/ecology/planetary-floral-kingdom-roster",
+    "canon://world/shared-universe-001/geography/initial-region-physical-scaffold",
+    "CAL0 WLD2.1A+D"
+  ],
+  "consequences": [
+    "K5 members are slow surface pioneers surviving by metabolic shutdown and rapid revival.",
+    "Drought and winter states can look entirely dead and revive after rain or thaw.",
+    "Undisturbed cover qualitatively marks elapsed undisturbed time, including on ruins.",
+    "Soil initiation links the kingdom to later succession and recovery development.",
+    "Cover loss to scouring or removal is slow to replace.",
+    "No dating method, human practice, guaranteed recovery, or System mechanic is created."
+  ],
+  "affected_sources": [
+    "worldbuilding/settings/shared-universe-001/proposals/WLD-FLORA-009.md",
+    "worldbuilding/settings/shared-universe-001/canon/ecology/WLD-FLORA-009.worldbuilding.json",
+    "worldbuilding/settings/shared-universe-001/canon/ecology/WLD-FLORA-009.md",
+    "worldbuilding/settings/shared-universe-001/setting-constitution.md",
+    "worldbuilding/settings/shared-universe-001/canon/README.md",
+    "worldbuilding/settings/shared-universe-001/proposals/README.md",
+    "worldbuilding/settings/shared-universe-001/decisions/README.md",
+    "worldbuilding/settings/shared-universe-001/indexes/INDEX.md",
+    "worldbuilding/INDEX.md",
+    "workbench/proposals/flora-fauna-development-plan.md",
+    "README.md"
+  ],
+  "dependencies": [
+    "WLD-SETTING-001A",
+    "WLD-FLORA-004A",
+    "WLD-FLORA-004",
+    "WLD-FLORA-005",
+    "WLD-GEOGRAPHY-001A",
+    "WLD-GEOGRAPHY-001",
+    "CAL0 WLD1.2D",
+    "CAL0 WLD2.1A+D"
+  ],
+  "conflicts": [],
+  "residual_unknowns": [
+    "Species, forms, colours, chemistry, energy capture, and reproduction remain open.",
+    "Shutdown limits, revival speed bounds, and repeated-cycle costs remain open.",
+    "Colonisation rates, growth rates, and soil-formation pacing remain open.",
+    "Surface preferences and casing or ruin colonisation specifics remain open.",
+    "Whether anyone in-world reads cover as elapsed time, and any human use, remain open.",
+    "Mana patterns, grazers, pests, and symbioses remain open."
+  ],
+  "supersedes": [],
+  "superseded_by": null,
+  "reopening_conditions": [
+    "The revival strategy cannot support required pioneer or succession ecology.",
+    "A concrete contradiction with an accepted or provisional record emerges.",
+    "The Author explicitly reopens the decision."
+  ]
+}

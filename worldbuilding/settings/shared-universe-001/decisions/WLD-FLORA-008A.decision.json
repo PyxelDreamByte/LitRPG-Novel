@@ -1,0 +1,77 @@
+{
+  "$schema": "../../../../governance/schemas/decision-record.schema.json",
+  "schema_version": "1.0.0",
+  "id": "WLD-FLORA-008A",
+  "decision_uri": "author-decision://world/WLD-FLORA-008A",
+  "display_code": "WLD-FLORA-008A",
+  "title": "Thread-decomposer foundational body architecture",
+  "domain": "world",
+  "setting_id": "setting://shared-universe-001",
+  "workflow_status": "ACCEPTED",
+  "canon_status": "PROVISIONAL",
+  "scope": "Foundational body-and-feeding architecture of the K6 thread-decomposer kingdom at qualitative grain, selected as an Author custom combination of the displayed weaver and bloom options. Species, anatomy, chemistry, pacing, fruiting forms, materials, partnerships, human uses, Mana patterns, and local presence remain open.",
+  "accepted_on": "2026-08-17",
+  "accepted_by": "Author",
+  "approval_evidence": "After the A/B/C cards were presented with A recommended, the Author proposed combining A and B ('A+B?'); the combined weaver-and-bloom model was presented and the Author confirmed 'Yes — record A+B' on 2026-08-17.",
+  "question": "What foundational body-and-feeding architecture should define the K6 thread-decomposer kingdom?",
+  "selection": "Weaver-and-bloom decomposers (custom A+B combination): macroscopic non-photosynthesising heterotrophs whose ordinary state is diffuse hidden feeding threads in soil, litter, and dead material; concentrated dead material is consolidated into wrapped felted masses that decompose from within and leave spent husks; reproduction erupts episodically in fruiting structures keyed to wet and thaw windows. The Lineage II digestive symbionts remain separate microorganisms, absence of weavers can leave dead material abnormally persistent, and producer partnerships remain a bounded branch possibility.",
+  "alternatives": [
+    "K6-ARCH-A: weaver decomposers with wrapped felted masses; combined into selection.",
+    "K6-ARCH-B: diffuse hidden threads with episodic fruiting eruptions; combined into selection.",
+    "K6-ARCH-C: partnership-first living-producer symbionts; not selected (decomposition must stay primary; crowds the microbial boundary)."
+  ],
+  "rationale": "The combination is more biologically natural than either card alone: hidden diffuse threads are the feeding-and-exploration state, wrapping is the working state at concentrated finds, and episodic fruiting is the reproductive pulse. It keeps all observable signatures — wrapped masses, husks, fruiting eruptions, and tell-tale non-decay — while preserving the microbial-symbiont scale boundary.",
+  "evidence": [
+    "Author combination proposal and confirmation on 2026-08-17.",
+    "worldbuilding/settings/shared-universe-001/proposals/WLD-FLORA-008.md",
+    "canon://world/shared-universe-001/ecology/planetary-floral-kingdom-roster",
+    "canon://world/shared-universe-001/ecology/lineage-ii-fermentation-lattice",
+    "CAL0 WLD2.1A+D"
+  ],
+  "consequences": [
+    "K6 members are macroscopic thread-form heterotrophs and the planet's primary macroscopic recyclers.",
+    "Decomposition is invisible in the ordinary state, visible at wrapped working masses, and conspicuous in seasonal fruiting pulses.",
+    "Spent felts and husks stand as candidate materials without established use.",
+    "Absent or failed weavers can leave dead material abnormally persistent.",
+    "Later decomposer, symbiosis, and material development must build on this architecture.",
+    "No Earth fungus homology, human practice, guaranteed resource, or System mechanic is created."
+  ],
+  "affected_sources": [
+    "worldbuilding/settings/shared-universe-001/proposals/WLD-FLORA-008.md",
+    "worldbuilding/settings/shared-universe-001/canon/ecology/WLD-FLORA-008.worldbuilding.json",
+    "worldbuilding/settings/shared-universe-001/canon/ecology/WLD-FLORA-008.md",
+    "worldbuilding/settings/shared-universe-001/setting-constitution.md",
+    "worldbuilding/settings/shared-universe-001/canon/README.md",
+    "worldbuilding/settings/shared-universe-001/proposals/README.md",
+    "worldbuilding/settings/shared-universe-001/decisions/README.md",
+    "worldbuilding/settings/shared-universe-001/indexes/INDEX.md",
+    "worldbuilding/INDEX.md",
+    "workbench/proposals/flora-fauna-development-plan.md",
+    "README.md"
+  ],
+  "dependencies": [
+    "WLD-SETTING-001A",
+    "WLD-FLORA-004A",
+    "WLD-FLORA-004",
+    "WLD-FLORA-005",
+    "WLD-FLORA-006",
+    "WLD-ECOLOGY-002",
+    "WLD-ECOLOGY-003",
+    "CAL0 WLD1.2D",
+    "CAL0 WLD2.1A+D"
+  ],
+  "conflicts": [],
+  "residual_unknowns": [
+    "Species, thread and mass anatomy, chemistry, digestion, and wrapping thresholds and pacing remain open.",
+    "Fruiting structure forms, cues, dispersal, toxicity, and edibility remain open.",
+    "Felts and husks as usable materials, and any human use, remain open.",
+    "Producer partnerships, parasitic or predatory branches, and Mana patterns remain open."
+  ],
+  "supersedes": [],
+  "superseded_by": null,
+  "reopening_conditions": [
+    "The combined model cannot support required food-web recycling.",
+    "A concrete contradiction with an accepted or provisional record emerges.",
+    "The Author explicitly reopens the decision."
+  ]
+}

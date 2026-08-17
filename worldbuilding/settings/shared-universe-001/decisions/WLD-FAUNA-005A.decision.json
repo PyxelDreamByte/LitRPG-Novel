@@ -1,0 +1,80 @@
+{
+  "$schema": "../../../../governance/schemas/decision-record.schema.json",
+  "schema_version": "1.0.0",
+  "id": "WLD-FAUNA-005A",
+  "decision_uri": "author-decision://world/WLD-FAUNA-005A",
+  "display_code": "WLD-FAUNA-005A",
+  "title": "Lineage IV foundational body plan",
+  "domain": "world",
+  "setting_id": "setting://shared-universe-001",
+  "workflow_status": "ACCEPTED",
+  "canon_status": "PROVISIONAL",
+  "scope": "Lineage-level body plan of Lineage IV, the fully aquatic flexible-trunk fin-fan lineage, distinguishing its ancestral core from the mass breeder's derived specialisations. Species, names, taxonomy, sizes, branch inventory, fin-fan counts, which branches carry derived organs, reproduction, distribution, senses, feeding, Mana patterns, and local presence remain open. No accepted mass-breeder claim is altered.",
+  "accepted_on": "2026-08-17",
+  "accepted_by": "Author",
+  "approval_evidence": "After the A/B/C ancestral-scope cards were presented with A recommended, the Author selected 'A — Trunk-and-fan core' on 2026-08-17.",
+  "question": "What is Lineage IV's lineage-level body plan, and how much of the mass breeder's anatomy is ancestral rather than its own specialisation?",
+  "selection": "Trunk-and-fan core: Lineage IV is fully aquatic throughout and spans the full aquatic size and niche range, with a lineage-wide inheritance of a laterally flexible trunk on springy cartilage-analogue support, paired fin-fans as primary control surfaces, a muscular tail for propulsion, and aquatic respiration through fold surfaces. The mass breeder's three-pair fin-fan count, wedge-shaped mineralised head shield, dedicated ion-exchange organs, and wax-like-gel chambers are derived and branch-specific, making it one specialised migratory member rather than the lineage template.",
+  "alternatives": [
+    "L4-CORE-A: trunk-and-fan locomotor core ancestral, mass-breeder specialisations derived; selected.",
+    "L4-CORE-B: the full mass-breeder package ancestral; not selected (narrow, uniformly over-equipped lineage).",
+    "L4-CORE-C: minimal aquatic-plus-fin-fans core; not selected (lineage stops describing a body plan)."
+  ],
+  "rationale": "The trunk-and-fan core gives the lineage a real, recognisable body plan without conscripting every future member into the mass breeder's specialised equipment, respects WLD-ECOLOGY-007's explicit refusal to fix taxonomic rank, invariant morphology, or related-organism range, and reserves shields, salt organs, and gel chambers as costed adaptations that appear where they are earned.",
+  "evidence": [
+    "Author selection on 2026-08-17.",
+    "worldbuilding/settings/shared-universe-001/proposals/WLD-FAUNA-005.md",
+    "canon://world/shared-universe-001/ecology/planetary-faunal-lineage-roster",
+    "canon://world/shared-universe-001/ecology/basin-lake-mass-breeder-foundational-body-plan",
+    "canon://world/shared-universe-001/ecology/basin-lake-mass-breeder-osmoregulation-buoyancy-balance",
+    "CAL0 WLD2.1A+D"
+  ],
+  "consequences": [
+    "Lineage IV members share a flexible trunk, springy support, paired fin-fans, muscular tail, and fold respiration.",
+    "Head shields, salt organs, and gel chambers are derived adaptations, not lineage-wide inheritance.",
+    "The mass breeder is repositioned as a specialised migratory member without any change to its own records.",
+    "A fully aquatic lineage is bounded by water connectivity, making route geography ecologically load-bearing for it.",
+    "Later Lineage IV branch and species development must build on this core.",
+    "No Earth homology, particular species, or System mechanic is created."
+  ],
+  "affected_sources": [
+    "worldbuilding/settings/shared-universe-001/proposals/WLD-FAUNA-005.md",
+    "worldbuilding/settings/shared-universe-001/canon/ecology/WLD-FAUNA-005.worldbuilding.json",
+    "worldbuilding/settings/shared-universe-001/canon/ecology/WLD-FAUNA-005.md",
+    "worldbuilding/settings/shared-universe-001/setting-constitution.md",
+    "worldbuilding/settings/shared-universe-001/canon/README.md",
+    "worldbuilding/settings/shared-universe-001/proposals/README.md",
+    "worldbuilding/settings/shared-universe-001/decisions/README.md",
+    "worldbuilding/settings/shared-universe-001/indexes/INDEX.md",
+    "worldbuilding/INDEX.md",
+    "workbench/proposals/flora-fauna-development-plan.md",
+    "README.md"
+  ],
+  "dependencies": [
+    "WLD-SETTING-001A",
+    "WLD-FAUNA-001A",
+    "WLD-FAUNA-001",
+    "WLD-ECOLOGY-007A",
+    "WLD-ECOLOGY-007",
+    "WLD-ECOLOGY-008A",
+    "WLD-ECOLOGY-008",
+    "CAL0 WLD1.2D",
+    "CAL0 WLD2.1A+D"
+  ],
+  "conflicts": [],
+  "residual_unknowns": [
+    "Species, names, taxonomy, sizes, and branch inventory remain open.",
+    "Fin-fan counts and arrangements outside the mass breeder's three pairs remain open.",
+    "Which branches carry shields, ion-exchange organs, or gel chambers remains open.",
+    "Reproduction across the lineage remains open; the mass breeder's mass spawning is its own.",
+    "Freshwater, brackish, and marine distribution remains open.",
+    "Senses, feeding, cognition, Mana patterns beyond the mass breeder's bounded case, and local presence remain open."
+  ],
+  "supersedes": [],
+  "superseded_by": null,
+  "reopening_conditions": [
+    "The trunk-and-fan core cannot support a needed aquatic design.",
+    "A concrete contradiction with an accepted or provisional record emerges.",
+    "The Author explicitly reopens the decision."
+  ]
+}

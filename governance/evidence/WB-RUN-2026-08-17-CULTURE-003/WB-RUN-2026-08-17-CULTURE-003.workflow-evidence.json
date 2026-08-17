@@ -1,0 +1,91 @@
+{
+  "$schema": "../../schemas/workflow-evidence-manifest.schema.json",
+  "schema_version": "1.0.0",
+  "run_id": "run://develop-worldbuilding/WB-RUN-2026-08-17-CULTURE-003",
+  "evidence_kind": "ACCEPTED_OUTCOME",
+  "workflow": "develop-worldbuilding+author-decision",
+  "completed_on": "2026-08-17",
+  "canonicality": "ACCEPTED",
+  "promotion": "ALLOWED_WITH_AUTHOR_GATE",
+  "source_manifest": [
+    {
+      "path": "worldbuilding/settings/shared-universe-001/proposals/WLD-CULTURE-003.md",
+      "revision": "WLD-CULTURE-003-promoted-proposal@2026-08-17",
+      "sha256": "sha256:48cec616b9eeea25904245ff0466cba6bf0da715b3ac7b484d2ed18e93ae996a"
+    },
+    {
+      "path": "governance/evidence/WB-RUN-2026-08-17-CULTURE-003/sources/option-capture-proposal.md",
+      "revision": "WLD-CULTURE-003-option-capture@2026-08-17",
+      "sha256": "sha256:49adbaa971f6c432fd252c934d0708fa1f24cb3f6ebf1720a135a1cee1cf18d3"
+    }
+  ],
+  "target_artifacts": [
+    {
+      "path": "worldbuilding/settings/shared-universe-001/canon/culture/WLD-CULTURE-003.md",
+      "revision": "WLD-CULTURE-003@2026-08-17",
+      "sha256": "sha256:dd49e495b632f8a6b4e8175e5b34a28123897e9da6c2ef26ee3b61f502a5d2e7"
+    },
+    {
+      "path": "worldbuilding/settings/shared-universe-001/canon/culture/WLD-CULTURE-003.worldbuilding.json",
+      "revision": "WLD-CULTURE-003@2026-08-17",
+      "sha256": "sha256:ca5d8e9ed4e943600a98bf82ccf7ffcb54e35811a44bf0efc484772c5dc173d3"
+    },
+    {
+      "path": "worldbuilding/settings/shared-universe-001/decisions/WLD-CULTURE-003A.md",
+      "revision": "WLD-CULTURE-003A@2026-08-17",
+      "sha256": "sha256:df77412bd056edbb7bc68cde44446f6a43956dc1644abf3f677246319752c4de"
+    },
+    {
+      "path": "worldbuilding/settings/shared-universe-001/decisions/WLD-CULTURE-003A.decision.json",
+      "revision": "WLD-CULTURE-003A@2026-08-17",
+      "sha256": "sha256:ed8f938ff3a2481c00a15b521358d3b931330c886aed15b69b8d1d1b91e3a493"
+    },
+    {
+      "path": "worldbuilding/settings/shared-universe-001/indexes/INDEX.md",
+      "revision": "culture-batch-indexed@2026-08-17",
+      "sha256": "sha256:e811c062bbb3edabb2f5261cf5b9ecdaa9616b24e427b0c5bd3ba17fcf8d36da"
+    },
+    {
+      "path": "worldbuilding/INDEX.md",
+      "revision": "culture-batch-indexed@2026-08-17",
+      "sha256": "sha256:0250840674457e22ff9e0630cdfd8172b9b4d9c0b78f60df2174327499158c3f"
+    },
+    {
+      "path": "worldbuilding/settings/shared-universe-001/setting-constitution.md",
+      "revision": "culture-batch-reconciled@2026-08-17",
+      "sha256": "sha256:e5a28a4ba3aa193e91943e6b3a1d7c0e092dc60deedccd4fac62f937318114ee"
+    },
+    {
+      "path": "STATUS.md",
+      "revision": "culture-batch-updated@2026-08-17",
+      "sha256": "sha256:e76f44deb12a96f61bd8fe9a5831264fc931ccd9df90fdfcf12dfb08bb6d0ca5"
+    }
+  ],
+  "findings": [
+    "PASS: the original culture is promoted as kin-hall social unit, season-court federation, and spoken-precedent law with a memory-trained speaker class authoritative in standing but fallible in fact.",
+    "PASS: the virtue and shame fields carry genuine internal friction (hospitality against stores-prudence, true recall against hall loyalty) rather than cartoon morality.",
+    "SYSTEM DISCIPLINE HELD: the System is revered as the impartial order that never misremembers strictly as belief, with an explicit boundary that no System channel bears on testimony or recollection.",
+    "BOUNDARY PRESERVED: the survival-under-empire account is written at function level only and disclaims any imperial instrument, keeping it compatible with the separately selected charter-and-guild imperial frame.",
+    "DECLARED CLOSURES: four bounded closures of WLD-CULTURE-001 open space (faith content, clothing, festival observance, store accounting) each carry an explicit non-transfer clause blocking them from reaching any present settlement household or strand."
+  ],
+  "validations": [
+    "python tools/validate_governance.py: PASS with 118 repository records, 5 valid fixtures, 5 rejected fixtures.",
+    "python tools/validate_workspaces.py: PASS with 4 work manifests, 3 setting manifests, 2 workflow evaluations, 4 rejected workspace/eval fixtures.",
+    "python -m unittest discover -s tools/tests: PASS with 3 evidence-mode regression tests.",
+    "python tools/validate_repository.py: PASS including complete System validation."
+  ],
+  "retained_files": [
+    "governance/evidence/WB-RUN-2026-08-17-CULTURE-003/WB-RUN-2026-08-17-CULTURE-003.workflow-evidence.json",
+    "governance/evidence/WB-RUN-2026-08-17-CULTURE-003/final-findings.md",
+    "governance/evidence/WB-RUN-2026-08-17-CULTURE-003/approved-change-set.md",
+    "governance/evidence/WB-RUN-2026-08-17-CULTURE-003/validation-summary.md",
+    "governance/evidence/WB-RUN-2026-08-17-CULTURE-003/sources/option-capture-proposal.md"
+  ],
+  "approval": {
+    "decision_uri": "author-decision://world/WLD-CULTURE-003A",
+    "decided_by": "Author",
+    "decision": "ACCEPT",
+    "decided_on": "2026-08-17",
+    "evidence": "On 2026-08-17 the Author selected 'A — KIN-HALL AND SEASON-COURT' from three displayed organizing-principle options, accepting Option A exactly as drafted together with the proposal's shared claim set."
+  }
+}

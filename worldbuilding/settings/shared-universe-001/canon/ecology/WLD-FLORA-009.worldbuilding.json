@@ -1,0 +1,77 @@
+{
+  "$schema": "../../../../../governance/schemas/worldbuilding-record.schema.json",
+  "schema_version": "1.0.0",
+  "id": "WLD-FLORA-009",
+  "record_uri": "canon://world/shared-universe-001/ecology/crust-and-cushion-flora-foundational-survival-strategy",
+  "display_code": "WLD-FLORA-009",
+  "setting_id": "setting://shared-universe-001",
+  "title": "Crust-and-cushion-flora foundational survival strategy",
+  "workflow_status": "ACCEPTED",
+  "canon_status": "PROVISIONAL",
+  "scope": "Foundational survival strategy of the K5 crust-and-cushion kingdom at qualitative grain; usable within shared-setting ecology and adopted downstream story development.",
+  "claims": [
+    "Crust-and-cushion flora are low, slow, surface-hugging pioneers of bare and hostile surfaces: rock, stone, dead casings, walls, and scoured or disturbed ground.",
+    "Their two broad growth habits are thin surface crusts and dense dome cushions.",
+    "The kingdom's signature is metabolic shutdown and rapid revival: members tolerate near-total desiccation and deep freezing in a dormant state that can look entirely dead, then revive quickly on wetting or thaw.",
+    "Growth is extremely slow and confined to active windows; established cover is old cover.",
+    "Undisturbed crust and cushion cover is a qualitative mark of elapsed undisturbed time.",
+    "Their growth and decay initiate soil formation, opening succession for the other kingdoms."
+  ],
+  "boundaries": [
+    "Crust, cushion, shutdown, and revival are author-facing functional descriptions, not in-world names or formal taxonomy.",
+    "The strategy establishes no Earth lichen, moss, algae, or cushion-plant homology.",
+    "Species, forms, colours, dimensions, chemistry, energy capture, and reproduction remain open.",
+    "Shutdown limits, tolerance thresholds, revival speed, repeated-cycle costs, and failure modes remain open; shutdown is not invulnerability, and heat, scouring, burial, grazing, pollution, or repeated cycling can still kill.",
+    "Growth, colonisation, and soil-formation rates remain open; no cover is guaranteed to establish on any surface.",
+    "Cover as a mark of elapsed time is qualitative only; no calibrated dating method, rate constant, age reading, or in-world dating knowledge or practice is established, and disturbance, microclimate, and surface differences can confound apparent age.",
+    "Colonisation of dead tower casings, walls, and ruins is possible in principle; no particular structure, ruin, or site is established as colonised.",
+    "Cushion microclimate buffering and mineral binding remain possible branch details, not kingdom-wide properties.",
+    "No crust-and-cushion member is established as present, dominant, or absent at any particular location.",
+    "Grazing, pests, diseases, symbioses including any K6 partnership, and human uses remain open.",
+    "Earth and mythological inspiration remains author-facing; no living, extinct, or legendary Earth species is transplanted.",
+    "Mana patterns remain open; no Mana organ, specialised ability, System progression, spawn point, refill node, guaranteed harvest, reward, Skill, trait payload, or Ancestry Development rule is established.",
+    "Water, energy, nutrients, surface, time, disturbance, and competition remain binding ecological constraints."
+  ],
+  "dependencies": [
+    "author-decision://world/WLD-SETTING-001A",
+    "author-decision://world/WLD-FLORA-009A",
+    "canon://world/shared-universe-001/ecology/planetary-floral-kingdom-roster",
+    "canon://world/shared-universe-001/ecology/tower-flora-foundational-growth-architecture",
+    "canon://world/shared-universe-001/geography/initial-region-physical-scaffold",
+    "CAL0 WLD1.2D",
+    "CAL0 WLD2.1A+D"
+  ],
+  "contradictions": [],
+  "story_implications": [
+    "Scenes can show grey apparently dead crusts reviving after rain and cushioned upland stone.",
+    "Long-undisturbed surfaces, including ruins, can carry heavy cover that reads qualitatively as age.",
+    "Soil initiation links the kingdom to later succession, recovery, and land-use development.",
+    "Every species, site, apparent age, and inference requires its own evidence and records."
+  ],
+  "system_implications": [
+    "The strategy describes ordinary planetary ecology under CAL0 WLD1.2D and WLD2.1A+D.",
+    "No System mechanic, dating method, spawn source, refill node, reward, or specialised Mana ability is established."
+  ],
+  "research_questions": [
+    "What chemistry and structures implement shutdown and revival, and at what cost?",
+    "What growth, colonisation, and soil-formation rates apply across surfaces and climates?",
+    "Which surfaces do crusts versus cushions prefer, and how do they colonise dead casings and ruins?",
+    "Do cushion microclimate buffering or mineral binding occur in particular branches?",
+    "Does anyone in-world read cover as elapsed time, and how reliably?",
+    "Which grazers, pests, and symbioses shape pioneer cover?"
+  ],
+  "sources": [
+    "worldbuilding/settings/shared-universe-001/proposals/WLD-FLORA-009.md",
+    "canon://world/shared-universe-001/ecology/planetary-floral-kingdom-roster",
+    "canon://world/shared-universe-001/geography/initial-region-physical-scaffold",
+    "Author selection on 2026-08-17"
+  ],
+  "supersedes": [],
+  "superseded_by": null,
+  "author_approval": {
+    "decision_uri": "author-decision://world/WLD-FLORA-009A",
+    "accepted_on": "2026-08-17",
+    "accepted_by": "Author",
+    "evidence": "After the A/B/C strategy cards were presented with A recommended, the Author selected 'A — Revival flora' on 2026-08-17."
+  }
+}

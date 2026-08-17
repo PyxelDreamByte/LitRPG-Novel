@@ -153,6 +153,13 @@ copied from Earth clades. Only the first two have begun detailed development.
 
 ### Lineage I — six-limbed filament-and-scute animals
 
+Authority note: on 2026-08-17 this sketch was promoted to bounded provisional
+canon by
+`canon://world/shared-universe-001/ecology/lineage-i-foundational-body-plan`,
+which also resolved that winged branches derive their wings from the middle
+limb pair, keeping four walking legs. That record, not this staging summary,
+governs where they overlap.
+
 - Descended from a six-limbed ancestor with a tail.
 - Different branches may repurpose limb pairs for locomotion, handling,
   display, defence, digging, climbing, swimming, or flight-equivalent functions.

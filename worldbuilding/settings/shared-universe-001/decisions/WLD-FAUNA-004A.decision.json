@@ -1,0 +1,78 @@
+{
+  "$schema": "../../../../governance/schemas/decision-record.schema.json",
+  "schema_version": "1.0.0",
+  "id": "WLD-FAUNA-004A",
+  "decision_uri": "author-decision://world/WLD-FAUNA-004A",
+  "display_code": "WLD-FAUNA-004A",
+  "title": "Lineage VI foundational body plan",
+  "domain": "world",
+  "setting_id": "setting://shared-universe-001",
+  "workflow_status": "ACCEPTED",
+  "canon_status": "PROVISIONAL",
+  "scope": "Foundational body plan of Lineage VI, the segmented exoskeletal radiation, including growth mode as a branch-level axis and its ancestral state. Species, names, taxonomy, segment and limb counts, sizes, upper size limits, branch inventory, skeleton composition, growth mechanics, large-body physiological support, reproduction, development, sociality, Mana patterns, and local presence remain open.",
+  "accepted_on": "2026-08-17",
+  "accepted_by": "Author",
+  "approval_evidence": "After the growth-mode cards were presented, the Author directed that all three modes be retained as branches within the lineage and that some members exceed Earth arthropod sizes; the revised three-branch model was presented with an ancestry question, and the Author selected 'A — Moult ancestral' on 2026-08-17.",
+  "question": "What is Lineage VI's bounded foundational body plan, how does its exoskeleton grow, and which growth mode is ancestral?",
+  "selection": "Segmented jointed-exoskeleton lineage, the planet's most species-rich macroscopic animal radiation, mostly small-bodied, with independent small-scale flight in some branches and pollinator-analogue, litter and soil, parasitic, scavenging, predatory, and swarm-prey roles. Skeletal growth is a branch-level axis with three modes: moult branches shed the whole skeleton and pass through a soft vulnerable phase, may undergo life-stage transformation, and stay small; seam-growth branches never shed and expand continuously at flexible inter-plate seams without a soft phase or transformation; rolling-replacement branches shed and regrow plates individually and are never wholly soft. Whole-body moulting is ancestral, with the other two modes derived escapes, and seam-growth branches include large-bodied members exceeding Earth arthropod sizes.",
+  "alternatives": [
+    "L6-GROWTH-A: moult ancestral with seam growth and rolling replacement derived; selected for ancestry.",
+    "L6-GROWTH-B: seam growth ancestral with moulting derived; not selected (makes large size ancestral and ordinary).",
+    "L6-GROWTH-C: rolling replacement ancestral; not selected (least intuitive ancestor, middling explanatory value).",
+    "Single-mode lineage: the original card structure choosing one growth mode for the whole lineage; superseded by the Author's direction to retain all three as branches."
+  ],
+  "rationale": "Retaining all three modes as branches turns growth mode into an axis that predicts the kind of animal, giving one lineage three internally coherent branch families. Moult-ancestral ordering reads as constraint-then-escape: small moulting forms remain the abundant everyday default, each derived mode's advantage is explicit, and the lineage's large-bodied members become an earned innovation of the seam-growth branches rather than an unexplained baseline.",
+  "evidence": [
+    "Author structural direction and selection on 2026-08-17.",
+    "worldbuilding/settings/shared-universe-001/proposals/WLD-FAUNA-004.md",
+    "canon://world/shared-universe-001/ecology/planetary-faunal-lineage-roster",
+    "CAL0 WLD2.1A+D"
+  ],
+  "consequences": [
+    "Lineage VI contains three growth-mode branch families rather than one lineage-wide rule.",
+    "Small moulting forms are the abundant everyday default of the biosphere.",
+    "Seam-growth branches include large-bodied members exceeding Earth arthropod sizes.",
+    "Each growth mode carries distinct costs: periodic defencelessness, seam weakness and feeding dependence, or permanently fresh weak plates.",
+    "Larger-than-Earth body sizes require respiratory, circulatory, and structural support that remains open and binding.",
+    "Later Lineage VI branch and species development must build on this plan.",
+    "No Earth homology, particular large creature, or System mechanic is created."
+  ],
+  "affected_sources": [
+    "worldbuilding/settings/shared-universe-001/proposals/WLD-FAUNA-004.md",
+    "worldbuilding/settings/shared-universe-001/canon/ecology/WLD-FAUNA-004.worldbuilding.json",
+    "worldbuilding/settings/shared-universe-001/canon/ecology/WLD-FAUNA-004.md",
+    "worldbuilding/settings/shared-universe-001/setting-constitution.md",
+    "worldbuilding/settings/shared-universe-001/canon/README.md",
+    "worldbuilding/settings/shared-universe-001/proposals/README.md",
+    "worldbuilding/settings/shared-universe-001/decisions/README.md",
+    "worldbuilding/settings/shared-universe-001/indexes/INDEX.md",
+    "worldbuilding/INDEX.md",
+    "workbench/proposals/flora-fauna-development-plan.md",
+    "README.md"
+  ],
+  "dependencies": [
+    "WLD-SETTING-001A",
+    "WLD-FAUNA-001A",
+    "WLD-FAUNA-001",
+    "WLD-FLORA-008",
+    "CAL0 WLD1.2D",
+    "CAL0 WLD2.1A+D"
+  ],
+  "conflicts": [],
+  "residual_unknowns": [
+    "Species, names, taxonomy, segment counts, limb counts, sizes, and branch inventory remain open.",
+    "Skeleton composition, seam mechanics, moult mechanics, repair, and mineral requirements remain open.",
+    "The respiratory, circulatory, and structural support permitting larger-than-Earth body sizes remains open.",
+    "Upper size limits and whether any large branch is flight-capable remain open.",
+    "Reproduction, egg or brood form, development, life-stage transformation detail, and lifespan remain open.",
+    "Sociality, swarming, parasitic strategies, Mana patterns, and local presence remain open."
+  ],
+  "supersedes": [],
+  "superseded_by": null,
+  "reopening_conditions": [
+    "The three-branch growth-mode structure proves unworkable.",
+    "Large-bodied branches cannot be supported physiologically.",
+    "A concrete contradiction with an accepted or provisional record emerges.",
+    "The Author explicitly reopens the decision."
+  ]
+}

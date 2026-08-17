@@ -1,0 +1,78 @@
+{
+  "$schema": "../../../../../governance/schemas/worldbuilding-record.schema.json",
+  "schema_version": "1.0.0",
+  "id": "WLD-FLORA-005",
+  "record_uri": "canon://world/shared-universe-001/ecology/tower-flora-foundational-growth-architecture",
+  "display_code": "WLD-FLORA-005",
+  "setting_id": "setting://shared-universe-001",
+  "title": "Tower-flora foundational growth architecture",
+  "workflow_status": "ACCEPTED",
+  "canon_status": "PROVISIONAL",
+  "scope": "Foundational growth architecture of the K2 tower-flora kingdom at qualitative strategy grain; usable within shared-setting ecology and adopted downstream story development.",
+  "claims": [
+    "Tower flora are individual, non-networked organisms; root contact between towers is ordinary competition or incidental interaction, not kingdom-defining resource sharing.",
+    "A tower grows from a single persistent living core column.",
+    "Each growth season the core lays down an external structural casing layer that then dies, so a mature tower is a living column sheathed in successive dead, self-supporting casings.",
+    "Because living tissue lies deep, surface damage, scorching, and girdling-equivalent injuries are survivable in principle, while damage or decay reaching the living core is the characteristic mortal wound.",
+    "Towers are long-lived and slow to replace; loss of mature towers is a lasting landscape change.",
+    "Seasonal growth is strongly pulsed, compatible with the established climate and pulse-mosaic ecology.",
+    "Reproduction concentrates in episodic heavy seeding years rather than uniform annual output."
+  ],
+  "boundaries": [
+    "Tower, core, casing, and seeding year are author-facing functional descriptions, not in-world names or formal taxonomy.",
+    "The architecture establishes no Earth wood, bark, growth-ring, heartwood, cambium, or tree homology.",
+    "Species, branch structure, dimensions, proportions, lifespan, growth rates, and silhouettes beyond the theme remain open.",
+    "Core and casing anatomy, chemistry, material properties, strength, decay, flammability, and insulation remain open.",
+    "Survivable surface damage is a structural tendency, not invulnerability; no tolerance threshold, healing rate, or fire immunity is established, and crown or root damage, drought, disease, and pests can still kill without a core breach.",
+    "Possible kill-free casing removal is a structural implication only; no harvest practice, tool, yield, or human use is established.",
+    "Energy capture, leaf-analogue structures, root form, water handling, and winter state remain open.",
+    "Seeding mechanisms, structures, dispersal, edibility, period, synchrony scale, and triggers remain open; episodic seeding establishes no fixed cycle or guaranteed mast.",
+    "No kingdom assignment is made for the western temperate rainforest, basin woodland, or any other named vegetation; K2 remains only their candidate home.",
+    "No tower-flora member is established as present, dominant, or absent at any particular location.",
+    "Pests, diseases, decomposition, and symbioses, including any partnership with K6 thread decomposers, remain open.",
+    "Earth and mythological inspiration remains author-facing; no living, extinct, or legendary Earth species is transplanted.",
+    "Mana patterns remain open; no Mana organ, specialised ability, System progression, spawn point, refill node, guaranteed harvest, reward, Skill, trait payload, or Ancestry Development rule is established.",
+    "Water, energy, nutrients, space, growth time, disturbance, disease, and decay remain binding ecological constraints."
+  ],
+  "dependencies": [
+    "author-decision://world/WLD-SETTING-001A",
+    "author-decision://world/WLD-FLORA-005A",
+    "canon://world/shared-universe-001/ecology/planetary-floral-kingdom-roster",
+    "canon://world/shared-universe-001/geography/initial-region-physical-scaffold",
+    "CAL0 WLD1.2D",
+    "CAL0 WLD2.1A+D"
+  ],
+  "contradictions": [],
+  "story_implications": [
+    "Woodland scenes can show layered dead casings around living cores, scorched-but-living towers, and core-rot stakes.",
+    "Mast-year abundance gives later food-web and forage records a pulse mechanism to develop.",
+    "Future timber-analogue, fire, disease, and harvest development gains grounded, boundable hooks.",
+    "Every species, local presence, practice, and event requires its own evidence and records."
+  ],
+  "system_implications": [
+    "The architecture describes ordinary planetary ecology under CAL0 WLD1.2D and WLD2.1A+D.",
+    "No System mechanic, guaranteed harvest, spawn source, refill node, reward, or specialised Mana ability is established."
+  ],
+  "research_questions": [
+    "What core and casing anatomy, chemistry, and material properties implement the architecture?",
+    "What energy capture, leaf-analogue, and root strategies do tower-flora branches use?",
+    "How do seeding years work: structures, dispersal, synchrony, triggers, and edibility?",
+    "Do the western rainforest and basin woodland belong to K2, and through which member guilds?",
+    "Which pests, diseases, and K6 partnerships shape tower life and death?",
+    "Which casing properties would support later material-culture development?"
+  ],
+  "sources": [
+    "worldbuilding/settings/shared-universe-001/proposals/WLD-FLORA-005.md",
+    "canon://world/shared-universe-001/ecology/planetary-floral-kingdom-roster",
+    "canon://world/shared-universe-001/geography/initial-region-physical-scaffold",
+    "Author selection on 2026-08-17"
+  ],
+  "supersedes": [],
+  "superseded_by": null,
+  "author_approval": {
+    "decision_uri": "author-decision://world/WLD-FLORA-005A",
+    "accepted_on": "2026-08-17",
+    "accepted_by": "Author",
+    "evidence": "After the A/B/C architecture cards were presented with A recommended, the Author selected 'A — Core-and-casing' on 2026-08-17."
+  }
+}

@@ -218,6 +218,95 @@ contract, manuscript, or publication readiness.
   roster at silhouette-and-niche-theme level, superseding the capture's
   five-lineage working model; lineage names, taxonomy, anatomy, and per-species
   detail remain open.
+- Provisionally approved `WLD-CULTURE-003` through the Author's selection of
+  Option A — KIN-HALL AND SEASON-COURT, establishing the original
+  pre-imperial culture that survived the imperial period folded rather than
+  erased: the extended kin-hall as social unit, season-court federation at
+  fixed customary places, spoken-precedent law recited by a memory-trained
+  speaker class that is authoritative in standing but fallible in fact,
+  virtues of hall-hospitality, true recall, season-duty, and refuge-duty
+  against shames of hall-betrayal, false recall, refusing refuge, and waste
+  of common stores, an ancestor-and-season faith orientation reading the
+  System as the impartial order that never misremembers, and belonging- and
+  status-marker dress classes. Faith content, clothing detail, festival
+  content, exchange media, imperial instruments, in-world names, and
+  demography remain open, no System channel bears on testimony or
+  recollection, and the survival account is written at function level only.
+- Provisionally approved `WLD-CULTURE-004` through the Author's selection of
+  Option C — CHARTER-AND-GUILD, establishing the withdrawn power's
+  chartered-body organizing logic: government as a lattice of guilds,
+  colleges, companies, and temple-corporations holding delegated authority
+  under written charter, corporate personhood with thin standing for the
+  unincorporated, absorbed peoples incorporated as recognized native bodies
+  under limited charters, virtues of charter-fidelity, craft excellence,
+  mutual aid, and honest accounting against sins of charter-breach,
+  encroachment, and letting a chartered work fail, a charter-granting cult
+  class as belief only, livery dress, and the wild as unchartered ground made
+  real by charter. Its drifted remnant expression at the outlet settlement
+  keeps membership-identity and craft pride while charter authority hollows,
+  leaving disputed and possibly forged documents carrying weight with no
+  court able to renew them. The drift span stays unfixed, the remnant is not
+  uniform or fanatical, and outlet government, institutions, and law remain
+  open.
+- Provisionally approved `WLD-CULTURE-005` through the Author's selection of
+  Option B — FOUNDING-FUSION together with the Author-directed founding
+  frame, establishing the settlement's blend logic as a remembered
+  founding-era fusion disposition with no founding occasion or event fixed,
+  standing accruing to those seen to embody the joined way, purists of either
+  inheritance holding narrower prestige, a virtue of the joined work against
+  a shame of unravelling it, syncretic non-lifecycle observance, and a
+  composite dress. It further establishes, as a declared narrow closure of
+  the founder-origin question `WLD-CULTURE-002` left open, that the founder
+  was a native of the original culture who admitted imperial refugees early
+  to help build the settlement, that his leadership produced unity and mutual
+  respect, that hybridisation is early-stage and ongoing, and that the
+  original culture is therefore the settlement's host culture and is not
+  suppressed there — a present settlement-relations claim that leaves
+  `WLD-HISTORY-001`'s account of historical regional administration
+  untouched. The dynasty's later composition, office-holders' origins, and
+  the first-succession ambiguity remain open.
+- Provisionally approved `WLD-CULTURE-006` through the Author's selection of
+  Option A — THRESHOLD-WITNESS, establishing the pattern-level rite
+  architecture across all three cultures: every lifecycle rite is a witnessed
+  crossing that socially ratifies a new state — birth as acceptance into a
+  household, coming of age at the culturally interpreted signs of ordinary
+  awakening, marriage as witnessed bond with reciprocal obligation, and death
+  as witnessed recognition with reallocation of the dead person's social
+  obligations. No rite creates, transfers, or extinguishes assembly standing,
+  property, or tenure; awakening follows natural law identically regardless
+  of ceremony; death rites establish belief only and nothing about Souls;
+  birth customs carry beliefs aimed at the unborn but nothing mechanically
+  effective under the series-adopted `WLD-PRENATAL-001A` guardrail; and
+  marriage forms, per-culture rite logic, liturgy, officiants, and calendars
+  remain open.
+- Provisionally approved `WLD-CULTURE-007` through the Author's amended
+  custom combination, establishing a generationally split language landscape:
+  older-generation parallel bilingualism in both parent tongues keyed to
+  strand and situation with practiced code-switching as ordinary adult
+  competence, younger-generation hybridising speech that mixes both tongues
+  within a sentence and is explicitly in progress rather than a settled or
+  named third language, literacy anchored to the imperial script tradition
+  with the original tongue customarily unwritten, an imperial-monolingual
+  outlet settlement leaving cross-lake dealings leaning on hillfort speakers,
+  and interpreter-capable individuals as personal reputation only, never an
+  office and never part of adjudication. All linguistic content stays a
+  protected unknown — no variety name, word, sound, grammar feature,
+  letterform, or sample utterance — and whether the hybridising speech
+  stabilises, literacy transmission, cohort boundaries, and speaker
+  proportions remain open.
+- Provisionally approved `WLD-CULTURE-008` through the Author's selection of
+  Option C — DUAL-SPHERE with the proposal's shared claim set, establishing a
+  prestige sphere of surviving imperial coin above an internal customary
+  sphere of obligation, labour-exchange, tally and witnessed-debt credit, and
+  in-kind return; socially marked conversion between spheres; the cross-lake
+  rivalry living in the coin sphere as argument classes and never as an
+  occurred incident; a distinct coin-facing tendency for each of the three
+  cultures over the same thinning stock; and salvage-class coin flows under
+  `WLD-LOCATION-004`. Prices, denominations, rates, quantities, metals, names,
+  scripts, mints, treasuries, markets, harvest-trade practice, and compact
+  finance remain open, coin worth is social belief with no System
+  recognition, and whether the outlet settlement ever tests, re-melts, or
+  strikes metal remains an explicit open question.
 - Accepted `WLD-FLORA-004` through the parallel series-contract session's
   Author gate, establishing the planetary six-kingdom producer and decomposer
   roster at growth-strategy-theme level; kingdom names, taxonomy, and

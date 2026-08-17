@@ -1,0 +1,81 @@
+{
+  "$schema": "../../../../governance/schemas/decision-record.schema.json",
+  "schema_version": "1.0.0",
+  "id": "WLD-FAUNA-007A",
+  "decision_uri": "author-decision://world/WLD-FAUNA-007A",
+  "display_code": "WLD-FAUNA-007A",
+  "title": "Lineage VII foundational body plan",
+  "domain": "world",
+  "setting_id": "setting://shared-universe-001",
+  "workflow_status": "ACCEPTED",
+  "canon_status": "PROVISIONAL",
+  "scope": "Foundational body plan of Lineage VII, the unsegmented soft-bodied lineage, including life mode as a branch-level axis and its ancestral state. Species, names, taxonomy, sizes, branch inventory, feeding mechanisms, digestion, senses, respiration, mineralised structures, reproduction, parasitic branches and hosts, Mana patterns, and local presence remain open.",
+  "accepted_on": "2026-08-17",
+  "accepted_by": "Author",
+  "approval_evidence": "After the life-mode cards were presented, the Author directed that all three modes be included; they were recorded as branches rather than separate lineages because they share one body plan, and the revised model was presented with an ancestry question, to which the Author selected 'A — Filter ancestral' on 2026-08-17.",
+  "question": "What is Lineage VII's bounded foundational body plan, which life modes does it contain, and which mode is ancestral?",
+  "selection": "Unsegmented soft-bodied lineage with broadly bilateral, axially elongate bodies moving by muscular waves along the body axis, occurring in water, soil, and other moist substrates. Life mode is a branch-level axis with filter branches drawing suspended material from water, substrate branches living inside soil, mud, litter, sediment, and decaying matter and processing it as they go, and grazer branches moving over exposed surfaces with protective secretions. Aquatic filter feeding is ancestral, substrate branches derived from filterers by invading sediment and soil, and grazer branches derived from substrate branches by emerging onto exposed surfaces. Substrate branches own substrate turnover and give rise to internal parasitism.",
+  "alternatives": [
+    "L7-MODE-A: filter feeding ancestral with substrate then grazer branches derived; selected for ancestry.",
+    "L7-MODE-B: substrate dwelling ancestral; not selected (leaves moisture dependence and secretions unexplained).",
+    "L7-MODE-C: surface grazing ancestral; not selected (least plausible origin, closest to Earth molluscs).",
+    "Single-mode lineage: the original card structure choosing one defining life mode; superseded by the Author's direction to include all three."
+  ],
+  "rationale": "Recording the three life modes as branches keeps them on one shared body plan, which is the level the roster treats as branch variation, rather than inflating the lineage roster. Filter-ancestral ordering explains the two things the lineage would otherwise assert without cause — its universal moisture dependence and the secretions only its surface forms need — and yields a legible water-to-substrate-to-surface colonisation story, while substrate branches keep soil turnover and parasitism regardless of ordering.",
+  "evidence": [
+    "Author structural direction and selection on 2026-08-17.",
+    "worldbuilding/settings/shared-universe-001/proposals/WLD-FAUNA-007.md",
+    "canon://world/shared-universe-001/ecology/planetary-faunal-lineage-roster",
+    "canon://world/shared-universe-001/ecology/lineage-v-foundational-body-plan",
+    "canon://world/shared-universe-001/ecology/thread-decomposer-foundational-body-architecture",
+    "CAL0 WLD2.1A+D"
+  ],
+  "consequences": [
+    "All seven roster lineages now have foundational body plans.",
+    "Lineage VII contains filter, substrate, and grazer branch families on one body plan.",
+    "The lineage's moisture dependence and its surface forms' secretions have causal explanations.",
+    "Substrate branches own soil turnover, keeping the recycling division of labour with the thread decomposers explicit.",
+    "Internal parasites derive from the lineage's own substrate habit.",
+    "Most of the lineage is hidden, so its members are uncovered by scenes rather than constantly displayed.",
+    "No Earth homology, particular parasite or host, or System mechanic is created."
+  ],
+  "affected_sources": [
+    "worldbuilding/settings/shared-universe-001/proposals/WLD-FAUNA-007.md",
+    "worldbuilding/settings/shared-universe-001/canon/ecology/WLD-FAUNA-007.worldbuilding.json",
+    "worldbuilding/settings/shared-universe-001/canon/ecology/WLD-FAUNA-007.md",
+    "worldbuilding/settings/shared-universe-001/setting-constitution.md",
+    "worldbuilding/settings/shared-universe-001/canon/README.md",
+    "worldbuilding/settings/shared-universe-001/proposals/README.md",
+    "worldbuilding/settings/shared-universe-001/decisions/README.md",
+    "worldbuilding/settings/shared-universe-001/indexes/INDEX.md",
+    "worldbuilding/INDEX.md",
+    "workbench/proposals/flora-fauna-development-plan.md",
+    "README.md"
+  ],
+  "dependencies": [
+    "WLD-SETTING-001A",
+    "WLD-FAUNA-001A",
+    "WLD-FAUNA-001",
+    "WLD-FAUNA-006",
+    "WLD-FLORA-008",
+    "CAL0 WLD1.2D",
+    "CAL0 WLD2.1A+D"
+  ],
+  "conflicts": [],
+  "residual_unknowns": [
+    "Species, names, taxonomy, sizes, and branch inventory remain open.",
+    "Feeding mechanisms, digestion, senses, respiration, and circulation remain open.",
+    "Whether any branch carries mineralised structures, shells, or hard parts remains open.",
+    "Reproduction, development, and lifespan remain open.",
+    "Which branches are parasitic, and their hosts, transmission, and effects, remain open.",
+    "Mana patterns and local presence remain open."
+  ],
+  "supersedes": [],
+  "superseded_by": null,
+  "reopening_conditions": [
+    "The three-branch life-mode structure proves unworkable.",
+    "The filter-first ordering blocks a needed design.",
+    "A concrete contradiction with an accepted or provisional record emerges.",
+    "The Author explicitly reopens the decision."
+  ]
+}

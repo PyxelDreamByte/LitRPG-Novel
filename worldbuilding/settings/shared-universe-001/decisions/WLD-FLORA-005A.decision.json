@@ -1,0 +1,78 @@
+{
+  "$schema": "../../../../governance/schemas/decision-record.schema.json",
+  "schema_version": "1.0.0",
+  "id": "WLD-FLORA-005A",
+  "decision_uri": "author-decision://world/WLD-FLORA-005A",
+  "display_code": "WLD-FLORA-005A",
+  "title": "Tower-flora foundational growth architecture",
+  "domain": "world",
+  "setting_id": "setting://shared-universe-001",
+  "workflow_status": "ACCEPTED",
+  "canon_status": "PROVISIONAL",
+  "scope": "Foundational growth architecture of the K2 tower-flora kingdom at qualitative strategy grain. Species, dimensions, chemistry, anatomy, reproduction mechanisms, kingdom assignments of named vegetation, human uses, Mana patterns, and local presence remain open.",
+  "accepted_on": "2026-08-17",
+  "accepted_by": "Author",
+  "approval_evidence": "After the A/B/C architecture cards were presented with A recommended, the Author selected 'A — Core-and-casing' on 2026-08-17.",
+  "question": "What foundational growth architecture should define the K2 tower-flora kingdom?",
+  "selection": "Core-and-casing towers: individual non-networked organisms growing from a single persistent living core column that lays down successive external structural casing layers which die in place, so mature towers are living columns sheathed in dead self-supporting casings. Deep-seated life makes surface damage survivable while core breach is the mortal wound. Towers are long-lived and slow to replace, seasonal growth is strongly pulsed, and reproduction concentrates in episodic heavy seeding years.",
+  "alternatives": [
+    "K2-ARCH-A: living core with dead external casings, inverted from Earth trees; selected.",
+    "K2-ARCH-B: stacked semi-independent modules with regrowable tops; not selected (blurs K1's modular identity).",
+    "K2-ARCH-C: fused multi-strand braided trunks with partial-death states; not selected (permanent descriptive complexity)."
+  ],
+  "rationale": "The living-core/dead-casing inversion is alien but instantly legible, preserves the sharpest contrast with K1's networked modularity, and seeds boundable story hooks — survivable scorching, mortal core wounds, possible kill-free casing harvest, masting pulses — without retcon pressure on any existing record.",
+  "evidence": [
+    "Author selection on 2026-08-17.",
+    "worldbuilding/settings/shared-universe-001/proposals/WLD-FLORA-005.md",
+    "canon://world/shared-universe-001/ecology/planetary-floral-kingdom-roster",
+    "canon://world/shared-universe-001/geography/initial-region-physical-scaffold",
+    "CAL0 WLD2.1A+D"
+  ],
+  "consequences": [
+    "The K2 kingdom's members are individual non-networked organisms with living cores and dead external casings.",
+    "Surface and fire damage are survivable in principle while core breach is the characteristic mortal wound.",
+    "Mature towers are finite landscape capital with slow replacement.",
+    "Reproduction concentrates in episodic heavy seeding years for later food-web development.",
+    "Woodland, rainforest-candidate, and timber-analogue development must build on this architecture.",
+    "No Earth-tree homology, human practice, guaranteed harvest, or System mechanic is created."
+  ],
+  "affected_sources": [
+    "worldbuilding/settings/shared-universe-001/proposals/WLD-FLORA-005.md",
+    "worldbuilding/settings/shared-universe-001/canon/ecology/WLD-FLORA-005.worldbuilding.json",
+    "worldbuilding/settings/shared-universe-001/canon/ecology/WLD-FLORA-005.md",
+    "worldbuilding/settings/shared-universe-001/setting-constitution.md",
+    "worldbuilding/settings/shared-universe-001/canon/README.md",
+    "worldbuilding/settings/shared-universe-001/proposals/README.md",
+    "worldbuilding/settings/shared-universe-001/decisions/README.md",
+    "worldbuilding/settings/shared-universe-001/indexes/INDEX.md",
+    "worldbuilding/INDEX.md",
+    "workbench/proposals/flora-fauna-development-plan.md",
+    "README.md"
+  ],
+  "dependencies": [
+    "WLD-SETTING-001A",
+    "WLD-FLORA-004A",
+    "WLD-FLORA-004",
+    "WLD-GEOGRAPHY-001A",
+    "WLD-GEOGRAPHY-001",
+    "CAL0 WLD1.2D",
+    "CAL0 WLD2.1A+D"
+  ],
+  "conflicts": [],
+  "residual_unknowns": [
+    "Species, branch structure, dimensions, lifespan, and silhouettes beyond the core-and-casing theme remain open.",
+    "Core and casing anatomy, chemistry, material properties, decay, and any harvestability remain open.",
+    "Energy capture, leaf-analogues, root form, and water handling remain open.",
+    "Seeding mechanisms, structures, dispersal, periods, synchrony, and triggers remain open.",
+    "Kingdom assignments of the western rainforest and basin woodland remain open.",
+    "Pests, diseases, symbioses including any K6 partnership, and Mana patterns remain open.",
+    "Human uses, practices, and knowledge remain open."
+  ],
+  "supersedes": [],
+  "superseded_by": null,
+  "reopening_conditions": [
+    "The architecture cannot support required woodland ecology or material culture.",
+    "A concrete contradiction with an accepted or provisional record emerges.",
+    "The Author explicitly reopens the decision."
+  ]
+}

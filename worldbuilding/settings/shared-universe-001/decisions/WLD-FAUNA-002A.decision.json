@@ -1,0 +1,76 @@
+{
+  "$schema": "../../../../governance/schemas/decision-record.schema.json",
+  "schema_version": "1.0.0",
+  "id": "WLD-FAUNA-002A",
+  "decision_uri": "author-decision://world/WLD-FAUNA-002A",
+  "display_code": "WLD-FAUNA-002A",
+  "title": "Lineage I foundational body plan",
+  "domain": "world",
+  "setting_id": "setting://shared-universe-001",
+  "workflow_status": "ACCEPTED",
+  "canon_status": "PROVISIONAL",
+  "scope": "Foundational body plan of Lineage I, including the wing-pair derivation for winged branches. Species, names, taxonomy, sizes, branch inventory, wing structure and performance, covering microstructure, egg chemistry, parental roles, diet, senses, cognition, Mana patterns, and local presence remain open.",
+  "accepted_on": "2026-08-17",
+  "accepted_by": "Author",
+  "approval_evidence": "After the A/B/C wing-derivation cards were presented with A recommended, the Author selected 'A — Middle pair' on 2026-08-17.",
+  "question": "What is Lineage I's bounded foundational body plan, and which of its three limb pairs becomes the wing pair in winged branches?",
+  "selection": "Promote the staged Lineage I sketch as bounded provisional canon — six-limbed tailed ancestry, branch-level limb repurposing, filament-and-scute covering, warm-active physiology, flexible mineral-latticed brood eggs requiring guarded nests or brooding, and slow reproduction in large-bodied branches — and resolve wing derivation as mid-pair flight: the middle limb pair becomes the wing pair, leaving four well-spaced walking legs with wings rising near the centre of mass, while non-flying branches use the same middle pair for the lineage's most variable roles. Wing surfaces derive from existing filament-and-scute materials rather than novel membranes.",
+  "alternatives": [
+    "L1-WING-A: middle limb pair becomes wings; selected.",
+    "L1-WING-B: forelimbs become wings; not selected (legs bunch rearward, all flyers lose forelimb handling).",
+    "L1-WING-C: hindlimbs become wings; not selected (poor takeoff geometry, awkward gait, least legible silhouette)."
+  ],
+  "rationale": "Mid-pair derivation is the mechanically sensible reading of a six-limbed frame, since fore and hind pairs already bracket the body's mass; it preserves four balanced walking legs beneath a centrally mounted wing pair, delivers the four-legs-plus-wings mythic silhouette the roster reserved for this lineage, and concentrates the lineage's most variable limb roles in one pair so non-flying branches also gain a clear identity.",
+  "evidence": [
+    "Author selection on 2026-08-17.",
+    "worldbuilding/settings/shared-universe-001/proposals/WLD-FAUNA-002.md",
+    "canon://world/shared-universe-001/ecology/planetary-faunal-lineage-roster",
+    "workbench/proposals/project-hearthway-foundation-capture.md",
+    "CAL0 WLD2.1A+D"
+  ],
+  "consequences": [
+    "The staged Lineage I sketch gains bounded provisional authority.",
+    "Winged Lineage I branches keep four walking legs with a centrally mounted wing pair.",
+    "Non-flying branches use the middle pair for grasping, digging, display, or vestigial roles.",
+    "Guarded nesting makes defensible nest sites ecologically and narratively consequential.",
+    "Slow large-body reproduction makes megafaunal branches vulnerable to sustained pressure.",
+    "Later Lineage I branch, species, and flight-performance development must build on this plan.",
+    "No Earth homology, System mechanic, creature progression rule, or Ancestry Development claim is created."
+  ],
+  "affected_sources": [
+    "worldbuilding/settings/shared-universe-001/proposals/WLD-FAUNA-002.md",
+    "worldbuilding/settings/shared-universe-001/canon/ecology/WLD-FAUNA-002.worldbuilding.json",
+    "worldbuilding/settings/shared-universe-001/canon/ecology/WLD-FAUNA-002.md",
+    "worldbuilding/settings/shared-universe-001/setting-constitution.md",
+    "worldbuilding/settings/shared-universe-001/canon/README.md",
+    "worldbuilding/settings/shared-universe-001/proposals/README.md",
+    "worldbuilding/settings/shared-universe-001/decisions/README.md",
+    "worldbuilding/settings/shared-universe-001/indexes/INDEX.md",
+    "worldbuilding/INDEX.md",
+    "workbench/proposals/project-hearthway-foundation-capture.md",
+    "workbench/proposals/flora-fauna-development-plan.md",
+    "README.md"
+  ],
+  "dependencies": [
+    "WLD-SETTING-001A",
+    "WLD-FAUNA-001A",
+    "WLD-FAUNA-001",
+    "CAL0 WLD1.2D",
+    "CAL0 WLD2.1A+D"
+  ],
+  "conflicts": [],
+  "residual_unknowns": [
+    "Species, names, taxonomy, sizes, proportions, and branch inventory remain open.",
+    "Wing structure, size ceilings, flight performance, and gliding branches remain open.",
+    "Filament and scute microstructure, moult, colour, and sensory function remain open.",
+    "Egg-lattice chemistry, clutch sizes, incubation, and parental roles remain open.",
+    "Diet, senses, cognition, sociality, Mana patterns, and local presence remain open."
+  ],
+  "supersedes": [],
+  "superseded_by": null,
+  "reopening_conditions": [
+    "The mid-pair derivation cannot support a needed flyer design.",
+    "A concrete contradiction with an accepted or provisional record emerges.",
+    "The Author explicitly reopens the decision."
+  ]
+}

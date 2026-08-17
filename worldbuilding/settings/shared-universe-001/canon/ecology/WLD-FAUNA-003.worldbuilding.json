@@ -1,0 +1,80 @@
+{
+  "$schema": "../../../../../governance/schemas/worldbuilding-record.schema.json",
+  "schema_version": "1.0.0",
+  "id": "WLD-FAUNA-003",
+  "record_uri": "canon://world/shared-universe-001/ecology/lineage-iii-foundational-body-plan",
+  "display_code": "WLD-FAUNA-003",
+  "setting_id": "setting://shared-universe-001",
+  "title": "Lineage III foundational body plan",
+  "workflow_status": "ACCEPTED",
+  "canon_status": "PROVISIONAL",
+  "scope": "Foundational body plan and life-history signature of Lineage III, the low-frame four-limbed generalist radiation; usable within shared-setting ecology and adopted downstream story development.",
+  "claims": [
+    "Lineage III descends from a four-limbed ancestor with a low-slung limb posture; upright and specialised postures are derived branch conditions.",
+    "An internal supporting frame carries the body; the lineage has no exoskeleton and no scute armour comparable to Lineage I's.",
+    "The outer covering is a flexible skin bearing branch-specific structures, and does not combine Lineage I's filaments and scutes.",
+    "Winged branches derive wings from the forelimbs, leaving two walking legs.",
+    "The lineage is the planet's broadest generalist radiation, occupying prey, mesopredator, burrowing, climbing, and small-flyer roles.",
+    "Its life-history signature is reproductive throughput: several to many young per breeding, fast juvenile growth, early dispersal, high early mortality, and quick generational turnover.",
+    "Large-bodied branches may moderate that pattern.",
+    "Parental care occurs in some branches but is not the lineage's defining investment."
+  ],
+  "boundaries": [
+    "Low-frame, internal supporting frame, and litter are author-facing functional descriptions, not in-world names or formal taxonomy.",
+    "The plan establishes no mammal, reptile, amphibian, bird, bat, or other Earth-clade homology; internal supporting frame establishes no vertebrate or bone homology.",
+    "Species, names, sizes, proportions, colours, lifespans, and the branch inventory remain open.",
+    "Whether reproduction is egg-laying, live-bearing, or variable by branch remains open, as do gestation or incubation, birth or hatching, litter sizes, breeding frequency, seasonality, and sexual systems.",
+    "Several to many is qualitative; no brood size, growth rate, dispersal distance, mortality rate, generation length, or population figure is established.",
+    "High early mortality is a tendency, not a guarantee that any particular young dies, and quick recovery is not guaranteed; local extirpation, compound failure, and sustained decline remain possible.",
+    "Skin structures, insulation, colour, patterning, sensory features, moult, and any secretions remain open.",
+    "Wing structure, wingspan, size ceilings, flight performance, launch, endurance, gliding branches, and flightless descendants of flyers remain open; forelimb derivation establishes wing origin and leg count only.",
+    "Generalist breadth establishes a radiation pattern, not dominance, and no particular niche is established as filled by this lineage at any place.",
+    "No Lineage III branch is established as present, abundant, or absent at any particular location, including the initial basin, and no branch is identified with any domesticate, livestock, pest, game animal, or settlement-adjacent creature.",
+    "The bird-like fishing organisms referenced by canon://world/shared-universe-001/ecology/basin-lake-spring-breeding-pulse remain unassigned to any lineage.",
+    "Diet, digestion, senses, cognition, sociality, communication, migration, disease, and predator-prey relationships remain open.",
+    "Mana patterns remain open; no Mana organ, specialised ability, System progression, universal creature level, spawn mechanism, reward, Skill, trait payload, or Ancestry Development rule is established.",
+    "Earth life of any era and mythological creatures may inspire author-facing design; no living, extinct, or legendary Earth species is transplanted directly.",
+    "Food, energy, materials, reproduction, disease, injury, mortality, and carrying capacity remain binding ecological constraints."
+  ],
+  "dependencies": [
+    "author-decision://world/WLD-SETTING-001A",
+    "author-decision://world/WLD-FAUNA-003A",
+    "canon://world/shared-universe-001/ecology/planetary-faunal-lineage-roster",
+    "canon://world/shared-universe-001/ecology/lineage-i-foundational-body-plan",
+    "CAL0 WLD1.2D",
+    "CAL0 WLD2.1A+D"
+  ],
+  "contradictions": [],
+  "story_implications": [
+    "Ordinary everyday animal life and two-legged, two-winged flyers can come from this lineage.",
+    "Seasonal surges, crashes, and quick recoveries give years and places visible texture.",
+    "Predators across lineages have a renewable but variable base to depend on.",
+    "Every species, branch, local presence, and encounter requires its own evidence and records."
+  ],
+  "system_implications": [
+    "The body plan describes ordinary planetary ecology under CAL0 WLD1.2D and WLD2.1A+D.",
+    "No System mechanic, creature progression rule, spawn source, reward, or specialised Mana ability is established."
+  ],
+  "research_questions": [
+    "Is reproduction egg-laying, live-bearing, or variable across branches?",
+    "What branches exist, and which niches do they occupy in the initial basin and wider region?",
+    "What skin structures provide insulation, sensing, defence, and display?",
+    "What wing structures and size ceilings apply to forelimb-winged branches?",
+    "How do large-bodied branches moderate the throughput pattern?",
+    "Which branches, if any, have domestication or pest potential near human settlement?"
+  ],
+  "sources": [
+    "worldbuilding/settings/shared-universe-001/proposals/WLD-FAUNA-003.md",
+    "canon://world/shared-universe-001/ecology/planetary-faunal-lineage-roster",
+    "canon://world/shared-universe-001/ecology/lineage-i-foundational-body-plan",
+    "Author selection on 2026-08-17"
+  ],
+  "supersedes": [],
+  "superseded_by": null,
+  "author_approval": {
+    "decision_uri": "author-decision://world/WLD-FAUNA-003A",
+    "accepted_on": "2026-08-17",
+    "accepted_by": "Author",
+    "evidence": "After the A/B/C life-history cards were presented with A recommended, the Author selected 'A — Litter-and-disperse' on 2026-08-17."
+  }
+}

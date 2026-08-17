@@ -56,7 +56,36 @@
   planetary faunal roster recorded by `WLD-FAUNA-001`.
 - [`WLD-FLORA-004A`](WLD-FLORA-004A.md) — selects the provisional six-kingdom
   planetary floral roster recorded by `WLD-FLORA-004`.
+- [`WLD-FLORA-005A`](WLD-FLORA-005A.md) — selects the provisional tower-flora
+  core-and-casing growth architecture recorded by `WLD-FLORA-005`.
+- [`WLD-FLORA-006A`](WLD-FLORA-006A.md) — selects the provisional water-flora
+  anchor-and-streamer growth architecture recorded by `WLD-FLORA-006`.
+- [`WLD-FLORA-007A`](WLD-FLORA-007A.md) — selects the provisional free-seeder
+  vault-seed strategy recorded by `WLD-FLORA-007`.
+- [`WLD-FLORA-008A`](WLD-FLORA-008A.md) — selects, as an Author custom
+  combination of the displayed options, the provisional thread-decomposer
+  weaver-and-bloom architecture recorded by `WLD-FLORA-008`.
+- [`WLD-FLORA-009A`](WLD-FLORA-009A.md) — selects the provisional
+  crust-and-cushion revival survival strategy recorded by `WLD-FLORA-009`.
+- [`WLD-FAUNA-002A`](WLD-FAUNA-002A.md) — selects the provisional Lineage I
+  foundational body plan and mid-pair wing derivation recorded by
+  `WLD-FAUNA-002`.
+- [`WLD-FAUNA-003A`](WLD-FAUNA-003A.md) — selects the provisional Lineage III
+  foundational body plan and litter-and-disperse life history recorded by
+  `WLD-FAUNA-003`.
+- [`WLD-FAUNA-004A`](WLD-FAUNA-004A.md) — selects, with an Author-directed
+  three-branch restructuring, the provisional Lineage VI foundational body
+  plan and moult-ancestral growth-mode axis recorded by `WLD-FAUNA-004`.
+- [`WLD-FAUNA-005A`](WLD-FAUNA-005A.md) — selects the provisional Lineage IV
+  lineage-level body plan and ancestral trunk-and-fan core recorded by
+  `WLD-FAUNA-005`.
+- [`WLD-FAUNA-006A`](WLD-FAUNA-006A.md) — selects the provisional Lineage V
+  lineage-level body plan and ancestral radial-hydrostatic core recorded by
+  `WLD-FAUNA-006`.
+- [`WLD-FAUNA-007A`](WLD-FAUNA-007A.md) — selects, with an Author-directed
+  three-branch restructuring, the provisional Lineage VII foundational body
+  plan and filter-ancestral life-mode axis recorded by `WLD-FAUNA-007`.
 
-No fictional Project Hearthway claim has been fully accepted; the twenty-one setting
+No fictional Project Hearthway claim has been fully accepted; the thirty-two setting
 records above have bounded provisional authority. A displayed working name or
 conversational preference is not, by itself, a canon-promotion transaction.
