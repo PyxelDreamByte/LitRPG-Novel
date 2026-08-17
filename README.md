@@ -66,7 +66,8 @@ three-lobed living-vault body plan and mobile shelter–forage–regroup care
   planetary six-kingdom floral roster homing the reserve-web guild, plus the
   five scaffolded floral-kingdom growth architectures (tower core-and-casing,
   water anchor-and-streamer, free-seeder vault-seed, thread-decomposer
-  weaver-and-bloom, and crust-and-cushion revival), plus the six scaffolded
+  weaver-and-bloom, and crust-and-cushion revival), plus the basin's
+  thicket-and-relict returning-woodland composition, plus the six scaffolded
   faunal foundational body plans for Lineages I, III, IV, V, VI, and VII, are
   also
   provisional; no detailed fictional record is yet fully accepted.

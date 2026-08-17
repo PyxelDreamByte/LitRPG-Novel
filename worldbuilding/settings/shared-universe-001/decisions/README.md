@@ -85,7 +85,10 @@
 - [`WLD-FAUNA-007A`](WLD-FAUNA-007A.md) — selects, with an Author-directed
   three-branch restructuring, the provisional Lineage VII foundational body
   plan and filter-ancestral life-mode axis recorded by `WLD-FAUNA-007`.
+- [`WLD-FLORA-010A`](WLD-FLORA-010A.md) — selects the provisional
+  thicket-and-relict basin returning-woodland composition recorded by
+  `WLD-FLORA-010`.
 
-No fictional Project Hearthway claim has been fully accepted; the forty-three setting
+No fictional Project Hearthway claim has been fully accepted; the forty-four setting
 records above have bounded provisional authority. A displayed working name or
 conversational preference is not, by itself, a canon-promotion transaction.

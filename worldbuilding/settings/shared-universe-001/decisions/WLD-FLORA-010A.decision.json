@@ -1,0 +1,86 @@
+{
+  "$schema": "../../../../governance/schemas/decision-record.schema.json",
+  "schema_version": "1.0.0",
+  "id": "WLD-FLORA-010A",
+  "decision_uri": "author-decision://world/WLD-FLORA-010A",
+  "display_code": "WLD-FLORA-010A",
+  "title": "Basin returning-woodland composition and succession",
+  "domain": "world",
+  "setting_id": "setting://shared-universe-001",
+  "workflow_status": "ACCEPTED",
+  "canon_status": "PROVISIONAL",
+  "scope": "Qualitative composition and present successional state of the initial basin's returning woodland, including its first kingdom assignments. Species, names, extent, density, relict-tower distribution, human uses, fire behaviour, rainforest composition, and thicket fauna remain open.",
+  "accepted_on": "2026-08-17",
+  "accepted_by": "Author",
+  "approval_evidence": "After the A/B/C succession-state cards were presented with A recommended, the Author selected 'A — Thicket-and-relict' on 2026-08-17.",
+  "question": "What does the woodland returning across the initial basin consist of, and what state has seventy years of post-collapse regrowth reached?",
+  "selection": "Thicket-and-relict woodland: principally K2 tower flora with K3 free-seeder thickets over a K5 crust-and-cushion and K6 thread-decomposer layer. Ended suppression woke buried vault banks under abandoned clearances, producing dense tangled thicket giving way patchily to young unthickened towers, with scattered relict old towers surviving from before the clearances, recognisable by bulk, deep-layered casings, and heavy crust cover. Mature timber-analogue material is scarce, passage through thicket is hard, and Lineage II browsing contests the woodland's advance so succession is not uniform.",
+  "alternatives": [
+    "BASIN-WOOD-A: thicket-and-relict young regrowth with surviving old towers; selected.",
+    "BASIN-WOOD-B: advancing tower front producing maturing workable woodland; not selected (ignores the vault-bank mechanism and outruns tower replacement rates).",
+    "BASIN-WOOD-C: browsing-held parkland with woodland confined to groves; not selected (contradicts woodland pressing close to the settlement)."
+  ],
+  "rationale": "Thicket-and-relict is the only option that follows causally from the accepted scaffolds: vault banks explain the thicket, tower replacement rates explain the scarcity of old growth, and Lineage II browsing explains the patchiness. It converts seventy years of collapse history into a landscape the reader can see and the settlement must live with.",
+  "evidence": [
+    "Author selection on 2026-08-17.",
+    "worldbuilding/settings/shared-universe-001/proposals/WLD-FLORA-010.md",
+    "canon://world/shared-universe-001/ecology/tower-flora-foundational-growth-architecture",
+    "canon://world/shared-universe-001/ecology/free-seeder-flora-foundational-growth-architecture",
+    "canon://world/shared-universe-001/ecology/lineage-ii-peripheral-migration-corridor",
+    "canon://world/shared-universe-001/location/initial-ridge-spur-settlement-working-landscape",
+    "CAL0 WLD2.1A+D"
+  ],
+  "consequences": [
+    "The basin woodland gains its first kingdom assignments across four accepted kingdom scaffolds.",
+    "Seventy years of history becomes a visible landscape of thicket and relicts.",
+    "The settlement's woodland offers abundant small stems and fuel but scarce structural material.",
+    "Relict old towers are locally valuable and their felling is consequential.",
+    "Travel off the road is slow and blind, making the managed apron's edge a real boundary.",
+    "Dense young growth raises surface-fire exposure during permitted dry spells.",
+    "No Earth species, human practice, guaranteed harvest, or System mechanic is created."
+  ],
+  "affected_sources": [
+    "worldbuilding/settings/shared-universe-001/proposals/WLD-FLORA-010.md",
+    "worldbuilding/settings/shared-universe-001/canon/ecology/WLD-FLORA-010.worldbuilding.json",
+    "worldbuilding/settings/shared-universe-001/canon/ecology/WLD-FLORA-010.md",
+    "worldbuilding/settings/shared-universe-001/setting-constitution.md",
+    "worldbuilding/settings/shared-universe-001/canon/README.md",
+    "worldbuilding/settings/shared-universe-001/proposals/README.md",
+    "worldbuilding/settings/shared-universe-001/decisions/README.md",
+    "worldbuilding/settings/shared-universe-001/indexes/INDEX.md",
+    "worldbuilding/INDEX.md",
+    "workbench/proposals/flora-fauna-development-plan.md",
+    "README.md"
+  ],
+  "dependencies": [
+    "WLD-SETTING-001A",
+    "WLD-FLORA-005A",
+    "WLD-FLORA-005",
+    "WLD-FLORA-007A",
+    "WLD-FLORA-007",
+    "WLD-FLORA-008",
+    "WLD-FLORA-009",
+    "WLD-ECOLOGY-001",
+    "WLD-ECOLOGY-004",
+    "WLD-LOCATION-001",
+    "WLD-GEOGRAPHY-001",
+    "CAL0 WLD1.2D",
+    "CAL0 WLD2.1A+D"
+  ],
+  "conflicts": [],
+  "residual_unknowns": [
+    "Species, names, exact extent, boundaries, and density figures remain open.",
+    "Relict-tower abundance, distribution, sizes, and ages remain open.",
+    "Timber, fuel, forage, and other human uses, ownership, and management remain open.",
+    "Fire frequency and behaviour, and decomposer sufficiency for accumulating deadfall, remain open.",
+    "The western rainforest's own composition and its relationship to this woodland remain open.",
+    "Which animals inhabit the thicket remains open."
+  ],
+  "supersedes": [],
+  "superseded_by": null,
+  "reopening_conditions": [
+    "The thicket-and-relict state cannot support required settlement material culture.",
+    "A concrete contradiction with an accepted or provisional record emerges.",
+    "The Author explicitly reopens the decision."
+  ]
+}

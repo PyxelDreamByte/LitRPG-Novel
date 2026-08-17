@@ -1,14 +1,14 @@
 # Worldbuilding Index
 
 **Accepted detailed setting canon:** none  
-**Provisional detailed setting records:** forty-three  
+**Provisional detailed setting records:** forty-four  
 **Instantiated settings:** one provisionally authorized (a superseded parallel bootstrap is archived)  
 **Project-level provisional defaults:** two  
 **Project-level deferred distributions:** one
 
 Setting development has begun for the shared universe temporarily titled
 `Project Hearthway`. Its stable identity, main-series relationship, and
-forty-three
+forty-four
 bounded records—four for Lineage II, six for the basin's coupled ecology, lake
 migration, both migrants' foundational body plans, selected mass-breeder
 fluid-and-trim physiology, and selected family-care outlet choreography, two
@@ -23,8 +23,8 @@ landscape, and exchange media, one for the story-start standing pressures, one
 for the planetary faunal lineage roster, one for the
 planetary floral kingdom roster, five for the tower-flora, water-flora,
 free-seeder, thread-decomposer, and crust-and-cushion growth architectures,
-and six for the Lineage I, III, VI, IV, V, and VII foundational body
-plans—have
+six for the Lineage I, III, VI, IV, V, and VII foundational body
+plans, and one for the basin's returning-woodland composition—have
 provisional authority;
 no detailed fictional claim has been fully accepted.
 
@@ -86,6 +86,7 @@ deferrals, not setting canon or facts about any world.
 | [`WLD-FAUNA-005A`](settings/shared-universe-001/decisions/WLD-FAUNA-005A.md) | `author-decision://world/WLD-FAUNA-005A` | `PROVISIONAL` | Lineage IV is fully aquatic with an ancestral trunk-and-fan locomotor core; the mass breeder's fin-fan count, head shield, salt organs, and gel chambers are derived specialisations, leaving its own records unchanged |
 | [`WLD-FAUNA-006A`](settings/shared-universe-001/decisions/WLD-FAUNA-006A.md) | `author-decision://world/WLD-FAUNA-006A` | `PROVISIONAL` | Lineage V is tri-radial and hydrostatic with travelling margin waves as its basic movement mode; the family-care migrant's vault, paddle-columns, refuge, and care system are derived specialisations, leaving its own records unchanged |
 | [`WLD-FAUNA-007A`](settings/shared-universe-001/decisions/WLD-FAUNA-007A.md) | `author-decision://world/WLD-FAUNA-007A` | `PROVISIONAL` | Lineage VII is unsegmented, soft, and axially muscular, with life mode as a branch axis of ancestral filter feeding plus derived substrate and grazer branches; substrate branches own soil turnover and give rise to internal parasitism |
+| [`WLD-FLORA-010A`](settings/shared-universe-001/decisions/WLD-FLORA-010A.md) | `author-decision://world/WLD-FLORA-010A` | `PROVISIONAL` | The basin's returning woodland is young thicket-and-relict growth from woken vault banks with scattered pre-clearance towers, scarce mature stems, hard passage, and a browsing-contested advance |
 | [`WLD-LOCATION-004A`](settings/shared-universe-001/decisions/WLD-LOCATION-004A.md) | `author-decision://world/WLD-LOCATION-004A` | `PROVISIONAL` | The withdrawn power's basin works form a decayed corridor-and-clearance skeleton with an open road-derivation question and the second settlement's nucleus as a reused-node instance |
 | [`WLD-LOCATION-005A`](settings/shared-universe-001/decisions/WLD-LOCATION-005A.md) | `author-decision://world/WLD-LOCATION-005A` | `PROVISIONAL` | A directly specified second settlement built around an imperial industrial nucleus near the outlet's seaward mouth, with no future-conflict or timeline commitment |
 | [`WLD-EVENT-001A`](settings/shared-universe-001/decisions/WLD-EVENT-001A.md) | `author-decision://world/WLD-EVENT-001A` | `PROVISIONAL` | Story start uses an Author-amended rivalry-forward configuration of five live, unresolved standing pressures |
@@ -146,6 +147,7 @@ override requires its own Author decision. Silence means non-adoption.
 | [`WLD-FAUNA-005`](settings/shared-universe-001/canon/ecology/WLD-FAUNA-005.md) | `canon://world/shared-universe-001/ecology/lineage-iv-foundational-body-plan` | `PROVISIONAL` | Lineage IV lineage-level body plan: fully aquatic throughout, spanning the full aquatic size range, with an ancestral core of flexible trunk, springy support, paired fin-fans, muscular tail, and fold respiration, and the mass breeder's shield, salt organs, and gel chambers held as derived specialisations |
 | [`WLD-FAUNA-006`](settings/shared-universe-001/canon/ecology/WLD-FAUNA-006.md) | `canon://world/shared-universe-001/ecology/lineage-v-foundational-body-plan` | `PROVISIONAL` | Lineage V lineage-level body plan: tri-radial symmetry with hydrostatic support and actuation, no rigid or external skeleton, travelling margin waves as a basic movement mode, predominantly aquatic habit, and the family-care migrant's vault, paddle-columns, refuge, and care system held as derived specialisations |
 | [`WLD-FAUNA-007`](settings/shared-universe-001/canon/ecology/WLD-FAUNA-007.md) | `canon://world/shared-universe-001/ecology/lineage-vii-foundational-body-plan` | `PROVISIONAL` | Lineage VII foundational body plan: unsegmented soft bilateral bodies moving by axial muscular waves, with life mode as a branch axis of ancestral aquatic filter feeding plus derived substrate and grazer branches, substrate branches owning soil turnover and giving rise to internal parasitism |
+| [`WLD-FLORA-010`](settings/shared-universe-001/canon/ecology/WLD-FLORA-010.md) | `canon://world/shared-universe-001/ecology/basin-returning-woodland-composition` | `PROVISIONAL` | Basin returning-woodland composition: principally tower flora with free-seeder thickets over crust-and-cushion and thread-decomposer layers, young thicket-and-relict structure from vault banks woken at the end of suppression, scarce mature stems, harder passage, and a Lineage II browsing-contested advance |
 | [`WLD-LOCATION-004`](settings/shared-universe-001/canon/location/WLD-LOCATION-004.md) | `canon://world/shared-universe-001/location/basin-imperial-remnant-corridor-skeleton` | `PROVISIONAL` | Decayed imperial route-and-clearance skeleton across the lower basin with regrown, ruinous, reused, and avoided condition classes, dispersed low-yield salvage, and reuse spanning intermittent reclamation to sustained re-occupation |
 | [`WLD-LOCATION-005`](settings/shared-universe-001/canon/location/WLD-LOCATION-005.md) | `canon://world/shared-universe-001/location/outlet-industrial-remnant-settlement` | `PROVISIONAL` | Second settlement grown around a reused imperial industrial nucleus across the basin lake near the outlet's seaward mouth, with qualitative water and nearby-metal advantages, a primarily imperial-remnant culture, and a standing cross-lake trade rivalry |
 | [`WLD-EVENT-001`](settings/shared-universe-001/canon/events/WLD-EVENT-001.md) | `canon://world/shared-universe-001/events/story-start-standing-pressures` | `PROVISIONAL` | Rivalry-forward configuration of five simultaneously live, unresolved story-start standing pressures — approaching succession, cross-lake trade rivalry, returning-peoples reports, seasonal strain, and returning-wildlife pressure — as standing states only |

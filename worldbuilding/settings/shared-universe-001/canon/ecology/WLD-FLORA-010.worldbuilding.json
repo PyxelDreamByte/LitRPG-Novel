@@ -1,0 +1,87 @@
+{
+  "$schema": "../../../../../governance/schemas/worldbuilding-record.schema.json",
+  "schema_version": "1.0.0",
+  "id": "WLD-FLORA-010",
+  "record_uri": "canon://world/shared-universe-001/ecology/basin-returning-woodland-composition",
+  "display_code": "WLD-FLORA-010",
+  "setting_id": "setting://shared-universe-001",
+  "title": "Basin returning-woodland composition and succession",
+  "workflow_status": "ACCEPTED",
+  "canon_status": "PROVISIONAL",
+  "scope": "Qualitative composition and present successional state of the initial basin's returning woodland, including its first floral-kingdom assignments; usable within shared-setting ecology and adopted downstream story development.",
+  "claims": [
+    "The basin's returning woodland is composed principally of K2 tower flora with K3 free-seeder thickets, over a ground and surface layer of K5 crust-and-cushion flora and K6 thread decomposers.",
+    "Its present state is young; seventy years is short against tower replacement rates.",
+    "When organised suppression ended, buried K3 vault banks under abandoned clearances woke and erupted, and today's woodland is chiefly that result.",
+    "The prevailing structure is dense, tangled vault-seeder thicket giving way patchily to young towers that have risen but not thickened.",
+    "Scattered relict old towers survive from before the clearances, recognisable by their bulk and deep-layered casings and often carrying heavy crust-and-cushion cover on older casing faces.",
+    "Mature timber-analogue material is scarce; the woodland is rich in thin stems and poor in old ones, making relict towers locally valuable and their felling consequential.",
+    "Passage through young thicket is harder than through mature woodland.",
+    "Lineage II browsing contests the woodland's advance, so its boundary moves in some places and is held back in others, and succession is not uniform across the basin."
+  ],
+  "boundaries": [
+    "Thicket, relict tower, and young tower are author-facing descriptive terms, not in-world names or formal taxonomy.",
+    "Kingdom assignment is compositional only; it establishes no species, names, taxonomy, member inventory, or proportion beyond the qualitative principal-and-layer description.",
+    "Exact extent, boundaries, density, canopy height, patch sizes, and the woodland's relationship to the western rainforest and damp refugia remain open; the rainforest's own composition is not established here.",
+    "Relict-tower abundance, distribution, sizes, ages, condition, and recognisability to any observer remain open; no particular tree, stand, or place is established.",
+    "Locally valuable describes ecological and material scarcity, not price, ownership, law, custom, protection, or any established practice; no timber, fuel, forage, coppice, clearance, or management practice is established.",
+    "Harder passage is qualitative; no speed, travel time, route, or impassability is established, and the lake road's accepted planning anchors are unaffected.",
+    "Woken vault banks explain the thicket's origin as the prevailing pattern, not an exclusive one; dispersal-founded growth and surviving stands remain possible, and no particular clearance is established as having carried a bank.",
+    "Contested advance establishes qualitative browsing pressure only; it fixes no boundary position, browsing intensity, opening size, or rate, and identifies no particular field, road segment, or lake approach as a crown-herd overlap.",
+    "Raised surface-fire exposure follows from dense young growth and permitted dry spells; no fire frequency, season, severity, extent, or event is established.",
+    "Deadfall accumulation and whether the woodland's thread-decomposer population is sufficient to process it remain open.",
+    "The woodland's age structure is a physical consequence of the collapse; no in-world knowledge, dating practice, or ability to read it is established.",
+    "No animal is established as inhabiting, feeding, breeding, or sheltering in the thicket, and no lineage is assigned to any woodland animal.",
+    "Earth life may inspire author-facing design; no living, extinct, or legendary Earth species is transplanted directly.",
+    "No System mechanic, spawn point, refill node, guaranteed harvest, reward, Skill, trait payload, specialised Mana ability, or Ancestry Development rule is established.",
+    "Soil, water, light, nutrients, growth time, disturbance, browsing, disease, and decay remain binding ecological constraints."
+  ],
+  "dependencies": [
+    "author-decision://world/WLD-SETTING-001A",
+    "author-decision://world/WLD-FLORA-010A",
+    "canon://world/shared-universe-001/ecology/tower-flora-foundational-growth-architecture",
+    "canon://world/shared-universe-001/ecology/free-seeder-flora-foundational-growth-architecture",
+    "canon://world/shared-universe-001/ecology/thread-decomposer-foundational-body-architecture",
+    "canon://world/shared-universe-001/ecology/crust-and-cushion-flora-foundational-survival-strategy",
+    "canon://world/shared-universe-001/ecology/lineage-ii-peripheral-migration-corridor",
+    "canon://world/shared-universe-001/location/initial-ridge-spur-settlement-working-landscape",
+    "canon://world/shared-universe-001/geography/initial-region-physical-scaffold",
+    "CAL0 WLD1.2D",
+    "CAL0 WLD2.1A+D"
+  ],
+  "contradictions": [],
+  "story_implications": [
+    "Scenes can show tangled young thicket, slow blind travel off the road, and crust-covered relict towers standing out of the regrowth.",
+    "The settlement lives with abundant small stems and fuel but scarce structural material.",
+    "Browsed openings give the woodland edge a contested, shifting character.",
+    "Dry spells carry raised fire risk in dense young growth.",
+    "Every place, practice, encounter, and event requires its own evidence and records."
+  ],
+  "system_implications": [
+    "The composition describes ordinary succession and disturbance ecology under CAL0 WLD1.2D and WLD2.1A+D.",
+    "No System mechanic, spawn point, refill node, guaranteed harvest, reward, or specialised Mana ability is established."
+  ],
+  "research_questions": [
+    "Which tower and free-seeder members compose the woodland, and in what proportions?",
+    "How abundant are relict towers, and where do they concentrate?",
+    "What woodland uses does the settlement actually practise given the stem-size asymmetry?",
+    "How frequent and severe is surface fire in the thicket, and how does it interact with vault banks?",
+    "Is the young woodland's decomposer population sufficient for its deadfall?",
+    "Which animals inhabit the thicket, and from which lineages?"
+  ],
+  "sources": [
+    "worldbuilding/settings/shared-universe-001/proposals/WLD-FLORA-010.md",
+    "canon://world/shared-universe-001/ecology/tower-flora-foundational-growth-architecture",
+    "canon://world/shared-universe-001/ecology/free-seeder-flora-foundational-growth-architecture",
+    "canon://world/shared-universe-001/location/initial-ridge-spur-settlement-working-landscape",
+    "Author selection on 2026-08-17"
+  ],
+  "supersedes": [],
+  "superseded_by": null,
+  "author_approval": {
+    "decision_uri": "author-decision://world/WLD-FLORA-010A",
+    "accepted_on": "2026-08-17",
+    "accepted_by": "Author",
+    "evidence": "After the A/B/C succession-state cards were presented with A recommended, the Author selected 'A — Thicket-and-relict' on 2026-08-17."
+  }
+}

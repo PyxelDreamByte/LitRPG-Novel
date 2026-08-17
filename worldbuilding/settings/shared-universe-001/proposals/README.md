@@ -92,6 +92,9 @@
   Lineage VII foundational body plan, restructured on Author direction into a
   three-branch life-mode axis and now represented by a bounded provisional
   record.
+- [`WLD-FLORA-010`](WLD-FLORA-010.md) — retained option analysis for the
+  basin returning-woodland composition and succession now represented by a
+  bounded provisional record.
 
 Other current conversation material remains under `workbench/proposals/` until
 split into bounded proposals. Material placed here remains non-canonical unless

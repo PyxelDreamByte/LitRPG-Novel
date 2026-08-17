@@ -88,9 +88,10 @@ Assemble the initial-basin community from the scaffolded roster:
 
 - resident lake fauna and the bird-like fishing organisms (lineage
   assignments, competition with the migrants);
-- complementary basin flora guilds filling kingdom slots (woodland,
-  wet-margin, water, decomposer guilds; rainforest and egg-substrate
-  assignments);
+- complementary basin flora guilds filling kingdom slots — the returning
+  woodland is done (2026-08-17, `WLD-FLORA-010` thicket-and-relict, which
+  also made the first kingdom assignments); wet-margin, water, and decomposer
+  guilds plus the rainforest and egg-substrate assignments remain;
 - season-by-season basin food web tying flora pulses, Lineage II pressure,
   the lake migration, and small life together;
 - settlement-adjacent life (candidate domesticates, pests, pathogens) —

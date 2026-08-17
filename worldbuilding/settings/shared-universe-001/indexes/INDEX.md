@@ -3,9 +3,9 @@
 **Setting ID:** `setting://shared-universe-001`  
 **Editorial title:** `Project Hearthway` (temporary)  
 **Workflow status:** `ACCEPTED`  
-**Canon status:** `PROVISIONAL`—the setting identity, the work relationship, and the forty-three bounded records below; nothing fully accepted  
+**Canon status:** `PROVISIONAL`—the setting identity, the work relationship, and the forty-four bounded records below; nothing fully accepted  
 **Accepted setting canon:** none  
-**Provisional setting records:** forty-three  
+**Provisional setting records:** forty-four  
 **Adopting works:** `work://series/project-hearthway-main`
 
 This index makes the setting-development container discoverable. Its stable
@@ -115,6 +115,8 @@ transaction say otherwise.
   `canon://world/shared-universe-001/ecology/lineage-v-foundational-body-plan`
 - Provisional Lineage VII body plan: [`WLD-FAUNA-007`](../canon/ecology/WLD-FAUNA-007.md) —
   `canon://world/shared-universe-001/ecology/lineage-vii-foundational-body-plan`
+- Provisional basin returning-woodland composition: [`WLD-FLORA-010`](../canon/ecology/WLD-FLORA-010.md) —
+  `canon://world/shared-universe-001/ecology/basin-returning-woodland-composition`
 - Retained proposals: [`WLD-ECOLOGY-001`](../proposals/WLD-ECOLOGY-001.md) and
   [`WLD-ECOLOGY-002`](../proposals/WLD-ECOLOGY-002.md) and
   [`WLD-ECOLOGY-003`](../proposals/WLD-ECOLOGY-003.md) and
@@ -157,7 +159,8 @@ transaction say otherwise.
   [`WLD-FAUNA-004`](../proposals/WLD-FAUNA-004.md) and
   [`WLD-FAUNA-005`](../proposals/WLD-FAUNA-005.md) and
   [`WLD-FAUNA-006`](../proposals/WLD-FAUNA-006.md) and
-  [`WLD-FAUNA-007`](../proposals/WLD-FAUNA-007.md)
+  [`WLD-FAUNA-007`](../proposals/WLD-FAUNA-007.md) and
+  [`WLD-FLORA-010`](../proposals/WLD-FLORA-010.md)
 - Author decisions: [`WLD-SETTING-001A`](../decisions/WLD-SETTING-001A.md) —
   `author-decision://world/WLD-SETTING-001A`
   and [`WLD-SETTING-002A`](../decisions/WLD-SETTING-002A.md) —
@@ -250,6 +253,8 @@ transaction say otherwise.
   `author-decision://world/WLD-FAUNA-006A`
   and [`WLD-FAUNA-007A`](../decisions/WLD-FAUNA-007A.md) —
   `author-decision://world/WLD-FAUNA-007A`
+  and [`WLD-FLORA-010A`](../decisions/WLD-FLORA-010A.md) —
+  `author-decision://world/WLD-FLORA-010A`
 
 The staging captures are historical evidence and may lag the governed records.
 They may be reconciled into bounded setting proposals under the main series
@@ -259,7 +264,7 @@ workflow, but they remain non-canonical until their own gates.
 
 1. Develop the basin's quantitative abiotic and seasonal pulse model,
    cross-habitat flows, complementary flora and fauna, and decomposer and
-   small-life roles without broadening the forty-three provisional setting records silently.
+   small-life roles without broadening the forty-four provisional setting records silently.
 2. Quantify the selected lake pulse's route hydraulics, seasonal overlap,
    mortality and recruitment budget; elaborate the mass breeder's selected
    salt-organ anatomy, gel chemistry and chamber geometry, acclimation

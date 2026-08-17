@@ -60,7 +60,7 @@ candidate claims until they are split into bounded proposals, reviewed, and
 explicitly accepted.
 
 `WLD-ECOLOGY-001` through `WLD-ECOLOGY-010`, `WLD-GEOGRAPHY-001` through
-`WLD-GEOGRAPHY-002`, `WLD-FLORA-001` through `WLD-FLORA-009`,
+`WLD-GEOGRAPHY-002`, `WLD-FLORA-001` through `WLD-FLORA-010`,
 `WLD-LOCATION-001` through `WLD-LOCATION-005`, `WLD-FAUNA-001` through
 `WLD-FAUNA-007`, `WLD-HISTORY-001`, `WLD-CULTURE-001` through
 `WLD-CULTURE-008`, and `WLD-EVENT-001` are bounded provisional fictional
@@ -89,7 +89,8 @@ outlet-passage choreography; and the basin reserve-web guild's
   water-flora anchor-and-streamer, free-seeder vault-seed,
   thread-decomposer weaver-and-bloom, and crust-and-cushion revival growth
   architectures; and the six scaffolded faunal foundational body plans for
-  Lineages I, III, IV, V, VI, and VII. They do not
+  Lineages I, III, IV, V, VI, and VII; and the basin's thicket-and-relict
+  returning-woodland composition. They do not
   promote
   the rest of the staging capture or establish a particular nonlocal animal,
   product, route, traveller, or tale.
@@ -129,7 +130,7 @@ invent a successor mechanic by implication.
 - Authoritative canon roots: the setting identity and reciprocal main-series
   relationship, plus the bounded provisional `WLD-ECOLOGY-001` through
   `WLD-ECOLOGY-010`, `WLD-GEOGRAPHY-001` through `WLD-GEOGRAPHY-002`,
-  `WLD-FLORA-001` through `WLD-FLORA-009`, `WLD-LOCATION-001` through
+  `WLD-FLORA-001` through `WLD-FLORA-010`, `WLD-LOCATION-001` through
   `WLD-LOCATION-005`, `WLD-FAUNA-001` through `WLD-FAUNA-007`,
   `WLD-HISTORY-001`, `WLD-CULTURE-001` through `WLD-CULTURE-008`, and
   `WLD-EVENT-001` setting records

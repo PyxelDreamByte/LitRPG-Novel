@@ -1,6 +1,6 @@
 # Canon
 
-No fully accepted Project Hearthway setting record exists. Forty-three bounded
+No fully accepted Project Hearthway setting record exists. Forty-four bounded
 provisional setting records are available for declared downstream use:
 
 - [`WLD-ECOLOGY-001`](ecology/WLD-ECOLOGY-001.md) — Lineage II
@@ -89,6 +89,9 @@ provisional setting records are available for declared downstream use:
   plan: unsegmented soft axial bodies with filter, substrate, and grazer
   branches, filter feeding ancestral, and substrate branches owning soil
   turnover and parasitism.
+- [`WLD-FLORA-010`](ecology/WLD-FLORA-010.md) — basin returning-woodland
+  composition: young vault-seeder and tower thicket with scattered relict old
+  towers, scarce mature stems, hard passage, and browsing-contested advance.
 - [`WLD-HISTORY-001`](history/WLD-HISTORY-001.md) — combined three-phase
   imperial collapse arc with multi-causal contributing pressures and an
   explicitly open trigger, collapse-era wildlife and pest-like-race
