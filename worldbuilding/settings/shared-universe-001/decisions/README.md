@@ -46,7 +46,17 @@
 - [`WLD-LOCATION-003A`](WLD-LOCATION-003A.md) — selects the provisional
   upper-shore staging place and seasonal-spur shore endpoint arrangement
   recorded by `WLD-LOCATION-003`.
+- [`WLD-HISTORY-001A`](WLD-HISTORY-001A.md) — selects, as an Author custom
+  combination of the displayed options in sequence, the provisional
+  three-phase imperial collapse arc, multi-causal contributing pressures with
+  an explicitly open trigger, collapse-era wildlife and pest-like-race
+  developments, chronology anchors, and five-class neighbor frame recorded by
+  `WLD-HISTORY-001`.
+- [`WLD-FAUNA-001A`](WLD-FAUNA-001A.md) — selects the provisional seven-lineage
+  planetary faunal roster recorded by `WLD-FAUNA-001`.
+- [`WLD-FLORA-004A`](WLD-FLORA-004A.md) — selects the provisional six-kingdom
+  planetary floral roster recorded by `WLD-FLORA-004`.
 
-No fictional Project Hearthway claim has been fully accepted; the eighteen setting
+No fictional Project Hearthway claim has been fully accepted; the twenty-one setting
 records above have bounded provisional authority. A displayed working name or
 conversational preference is not, by itself, a canon-promotion transaction.

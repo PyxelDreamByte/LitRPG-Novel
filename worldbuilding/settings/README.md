@@ -5,7 +5,7 @@ One live setting container currently exists:
 - [`Project Hearthway`](shared-universe-001/) — stable ID
   `setting://shared-universe-001`, temporary display title,
   `ACCEPTED` / `PROVISIONAL` identity with a reciprocal
-  `work://series/project-hearthway-main` relationship and eighteen bounded
+  `work://series/project-hearthway-main` relationship and nineteen bounded
   provisional setting records. No fictional setting record is fully accepted.
   Since `author-decision://world/WLD-SETTING-002A` it is the sole live
   shared-setting container; the superseded parallel bootstrap Continuity One

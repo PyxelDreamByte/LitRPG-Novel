@@ -458,7 +458,9 @@ def main() -> int:
 
     work_manifests: dict[str, dict[str, Any]] = {}
     work_paths = sorted(
-        set(ROOT.rglob("*.work-manifest.json")) | set(ROOT.rglob("work-manifest.json"))
+        path
+        for path in set(ROOT.rglob("*.work-manifest.json")) | set(ROOT.rglob("work-manifest.json"))
+        if ".git" not in path.parts and ".claude" not in path.parts
     )
     for path in work_paths:
         if path.is_relative_to(INVALID_FIXTURE_ROOT):
@@ -512,6 +514,8 @@ def main() -> int:
 
     eval_count = 0
     for path in sorted(ROOT.rglob("*.workflow-eval.json")):
+        if ".git" in path.parts or ".claude" in path.parts:
+            continue
         eval_count += 1
         document = load_json(path)
         if not isinstance(document, dict):

@@ -137,9 +137,19 @@ mapping, and explicit Author acceptance. Unsettled points remain visibly open.
 
 ## Faunal lineage framework
 
-The selected working model uses five major animal lineages, with familiar
-ecological roles distributed across different branches rather than copied from
-Earth clades. Only the first two have begun detailed development.
+Authority note: on 2026-08-17 the Author expanded and superseded this
+section's five-lineage working model by accepting the seven-lineage planetary
+roster recorded by
+`canon://world/shared-universe-001/ecology/planetary-faunal-lineage-roster`
+(Lineage IV: the mass breeder's aquatic flexible-trunk lineage; Lineage V:
+the family-care migrant's tri-radial lineage; Lineage VI: segmented
+exoskeletal smallstock; Lineage VII: unsegmented soft-bodied animals; flight
+independently evolved in more than one lineage). That record, not this
+staging summary, governs where they overlap.
+
+The earlier selected working model used five major animal lineages, with
+familiar ecological roles distributed across different branches rather than
+copied from Earth clades. Only the first two have begun detailed development.
 
 ### Lineage I — six-limbed filament-and-scute animals
 
@@ -195,11 +205,20 @@ govern where they overlap.
 
 ### Remaining lineages
 
-- Lineages III–V are deliberately undefined.
-- Their eventual designs must fill missing food-web and habitat functions rather
-  than exist only to supply novel monsters.
+- Lineages III–VII now have roster-level silhouette themes under
+  `canon://world/shared-universe-001/ecology/planetary-faunal-lineage-roster`
+  but remain otherwise undeveloped.
+- Their eventual detailed designs must fill missing food-web and habitat
+  functions rather than exist only to supply novel monsters.
 
 ## Parked sapient pack species
+
+Authority note: on 2026-08-17 the Author decided this species is the same
+concept as the pest-like races (author-facing shorthand: goblin-equivalents)
+whose collapse-era spread is recorded by
+`canon://world/shared-universe-001/history/imperial-collapse-arc-and-neighbor-frame`.
+That record governs only the historical spread; everything below remains
+parked and undeveloped.
 
 Development of this species is intentionally paused until it becomes relevant.
 The current note preserves only the Author's stated boundary:
@@ -239,6 +258,25 @@ people into an unexamined moral category.
 - The ecological and political consequences of returning non-human peoples
 - Origin, builders, limits, and truth behind the ancient doorways and traveller myths
 - Current events capable of influencing the main story without predetermining its plot
+
+## Series plot intent (staging only — routed to the series contract)
+
+On 2026-08-17 the Author stated the following intended plot trajectory. It is
+plot intent for the proposed series contract, not setting canon, and no
+setting record establishes it as having occurred or as inevitable:
+
+- The imperial-remnant industrial settlement near the outlet mouth
+  (`canon://world/shared-universe-001/location/outlet-industrial-remnant-settlement`)
+  will later in the series attempt to assert control over the entire basin.
+- Tensions and trade-war scenarios play out while the protagonist is growing
+  up; open fighting is intended to occur when the protagonist is roughly
+  12-13 years old.
+- The settled setting layer carries only the standing story-start tensions and
+  trade rivalry recorded by
+  `canon://world/shared-universe-001/events/story-start-standing-pressures`.
+
+The series-contract workflow owns this trajectory's development, timing, and
+any revision.
 
 ## Promotion boundary
 

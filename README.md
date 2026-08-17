@@ -58,8 +58,13 @@ three-lobed living-vault body plan and mobile shelter–forage–regroup care
   finite combined spring–well–cistern water system, and broad fair-weather
   unladen-downhill and laden-uphill lake-road journey anchors, plus its
   recurring upper-shore staging place and several short seasonal spurs to
-  changeable nearby shore contacts, are also provisional; no detailed
-  fictional record is yet fully accepted.
+  changeable nearby shore contacts, plus the combined three-phase imperial
+  collapse arc with its multi-causal contributing pressures, open trigger,
+  collapse-era developments, chronology anchors, and bounded five-class
+  neighbor frame, plus the planetary seven-lineage faunal body-plan roster
+  with its independently evolved flight in more than one lineage, plus the
+  planetary six-kingdom floral roster homing the reserve-web guild, are also
+  provisional; no detailed fictional record is yet fully accepted.
 
 A parallel shared-setting bootstrap, `setting://continuity-one` (Continuity
 One), was consolidated into Project Hearthway on 2026-08-17 by

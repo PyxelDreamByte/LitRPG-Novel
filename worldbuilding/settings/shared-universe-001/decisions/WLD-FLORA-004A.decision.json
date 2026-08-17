@@ -1,0 +1,80 @@
+{
+  "$schema": "../../../../governance/schemas/decision-record.schema.json",
+  "schema_version": "1.0.0",
+  "id": "WLD-FLORA-004A",
+  "decision_uri": "author-decision://world/WLD-FLORA-004A",
+  "display_code": "WLD-FLORA-004A",
+  "title": "Planetary floral kingdom roster",
+  "domain": "world",
+  "setting_id": "setting://shared-universe-001",
+  "workflow_status": "ACCEPTED",
+  "canon_status": "PROVISIONAL",
+  "scope": "Six-kingdom planetary producer-and-decomposer roster at growth-strategy-theme level. Kingdom names, in-world taxonomy, energy capture, chemistry, anatomy, reproduction, dispersal, Mana patterns, local presence, minor kingdoms, and assignments of referenced vegetation remain open.",
+  "accepted_on": "2026-08-17",
+  "accepted_by": "Author",
+  "approval_evidence": "After the A/B/C floral-roster options were presented with A recommended, the Author selected 'A — Six kingdoms' on 2026-08-17.",
+  "question": "Should the planet's producer and decomposer life get a kingdom roster parallel to the faunal lineage roster, and at what grain?",
+  "selection": "Adopt the six-kingdom roster: K1 networked modular flora (home of the reserve-web guild); K2 tower flora (long-lived self-supporting woody-analogue structures); K3 free-seeder flora (short-lived unnetworked fast-dispersing plants); K4 water flora (submerged, floating, and wet-margin producers); K5 crust-and-cushion flora (low surface-hugging pioneers); K6 thread decomposers (non-photosynthesising thread-and-body networks). Every kingdom includes abundant ordinary forms.",
+  "alternatives": [
+    "FLORA-ROSTER-A: six producer-and-decomposer kingdoms; selected.",
+    "FLORA-ROSTER-B: three-group minimal frame of networked producers, free-living producers, and decomposers; not selected.",
+    "FLORA-ROSTER-C: no roster, guild-by-guild development; not selected."
+  ],
+  "rationale": "The six-kingdom roster mirrors the structure just accepted for fauna, gives the reserve-web guild a kingdom home without changing its records, provides candidate slots for every referenced-but-undeveloped vegetation class, and adds the decomposer kingdom the open food-web work needs, while binding only one-line growth-strategy themes.",
+  "evidence": [
+    "Author selection on 2026-08-17.",
+    "worldbuilding/settings/shared-universe-001/proposals/WLD-FLORA-004.md",
+    "canon://world/shared-universe-001/ecology/basin-reserve-web-vegetation-guild",
+    "canon://world/shared-universe-001/geography/initial-region-physical-scaffold",
+    "canon://world/shared-universe-001/ecology/planetary-faunal-lineage-roster",
+    "CAL0 WLD2.1A+D"
+  ],
+  "consequences": [
+    "The planet's macroscopic producer and decomposer life is organised across six kingdoms at growth-strategy-theme level.",
+    "The reserve-web guild belongs to the networked-modular kingdom with its existing records unchanged.",
+    "The rainforest, woodland, wet-margin, and egg-substrate vegetation gain candidate kingdom homes pending their own records.",
+    "Decomposer and mutualist design gains a dedicated kingdom slot.",
+    "Later flora development must proceed through bounded proposals against these kingdom slots.",
+    "No System mechanic, guaranteed harvest, spawn source, or Earth transplant is created."
+  ],
+  "affected_sources": [
+    "worldbuilding/settings/shared-universe-001/proposals/WLD-FLORA-004.md",
+    "worldbuilding/settings/shared-universe-001/canon/ecology/WLD-FLORA-004.worldbuilding.json",
+    "worldbuilding/settings/shared-universe-001/canon/ecology/WLD-FLORA-004.md",
+    "worldbuilding/settings/shared-universe-001/setting-constitution.md",
+    "worldbuilding/settings/shared-universe-001/canon/README.md",
+    "worldbuilding/settings/shared-universe-001/proposals/README.md",
+    "worldbuilding/settings/shared-universe-001/decisions/README.md",
+    "worldbuilding/settings/shared-universe-001/indexes/INDEX.md",
+    "worldbuilding/INDEX.md",
+    "README.md"
+  ],
+  "dependencies": [
+    "WLD-SETTING-001A",
+    "WLD-FLORA-001A",
+    "WLD-FLORA-001",
+    "WLD-GEOGRAPHY-001A",
+    "WLD-GEOGRAPHY-001",
+    "WLD-FAUNA-001A",
+    "WLD-FAUNA-001",
+    "CAL0 WLD1.2D",
+    "CAL0 WLD2.1A+D"
+  ],
+  "conflicts": [],
+  "residual_unknowns": [
+    "Kingdom names and all in-world taxonomies remain open.",
+    "Energy capture, chemistry, anatomy, reproduction, dispersal, seasonality, and Mana patterns per kingdom remain open except where existing records govern.",
+    "Kingdom assignments for the rainforest, woodland, wet-margin, and egg-substrate vegetation remain open.",
+    "Minor or relict kingdoms below the roster's grain remain possible through their own records.",
+    "Microscopic producer and decomposer life remains open.",
+    "Human uses, domesticates, and crops remain open."
+  ],
+  "supersedes": [],
+  "superseded_by": null,
+  "reopening_conditions": [
+    "A needed producer or decomposer strategy cannot plausibly fit any kingdom.",
+    "Kingdom-first design proves too coarse or too restrictive for story needs.",
+    "A concrete contradiction with an accepted or provisional record emerges.",
+    "The Author explicitly reopens the decision."
+  ]
+}

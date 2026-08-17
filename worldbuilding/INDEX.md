@@ -1,20 +1,24 @@
 # Worldbuilding Index
 
 **Accepted detailed setting canon:** none  
-**Provisional detailed setting records:** eighteen  
+**Provisional detailed setting records:** twenty-one  
 **Instantiated settings:** one provisionally authorized (a superseded parallel bootstrap is archived)  
 **Project-level provisional defaults:** two  
 **Project-level deferred distributions:** one
 
 Setting development has begun for the shared universe temporarily titled
-`Project Hearthway`. Its stable identity, main-series relationship, and eighteen
+`Project Hearthway`. Its stable identity, main-series relationship, and
+twenty-one
 bounded records—four for Lineage II, six for the basin's coupled ecology, lake
 migration, both migrants' foundational body plans, selected mass-breeder
 fluid-and-trim physiology, and selected family-care outlet choreography, two
 for the initial-region physical scaffold and outlet mixed-reach sequence, and
 three for basin flora, plus three for the initial ridge-spur settlement working
 landscape, its lake-road practical travel scale, and its upper-shore staging and
-seasonal-spur endpoint arrangement—have provisional authority;
+seasonal-spur endpoint arrangement, one for the imperial collapse arc and
+neighbor frame, one for the planetary faunal lineage roster, and one for the
+planetary floral kingdom roster—have
+provisional authority;
 no detailed fictional claim has been fully accepted.
 
 A parallel shared-setting bootstrap, provisionally titled `Continuity One`,
@@ -61,6 +65,9 @@ deferrals, not setting canon or facts about any world.
 | [`WLD-LOCATION-001A`](settings/shared-universe-001/decisions/WLD-LOCATION-001A.md) | `author-decision://world/WLD-LOCATION-001A` | `PROVISIONAL` | The initial ridge-spur settlement uses an unequal-shoulder working landscape, a lakeward road, and a combined spring–well–cistern water system with finite, unresolved capacity and source relationships |
 | [`WLD-LOCATION-002A`](settings/shared-universe-001/decisions/WLD-LOCATION-002A.md) | `author-decision://world/WLD-LOCATION-002A` | `PROVISIONAL` | The lake road uses a half-day-working-route scale with broad fair-weather reference bands for an unladen downhill journey and laden uphill return, not guaranteed times |
 | [`WLD-LOCATION-003A`](settings/shared-universe-001/decisions/WLD-LOCATION-003A.md) | `author-decision://world/WLD-LOCATION-003A` | `PROVISIONAL` | The lake road ends at a recurring upper-shore staging place with several short seasonal spurs to changeable nearby shore contacts, without guaranteed access or shore infrastructure |
+| [`WLD-HISTORY-001A`](settings/shared-universe-001/decisions/WLD-HISTORY-001A.md) | `author-decision://world/WLD-HISTORY-001A` | `PROVISIONAL` | The previous regional power's roughly seventy-year retreat combines centre-failure first, oscillating partial recoveries, and a final frontier-first drawdown; wars with other races, internal wars, and institutional greed and corruption are multi-causal contributing pressures with the trigger explicitly open; collapse-era wildlife increase and pest-like-race spread (the parked sapient pack species) are bounded history; chronology anchors and the five-class neighbor frame bind |
+| [`WLD-FAUNA-001A`](settings/shared-universe-001/decisions/WLD-FAUNA-001A.md) | `author-decision://world/WLD-FAUNA-001A` | `PROVISIONAL` | The planet's macroscopic animal life is organised across seven major body-plan lineages at silhouette-and-niche-theme level, with independently evolved flight in more than one lineage and abundant ordinary forms in every lineage |
+| [`WLD-FLORA-004A`](settings/shared-universe-001/decisions/WLD-FLORA-004A.md) | `author-decision://world/WLD-FLORA-004A` | `PROVISIONAL` | The planet's macroscopic producer and decomposer life is organised across six kingdoms at growth-strategy-theme level, with the reserve-web guild homed in the networked-modular kingdom and abundant ordinary forms in every kingdom |
 
 ## Project-level decision register
 
@@ -96,6 +103,9 @@ override requires its own Author decision. Silence means non-adoption.
 | [`WLD-LOCATION-001`](settings/shared-universe-001/canon/location/WLD-LOCATION-001.md) | `canon://world/shared-universe-001/location/initial-ridge-spur-settlement-working-landscape` | `PROVISIONAL` | Unequal-shoulder ridge-spur settlement with a low-vegetation warning belt, upper contour terraces, broader lower fields and grazing, returning woodland, a bending lakeward road, and combined spring, wells, and cistern storage |
 | [`WLD-LOCATION-002`](settings/shared-universe-001/canon/location/WLD-LOCATION-002.md) | `canon://world/shared-universe-001/location/initial-ridge-spur-lake-road-practical-travel-scale` | `PROVISIONAL` | Half-day-working-route scale with broad `1–1½ hours` unladen-downhill and `2–3 hours` laden-uphill fair-weather planning anchors, not guaranteed journey times |
 | [`WLD-LOCATION-003`](settings/shared-universe-001/canon/location/WLD-LOCATION-003.md) | `canon://world/shared-universe-001/location/initial-ridge-spur-lake-road-shore-endpoint-arrangement` | `PROVISIONAL` | Recurring relatively firm upper-shore staging place set back from the shifting wet margin, with several short seasonal spurs to changeable nearby shore contacts |
+| [`WLD-HISTORY-001`](settings/shared-universe-001/canon/history/WLD-HISTORY-001.md) | `canon://world/shared-universe-001/history/imperial-collapse-arc-and-neighbor-frame` | `PROVISIONAL` | Combined three-phase imperial collapse arc (centre failure first, oscillating partial recoveries, final frontier-first drawdown), multi-causal contributing pressures with an explicitly open trigger, collapse-era wildlife and pest-like-race developments, chronology anchors, and the bounded five-class neighbor presence frame |
+| [`WLD-FAUNA-001`](settings/shared-universe-001/canon/ecology/WLD-FAUNA-001.md) | `canon://world/shared-universe-001/ecology/planetary-faunal-lineage-roster` | `PROVISIONAL` | Seven-lineage planetary faunal body-plan roster at silhouette-and-niche-theme level, with independently evolved flight in more than one lineage, both lake migrants anchored to lineage slots, and abundant ordinary forms required in every lineage |
+| [`WLD-FLORA-004`](settings/shared-universe-001/canon/ecology/WLD-FLORA-004.md) | `canon://world/shared-universe-001/ecology/planetary-floral-kingdom-roster` | `PROVISIONAL` | Six-kingdom planetary producer-and-decomposer roster at growth-strategy-theme level, with the reserve-web guild homed in the networked-modular kingdom, referenced vegetation left unassigned, and abundant ordinary forms required in every kingdom |
 
 All other substantive Project Hearthway material remains in non-canonical
 staging or proposal form. Continuity One has no detailed setting records; its

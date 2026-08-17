@@ -3,9 +3,9 @@
 **Setting ID:** `setting://shared-universe-001`  
 **Editorial title:** `Project Hearthway` (temporary)  
 **Workflow status:** `ACCEPTED`  
-**Canon status:** `PROVISIONAL`—the setting identity, the work relationship, and the eighteen bounded records below; nothing fully accepted  
+**Canon status:** `PROVISIONAL`—the setting identity, the work relationship, and the twenty-six bounded records below; nothing fully accepted  
 **Accepted setting canon:** none  
-**Provisional setting records:** eighteen  
+**Provisional setting records:** twenty-six  
 **Adopting works:** `work://series/project-hearthway-main`
 
 This index makes the setting-development container discoverable. Its stable
@@ -65,6 +65,22 @@ transaction say otherwise.
   `canon://world/shared-universe-001/location/initial-ridge-spur-lake-road-practical-travel-scale`
 - Provisional lake-road shore endpoint arrangement: [`WLD-LOCATION-003`](../canon/location/WLD-LOCATION-003.md) —
   `canon://world/shared-universe-001/location/initial-ridge-spur-lake-road-shore-endpoint-arrangement`
+- Provisional imperial-remnant corridor skeleton: [`WLD-LOCATION-004`](../canon/location/WLD-LOCATION-004.md) —
+  `canon://world/shared-universe-001/location/basin-imperial-remnant-corridor-skeleton`
+- Provisional outlet industrial-remnant settlement: [`WLD-LOCATION-005`](../canon/location/WLD-LOCATION-005.md) —
+  `canon://world/shared-universe-001/location/outlet-industrial-remnant-settlement`
+- Provisional imperial collapse arc and neighbor frame: [`WLD-HISTORY-001`](../canon/history/WLD-HISTORY-001.md) —
+  `canon://world/shared-universe-001/history/imperial-collapse-arc-and-neighbor-frame`
+- Provisional settlement strand-braid cultural fabric: [`WLD-CULTURE-001`](../canon/culture/WLD-CULTURE-001.md) —
+  `canon://world/shared-universe-001/culture/settlement-strand-braid-fabric`
+- Provisional founder charter-oath compact: [`WLD-CULTURE-002`](../canon/culture/WLD-CULTURE-002.md) —
+  `canon://world/shared-universe-001/culture/founder-charter-oath-compact`
+- Provisional story-start standing pressures: [`WLD-EVENT-001`](../canon/events/WLD-EVENT-001.md) —
+  `canon://world/shared-universe-001/events/story-start-standing-pressures`
+- Provisional planetary faunal lineage roster: [`WLD-FAUNA-001`](../canon/ecology/WLD-FAUNA-001.md) —
+  `canon://world/shared-universe-001/ecology/planetary-faunal-lineage-roster`
+- Provisional planetary floral kingdom roster: [`WLD-FLORA-004`](../canon/ecology/WLD-FLORA-004.md) —
+  `canon://world/shared-universe-001/ecology/planetary-floral-kingdom-roster`
 - Retained proposals: [`WLD-ECOLOGY-001`](../proposals/WLD-ECOLOGY-001.md) and
   [`WLD-ECOLOGY-002`](../proposals/WLD-ECOLOGY-002.md) and
   [`WLD-ECOLOGY-003`](../proposals/WLD-ECOLOGY-003.md) and
@@ -82,7 +98,15 @@ transaction say otherwise.
   [`WLD-FLORA-003`](../proposals/WLD-FLORA-003.md) and
   [`WLD-LOCATION-001`](../proposals/WLD-LOCATION-001.md) and
   [`WLD-LOCATION-002`](../proposals/WLD-LOCATION-002.md) and
-  [`WLD-LOCATION-003`](../proposals/WLD-LOCATION-003.md)
+  [`WLD-LOCATION-003`](../proposals/WLD-LOCATION-003.md) and
+  [`WLD-LOCATION-004`](../proposals/WLD-LOCATION-004.md) and
+  [`WLD-LOCATION-005`](../proposals/WLD-LOCATION-005.md) and
+  [`WLD-HISTORY-001`](../proposals/WLD-HISTORY-001.md) and
+  [`WLD-CULTURE-001`](../proposals/WLD-CULTURE-001.md) and
+  [`WLD-CULTURE-002`](../proposals/WLD-CULTURE-002.md) and
+  [`WLD-EVENT-001`](../proposals/WLD-EVENT-001.md) and
+  [`WLD-FAUNA-001`](../proposals/WLD-FAUNA-001.md) and
+  [`WLD-FLORA-004`](../proposals/WLD-FLORA-004.md)
 - Author decisions: [`WLD-SETTING-001A`](../decisions/WLD-SETTING-001A.md) —
   `author-decision://world/WLD-SETTING-001A`
   and [`WLD-SETTING-002A`](../decisions/WLD-SETTING-002A.md) —
@@ -125,6 +149,22 @@ transaction say otherwise.
   `author-decision://world/WLD-LOCATION-002A`
   and [`WLD-LOCATION-003A`](../decisions/WLD-LOCATION-003A.md) —
   `author-decision://world/WLD-LOCATION-003A`
+  and [`WLD-LOCATION-004A`](../decisions/WLD-LOCATION-004A.md) —
+  `author-decision://world/WLD-LOCATION-004A`
+  and [`WLD-LOCATION-005A`](../decisions/WLD-LOCATION-005A.md) —
+  `author-decision://world/WLD-LOCATION-005A`
+  and [`WLD-HISTORY-001A`](../decisions/WLD-HISTORY-001A.md) —
+  `author-decision://world/WLD-HISTORY-001A`
+  and [`WLD-CULTURE-001A`](../decisions/WLD-CULTURE-001A.md) —
+  `author-decision://world/WLD-CULTURE-001A`
+  and [`WLD-CULTURE-002A`](../decisions/WLD-CULTURE-002A.md) —
+  `author-decision://world/WLD-CULTURE-002A`
+  and [`WLD-EVENT-001A`](../decisions/WLD-EVENT-001A.md) —
+  `author-decision://world/WLD-EVENT-001A`
+  and [`WLD-FAUNA-001A`](../decisions/WLD-FAUNA-001A.md) —
+  `author-decision://world/WLD-FAUNA-001A`
+  and [`WLD-FLORA-004A`](../decisions/WLD-FLORA-004A.md) —
+  `author-decision://world/WLD-FLORA-004A`
 
 The staging captures are historical evidence and may lag the governed records.
 They may be reconciled into bounded setting proposals under the main series
@@ -134,7 +174,7 @@ workflow, but they remain non-canonical until their own gates.
 
 1. Develop the basin's quantitative abiotic and seasonal pulse model,
    cross-habitat flows, complementary flora and fauna, and decomposer and
-   small-life roles without broadening the eighteen provisional setting records silently.
+   small-life roles without broadening the twenty-six provisional setting records silently.
 2. Quantify the selected lake pulse's route hydraulics, seasonal overlap,
    mortality and recruitment budget; elaborate the mass breeder's selected
    salt-organ anatomy, gel chemistry and chamber geometry, acclimation

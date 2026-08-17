@@ -26,7 +26,16 @@ reinforcement, and salt-organ and wax-like-gel physiology; and the family-care
   finite combined spring–well–cistern water system, and broad fair-weather
   unladen-downhill and laden-uphill lake-road journey anchors, plus its
   recurring upper-shore staging place and several short seasonal spurs to
-  changeable nearby shore contacts, are `PROVISIONAL`. All other substantive
+  changeable nearby shore contacts; and the combined three-phase imperial
+  collapse arc, its multi-causal contributing pressures with an explicitly
+  open trigger, its collapse-era wildlife and pest-like-race developments,
+  its chronology anchors, and the bounded five-class neighbor frame; and the
+  settlement's strand-braid cultural fabric and charter-oath founder-council
+  compact with its designed first-succession ambiguity; the basin's imperial
+  corridor-and-clearance remnant skeleton and the outlet industrial-remnant
+  second settlement; the rivalry-forward five-pressure story-start frame; and
+  the planetary seven-lineage faunal and six-kingdom floral rosters, are
+  `PROVISIONAL`. All other substantive
   selections remain non-canonical, and no fictional record is fully accepted.
 
 The base repository scaffold, static fixture contracts, and deterministic
@@ -154,13 +163,76 @@ contract, manuscript, or publication readiness.
   require enough viable modules, reserves, and functioning connections to
   persist; qualifying fragments can slowly stabilize as independent patches,
   while inadequate fragments decline and die.
+- Provisionally approved `WLD-HISTORY-001` through the Author's custom
+  combination of the displayed options in sequence, establishing the previous
+  regional power's roughly seventy-year cascading retreat as centre failure
+  first, then oscillating partial recoveries, then a final frontier-first
+  drawdown ending organised imperial presence in the region; wars with other
+  races, internal wars, and institutional greed and corruption as multi-causal
+  contributing pressures with the trigger explicitly open; a gradual
+  collapse-era wildlife increase and pest-like-race spread, with the pest-like
+  races identified as the parked sapient pack species and `goblin` remaining
+  author-facing shorthand only; chronology anchors placing the settlement
+  founding after the final drawdown phase had begun regionally; and the
+  bounded five-class neighbor presence frame reusing `WLD-ECOLOGY-005`
+  provenance discipline. Phase dates, the trigger, the former power's name and
+  map, fragment survivals, specific neighbors, and all parked pack-species
+  development remain open.
+- Provisionally approved `WLD-CULTURE-001`, establishing the settlement's
+  strand-braid cultural fabric: persistent open-ended origin-strand classes
+  braided by negotiated common institutions, mixed work crews, and seasonal
+  festivals; a lived imperial-inheritance attitude spectrum; and layered
+  System-practice variation held strictly to belief, access, and
+  interpretation. Strand names, faith content, demographics, the compact,
+  harvest institutions, and the protagonist's origin remain open.
+- Provisionally approved `WLD-CULTURE-002`, establishing the founding-era
+  charter-oath compact: the founder's binding oath defines dynastic duties
+  and limits, an assembly-chosen council adjudicates oath disputes and holds
+  burden consent, expertise enters as sworn testimony, and whether the oath
+  binds heirs automatically, by re-swearing, or lapses with the founder
+  remains a designed, unresolved first-succession ambiguity. Office names,
+  law content, and the succession outcome remain open.
+- Provisionally approved `WLD-LOCATION-004`, establishing the withdrawn
+  power's basin remnants as a decayed corridor-and-clearance skeleton with
+  regrown, ruinous, reused, and avoided condition classes, dispersed
+  low-yield salvage, and no functioning works, machinery, or knowledge stores
+  by default; the settlement road's possible imperial derivation and all
+  remnant positions remain open, and ancient doorways stay excluded.
+- Provisionally approved `WLD-LOCATION-005` from the Author's direct
+  specification: a second settlement grown around a reused imperial
+  industrial nucleus across the basin lake near the outlet's seaward mouth,
+  with qualitative running-water and nearby-metal advantages, a primarily
+  imperial-remnant culture, and a standing `WLD-EVENT-001`-governed trade
+  rivalry at story start; its name, scale, government, and works detail
+  remain open, and no future-conflict claim is established.
+- Provisionally approved `WLD-EVENT-001` through the Author's amended
+  rivalry-forward configuration, establishing five simultaneously live,
+  unresolved story-start standing pressures — the approaching succession, the
+  cross-lake trade rivalry audibly organising settlement politics,
+  background returning-peoples reports under `WLD-ECOLOGY-005` provenance
+  discipline, background seasonal strain, and felt returning-wildlife
+  pressure including the parked pack species' raider bands — as standing
+  states only, with no occurred event, timeline, or outcome.
+- Accepted `WLD-FAUNA-001` through the parallel series-contract session's
+  Author gate, establishing the planetary seven-lineage faunal body-plan
+  roster at silhouette-and-niche-theme level, superseding the capture's
+  five-lineage working model; lineage names, taxonomy, anatomy, and per-species
+  detail remain open.
+- Accepted `WLD-FLORA-004` through the parallel series-contract session's
+  Author gate, establishing the planetary six-kingdom producer and decomposer
+  roster at growth-strategy-theme level; kingdom names, taxonomy, and
+  per-species detail remain open.
 
 ## Next authoring milestones
 
-1. Continue splitting the foundation capture into bounded history, culture,
-   other locations, and current-events proposals under the main series workflow without
-   inheriting project defaults silently; quantitative geography and local maps
-   remain later gates beneath `WLD-GEOGRAPHY-001`.
+1. Continue splitting the remaining foundation-capture residue into bounded
+   proposals under the main series workflow without inheriting project
+   defaults silently: names and linguistic logic, faiths and education,
+   foodways and material culture, law content and factions, specific
+   returning peoples, the collapse trigger and former power's structure,
+   remaining lineage detail beneath `WLD-FAUNA-001`, and doorway myths;
+   quantitative geography and local maps remain later gates beneath
+   `WLD-GEOGRAPHY-001`.
 2. Continue regional ecology from `WLD-ECOLOGY-001` through `WLD-ECOLOGY-010`
    and `WLD-FLORA-001` through `WLD-FLORA-003` into exact reserve-web species,
    module anatomy, patch scale and transfer physiology, fragment thresholds and

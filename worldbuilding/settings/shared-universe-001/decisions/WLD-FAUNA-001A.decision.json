@@ -1,0 +1,82 @@
+{
+  "$schema": "../../../../governance/schemas/decision-record.schema.json",
+  "schema_version": "1.0.0",
+  "id": "WLD-FAUNA-001A",
+  "decision_uri": "author-decision://world/WLD-FAUNA-001A",
+  "display_code": "WLD-FAUNA-001A",
+  "title": "Planetary faunal lineage roster",
+  "domain": "world",
+  "setting_id": "setting://shared-universe-001",
+  "workflow_status": "ACCEPTED",
+  "canon_status": "PROVISIONAL",
+  "scope": "Seven-lineage planetary faunal body-plan roster at silhouette-and-niche-theme level, with independently evolved flight in more than one lineage. Lineage names, in-world taxonomy, anatomy, reproduction, physiology, Mana patterns, local presence, minor lineages, and sapient-people assignments remain open.",
+  "accepted_on": "2026-08-17",
+  "accepted_by": "Author",
+  "approval_evidence": "After the A/B/C roster options were presented with A recommended, the Author replied 'A', adding a follow-up flora-coverage question routed to a separate floral-roster proposal, on 2026-08-17.",
+  "question": "How many major animal body-plan lineages should anchor the planet's macroscopic faunal diversity, and where should winged forms come from?",
+  "selection": "Adopt the seven-lineage Convergent-skies roster: I six-limbed filament-and-scute animals with possible wing-pair branches (four-legged winged forms); II tower-necked four-limbed landscape engineers; III low-frame four-limbed generalists with possible forelimb-winged branches; IV fully aquatic flexible-trunk fin-fan animals anchored by the mass breeder; V tri-radial hydrostatic animals anchored by the family-care migrant; VI small-bodied segmented exoskeletal animals including small-scale flyers; VII unsegmented soft-bodied animals. Flight arose independently in more than one lineage, and every lineage includes abundant ordinary forms.",
+  "alternatives": [
+    "FAUNA-ROSTER-A: seven lineages with convergently evolved flight; selected.",
+    "FAUNA-ROSTER-B: eight lineages with one dedicated ancestrally winged lineage owning macro-scale flight; not selected.",
+    "FAUNA-ROSTER-C: retain five slots and define III-V only, leaving the tri-radial migrant and small-bodied life outside the framework; not selected."
+  ],
+  "rationale": "The selected roster covers every silhouette class the Author requested (familiar four-limbed, six-limbed, winged-plus-four-limbed, and further alien classes), gives both provisionally accepted lake migrants lineage homes, supplies the ordinary-organism backbone the ecological direction demands, and mirrors Earth's repeated independent evolution of flight so mythic and familiar flyer silhouettes coexist without one lineage monopolising the air.",
+  "evidence": [
+    "Author selection on 2026-08-17.",
+    "worldbuilding/settings/shared-universe-001/proposals/WLD-FAUNA-001.md",
+    "canon://world/shared-universe-001/ecology/lineage-ii-vegetation-architects",
+    "canon://world/shared-universe-001/ecology/basin-lake-mass-breeder-foundational-body-plan",
+    "canon://world/shared-universe-001/ecology/basin-lake-family-care-migrant-foundational-body-plan",
+    "CAL0 WLD2.1A+D"
+  ],
+  "consequences": [
+    "The planet's macroscopic animal life is organised across seven major body-plan lineages.",
+    "Lineage II and both lake migrants retain their existing bounded records and gain roster slots.",
+    "Winged four-legged forms are a Lineage I possibility; two-winged two-legged forms are a Lineage III possibility; small-scale flight is a Lineage VI possibility.",
+    "Lineages VI and VII anchor small-bodied ordinary life for later decomposer, pollinator-analogue, parasite, and swarm-prey design.",
+    "Later per-lineage and per-species development must proceed through bounded proposals against these slots.",
+    "No System mechanic, creature progression rule, spawn source, or Earth transplant is created."
+  ],
+  "affected_sources": [
+    "worldbuilding/settings/shared-universe-001/proposals/WLD-FAUNA-001.md",
+    "worldbuilding/settings/shared-universe-001/canon/ecology/WLD-FAUNA-001.worldbuilding.json",
+    "worldbuilding/settings/shared-universe-001/canon/ecology/WLD-FAUNA-001.md",
+    "worldbuilding/settings/shared-universe-001/setting-constitution.md",
+    "worldbuilding/settings/shared-universe-001/canon/README.md",
+    "worldbuilding/settings/shared-universe-001/proposals/README.md",
+    "worldbuilding/settings/shared-universe-001/decisions/README.md",
+    "worldbuilding/settings/shared-universe-001/indexes/INDEX.md",
+    "worldbuilding/INDEX.md",
+    "workbench/proposals/project-hearthway-foundation-capture.md",
+    "README.md"
+  ],
+  "dependencies": [
+    "WLD-SETTING-001A",
+    "WLD-ECOLOGY-001A",
+    "WLD-ECOLOGY-001",
+    "WLD-ECOLOGY-007A",
+    "WLD-ECOLOGY-007",
+    "WLD-ECOLOGY-009A",
+    "WLD-ECOLOGY-009",
+    "CAL0 WLD1.2D",
+    "CAL0 WLD2.1A+D"
+  ],
+  "conflicts": [],
+  "residual_unknowns": [
+    "Final lineage names and all in-world taxonomies remain open.",
+    "Per-lineage anatomy, covering microstructure, reproduction, senses, cognition, and Mana patterns remain open except where existing records govern.",
+    "Deep ancestry, divergence order, relatedness among lineages, and extinct sibling lineages remain open.",
+    "Which lineage holds the WLD-ECOLOGY-006 bird-like fishing organisms and other referenced-but-unassigned fauna remains open.",
+    "Minor or relict lineages below the framework's grain remain possible through their own records.",
+    "No sapient people is assigned to any lineage.",
+    "Whether flora needs a parallel producer-kingdom roster is routed to a separate proposal."
+  ],
+  "supersedes": [],
+  "superseded_by": null,
+  "reopening_conditions": [
+    "A needed body plan cannot plausibly fit any roster slot.",
+    "Lineage-first design proves too coarse or too restrictive for story needs.",
+    "A concrete contradiction with an accepted or provisional record emerges.",
+    "The Author explicitly reopens the decision."
+  ]
+}

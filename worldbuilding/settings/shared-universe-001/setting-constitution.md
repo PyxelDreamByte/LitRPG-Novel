@@ -60,9 +60,9 @@ candidate claims until they are split into bounded proposals, reviewed, and
 explicitly accepted.
 
 `WLD-ECOLOGY-001` through `WLD-ECOLOGY-010`, `WLD-GEOGRAPHY-001` through
-`WLD-GEOGRAPHY-002`, `WLD-FLORA-001` through `WLD-FLORA-003`, and
-`WLD-LOCATION-001` through `WLD-LOCATION-003` are bounded provisional
-fictional records. They govern only
+`WLD-GEOGRAPHY-002`, `WLD-FLORA-001` through `WLD-FLORA-004`,
+`WLD-LOCATION-001` through `WLD-LOCATION-003`, and `WLD-FAUNA-001` are
+bounded provisional fictional records. They govern only
 the selected Lineage II vegetation-architect ecology,
 distributed fermentation lattice, two-stage symbiont inheritance, and
 peripheral migration relationship with the initial settlement; the
@@ -81,9 +81,11 @@ outlet-passage choreography; and the basin reserve-web guild's
   combined spring–well–cistern water system, and broad fair-weather reference
   bands for an unladen downhill journey and a laden uphill return; and the
   recurring upper-shore staging place with several short seasonal spurs to
-  changeable nearby shore contacts. They do not promote the rest of the
-  staging capture or establish a particular nonlocal animal, product, route,
-  traveller, or tale.
+  changeable nearby shore contacts; and the planetary seven-lineage faunal
+  body-plan roster and six-kingdom floral roster at
+  silhouette-and-strategy-theme level. They do not promote
+  the rest of the staging capture or establish a particular nonlocal animal,
+  product, route, traveller, or tale.
 
 System architecture is governed separately. Worldbuilding may describe how
 people and creatures experience the active System, but it may not alter CAL0 or
@@ -120,8 +122,8 @@ invent a successor mechanic by implication.
 - Authoritative canon roots: the setting identity and reciprocal main-series
   relationship, plus the bounded provisional `WLD-ECOLOGY-001` through
   `WLD-ECOLOGY-010`, `WLD-GEOGRAPHY-001` through `WLD-GEOGRAPHY-002`, and
-  `WLD-FLORA-001` through `WLD-FLORA-003`, and `WLD-LOCATION-001` through
-  `WLD-LOCATION-003` setting records
+  `WLD-FLORA-001` through `WLD-FLORA-004`, and `WLD-LOCATION-001` through
+  `WLD-LOCATION-003`, and `WLD-FAUNA-001` setting records
 - Decision register: `worldbuilding/settings/shared-universe-001/decisions/`
 - Proposal register: `worldbuilding/settings/shared-universe-001/proposals/`
 - Index generation: maintain the setting index alongside any governed promotion

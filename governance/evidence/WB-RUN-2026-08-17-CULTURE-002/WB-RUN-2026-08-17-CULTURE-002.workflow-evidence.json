@@ -1,0 +1,89 @@
+{
+  "$schema": "../../schemas/workflow-evidence-manifest.schema.json",
+  "schema_version": "1.0.0",
+  "run_id": "run://develop-worldbuilding/WB-RUN-2026-08-17-CULTURE-002",
+  "evidence_kind": "ACCEPTED_OUTCOME",
+  "workflow": "develop-worldbuilding+author-decision",
+  "completed_on": "2026-08-17",
+  "canonicality": "ACCEPTED",
+  "promotion": "ALLOWED_WITH_AUTHOR_GATE",
+  "source_manifest": [
+    {
+      "path": "worldbuilding/settings/shared-universe-001/proposals/WLD-CULTURE-002.md",
+      "revision": "WLD-CULTURE-002-promoted-proposal@2026-08-17",
+      "sha256": "sha256:c501316bb6cf99816ed796535f5b77d0ae0a118aca8e91d2f029b5d0596ab0a9"
+    },
+    {
+      "path": "governance/evidence/WB-RUN-2026-08-17-CULTURE-002/sources/option-capture-proposal.md",
+      "revision": "WLD-CULTURE-002-option-capture@2026-08-17",
+      "sha256": "sha256:c1273a3da3f378d84f6c4ab12cb1ba42f78210f03325ef3d38310c1a2a30f4d7"
+    }
+  ],
+  "target_artifacts": [
+    {
+      "path": "worldbuilding/settings/shared-universe-001/canon/culture/WLD-CULTURE-002.md",
+      "revision": "WLD-CULTURE-002@2026-08-17",
+      "sha256": "sha256:bc1341177c178059f99baf2306f01f26d6663e0fe537624d252bd7c017e20ad2"
+    },
+    {
+      "path": "worldbuilding/settings/shared-universe-001/canon/culture/WLD-CULTURE-002.worldbuilding.json",
+      "revision": "WLD-CULTURE-002@2026-08-17",
+      "sha256": "sha256:be3e452737e0cead238fe6b74c5f610f01fcb55988fb866aef1c72afa9441000"
+    },
+    {
+      "path": "worldbuilding/settings/shared-universe-001/decisions/WLD-CULTURE-002A.md",
+      "revision": "WLD-CULTURE-002A@2026-08-17",
+      "sha256": "sha256:44e13230e1b5b17f260c6b42a4d9bb22e7e761d3f7272c11cf48efce0b24c2c8"
+    },
+    {
+      "path": "worldbuilding/settings/shared-universe-001/decisions/WLD-CULTURE-002A.decision.json",
+      "revision": "WLD-CULTURE-002A@2026-08-17",
+      "sha256": "sha256:49d24b3bbcb9d29c0b58cc6ca86d74787b736b361e7d6cefc0543af85137ba45"
+    },
+    {
+      "path": "worldbuilding/settings/shared-universe-001/indexes/INDEX.md",
+      "revision": "batch-indexed@2026-08-17",
+      "sha256": "sha256:cf16ab1a76db65c9b1bae3bec790c9944460cd1bf7929e817c5d052a00928670"
+    },
+    {
+      "path": "worldbuilding/INDEX.md",
+      "revision": "batch-indexed@2026-08-17",
+      "sha256": "sha256:42f43722c0cd62e70cefc4c12f44a34a8801c04186de403f1399de671a2a6090"
+    },
+    {
+      "path": "worldbuilding/settings/shared-universe-001/setting-constitution.md",
+      "revision": "batch-reconciled@2026-08-17",
+      "sha256": "sha256:ab89916e9a3d55aeaaec82944971c4d5cfd383c702d234a8a51d0ae4406b91dc"
+    },
+    {
+      "path": "STATUS.md",
+      "revision": "batch-updated@2026-08-17",
+      "sha256": "sha256:e60740d20af5b7ef58a19eb92896a91201e2986d71f371e7feee4653641a602a"
+    }
+  ],
+  "findings": [
+    "PASS: charter-oath assembly promoted with oath-bound dynastic duties, assembly-rooted adjudication and burden consent, and sworn expert testimony.",
+    "BOUNDARY PRESERVED: the first-succession ambiguity is recorded as designed and unresolved, feeding WLD-EVENT-001; no succession outcome, office names, or law content promoted.",
+    "PASS: the single declared qualitative closure of WLD-ECOLOGY-006's open space (harvest knowledge-holders hold sworn testimonial standing) leaves all other harvest questions open."
+  ],
+  "validations": [
+    "python tools/validate_governance.py: PASS with 78 repository records, 5 valid fixtures, 5 rejected fixtures.",
+    "python tools/validate_workspaces.py: PASS with 4 work manifests, 3 setting manifests, 2 workflow evaluations, 4 rejected workspace/eval fixtures.",
+    "python -m unittest discover -s tools/tests: PASS with 3 evidence-mode regression tests.",
+    "python tools/validate_repository.py: PASS including complete System validation."
+  ],
+  "retained_files": [
+    "governance/evidence/WB-RUN-2026-08-17-CULTURE-002/WB-RUN-2026-08-17-CULTURE-002.workflow-evidence.json",
+    "governance/evidence/WB-RUN-2026-08-17-CULTURE-002/final-findings.md",
+    "governance/evidence/WB-RUN-2026-08-17-CULTURE-002/approved-change-set.md",
+    "governance/evidence/WB-RUN-2026-08-17-CULTURE-002/validation-summary.md",
+    "governance/evidence/WB-RUN-2026-08-17-CULTURE-002/sources/option-capture-proposal.md"
+  ],
+  "approval": {
+    "decision_uri": "author-decision://world/WLD-CULTURE-002A",
+    "decided_by": "Author",
+    "decision": "ACCEPT",
+    "decided_on": "2026-08-17",
+    "evidence": "On 2026-08-17 the Author selected 'C — CHARTER-OATH ASSEMBLY' from the displayed multiple-choice options, accepting Option C exactly as drafted together with the proposal's shared claim set."
+  }
+}

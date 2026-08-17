@@ -1,0 +1,89 @@
+{
+  "$schema": "../../schemas/workflow-evidence-manifest.schema.json",
+  "schema_version": "1.0.0",
+  "run_id": "run://develop-worldbuilding/WB-RUN-2026-08-17-LOCATION-004",
+  "evidence_kind": "ACCEPTED_OUTCOME",
+  "workflow": "develop-worldbuilding+author-decision",
+  "completed_on": "2026-08-17",
+  "canonicality": "ACCEPTED",
+  "promotion": "ALLOWED_WITH_AUTHOR_GATE",
+  "source_manifest": [
+    {
+      "path": "worldbuilding/settings/shared-universe-001/proposals/WLD-LOCATION-004.md",
+      "revision": "WLD-LOCATION-004-promoted-proposal@2026-08-17",
+      "sha256": "sha256:a130e96168c63cb4460a1385fbf9928575507aa62791a4e268f7659256bc483a"
+    },
+    {
+      "path": "governance/evidence/WB-RUN-2026-08-17-LOCATION-004/sources/option-capture-proposal.md",
+      "revision": "WLD-LOCATION-004-option-capture@2026-08-17",
+      "sha256": "sha256:9d86f3e660a714e85b59089630f1cc4d7f3fcfae71a950032e3623345c313cd0"
+    }
+  ],
+  "target_artifacts": [
+    {
+      "path": "worldbuilding/settings/shared-universe-001/canon/location/WLD-LOCATION-004.md",
+      "revision": "WLD-LOCATION-004@2026-08-17",
+      "sha256": "sha256:099fd416b1f4e199ceb6e8d87e5ead01704144a164987b2a8ae2dcc4a9c7f585"
+    },
+    {
+      "path": "worldbuilding/settings/shared-universe-001/canon/location/WLD-LOCATION-004.worldbuilding.json",
+      "revision": "WLD-LOCATION-004@2026-08-17",
+      "sha256": "sha256:e51704a8b6c355bfd58b11fb2b7aebacd812cadb47eb5ae4177669850f074301"
+    },
+    {
+      "path": "worldbuilding/settings/shared-universe-001/decisions/WLD-LOCATION-004A.md",
+      "revision": "WLD-LOCATION-004A@2026-08-17",
+      "sha256": "sha256:6bcd29c0437eb19e992ccdcbb4262d7fc2e420ef05e24bc43667751e08c8e301"
+    },
+    {
+      "path": "worldbuilding/settings/shared-universe-001/decisions/WLD-LOCATION-004A.decision.json",
+      "revision": "WLD-LOCATION-004A@2026-08-17",
+      "sha256": "sha256:263f89e322397edf8e254d37793f8fc8e518f12ade6a5fe0449b9192e46e757f"
+    },
+    {
+      "path": "worldbuilding/settings/shared-universe-001/indexes/INDEX.md",
+      "revision": "batch-indexed@2026-08-17",
+      "sha256": "sha256:cf16ab1a76db65c9b1bae3bec790c9944460cd1bf7929e817c5d052a00928670"
+    },
+    {
+      "path": "worldbuilding/INDEX.md",
+      "revision": "batch-indexed@2026-08-17",
+      "sha256": "sha256:42f43722c0cd62e70cefc4c12f44a34a8801c04186de403f1399de671a2a6090"
+    },
+    {
+      "path": "worldbuilding/settings/shared-universe-001/setting-constitution.md",
+      "revision": "batch-reconciled@2026-08-17",
+      "sha256": "sha256:ab89916e9a3d55aeaaec82944971c4d5cfd383c702d234a8a51d0ae4406b91dc"
+    },
+    {
+      "path": "STATUS.md",
+      "revision": "batch-updated@2026-08-17",
+      "sha256": "sha256:e60740d20af5b7ef58a19eb92896a91201e2986d71f371e7feee4653641a602a"
+    }
+  ],
+  "findings": [
+    "PASS: corridor-and-clearance skeleton promoted with regrown, ruinous, reused, and avoided condition classes and dispersed low-yield salvage.",
+    "RESOLVED SEAM: reuse now ranges from intermittent reclamation to sustained re-occupation, with the WLD-LOCATION-005 nucleus as the principal sustained instance; no work is continuously occupied since imperial abandonment.",
+    "BOUNDARY PRESERVED: the settlement road's imperial derivation, all remnant positions, and ancient doorways remain open or excluded."
+  ],
+  "validations": [
+    "python tools/validate_governance.py: PASS with 78 repository records, 5 valid fixtures, 5 rejected fixtures.",
+    "python tools/validate_workspaces.py: PASS with 4 work manifests, 3 setting manifests, 2 workflow evaluations, 4 rejected workspace/eval fixtures.",
+    "python -m unittest discover -s tools/tests: PASS with 3 evidence-mode regression tests.",
+    "python tools/validate_repository.py: PASS including complete System validation."
+  ],
+  "retained_files": [
+    "governance/evidence/WB-RUN-2026-08-17-LOCATION-004/WB-RUN-2026-08-17-LOCATION-004.workflow-evidence.json",
+    "governance/evidence/WB-RUN-2026-08-17-LOCATION-004/final-findings.md",
+    "governance/evidence/WB-RUN-2026-08-17-LOCATION-004/approved-change-set.md",
+    "governance/evidence/WB-RUN-2026-08-17-LOCATION-004/validation-summary.md",
+    "governance/evidence/WB-RUN-2026-08-17-LOCATION-004/sources/option-capture-proposal.md"
+  ],
+  "approval": {
+    "decision_uri": "author-decision://world/WLD-LOCATION-004A",
+    "decided_by": "Author",
+    "decision": "ACCEPT",
+    "decided_on": "2026-08-17",
+    "evidence": "On 2026-08-17 the Author selected 'A — CORRIDOR-AND-CLEARANCE SKELETON' from the displayed multiple-choice options and directed the cross-cite identifying the second settlement's industrial nucleus (WLD-LOCATION-005) as a reused-node instance."
+  }
+}

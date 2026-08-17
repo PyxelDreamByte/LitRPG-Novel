@@ -46,6 +46,16 @@
 - [`WLD-LOCATION-003`](WLD-LOCATION-003.md) — retained option analysis for the
   initial lake-road shore endpoint arrangement now represented by a bounded
   provisional record.
+- [`WLD-HISTORY-001`](WLD-HISTORY-001.md) — retained option analysis for the
+  imperial collapse arc and neighbor frame, accepted as an Author custom
+  combination of the displayed options in sequence and now represented by a
+  bounded provisional record.
+- [`WLD-FAUNA-001`](WLD-FAUNA-001.md) — retained option analysis for the
+  planetary faunal lineage roster now represented by a bounded provisional
+  record.
+- [`WLD-FLORA-004`](WLD-FLORA-004.md) — retained option analysis for the
+  planetary floral kingdom roster now represented by a bounded provisional
+  record.
 
 Other current conversation material remains under `workbench/proposals/` until
 split into bounded proposals. Material placed here remains non-canonical unless

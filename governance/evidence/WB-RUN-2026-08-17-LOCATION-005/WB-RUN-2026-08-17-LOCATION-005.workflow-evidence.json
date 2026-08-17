@@ -1,0 +1,83 @@
+{
+  "$schema": "../../schemas/workflow-evidence-manifest.schema.json",
+  "schema_version": "1.0.0",
+  "run_id": "run://develop-worldbuilding/WB-RUN-2026-08-17-LOCATION-005",
+  "evidence_kind": "ACCEPTED_OUTCOME",
+  "workflow": "develop-worldbuilding+author-decision",
+  "completed_on": "2026-08-17",
+  "canonicality": "ACCEPTED",
+  "promotion": "ALLOWED_WITH_AUTHOR_GATE",
+  "source_manifest": [
+    {
+      "path": "worldbuilding/settings/shared-universe-001/proposals/WLD-LOCATION-005.md",
+      "revision": "WLD-LOCATION-005-promoted-proposal@2026-08-17",
+      "sha256": "sha256:5a0a3ab088fb3a60c1a8f61596f9774d6b013ea294dbbb4f1374ecb3991a0f28"
+    }
+  ],
+  "target_artifacts": [
+    {
+      "path": "worldbuilding/settings/shared-universe-001/canon/location/WLD-LOCATION-005.md",
+      "revision": "WLD-LOCATION-005@2026-08-17",
+      "sha256": "sha256:30601135367e5d45084e947b9d830a0fc82bbd7ac3aa05254cce4317e1c89a01"
+    },
+    {
+      "path": "worldbuilding/settings/shared-universe-001/canon/location/WLD-LOCATION-005.worldbuilding.json",
+      "revision": "WLD-LOCATION-005@2026-08-17",
+      "sha256": "sha256:e27270115be246252ec261b022102dea87c14a81ff02b7e15776f6a7d792564a"
+    },
+    {
+      "path": "worldbuilding/settings/shared-universe-001/decisions/WLD-LOCATION-005A.md",
+      "revision": "WLD-LOCATION-005A@2026-08-17",
+      "sha256": "sha256:de82808a0960a5cc61c5d2b28d6f8c2a21679c536cdaa1fd4a9c14552f5be92a"
+    },
+    {
+      "path": "worldbuilding/settings/shared-universe-001/decisions/WLD-LOCATION-005A.decision.json",
+      "revision": "WLD-LOCATION-005A@2026-08-17",
+      "sha256": "sha256:95c0f9887166fe0f7e7757e47a118d4acf845b775c69c70a3d643aba2a425896"
+    },
+    {
+      "path": "worldbuilding/settings/shared-universe-001/indexes/INDEX.md",
+      "revision": "batch-indexed@2026-08-17",
+      "sha256": "sha256:cf16ab1a76db65c9b1bae3bec790c9944460cd1bf7929e817c5d052a00928670"
+    },
+    {
+      "path": "worldbuilding/INDEX.md",
+      "revision": "batch-indexed@2026-08-17",
+      "sha256": "sha256:42f43722c0cd62e70cefc4c12f44a34a8801c04186de403f1399de671a2a6090"
+    },
+    {
+      "path": "worldbuilding/settings/shared-universe-001/setting-constitution.md",
+      "revision": "batch-reconciled@2026-08-17",
+      "sha256": "sha256:ab89916e9a3d55aeaaec82944971c4d5cfd383c702d234a8a51d0ae4406b91dc"
+    },
+    {
+      "path": "STATUS.md",
+      "revision": "batch-updated@2026-08-17",
+      "sha256": "sha256:e60740d20af5b7ef58a19eb92896a91201e2986d71f371e7feee4653641a602a"
+    }
+  ],
+  "findings": [
+    "PASS: the Author's direct specification is promoted as bounded qualitative claims with the nucleus recorded as a WLD-LOCATION-004 reused-node instance.",
+    "BOUNDARY PRESERVED: no future-conflict, war, or timeline claim entered canon; the intended arc is staged as plot intent for the series contract only.",
+    "PASS: the qualitative outlet-mouth position makes no claim about the outlet throat, mixed reach, or migrant passage records (WLD-ECOLOGY-006/-009/-010 untouched)."
+  ],
+  "validations": [
+    "python tools/validate_governance.py: PASS with 78 repository records, 5 valid fixtures, 5 rejected fixtures.",
+    "python tools/validate_workspaces.py: PASS with 4 work manifests, 3 setting manifests, 2 workflow evaluations, 4 rejected workspace/eval fixtures.",
+    "python -m unittest discover -s tools/tests: PASS with 3 evidence-mode regression tests.",
+    "python tools/validate_repository.py: PASS including complete System validation."
+  ],
+  "retained_files": [
+    "governance/evidence/WB-RUN-2026-08-17-LOCATION-005/WB-RUN-2026-08-17-LOCATION-005.workflow-evidence.json",
+    "governance/evidence/WB-RUN-2026-08-17-LOCATION-005/final-findings.md",
+    "governance/evidence/WB-RUN-2026-08-17-LOCATION-005/approved-change-set.md",
+    "governance/evidence/WB-RUN-2026-08-17-LOCATION-005/validation-summary.md"
+  ],
+  "approval": {
+    "decision_uri": "author-decision://world/WLD-LOCATION-005A",
+    "decided_by": "Author",
+    "decision": "ACCEPT",
+    "decided_on": "2026-08-17",
+    "evidence": "On 2026-08-17 the Author directly specified the second settlement (imperial industrial nucleus, running water and hill metals, defensible growth, position across the basin lake near the outlet's seaward mouth, primarily imperial-remnant culture, standing rivalry with the ridge-spur settlement) rather than choosing from a displayed option set, per the WLD-LOCATION-001A water-disposition precedent."
+  }
+}

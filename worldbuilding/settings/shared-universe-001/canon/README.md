@@ -1,6 +1,6 @@
 # Canon
 
-No fully accepted Project Hearthway setting record exists. Eighteen bounded
+No fully accepted Project Hearthway setting record exists. Twenty-one bounded
 provisional setting records are available for declared downstream use:
 
 - [`WLD-ECOLOGY-001`](ecology/WLD-ECOLOGY-001.md) — Lineage II
@@ -50,6 +50,16 @@ provisional setting records are available for declared downstream use:
 - [`WLD-LOCATION-003`](location/WLD-LOCATION-003.md) — recurring upper-shore
   staging place with several short seasonal spurs to changeable nearby shore
   contacts, without guaranteed access or shore infrastructure.
+- [`WLD-FAUNA-001`](ecology/WLD-FAUNA-001.md) — seven-lineage planetary faunal
+  body-plan roster with independently evolved flight in more than one lineage.
+- [`WLD-FLORA-004`](ecology/WLD-FLORA-004.md) — six-kingdom planetary
+  producer-and-decomposer roster with the reserve-web guild homed in the
+  networked-modular kingdom.
+- [`WLD-HISTORY-001`](history/WLD-HISTORY-001.md) — combined three-phase
+  imperial collapse arc with multi-causal contributing pressures and an
+  explicitly open trigger, collapse-era wildlife and pest-like-race
+  developments, chronology anchors, and the bounded five-class neighbor
+  presence frame.
 
 Do not place unreviewed conversational selections, staging captures, draft proposals, or
 System-change ideas here. Promotion requires the governed Author gate and an

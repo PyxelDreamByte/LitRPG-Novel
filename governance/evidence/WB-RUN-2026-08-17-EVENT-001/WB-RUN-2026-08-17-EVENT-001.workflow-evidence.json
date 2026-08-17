@@ -1,0 +1,89 @@
+{
+  "$schema": "../../schemas/workflow-evidence-manifest.schema.json",
+  "schema_version": "1.0.0",
+  "run_id": "run://develop-worldbuilding/WB-RUN-2026-08-17-EVENT-001",
+  "evidence_kind": "ACCEPTED_OUTCOME",
+  "workflow": "develop-worldbuilding+author-decision",
+  "completed_on": "2026-08-17",
+  "canonicality": "ACCEPTED",
+  "promotion": "ALLOWED_WITH_AUTHOR_GATE",
+  "source_manifest": [
+    {
+      "path": "worldbuilding/settings/shared-universe-001/proposals/WLD-EVENT-001.md",
+      "revision": "WLD-EVENT-001-promoted-proposal@2026-08-17",
+      "sha256": "sha256:dd375e6b47ebf1c87d4e81394d68b83fde8d9ab74861bfbd0be2b3429fbe8e79"
+    },
+    {
+      "path": "governance/evidence/WB-RUN-2026-08-17-EVENT-001/sources/option-capture-proposal.md",
+      "revision": "WLD-EVENT-001-option-capture@2026-08-17",
+      "sha256": "sha256:030df91d4868ad9e0f11c3f24942899948f36d98ba878f098734ac412795d4b1"
+    }
+  ],
+  "target_artifacts": [
+    {
+      "path": "worldbuilding/settings/shared-universe-001/canon/events/WLD-EVENT-001.md",
+      "revision": "WLD-EVENT-001@2026-08-17",
+      "sha256": "sha256:f39c4d825d625bde4535a0bee3f165d4438586cbc503e41d729bac8e68973f6e"
+    },
+    {
+      "path": "worldbuilding/settings/shared-universe-001/canon/events/WLD-EVENT-001.worldbuilding.json",
+      "revision": "WLD-EVENT-001@2026-08-17",
+      "sha256": "sha256:ccd5a0de259554515c76c3125dcf3f24f24eea2c37a9d57a910eb1f0aff45bdb"
+    },
+    {
+      "path": "worldbuilding/settings/shared-universe-001/decisions/WLD-EVENT-001A.md",
+      "revision": "WLD-EVENT-001A@2026-08-17",
+      "sha256": "sha256:656f7d4fc201e415d169986ae4f9e9929dd9f087e9f957447304da12f2d67506"
+    },
+    {
+      "path": "worldbuilding/settings/shared-universe-001/decisions/WLD-EVENT-001A.decision.json",
+      "revision": "WLD-EVENT-001A@2026-08-17",
+      "sha256": "sha256:cfbb68d29200666b9be809f9c2e93bcce63a5af5b761ed0321059fba0bdd4567"
+    },
+    {
+      "path": "worldbuilding/settings/shared-universe-001/indexes/INDEX.md",
+      "revision": "batch-indexed@2026-08-17",
+      "sha256": "sha256:cf16ab1a76db65c9b1bae3bec790c9944460cd1bf7929e817c5d052a00928670"
+    },
+    {
+      "path": "worldbuilding/INDEX.md",
+      "revision": "batch-indexed@2026-08-17",
+      "sha256": "sha256:42f43722c0cd62e70cefc4c12f44a34a8801c04186de403f1399de671a2a6090"
+    },
+    {
+      "path": "worldbuilding/settings/shared-universe-001/setting-constitution.md",
+      "revision": "batch-reconciled@2026-08-17",
+      "sha256": "sha256:ab89916e9a3d55aeaaec82944971c4d5cfd383c702d234a8a51d0ae4406b91dc"
+    },
+    {
+      "path": "STATUS.md",
+      "revision": "batch-updated@2026-08-17",
+      "sha256": "sha256:e60740d20af5b7ef58a19eb92896a91201e2986d71f371e7feee4653641a602a"
+    }
+  ],
+  "findings": [
+    "PASS: five standing pressure classes promoted as standing states and tendencies only; no occurred event, timeline, or outcome established.",
+    "PASS: the cross-lake rivalry cites WLD-LOCATION-005 and colours the succession question without resolving WLD-CULTURE-002's designed ambiguity.",
+    "PARKED BOUNDARY HELD: the pack species appears only as a qualitative raider class grounded in WLD-HISTORY-001's recorded spread; Earth-creature words appear once inside an explicit shorthand disclaimer."
+  ],
+  "validations": [
+    "python tools/validate_governance.py: PASS with 78 repository records, 5 valid fixtures, 5 rejected fixtures.",
+    "python tools/validate_workspaces.py: PASS with 4 work manifests, 3 setting manifests, 2 workflow evaluations, 4 rejected workspace/eval fixtures.",
+    "python -m unittest discover -s tools/tests: PASS with 3 evidence-mode regression tests.",
+    "python tools/validate_repository.py: PASS including complete System validation."
+  ],
+  "retained_files": [
+    "governance/evidence/WB-RUN-2026-08-17-EVENT-001/WB-RUN-2026-08-17-EVENT-001.workflow-evidence.json",
+    "governance/evidence/WB-RUN-2026-08-17-EVENT-001/final-findings.md",
+    "governance/evidence/WB-RUN-2026-08-17-EVENT-001/approved-change-set.md",
+    "governance/evidence/WB-RUN-2026-08-17-EVENT-001/validation-summary.md",
+    "governance/evidence/WB-RUN-2026-08-17-EVENT-001/sources/option-capture-proposal.md"
+  ],
+  "approval": {
+    "decision_uri": "author-decision://world/WLD-EVENT-001A",
+    "decided_by": "Author",
+    "decision": "ACCEPT",
+    "decided_on": "2026-08-17",
+    "evidence": "On 2026-08-17 the Author selected an amended rivalry-forward configuration in an explicit multiple-choice question, adding the returning dangerous-wildlife pressure class with 'hags, goblins, mega-fauna, wolves, bears (our world equivalents)' recorded as author-facing shorthand only."
+  }
+}

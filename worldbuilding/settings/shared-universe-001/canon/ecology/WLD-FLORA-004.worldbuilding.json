@@ -1,0 +1,78 @@
+{
+  "$schema": "../../../../../governance/schemas/worldbuilding-record.schema.json",
+  "schema_version": "1.0.0",
+  "id": "WLD-FLORA-004",
+  "record_uri": "canon://world/shared-universe-001/ecology/planetary-floral-kingdom-roster",
+  "display_code": "WLD-FLORA-004",
+  "setting_id": "setting://shared-universe-001",
+  "title": "Planetary floral kingdom roster",
+  "workflow_status": "ACCEPTED",
+  "canon_status": "PROVISIONAL",
+  "scope": "Roster of major producer and decomposer kingdoms for Project Hearthway's planet at growth-strategy-theme level; usable within shared-setting ecology and adopted downstream story development.",
+  "claims": [
+    "The planet's macroscopic producer and decomposer life is organised across six major kingdoms at growth-strategy-theme level, with familiar ecological roles distributed originally rather than copied from Earth clades.",
+    "K1, networked modular flora, comprises forms whose living subsurface networks link rooted growth modules; the reserve-web guild governed by the existing reserve-web records belongs to this kingdom.",
+    "K2, tower flora, comprises long-lived, tall, self-supporting woody-analogue structural forms.",
+    "K3, free-seeder flora, comprises short-lived, unnetworked, fast-dispersing individual plants.",
+    "K4, water flora, comprises submerged, floating, and wet-margin producers.",
+    "K5, crust-and-cushion flora, comprises low, slow, surface-hugging pioneer growth.",
+    "K6, thread decomposers, comprises non-photosynthesising thread-and-body networks occupying decomposer, recycler, and mutualist roles.",
+    "Every kingdom includes abundant ordinary, unremarkable forms; no kingdom exists only to supply spectacular flora."
+  ],
+  "boundaries": [
+    "Kingdom codes and functional labels are author-facing shorthand, not in-world names, formal taxonomy, or cladistic claims; final names remain protected unknowns.",
+    "The roster fixes qualitative growth-strategy themes only; energy capture, chemistry, anatomy, reproduction, dispersal, seasonality, defences, and Mana patterns remain open except where existing bounded records govern.",
+    "Woody-analogue establishes no Earth wood, bark, or tree homology; thread decomposers establishes no Earth fungus homology; plants and flora are functional conveniences, not Earth-clade claims.",
+    "No kingdom is established as present, dominant, or absent at any particular location, including the initial basin, beyond what existing records already establish.",
+    "The western temperate rainforest, basin woodland, wet-margin and marsh vegetation, and the sturdy egg-substrate plants referenced by canon://world/shared-universe-001/ecology/basin-lake-spring-breeding-pulse are not assigned to kingdoms by this record.",
+    "Microscopic producer and decomposer life and rare minor or relict kingdoms below the roster's grain remain possible but require their own records.",
+    "Cross-kingdom symbioses, including any root partnership between K6 and producer kingdoms, remain open possibilities, not established relationships.",
+    "No domesticate, crop, harvest practice, or other human-use relationship is established.",
+    "Earth life of any era and mythological flora may inspire author-facing design; no living, extinct, or legendary Earth species is transplanted directly.",
+    "No Mana organ, specialised ability, System progression, spawn point, refill node, guaranteed harvest, reward, Skill, trait payload, or Ancestry Development rule is established.",
+    "Water, light or other energy, nutrients, space, growth time, disturbance, disease, and decay remain binding ecological constraints for every kingdom."
+  ],
+  "dependencies": [
+    "author-decision://world/WLD-SETTING-001A",
+    "author-decision://world/WLD-FLORA-004A",
+    "canon://world/shared-universe-001/ecology/basin-reserve-web-vegetation-guild",
+    "canon://world/shared-universe-001/geography/initial-region-physical-scaffold",
+    "canon://world/shared-universe-001/ecology/planetary-faunal-lineage-roster",
+    "CAL0 WLD1.2D",
+    "CAL0 WLD2.1A+D"
+  ],
+  "contradictions": [],
+  "story_implications": [
+    "Scene vegetation can be designed kingdom-first from stable growth-strategy slots with Earth inspiration kept author-facing.",
+    "Forage, harvest, timber-analogue, and material-culture development gains stable botanical structure without premature species claims.",
+    "Decomposition, soil renewal, and symbiosis stories gain a dedicated kingdom slot.",
+    "Every particular guild, species, local presence, and human use requires its own evidence and records."
+  ],
+  "system_implications": [
+    "The roster describes ordinary planetary ecology under CAL0 WLD1.2D and WLD2.1A+D.",
+    "No System mechanic, guaranteed harvest, spawn source, refill node, reward, or specialised Mana ability is established."
+  ],
+  "research_questions": [
+    "What deep divergence history produced the six kingdoms, and how do they relate to the faunal lineages' history?",
+    "Which kingdoms hold the rainforest, woodland, wet-margin, and egg-substrate vegetation?",
+    "What energy capture, chemistry, reproduction, and dispersal patterns characterise each kingdom?",
+    "Which cross-kingdom symbioses exist, and at what cost?",
+    "Which kingdoms supply crops, forage, timber-analogues, fibres, and medicines for later cultural development?",
+    "Which minor or relict kingdoms, if any, persist below the roster's grain?"
+  ],
+  "sources": [
+    "worldbuilding/settings/shared-universe-001/proposals/WLD-FLORA-004.md",
+    "canon://world/shared-universe-001/ecology/basin-reserve-web-vegetation-guild",
+    "canon://world/shared-universe-001/geography/initial-region-physical-scaffold",
+    "canon://world/shared-universe-001/ecology/planetary-faunal-lineage-roster",
+    "Author selection on 2026-08-17"
+  ],
+  "supersedes": [],
+  "superseded_by": null,
+  "author_approval": {
+    "decision_uri": "author-decision://world/WLD-FLORA-004A",
+    "accepted_on": "2026-08-17",
+    "accepted_by": "Author",
+    "evidence": "After the A/B/C floral-roster options were presented with A recommended, the Author selected 'A — Six kingdoms' on 2026-08-17."
+  }
+}

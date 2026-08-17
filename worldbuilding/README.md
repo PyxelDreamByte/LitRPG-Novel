@@ -22,7 +22,8 @@ One) is archived under `archive/settings/continuity-one/`; see
   sequence, three bounded basin-flora records, one bounded initial ridge-spur
   settlement working-landscape record, and one bounded lake-road practical
   travel-scale record, plus one bounded upper-shore staging-and-seasonal-spur
-  endpoint record; all
+  endpoint record and one bounded imperial-collapse-arc-and-neighbor-frame
+  history record; all
   other detailed fictional material remains proposed.
 - Root `canon/`, `proposals/`, and `indexes/` are legacy/reserved and must not receive new setting-specific facts.
 - `templates/` contains proposal and decision templates.

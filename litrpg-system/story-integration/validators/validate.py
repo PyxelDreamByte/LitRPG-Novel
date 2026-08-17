@@ -755,8 +755,10 @@ def main() -> int:
         errors.append(f"could not load CAL0 parameter-set authorities: {exc}")
     work_manifests: dict[str, dict[str, Any]] = {}
     manifest_paths = sorted(
-        set(REPOSITORY_ROOT.rglob("*.work-manifest.json"))
+        path
+        for path in set(REPOSITORY_ROOT.rglob("*.work-manifest.json"))
         | set(REPOSITORY_ROOT.rglob("work-manifest.json"))
+        if ".git" not in path.parts and ".claude" not in path.parts
     )
     for manifest_path in manifest_paths:
         if "invalid" in manifest_path.parts:
