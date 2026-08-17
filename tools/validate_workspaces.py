@@ -17,7 +17,7 @@ sys.path.insert(0, str(INTEGRATION / "validators"))
 from validate import SchemaSet, load_json, semantic_work_manifest, work_identity_errors  # noqa: E402
 
 
-BINDING_CANON_STATUSES = {"ACCEPTED", "PROVISIONAL", "DEFERRED"}
+BINDING_CANON_STATUSES = {"ACCEPTED", "PROVISIONAL"}
 INVALID_FIXTURE_ROOT = INTEGRATION / "fixtures/invalid"
 
 
@@ -111,15 +111,28 @@ def binding_decision_errors(
     accepted_on: Any,
     decisions: dict[str, dict[str, Any]],
     path: str,
+    expected_setting_id: str | None = None,
+    expected_decision_root: Path | None = None,
 ) -> list[str]:
-    record = decisions.get(decision_uri) if isinstance(decision_uri, str) else None
-    if record is None:
+    entry = decisions.get(decision_uri) if isinstance(decision_uri, str) else None
+    if entry is None:
         return [f"{path}: unresolved Author decision {decision_uri!r}"]
+    record = entry["document"]
     errors: list[str] = []
     if record.get("workflow_status") != "ACCEPTED" or record.get("canon_status") not in BINDING_CANON_STATUSES:
         errors.append(f"{path}: decision is not an accepted binding governance record")
     if accepted_on is not None and record.get("accepted_on") != accepted_on:
         errors.append(f"{path}: acceptance date does not match the decision record")
+    if expected_setting_id is not None and record.get("setting_id") != expected_setting_id:
+        errors.append(
+            f"{path}: decision belongs to another setting or is not setting-local "
+            f"(expected {expected_setting_id!r})"
+        )
+    if expected_decision_root is not None:
+        try:
+            entry["path"].relative_to(expected_decision_root)
+        except ValueError:
+            errors.append(f"{path}: approval decision is outside the setting decisions root")
     return errors
 
 
@@ -142,8 +155,11 @@ def validate_setting(
     if path.resolve() != expected_path:
         errors.append(f"$: setting manifest must use canonical path {expected_path.relative_to(ROOT)}")
     index_path = normalized_scoped_path(document["index_path"], root_value)
+    expected_index = (ROOT / root_path / "indexes/INDEX.md").resolve()
     if index_path is None:
         errors.append("$.index_path: must remain within setting_root")
+    elif index_path != expected_index:
+        errors.append("$.index_path: must use <setting_root>/indexes/INDEX.md")
     elif not index_path.is_file():
         errors.append("$.index_path: setting-local index does not exist")
     workflow = document["workflow_status"]
@@ -164,10 +180,53 @@ def validate_setting(
                 binding_decision_errors(
                     document["approval_decision_uri"], document["accepted_on"], decisions,
                     "$.approval_decision_uri",
+                    setting_id,
+                    ROOT / root_path / "decisions",
                 )
             )
     elif document.get("accepted_on") is not None or document.get("approval_decision_uri") is not None:
         errors.append("$: nonbinding setting cannot carry Author acceptance fields")
+    return errors
+
+
+def validate_setting_pairing(
+    path: Path,
+    document: dict[str, Any],
+) -> list[str]:
+    """Require the human constitution paired with every real setting manifest."""
+    root_value = str(document.get("setting_root", ""))
+    valid_roots = (
+        "worldbuilding/settings/",
+        "litrpg-system/story-integration/fixtures/valid/settings/",
+    )
+    if not root_value.startswith(valid_roots):
+        return []
+    errors: list[str] = []
+    constitution_path = ROOT / root_value / "setting-constitution.md"
+    if not constitution_path.is_file():
+        return [f"$: real setting lacks paired {constitution_path.relative_to(ROOT)}"]
+    fields, parse_errors = markdown_fields(constitution_path.read_text(encoding="utf-8"))
+    errors.extend(f"{constitution_path.relative_to(ROOT)}: {error}" for error in parse_errors)
+    allowed_fields = {"setting_id", "display_code", "workflow_status", "canon_status", "setting_manifest"}
+    unknown = set(fields) - allowed_fields
+    if unknown:
+        errors.append(
+            f"{constitution_path.relative_to(ROOT)}: unknown constitution fields {sorted(unknown)}"
+        )
+    expected = {
+        "setting_id": document.get("setting_id"),
+        "workflow_status": document.get("workflow_status"),
+        "canon_status": document.get("canon_status"),
+        "setting_manifest": path.name,
+    }
+    for field, machine in expected.items():
+        if fields.get(field) != machine:
+            errors.append(
+                f"{constitution_path.relative_to(ROOT)}: {field} {fields.get(field)!r} "
+                f"does not match machine authority {machine!r}"
+            )
+    if not fields.get("display_code"):
+        errors.append(f"{constitution_path.relative_to(ROOT)}: display_code is required")
     return errors
 
 
@@ -194,7 +253,8 @@ def validate_work_authorities(
             errors.append(f"{path}.decision_uri: duplicate adopted guardrail")
         if isinstance(decision_uri, str):
             seen_guardrails.add(decision_uri)
-        record = decisions.get(decision_uri)
+        entry = decisions.get(decision_uri)
+        record = entry["document"] if entry is not None else None
         errors.extend(binding_decision_errors(decision_uri, None, decisions, f"{path}.decision_uri"))
         if record is not None and adoption.get("effective_revision") not in {
             record.get("id"), record.get("display_code")
@@ -205,6 +265,16 @@ def validate_work_authorities(
         path = f"$.adopted_shared_world_refs[{index}]"
         if isinstance(reference, str) and reference.startswith("author-decision://"):
             errors.extend(binding_decision_errors(reference, None, decisions, path))
+            entry = decisions.get(reference)
+            record = entry["document"] if entry is not None else None
+            if (
+                document.get("setting_scope") == "SHARED_WORLD"
+                and record is not None
+                and record.get("setting_id") != setting_id
+            ):
+                errors.append(
+                    f"{path}: decision belongs to another setting or is not setting-local"
+                )
         elif isinstance(reference, str) and reference.startswith("canon://world/"):
             record = world_records.get(reference)
             if record is None:
@@ -270,6 +340,7 @@ def validate_eval(path: Path, document: dict[str, Any], schemas: SchemaSet) -> l
 
 def main() -> int:
     schemas = SchemaSet(INTEGRATION / "schemas")
+    governance_schemas = SchemaSet(ROOT / "governance/schemas")
     errors: list[str] = []
     template_contracts = (
         (
@@ -297,10 +368,55 @@ def main() -> int:
         set((ROOT / "governance/decisions").glob("**/*.decision.json"))
         | set((ROOT / "worldbuilding/decisions").glob("**/*.decision.json"))
         | set(ROOT.glob("worldbuilding/settings/**/decisions/**/*.decision.json"))
+        | set((INTEGRATION / "fixtures/valid/settings").glob("**/decisions/**/*.decision.json"))
     ):
         document = load_json(path)
-        if isinstance(document, dict) and isinstance(document.get("decision_uri"), str):
-            decisions[document["decision_uri"]] = document
+        if isinstance(document, dict):
+            schema_document = dict(document)
+            schema_document.pop("$schema", None)
+            file_errors = governance_schemas.validate(
+                schema_document, "decision-record.schema.json"
+            )
+            is_setting_fixture = path.is_relative_to(
+                INTEGRATION / "fixtures/valid/settings"
+            )
+            if is_setting_fixture and document.get("canon_status") in BINDING_CANON_STATUSES:
+                review_path = path.with_name(
+                    path.name.removesuffix(".decision.json") + ".md"
+                )
+                review = (
+                    review_path.read_text(encoding="utf-8")
+                    if review_path.is_file()
+                    else ""
+                )
+                setting_root = path.parents[1]
+                index_path = setting_root / "indexes/INDEX.md"
+                index = (
+                    index_path.read_text(encoding="utf-8")
+                    if index_path.is_file()
+                    else ""
+                )
+                if (
+                    str(document.get("id")) not in review
+                    or str(document.get("decision_uri")) not in review
+                ):
+                    file_errors.append(
+                        "$: binding setting fixture decision lacks an "
+                        "identity-matched human review surface"
+                    )
+                if (
+                    str(document.get("id")) not in index
+                    or str(document.get("decision_uri")) not in index
+                ):
+                    file_errors.append(
+                        "$: binding setting fixture decision is absent from "
+                        "its setting-local index"
+                    )
+            errors.extend(f"{path.relative_to(ROOT)}: {error}" for error in file_errors)
+            if isinstance(document.get("decision_uri"), str):
+                decisions[document["decision_uri"]] = {
+                    "document": document, "path": path.resolve()
+                }
     world_records: dict[str, dict[str, Any]] = {}
     world_record_paths = (
         set((ROOT / "worldbuilding/canon").glob("**/*.worldbuilding.json"))
@@ -310,8 +426,15 @@ def main() -> int:
     )
     for path in sorted(world_record_paths):
         document = load_json(path)
-        if isinstance(document, dict) and isinstance(document.get("record_uri"), str):
-            world_records[document["record_uri"]] = document
+        if isinstance(document, dict):
+            schema_document = dict(document)
+            schema_document.pop("$schema", None)
+            file_errors = governance_schemas.validate(
+                schema_document, "worldbuilding-record.schema.json"
+            )
+            errors.extend(f"{path.relative_to(ROOT)}: {error}" for error in file_errors)
+            if isinstance(document.get("record_uri"), str):
+                world_records[document["record_uri"]] = document
 
     setting_manifests: dict[str, dict[str, Any]] = {}
     setting_paths = sorted(
@@ -324,6 +447,9 @@ def main() -> int:
             errors.append(f"{path.relative_to(ROOT)}: $: root must be an object")
             continue
         file_errors = validate_setting(path, document, schemas, decisions)
+        file_errors.extend(
+            validate_setting_pairing(path, document)
+        )
         setting_id = document.get("setting_id")
         if setting_id in setting_manifests:
             file_errors.append("$.setting_id: duplicate setting identity")
@@ -444,6 +570,37 @@ def main() -> int:
                 f"{path.relative_to(ROOT)}: expected targeted failure {expected!r}; found {file_errors}"
             )
 
+    cross_setting_path = (
+        INTEGRATION
+        / "fixtures/workspaces/invalid/cross-setting-world-reference.workspace.json"
+    )
+    cross_setting = load_json(cross_setting_path)
+    cross_setting_errors: list[str] = []
+    if isinstance(cross_setting, dict):
+        fixture_work = cross_setting.get("work_manifest")
+        fixture_record = cross_setting.get("world_record")
+        if isinstance(fixture_work, dict) and isinstance(fixture_record, dict):
+            cross_setting_errors.extend(
+                schemas.validate(fixture_work, "work-manifest.schema.json")
+            )
+            cross_setting_errors.extend(semantic_work_manifest(fixture_work))
+            cross_setting_errors.extend(
+                governance_schemas.validate(
+                    fixture_record, "worldbuilding-record.schema.json"
+                )
+            )
+            fixture_uri = fixture_record.get("record_uri")
+            fixture_records = {fixture_uri: fixture_record} if isinstance(fixture_uri, str) else {}
+            cross_setting_errors.extend(
+                validate_work_authorities(fixture_work, decisions, fixture_records)
+            )
+    expected_cross_setting = "world record belongs to another setting"
+    if not any(expected_cross_setting in error for error in cross_setting_errors):
+        errors.append(
+            f"{cross_setting_path.relative_to(ROOT)}: expected targeted failure "
+            f"{expected_cross_setting!r}; found {cross_setting_errors}"
+        )
+
     if errors:
         print("workspace/evaluation validation failed:", file=sys.stderr)
         for error in errors:
@@ -452,7 +609,7 @@ def main() -> int:
     print(
         f"workspace/evaluation validation passed: {len(work_manifests)} work manifests, "
         f"{len(setting_manifests)} setting manifests, {eval_count} workflow evals, "
-        f"{len(invalid_eval_expectations) + len(invalid_workspace_expectations)} rejected workspace/eval fixtures"
+        f"{len(invalid_eval_expectations) + len(invalid_workspace_expectations) + 1} rejected workspace/eval fixtures"
     )
     return 0
 

@@ -1,0 +1,10 @@
+{
+  "schema_version": "1.0.0",
+  "setting_id": "setting://continuity-one",
+  "title": "Continuity One",
+  "setting_root": "worldbuilding/settings/continuity-one",
+  "workflow_status": "DRAFT",
+  "canon_status": "PROPOSED",
+  "index_path": "worldbuilding/settings/continuity-one/indexes/INDEX.md",
+  "adopting_work_ids": []
+}

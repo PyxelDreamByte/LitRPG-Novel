@@ -4,8 +4,6 @@ display_code: "SET-SHARED-001"
 workflow_status: ACCEPTED
 canon_status: PROVISIONAL
 setting_manifest: "shared-universe-001.setting-manifest.json"
-accepted_on: "2026-08-13"
-approval_decision_uri: "author-decision://world/WLD-SETTING-001A"
 ---
 
 # Setting Constitution — Project Hearthway

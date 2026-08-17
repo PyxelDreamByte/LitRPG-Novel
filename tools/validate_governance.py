@@ -5,6 +5,7 @@ from __future__ import annotations
 
 import argparse
 import hashlib
+import re
 from pathlib import Path
 import sys
 from typing import Any
@@ -137,6 +138,47 @@ def evidence_file_errors(
     return errors
 
 
+def setting_local_identity(path: Path) -> tuple[str, str] | None:
+    """Return the setting slug/section for a setting-local authority record."""
+    try:
+        relative = path.relative_to(ROOT / "worldbuilding/settings")
+    except ValueError:
+        return None
+    if len(relative.parts) < 3:
+        return None
+    slug, section = relative.parts[:2]
+    if section not in {"decisions", "canon", "proposals"}:
+        return None
+    return slug, section
+
+
+def setting_local_errors(path: Path, document: dict[str, Any], kind: str) -> list[str]:
+    identity = setting_local_identity(path)
+    if identity is None:
+        return []
+    slug, section = identity
+    expected_setting_id = f"setting://{slug}"
+    errors: list[str] = []
+    if kind == "decision":
+        if section != "decisions":
+            errors.append("$: decision record must be stored beneath the setting decisions root")
+        if document.get("setting_id") != expected_setting_id:
+            errors.append(f"$.setting_id: must match setting-local authority {expected_setting_id!r}")
+    elif kind == "worldbuilding":
+        if section not in {"canon", "proposals"}:
+            errors.append("$: worldbuilding record must be stored beneath setting canon or proposals")
+        if document.get("setting_id") != expected_setting_id:
+            errors.append(f"$.setting_id: must match setting-local authority {expected_setting_id!r}")
+        expected_prefix = f"canon://world/{slug}/"
+        if not str(document.get("record_uri", "")).startswith(expected_prefix):
+            errors.append(f"$.record_uri: must remain beneath {expected_prefix!r}")
+        if section == "canon" and document.get("canon_status") not in {"ACCEPTED", "PROVISIONAL"}:
+            errors.append("$.canon_status: setting canon root requires a binding record")
+        if section == "proposals" and document.get("canon_status") != "PROPOSED":
+            errors.append("$.canon_status: setting proposals root requires PROPOSED status")
+    return errors
+
+
 def real_paths() -> list[Path]:
     paths: set[Path] = set()
     for pattern in (
@@ -177,6 +219,7 @@ def validate_set(
         ]
         file_errors.extend(schemas.validate(document, schema_name))
         file_errors.extend(semantic_record(document, kind))
+        file_errors.extend(setting_local_errors(path, document, kind))
         if kind == "evidence":
             file_errors.extend(
                 evidence_file_errors(
@@ -194,9 +237,20 @@ def validate_set(
     return errors, records
 
 
+def index_contains(text: str, value: Any) -> bool:
+    if not isinstance(value, str) or not value:
+        return False
+    token_chars = r"A-Za-z0-9:/._-"
+    return re.search(
+        rf"(?<![{token_chars}]){re.escape(value)}(?![{token_chars}])", text
+    ) is not None
+
+
 def cross_links(records: dict[str, dict[str, Any]], require_indexes: bool) -> list[str]:
     errors: list[str] = []
-    decisions = {key for key, value in records.items() if value["kind"] == "decision"}
+    decisions = {
+        key: value for key, value in records.items() if value["kind"] == "decision"
+    }
     world_index_path = ROOT / "worldbuilding/INDEX.md"
     world_index = world_index_path.read_text(encoding="utf-8") if world_index_path.is_file() else ""
     repository_index_path = ROOT / "governance/decisions/README.md"
@@ -206,56 +260,111 @@ def cross_links(records: dict[str, dict[str, Any]], require_indexes: bool) -> li
         else ""
     )
 
-    def world_index_for(path: Path) -> tuple[Path, str]:
-        settings_root = ROOT / "worldbuilding/settings"
-        try:
-            relative = path.relative_to(settings_root)
-        except ValueError:
-            return world_index_path, world_index
-        setting_index_path = settings_root / relative.parts[0] / "indexes/INDEX.md"
-        setting_index = (
-            setting_index_path.read_text(encoding="utf-8")
-            if setting_index_path.is_file()
-            else ""
-        )
-        return setting_index_path, setting_index
-
     for identity, record in records.items():
         document = record["document"]
         path = record["path"]
         if record["kind"] == "worldbuilding" and document.get("canon_status") in BINDING:
-            decision_uri = document.get("author_approval", {}).get("decision_uri")
-            if decision_uri not in decisions:
+            approval = document.get("author_approval", {})
+            decision_uri = approval.get("decision_uri")
+            decision = decisions.get(decision_uri)
+            if decision is None:
                 errors.append(f"{path.relative_to(ROOT)}: unresolved Author decision {decision_uri!r}")
+            else:
+                decision_document = decision["document"]
+                if (
+                    decision_document.get("workflow_status") != "ACCEPTED"
+                    or decision_document.get("canon_status") not in {"ACCEPTED", "PROVISIONAL"}
+                ):
+                    errors.append(
+                        f"{path.relative_to(ROOT)}: approval decision is not accepted usable authority"
+                    )
+                if decision_document.get("accepted_on") != approval.get("accepted_on"):
+                    errors.append(
+                        f"{path.relative_to(ROOT)}: approval date does not match Author decision"
+                    )
+                local_identity = setting_local_identity(path)
+                if local_identity is not None:
+                    slug, _section = local_identity
+                    expected_root = ROOT / "worldbuilding/settings" / slug / "decisions"
+                    try:
+                        decision["path"].relative_to(expected_root)
+                    except ValueError:
+                        errors.append(
+                            f"{path.relative_to(ROOT)}: approval decision is outside the setting decisions root"
+                        )
+                    if decision_document.get("setting_id") != document.get("setting_id"):
+                        errors.append(
+                            f"{path.relative_to(ROOT)}: approval decision belongs to another setting"
+                        )
         if require_indexes and document.get("canon_status") in BINDING:
+            local_identity = setting_local_identity(path)
+            if local_identity is None:
+                authority_index = world_index
+                authority_label = "worldbuilding/INDEX.md"
+            else:
+                slug, _section = local_identity
+                local_index_path = ROOT / "worldbuilding/settings" / slug / "indexes/INDEX.md"
+                authority_index = (
+                    local_index_path.read_text(encoding="utf-8")
+                    if local_index_path.is_file()
+                    else ""
+                )
+                authority_label = str(local_index_path.relative_to(ROOT))
             if record["kind"] == "decision":
+                if local_identity is not None and (
+                    document.get("domain") != "world"
+                    or not str(identity).startswith("author-decision://world/")
+                ):
+                    errors.append(
+                        f"{path.relative_to(ROOT)}: setting-local decision requires world domain and URI namespace"
+                    )
                 review_path = path.with_name(path.name.removesuffix(".decision.json") + ".md")
                 review = review_path.read_text(encoding="utf-8") if review_path.is_file() else ""
-                if document.get("id") not in review or identity not in review:
+                if not index_contains(review, document.get("id")) or not index_contains(review, identity):
                     errors.append(
                         f"{path.relative_to(ROOT)}: binding decision lacks an identity-matched human review/index surface"
                     )
-                record_index_path, record_index = world_index_for(path)
                 if identity.startswith("author-decision://world/") and (
-                    document.get("id") not in record_index or identity not in record_index
+                    not index_contains(authority_index, document.get("id")) or not index_contains(authority_index, identity)
                 ):
                     errors.append(
-                        f"{path.relative_to(ROOT)}: binding world decision is absent from "
-                        f"{record_index_path.relative_to(ROOT).as_posix()}"
+                        f"{path.relative_to(ROOT)}: binding world decision is absent from {authority_label}"
                     )
                 if identity.startswith("author-decision://repository/") and (
-                    document.get("id") not in repository_index or identity not in repository_index
+                    not index_contains(repository_index, document.get("id")) or not index_contains(repository_index, identity)
                 ):
                     errors.append(
                         f"{path.relative_to(ROOT)}: binding repository decision is absent from governance/decisions/README.md"
                     )
             elif record["kind"] == "worldbuilding":
-                record_index_path, record_index = world_index_for(path)
-                if document.get("id") not in record_index and identity not in record_index:
+                if not index_contains(authority_index, document.get("id")) and not index_contains(authority_index, identity):
                     errors.append(
-                        f"{path.relative_to(ROOT)}: binding world record is absent from "
-                        f"{record_index_path.relative_to(ROOT).as_posix()}"
+                        f"{path.relative_to(ROOT)}: binding world record is absent from {authority_label}"
                     )
+    return errors
+
+
+def setting_authority_resolution_errors(
+    records: dict[str, dict[str, Any]],
+) -> list[str]:
+    errors: list[str] = []
+    for record in records.values():
+        path = record["path"]
+        identity = setting_local_identity(path)
+        if identity is None:
+            continue
+        slug, _section = identity
+        root = ROOT / "worldbuilding/settings" / slug
+        manifest = root / f"{slug}.setting-manifest.json"
+        constitution = root / "setting-constitution.md"
+        if not manifest.is_file():
+            errors.append(
+                f"{path.relative_to(ROOT)}: setting-local authority lacks {manifest.relative_to(ROOT)}"
+            )
+        if not constitution.is_file():
+            errors.append(
+                f"{path.relative_to(ROOT)}: setting-local authority lacks {constitution.relative_to(ROOT)}"
+            )
     return errors
 
 
@@ -278,6 +387,7 @@ def main() -> int:
     args = parse_arguments()
     schemas = SchemaSet(ROOT / "governance/schemas")
     errors, real_records = validate_set(real_paths(), schemas)
+    errors.extend(setting_authority_resolution_errors(real_records))
     errors.extend(cross_links(real_records, require_indexes=True))
 
     valid_paths = sorted((FIXTURE_ROOT / "valid").glob("*.json"))

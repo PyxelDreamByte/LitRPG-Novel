@@ -5,6 +5,7 @@ display_code: "WLD-[DOMAIN]-[NUMBER][OPTION]"
 schema_version: "1.0.0"
 title: "[Decision title]"
 domain: world
+setting_id: "setting://[setting-slug]"
 workflow_status: DRAFT
 canon_status: PROPOSED
 scope: "[Exact setting boundary, or explicit project-default scope]"
@@ -18,6 +19,10 @@ structured_record: "[decision-id].decision.json"
 ---
 
 # [ID] — [Decision title]
+
+For a setting-local decision, retain `setting_id` and replace its slug. For a
+project-level default or deferral, omit `setting_id` from both the human and
+structured records.
 
 ## Question decided
 

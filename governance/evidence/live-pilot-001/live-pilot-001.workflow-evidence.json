@@ -8,7 +8,7 @@
   "canonicality": "NONCANONICAL_EVALUATION_ONLY",
   "promotion": "FORBIDDEN",
   "source_manifest": [
-    {"path": ".codex/agents/world-canon-auditor.toml", "revision": "content-pinned-live-pilot-001", "sha256": "sha256:9299b65eabb4b8be0463a57ade19159d72a3260f5ac110e4185e74326572d404"},
+    {"path": "governance/evidence/live-pilot-001/sources/world-canon-auditor.toml", "revision": "content-pinned-live-pilot-001", "sha256": "sha256:9299b65eabb4b8be0463a57ade19159d72a3260f5ac110e4185e74326572d404"},
     {"path": ".codex/agents/character-pov-auditor.toml", "revision": "content-pinned-live-pilot-001", "sha256": "sha256:9554c672bc58d5701e37baf92393aac2487fb24a8eab65c8114cc3c10206d169"},
     {"path": ".codex/agents/prose-editor.toml", "revision": "content-pinned-live-pilot-001", "sha256": "sha256:f7ee4241d389d0c8badce982531be332f1c674a03c873174ce5d4457cb2a3ed7"},
     {"path": "stories/experiments/isolation-suite/isolation-suite.work-manifest.json", "revision": "content-pinned-live-pilot-001", "sha256": "sha256:a4276f5e2429a5a608cbf3bb1bcf31cd365022353b2ad5ee1a2f2e6bddac6bf3"},
@@ -31,7 +31,8 @@
     "The pilot was read-only and produced no promoted or authoritative target artifact."
   ],
   "retained_files": [
-    "governance/evidence/live-pilot-001/raw-output.md"
+    "governance/evidence/live-pilot-001/raw-output.md",
+    "governance/evidence/live-pilot-001/sources/world-canon-auditor.toml"
   ],
   "approval": null,
   "evaluated_targets": ["world-canon-auditor", "character-pov-auditor", "prose-editor"],

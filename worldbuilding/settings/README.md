@@ -1,10 +1,20 @@
 # Setting Isolation
 
-The `setting://shared-universe-001` container is the first setting development
-frontier. Its identity and reciprocal relationship with
-`work://series/project-hearthway-main` are `ACCEPTED` / `PROVISIONAL`, and it
-contains eighteen bounded provisional setting records. No fictional setting record
-is fully accepted. Each additional setting follows the same isolated structure:
+Two real setting containers currently exist:
+
+- [`Project Hearthway`](shared-universe-001/) — stable ID
+  `setting://shared-universe-001`, temporary display title,
+  `ACCEPTED` / `PROVISIONAL` identity with a reciprocal
+  `work://series/project-hearthway-main` relationship and eighteen bounded
+  provisional setting records. No fictional setting record is fully accepted.
+- [`Continuity One`](continuity-one/) — stable ID `setting://continuity-one`,
+  provisional display title, `DRAFT`/`PROPOSED`, with no accepted detailed
+  setting canon or adopting works.
+
+The overlap between these two shared-setting containers is an open Author
+question; neither supersedes the other until an explicit decision says so.
+
+When the Author begins another setting, create:
 
 ```text
 worldbuilding/settings/<setting-slug>/
@@ -41,3 +51,28 @@ manifest explicitly adopts its decision URI, adopted scope, and effective
 decision ID (for example, `WLD-SOUL-001A`); an empty adoption list means none
 are adopted. `ACCEPTED` or `PROVISIONAL` setting authority additionally
 requires `accepted_on` and an indexed `approval_decision_uri`.
+
+## Setting-first bootstrap
+
+A real shared setting may begin before any story work exists. Before its
+manifest exists, a bounded `SETTING_INIT` run may decide only the setting's
+identity, slug, title, authority envelope, constitutional scope, and proposed
+shell location/status. After explicit Author approval it creates the empty
+`DRAFT`/`PROPOSED` shell and setting-local initiation decision, then stops.
+
+During subsequent bounded setting-authority work, before or after works adopt the setting:
+
+- the discoverable setting manifest and paired `setting-constitution.md` are
+  the authoring boundary;
+- `adopting_work_ids` remains reciprocal with every adopting work manifest;
+- proposals, decisions, canon, and indexes stay beneath the declared
+  `setting_root`;
+- setting-local structured decisions declare the matching `setting_id`;
+- no work manifest, story contract, protagonist, character, outline, or chapter
+  is created to satisfy the workflow; and
+- project defaults are never inherited silently. Work-level adoption requires a
+  work manifest. Before a work exists, the Author may instead approve a
+  setting-local rule with explicit provenance and scope.
+
+After the setting becomes accepted or provisional authority, a separately
+approved work may adopt it through reciprocal manifest references.

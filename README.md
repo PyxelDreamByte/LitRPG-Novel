@@ -20,7 +20,7 @@ The Author is the sole authority for accepting canon, plot, voice, and changes t
 - [`litrpg-system/story-integration/`](litrpg-system/story-integration/) — machine-readable chapter, progression, and state contracts.
 - [`.agents/skills/`](.agents/skills/) — Author-callable repository workflows.
 - [`.codex/agents/`](.codex/agents/) — specialist drafting and review roles.
-- [`worldbuilding/`](worldbuilding/) — project defaults plus isolated settings, including the provisionally authorized Project Hearthway development container.
+- [`worldbuilding/`](worldbuilding/) — project defaults plus isolated settings: the provisionally authorized Project Hearthway development container and the Continuity One proposed setting shell.
 - [`characters/`](characters/) — profiles, knowledge, relationships, arcs, and story state.
 - [`stories/`](stories/) — series, books, shorter fiction, and drafting templates.
 - [`research/`](research/) — non-canonical evidence and inspiration.
@@ -59,13 +59,23 @@ three-lobed living-vault body plan and mobile shelter–forage–regroup care
   unladen-downhill and laden-uphill lake-road journey anchors, plus its
   recurring upper-shore staging place and several short seasonal spurs to
   changeable nearby shore contacts, are also provisional; no detailed
-  fictional record is yet fully accepted. Two reusable provisional
-human-reference modelling defaults are also recorded: rare-Soul prevalence
-`0.001` with typed non-scalar Souls, and no ordinary persistent self-aware
-continuity or directed prenatal System practice in population models. A future
-work must explicitly adopt either default; the main series currently adopts
-neither, and neither silently binds Project Hearthway or an independent world.
-Universal rarity proportions are
+  fictional record is yet fully accepted.
+
+A second shared-setting shell exists at
+[`worldbuilding/settings/continuity-one/`](worldbuilding/settings/continuity-one/).
+Its stable ID is `setting://continuity-one`; `Continuity One` is a provisional
+display title. Its manifest and constitution are `DRAFT`/`PROPOSED`, its layered
+foundation map is unanswered, and it has no adopting works or accepted detailed
+setting canon. The relationship between the two shared-setting containers is an
+open Author question; neither supersedes the other until an explicit decision
+says so.
+
+Two reusable provisional human-reference modelling defaults are also recorded:
+rare-Soul prevalence `0.001` with typed non-scalar Souls, and no ordinary
+persistent self-aware continuity or directed prenatal System practice in
+population models. A future work must explicitly adopt either default; the main
+series currently adopts neither, and neither silently binds Project Hearthway,
+Continuity One, or an independent world. Universal rarity proportions are
 Author-deferred until their object type, rarity dimension, eligible denominator,
 population, period, and evidence are defined. See
 [`worldbuilding/INDEX.md`](worldbuilding/INDEX.md).
@@ -95,5 +105,5 @@ agents, non-CAL0 JSON, CAL0, its regression suite, generated routing indexes,
 and the current story-integration schemas and fixtures. Use
 `python3 tools/validate_system.py` only for the narrower System gate. Neither
 command proves that the multi-agent chapter workflow produces publication-ready
-fiction; that requires the pending workflow evaluations and a successful pilot
-described in [`governance/evals/`](governance/evals/).
+fiction; that requires the pending workflow evaluations and further successful
+end-to-end evidence described in [`governance/evals/`](governance/evals/).
