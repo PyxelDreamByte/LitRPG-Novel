@@ -161,7 +161,7 @@ def validate_non_cal0_json() -> tuple[list[str], int]:
     count = 0
     for path in sorted(ROOT.rglob("*.json")):
         relative = path.relative_to(ROOT)
-        if relative.parts[:2] == ("litrpg-system", "cal0"):
+        if relative.parts[0] == ".git" or relative.parts[:2] == ("litrpg-system", "cal0"):
             continue
         count += 1
         try:

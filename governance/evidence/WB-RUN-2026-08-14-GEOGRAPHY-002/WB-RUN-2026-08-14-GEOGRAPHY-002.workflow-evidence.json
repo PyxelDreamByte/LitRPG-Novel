@@ -14,7 +14,7 @@
       "sha256": "sha256:b1680420b95ab90d7ca7df55f29e7281a1c36711c671efd9ff0e750c57beeac0"
     },
     {
-      "path": "stories/series/project-hearthway-main/workbench/runs/2026-08-14-initial-outlet-mixed-reach-sequence/proposal.md",
+      "path": "governance/evidence/WB-RUN-2026-08-14-GEOGRAPHY-002/sources/option-capture-proposal.md",
       "revision": "WLD-GEOGRAPHY-002-option-capture@2026-08-14",
       "sha256": "sha256:09ad4c02f5765b9af05a0b0d363772f07c2c2368d80088c2efa355b61dd6e38c"
     }
@@ -178,7 +178,8 @@
     "governance/evidence/WB-RUN-2026-08-14-GEOGRAPHY-002/approved-change-set.md",
     "governance/evidence/WB-RUN-2026-08-14-GEOGRAPHY-002/final-findings.md",
     "governance/evidence/WB-RUN-2026-08-14-GEOGRAPHY-002/validation-summary.md",
-    "governance/evidence/WB-RUN-2026-08-14-GEOGRAPHY-002/WB-RUN-2026-08-14-GEOGRAPHY-002.workflow-evidence.json"
+    "governance/evidence/WB-RUN-2026-08-14-GEOGRAPHY-002/WB-RUN-2026-08-14-GEOGRAPHY-002.workflow-evidence.json",
+    "governance/evidence/WB-RUN-2026-08-14-GEOGRAPHY-002/sources/option-capture-proposal.md"
   ],
   "approval": {
     "decision_uri": "author-decision://world/WLD-GEOGRAPHY-002A",

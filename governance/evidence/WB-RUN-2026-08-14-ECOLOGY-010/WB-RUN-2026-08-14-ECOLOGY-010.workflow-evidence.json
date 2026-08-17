@@ -14,7 +14,7 @@
       "sha256": "sha256:4263b6231819934c48c22278ad4bb458ea28cabef052e008a583112f753f1a96"
     },
     {
-      "path": "stories/series/project-hearthway-main/workbench/runs/2026-08-14-basin-lake-family-care-migrant-outlet-passage/proposal.md",
+      "path": "governance/evidence/WB-RUN-2026-08-14-ECOLOGY-010/sources/option-capture-proposal.md",
       "revision": "WLD-ECOLOGY-010-option-capture@2026-08-14",
       "sha256": "sha256:18f8aca8b98d917821787c63521f295238922e08e249592d57ab7be7af191d6c"
     }
@@ -170,7 +170,8 @@
     "governance/evidence/WB-RUN-2026-08-14-ECOLOGY-010/approved-change-set.md",
     "governance/evidence/WB-RUN-2026-08-14-ECOLOGY-010/final-findings.md",
     "governance/evidence/WB-RUN-2026-08-14-ECOLOGY-010/validation-summary.md",
-    "governance/evidence/WB-RUN-2026-08-14-ECOLOGY-010/WB-RUN-2026-08-14-ECOLOGY-010.workflow-evidence.json"
+    "governance/evidence/WB-RUN-2026-08-14-ECOLOGY-010/WB-RUN-2026-08-14-ECOLOGY-010.workflow-evidence.json",
+    "governance/evidence/WB-RUN-2026-08-14-ECOLOGY-010/sources/option-capture-proposal.md"
   ],
   "approval": {
     "decision_uri": "author-decision://world/WLD-ECOLOGY-010A",

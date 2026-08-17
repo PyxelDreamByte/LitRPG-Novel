@@ -14,7 +14,7 @@
       "sha256": "sha256:370756a5e2d3b32ca7aab281e4aad9d4e58ead02eb1e78c1f9809c5a050cda74"
     },
     {
-      "path": "stories/series/project-hearthway-main/workbench/runs/2026-08-14-basin-lake-family-care-migrant-body-plan/proposal.md",
+      "path": "governance/evidence/WB-RUN-2026-08-14-ECOLOGY-009/sources/option-capture-proposal.md",
       "revision": "WLD-ECOLOGY-009-option-capture@2026-08-14",
       "sha256": "sha256:204228cf4a515f8651ad4a3440f8e9743c50ef62d082fc8e5a2a4ef67245bfbf"
     }
@@ -161,7 +161,8 @@
     "governance/evidence/WB-RUN-2026-08-14-ECOLOGY-009/approved-change-set.md",
     "governance/evidence/WB-RUN-2026-08-14-ECOLOGY-009/final-findings.md",
     "governance/evidence/WB-RUN-2026-08-14-ECOLOGY-009/validation-summary.md",
-    "governance/evidence/WB-RUN-2026-08-14-ECOLOGY-009/WB-RUN-2026-08-14-ECOLOGY-009.workflow-evidence.json"
+    "governance/evidence/WB-RUN-2026-08-14-ECOLOGY-009/WB-RUN-2026-08-14-ECOLOGY-009.workflow-evidence.json",
+    "governance/evidence/WB-RUN-2026-08-14-ECOLOGY-009/sources/option-capture-proposal.md"
   ],
   "approval": {
     "decision_uri": "author-decision://world/WLD-ECOLOGY-009A",

@@ -14,7 +14,7 @@
       "sha256": "sha256:de4ce3ca815815720a70f5e37e8e55f1637042e47e45b5fbbb2ad5416e7da59a"
     },
     {
-      "path": "stories/series/project-hearthway-main/workbench/runs/2026-08-15-initial-ridge-spur-lake-road-practical-travel-scale/proposal.md",
+      "path": "governance/evidence/WB-RUN-2026-08-15-LOCATION-002/sources/option-capture-proposal.md",
       "revision": "WLD-LOCATION-002-option-capture@2026-08-15",
       "sha256": "sha256:19785f0c62eb67cbbd227eb4fbb1faed6ab1edca4f6ea8b45cf15122462230a0"
     }
@@ -147,7 +147,8 @@
     "governance/evidence/WB-RUN-2026-08-15-LOCATION-002/approved-change-set.md",
     "governance/evidence/WB-RUN-2026-08-15-LOCATION-002/final-findings.md",
     "governance/evidence/WB-RUN-2026-08-15-LOCATION-002/validation-summary.md",
-    "governance/evidence/WB-RUN-2026-08-15-LOCATION-002/WB-RUN-2026-08-15-LOCATION-002.workflow-evidence.json"
+    "governance/evidence/WB-RUN-2026-08-15-LOCATION-002/WB-RUN-2026-08-15-LOCATION-002.workflow-evidence.json",
+    "governance/evidence/WB-RUN-2026-08-15-LOCATION-002/sources/option-capture-proposal.md"
   ],
   "approval": {
     "decision_uri": "author-decision://world/WLD-LOCATION-002A",
