@@ -11,7 +11,7 @@ shared-setting containers is an open Author question.
 **LitRPG System:** CAL0 v0.7.0, `VALIDATED_BASELINE_WITH_BOUNDED_RESIDUALS`  
 **Canonical System specification:** v0.89  
 **Calibration annex:** v2.9  
-**Parameter status:** `AUTHORING_VALIDATED_PROVISIONAL`
+**Parameter status:** `AUTHORING_VALIDATED_PROVISIONAL`  
 **Detailed worldbuilding:** Project Hearthway identity and main-series
 relationship; bounded Lineage II vegetation-architect, fermentation-lattice,
 two-stage symbiont-inheritance, and peripheral-migration ecology; the basin

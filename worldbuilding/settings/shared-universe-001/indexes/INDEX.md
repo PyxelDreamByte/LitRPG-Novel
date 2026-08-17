@@ -3,7 +3,7 @@
 **Setting ID:** `setting://shared-universe-001`  
 **Editorial title:** `Project Hearthway` (temporary)  
 **Workflow status:** `ACCEPTED`  
-**Canon status:** `PROVISIONAL`—identity and work relationship only  
+**Canon status:** `PROVISIONAL`—the setting identity, the work relationship, and the eighteen bounded records below; nothing fully accepted  
 **Accepted setting canon:** none  
 **Provisional setting records:** eighteen  
 **Adopting works:** `work://series/project-hearthway-main`
@@ -142,7 +142,8 @@ workflow, but they remain non-canonical until their own gates.
 3. Develop any additional cross-basin migration, traveller-carried animal, imported
    biological product, or nonlocal tale through its own bounded proposal with
    an explicit presence class and evidence source.
-4. Split the remaining staging capture into atomic geography, history, culture,
-   ecology, and location proposals.
+4. Split the remaining staging capture into bounded history, culture, other
+   locations, and current-events proposals; geography, ecology, and initial
+   location records above already carry their bounded selections.
 5. Review dependencies, contradictions, logistics, knowledge boundaries, and CAL0 implications.
 6. Develop and approve the main series contract separately from setting canon.

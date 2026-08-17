@@ -1,8 +1,8 @@
 # Worldbuilding Index
 
 **Accepted detailed setting canon:** none  
-**Provisional detailed setting records:** eighteen
-**Instantiated settings:** two — one provisionally authorized, one proposed shell
+**Provisional detailed setting records:** eighteen  
+**Instantiated settings:** two — one provisionally authorized, one proposed shell  
 **Project-level provisional defaults:** two  
 **Project-level deferred distributions:** one
 

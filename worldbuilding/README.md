@@ -1,8 +1,11 @@
 # Worldbuilding
 
 This directory holds reusable project-level worldbuilding governance and, when
-created, isolated settings. One provisionally authorized setting-development
-container now exists; it has no fully accepted fictional canon.
+created, isolated settings. Two real setting containers now exist: the
+provisionally authorized Project Hearthway development container (no fully
+accepted fictional canon) and the Continuity One proposed shell (no detailed
+worldbuilding at all). Their relationship is an open Author question recorded
+in [`INDEX.md`](INDEX.md).
 
 - [`INDEX.md`](INDEX.md) routes readers to accepted setting facts and open decisions.
 - `decisions/` currently records project-level defaults and deferrals; these are not detailed world canon.
@@ -21,6 +24,10 @@ container now exists; it has no fully accepted fictional canon.
   travel-scale record, plus one bounded upper-shore staging-and-seasonal-spur
   endpoint record; all
   other detailed fictional material remains proposed.
+- [`settings/continuity-one/`](settings/continuity-one/) is a `DRAFT` /
+  `PROPOSED` shared-setting shell with an accepted initiation decision
+  (`WLD-CONTINUITY-INIT-001A`), no adopting works, and no detailed setting
+  records.
 - Root `canon/`, `proposals/`, and `indexes/` are legacy/reserved and must not receive new setting-specific facts.
 - `templates/` contains proposal and decision templates.
 
