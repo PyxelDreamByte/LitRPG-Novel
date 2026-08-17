@@ -8,15 +8,19 @@
 
 Setting development has begun for the shared universe temporarily titled
 `Project Hearthway`. Its stable identity, main-series relationship, and
-thirty-two
+forty-three
 bounded records—four for Lineage II, six for the basin's coupled ecology, lake
 migration, both migrants' foundational body plans, selected mass-breeder
 fluid-and-trim physiology, and selected family-care outlet choreography, two
 for the initial-region physical scaffold and outlet mixed-reach sequence, and
-three for basin flora, plus three for the initial ridge-spur settlement working
-landscape, its lake-road practical travel scale, and its upper-shore staging and
-seasonal-spur endpoint arrangement, one for the imperial collapse arc and
-neighbor frame, one for the planetary faunal lineage roster, one for the
+three for basin flora, plus five for the initial ridge-spur settlement working
+landscape, its lake-road practical travel scale, its upper-shore staging and
+seasonal-spur endpoint arrangement, the imperial-remnant corridor skeleton, and
+the outlet industrial-remnant settlement, one for the imperial collapse arc and
+neighbor frame, eight for the settlement's cultural fabric, founder compact,
+the two ancestor cultures, founding-fusion blend, lifecycle rites, language
+landscape, and exchange media, one for the story-start standing pressures, one
+for the planetary faunal lineage roster, one for the
 planetary floral kingdom roster, five for the tower-flora, water-flora,
 free-seeder, thread-decomposer, and crust-and-cushion growth architectures,
 and six for the Lineage I, III, VI, IV, V, and VII foundational body

@@ -1,6 +1,6 @@
 # Canon
 
-No fully accepted Project Hearthway setting record exists. Thirty-two bounded
+No fully accepted Project Hearthway setting record exists. Forty-three bounded
 provisional setting records are available for declared downstream use:
 
 - [`WLD-ECOLOGY-001`](ecology/WLD-ECOLOGY-001.md) — Lineage II

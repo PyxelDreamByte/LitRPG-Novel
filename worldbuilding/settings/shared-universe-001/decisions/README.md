@@ -86,6 +86,6 @@
   three-branch restructuring, the provisional Lineage VII foundational body
   plan and filter-ancestral life-mode axis recorded by `WLD-FAUNA-007`.
 
-No fictional Project Hearthway claim has been fully accepted; the thirty-two setting
+No fictional Project Hearthway claim has been fully accepted; the forty-three setting
 records above have bounded provisional authority. A displayed working name or
 conversational preference is not, by itself, a canon-promotion transaction.
