@@ -1,0 +1,112 @@
+{
+  "$schema": "../../schemas/workflow-evidence-manifest.schema.json",
+  "schema_version": "1.0.0",
+  "run_id": "run://develop-worldbuilding/WB-RUN-2026-08-14-LINEAGE-II-004",
+  "evidence_kind": "ACCEPTED_OUTCOME",
+  "workflow": "develop-worldbuilding+author-decision",
+  "completed_on": "2026-08-14",
+  "canonicality": "ACCEPTED",
+  "promotion": "ALLOWED_WITH_AUTHOR_GATE",
+  "source_manifest": [
+    {
+      "path": "stories/series/project-hearthway-main/project-hearthway-main.work-manifest.json",
+      "revision": "pre-WLD-ECOLOGY-004-adoption@2026-08-14",
+      "sha256": "sha256:05d56a745805e259244f707f78432c76425d0487de70bc503dcfed134d827644"
+    },
+    {
+      "path": "worldbuilding/settings/shared-universe-001/proposals/WLD-ECOLOGY-004.md",
+      "revision": "WLD-ECOLOGY-004-proposal@2026-08-14",
+      "sha256": "sha256:8881b121928a14cc1c424f908cf4d7b14e418f39e5224ed4c3db9b064372e87d"
+    }
+  ],
+  "target_artifacts": [
+    {
+      "path": "worldbuilding/settings/shared-universe-001/decisions/WLD-ECOLOGY-004A.decision.json",
+      "revision": "WLD-ECOLOGY-004A@2026-08-14",
+      "sha256": "sha256:324ee45969f3f16b783440f5886027443004df7a7ba8d87caacd0d16cd553be4"
+    },
+    {
+      "path": "worldbuilding/settings/shared-universe-001/decisions/WLD-ECOLOGY-004A.md",
+      "revision": "WLD-ECOLOGY-004A@2026-08-14",
+      "sha256": "sha256:89f3ae9ae8333c3b2bd1fb29c75c4b0f1e4b7f2eafa6f95596bb6748df785a28"
+    },
+    {
+      "path": "worldbuilding/settings/shared-universe-001/canon/ecology/WLD-ECOLOGY-004.worldbuilding.json",
+      "revision": "WLD-ECOLOGY-004@2026-08-14",
+      "sha256": "sha256:3c8e99da8c93265c36372edb0c2c3a6f9e55db55d196142b82ec9c1fcaa437a8"
+    },
+    {
+      "path": "worldbuilding/settings/shared-universe-001/canon/ecology/WLD-ECOLOGY-004.md",
+      "revision": "WLD-ECOLOGY-004@2026-08-14",
+      "sha256": "sha256:29cc966b224d92af0babf8d2111e0d8a50e2de320471e9fd3d87783540fb1543"
+    },
+    {
+      "path": "worldbuilding/settings/shared-universe-001/canon/ecology/WLD-ECOLOGY-001.worldbuilding.json",
+      "revision": "reconciled-for-WLD-ECOLOGY-004@2026-08-14",
+      "sha256": "sha256:24926d2d80636972fc526c3072014e17770873ac2d134507f48ba92d23aa2e3d"
+    },
+    {
+      "path": "worldbuilding/settings/shared-universe-001/canon/ecology/WLD-ECOLOGY-001.md",
+      "revision": "reconciled-for-WLD-ECOLOGY-004@2026-08-14",
+      "sha256": "sha256:5b562ab59c4ed01b070a354818439dbce82fe4b21b9e2a7494c8c62e86de7591"
+    },
+    {
+      "path": "worldbuilding/settings/shared-universe-001/indexes/INDEX.md",
+      "revision": "WLD-ECOLOGY-004-indexed@2026-08-14",
+      "sha256": "sha256:660e62bb40a6e3465a1bcbd12ebc4d01cffee6c4858f5b706e7217ccf50f3c2d"
+    },
+    {
+      "path": "worldbuilding/settings/shared-universe-001/setting-constitution.md",
+      "revision": "WLD-ECOLOGY-004-reconciled@2026-08-14",
+      "sha256": "sha256:a7a17e928a109c11eb79d1b4b31ab5c48bde4061abe8cd5da6a76ef497b6c3ef"
+    },
+    {
+      "path": "worldbuilding/INDEX.md",
+      "revision": "WLD-ECOLOGY-004-indexed@2026-08-14",
+      "sha256": "sha256:f62945e68250b26d963cd591db475c7ee0aa643ae9298a31d7d81c8fe9b11334"
+    },
+    {
+      "path": "stories/series/project-hearthway-main/project-hearthway-main.work-manifest.json",
+      "revision": "WLD-ECOLOGY-004-adopted@2026-08-14",
+      "sha256": "sha256:a008f11a5d9089eae8b3b8c46cbbd46d415f67e773dc151c56b04b934d6a242e"
+    },
+    {
+      "path": "stories/series/project-hearthway-main/work-manifest.md",
+      "revision": "WLD-ECOLOGY-004-adopted@2026-08-14",
+      "sha256": "sha256:fc4ecfa616fd82cc49e4b9214e21cb66124b96794fba6c8fb41d92f7520070c4"
+    },
+    {
+      "path": "stories/series/project-hearthway-main/work-contract.md",
+      "revision": "WLD-ECOLOGY-004-adopted@2026-08-14",
+      "sha256": "sha256:5b3fa26195e323584a2b69fe5149cc48654421f6b419b319c486ea72bde34ccd"
+    }
+  ],
+  "findings": [
+    "PASS: the seven promoted claims match the Author-approved corridor model.",
+    "PASS: no contradiction exists with WLD-ECOLOGY-001 through WLD-ECOLOGY-003.",
+    "PASS: dependency direction is acyclic; 004 depends on earlier records while 001 uses only a boundary cross-reference.",
+    "RESOLVED MINOR: unadopted historical and geographic premises were removed from research questions.",
+    "PASS: the model is ordinary CAL0 migration and population ecology with no System-event or progression change.",
+    "BOUNDARY PRESERVED: exact geography, calendar, herd scale, route memory, human practices, damage rates, and crisis frequency remain open."
+  ],
+  "validations": [
+    "git diff --check: PASS with no whitespace errors.",
+    "python tools/validate_governance.py: PASS with 16 repository records, 3 valid fixtures, and 5 rejected fixtures.",
+    "python tools/validate_workspaces.py: PASS with 4 work manifests, 2 setting manifests, 2 workflow evaluations, and 3 rejected fixtures.",
+    "python tools/validate_story_integration.py stories/series/project-hearthway-main/project-hearthway-main.work-manifest.json: PASS.",
+    "python tools/validate_repository.py: PASS including all 121 CAL0 regression tests."
+  ],
+  "retained_files": [
+    "governance/evidence/WB-RUN-2026-08-14-LINEAGE-II-004/WB-RUN-2026-08-14-LINEAGE-II-004.workflow-evidence.json",
+    "governance/evidence/WB-RUN-2026-08-14-LINEAGE-II-004/final-findings.md",
+    "governance/evidence/WB-RUN-2026-08-14-LINEAGE-II-004/approved-change-set.md",
+    "governance/evidence/WB-RUN-2026-08-14-LINEAGE-II-004/validation-summary.md"
+  ],
+  "approval": {
+    "decision_uri": "author-decision://world/WLD-ECOLOGY-004A",
+    "decided_by": "Author",
+    "decision": "ACCEPT",
+    "decided_on": "2026-08-14",
+    "evidence": "After the bounded predictable peripheral-corridor model was presented, the Author replied 'yes' on 2026-08-14."
+  }
+}

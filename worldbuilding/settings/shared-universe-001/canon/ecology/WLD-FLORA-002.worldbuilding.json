@@ -1,0 +1,76 @@
+{
+  "$schema": "../../../../../governance/schemas/worldbuilding-record.schema.json",
+  "schema_version": "1.0.0",
+  "id": "WLD-FLORA-002",
+  "record_uri": "canon://world/shared-universe-001/ecology/basin-reserve-web-modular-colonies",
+  "display_code": "WLD-FLORA-002",
+  "setting_id": "setting://shared-universe-001",
+  "title": "Basin reserve-web modular colonies",
+  "workflow_status": "ACCEPTED",
+  "canon_status": "PROVISIONAL",
+  "scope": "Spatial organization and local resource-sharing topology of the reserve-web vegetation guild in Project Hearthway's initial basin; usable within shared-setting ecology, geography, culture, economy, and story development.",
+  "claims": [
+    "The reserve-web guild's characteristic subsurface networks are organized into bounded modular colony patches.",
+    "Each patch contains numerous rooted growth modules connected through a spatially limited living network.",
+    "Living connections permit finite local sharing of resources among connected modules.",
+    "Damage can sever connections, isolate portions of a patch, and kill modules or sections when sufficiently severe.",
+    "Distinct colony patches do not join into one continuous basin-wide organism.",
+    "Local resource sharing within a patch does not constitute shared consciousness."
+  ],
+  "boundaries": [
+    "The exact number, size, age, shape, density, spacing, depth, and distribution of patches remain undefined.",
+    "Module anatomy, individuality, genetic relationship, developmental variation, and an individual module's independent viability remain undefined.",
+    "Connection anatomy, carriers, capacity, rate, directionality, losses, regulation, signalling, and failure modes remain undefined.",
+    "Threshold-based fragment viability and possible independent-patch stabilization are governed by canon://world/shared-universe-001/ecology/basin-reserve-web-fragment-viability; exact viability thresholds, stabilization timescale, wound response, reconnection, fusion, competition, parasitism, and disease spread remain undefined.",
+    "Growth, budding, reproduction, dispersal, dormancy, senescence, succession, and variation among guild members remain undefined.",
+    "Primary energy capture, gas exchange, soil, mineral, water, temperature, chemistry, and Mana requirements remain undefined.",
+    "No human recognition, terminology, cultivation, harvesting, management, ownership, law, belief, or cultural meaning is established.",
+    "Whether and how the System recognizes or appraises a module, patch, species, or guild remains undefined; no personal colony identity, shared level, pooled statistics, Skill, class, reward, or progression lineage is established.",
+    "Distinct patches do not form a basin-wide organism, and local resource sharing does not constitute shared consciousness.",
+    "The record establishes no ambient spawning, automatic refill, instant long-range transfer, guaranteed recovery, personal colony identity, shared level, or pooled statistics."
+  ],
+  "dependencies": [
+    "author-decision://world/WLD-SETTING-001A",
+    "author-decision://world/WLD-FLORA-001A",
+    "author-decision://world/WLD-FLORA-002A",
+    "canon://world/shared-universe-001/ecology/basin-reserve-web-vegetation-guild",
+    "CAL0 WLD1.1D",
+    "CAL0 WLD2.1A+D"
+  ],
+  "contradictions": [],
+  "story_implications": [
+    "Physical damage that severs living connections can fragment patches and produce uneven survival and recovery.",
+    "Severed sections can create persistent local gaps without causing an automatic basin-wide collapse or reset.",
+    "Characters may eventually learn to infer patch condition or boundaries, but no such knowledge or practice is established here."
+  ],
+  "system_implications": [
+    "Local resource sharing does not by itself create one personal System actor under CAL0 WLD1.1D.",
+    "Any resource transfer requires finite living carriers, capacity, time, compatible matter, and recoverable or irreversible consequences.",
+    "Patch growth and recovery follow ordinary causal life cycles under CAL0 WLD2.1A+D rather than spawning or refill behaviour."
+  ],
+  "research_questions": [
+    "What anatomical structures distinguish a module, connection, patch boundary, and disconnected section?",
+    "What controls patch size, connection density, age, expansion, competition, and spatial distribution?",
+    "Which materials move between modules, through what carriers, at what rates, losses, distances, and seasonal conditions?",
+    "What exact thresholds, timescales, wound responses, and reconnection conditions determine whether a qualifying isolated fragment stabilizes or fails?",
+    "How do patches grow, reproduce, disperse, enter dormancy, senesce, and vary among guild members?",
+    "How do grazing, trampling, fire, flood, frost, drought, disease, parasites, and mutualists alter network topology?",
+    "Does Mana support any ordinary patch function, and how would its inputs, transformation, capacity, and failures remain causal?",
+    "What observations could eventually let local people identify patch boundaries or condition without establishing that knowledge now?"
+  ],
+  "sources": [
+    "worldbuilding/settings/shared-universe-001/proposals/WLD-FLORA-002.md",
+    "canon://world/shared-universe-001/ecology/basin-reserve-web-vegetation-guild",
+    "CAL0 WLD1.1D",
+    "CAL0 WLD2.1A+D",
+    "Author selection on 2026-08-14"
+  ],
+  "supersedes": [],
+  "superseded_by": null,
+  "author_approval": {
+    "decision_uri": "author-decision://world/WLD-FLORA-002A",
+    "accepted_on": "2026-08-14",
+    "accepted_by": "Author",
+    "evidence": "The Author replied 'yes' after reviewing the bounded modular colony-patch recommendation on 2026-08-14."
+  }
+}

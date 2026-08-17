@@ -1,0 +1,154 @@
+{
+  "$schema": "../../schemas/workflow-evidence-manifest.schema.json",
+  "schema_version": "1.0.0",
+  "run_id": "run://develop-worldbuilding/WB-RUN-2026-08-14-ECOLOGY-008",
+  "evidence_kind": "ACCEPTED_OUTCOME",
+  "workflow": "develop-worldbuilding+author-decision",
+  "completed_on": "2026-08-14",
+  "canonicality": "ACCEPTED",
+  "promotion": "ALLOWED_WITH_AUTHOR_GATE",
+  "source_manifest": [
+    {
+      "path": "worldbuilding/settings/shared-universe-001/proposals/WLD-ECOLOGY-008.md",
+      "revision": "WLD-ECOLOGY-008-proposal@2026-08-14",
+      "sha256": "sha256:57d0c7c89e9c0d3f492c11047638c26317bab06eabbc808c28a6e61d81cb4ee2"
+    }
+  ],
+  "target_artifacts": [
+    {
+      "path": "worldbuilding/settings/shared-universe-001/decisions/WLD-ECOLOGY-008A.decision.json",
+      "revision": "WLD-ECOLOGY-008A@2026-08-14",
+      "sha256": "sha256:bfe2bf9409d367f082f0193c5cc619b475d32f8bce57043d803dba43183c6ca8"
+    },
+    {
+      "path": "worldbuilding/settings/shared-universe-001/decisions/WLD-ECOLOGY-008A.md",
+      "revision": "WLD-ECOLOGY-008A@2026-08-14",
+      "sha256": "sha256:1820c303468624320db278daaefdb90a22c3b2a163074891db829a544b2d489f"
+    },
+    {
+      "path": "worldbuilding/settings/shared-universe-001/canon/ecology/WLD-ECOLOGY-008.worldbuilding.json",
+      "revision": "WLD-ECOLOGY-008@2026-08-14",
+      "sha256": "sha256:ef462afee3c6b04ef5da6e680f2f893d0f128bc3dde7191ce0645aa4b3e1a2dd"
+    },
+    {
+      "path": "worldbuilding/settings/shared-universe-001/canon/ecology/WLD-ECOLOGY-008.md",
+      "revision": "WLD-ECOLOGY-008@2026-08-14",
+      "sha256": "sha256:fee57edfbe47e6f1b07e34b605317caeebb7665d55f8d0edb8f96b4303ffcf00"
+    },
+    {
+      "path": "worldbuilding/settings/shared-universe-001/canon/ecology/WLD-ECOLOGY-007.worldbuilding.json",
+      "revision": "WLD-ECOLOGY-008-compatible@2026-08-14",
+      "sha256": "sha256:a701e4c6e8f35d5c715c94b6e1e45bd56a9c7394ee6cb6e19a1f3e3a28e192e5"
+    },
+    {
+      "path": "worldbuilding/settings/shared-universe-001/canon/ecology/WLD-ECOLOGY-007.md",
+      "revision": "WLD-ECOLOGY-008-compatible@2026-08-14",
+      "sha256": "sha256:db3e12cdc592e5881d9373325aa29a2b21294b1b586d32a981f8bc8fa8340b4e"
+    },
+    {
+      "path": "worldbuilding/settings/shared-universe-001/setting-constitution.md",
+      "revision": "WLD-ECOLOGY-008-reconciled@2026-08-14",
+      "sha256": "sha256:d4e6d927a98d5450540e115ee84cc9cccee407a41a6affa352584b4b3785227b"
+    },
+    {
+      "path": "worldbuilding/settings/shared-universe-001/indexes/INDEX.md",
+      "revision": "WLD-ECOLOGY-008-indexed@2026-08-14",
+      "sha256": "sha256:d58aa74dd6af98c1be96c1ba3e37a520d95343307def54dd98c68e355e76d50e"
+    },
+    {
+      "path": "worldbuilding/settings/shared-universe-001/canon/README.md",
+      "revision": "WLD-ECOLOGY-008-registered@2026-08-14",
+      "sha256": "sha256:7a2007b1f4a00c1a428eb0e62ff64f76ca2538abc6ff9b4202c2f5e8495ecc7c"
+    },
+    {
+      "path": "worldbuilding/settings/shared-universe-001/proposals/README.md",
+      "revision": "WLD-ECOLOGY-008-registered@2026-08-14",
+      "sha256": "sha256:d911bc64c4ff2324d2531842db2cba86b2b12443db64eb19fa2847dd25d0514a"
+    },
+    {
+      "path": "worldbuilding/settings/shared-universe-001/decisions/README.md",
+      "revision": "WLD-ECOLOGY-008-registered@2026-08-14",
+      "sha256": "sha256:f62c382d3e5319a4314e26426c92ae4519bc38bab8df9997c420389b29f58031"
+    },
+    {
+      "path": "worldbuilding/INDEX.md",
+      "revision": "WLD-ECOLOGY-008-indexed@2026-08-14",
+      "sha256": "sha256:86a916cb20d18a698f5e8e08adbacea1c3da992e800507dbb251d96b7a54c5fe"
+    },
+    {
+      "path": "worldbuilding/README.md",
+      "revision": "WLD-ECOLOGY-008-summarized@2026-08-14",
+      "sha256": "sha256:728d368b0e70384dcfee7dd9fe763270b417b63cbc6aace948d815cfa18751f8"
+    },
+    {
+      "path": "worldbuilding/settings/README.md",
+      "revision": "WLD-ECOLOGY-008-summarized@2026-08-14",
+      "sha256": "sha256:ba275becdc09b4b476b3667bf5e95cf733dd2f344f2a7d0aca7daa6decedd7ca"
+    },
+    {
+      "path": "worldbuilding/canon/README.md",
+      "revision": "WLD-ECOLOGY-008-summarized@2026-08-14",
+      "sha256": "sha256:488cb49e7a5f9f680033f9af890c0749fb03737ec560022bc3d58b48c882d204"
+    },
+    {
+      "path": "stories/series/project-hearthway-main/project-hearthway-main.work-manifest.json",
+      "revision": "WLD-ECOLOGY-008-adopted@2026-08-14",
+      "sha256": "sha256:544f0c333bbb0f532860db0dedfce04136acedd5a0eb5ccd76d30d2f2f25423a"
+    },
+    {
+      "path": "stories/series/project-hearthway-main/work-manifest.md",
+      "revision": "WLD-ECOLOGY-008-adopted@2026-08-14",
+      "sha256": "sha256:af8dde570e9091cf88456112cdbdf1b1c605d2700b25fde1be5923be001323ab"
+    },
+    {
+      "path": "stories/series/project-hearthway-main/work-contract.md",
+      "revision": "WLD-ECOLOGY-008-adopted@2026-08-14",
+      "sha256": "sha256:06ddedbcc71846f663faa964f8545d61a3c2652ae74ca012bd79ab73025d58d3"
+    },
+    {
+      "path": "README.md",
+      "revision": "WLD-ECOLOGY-008-summarized@2026-08-14",
+      "sha256": "sha256:b2810db6e79b98ff8c9cbf7f70e1a1dc355646b833a439cd7ce8494bf6ae641b"
+    },
+    {
+      "path": "STATUS.md",
+      "revision": "WLD-ECOLOGY-008-summarized@2026-08-14",
+      "sha256": "sha256:28391a124a91f167c122d962db435ea9d299ea95a39a656683edec823ec6889d"
+    }
+  ],
+  "findings": [
+    "PASS: the promoted record matches the Author-selected separate salt-organ and longitudinal wax-like-gel balance-comb package.",
+    "PASS: finite carrier-mediated ion exchange, gradual acclimation, distributed passive buoyancy, and greater support behind the head shield retain real material, energy, time, maintenance, recovery, infection, leakage, rupture, and failure constraints.",
+    "PASS: osmoregulation and buoyancy are coordinated at whole-body density and trim while remaining anatomically separate from each other and from the respiratory folds.",
+    "PASS: the record governs the established migratory form only; egg, juvenile, and other life-stage mechanisms remain open.",
+    "PASS: ordinary Mana may reinforce living tissues but creates no gel matter, free ion transport, instant acclimation, activated ability, Skill, class, buff, reward, spawn, refill, or free energy.",
+    "PASS: WLD-ECOLOGY-006 retains migration and population authority; WLD-ECOLOGY-007 retains body-plan authority; the one-way WLD-ECOLOGY-008 dependency creates no cycle.",
+    "PASS: work adoption, setting and root discovery, counts, summaries, statuses, IDs, URIs, and Markdown/JSON parity are consistent.",
+    "BOUNDARY PRESERVED: exact anatomy, chemistry, quantitative performance, environmental salinity, route hydraulics, life-stage development, Mana pathway, taxonomy, cognition, human knowledge, and the family-care migrant remain unselected."
+  ],
+  "validations": [
+    "python -m unittest tools.tests.test_validate_governance -v — passed: 3 tests before evidence registration.",
+    "python tools/validate_governance.py — passed before evidence registration: 39 repository records, 5 valid fixtures, 5 rejected fixtures.",
+    "python tools/validate_workspaces.py — passed: 4 work manifests, 2 setting manifests, 2 workflow evaluations, 3 rejected fixtures.",
+    "python tools/validate_story_integration.py stories/series/project-hearthway-main/project-hearthway-main.work-manifest.json — passed: 9 schemas, 1 valid fixture, 0 rejected fixtures.",
+    "python tools/validate_repository.py — passed before evidence registration, including 121 CAL0 regression tests.",
+    "Independent ecology/CAL0 and governance/provenance audits — passed after one minor decision-pair wording correction; no blocking or major content finding remained.",
+    "python tools/validate_governance.py — passed after evidence registration: 40 repository records, 5 valid fixtures, 5 rejected fixtures.",
+    "python tools/validate_governance.py --verify-current-accepted governance/evidence/WB-RUN-2026-08-14-ECOLOGY-008/WB-RUN-2026-08-14-ECOLOGY-008.workflow-evidence.json — passed: accepted-outcome current-byte verification.",
+    "python tools/validate_repository.py — passed after evidence registration, including 121 CAL0 regression tests.",
+    "git diff --check plus an explicit 26-file unintended-trailing-whitespace scan — passed; intentional two-space Markdown hard breaks were permitted."
+  ],
+  "retained_files": [
+    "governance/evidence/WB-RUN-2026-08-14-ECOLOGY-008/approved-change-set.md",
+    "governance/evidence/WB-RUN-2026-08-14-ECOLOGY-008/final-findings.md",
+    "governance/evidence/WB-RUN-2026-08-14-ECOLOGY-008/validation-summary.md",
+    "governance/evidence/WB-RUN-2026-08-14-ECOLOGY-008/WB-RUN-2026-08-14-ECOLOGY-008.workflow-evidence.json"
+  ],
+  "approval": {
+    "decision_uri": "author-decision://world/WLD-ECOLOGY-008A",
+    "decided_by": "Author",
+    "decision": "ACCEPT",
+    "decided_on": "2026-08-14",
+    "evidence": "After the complete recommended 'Salt organs + balance comb' package and its biological cost, failure, and Mana boundaries were presented, the Author replied 'yes' on 2026-08-14."
+  }
+}

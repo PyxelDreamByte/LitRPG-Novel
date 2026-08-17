@@ -1,0 +1,92 @@
+{
+  "$schema": "../../../../governance/schemas/decision-record.schema.json",
+  "schema_version": "1.0.0",
+  "id": "WLD-ECOLOGY-004A",
+  "decision_uri": "author-decision://world/WLD-ECOLOGY-004A",
+  "display_code": "WLD-ECOLOGY-004A",
+  "title": "Lineage II peripheral migration corridor",
+  "domain": "Project Hearthway regional ecology",
+  "workflow_status": "ACCEPTED",
+  "canon_status": "PROVISIONAL",
+  "scope": "Broad seasonal relationship between Lineage II movement, the lower basin, and Project Hearthway's initial ridge-spur settlement. Exact route geography, migration calendar, herd scale, route-memory mechanism, human management, damage rates, and crisis frequency remain open.",
+  "accepted_on": "2026-08-14",
+  "accepted_by": "Author",
+  "approval_evidence": "After receiving the bounded predictable peripheral-corridor recommendation and its ordinary-versus-crisis consequences, the Author replied 'yes' on 2026-08-14.",
+  "question": "What broad seasonal movement pattern should connect Lineage II crown and ribbon animals to the initial settlement's daily life and exceptional threats?",
+  "selection": "Use a predictable peripheral corridor. Crown herds normally pass through a principal lower-basin corridor near the settlement twice per annual cycle. The fortified ridge-spur core lies above and outside the principal route, while secondary paths overlap some fields, roads, and lake approaches. Ordinary passages cause closures, crop loss, and travel disruption rather than siege. Severe weather, digestive disease, or forage failure can divert herds toward the settlement and create a crisis. Ribbon groups create smaller, more frequent pressures around woodland and lake margins.",
+  "alternatives": [
+    "L2-ROUTE-A: predictable peripheral lower-basin corridor; selected.",
+    "L2-ROUTE-B: rare irruptions near the settlement only; not selected.",
+    "L2-ROUTE-C: settlement directly blocks the principal corridor; not selected."
+  ],
+  "rationale": "The selected pattern makes the returning megafauna part of ordinary seasonal life, supports the defensible settlement site, exposes the economically necessary lower catchment to recurring costs, and reserves major herd danger for causally supported route disruption rather than arbitrary escalation.",
+  "evidence": [
+    "Author selection on 2026-08-14.",
+    "stories/series/project-hearthway-main/workbench/runs/2026-08-14-lineage-ii-migration-corridor/proposal.md",
+    "canon://world/shared-universe-001/ecology/lineage-ii-vegetation-architects",
+    "canon://world/shared-universe-001/ecology/lineage-ii-fermentation-lattice",
+    "canon://world/shared-universe-001/ecology/lineage-ii-symbiont-inheritance",
+    "CAL0 WLD1.2D and WLD2.1A+D"
+  ],
+  "consequences": [
+    "The initial settlement's fortified core is above and outside the crown herds' principal lower-basin corridor.",
+    "Crown herds normally pass through the local area twice in an annual cycle.",
+    "Some outer fields, roads, and lake approaches remain exposed to secondary herd paths.",
+    "Ordinary passages can produce closures, travel disruption, and crop loss without becoming a siege.",
+    "Severe weather, digestive disease, or forage failure can cause exceptional route diversion toward the settlement.",
+    "Ribbon groups create lower-intensity recurring pressure around woodland and lake margins.",
+    "Later cultural, legal, economic, and defensive work must respond to this pattern without inventing exact practices here.",
+    "No System progression, spawning, quest, or shared herd entity is created."
+  ],
+  "affected_sources": [
+    "worldbuilding/settings/shared-universe-001/proposals/WLD-ECOLOGY-004.md",
+    "worldbuilding/settings/shared-universe-001/canon/ecology/WLD-ECOLOGY-004.worldbuilding.json",
+    "worldbuilding/settings/shared-universe-001/canon/ecology/WLD-ECOLOGY-004.md",
+    "worldbuilding/settings/shared-universe-001/canon/ecology/WLD-ECOLOGY-001.worldbuilding.json",
+    "worldbuilding/settings/shared-universe-001/canon/ecology/WLD-ECOLOGY-001.md",
+    "worldbuilding/settings/shared-universe-001/setting-constitution.md",
+    "worldbuilding/settings/shared-universe-001/canon/README.md",
+    "worldbuilding/settings/shared-universe-001/proposals/README.md",
+    "worldbuilding/settings/shared-universe-001/decisions/README.md",
+    "worldbuilding/settings/shared-universe-001/indexes/INDEX.md",
+    "worldbuilding/INDEX.md",
+    "worldbuilding/README.md",
+    "worldbuilding/settings/README.md",
+    "worldbuilding/canon/README.md",
+    "stories/series/project-hearthway-main/project-hearthway-main.work-manifest.json",
+    "stories/series/project-hearthway-main/work-manifest.md",
+    "stories/series/project-hearthway-main/work-contract.md",
+    "README.md",
+    "STATUS.md"
+  ],
+  "dependencies": [
+    "WLD-SETTING-001A",
+    "WLD-ECOLOGY-001A",
+    "WLD-ECOLOGY-001",
+    "WLD-ECOLOGY-002A",
+    "WLD-ECOLOGY-002",
+    "WLD-ECOLOGY-003A",
+    "WLD-ECOLOGY-003",
+    "CAL0 WLD1.2D",
+    "CAL0 WLD2.1A+D"
+  ],
+  "conflicts": [],
+  "residual_unknowns": [
+    "Exact corridor geography and distance from the fortified core remain open.",
+    "Exact seasons, direction, passage duration, and triggers remain open.",
+    "Herd scale, composition, spacing, and variation remain open.",
+    "The biological, learned, or cultural basis of route fidelity remains open.",
+    "Settlement monitoring, closure, harvest, barrier, compensation, and emergency practices remain open.",
+    "Typical damage rates, diversion probability, and recovery costs remain open.",
+    "Exact ribbon-group movements and effects remain open."
+  ],
+  "supersedes": [],
+  "superseded_by": null,
+  "reopening_conditions": [
+    "A regional map cannot support a lower-basin corridor peripheral to the ridge-spur settlement.",
+    "Seasonal food, water, breeding, or climate modelling cannot support two ordinary passages per annual cycle.",
+    "Realistic herd scale makes the lower catchment or settlement nonviable in ordinary years.",
+    "A concrete story requirement exposes an unresolvable route, timing, or crisis contradiction.",
+    "The Author explicitly reopens the decision."
+  ]
+}

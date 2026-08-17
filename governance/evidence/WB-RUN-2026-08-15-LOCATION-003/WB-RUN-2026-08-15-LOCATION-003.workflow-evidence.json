@@ -1,0 +1,170 @@
+{
+  "$schema": "../../schemas/workflow-evidence-manifest.schema.json",
+  "schema_version": "1.0.0",
+  "run_id": "run://develop-worldbuilding/WB-RUN-2026-08-15-LOCATION-003",
+  "evidence_kind": "ACCEPTED_OUTCOME",
+  "workflow": "develop-worldbuilding+author-decision",
+  "completed_on": "2026-08-15",
+  "canonicality": "ACCEPTED",
+  "promotion": "ALLOWED_WITH_AUTHOR_GATE",
+  "source_manifest": [
+    {
+      "path": "worldbuilding/settings/shared-universe-001/proposals/WLD-LOCATION-003.md",
+      "revision": "WLD-LOCATION-003-proposal@2026-08-15",
+      "sha256": "sha256:2bdd8114941d7153357da93fc8091db16e57d475d87292c777bb132eac1647ff"
+    },
+    {
+      "path": "stories/series/project-hearthway-main/workbench/runs/2026-08-15-initial-ridge-spur-lake-road-shore-endpoint-arrangement/proposal.md",
+      "revision": "WLD-LOCATION-003-option-capture@2026-08-15",
+      "sha256": "sha256:7dddfbaaf2ae5a2524392cf3b67e03df989e7547efeaaa071ccaa93bc28d2b0a"
+    }
+  ],
+  "target_artifacts": [
+    {
+      "path": "worldbuilding/settings/shared-universe-001/decisions/WLD-LOCATION-003A.decision.json",
+      "revision": "WLD-LOCATION-003A@2026-08-15",
+      "sha256": "sha256:fe933da3e860425a8cec06b9212afb694d80a04696cb11dd39313303d7216b37"
+    },
+    {
+      "path": "worldbuilding/settings/shared-universe-001/decisions/WLD-LOCATION-003A.md",
+      "revision": "WLD-LOCATION-003A@2026-08-15",
+      "sha256": "sha256:6f81592e9013ad57ec09ac8a7c9cdc6dbbfae8156ebf9323d748805da405acc9"
+    },
+    {
+      "path": "worldbuilding/settings/shared-universe-001/canon/location/WLD-LOCATION-003.worldbuilding.json",
+      "revision": "WLD-LOCATION-003@2026-08-15",
+      "sha256": "sha256:c52c70eff7171c884ef78522eead94b64c182fea9d8645e4578ad8ea56caf942"
+    },
+    {
+      "path": "worldbuilding/settings/shared-universe-001/canon/location/WLD-LOCATION-003.md",
+      "revision": "WLD-LOCATION-003@2026-08-15",
+      "sha256": "sha256:f41f06e6cf41dd2877565f1f919add07cb6cead2d5e70b5913fdde4c70547479"
+    },
+    {
+      "path": "worldbuilding/settings/shared-universe-001/canon/location/WLD-LOCATION-001.worldbuilding.json",
+      "revision": "WLD-LOCATION-003-compatible@2026-08-15",
+      "sha256": "sha256:23ceaad1c4905adab7d2e6109234050c3a09c77a34633b04ba65b69edbc1906d"
+    },
+    {
+      "path": "worldbuilding/settings/shared-universe-001/canon/location/WLD-LOCATION-001.md",
+      "revision": "WLD-LOCATION-003-compatible@2026-08-15",
+      "sha256": "sha256:c622b77acb324c7cfe34c4a2509301b91d6cb2a4f3f00891d6250660a4c90717"
+    },
+    {
+      "path": "worldbuilding/settings/shared-universe-001/canon/location/WLD-LOCATION-002.worldbuilding.json",
+      "revision": "WLD-LOCATION-003-compatible@2026-08-15",
+      "sha256": "sha256:b7e78e56e54665c09b60e7237c2341f4da0cbe06db426ab26300c850637aa001"
+    },
+    {
+      "path": "worldbuilding/settings/shared-universe-001/canon/location/WLD-LOCATION-002.md",
+      "revision": "WLD-LOCATION-003-compatible@2026-08-15",
+      "sha256": "sha256:88720a2f84eabbcf79840c6b9e8367958b29021011f2623cc4087ea4c7a4d0f1"
+    },
+    {
+      "path": "worldbuilding/settings/shared-universe-001/setting-constitution.md",
+      "revision": "WLD-LOCATION-003-reconciled@2026-08-15",
+      "sha256": "sha256:cf9ffbaebc5bdb0ab38a108fd6bfef0f24052172fa6a571f0e8d9329f2ed7815"
+    },
+    {
+      "path": "worldbuilding/settings/shared-universe-001/indexes/INDEX.md",
+      "revision": "WLD-LOCATION-003-indexed@2026-08-15",
+      "sha256": "sha256:8518dda9a7030ef273d2f4b5a7dff12cec4f37656ef22541c95efb1fb454307b"
+    },
+    {
+      "path": "worldbuilding/settings/shared-universe-001/canon/README.md",
+      "revision": "WLD-LOCATION-003-registered@2026-08-15",
+      "sha256": "sha256:30148492927625c0dbec566633d9f8583713a673faa3786101bd73b85c96e755"
+    },
+    {
+      "path": "worldbuilding/settings/shared-universe-001/proposals/README.md",
+      "revision": "WLD-LOCATION-003-registered@2026-08-15",
+      "sha256": "sha256:83d0196ee0a09b92f1026aff78e482cd06eb741bec8e6f02e8d754627324ec03"
+    },
+    {
+      "path": "worldbuilding/settings/shared-universe-001/decisions/README.md",
+      "revision": "WLD-LOCATION-003-registered@2026-08-15",
+      "sha256": "sha256:285888e0de601771340f8f1b23b9bd97a68292fb52f4cba0e8cd5c69fb8541db"
+    },
+    {
+      "path": "worldbuilding/INDEX.md",
+      "revision": "WLD-LOCATION-003-indexed@2026-08-15",
+      "sha256": "sha256:4d5fd63b041c8fa5a667a782c6bb413143b610f6b7b483664e989e1a822d187b"
+    },
+    {
+      "path": "worldbuilding/README.md",
+      "revision": "WLD-LOCATION-003-summarized@2026-08-15",
+      "sha256": "sha256:e6aae5513791102e5383d4e41df59aec3d922153c1bfc00cf01b608cdaa3c4d2"
+    },
+    {
+      "path": "worldbuilding/settings/README.md",
+      "revision": "WLD-LOCATION-003-summarized@2026-08-15",
+      "sha256": "sha256:9fc3faa1b98e2cf2c50bcf09fcea04a02b6ae63414815a885935dc21f976b8c9"
+    },
+    {
+      "path": "worldbuilding/canon/README.md",
+      "revision": "WLD-LOCATION-003-summarized@2026-08-15",
+      "sha256": "sha256:eebd88678f636356b3013b07f70b79e72ebfddc5d0857f97f7ee3ce1029c5ef8"
+    },
+    {
+      "path": "stories/series/project-hearthway-main/project-hearthway-main.work-manifest.json",
+      "revision": "WLD-LOCATION-003-adopted@2026-08-15",
+      "sha256": "sha256:8db146e46c95d7e16a7fe13a26e9429a87aa19451421a1cb0814e0dc1b0af2d8"
+    },
+    {
+      "path": "stories/series/project-hearthway-main/work-manifest.md",
+      "revision": "WLD-LOCATION-003-adopted@2026-08-15",
+      "sha256": "sha256:e8e906425c6c03845a896554b4087c28fe90c70a8e27fa190afff68861454d64"
+    },
+    {
+      "path": "stories/series/project-hearthway-main/work-contract.md",
+      "revision": "WLD-LOCATION-003-adopted@2026-08-15",
+      "sha256": "sha256:68d957c47d626144fb165474eacbce8aa6410a589597c89483db0d24597adccd"
+    },
+    {
+      "path": "README.md",
+      "revision": "WLD-LOCATION-003-summarized@2026-08-15",
+      "sha256": "sha256:d0dee859208c74e2f31d4c88334ea0c83a624947c45f74fe09e1b773d1b79cef"
+    },
+    {
+      "path": "STATUS.md",
+      "revision": "WLD-LOCATION-003-summarized@2026-08-15",
+      "sha256": "sha256:d21f2bda496909c65dba696acc095b765dc5b23b1ccdd70f87ab00a32c564d1c"
+    }
+  ],
+  "findings": [
+    "PASS: the promoted record matches the exact Author-selected B — Upper-shore staging + seasonal spurs option and exact approval reply.",
+    "PASS: the selection establishes one recurring relatively firm upper-shore staging place and several short condition-dependent final approaches without guaranteeing access.",
+    "PASS: WLD-LOCATION-002 retains sole authority for its broad fair-weather whole-journey anchors; no segment time or new travel band is introduced.",
+    "PASS: no port, harbour, dock, boat, vehicle, building, staff, storage, processing, shore settlement, safe zone, all-season access, or shore institution is created.",
+    "PASS: no particular crown-herd overlap, migrant route, nursery, fishery, predator concentration, harvest site, organism, encounter, or disturbance is assigned.",
+    "PASS: WLD-LOCATION-001 and WLD-LOCATION-002 receive textual forward reconciliation only; no reverse structured dependency or cycle is introduced.",
+    "PASS: ordinary physical causality, carriage, ecology, obstruction, observability, and recovery remain intact; no CAL0 travel, inventory, pathfinding, safe-zone, spawn, reset, refill, reward, or free-resource change is created.",
+    "BOUNDARY PRESERVED: exact mapping, shore geometry, spur count and layout, engineering, transport, maintenance, seasonal availability, ecology, activities, institutions, incidents, and character knowledge remain separate Author gates."
+  ],
+  "validations": [
+    "python -m unittest tools.tests.test_validate_governance -v — passed: 3 tests before evidence registration.",
+    "python tools/validate_governance.py — passed before evidence registration: 57 repository records, 5 valid fixtures, 5 rejected fixtures.",
+    "python tools/validate_workspaces.py — passed before evidence registration: 4 work manifests, 2 setting manifests, 2 workflow evaluations, 3 rejected fixtures.",
+    "python tools/validate_story_integration.py stories/series/project-hearthway-main/project-hearthway-main.work-manifest.json — passed before evidence registration: 9 schemas, 1 valid fixture, 0 rejected fixtures.",
+    "python tools/validate_repository.py — passed before evidence registration with 117 non-CAL0 JSON files and all 121 CAL0 regression tests.",
+    "Independent world-canon, physical/ecological continuity, and CAL0/recording-surface audits — clean; no correction remained before digest capture.",
+    "Explicit 24-file source/target parity, existence, stale-count, dependency, whitespace, and hard-wrap scan — passed before digest capture.",
+    "python tools/validate_governance.py — passed after evidence registration: 58 repository records, 5 valid fixtures, 5 rejected fixtures.",
+    "python tools/validate_governance.py --verify-current-accepted governance/evidence/WB-RUN-2026-08-15-LOCATION-003/WB-RUN-2026-08-15-LOCATION-003.workflow-evidence.json — passed for both source manifests and all 22 target artifacts.",
+    "python tools/validate_workspaces.py plus focused story-integration validation — passed after evidence registration with unchanged counts.",
+    "python tools/validate_repository.py — passed after evidence registration with 118 non-CAL0 JSON files and all 121 CAL0 regression tests."
+  ],
+  "retained_files": [
+    "governance/evidence/WB-RUN-2026-08-15-LOCATION-003/approved-change-set.md",
+    "governance/evidence/WB-RUN-2026-08-15-LOCATION-003/final-findings.md",
+    "governance/evidence/WB-RUN-2026-08-15-LOCATION-003/validation-summary.md",
+    "governance/evidence/WB-RUN-2026-08-15-LOCATION-003/WB-RUN-2026-08-15-LOCATION-003.workflow-evidence.json"
+  ],
+  "approval": {
+    "decision_uri": "author-decision://world/WLD-LOCATION-003A",
+    "decided_by": "Author",
+    "decision": "ACCEPT",
+    "decided_on": "2026-08-15",
+    "evidence": "On 2026-08-15 the Author replied, 'I choose B — Upper-shore staging + seasonal spurs for the lake-road shore endpoint.'"
+  }
+}

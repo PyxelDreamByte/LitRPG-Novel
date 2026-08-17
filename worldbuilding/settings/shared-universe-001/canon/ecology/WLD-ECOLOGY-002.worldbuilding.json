@@ -1,0 +1,67 @@
+{
+  "$schema": "../../../../../governance/schemas/worldbuilding-record.schema.json",
+  "schema_version": "1.0.0",
+  "id": "WLD-ECOLOGY-002",
+  "record_uri": "canon://world/shared-universe-001/ecology/lineage-ii-fermentation-lattice",
+  "display_code": "WLD-ECOLOGY-002",
+  "setting_id": "setting://shared-universe-001",
+  "title": "Lineage II distributed fermentation lattice",
+  "workflow_status": "ACCEPTED",
+  "canon_status": "PROVISIONAL",
+  "scope": "Family-level digestive architecture for Project Hearthway's developing Lineage II crown and ribbon branches; usable within shared-setting fauna and regional-ecology development.",
+  "claims": [
+    "Lineage II uses several connected digestive chambers that route food of different toughness and nutrient density through a distributed fermentation lattice.",
+    "Symbiotic microorganisms perform much of the chemical breakdown within the lattice.",
+    "Crown forms have larger, slower-processing chambers adapted to bulk structural vegetation.",
+    "Ribbon forms have smaller, faster-processing chambers suited to selective seasonal foods.",
+    "Ordinary Mana circulation reinforces chamber membranes, circulation, and thermal stability but does not create calories or replace dietary matter.",
+    "Abrupt dietary changes can destabilise the symbiont community and cause digestive illness or seasonal vulnerability."
+  ],
+  "boundaries": [
+    "The number, position, valves, routing, and developmental sequence of chambers remain undefined.",
+    "Two-stage symbiont acquisition, social maturation, and broad recovery consequences are governed by canon://world/shared-universe-001/ecology/lineage-ii-symbiont-inheritance; reproductive and transfer anatomy, inoculation behaviours, microbial taxonomy, maturation timing, compatibility limits, and specific diseases and treatments remain undefined.",
+    "Exact retention times, metabolic yield, water demand, thermal output, waste, toxin handling, diseases, and treatments remain undefined.",
+    "This record does not establish a specialised Mana-catalytic organ for the family.",
+    "This record creates no System level, reward, Skill, trait payload, or Ancestry Development mechanic."
+  ],
+  "dependencies": [
+    "author-decision://world/WLD-SETTING-001A",
+    "author-decision://world/WLD-ECOLOGY-001A",
+    "author-decision://world/WLD-ECOLOGY-002A",
+    "canon://world/shared-universe-001/ecology/lineage-ii-vegetation-architects",
+    "CAL0 WLD1.2D",
+    "CAL0 WLD2.1A+D"
+  ],
+  "contradictions": [],
+  "story_implications": [
+    "Diet transitions, contaminated forage, antimicrobial substances, starvation, or symbiont loss can change herd health and movement without acting as arbitrary monster escalation.",
+    "Crown herds may require long feeding and processing periods, while ribbon families can respond more quickly to patchy foods but remain vulnerable to abrupt dietary novelty.",
+    "Communities familiar with the animals may recognise digestive distress through behaviour, waste, heat, appetite, or route changes even without understanding the full symbiosis."
+  ],
+  "system_implications": [
+    "Mana use is ordinary physiological support with conserved material and energy inputs.",
+    "Any specialised catalytic organ, progression effect, or System-visible trait requires separate causal and CAL0 review."
+  ],
+  "research_questions": [
+    "Which reproductive anatomy and physical route supply the founder culture before birth?",
+    "Which post-birth behaviours mature or restore locally adapted symbionts?",
+    "What compatibility limits govern transmission among relatives, foster groups, and herds?",
+    "What original plant compounds and defensive chemicals shape chamber routing?",
+    "What diseases, parasites, or environmental toxins disrupt the lattice?",
+    "How does the internal brood chamber coexist anatomically with the digestive lattice?"
+  ],
+  "sources": [
+    "worldbuilding/settings/shared-universe-001/proposals/WLD-ECOLOGY-002.md",
+    "stories/series/project-hearthway-main/workbench/runs/2026-08-13-lineage-ii-digestion/proposal.md",
+    "canon://world/shared-universe-001/ecology/lineage-ii-vegetation-architects",
+    "Author selection on 2026-08-13"
+  ],
+  "supersedes": [],
+  "superseded_by": null,
+  "author_approval": {
+    "decision_uri": "author-decision://world/WLD-ECOLOGY-002A",
+    "accepted_on": "2026-08-13",
+    "accepted_by": "Author",
+    "evidence": "The Author replied 'yes' after reviewing the bounded distributed-fermentation recommendation and alternatives on 2026-08-13."
+  }
+}

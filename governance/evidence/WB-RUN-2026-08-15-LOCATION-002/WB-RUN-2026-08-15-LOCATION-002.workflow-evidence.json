@@ -1,0 +1,159 @@
+{
+  "$schema": "../../schemas/workflow-evidence-manifest.schema.json",
+  "schema_version": "1.0.0",
+  "run_id": "run://develop-worldbuilding/WB-RUN-2026-08-15-LOCATION-002",
+  "evidence_kind": "ACCEPTED_OUTCOME",
+  "workflow": "develop-worldbuilding+author-decision",
+  "completed_on": "2026-08-15",
+  "canonicality": "ACCEPTED",
+  "promotion": "ALLOWED_WITH_AUTHOR_GATE",
+  "source_manifest": [
+    {
+      "path": "worldbuilding/settings/shared-universe-001/proposals/WLD-LOCATION-002.md",
+      "revision": "WLD-LOCATION-002-proposal@2026-08-15",
+      "sha256": "sha256:de4ce3ca815815720a70f5e37e8e55f1637042e47e45b5fbbb2ad5416e7da59a"
+    },
+    {
+      "path": "stories/series/project-hearthway-main/workbench/runs/2026-08-15-initial-ridge-spur-lake-road-practical-travel-scale/proposal.md",
+      "revision": "WLD-LOCATION-002-option-capture@2026-08-15",
+      "sha256": "sha256:19785f0c62eb67cbbd227eb4fbb1faed6ab1edca4f6ea8b45cf15122462230a0"
+    }
+  ],
+  "target_artifacts": [
+    {
+      "path": "worldbuilding/settings/shared-universe-001/decisions/WLD-LOCATION-002A.decision.json",
+      "revision": "WLD-LOCATION-002A@2026-08-15",
+      "sha256": "sha256:2ea0eb8404a816b359b938d6fe0ad4643d00da27a9c33af7f35bf86d36458816"
+    },
+    {
+      "path": "worldbuilding/settings/shared-universe-001/decisions/WLD-LOCATION-002A.md",
+      "revision": "WLD-LOCATION-002A@2026-08-15",
+      "sha256": "sha256:34a02799bd5d08f4f8bfc01e824a7a9523cfefbf6e5c8e516426732e7d4a8c3b"
+    },
+    {
+      "path": "worldbuilding/settings/shared-universe-001/canon/location/WLD-LOCATION-002.worldbuilding.json",
+      "revision": "WLD-LOCATION-002@2026-08-15",
+      "sha256": "sha256:485950b5f676d02d4576b9a3c16f584d34275cf545975a65ff1f4e8384982dd6"
+    },
+    {
+      "path": "worldbuilding/settings/shared-universe-001/canon/location/WLD-LOCATION-002.md",
+      "revision": "WLD-LOCATION-002@2026-08-15",
+      "sha256": "sha256:ed94230276abbfb840bbe21ebc964419f1d5de80f1d4c4598dc511e7edc1ecf4"
+    },
+    {
+      "path": "worldbuilding/settings/shared-universe-001/canon/location/WLD-LOCATION-001.worldbuilding.json",
+      "revision": "WLD-LOCATION-002-compatible@2026-08-15",
+      "sha256": "sha256:b013110c8c404dd27eb34070397e1872e0a4128ff5da0ed775fe51ae312f15cb"
+    },
+    {
+      "path": "worldbuilding/settings/shared-universe-001/canon/location/WLD-LOCATION-001.md",
+      "revision": "WLD-LOCATION-002-compatible@2026-08-15",
+      "sha256": "sha256:6ee32839808ecc42d12b0f1bf9bc54b58b133329d0f924798729325141d2604c"
+    },
+    {
+      "path": "worldbuilding/settings/shared-universe-001/setting-constitution.md",
+      "revision": "WLD-LOCATION-002-reconciled@2026-08-15",
+      "sha256": "sha256:169b4703d714b8f55a4bd01211241fdf60461f687906d599e126b8418075a6cd"
+    },
+    {
+      "path": "worldbuilding/settings/shared-universe-001/indexes/INDEX.md",
+      "revision": "WLD-LOCATION-002-indexed@2026-08-15",
+      "sha256": "sha256:a4b6d42a6c63d0556b8a2b1f7afea1ef8fc68bc4f6e75fd4c99ad408e82b493c"
+    },
+    {
+      "path": "worldbuilding/settings/shared-universe-001/canon/README.md",
+      "revision": "WLD-LOCATION-002-registered@2026-08-15",
+      "sha256": "sha256:6b17626ad282bd6a8cfc4e1b484d38b142fde5423e7620b9f8acc947ba1812d4"
+    },
+    {
+      "path": "worldbuilding/settings/shared-universe-001/proposals/README.md",
+      "revision": "WLD-LOCATION-002-registered@2026-08-15",
+      "sha256": "sha256:654abafd51cae0679a9a8cad86bf2266b47b700f84cec76e9e55019f85ead4b3"
+    },
+    {
+      "path": "worldbuilding/settings/shared-universe-001/decisions/README.md",
+      "revision": "WLD-LOCATION-002-registered@2026-08-15",
+      "sha256": "sha256:63d659cf06029e19c70680709fc356d12d98bfcc42cd39ee3b8f14878230d499"
+    },
+    {
+      "path": "worldbuilding/INDEX.md",
+      "revision": "WLD-LOCATION-002-indexed@2026-08-15",
+      "sha256": "sha256:92a5249d52ee3dfdac60c85ece7c5f4cc4f008b695baf0252668c63101e301c1"
+    },
+    {
+      "path": "worldbuilding/README.md",
+      "revision": "WLD-LOCATION-002-summarized@2026-08-15",
+      "sha256": "sha256:f31da68321a52feb706c81408a333c2c11fd18749d48770e4df3d8f0a62fc066"
+    },
+    {
+      "path": "worldbuilding/settings/README.md",
+      "revision": "WLD-LOCATION-002-summarized@2026-08-15",
+      "sha256": "sha256:20f0cd4cd106d0e8541033fc3f314d2a0fb4818271516274f7053d69e989568f"
+    },
+    {
+      "path": "worldbuilding/canon/README.md",
+      "revision": "WLD-LOCATION-002-summarized@2026-08-15",
+      "sha256": "sha256:03436b1b01f1a3201e92b06692b006c27427caceea33c7ffee043ed892ab81b9"
+    },
+    {
+      "path": "stories/series/project-hearthway-main/project-hearthway-main.work-manifest.json",
+      "revision": "WLD-LOCATION-002-adopted@2026-08-15",
+      "sha256": "sha256:1b6f63a2a10bc3918c4bbf0ff80f6117a5fe1ac50f4eb34f11c003dd18005e42"
+    },
+    {
+      "path": "stories/series/project-hearthway-main/work-manifest.md",
+      "revision": "WLD-LOCATION-002-adopted@2026-08-15",
+      "sha256": "sha256:ac5a29bc405eb56b9fce218490e67199307c91e02e2ed0fd3ccc8eeb96d45010"
+    },
+    {
+      "path": "stories/series/project-hearthway-main/work-contract.md",
+      "revision": "WLD-LOCATION-002-adopted@2026-08-15",
+      "sha256": "sha256:2f9bbae81c9185bf7cfe3b0909e40605c101a57607f24cc7e673bf77e8e16cb5"
+    },
+    {
+      "path": "README.md",
+      "revision": "WLD-LOCATION-002-summarized@2026-08-15",
+      "sha256": "sha256:11858659c29de29adf62a7ab81d1723ee1d94cb9f5594a8dc8a91a72fc2284de"
+    },
+    {
+      "path": "STATUS.md",
+      "revision": "WLD-LOCATION-002-summarized@2026-08-15",
+      "sha256": "sha256:6bd8a48a97aa00a2594b96bb59347eb5a18a44a31145ce9e52658997c606f48f"
+    }
+  ],
+  "findings": [
+    "PASS: the promoted record matches the Author-selected B — Half-day working route and preserves both displayed fair-weather direction-and-load bands.",
+    "PASS: the 1–1½-hour unladen-downhill and 2–3-hour laden-uphill values are broad planning anchors, not guarantees, averages, limits, schedules, in-world units, or System readouts.",
+    "PASS: unladen ascent and laden descent remain undefined, and no exact distance, road engineering, transport method, traffic, shore infrastructure, institution, encounter, or journey outcome is imported.",
+    "PASS: WLD-LOCATION-001 receives textual forward reconciliation only; no reciprocal structured dependency or cycle is introduced.",
+    "PASS: laden movement preserves mass, volume, balance, terrain, duration, fatigue, and task-conditioned encumbrance under CAL0 ITM1.2D.",
+    "PASS: no inventory rule, travel mechanic, movement modifier, safe road, fast travel, spawn, reset, free resource, guaranteed recovery, GEO002 relationship, or project-default adoption is created.",
+    "BOUNDARY PRESERVED: exact mapping, seasonal performance, traveller and load benchmarks, other direction/load combinations, logistics, ecology, incidents, and character knowledge remain unselected."
+  ],
+  "validations": [
+    "python -m unittest tools.tests.test_validate_governance -v — passed: 3 tests before evidence registration.",
+    "python tools/validate_governance.py — passed before evidence registration: 54 repository records, 5 valid fixtures, 5 rejected fixtures.",
+    "python tools/validate_workspaces.py — passed before evidence registration: 4 work manifests, 2 setting manifests, 2 workflow evaluations, 3 rejected fixtures.",
+    "python tools/validate_story_integration.py stories/series/project-hearthway-main/project-hearthway-main.work-manifest.json — passed before evidence registration: 9 schemas, 1 valid fixture, 0 rejected fixtures.",
+    "python tools/validate_repository.py — passed before evidence registration with 114 non-CAL0 JSON files and all 121 CAL0 regression tests.",
+    "Independent recording-surface and location/CAL0 audits — clean; no correction remained before digest capture.",
+    "Explicit 22-file source/target parity, existence, stale-count, whitespace, and hard-wrap scan — passed before digest capture.",
+    "python tools/validate_governance.py — passed after evidence registration: 55 repository records, 5 valid fixtures, 5 rejected fixtures.",
+    "python tools/validate_governance.py --verify-current-accepted governance/evidence/WB-RUN-2026-08-15-LOCATION-002/WB-RUN-2026-08-15-LOCATION-002.workflow-evidence.json — passed for both source manifests and all 20 target artifacts.",
+    "python tools/validate_workspaces.py plus focused story-integration validation — passed after evidence registration with unchanged counts.",
+    "python tools/validate_repository.py — passed after evidence registration with 115 non-CAL0 JSON files and all 121 CAL0 regression tests."
+  ],
+  "retained_files": [
+    "governance/evidence/WB-RUN-2026-08-15-LOCATION-002/approved-change-set.md",
+    "governance/evidence/WB-RUN-2026-08-15-LOCATION-002/final-findings.md",
+    "governance/evidence/WB-RUN-2026-08-15-LOCATION-002/validation-summary.md",
+    "governance/evidence/WB-RUN-2026-08-15-LOCATION-002/WB-RUN-2026-08-15-LOCATION-002.workflow-evidence.json"
+  ],
+  "approval": {
+    "decision_uri": "author-decision://world/WLD-LOCATION-002A",
+    "decided_by": "Author",
+    "decision": "ACCEPT",
+    "decided_on": "2026-08-15",
+    "evidence": "On 2026-08-15 the Author replied, 'I choose B — Half-day working route for the practical lake-road travel scale.'"
+  }
+}

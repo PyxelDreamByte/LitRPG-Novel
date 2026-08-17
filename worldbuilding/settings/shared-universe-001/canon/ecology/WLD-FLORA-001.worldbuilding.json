@@ -1,0 +1,82 @@
+{
+  "$schema": "../../../../../governance/schemas/worldbuilding-record.schema.json",
+  "schema_version": "1.0.0",
+  "id": "WLD-FLORA-001",
+  "record_uri": "canon://world/shared-universe-001/ecology/basin-reserve-web-vegetation-guild",
+  "display_code": "WLD-FLORA-001",
+  "setting_id": "setting://shared-universe-001",
+  "title": "Basin reserve-web vegetation guild",
+  "workflow_status": "ACCEPTED",
+  "canon_status": "PROVISIONAL",
+  "scope": "Functional seasonal architecture of a major but non-exclusive open-ground vegetation guild in Project Hearthway's initial basin; usable within shared-setting ecology, geography, culture, economy, and story development.",
+  "claims": [
+    "A reserve-web guild is a major but non-exclusive component of the initial basin's open-ground vegetation.",
+    "The guild contains multiple vegetation forms rather than one species or one continuous basin-wide organism.",
+    "Guild members maintain living subsurface networks that store water and nutrients and help them persist through winter, surface fire, episodic flooding, and grazing.",
+    "The guild produces tender spring growth, tall fibrous summer structures, and autumn fruiting or storage bodies.",
+    "Crown herds consume mature structural growth from the guild, while ribbon groups selectively harvest young growth and seasonal reproductive structures.",
+    "Browsing and trampling can create openings within reserve-web stands and the wider vegetation mosaic.",
+    "Excessive or repeated pressure can exhaust stored reserves and kill the living network; reserve-web regrowth is finite rather than automatic."
+  ],
+  "boundaries": [
+    "The exact number, taxonomy, ancestry, names, and degree of convergence among guild members remain undefined.",
+    "Functional colony organization and local resource sharing are governed separately by canon://world/shared-universe-001/ecology/basin-reserve-web-modular-colonies; exact module anatomy, patch dimensions, connection density, transfer rates, growth, ageing, and reproduction remain undefined.",
+    "Primary energy capture, gas exchange, soil, mineral, water, temperature, and Mana requirements remain undefined.",
+    "Exact seasonal timing, productivity, nutrient content, chemistry, toxins, and defensive compounds remain undefined.",
+    "Fire, flood, frost, drought, grazing, disease, and pest tolerances and recovery rates remain undefined.",
+    "Distribution across soils, slopes, shorelines, wetlands, clearings, and corridors remains undefined.",
+    "Complementary vegetation, fungi or analogues, decomposers, parasites, mutualists, and human uses remain undefined.",
+    "Earth organisms may inform author-facing design but no living, extinct, or mythological Earth species is directly transplanted as an in-world guild member.",
+    "This record establishes no ambient spawning, automatic refill, guaranteed harvest, System reward, Skill, trait payload, specialised Mana ability, or Ancestry Development mechanic."
+  ],
+  "dependencies": [
+    "author-decision://world/WLD-SETTING-001A",
+    "author-decision://world/WLD-ECOLOGY-001A",
+    "author-decision://world/WLD-ECOLOGY-002A",
+    "author-decision://world/WLD-ECOLOGY-004A",
+    "author-decision://world/WLD-FLORA-001A",
+    "canon://world/shared-universe-001/ecology/lineage-ii-vegetation-architects",
+    "canon://world/shared-universe-001/ecology/lineage-ii-fermentation-lattice",
+    "canon://world/shared-universe-001/ecology/lineage-ii-peripheral-migration-corridor",
+    "CAL0 WLD1.2D",
+    "CAL0 WLD2.1A+D"
+  ],
+  "contradictions": [],
+  "story_implications": [
+    "Spring, summer, autumn, and winter present visibly different forage, cover, travel, and disturbance conditions.",
+    "Surface fire, flood, or grazing damage may leave living reserves below ground, but recovery can fail after repeated depletion.",
+    "Crown-herd browsing and trampling can help maintain openings until herd pressure exceeds the guild's recovery capacity.",
+    "Ribbon groups can track young growth and reproductive structures at a finer seasonal and spatial scale than crown herds.",
+    "Forage failure, delayed emergence, or exhausted reserves can affect herd condition and movement without acting as an arbitrary monster escalation."
+  ],
+  "system_implications": [
+    "Reserve-web growth and recovery use finite stored and newly acquired matter and energy under CAL0 WLD2.1A+D.",
+    "The guild comprises ordinary biological member populations, not a spawn point, refill node, encounter reset, or guaranteed resource."
+  ],
+  "research_questions": [
+    "How many species or lineages implement reserve-web strategies, and how are they related?",
+    "What structures store water and nutrients, and what controls module anatomy, patch size, and connection density?",
+    "How do modules and patches reproduce, disperse, fuse, fragment, reconnect, age, and compete?",
+    "Which soils, water regimes, slopes, and disturbance patterns favour each member?",
+    "What seasonal productivity and nutritional values can support ordinary crown and ribbon pressure?",
+    "Which pests, diseases, parasites, mutualists, and decomposers constrain the networks?",
+    "Which complementary vegetation guilds occupy woodland, wetland, shoreline, disturbed, and heavily grazed habitats?",
+    "Which human uses or management practices are biologically possible without establishing them culturally?"
+  ],
+  "sources": [
+    "worldbuilding/settings/shared-universe-001/proposals/WLD-FLORA-001.md",
+    "stories/series/project-hearthway-main/workbench/runs/2026-08-14-basin-reserve-web-flora/proposal.md",
+    "canon://world/shared-universe-001/ecology/lineage-ii-vegetation-architects",
+    "canon://world/shared-universe-001/ecology/lineage-ii-fermentation-lattice",
+    "canon://world/shared-universe-001/ecology/lineage-ii-peripheral-migration-corridor",
+    "Author selection on 2026-08-14"
+  ],
+  "supersedes": [],
+  "superseded_by": null,
+  "author_approval": {
+    "decision_uri": "author-decision://world/WLD-FLORA-001A",
+    "accepted_on": "2026-08-14",
+    "accepted_by": "Author",
+    "evidence": "The Author replied 'yes' after reviewing the bounded reserve-web guild recommendation and alternatives on 2026-08-14."
+  }
+}

@@ -1,0 +1,182 @@
+{
+  "$schema": "../../schemas/workflow-evidence-manifest.schema.json",
+  "schema_version": "1.0.0",
+  "run_id": "run://develop-worldbuilding/WB-RUN-2026-08-14-ECOLOGY-010",
+  "evidence_kind": "ACCEPTED_OUTCOME",
+  "workflow": "develop-worldbuilding+author-decision",
+  "completed_on": "2026-08-14",
+  "canonicality": "ACCEPTED",
+  "promotion": "ALLOWED_WITH_AUTHOR_GATE",
+  "source_manifest": [
+    {
+      "path": "worldbuilding/settings/shared-universe-001/proposals/WLD-ECOLOGY-010.md",
+      "revision": "WLD-ECOLOGY-010-proposal@2026-08-14",
+      "sha256": "sha256:4263b6231819934c48c22278ad4bb458ea28cabef052e008a583112f753f1a96"
+    },
+    {
+      "path": "stories/series/project-hearthway-main/workbench/runs/2026-08-14-basin-lake-family-care-migrant-outlet-passage/proposal.md",
+      "revision": "WLD-ECOLOGY-010-option-capture@2026-08-14",
+      "sha256": "sha256:18f8aca8b98d917821787c63521f295238922e08e249592d57ab7be7af191d6c"
+    }
+  ],
+  "target_artifacts": [
+    {
+      "path": "worldbuilding/settings/shared-universe-001/decisions/WLD-ECOLOGY-010A.decision.json",
+      "revision": "WLD-ECOLOGY-010A@2026-08-14",
+      "sha256": "sha256:230c225498bcddef8833e2564ac71f5284ef66732ec19dae5d0967488918227e"
+    },
+    {
+      "path": "worldbuilding/settings/shared-universe-001/decisions/WLD-ECOLOGY-010A.md",
+      "revision": "WLD-ECOLOGY-010A@2026-08-14",
+      "sha256": "sha256:0a292dd900db5876ed501d04d45c8281ed834e281ef413a4a22414d380a28bc9"
+    },
+    {
+      "path": "worldbuilding/settings/shared-universe-001/canon/ecology/WLD-ECOLOGY-010.worldbuilding.json",
+      "revision": "WLD-ECOLOGY-010@2026-08-14",
+      "sha256": "sha256:216538dda808078f28e05b396bef0b1ea3481bfbd894116db03cf228eff55685"
+    },
+    {
+      "path": "worldbuilding/settings/shared-universe-001/canon/ecology/WLD-ECOLOGY-010.md",
+      "revision": "WLD-ECOLOGY-010@2026-08-14",
+      "sha256": "sha256:3970dad7b6820b96648c6c0f43aec5fbf6d645a459a91e97c338f6bfff533b8c"
+    },
+    {
+      "path": "worldbuilding/settings/shared-universe-001/canon/ecology/WLD-ECOLOGY-006.worldbuilding.json",
+      "revision": "WLD-ECOLOGY-010-compatible@2026-08-14",
+      "sha256": "sha256:000566f5c8ea3af8a260c86211ee514c1960a313b55c5e16b466c56120c40015"
+    },
+    {
+      "path": "worldbuilding/settings/shared-universe-001/canon/ecology/WLD-ECOLOGY-006.md",
+      "revision": "WLD-ECOLOGY-010-compatible@2026-08-14",
+      "sha256": "sha256:533cfe86c784cfbdf8920b868146df64306293f28017cd86a3d52f98ea719d2f"
+    },
+    {
+      "path": "worldbuilding/settings/shared-universe-001/canon/ecology/WLD-ECOLOGY-009.worldbuilding.json",
+      "revision": "WLD-ECOLOGY-010-compatible@2026-08-14",
+      "sha256": "sha256:0976f715190329b54912fbe396d4f7fc42c43c8ae96cc2454a73b1150c20b970"
+    },
+    {
+      "path": "worldbuilding/settings/shared-universe-001/canon/ecology/WLD-ECOLOGY-009.md",
+      "revision": "WLD-ECOLOGY-010-compatible@2026-08-14",
+      "sha256": "sha256:77aeee70eb071978c7b4e07ef6f424b063f127904a5c341d9f128cafbcd865a2"
+    },
+    {
+      "path": "worldbuilding/settings/shared-universe-001/canon/geography/WLD-GEOGRAPHY-001.worldbuilding.json",
+      "revision": "WLD-ECOLOGY-010-compatible@2026-08-14",
+      "sha256": "sha256:e25f79886a4609985da10ccda1d8bdb901d37a26f6cbe4b3e492fc8e9d2d5282"
+    },
+    {
+      "path": "worldbuilding/settings/shared-universe-001/canon/geography/WLD-GEOGRAPHY-001.md",
+      "revision": "WLD-ECOLOGY-010-compatible@2026-08-14",
+      "sha256": "sha256:387b8e274bf11557eebe5f1145f6c3edd44547018920425ec18685da0ef452a5"
+    },
+    {
+      "path": "worldbuilding/settings/shared-universe-001/setting-constitution.md",
+      "revision": "WLD-ECOLOGY-010-reconciled@2026-08-14",
+      "sha256": "sha256:e2a4a2483c462bbd48449108e126c42df2b699188e924bfd7578970aa00b5c4f"
+    },
+    {
+      "path": "worldbuilding/settings/shared-universe-001/indexes/INDEX.md",
+      "revision": "WLD-ECOLOGY-010-indexed@2026-08-14",
+      "sha256": "sha256:e8052ec72854b68b94d7656eb194978f8e44af071db01cd8bd5393908097e783"
+    },
+    {
+      "path": "worldbuilding/settings/shared-universe-001/canon/README.md",
+      "revision": "WLD-ECOLOGY-010-registered@2026-08-14",
+      "sha256": "sha256:7dee8d644c9b347c727c75f5879ba89ea084eed1e6847186e2b3431e3027e08e"
+    },
+    {
+      "path": "worldbuilding/settings/shared-universe-001/proposals/README.md",
+      "revision": "WLD-ECOLOGY-010-registered@2026-08-14",
+      "sha256": "sha256:7d2719f6fbcd69e495ff42310bac2b6e34273c7ca635701e0eeb6ce241f687b9"
+    },
+    {
+      "path": "worldbuilding/settings/shared-universe-001/decisions/README.md",
+      "revision": "WLD-ECOLOGY-010-registered@2026-08-14",
+      "sha256": "sha256:776f112ffc895d31801671e2b6308a4ed2812161782b1e378ff214d9cfaa1077"
+    },
+    {
+      "path": "worldbuilding/INDEX.md",
+      "revision": "WLD-ECOLOGY-010-indexed@2026-08-14",
+      "sha256": "sha256:5ab51483c8cbb4468a6dbd9c03574898f2a06b126b870715f77d0a39d56a6b45"
+    },
+    {
+      "path": "worldbuilding/README.md",
+      "revision": "WLD-ECOLOGY-010-summarized@2026-08-14",
+      "sha256": "sha256:72b05bc3cd762c8c175fdc759f79dd60f25b9fd59d5139ef2822d00b6bc796a3"
+    },
+    {
+      "path": "worldbuilding/settings/README.md",
+      "revision": "WLD-ECOLOGY-010-summarized@2026-08-14",
+      "sha256": "sha256:3d646ca46fc19340529c21259b99ffe3f90b69cae9a88c16cb7997672f227807"
+    },
+    {
+      "path": "worldbuilding/canon/README.md",
+      "revision": "WLD-ECOLOGY-010-summarized@2026-08-14",
+      "sha256": "sha256:52de0d7b5ecc6f0db6e9610ea9d1e4829ff07ca838850bbb14d5bb8aaed7d906"
+    },
+    {
+      "path": "stories/series/project-hearthway-main/project-hearthway-main.work-manifest.json",
+      "revision": "WLD-ECOLOGY-010-adopted@2026-08-14",
+      "sha256": "sha256:0bb275f8239b6a9c3e1ed1c99039aebe6b3a538108975eb8ef8794b56a7dbb0a"
+    },
+    {
+      "path": "stories/series/project-hearthway-main/work-manifest.md",
+      "revision": "WLD-ECOLOGY-010-adopted@2026-08-14",
+      "sha256": "sha256:f779c22c15530ea61aac0bf6f8ff71a0f99b1694564169af345eb55e034f2cba"
+    },
+    {
+      "path": "stories/series/project-hearthway-main/work-contract.md",
+      "revision": "WLD-ECOLOGY-010-adopted@2026-08-14",
+      "sha256": "sha256:5d1b6227f995d33561012dd79a25247dbb59e43a208111e95a6a23e0da9c8194"
+    },
+    {
+      "path": "README.md",
+      "revision": "WLD-ECOLOGY-010-summarized@2026-08-14",
+      "sha256": "sha256:607d980dd852079d6d5f847b2ccd373b1195f6e14d1324f3388ac759b1d685e7"
+    },
+    {
+      "path": "STATUS.md",
+      "revision": "WLD-ECOLOGY-010-summarized@2026-08-14",
+      "sha256": "sha256:9c26d7fd175a2d7f528628d015297aea8398a6b0b4d1d0b317313849b028d450"
+    }
+  ],
+  "findings": [
+    "PASS: the promoted record matches the Author-selected A — Margin-Ratchet Procession option and binds only its textual selected-feature boundary.",
+    "PASS: successive paddle-column bracing, short margin-wave advances, low pauses, the qualitative five-step rhythm, attempted pre-advance regrouping, and current-assisted autumn braking and steering preserve exact option scope.",
+    "PASS: the card's slow, conspicuous, abrasion, injury, fatigue, crowding, and interrupted-rest warnings remain feasibility concerns rather than fixed performance, event, or rate claims.",
+    "PASS: the behaviour requires but does not establish a bed-or-margin contact and resting-opportunity chain; outlet geography, hydraulics, salinity, capacity, passability, success, and survival remain open.",
+    "PASS: the transaction uses only WLD-ECOLOGY-009 structures and creates no new anatomy, Earth homology, terrestrial gait, or overland bypass.",
+    "PASS: finite material and usable energy, transport, heat and waste handling, maintenance, injury, disease, fatigue, recovery, repair, reproduction, mortality, recruitment, route capacity, and carrying capacity remain causal.",
+    "PASS: no Mana ability, pooled family identity, shared progression, XP transfer, Skill, class, reward, spawn, reset, refill, loot rule, free energy, or guaranteed recovery is created.",
+    "PASS: work adoption, setting and root discovery, fourteen-record counts, IDs, URIs, Markdown/JSON parity, and one-way dependency direction are consistent.",
+    "BOUNDARY PRESERVED: exact physical route, locomotor mechanics, physiology, care signalling, reproduction, taxonomy, human knowledge, and protagonist knowledge remain unselected."
+  ],
+  "validations": [
+    "python -m unittest tools.tests.test_validate_governance -v — passed: 3 tests before evidence registration.",
+    "python tools/validate_governance.py — passed before evidence registration: 45 repository records, 5 valid fixtures, 5 rejected fixtures.",
+    "python tools/validate_workspaces.py — passed before evidence registration: 4 work manifests, 2 setting manifests, 2 workflow evaluations, 3 rejected fixtures.",
+    "python tools/validate_story_integration.py stories/series/project-hearthway-main/project-hearthway-main.work-manifest.json — passed before evidence registration: 9 schemas, 1 valid fixture, 0 rejected fixtures.",
+    "python tools/validate_repository.py — passed before evidence registration with 105 non-CAL0 JSON files and all 121 CAL0 regression tests.",
+    "Independent ecology/CAL0, geography/provenance, and recording-surface audits — clean after bounded scope, provenance, parity, and summary corrections.",
+    "git diff --check plus an explicit 26-file source/target unintended-trailing-whitespace scan — passed before digest capture; intentional two-space Markdown hard breaks were permitted.",
+    "python tools/validate_governance.py — passed after evidence registration: 46 repository records, 5 valid fixtures, 5 rejected fixtures.",
+    "python tools/validate_governance.py --verify-current-accepted governance/evidence/WB-RUN-2026-08-14-ECOLOGY-010/WB-RUN-2026-08-14-ECOLOGY-010.workflow-evidence.json — passed for both source manifests and all 24 target artifacts.",
+    "python tools/validate_workspaces.py plus focused story-integration validation — passed after evidence registration with unchanged counts.",
+    "python tools/validate_repository.py — passed after evidence registration with 106 non-CAL0 JSON files and all 121 CAL0 regression tests.",
+    "Final git diff --check plus an explicit 30-file source, target, and retained-evidence scan — passed with no missing file or unintended trailing whitespace."
+  ],
+  "retained_files": [
+    "governance/evidence/WB-RUN-2026-08-14-ECOLOGY-010/approved-change-set.md",
+    "governance/evidence/WB-RUN-2026-08-14-ECOLOGY-010/final-findings.md",
+    "governance/evidence/WB-RUN-2026-08-14-ECOLOGY-010/validation-summary.md",
+    "governance/evidence/WB-RUN-2026-08-14-ECOLOGY-010/WB-RUN-2026-08-14-ECOLOGY-010.workflow-evidence.json"
+  ],
+  "approval": {
+    "decision_uri": "author-decision://world/WLD-ECOLOGY-010A",
+    "decided_by": "Author",
+    "decision": "ACCEPT",
+    "decided_on": "2026-08-14",
+    "evidence": "After all three complete outlet-passage choreography cards were displayed and chat confirmation was required, the Author replied 'A' on 2026-08-14, selecting 'A — Margin-Ratchet Procession'."
+  }
+}

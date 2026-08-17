@@ -1,0 +1,72 @@
+{
+  "$schema": "../../../../../governance/schemas/worldbuilding-record.schema.json",
+  "schema_version": "1.0.0",
+  "id": "WLD-ECOLOGY-003",
+  "record_uri": "canon://world/shared-universe-001/ecology/lineage-ii-symbiont-inheritance",
+  "display_code": "WLD-ECOLOGY-003",
+  "setting_id": "setting://shared-universe-001",
+  "title": "Lineage II two-stage symbiont inheritance",
+  "workflow_status": "ACCEPTED",
+  "canon_status": "PROVISIONAL",
+  "scope": "Family-level acquisition, maturation, recovery, and transmission consequences of the digestive symbionts used by Project Hearthway's developing Lineage II crown and ribbon branches; usable within shared-setting fauna and regional-ecology development.",
+  "claims": [
+    "Before birth, each developing Lineage II young receives a small compatible founder culture.",
+    "The founder culture establishes a viable beginning but does not constitute the full, diverse adult fermentation community.",
+    "After birth, repeated contact and shared feeding with parents and relatives develop the mature symbiont community.",
+    "Social maturation allows family groups to maintain fermentation communities adapted to local diets and makes compatible kin or foster groups biologically important.",
+    "Orphans can survive when fostered by compatible adults, while prolonged isolation is dangerous, especially for young or animals recovering from symbiont disruption.",
+    "Social contact can help restore a damaged symbiont community, while the same contact networks and seasonal routes can spread digestive disease."
+  ],
+  "boundaries": [
+    "Reproductive containment and the exact physical route by which the founder culture reaches a developing young remain undefined.",
+    "The exact post-birth behaviours that diversify or restore the community remain undefined.",
+    "Symbiont taxonomy, functions, maturation timing, compatibility limits, and degree of local variation remain undefined.",
+    "Specific disease identities, pathology, quarantine, treatment, and recovery times remain undefined.",
+    "Species-level differences and the detailed social organisation of crown and ribbon forms remain undefined.",
+    "This record creates no System level, reward, Skill, trait payload, specialised Mana ability, or Ancestry Development mechanic."
+  ],
+  "dependencies": [
+    "author-decision://world/WLD-SETTING-001A",
+    "author-decision://world/WLD-ECOLOGY-001A",
+    "author-decision://world/WLD-ECOLOGY-002A",
+    "author-decision://world/WLD-ECOLOGY-003A",
+    "canon://world/shared-universe-001/ecology/lineage-ii-vegetation-architects",
+    "canon://world/shared-universe-001/ecology/lineage-ii-fermentation-lattice",
+    "CAL0 WLD1.2D",
+    "CAL0 WLD2.1A+D"
+  ],
+  "contradictions": [],
+  "story_implications": [
+    "Orphan survival can depend on access to a compatible foster group rather than on food alone.",
+    "Herd fragmentation, forced relocation, captivity, or prolonged solitary travel can create delayed digestive vulnerability.",
+    "Communal feeding and renewed contact can aid recovery but can also justify quarantine, route closures, or culturally significant herd-health practices.",
+    "Groups adapted to different local forage may not transition safely or immediately when moved into another seasonal range."
+  ],
+  "system_implications": [
+    "The model is ordinary inherited and socially acquired physiology compatible with conserved material and energy inputs.",
+    "Any System-visible trait, progression effect, or specialised Mana organ requires separate causal and CAL0 review."
+  ],
+  "research_questions": [
+    "Which reproductive anatomy and physical route supply the founder culture before birth?",
+    "Which ordinary post-birth behaviours diversify and restore the symbiont community?",
+    "How broad is compatibility among relatives, unrelated herd members, foster groups, and the two branches?",
+    "How quickly does the community mature, fail under isolation, and recover after renewed contact?",
+    "Which seasonal foods drive meaningful local symbiont adaptation?",
+    "Which diseases or parasites exploit the same social and migratory network?"
+  ],
+  "sources": [
+    "worldbuilding/settings/shared-universe-001/proposals/WLD-ECOLOGY-003.md",
+    "stories/series/project-hearthway-main/workbench/runs/2026-08-14-lineage-ii-symbiont-inheritance/proposal.md",
+    "canon://world/shared-universe-001/ecology/lineage-ii-fermentation-lattice",
+    "workbench/proposals/project-hearthway-foundation-capture.md",
+    "Author selection on 2026-08-14"
+  ],
+  "supersedes": [],
+  "superseded_by": null,
+  "author_approval": {
+    "decision_uri": "author-decision://world/WLD-ECOLOGY-003A",
+    "accepted_on": "2026-08-14",
+    "accepted_by": "Author",
+    "evidence": "The Author replied 'yes' after reviewing the bounded two-stage founder-culture and social-maturation recommendation and alternatives on 2026-08-14."
+  }
+}

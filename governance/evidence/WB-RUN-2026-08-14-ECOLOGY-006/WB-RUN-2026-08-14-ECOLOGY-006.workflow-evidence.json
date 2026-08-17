@@ -1,0 +1,164 @@
+{
+  "$schema": "../../schemas/workflow-evidence-manifest.schema.json",
+  "schema_version": "1.0.0",
+  "run_id": "run://develop-worldbuilding/WB-RUN-2026-08-14-ECOLOGY-006",
+  "evidence_kind": "ACCEPTED_OUTCOME",
+  "workflow": "develop-worldbuilding+author-decision",
+  "completed_on": "2026-08-14",
+  "canonicality": "ACCEPTED",
+  "promotion": "ALLOWED_WITH_AUTHOR_GATE",
+  "source_manifest": [
+    {
+      "path": "worldbuilding/settings/shared-universe-001/proposals/WLD-ECOLOGY-006.md",
+      "revision": "WLD-ECOLOGY-006-proposal@2026-08-14",
+      "sha256": "sha256:2b91790d01856dbfd1d81f9f26f03a5dbcf9272c5d1969accf26b4e5ee75cd3b"
+    }
+  ],
+  "target_artifacts": [
+    {
+      "path": "worldbuilding/settings/shared-universe-001/decisions/WLD-ECOLOGY-006A.decision.json",
+      "revision": "WLD-ECOLOGY-006A@2026-08-14",
+      "sha256": "sha256:c0d8ce3610f5e16601424d6848f00de8d2d2b73b4cc76952b5d4ea0c83a6f7aa"
+    },
+    {
+      "path": "worldbuilding/settings/shared-universe-001/decisions/WLD-ECOLOGY-006A.md",
+      "revision": "WLD-ECOLOGY-006A@2026-08-14",
+      "sha256": "sha256:f4d57b834e68ff7a8c7cd43f210e1237696b1b516a61898233c74a4fe78d642a"
+    },
+    {
+      "path": "worldbuilding/settings/shared-universe-001/canon/ecology/WLD-ECOLOGY-006.worldbuilding.json",
+      "revision": "WLD-ECOLOGY-006@2026-08-14",
+      "sha256": "sha256:8933cc473aee977d8e2fe9af5c97505ec60f3484f4f64a243e88d300fa567b36"
+    },
+    {
+      "path": "worldbuilding/settings/shared-universe-001/canon/ecology/WLD-ECOLOGY-006.md",
+      "revision": "WLD-ECOLOGY-006@2026-08-14",
+      "sha256": "sha256:cf6202a903509cc4a7ca2151f32de7e2cf08a4277cb5bd854340d8c15dabc13b"
+    },
+    {
+      "path": "worldbuilding/settings/shared-universe-001/canon/ecology/WLD-ECOLOGY-005.worldbuilding.json",
+      "revision": "WLD-ECOLOGY-006-compatible@2026-08-14",
+      "sha256": "sha256:5f3d9eb19054a757608ad5885ba12d247714efa8dd89686f4acba30de7272261"
+    },
+    {
+      "path": "worldbuilding/settings/shared-universe-001/canon/ecology/WLD-ECOLOGY-005.md",
+      "revision": "WLD-ECOLOGY-006-compatible@2026-08-14",
+      "sha256": "sha256:be33cfa4843b7cc7dac86c279c1cfc2119d8741e0416ab84b5432c99f8e5dfde"
+    },
+    {
+      "path": "worldbuilding/settings/shared-universe-001/canon/geography/WLD-GEOGRAPHY-001.worldbuilding.json",
+      "revision": "WLD-ECOLOGY-006-compatible@2026-08-14",
+      "sha256": "sha256:e2e67c4254fcf23a6d94a0afd771767f64b8e93603c6fe116eff9b6d97881841"
+    },
+    {
+      "path": "worldbuilding/settings/shared-universe-001/canon/geography/WLD-GEOGRAPHY-001.md",
+      "revision": "WLD-ECOLOGY-006-compatible@2026-08-14",
+      "sha256": "sha256:e14e7f4de7659bbcaecfd090ffa40f81cac4334112ff5951861cde23930defaa"
+    },
+    {
+      "path": "worldbuilding/settings/shared-universe-001/setting-constitution.md",
+      "revision": "WLD-ECOLOGY-006-reconciled@2026-08-14",
+      "sha256": "sha256:5ab3c4beca7158fed53f1fbe0c472dedfe276f8f155c8e3e9adc69933b541174"
+    },
+    {
+      "path": "worldbuilding/settings/shared-universe-001/indexes/INDEX.md",
+      "revision": "WLD-ECOLOGY-006-indexed@2026-08-14",
+      "sha256": "sha256:98af692e96a96ec8a6f2d31f1a6b2ce21a3f91cbae456dc80118ddfc1a5a7b58"
+    },
+    {
+      "path": "worldbuilding/settings/shared-universe-001/canon/README.md",
+      "revision": "WLD-ECOLOGY-006-registered@2026-08-14",
+      "sha256": "sha256:e9437d91f7150bdfa0089351d4f3395a687df225d947d731c71455db2f94fbd6"
+    },
+    {
+      "path": "worldbuilding/settings/shared-universe-001/proposals/README.md",
+      "revision": "WLD-ECOLOGY-006-registered@2026-08-14",
+      "sha256": "sha256:2bdfca876a077065b8b7e8ccc4c378c4b94561551c2f7eb761cadf9c93e3a568"
+    },
+    {
+      "path": "worldbuilding/settings/shared-universe-001/decisions/README.md",
+      "revision": "WLD-ECOLOGY-006-registered@2026-08-14",
+      "sha256": "sha256:2cfbdfb59756824a1f926c4d3c41363bd1b560b6823aef6206d8f48e0178c366"
+    },
+    {
+      "path": "worldbuilding/INDEX.md",
+      "revision": "WLD-ECOLOGY-006-indexed@2026-08-14",
+      "sha256": "sha256:aa5769ad532c940b373aedb935076da0fa5ab087458fad37a7b91bd6a0126d69"
+    },
+    {
+      "path": "worldbuilding/README.md",
+      "revision": "WLD-ECOLOGY-006-summarized@2026-08-14",
+      "sha256": "sha256:bc5086027d3fec06b68b0df95f9411a2b972bd6bfd009b29ac0a0c88892faebe"
+    },
+    {
+      "path": "worldbuilding/settings/README.md",
+      "revision": "WLD-ECOLOGY-006-summarized@2026-08-14",
+      "sha256": "sha256:bdbeb133e736a69953248da220978f1c2901a9e92032297483e574add7568fe1"
+    },
+    {
+      "path": "worldbuilding/canon/README.md",
+      "revision": "WLD-ECOLOGY-006-summarized@2026-08-14",
+      "sha256": "sha256:453f7755e72f06fc88b42a78764ac6c06e2b68765f6e22e9ccd0bb76d31babd6"
+    },
+    {
+      "path": "stories/series/project-hearthway-main/project-hearthway-main.work-manifest.json",
+      "revision": "WLD-ECOLOGY-006-adopted@2026-08-14",
+      "sha256": "sha256:6b4f4aa773c99a88b9c6921ad5a9bf090a6c8a29038a66ae7cbe57f29493e50a"
+    },
+    {
+      "path": "stories/series/project-hearthway-main/work-manifest.md",
+      "revision": "WLD-ECOLOGY-006-adopted@2026-08-14",
+      "sha256": "sha256:a146f82510fea8730c4d51a9b31e4829c5c5658aa483a422cf6ee4dc5886f7fe"
+    },
+    {
+      "path": "stories/series/project-hearthway-main/work-contract.md",
+      "revision": "WLD-ECOLOGY-006-adopted@2026-08-14",
+      "sha256": "sha256:f740016de64eed1364c2653a445963969877c12d9495ce386b341d4d5b3a72b2"
+    },
+    {
+      "path": "README.md",
+      "revision": "WLD-ECOLOGY-006-summarized@2026-08-14",
+      "sha256": "sha256:8eab832b6ea9b0bb9b758a4fa552ce571a065d667eb44edc5cf4345c6167a5d0"
+    },
+    {
+      "path": "STATUS.md",
+      "revision": "WLD-ECOLOGY-006-summarized@2026-08-14",
+      "sha256": "sha256:c08edfd65116509711d39dd55eeb94f07d4c6bb1a2a93bc150ac9660d65c204e"
+    }
+  ],
+  "findings": [
+    "PASS: the promoted record matches the Author-selected productive but spatially and seasonally varied lake and overlapping spring migrant pulse.",
+    "PASS: healthy adults of the first migrant generally return seaward despite meaningful mortality, while the family-care migrant remains for one warm season and escorts surviving young seaward before autumn storms and first freezes.",
+    "PASS: dense egg ribbons or clusters are deposited onto sturdy plants and mineral surfaces across several nursery habitat classes without selecting an adhesion or other retention mechanism.",
+    "PASS: the family-care migrant's young use the first migrant's eggs and juveniles as important but non-exclusive prey, while both migrants compete with resident lake fauna.",
+    "PASS: aquatic predators, terrestrial shore hunters, bird-like fishing organisms, and humans exploit the pulse without establishing anatomy, fisheries, institutions, or sustainable harvest.",
+    "PASS: reproductive risk is dispersed so no single ordinary predator, flood, or fishery routinely destroys an entire generation, while exceptional or compound collapse remains possible.",
+    "PASS: the egg-deposition pattern creates seasonally shifting feeding grounds while their exact locations, timing, consumers, and movement remain open.",
+    "PASS: WLD-ECOLOGY-005 and WLD-GEOGRAPHY-001 carry downstream compatibility cross-references without reciprocal structured dependencies.",
+    "PASS: flooded vegetation is not identified as reserve-web, egg ribbons create no body plan or Lineage II relationship, and bird-like creates no Earth taxonomy.",
+    "PASS: CAL0 is applied as ordinary finite reproduction, migration, competition, predation, mortality, and recruitment without a System change.",
+    "BOUNDARY PRESERVED: names, taxa, body plans, Mana, System expression, exact routes, timing, population numbers, recruitment budgets, human practices, and character knowledge remain unselected."
+  ],
+  "validations": [
+    "python -m unittest tools.tests.test_validate_governance -v — passed: 3 tests.",
+    "python tools/validate_governance.py — passed: 34 repository records, 5 valid fixtures, 5 rejected fixtures.",
+    "python tools/validate_workspaces.py — passed: 4 work manifests, 2 setting manifests, 2 workflow evaluations, 3 rejected fixtures.",
+    "python tools/validate_story_integration.py stories/series/project-hearthway-main/project-hearthway-main.work-manifest.json — passed: 9 schemas, 1 valid fixture, 0 rejected fixtures.",
+    "python tools/validate_governance.py --verify-current-accepted governance/evidence/WB-RUN-2026-08-14-ECOLOGY-006/WB-RUN-2026-08-14-ECOLOGY-006.workflow-evidence.json — passed: accepted-outcome current-byte verification.",
+    "python tools/validate_repository.py — passed: complete repository validation including 121 CAL0 regression tests.",
+    "git diff --check plus explicit touched-file trailing-whitespace scan — passed."
+  ],
+  "retained_files": [
+    "governance/evidence/WB-RUN-2026-08-14-ECOLOGY-006/approved-change-set.md",
+    "governance/evidence/WB-RUN-2026-08-14-ECOLOGY-006/final-findings.md",
+    "governance/evidence/WB-RUN-2026-08-14-ECOLOGY-006/validation-summary.md",
+    "governance/evidence/WB-RUN-2026-08-14-ECOLOGY-006/WB-RUN-2026-08-14-ECOLOGY-006.workflow-evidence.json"
+  ],
+  "approval": {
+    "decision_uri": "author-decision://world/WLD-ECOLOGY-006A",
+    "decided_by": "Author",
+    "decision": "ACCEPT",
+    "decided_on": "2026-08-14",
+    "evidence": "Across guided ecology questions on 2026-08-14, the Author selected a broadly productive but spatially and seasonally varied lake; proposed overlapping mass-breeding and family-care migrants; approved their juvenile predator-prey relationship and resident competition plus exploitation by humans and fishing land and bird-like organisms; and replied 'yes' to the spring-freshet sequence, one-warm-season rearing cycle, and the presented recommendation for dense ribbons or clusters of eggs deposited onto sturdy plants and mineral surfaces across dispersed nursery belts."
+  }
+}

@@ -1,0 +1,82 @@
+{
+  "$schema": "../../../../governance/schemas/decision-record.schema.json",
+  "schema_version": "1.0.0",
+  "id": "WLD-FLORA-003A",
+  "decision_uri": "author-decision://world/WLD-FLORA-003A",
+  "display_code": "WLD-FLORA-003A",
+  "title": "Basin reserve-web fragment viability",
+  "domain": "Project Hearthway regional flora",
+  "workflow_status": "ACCEPTED",
+  "canon_status": "PROVISIONAL",
+  "scope": "Threshold-based survival and possible independent-patch stabilization of severed reserve-web fragments in Project Hearthway's initial basin. Exact quantitative thresholds, anatomy, wound response, timescale, reconnection, other reproduction, species variation, Mana use, System appraisal, and human knowledge or exploitation remain open.",
+  "accepted_on": "2026-08-14",
+  "accepted_by": "Author",
+  "approval_evidence": "After the threshold-based fragment-survival recommendation was presented, the Author replied 'yes' on 2026-08-14.",
+  "question": "Under what general condition can a severed reserve-web section survive and become an independent colony patch?",
+  "selection": "Severed fragments survive only when they retain enough viable modules, reserves, and functioning connections to sustain themselves. Viable fragments can slowly stabilize as independent patches; inadequate fragments decline and die. Fragmentation therefore does not make every break an effortless propagation event.",
+  "alternatives": [
+    "FLORA-FRAGMENT-A: threshold-based viability followed by possible slow independent-patch stabilization; selected.",
+    "FLORA-FRAGMENT-B: universal or near-universal survival of living fragments; not selected.",
+    "FLORA-FRAGMENT-C: isolated fragments cannot become independent patches; not selected."
+  ],
+  "rationale": "The selected rule preserves the reserve-web's capacity for local recovery while making fragmentation conditional, slow, materially constrained, and capable of failure rather than an automatic propagation or refill mechanism.",
+  "evidence": [
+    "Author selection on 2026-08-14.",
+    "worldbuilding/settings/shared-universe-001/proposals/WLD-FLORA-003.md",
+    "canon://world/shared-universe-001/ecology/basin-reserve-web-modular-colonies",
+    "CAL0 WLD1.1D",
+    "CAL0 WLD2.1A+D"
+  ],
+  "consequences": [
+    "Severance creates only a candidate fragment rather than a guaranteed new patch.",
+    "Independent survival requires enough viable modules, reserves, and functioning connections for self-maintenance.",
+    "A viable fragment can slowly stabilize as an independent patch.",
+    "An inadequate fragment cannot persist independently and declines and dies.",
+    "Exact thresholds, timescale, wound response, reconnection, and other reproductive routes remain open.",
+    "Independent patch status does not establish a personal System actor, duplicated identity, spawn, refill, or progression reward."
+  ],
+  "affected_sources": [
+    "worldbuilding/settings/shared-universe-001/proposals/WLD-FLORA-003.md",
+    "worldbuilding/settings/shared-universe-001/canon/ecology/WLD-FLORA-003.worldbuilding.json",
+    "worldbuilding/settings/shared-universe-001/canon/ecology/WLD-FLORA-003.md",
+    "worldbuilding/settings/shared-universe-001/canon/ecology/WLD-FLORA-002.worldbuilding.json",
+    "worldbuilding/settings/shared-universe-001/canon/ecology/WLD-FLORA-002.md",
+    "worldbuilding/settings/shared-universe-001/setting-constitution.md",
+    "worldbuilding/settings/shared-universe-001/canon/README.md",
+    "worldbuilding/settings/shared-universe-001/proposals/README.md",
+    "worldbuilding/settings/shared-universe-001/decisions/README.md",
+    "worldbuilding/settings/shared-universe-001/indexes/INDEX.md",
+    "worldbuilding/INDEX.md",
+    "worldbuilding/README.md",
+    "worldbuilding/settings/README.md",
+    "worldbuilding/canon/README.md",
+    "stories/series/project-hearthway-main/project-hearthway-main.work-manifest.json",
+    "stories/series/project-hearthway-main/work-manifest.md",
+    "stories/series/project-hearthway-main/work-contract.md",
+    "README.md",
+    "STATUS.md"
+  ],
+  "dependencies": [
+    "WLD-SETTING-001A",
+    "WLD-FLORA-002A",
+    "WLD-FLORA-002",
+    "CAL0 WLD1.1D",
+    "CAL0 WLD2.1A+D"
+  ],
+  "conflicts": [],
+  "residual_unknowns": [
+    "Minimum functional module count, reserve condition, connection topology, and interactions among those requirements remain open.",
+    "Stabilization timescale, mortality curve, wound response, and seasonal variation remain open.",
+    "Reconnection, fusion, competition, parasitism, and disease transmission remain open.",
+    "Biological individuality, genetic relationship, displaced-fragment survival, and other reproduction or dispersal routes remain open.",
+    "Mana use, System appraisal, human knowledge, and deliberate propagation remain open."
+  ],
+  "supersedes": [],
+  "superseded_by": null,
+  "reopening_conditions": [
+    "Detailed ecological modelling cannot support viable fragments without automatic propagation.",
+    "Later species design requires a materially different fragment-survival rule.",
+    "A story requirement exposes an unresolvable contradiction in damage, recovery, reproduction, or identity.",
+    "The Author explicitly reopens the decision."
+  ]
+}

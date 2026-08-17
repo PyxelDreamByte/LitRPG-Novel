@@ -296,16 +296,22 @@ def main() -> int:
     for path in sorted(
         set((ROOT / "governance/decisions").glob("**/*.decision.json"))
         | set((ROOT / "worldbuilding/decisions").glob("**/*.decision.json"))
+        | set(ROOT.glob("worldbuilding/settings/**/decisions/**/*.decision.json"))
     ):
         document = load_json(path)
         if isinstance(document, dict) and isinstance(document.get("decision_uri"), str):
             decisions[document["decision_uri"]] = document
     world_records: dict[str, dict[str, Any]] = {}
-    for root in (ROOT / "worldbuilding/canon", ROOT / "worldbuilding/proposals"):
-        for path in sorted(root.glob("**/*.worldbuilding.json")):
-            document = load_json(path)
-            if isinstance(document, dict) and isinstance(document.get("record_uri"), str):
-                world_records[document["record_uri"]] = document
+    world_record_paths = (
+        set((ROOT / "worldbuilding/canon").glob("**/*.worldbuilding.json"))
+        | set((ROOT / "worldbuilding/proposals").glob("**/*.worldbuilding.json"))
+        | set(ROOT.glob("worldbuilding/settings/**/canon/**/*.worldbuilding.json"))
+        | set(ROOT.glob("worldbuilding/settings/**/proposals/**/*.worldbuilding.json"))
+    )
+    for path in sorted(world_record_paths):
+        document = load_json(path)
+        if isinstance(document, dict) and isinstance(document.get("record_uri"), str):
+            world_records[document["record_uri"]] = document
 
     setting_manifests: dict[str, dict[str, Any]] = {}
     setting_paths = sorted(

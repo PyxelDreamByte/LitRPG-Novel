@@ -1,0 +1,91 @@
+{
+  "$schema": "../../../../../governance/schemas/worldbuilding-record.schema.json",
+  "schema_version": "1.0.0",
+  "id": "WLD-LOCATION-002",
+  "record_uri": "canon://world/shared-universe-001/location/initial-ridge-spur-lake-road-practical-travel-scale",
+  "display_code": "WLD-LOCATION-002",
+  "setting_id": "setting://shared-universe-001",
+  "title": "Initial ridge-spur lake-road practical travel scale",
+  "workflow_status": "ACCEPTED",
+  "canon_status": "PROVISIONAL",
+  "scope": "Broad conditional fair-weather journey anchors for the established road between Project Hearthway's initial ridge-spur settlement and the lake; usable for location, logistics, ecology, culture, and story development without establishing exact distance, guaranteed duration, transport, traffic, infrastructure, institutions, encounters, or System effects.",
+  "claims": [
+    "The established lake road uses the author-facing practical scale half-day working route.",
+    "Under the displayed fair-weather comparison, an ordinary unladen downhill journey has a broad 1–1½-hour reference band.",
+    "Under the same comparison, a routine laden uphill return has a broad 2–3-hour reference band.",
+    "A useful shore visit followed by a loaded return can consume most of a working day.",
+    "The lake remains part of regular settlement life even though haulage, freshness where goods are perishable, remaining daylight, and delays can matter."
+  ],
+  "boundaries": [
+    "This record is a forward refinement of WLD-LOCATION-001's qualitative lake-road relationship; it does not alter the settlement, managed apron, lake, regional drainage, climate, habitat mosaic, or migration relationships.",
+    "The direction and load qualifiers belong to their respective bands; unladen ascent and laden descent remain undefined.",
+    "Half-day working route, ordinary, routine, unladen, laden, downhill, uphill, fair-weather, useful shore visit, and working day are qualitative author-facing comparison terms; they establish no in-world unit, benchmark person, standard load, fixed itinerary, schedule, minimum, maximum, average, probability distribution, or universal rule.",
+    "The bands are broad planning anchors rather than guaranteed journey times; actual journeys can fall outside them because of traveller condition, load, balance, terrain, rests, route knowledge, road condition, weather, season, daylight, obstruction, injury, or animal movement.",
+    "Exact distance, elevation change, gradient, alignment, turn count, width, surface, drainage, construction, maintenance, condition, seasonal impairment, route capacity, and journey-time distribution remain undefined.",
+    "Traveller age, fitness, pace, rests, knowledge, supplies, load type and weight, party size, vehicle use, pack animals, and other travel methods remain undefined.",
+    "A useful shore visit and laden return can consume most of a working day; no fishing, gathering, product, preservation method, trade, traffic frequency, convoy, patrol, lodging, schedule, road authority, toll, ownership, or customary practice is established.",
+    "WLD-LOCATION-003 later establishes only one recurring upper-shore staging place on relatively firm ground set back from the ordinarily shifting wet margin and several short seasonal spurs to changeable nearby shore contacts. Exact placement, dimensions, surface, construction, maintenance, spur count or layout, terminal shore contact, landing, harbour, outpost, shelter, cache, storage, processing site, lakeshore settlement, or guaranteed access remains undefined.",
+    "WLD-ECOLOGY-004 through WLD-ECOLOGY-006 remain unchanged; no exact habitat sequence, species presence, secondary crown-herd-path overlap, predator encounter, obstruction, closure, injury, delay, loss, or journey outcome is established.",
+    "The bands are author-facing planning truth; a character knows a local estimate only through an available source, and one observed trip does not reveal exact distance, universal duration, future condition, or hidden hazard.",
+    "Movement requires finite effort, time, mass, volume, balance, terrain, duration, fatigue, food, water, recovery, route condition, and material support where later records establish them.",
+    "No inventory rule, encumbrance formula, travel mechanic, movement modifier, route readout, safe road, fast-travel effect, quest trigger, spawn, reset, free energy, free Mana, or guaranteed recovery is established.",
+    "This record establishes no relationship to WLD-GEOGRAPHY-002's outlet mixed-reach sequence and adopts no WLD-SOUL, WLD-PRENATAL, or other project default."
+  ],
+  "dependencies": [
+    "author-decision://world/WLD-SETTING-001A",
+    "author-decision://world/WLD-GEOGRAPHY-001A",
+    "canon://world/shared-universe-001/geography/initial-region-physical-scaffold",
+    "author-decision://world/WLD-LOCATION-001A",
+    "canon://world/shared-universe-001/location/initial-ridge-spur-settlement-working-landscape",
+    "author-decision://world/WLD-ECOLOGY-004A",
+    "canon://world/shared-universe-001/ecology/lineage-ii-peripheral-migration-corridor",
+    "author-decision://world/WLD-ECOLOGY-005A",
+    "canon://world/shared-universe-001/ecology/basin-coupled-pulse-mosaic-exchange",
+    "author-decision://world/WLD-ECOLOGY-006A",
+    "canon://world/shared-universe-001/ecology/basin-lake-spring-breeding-pulse",
+    "author-decision://world/WLD-LOCATION-002A",
+    "CAL0 WLD1.2D",
+    "CAL0 WLD2.1A+D",
+    "CAL0 ITM1.2D"
+  ],
+  "contradictions": [],
+  "story_implications": [
+    "Later scenes may use the broad conditional journey scale while preserving every exact departure, traveller, load, route state, shore task, delay, encounter, return, and outcome for its own evidence. WLD-LOCATION-003 later supplies only the qualitative endpoint arrangement and does not subdivide, extend, or add to these whole-journey bands.",
+    "The road can provide a meaningful transition between the settlement's managed landscape and lakeward environments without making every lake visit an expedition.",
+    "Perishable goods, frequent loads, or late returns can motivate later logistics decisions, but no product, practice, institution, infrastructure, or outcome follows automatically.",
+    "The author-facing bands do not become automatic character knowledge; estimates, observations, predictions, and beliefs require available sources and bounded confidence."
+  ],
+  "system_implications": [
+    "The selected travel scale is an ordinary world-level input under CAL0 WLD1.2D and WLD2.1A+D, not a System change.",
+    "Laden movement remains conditioned by finite mass, volume, balance, terrain, duration, fatigue, and task under CAL0 ITM1.2D.",
+    "No inventory rule, encumbrance formula, travel mechanic, movement modifier, route readout, fast-travel effect, safe road, free energy, free Mana, or guaranteed recovery is established."
+  ],
+  "research_questions": [
+    "What exact route distance, elevation change, gradient, alignment, construction, drainage, maintenance, condition, and seasonal impairment can support both broad reference bands?",
+    "How do traveller condition, load mass and balance, rests, route knowledge, party size, and travel method distribute actual journey times around and outside the anchors?",
+    "What unladen uphill and laden downhill reference bands become useful after transport and route work is developed?",
+    "What exact upper-shore staging placement, seasonal-spur count and layout, terminal shore contacts, lakeward habitat sequence, landing works, traffic, goods, preservation, storage, shelter, and institutions are physically and socially supportable?",
+    "Which route sections, if any, overlap WLD-ECOLOGY-004's secondary crown-herd paths, and what observations, warnings, closures, and delays can local people actually know?"
+  ],
+  "sources": [
+    "worldbuilding/settings/shared-universe-001/proposals/WLD-LOCATION-002.md",
+    "stories/series/project-hearthway-main/workbench/runs/2026-08-15-initial-ridge-spur-lake-road-practical-travel-scale/proposal.md",
+    "canon://world/shared-universe-001/geography/initial-region-physical-scaffold",
+    "canon://world/shared-universe-001/location/initial-ridge-spur-settlement-working-landscape",
+    "canon://world/shared-universe-001/ecology/lineage-ii-peripheral-migration-corridor",
+    "canon://world/shared-universe-001/ecology/basin-coupled-pulse-mosaic-exchange",
+    "canon://world/shared-universe-001/ecology/basin-lake-spring-breeding-pulse",
+    "CAL0 WLD1.2D",
+    "CAL0 WLD2.1A+D",
+    "CAL0 ITM1.2D",
+    "Author selection on 2026-08-15"
+  ],
+  "supersedes": [],
+  "superseded_by": null,
+  "author_approval": {
+    "decision_uri": "author-decision://world/WLD-LOCATION-002A",
+    "accepted_on": "2026-08-15",
+    "accepted_by": "Author",
+    "evidence": "On 2026-08-15 the Author replied, 'I choose B — Half-day working route for the practical lake-road travel scale.'"
+  }
+}

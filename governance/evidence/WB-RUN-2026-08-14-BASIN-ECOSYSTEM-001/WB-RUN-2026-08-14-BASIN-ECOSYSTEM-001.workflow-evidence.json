@@ -1,0 +1,140 @@
+{
+  "$schema": "../../schemas/workflow-evidence-manifest.schema.json",
+  "schema_version": "1.0.0",
+  "run_id": "run://develop-worldbuilding/WB-RUN-2026-08-14-BASIN-ECOSYSTEM-001",
+  "evidence_kind": "ACCEPTED_OUTCOME",
+  "workflow": "develop-worldbuilding+author-decision",
+  "completed_on": "2026-08-14",
+  "canonicality": "ACCEPTED",
+  "promotion": "ALLOWED_WITH_AUTHOR_GATE",
+  "source_manifest": [
+    {
+      "path": "worldbuilding/settings/shared-universe-001/proposals/WLD-ECOLOGY-005.md",
+      "revision": "WLD-ECOLOGY-005-proposal@2026-08-14",
+      "sha256": "sha256:d269a1612696e4bd314356d4272fb1b6ed3f6dd2c8db1cb2ac31cf802692f2be"
+    }
+  ],
+  "target_artifacts": [
+    {
+      "path": "worldbuilding/settings/shared-universe-001/decisions/WLD-ECOLOGY-005A.decision.json",
+      "revision": "WLD-ECOLOGY-005A@2026-08-14",
+      "sha256": "sha256:fd58d9392097de26a785e667f24be74ddd886661b3c6531c9a805164e8fcb369"
+    },
+    {
+      "path": "worldbuilding/settings/shared-universe-001/decisions/WLD-ECOLOGY-005A.md",
+      "revision": "WLD-ECOLOGY-005A@2026-08-14",
+      "sha256": "sha256:5ee0a81286dacdc5e62d3d37d3a56dfccbb4f511448844ef16825afb23cadc8a"
+    },
+    {
+      "path": "worldbuilding/settings/shared-universe-001/canon/ecology/WLD-ECOLOGY-005.worldbuilding.json",
+      "revision": "WLD-ECOLOGY-005@2026-08-14",
+      "sha256": "sha256:dbcca64323b3eb3d241df8eb3f762cb0bd0d95b2f462b4a46928d4692d6d42f9"
+    },
+    {
+      "path": "worldbuilding/settings/shared-universe-001/canon/ecology/WLD-ECOLOGY-005.md",
+      "revision": "WLD-ECOLOGY-005@2026-08-14",
+      "sha256": "sha256:03b92f4c756ba5fb6435105229858894193009d98d040d9055b2a07918656d3c"
+    },
+    {
+      "path": "worldbuilding/settings/shared-universe-001/setting-constitution.md",
+      "revision": "WLD-ECOLOGY-005-reconciled@2026-08-14",
+      "sha256": "sha256:314f4f579fa3caea73158987bafb5a18df12cfc9d1e2a3b6162901ad50db2f92"
+    },
+    {
+      "path": "worldbuilding/settings/shared-universe-001/indexes/INDEX.md",
+      "revision": "WLD-ECOLOGY-005-indexed@2026-08-14",
+      "sha256": "sha256:a4a78c7211e58aa9fd769edeb17c77b4623073754530603bf2e34296fbf6e545"
+    },
+    {
+      "path": "worldbuilding/settings/shared-universe-001/canon/README.md",
+      "revision": "WLD-ECOLOGY-005-registered@2026-08-14",
+      "sha256": "sha256:101377b439b42df3358a5d177347052b9eaf573f1ee222992444ba6551d14744"
+    },
+    {
+      "path": "worldbuilding/settings/shared-universe-001/proposals/README.md",
+      "revision": "WLD-ECOLOGY-005-registered@2026-08-14",
+      "sha256": "sha256:0a3fb91328ac1cf8f335bfc0d63c8604a7df69201fd8ceffea7d6a349a3c7564"
+    },
+    {
+      "path": "worldbuilding/settings/shared-universe-001/decisions/README.md",
+      "revision": "WLD-ECOLOGY-005-registered@2026-08-14",
+      "sha256": "sha256:4a608621607322949ae509d224639778bd2190f3d7b3c0d1cb06cad8850e64dd"
+    },
+    {
+      "path": "worldbuilding/INDEX.md",
+      "revision": "WLD-ECOLOGY-005-indexed@2026-08-14",
+      "sha256": "sha256:ab95cc20d615dbf06c68fc6fdce58d20ac0092fe49cd2336f6601a4b9f2c1ca2"
+    },
+    {
+      "path": "worldbuilding/README.md",
+      "revision": "WLD-ECOLOGY-005-summarized@2026-08-14",
+      "sha256": "sha256:8fd7dd309d0ce41e2e66e3a2b168159a6027a332074d80ab87be52aa86f4133b"
+    },
+    {
+      "path": "worldbuilding/settings/README.md",
+      "revision": "WLD-ECOLOGY-005-summarized@2026-08-14",
+      "sha256": "sha256:ac2fccf9bbc971f22a269ddde0fc059c451ec54933c86143523485e672b4124d"
+    },
+    {
+      "path": "worldbuilding/canon/README.md",
+      "revision": "WLD-ECOLOGY-005-summarized@2026-08-14",
+      "sha256": "sha256:78822943b9525a6a895f7ac8393f29b88141e9ad5fa83f9795a2aa17c861221a"
+    },
+    {
+      "path": "stories/series/project-hearthway-main/project-hearthway-main.work-manifest.json",
+      "revision": "WLD-ECOLOGY-005-adopted@2026-08-14",
+      "sha256": "sha256:eff4104e289785673029e8b1089a31f0201f76cb3351e8088a52c83b2f6b2993"
+    },
+    {
+      "path": "stories/series/project-hearthway-main/work-manifest.md",
+      "revision": "WLD-ECOLOGY-005-adopted@2026-08-14",
+      "sha256": "sha256:8261466b899ebd46f8b21542ac8f257468b5865d6a2f3dbc040b5a63945debab"
+    },
+    {
+      "path": "stories/series/project-hearthway-main/work-contract.md",
+      "revision": "WLD-ECOLOGY-005-adopted@2026-08-14",
+      "sha256": "sha256:1b3ef570286dd3a2850d9be043646d6beabcd2a534c581051e403e8a5950bd50"
+    },
+    {
+      "path": "README.md",
+      "revision": "WLD-ECOLOGY-005-summarized@2026-08-14",
+      "sha256": "sha256:30d6bccab81e57d90df0ebda8dec26f19e98d0a872b1121997718699021adb29"
+    },
+    {
+      "path": "STATUS.md",
+      "revision": "WLD-ECOLOGY-005-summarized@2026-08-14",
+      "sha256": "sha256:9b6edb44d3a29ecf52f93655b9295692ea929c285c74e24372fa4740f7a54e43"
+    }
+  ],
+  "findings": [
+    "PASS: the four promoted world claims match the exact coupled pulse-mosaic option selected by the Author.",
+    "PASS: the basin is nested within a wider regional ecology without defining a particular outer region, migration, animal, product, traveller, route, market, tale, or offworld connection.",
+    "PASS: direct, transient, transported, captive, and reported evidence remain distinct and do not silently establish one another.",
+    "PASS: upstream ecology dependencies remain one-way and cycle-free.",
+    "PASS: CAL0 WLD1.2D and WLD2.1A+D are applied without a System change.",
+    "BOUNDARY PRESERVED: exact abiotic drivers, pulse timing, organisms, ranges, transport, trade, knowledge, and offworld provenance remain open."
+  ],
+  "validations": [
+    "python tools/validate_governance.py: PASS with 27 repository records before this evidence manifest was added.",
+    "python tools/validate_workspaces.py: PASS with 4 work manifests, 2 setting manifests, 2 workflow evaluations, and 3 rejected fixtures.",
+    "python tools/validate_story_integration.py stories/series/project-hearthway-main/project-hearthway-main.work-manifest.json: PASS with 9 schemas and 1 valid fixture.",
+    "Independent ecology and governance artifact audits: PASS after minor terminology and stale-summary corrections.",
+    "git diff --check: PASS with no whitespace errors.",
+    "python -m unittest tools.tests.test_validate_governance -v: PASS with 3 evidence-mode regression tests.",
+    "python tools/validate_governance.py --verify-current-accepted governance/evidence/WB-RUN-2026-08-14-BASIN-ECOSYSTEM-001/WB-RUN-2026-08-14-BASIN-ECOSYSTEM-001.workflow-evidence.json: PASS with 28 repository records, 5 valid fixtures, 5 rejected fixtures, and current accepted evidence verified.",
+    "python tools/validate_repository.py: PASS including all 121 CAL0 regression tests."
+  ],
+  "retained_files": [
+    "governance/evidence/WB-RUN-2026-08-14-BASIN-ECOSYSTEM-001/WB-RUN-2026-08-14-BASIN-ECOSYSTEM-001.workflow-evidence.json",
+    "governance/evidence/WB-RUN-2026-08-14-BASIN-ECOSYSTEM-001/final-findings.md",
+    "governance/evidence/WB-RUN-2026-08-14-BASIN-ECOSYSTEM-001/approved-change-set.md",
+    "governance/evidence/WB-RUN-2026-08-14-BASIN-ECOSYSTEM-001/validation-summary.md"
+  ],
+  "approval": {
+    "decision_uri": "author-decision://world/WLD-ECOLOGY-005A",
+    "decided_by": "Author",
+    "decision": "ACCEPT",
+    "decided_on": "2026-08-14",
+    "evidence": "After the coupled pulse-mosaic recommendation was presented, the Author replied on 2026-08-14, 'yes + consider the basin but also the wider are for migrations that some animals might make or for rare pets that travellers have or meats/produce that come from far away or tales of animals etc that aren't in the local area'."
+  }
+}

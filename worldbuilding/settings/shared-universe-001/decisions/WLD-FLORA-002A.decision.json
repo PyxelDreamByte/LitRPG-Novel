@@ -1,0 +1,82 @@
+{
+  "$schema": "../../../../governance/schemas/decision-record.schema.json",
+  "schema_version": "1.0.0",
+  "id": "WLD-FLORA-002A",
+  "decision_uri": "author-decision://world/WLD-FLORA-002A",
+  "display_code": "WLD-FLORA-002A",
+  "title": "Basin reserve-web modular colonies",
+  "domain": "Project Hearthway regional flora",
+  "workflow_status": "ACCEPTED",
+  "canon_status": "PROVISIONAL",
+  "scope": "Spatial organization and local resource-sharing topology of the reserve-web vegetation guild in Project Hearthway's initial basin. Exact module anatomy, patch scale, transfer physiology, reproduction, species variation, Mana use, System appraisal, and human knowledge or exploitation remain open.",
+  "accepted_on": "2026-08-14",
+  "accepted_by": "Author",
+  "approval_evidence": "After the modular colony-patch recommendation was presented, the Author replied 'yes' on 2026-08-14.",
+  "question": "How are the reserve-web guild's living subsurface networks spatially organized?",
+  "selection": "Use bounded modular colony patches. Numerous rooted modules share resources locally through finite living connections. Damage can sever connections and isolate or kill sections. Distinct patches do not form one basin-wide organism, and local resource sharing does not constitute shared consciousness.",
+  "alternatives": [
+    "FLORA-PATCH-A: bounded modular colony patches with finite local resource sharing; selected.",
+    "FLORA-PATCH-B: large continuous clonal megastands; not selected.",
+    "FLORA-PATCH-C: independent unconnected modules; not selected."
+  ],
+  "rationale": "The selected topology gives the reserve-web local resilience and resource sharing while preserving real patch boundaries, severable connections, uneven damage, finite recovery, multiple vegetation forms, and non-conscious ecological organization.",
+  "evidence": [
+    "Author selection on 2026-08-14.",
+    "worldbuilding/settings/shared-universe-001/proposals/WLD-FLORA-002.md",
+    "canon://world/shared-universe-001/ecology/basin-reserve-web-vegetation-guild",
+    "CAL0 WLD1.1D",
+    "CAL0 WLD2.1A+D"
+  ],
+  "consequences": [
+    "Reserve-web networks occupy bounded modular colony patches rather than forming a continuous basin-wide organism.",
+    "Each patch contains numerous rooted modules joined by spatially limited living connections.",
+    "Resources can be shared locally through those connections, subject to finite carriers and capacity.",
+    "Damage can sever links, isolate parts, and kill modules or sections without implying a universal stand reset.",
+    "Local resource sharing does not establish shared consciousness or one personal progression identity.",
+    "Later design must preserve exact module, patch, transfer, damage, reproduction, and species-variation unknowns."
+  ],
+  "affected_sources": [
+    "worldbuilding/settings/shared-universe-001/proposals/WLD-FLORA-002.md",
+    "worldbuilding/settings/shared-universe-001/canon/ecology/WLD-FLORA-002.worldbuilding.json",
+    "worldbuilding/settings/shared-universe-001/canon/ecology/WLD-FLORA-002.md",
+    "worldbuilding/settings/shared-universe-001/canon/ecology/WLD-FLORA-001.worldbuilding.json",
+    "worldbuilding/settings/shared-universe-001/canon/ecology/WLD-FLORA-001.md",
+    "worldbuilding/settings/shared-universe-001/setting-constitution.md",
+    "worldbuilding/settings/shared-universe-001/canon/README.md",
+    "worldbuilding/settings/shared-universe-001/proposals/README.md",
+    "worldbuilding/settings/shared-universe-001/decisions/README.md",
+    "worldbuilding/settings/shared-universe-001/indexes/INDEX.md",
+    "worldbuilding/INDEX.md",
+    "worldbuilding/README.md",
+    "worldbuilding/settings/README.md",
+    "worldbuilding/canon/README.md",
+    "stories/series/project-hearthway-main/project-hearthway-main.work-manifest.json",
+    "stories/series/project-hearthway-main/work-manifest.md",
+    "stories/series/project-hearthway-main/work-contract.md",
+    "README.md",
+    "STATUS.md"
+  ],
+  "dependencies": [
+    "WLD-SETTING-001A",
+    "WLD-FLORA-001A",
+    "WLD-FLORA-001",
+    "CAL0 WLD1.1D",
+    "CAL0 WLD2.1A+D"
+  ],
+  "conflicts": [],
+  "residual_unknowns": [
+    "Module anatomy, individuality, genetic relationship, and independent viability remain open.",
+    "Patch dimensions, age, connection density, transfer carriers, rates, losses, and directionality remain open.",
+    "Fragmentation survival, sealing, reconnection, fusion, competition, and disease transmission remain open.",
+    "Growth, reproduction, dispersal, dormancy, senescence, and variation among guild members remain open.",
+    "Mana use, non-conscious signalling, System appraisal, human knowledge, and human exploitation remain open."
+  ],
+  "supersedes": [],
+  "superseded_by": null,
+  "reopening_conditions": [
+    "Detailed material-flow modelling cannot support useful local sharing within finite patch limits.",
+    "Later species design requires a materially different colony organization.",
+    "A story requirement exposes an unresolvable contradiction in damage, recovery, identity, or distribution.",
+    "The Author explicitly reopens the decision."
+  ]
+}

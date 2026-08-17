@@ -1,0 +1,90 @@
+{
+  "$schema": "../../../../governance/schemas/decision-record.schema.json",
+  "schema_version": "1.0.0",
+  "id": "WLD-ECOLOGY-003A",
+  "decision_uri": "author-decision://world/WLD-ECOLOGY-003A",
+  "display_code": "WLD-ECOLOGY-003A",
+  "title": "Lineage II two-stage symbiont inheritance",
+  "domain": "Project Hearthway fauna physiology",
+  "workflow_status": "ACCEPTED",
+  "canon_status": "PROVISIONAL",
+  "scope": "Family-level acquisition, maturation, recovery, and transmission consequences of the digestive symbionts used by Project Hearthway's developing Lineage II crown and ribbon branches. Exact transfer anatomy, inoculation behaviour, microbial taxa, developmental timing, compatibility limits, named diseases, treatments, and detailed social organisation remain open.",
+  "accepted_on": "2026-08-14",
+  "accepted_by": "Author",
+  "approval_evidence": "After receiving the recommended two-stage founder-culture and social-maturation model, its consequences, and the strict-vertical and environmental alternatives, the Author replied 'yes' on 2026-08-14.",
+  "question": "How should young Lineage II animals acquire and maintain the symbiont community required by their distributed fermentation lattice?",
+  "selection": "Use two-stage symbiont inheritance. Before birth, each developing young receives a small compatible founder culture. After birth, repeated contact and shared feeding with parents and relatives build the diverse adult community. This supports local dietary adaptation, compatible fostering, and social recovery after disruption, while isolation and contact-borne digestive disease remain real risks.",
+  "alternatives": [
+    "L2-SYMBIONT-A: prenatal founder culture followed by social maturation; selected.",
+    "L2-SYMBIONT-B: strict vertical inheritance of a near-complete community; not selected.",
+    "L2-SYMBIONT-C: primarily environmental acquisition after birth; not selected."
+  ],
+  "rationale": "The selected model gives developing young a reliable compatible start while preserving the ecological importance of kin groups, local diets, fostering, recovery, isolation, and disease. It provides both advantages and costs without requiring premature reproductive or microscopic anatomy or a System mechanic.",
+  "evidence": [
+    "Author selection on 2026-08-14.",
+    "stories/series/project-hearthway-main/workbench/runs/2026-08-14-lineage-ii-symbiont-inheritance/proposal.md",
+    "canon://world/shared-universe-001/ecology/lineage-ii-fermentation-lattice",
+    "canon://world/shared-universe-001/ecology/lineage-ii-vegetation-architects",
+    "CAL0 provenance and creature-ecology constraints"
+  ],
+  "consequences": [
+    "Future Lineage II development must preserve a small prenatal founder culture followed by post-birth social maturation unless this decision is reopened.",
+    "Family groups can maintain fermentation communities adapted to local diets.",
+    "Compatible fostering can preserve orphan survival, but prolonged isolation is especially dangerous to young or symbiont-disrupted animals.",
+    "Social contact can help restore a damaged symbiont community.",
+    "The same contact networks and seasonal routes can transmit digestive disease.",
+    "Exact anatomical and behavioural transfer mechanisms remain available for later species-level design.",
+    "No new System progression, reward source, or specialised Mana ability is created."
+  ],
+  "affected_sources": [
+    "worldbuilding/settings/shared-universe-001/proposals/WLD-ECOLOGY-003.md",
+    "worldbuilding/settings/shared-universe-001/canon/ecology/WLD-ECOLOGY-003.worldbuilding.json",
+    "worldbuilding/settings/shared-universe-001/canon/ecology/WLD-ECOLOGY-003.md",
+    "worldbuilding/settings/shared-universe-001/canon/ecology/WLD-ECOLOGY-002.worldbuilding.json",
+    "worldbuilding/settings/shared-universe-001/canon/ecology/WLD-ECOLOGY-002.md",
+    "worldbuilding/settings/shared-universe-001/canon/ecology/WLD-ECOLOGY-001.worldbuilding.json",
+    "worldbuilding/settings/shared-universe-001/canon/ecology/WLD-ECOLOGY-001.md",
+    "worldbuilding/settings/shared-universe-001/setting-constitution.md",
+    "worldbuilding/settings/shared-universe-001/canon/README.md",
+    "worldbuilding/settings/shared-universe-001/proposals/README.md",
+    "worldbuilding/settings/shared-universe-001/decisions/README.md",
+    "worldbuilding/settings/shared-universe-001/indexes/INDEX.md",
+    "worldbuilding/INDEX.md",
+    "worldbuilding/README.md",
+    "worldbuilding/settings/README.md",
+    "worldbuilding/canon/README.md",
+    "stories/series/project-hearthway-main/project-hearthway-main.work-manifest.json",
+    "stories/series/project-hearthway-main/work-manifest.md",
+    "stories/series/project-hearthway-main/work-contract.md",
+    "workbench/proposals/project-hearthway-foundation-capture.md",
+    "README.md",
+    "STATUS.md"
+  ],
+  "dependencies": [
+    "WLD-SETTING-001A",
+    "WLD-ECOLOGY-001A",
+    "WLD-ECOLOGY-001",
+    "WLD-ECOLOGY-002A",
+    "WLD-ECOLOGY-002",
+    "CAL0 WLD1.2D",
+    "CAL0 WLD2.1A+D"
+  ],
+  "conflicts": [],
+  "residual_unknowns": [
+    "Reproductive containment and the exact pre-birth transfer anatomy remain open.",
+    "The exact post-birth inoculation behaviours remain open.",
+    "Microbial taxa, functions, compatibility limits, and local variation remain open.",
+    "Maturation timing and developmental diet constraints remain open.",
+    "Specific diseases, pathology, quarantine, treatment, and recovery times remain open.",
+    "Species-level differences and detailed Lineage II social organisation remain open."
+  ],
+  "supersedes": [],
+  "superseded_by": null,
+  "reopening_conditions": [
+    "Reproductive development cannot support any plausible compatible founder culture.",
+    "The selected model proves incompatible with the eventual feeding or social ecology of either branch.",
+    "A quantitative disease or population model makes ordinary group survival implausible.",
+    "A concrete story requirement exposes an unresolvable fostering, isolation, or migration contradiction.",
+    "The Author explicitly reopens the decision."
+  ]
+}

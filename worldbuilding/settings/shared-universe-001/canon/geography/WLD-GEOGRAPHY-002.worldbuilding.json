@@ -1,0 +1,97 @@
+{
+  "$schema": "../../../../../governance/schemas/worldbuilding-record.schema.json",
+  "schema_version": "1.0.0",
+  "id": "WLD-GEOGRAPHY-002",
+  "record_uri": "canon://world/shared-universe-001/geography/initial-outlet-mixed-reach-sequence",
+  "display_code": "WLD-GEOGRAPHY-002",
+  "setting_id": "setting://shared-universe-001",
+  "title": "Initial outlet mixed-reach sequence",
+  "workflow_status": "ACCEPTED",
+  "canon_status": "PROVISIONAL",
+  "scope": "Qualitative physical sequence of Project Hearthway's initial basin outlet from its bedrock-controlled throat into a connected downstream mixed reach; usable within shared-setting geography, later hydrology, ecology, migration-feasibility work, and story development without establishing a usable route.",
+  "claims": [
+    "A narrow bedrock-controlled throat opens downstream into one connected mixed reach.",
+    "The mixed reach contains irregular boulder steps, lateral or side shelves, and local holding pockets.",
+    "The reach is heterogeneous rather than one uniform channel or regular feature chain.",
+    "Boulder steps and side shelves are candidate, state-dependent bed-or-margin contact surfaces against which WLD-ECOLOGY-010 passage can be tested.",
+    "Holding pockets are local channel recesses or pools that may be less exposed to the main flow under some conditions and can be tested as potentially lower-velocity locations.",
+    "Coherent migration corridor means only that the throat and mixed reach belong to one connected physical system and supply a candidate route architecture for later feasibility work."
+  ],
+  "boundaries": [
+    "This record is a forward extension of WLD-GEOGRAPHY-001's narrow, naturally defensible outlet gap. It does not alter the freshwater through-flow lake, downstream marsh country, drowned coast, regional arrangement, or broader river-glacial history.",
+    "Bedrock-controlled establishes broad substrate control at the throat, not an exact rock type, geological origin, age, provenance, weathering, jointing, mineral value, Mana property, formation process, or stability.",
+    "Narrow and opens downstream are qualitative. Exact throat and reach length, width, depth, elevation, gradient, cross-section, orientation, distance, map position, and travel time remain undefined.",
+    "Boulder steps are irregular channel-bed transitions, not a regular staircase, constructed weir, fish ladder, continuous waterfall, dry route, or guarantee of a braceable or climbable surface. Exact boulder source, material, number, dimensions, spacing, movement, and stability remain undefined.",
+    "Side shelves are lateral channel-form surfaces. Their material, number, dimensions, slope, height, spacing, continuity, exposure, inundation, vegetation, and use remain undefined. They are not roads, quays, terraces, fortifications, or guaranteed support.",
+    "Holding pockets are local channel recesses or pools. They may be less exposed to the main flow under some conditions, but no pocket is guaranteed to have low velocity, safe water, suitable depth, adequate turnover, usable substrate, respiratory suitability, food, space, or freedom from debris, crowding, disease, or predation.",
+    "The presence of a holding pocket does not by itself establish a refuge, checkpoint, assigned waiting area, safe zone, healing or recovery site, Mana well, Health or Stamina restore, or refill point.",
+    "The throat precedes the downstream mixed reach. No exact number, order, spacing, repetition, or continuity among the boulder steps, side shelves, holding pockets, or any other downstream feature is established.",
+    "Heterogeneous means that more than one qualitative channel-form class occurs within the connected reach. It establishes no exact hydraulic diversity, habitat mosaic, distribution, abundance, or ecological use.",
+    "Coherent migration corridor means one connected physical system and candidate route architecture only. It establishes no continuous support or rest chain, guaranteed contact, guaranteed resting opportunity, route memory, navigation cue, seasonal window, annual use, passability, return, survival, or organism success.",
+    "Feature wetting, exposure, accessibility, load-bearing suitability, and local flow exposure remain state dependent. No surface is guaranteed usable and no pocket is guaranteed less exposed to main flow at a particular time.",
+    "Exact discharge, velocity, depth, turbulence, eddies, water level, flood, freeze-thaw, ice, debris, erosion, deposition, boulder movement, sediment transport, water chemistry, tidal reach, salinity transition, and storm-surge effects remain undefined.",
+    "WLD-ECOLOGY-006 continues to govern the qualitative seasonal migration and spring-freshet relationship. WLD-ECOLOGY-009 continues to govern the family-care migrant's body plan and route-feasibility concern. WLD-ECOLOGY-010 continues to govern its conditional outlet-passage choreography.",
+    "The selected feature set can be tested against WLD-ECOLOGY-010, but actual body and brood fit, contact mechanics, continuity, depth use, buoyancy, respiratory exchange, usable energy, fatigue, injury, recovery, timing, crowding, capacity, passability, mortality, recruitment, and success remain unresolved.",
+    "No organism is established as inhabiting, feeding, breeding, resting, sheltering, migrating through, or successfully using any particular outlet feature. Habitat occupancy, food webs, predation, disease, competition, carrying capacity, and ecological recovery remain undefined.",
+    "The sequence establishes no crossing, road, bridge, quay, boat route, fishery, harvest site, fort, gate, settlement, border, owner, toll, law, trade, ritual, folklore, conflict, or other human use.",
+    "An observer may directly see channel form, wetted or exposed surfaces, visible current, spray, debris, crowding, contact attempts, pauses, displacement, injury, or movement at the observed place and time. Those observations do not reveal exact hydraulics, hidden intent, communication, physiology, internal condition, Mana state, annual route capacity, seasonal usability, passability, or species-wide success.",
+    "Matter or material, water, sediment, usable energy, route space, maintenance, injury, recovery, mortality, recruitment, carrying capacity, erosion, deposition, and ecological recovery remain finite and causal.",
+    "No System route, level gate, adaptive difficulty, reward, loot rule, spawn, reset, refill, automatic recovery, free energy, free Mana, ancient-doorway effect, magical hydrology, or offworld influence is established."
+  ],
+  "dependencies": [
+    "author-decision://world/WLD-SETTING-001A",
+    "author-decision://world/WLD-GEOGRAPHY-001A",
+    "canon://world/shared-universe-001/geography/initial-region-physical-scaffold",
+    "author-decision://world/WLD-ECOLOGY-006A",
+    "canon://world/shared-universe-001/ecology/basin-lake-spring-breeding-pulse",
+    "author-decision://world/WLD-ECOLOGY-009A",
+    "canon://world/shared-universe-001/ecology/basin-lake-family-care-migrant-foundational-body-plan",
+    "author-decision://world/WLD-ECOLOGY-010A",
+    "canon://world/shared-universe-001/ecology/basin-lake-family-care-migrant-outlet-passage-choreography",
+    "author-decision://world/WLD-GEOGRAPHY-002A",
+    "CAL0 WLD1.2D",
+    "CAL0 WLD2.1A+D"
+  ],
+  "contradictions": [],
+  "story_implications": [
+    "A later scene may distinguish the narrow bedrock-controlled throat from a heterogeneous downstream reach containing irregular steps, side shelves, and holding pockets without fixing a survey map or exact dimensions.",
+    "An observer may see exposed or wetted surfaces, visible current, debris, contact attempts, pauses, crowding, injury, or successful and failed movement under local conditions, but one observation proves neither annual passability nor impossibility.",
+    "The feature set provides a physical basis for testing WLD-ECOLOGY-010's conditional passage choreography; exact support continuity, resting opportunity, organism fit, seasonal usability, and success require later evidence.",
+    "Any crossing, fishery, fortification, settlement, route, conflict, or other human use requires a separate accepted record.",
+    "Author-side knowledge of the connected feature sequence does not become automatic protagonist knowledge; every recognition, inference, and prediction requires an available source and bounded confidence."
+  ],
+  "system_implications": [
+    "The selected channel forms and their state-dependent physical opportunities are ordinary world-level inputs under CAL0 WLD1.2D and WLD2.1A+D, not a System change.",
+    "Water, material, sediment, usable energy, route space, injury, recovery, mortality, recruitment, erosion, deposition, and ecological recovery remain finite and causally supplied.",
+    "No System route, level gate, adaptive difficulty, reward, loot rule, spawn, reset, refill, automatic recovery, free energy, free Mana, magical hydrology, or guaranteed carrying capacity is established."
+  ],
+  "research_questions": [
+    "What exact geometry, dimensions, number, order after the throat, spacing, continuity, material, and stability implement the qualitative mixed reach?",
+    "Under which water states are particular boulder steps or side shelves wetted, exposed, accessible, stable, and load-bearing, and which holding pockets are less exposed to the main flow?",
+    "What discharge, depth, velocity, turbulence, eddies, flood, ice, debris, sediment, tidal, and salinity behaviour occurs without implying a guaranteed low-velocity or safe route?",
+    "Can WLD-ECOLOGY-010's passage choreography fit any state-dependent subset of the feature set once body size, brood demands, contact mechanics, buoyancy, respiratory exchange, usable energy, injury, fatigue, recovery, and crowding are modelled?",
+    "How do spring ascent and autumn descent differ, and do WLD-ECOLOGY-006's migrants or any other organisms use the same features, different micro-routes, or no usable route under particular conditions?",
+    "What geomorphic processes formed and continue to alter the throat, boulder steps, side shelves, and holding pockets without selecting an exact geology prematurely?",
+    "Which habitats and organisms, if any, occupy the reach, and how do finite route space, disturbance, mortality, recruitment, carrying capacity, and recovery constrain them?",
+    "What can local people and viewpoint characters directly observe, measure, record, name, use, predict, or misunderstand without gaining hidden hydraulics, physiology, Mana, or System knowledge?"
+  ],
+  "sources": [
+    "worldbuilding/settings/shared-universe-001/proposals/WLD-GEOGRAPHY-002.md",
+    "stories/series/project-hearthway-main/workbench/runs/2026-08-14-initial-outlet-mixed-reach-sequence/proposal.md",
+    "canon://world/shared-universe-001/geography/initial-region-physical-scaffold",
+    "canon://world/shared-universe-001/ecology/basin-lake-spring-breeding-pulse",
+    "canon://world/shared-universe-001/ecology/basin-lake-family-care-migrant-foundational-body-plan",
+    "canon://world/shared-universe-001/ecology/basin-lake-family-care-migrant-outlet-passage-choreography",
+    "CAL0 WLD1.2D",
+    "CAL0 WLD2.1A+D",
+    "Author selection on 2026-08-14"
+  ],
+  "supersedes": [],
+  "superseded_by": null,
+  "author_approval": {
+    "decision_uri": "author-decision://world/WLD-GEOGRAPHY-002A",
+    "accepted_on": "2026-08-14",
+    "accepted_by": "Author",
+    "evidence": "After A, B, and C outlet-structure options were presented, the Author replied 'C' on 2026-08-14, selecting 'C — Mixed outlet sequence'."
+  }
+}

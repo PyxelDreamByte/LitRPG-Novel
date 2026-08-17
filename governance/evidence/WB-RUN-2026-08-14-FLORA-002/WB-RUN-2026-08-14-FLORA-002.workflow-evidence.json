@@ -1,0 +1,109 @@
+{
+  "$schema": "../../schemas/workflow-evidence-manifest.schema.json",
+  "schema_version": "1.0.0",
+  "run_id": "run://develop-worldbuilding/WB-RUN-2026-08-14-FLORA-002",
+  "evidence_kind": "ACCEPTED_OUTCOME",
+  "workflow": "develop-worldbuilding+author-decision",
+  "completed_on": "2026-08-14",
+  "canonicality": "ACCEPTED",
+  "promotion": "ALLOWED_WITH_AUTHOR_GATE",
+  "source_manifest": [
+    {
+      "path": "worldbuilding/settings/shared-universe-001/proposals/WLD-FLORA-002.md",
+      "revision": "WLD-FLORA-002-proposal@2026-08-14",
+      "sha256": "sha256:6f6333d34a8ab816559a042aab2da26d9db5e640a5cc908371bbb328b3a03d5a"
+    }
+  ],
+  "target_artifacts": [
+    {
+      "path": "worldbuilding/settings/shared-universe-001/decisions/WLD-FLORA-002A.decision.json",
+      "revision": "WLD-FLORA-002A@2026-08-14",
+      "sha256": "sha256:7bdc848224f4e2e26576c54e5eeca04ab4d45d0c472f58032939d2aecc9ebda5"
+    },
+    {
+      "path": "worldbuilding/settings/shared-universe-001/decisions/WLD-FLORA-002A.md",
+      "revision": "WLD-FLORA-002A@2026-08-14",
+      "sha256": "sha256:9a97016fd49d51da54fd665c20c21be1c9fad3bfb580988f82df3145e1a34c5b"
+    },
+    {
+      "path": "worldbuilding/settings/shared-universe-001/canon/ecology/WLD-FLORA-002.worldbuilding.json",
+      "revision": "WLD-FLORA-002@2026-08-14",
+      "sha256": "sha256:b3738ff82442995ae75e6b2619437c2e78885590a79486abe7aad17476053a59"
+    },
+    {
+      "path": "worldbuilding/settings/shared-universe-001/canon/ecology/WLD-FLORA-002.md",
+      "revision": "WLD-FLORA-002@2026-08-14",
+      "sha256": "sha256:797bc35539a410a4166951b8eda7388f6bf7e1d638dcffb7f98c042e9b68ec47"
+    },
+    {
+      "path": "worldbuilding/settings/shared-universe-001/canon/ecology/WLD-FLORA-001.worldbuilding.json",
+      "revision": "reconciled-for-WLD-FLORA-002@2026-08-14",
+      "sha256": "sha256:d63f7b20c1272d3699251c3aa1696b297429753ce2ec43531ce16254acb14b87"
+    },
+    {
+      "path": "worldbuilding/settings/shared-universe-001/canon/ecology/WLD-FLORA-001.md",
+      "revision": "reconciled-for-WLD-FLORA-002@2026-08-14",
+      "sha256": "sha256:88efc26ea5d379058788cd0d26bf635b678fc179276e7d202252b9741f67abb0"
+    },
+    {
+      "path": "worldbuilding/settings/shared-universe-001/setting-constitution.md",
+      "revision": "WLD-FLORA-002-reconciled@2026-08-14",
+      "sha256": "sha256:d46e7a731b04f6349d1fe3ed9a322d595f8829ac30709b0204cf9867dc00ee9f"
+    },
+    {
+      "path": "worldbuilding/settings/shared-universe-001/indexes/INDEX.md",
+      "revision": "WLD-FLORA-002-indexed@2026-08-14",
+      "sha256": "sha256:76727a8520e3ca57980b9f2a70b91febb6465952f778afb7fb635929123dbef8"
+    },
+    {
+      "path": "worldbuilding/INDEX.md",
+      "revision": "WLD-FLORA-002-indexed@2026-08-14",
+      "sha256": "sha256:e4299c420fc81738625956d0c96ddf2a8b93f30f461a829f271c027200596205"
+    },
+    {
+      "path": "stories/series/project-hearthway-main/project-hearthway-main.work-manifest.json",
+      "revision": "WLD-FLORA-002-adopted@2026-08-14",
+      "sha256": "sha256:8dc562db849ed13dbf9fb4a92980ddd64bf41aba7e26e13ba82d28f0fe3ad326"
+    },
+    {
+      "path": "stories/series/project-hearthway-main/work-manifest.md",
+      "revision": "WLD-FLORA-002-adopted@2026-08-14",
+      "sha256": "sha256:0802ba68d0cf4ebbbb6ad0c35ee39ab607cdc1a616cd653700de7ad874fdcfc4"
+    },
+    {
+      "path": "stories/series/project-hearthway-main/work-contract.md",
+      "revision": "WLD-FLORA-002-adopted@2026-08-14",
+      "sha256": "sha256:0af76da41b0d04b27ef53c6b34ac2bbbbd806f39c45f11943ba713ca9307fe24"
+    }
+  ],
+  "findings": [
+    "PASS: the promoted modular colony-patch claims match the Author-approved model.",
+    "PASS: colony patches contain numerous rooted modules and remain spatially bounded rather than one basin-wide organism.",
+    "PASS: local resource sharing is finite and does not imply shared consciousness or one personal System actor.",
+    "PASS: damage can sever connections, isolate portions, and kill modules or sections without an automatic reset.",
+    "RESOLVED: early cargo-specific, coordination, and hidden-topology wording was narrowed to the exact approved scope.",
+    "PASS: WLD-FLORA-001 delegates this layer without a reciprocal structured dependency.",
+    "BOUNDARY PRESERVED: anatomy, scale, transfer physiology, fragmentation survival, reproduction, species variation, Mana use, System appraisal, and human knowledge remain open."
+  ],
+  "validations": [
+    "git diff --check: PASS with no whitespace errors.",
+    "python -m unittest tools.tests.test_validate_governance -v: PASS with 3 evidence-mode regression tests.",
+    "python tools/validate_governance.py --verify-current-accepted governance/evidence/WB-RUN-2026-08-14-FLORA-002/WB-RUN-2026-08-14-FLORA-002.workflow-evidence.json: PASS with 22 repository records, 5 valid fixtures, 5 rejected fixtures, and current accepted evidence verified.",
+    "python tools/validate_workspaces.py: PASS with 4 work manifests, 2 setting manifests, 2 workflow evaluations, and 3 rejected fixtures.",
+    "python tools/validate_story_integration.py stories/series/project-hearthway-main/project-hearthway-main.work-manifest.json: PASS.",
+    "python tools/validate_repository.py: PASS including all 121 CAL0 regression tests."
+  ],
+  "retained_files": [
+    "governance/evidence/WB-RUN-2026-08-14-FLORA-002/WB-RUN-2026-08-14-FLORA-002.workflow-evidence.json",
+    "governance/evidence/WB-RUN-2026-08-14-FLORA-002/final-findings.md",
+    "governance/evidence/WB-RUN-2026-08-14-FLORA-002/approved-change-set.md",
+    "governance/evidence/WB-RUN-2026-08-14-FLORA-002/validation-summary.md"
+  ],
+  "approval": {
+    "decision_uri": "author-decision://world/WLD-FLORA-002A",
+    "decided_by": "Author",
+    "decision": "ACCEPT",
+    "decided_on": "2026-08-14",
+    "evidence": "After the bounded modular colony-patch recommendation was presented, the Author replied 'yes' on 2026-08-14."
+  }
+}

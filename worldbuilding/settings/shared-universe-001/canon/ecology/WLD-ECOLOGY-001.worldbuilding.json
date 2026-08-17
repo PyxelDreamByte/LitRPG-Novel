@@ -1,0 +1,63 @@
+{
+  "$schema": "../../../../../governance/schemas/worldbuilding-record.schema.json",
+  "schema_version": "1.0.0",
+  "id": "WLD-ECOLOGY-001",
+  "record_uri": "canon://world/shared-universe-001/ecology/lineage-ii-vegetation-architects",
+  "display_code": "WLD-ECOLOGY-001",
+  "setting_id": "setting://shared-universe-001",
+  "title": "Lineage II vegetation-architect ecology",
+  "workflow_status": "ACCEPTED",
+  "canon_status": "PROVISIONAL",
+  "scope": "Primary feeding strategy and landscape effects of Project Hearthway's developing Lineage II crown and ribbon branches; usable within shared-setting fauna and regional-ecology development.",
+  "claims": [
+    "Crown forms use short, reinforced mouth-rays to split and process tough mature stalks, brush, and woody growth.",
+    "Crown feeding and movement help maintain open corridors and vegetation mosaics.",
+    "Ribbon forms use longer tactile mouth-rays to selectively harvest shoots, fruiting bodies, and lakeshore or woodland-edge vegetation.",
+    "Ribbon feeding shapes woodland-edge and wet-margin vegetation at a finer scale than crown herds.",
+    "Seasonal movements by the two branches can materially affect roads, fields, woodland edges, soil fertility, and settlement defences where their ranges overlap human land."
+  ],
+  "boundaries": [
+    "This record does not establish final lineage or species names, complete taxonomy, or every member's diet.",
+    "Digestive architecture is governed separately by canon://world/shared-universe-001/ecology/lineage-ii-fermentation-lattice, two-stage symbiont inheritance by canon://world/shared-universe-001/ecology/lineage-ii-symbiont-inheritance, and the broad migration and initial-settlement relationship by canon://world/shared-universe-001/ecology/lineage-ii-peripheral-migration-corridor; exact oral anatomy, chamber anatomy, transfer mechanisms, route geometry, seasonal timing and direction, herd scale, breeding seasons, and winter strategies remain undefined.",
+    "A major open-ground forage guild is governed separately by canon://world/shared-universe-001/ecology/basin-reserve-web-vegetation-guild; exact guild species, anatomy, chemistry, distribution, productivity, and the complete seasonal diets of either branch remain undefined.",
+    "Species-level omnivory or specialist symbioses remain possible when independently supported.",
+    "No domestication, hunting practice, material use, taboo, law, or cultural interpretation is established.",
+    "No System level, reward source, trait payload, specialised Mana organ, or Ancestry Development mechanic is established."
+  ],
+  "dependencies": [
+    "author-decision://world/WLD-SETTING-001A",
+    "author-decision://world/WLD-ECOLOGY-001A",
+    "CAL0 WLD1.2D",
+    "CAL0 WLD2.1A+D"
+  ],
+  "contradictions": [],
+  "story_implications": [
+    "Settlements within crown migration range need seasonal field, road, and defensive practices responsive to herd movement.",
+    "Ribbon populations can create recurring lower-intensity conflict around gardens, managed woodland, and lake-margin resources.",
+    "The same animals may be regarded as destructive, useful, valuable, or culturally important by different livelihoods and communities."
+  ],
+  "system_implications": [
+    "This record is a world-level ecological input compatible with CAL0 creature and ecology rules.",
+    "Any Mana reinforcement or progression later assigned to these animals requires separate causal and CAL0 review."
+  ],
+  "research_questions": [
+    "Which additional original vegetation lineages complement the reserve-web guild across the seasonal diets of each branch?",
+    "How does the fermentation lattice integrate anatomically with oral processing and the internal brood chamber?",
+    "How quickly can the slow-breeding populations expand or recolonise newly available habitat?",
+    "Which exact corridor branches, seasonal timings, and herd scales implement the approved peripheral migration pattern around the initial settlement's catchment?"
+  ],
+  "sources": [
+    "worldbuilding/settings/shared-universe-001/proposals/WLD-ECOLOGY-001.md",
+    "stories/series/project-hearthway-main/workbench/runs/2026-08-13-lineage-ii-ecology/proposal.md",
+    "workbench/proposals/project-hearthway-foundation-capture.md",
+    "Author selection on 2026-08-13"
+  ],
+  "supersedes": [],
+  "superseded_by": null,
+  "author_approval": {
+    "decision_uri": "author-decision://world/WLD-ECOLOGY-001A",
+    "accepted_on": "2026-08-13",
+    "accepted_by": "Author",
+    "evidence": "The Author replied 'yes' after reviewing the bounded vegetation-architect recommendation and alternatives on 2026-08-13."
+  }
+}

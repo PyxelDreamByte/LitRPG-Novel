@@ -1,0 +1,93 @@
+{
+  "$schema": "../../../../governance/schemas/decision-record.schema.json",
+  "schema_version": "1.0.0",
+  "id": "WLD-ECOLOGY-005A",
+  "decision_uri": "author-decision://world/WLD-ECOLOGY-005A",
+  "display_code": "WLD-ECOLOGY-005A",
+  "title": "Initial-basin coupled pulse-mosaic exchange",
+  "domain": "Project Hearthway regional ecology",
+  "workflow_status": "ACCEPTED",
+  "canon_status": "PROVISIONAL",
+  "scope": "High-level ecosystem architecture for Project Hearthway's initial lake-basin region, its coupling to an otherwise undefined wider regional ecology, and provenance boundaries for references to nonlocal life. Exact habitat mechanisms, outer geography, migrations, transported organisms or products, trade, and reports remain open.",
+  "accepted_on": "2026-08-14",
+  "accepted_by": "Author",
+  "approval_evidence": "After the coupled pulse-mosaic recommendation was presented, the Author replied on 2026-08-14, 'yes + consider the basin but also the wider are for migrations that some animals might make or for rare pets that travellers have or meats/produce that come from far away or tales of animals etc that aren't in the local area'.",
+  "question": "What high-level ecosystem engine and wider-area boundary should organize development of the initial basin?",
+  "selection": "Use ECO-ENGINE-C, a coupled pulse-mosaic. Open ground, woodland, wet margins, and lake habitats provide distinct seasonal productivity pulses. Organisms, flooding, runoff, decomposition, and migration transfer matter and nutrients among them, and no habitat, producer guild, animal lineage, migration, or disturbance is the basin's sole ecological engine. Treat the basin as nested within an otherwise undefined wider regional ecology. Later nonlocal-life development must distinguish confirmed direct wild presence, seasonal or transient wild presence, imported remains or products, rare traveller-carried companion or captive live presence, and reported-only knowledge; evidence in one class does not establish another.",
+  "alternatives": [
+    "ECO-ENGINE-A: land-led basin with terrestrial open-ground and woodland production dominant; not selected.",
+    "ECO-ENGINE-B: lake-led basin with aquatic and littoral production supplying much of the basin's usable biomass; not selected.",
+    "ECO-ENGINE-C: coupled pulse-mosaic exchange across open ground, woodland, wet margins, and lake, expanded by the Author with a wider regional horizon; selected."
+  ],
+  "rationale": "The selected model makes the nearby lake ecologically consequential without subordinating the terrestrial mosaic, preserves the reserve-web guild and Lineage II as bounded parts rather than the entire ecosystem, supports several original flora and fauna families, and allows the wider world to enter protagonist-facing scenes through evidence whose locality and reliability remain explicit.",
+  "evidence": [
+    "Author selection on 2026-08-14: 'yes + consider the basin but also the wider are for migrations that some animals might make or for rare pets that travellers have or meats/produce that come from far away or tales of animals etc that aren't in the local area'.",
+    "worldbuilding/settings/shared-universe-001/proposals/WLD-ECOLOGY-005.md",
+    "stories/series/project-hearthway-main/workbench/runs/2026-08-14-basin-ecosystem-scaffold/ecosystem-scaffold.md",
+    "canon://world/shared-universe-001/ecology/lineage-ii-vegetation-architects",
+    "canon://world/shared-universe-001/ecology/lineage-ii-peripheral-migration-corridor",
+    "canon://world/shared-universe-001/ecology/basin-reserve-web-vegetation-guild",
+    "CAL0 WLD1.2D",
+    "CAL0 WLD2.1A+D"
+  ],
+  "consequences": [
+    "Open ground, woodland, wet margins, and lake must be developed as distinct but coupled seasonal production channels.",
+    "Future food-web work must account for cross-habitat transfers without perfect recycling or a sole ecological engine.",
+    "The basin receives full causal detail, connected outer regions receive enough detail to support approved migrations or transport, and distant life may remain source-and-confidence knowledge until further decisions require more.",
+    "Any later nonlocal-life reference must be assigned an evidence or exposure class: confirmed direct wild presence, seasonal or transient wild presence, imported remains or products, rare traveller-carried companion or captive live presence, or reported-only knowledge.",
+    "A direct sighting establishes presence only at that time; products do not establish local range or verified provenance; migrants or captives do not establish residency or self-sustaining populations; tales do not establish existence or local presence.",
+    "The Author's examples identify later development channels but do not establish a particular migration, animal, traveller, product, trade route, market, or tale.",
+    "The wider horizon is regional and planetary; no offworld organism, traveller, product, route, or doorway connection is established.",
+    "No System rule, ambient spawning, universal creature level, shared population progression, or automatic power transfer from biological products is created."
+  ],
+  "affected_sources": [
+    "worldbuilding/settings/shared-universe-001/proposals/WLD-ECOLOGY-005.md",
+    "worldbuilding/settings/shared-universe-001/canon/ecology/WLD-ECOLOGY-005.worldbuilding.json",
+    "worldbuilding/settings/shared-universe-001/canon/ecology/WLD-ECOLOGY-005.md",
+    "worldbuilding/settings/shared-universe-001/setting-constitution.md",
+    "worldbuilding/settings/shared-universe-001/canon/README.md",
+    "worldbuilding/settings/shared-universe-001/proposals/README.md",
+    "worldbuilding/settings/shared-universe-001/decisions/README.md",
+    "worldbuilding/settings/shared-universe-001/indexes/INDEX.md",
+    "worldbuilding/INDEX.md",
+    "stories/series/project-hearthway-main/project-hearthway-main.work-manifest.json",
+    "stories/series/project-hearthway-main/work-manifest.md",
+    "stories/series/project-hearthway-main/work-contract.md",
+    "stories/series/project-hearthway-main/workbench/runs/2026-08-14-basin-ecosystem-scaffold/ecosystem-scaffold.md",
+    "worldbuilding/README.md",
+    "worldbuilding/settings/README.md",
+    "worldbuilding/canon/README.md",
+    "README.md",
+    "STATUS.md"
+  ],
+  "dependencies": [
+    "WLD-SETTING-001A",
+    "WLD-ECOLOGY-001A",
+    "WLD-ECOLOGY-001",
+    "WLD-ECOLOGY-004A",
+    "WLD-ECOLOGY-004",
+    "WLD-FLORA-001A",
+    "WLD-FLORA-001",
+    "CAL0 WLD1.2D",
+    "CAL0 WLD2.1A+D"
+  ],
+  "conflicts": [],
+  "residual_unknowns": [
+    "Exact habitat productivity, pulse timing, limiting resources, hydrology, and cross-habitat transfer strengths remain open.",
+    "Outer-region geography, climate gradients, habitats, and ecological support remain open.",
+    "Additional migratory populations, ranges, origins, destinations, routes, calendars, triggers, and population scales remain open.",
+    "Nonlocal companion or captive animals, biological products, travellers, routes, logistics, preservation, availability, prices, and institutions remain open.",
+    "The existence, content, provenance, distribution, and reliability of particular tales or records remain open.",
+    "The locality and knowledge class of each future nonlocal-life reference remains to be recorded when that reference is developed.",
+    "No offworld provenance is decided by this regional and planetary horizon."
+  ],
+  "supersedes": [],
+  "superseded_by": null,
+  "reopening_conditions": [
+    "Regional geography, climate, hydrology, or productivity modelling cannot support distinct coupled habitat pulses.",
+    "A later accepted migration, trade, culture, or ecology record creates a concrete contradiction with the nested regional model.",
+    "The locality and evidence classes prove insufficient to distinguish actual presence, transported material, captivity, and report in story use.",
+    "A required story outcome cannot be supported without changing the basin's ecological engine.",
+    "The Author explicitly reopens the decision."
+  ]
+}

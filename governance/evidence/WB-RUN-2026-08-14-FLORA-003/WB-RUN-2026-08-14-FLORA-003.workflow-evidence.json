@@ -1,0 +1,149 @@
+{
+  "$schema": "../../schemas/workflow-evidence-manifest.schema.json",
+  "schema_version": "1.0.0",
+  "run_id": "run://develop-worldbuilding/WB-RUN-2026-08-14-FLORA-003",
+  "evidence_kind": "ACCEPTED_OUTCOME",
+  "workflow": "develop-worldbuilding+author-decision",
+  "completed_on": "2026-08-14",
+  "canonicality": "ACCEPTED",
+  "promotion": "ALLOWED_WITH_AUTHOR_GATE",
+  "source_manifest": [
+    {
+      "path": "worldbuilding/settings/shared-universe-001/proposals/WLD-FLORA-003.md",
+      "revision": "WLD-FLORA-003-proposal@2026-08-14",
+      "sha256": "sha256:4c7a201edfbb2dc021eb1a0a89f0c42b1a851546e2ce894f3deea572f8268b37"
+    }
+  ],
+  "target_artifacts": [
+    {
+      "path": "worldbuilding/settings/shared-universe-001/decisions/WLD-FLORA-003A.decision.json",
+      "revision": "WLD-FLORA-003A@2026-08-14",
+      "sha256": "sha256:6f18e74e0d9af90b2c700fb7cb8ab18f8a7e61ad9bb255c0bee9ffa74d9d6c79"
+    },
+    {
+      "path": "worldbuilding/settings/shared-universe-001/decisions/WLD-FLORA-003A.md",
+      "revision": "WLD-FLORA-003A@2026-08-14",
+      "sha256": "sha256:3519fd79a4ec9eb3fbac81759249255dad2b96b801d195d0f00f89fa353b7c73"
+    },
+    {
+      "path": "worldbuilding/settings/shared-universe-001/canon/ecology/WLD-FLORA-003.worldbuilding.json",
+      "revision": "WLD-FLORA-003@2026-08-14",
+      "sha256": "sha256:28244df338c4e23bf5378a27bd80249a6f36f14ebd5873e1ffbd145896bddf53"
+    },
+    {
+      "path": "worldbuilding/settings/shared-universe-001/canon/ecology/WLD-FLORA-003.md",
+      "revision": "WLD-FLORA-003@2026-08-14",
+      "sha256": "sha256:e470ccab7edbc5a5f445abe1bbb1f89988c8e9208fe676881abc94d79813c056"
+    },
+    {
+      "path": "worldbuilding/settings/shared-universe-001/canon/ecology/WLD-FLORA-002.worldbuilding.json",
+      "revision": "reconciled-for-WLD-FLORA-003@2026-08-14",
+      "sha256": "sha256:f1073772ce719b62a2bb721644bd324a6deb7a4ed697081a52993c9b1b399a4a"
+    },
+    {
+      "path": "worldbuilding/settings/shared-universe-001/canon/ecology/WLD-FLORA-002.md",
+      "revision": "reconciled-for-WLD-FLORA-003@2026-08-14",
+      "sha256": "sha256:e1ae59f3beec03b3df4612ccc1b532a110d4a922d4b6dcf9a2487ad4451fde48"
+    },
+    {
+      "path": "worldbuilding/settings/shared-universe-001/setting-constitution.md",
+      "revision": "WLD-FLORA-003-reconciled@2026-08-14",
+      "sha256": "sha256:bd3fe255a644e974bfa3ce15ff66b7f02c09bcfef73ac05ba9393c239ec25539"
+    },
+    {
+      "path": "worldbuilding/settings/shared-universe-001/indexes/INDEX.md",
+      "revision": "WLD-FLORA-003-indexed@2026-08-14",
+      "sha256": "sha256:836e148acf125940f1eab0e9758f6a34970b10970bf48ac14f7bd120dbadd39d"
+    },
+    {
+      "path": "worldbuilding/INDEX.md",
+      "revision": "WLD-FLORA-003-indexed@2026-08-14",
+      "sha256": "sha256:28611788cfc3edb862a4c27945bd31e9cbf7eeaf117e9c6d543600dfaf9c7d4f"
+    },
+    {
+      "path": "stories/series/project-hearthway-main/project-hearthway-main.work-manifest.json",
+      "revision": "WLD-FLORA-003-adopted@2026-08-14",
+      "sha256": "sha256:cd02befd8aeeec4a674e52ebfca57759f29f5f41b746596be2b18fe81233209c"
+    },
+    {
+      "path": "stories/series/project-hearthway-main/work-manifest.md",
+      "revision": "WLD-FLORA-003-adopted@2026-08-14",
+      "sha256": "sha256:af59f3e098f95f76cc03afb91bcedcfa2ec96422a3feed868df0d224718b5dca"
+    },
+    {
+      "path": "stories/series/project-hearthway-main/work-contract.md",
+      "revision": "WLD-FLORA-003-adopted@2026-08-14",
+      "sha256": "sha256:3b38042fd0c13601febd1ce6f96148bba378e6e6860033e591033731f44c416f"
+    },
+    {
+      "path": "worldbuilding/settings/shared-universe-001/canon/README.md",
+      "revision": "WLD-FLORA-003-registered@2026-08-14",
+      "sha256": "sha256:a413626b2ce16dd65e0f5f9a7ef1ad75a86b75c919688498cd586153d01b23e3"
+    },
+    {
+      "path": "worldbuilding/settings/shared-universe-001/proposals/README.md",
+      "revision": "WLD-FLORA-003-registered@2026-08-14",
+      "sha256": "sha256:e86f959c44635f1ac75e74648db232f0e0bde2832284220b5a38552f1821b003"
+    },
+    {
+      "path": "worldbuilding/settings/shared-universe-001/decisions/README.md",
+      "revision": "WLD-FLORA-003-registered@2026-08-14",
+      "sha256": "sha256:8d81faec53b14030a32df9b04bb3f62e67faeca226394bf9c310c8fe7dbac67d"
+    },
+    {
+      "path": "worldbuilding/README.md",
+      "revision": "WLD-FLORA-003-summarized@2026-08-14",
+      "sha256": "sha256:94aad86c891924cd2768d155549e9ca51de54a6de244d76010f4d1a6137f7f10"
+    },
+    {
+      "path": "worldbuilding/settings/README.md",
+      "revision": "WLD-FLORA-003-summarized@2026-08-14",
+      "sha256": "sha256:bf02435ff9ec4e135e6e7a97deb7e5487411c804567689db74c26d46b3444b33"
+    },
+    {
+      "path": "worldbuilding/canon/README.md",
+      "revision": "WLD-FLORA-003-summarized@2026-08-14",
+      "sha256": "sha256:8b0babcc228225e5e726707c8942f56d8d83e3ba65c35713522d430cdb4206f7"
+    },
+    {
+      "path": "README.md",
+      "revision": "WLD-FLORA-003-summarized@2026-08-14",
+      "sha256": "sha256:40717af592fbd02af477fa1167ce3b3ae3e63e133e0777b9723cdc0932431b87"
+    },
+    {
+      "path": "STATUS.md",
+      "revision": "WLD-FLORA-003-summarized@2026-08-14",
+      "sha256": "sha256:925727178be8f49c0a95638c12c9960e861ac49db802f8e5e632b9960b95a898"
+    }
+  ],
+  "findings": [
+    "PASS: the promoted fragment-viability claims match the exact Author-approved threshold model.",
+    "PASS: retained modules, reserves, and functioning connections are necessary conditions rather than a guarantee of survival.",
+    "PASS: qualifying fragments can slowly stabilize as independent patches while inadequate fragments decline and die.",
+    "PASS: independent patch remains ecological topology rather than personal identity, shared consciousness, or progression.",
+    "RESOLVED MINOR: permissive rescue/manipulation wording was removed and individual-module viability was distinguished from fragment viability.",
+    "PASS: WLD-FLORA-002 delegates this layer without a reciprocal structured dependency.",
+    "BOUNDARY PRESERVED: thresholds, anatomy, timing, wound response, reconnection, other reproduction, Mana, appraisal, and human knowledge remain open."
+  ],
+  "validations": [
+    "git diff --check: PASS with no whitespace errors.",
+    "python -m unittest tools.tests.test_validate_governance -v: PASS with 3 evidence-mode regression tests.",
+    "python tools/validate_governance.py --verify-current-accepted governance/evidence/WB-RUN-2026-08-14-FLORA-003/WB-RUN-2026-08-14-FLORA-003.workflow-evidence.json: PASS with 25 repository records, 5 valid fixtures, 5 rejected fixtures, and current accepted evidence verified.",
+    "python tools/validate_workspaces.py: PASS with 4 work manifests, 2 setting manifests, 2 workflow evaluations, and 3 rejected fixtures.",
+    "python tools/validate_story_integration.py stories/series/project-hearthway-main/project-hearthway-main.work-manifest.json: PASS.",
+    "python tools/validate_repository.py: PASS including all 121 CAL0 regression tests."
+  ],
+  "retained_files": [
+    "governance/evidence/WB-RUN-2026-08-14-FLORA-003/WB-RUN-2026-08-14-FLORA-003.workflow-evidence.json",
+    "governance/evidence/WB-RUN-2026-08-14-FLORA-003/final-findings.md",
+    "governance/evidence/WB-RUN-2026-08-14-FLORA-003/approved-change-set.md",
+    "governance/evidence/WB-RUN-2026-08-14-FLORA-003/validation-summary.md"
+  ],
+  "approval": {
+    "decision_uri": "author-decision://world/WLD-FLORA-003A",
+    "decided_by": "Author",
+    "decision": "ACCEPT",
+    "decided_on": "2026-08-14",
+    "evidence": "After the threshold-based fragment-survival recommendation was presented, the Author replied 'yes' on 2026-08-14."
+  }
+}

@@ -1,0 +1,173 @@
+{
+  "$schema": "../../schemas/workflow-evidence-manifest.schema.json",
+  "schema_version": "1.0.0",
+  "run_id": "run://develop-worldbuilding/WB-RUN-2026-08-14-ECOLOGY-009",
+  "evidence_kind": "ACCEPTED_OUTCOME",
+  "workflow": "develop-worldbuilding+author-decision",
+  "completed_on": "2026-08-14",
+  "canonicality": "ACCEPTED",
+  "promotion": "ALLOWED_WITH_AUTHOR_GATE",
+  "source_manifest": [
+    {
+      "path": "worldbuilding/settings/shared-universe-001/proposals/WLD-ECOLOGY-009.md",
+      "revision": "WLD-ECOLOGY-009-proposal@2026-08-14",
+      "sha256": "sha256:370756a5e2d3b32ca7aab281e4aad9d4e58ead02eb1e78c1f9809c5a050cda74"
+    },
+    {
+      "path": "stories/series/project-hearthway-main/workbench/runs/2026-08-14-basin-lake-family-care-migrant-body-plan/proposal.md",
+      "revision": "WLD-ECOLOGY-009-option-capture@2026-08-14",
+      "sha256": "sha256:204228cf4a515f8651ad4a3440f8e9743c50ef62d082fc8e5a2a4ef67245bfbf"
+    }
+  ],
+  "target_artifacts": [
+    {
+      "path": "worldbuilding/settings/shared-universe-001/decisions/WLD-ECOLOGY-009A.decision.json",
+      "revision": "WLD-ECOLOGY-009A@2026-08-14",
+      "sha256": "sha256:20385355232e9cae50c40eb63814b56f090768762542456aaf97920dcb84aa9e"
+    },
+    {
+      "path": "worldbuilding/settings/shared-universe-001/decisions/WLD-ECOLOGY-009A.md",
+      "revision": "WLD-ECOLOGY-009A@2026-08-14",
+      "sha256": "sha256:59eec8df513b117f6db257ebebada80a4bdee9872571777875353f479bea5358"
+    },
+    {
+      "path": "worldbuilding/settings/shared-universe-001/canon/ecology/WLD-ECOLOGY-009.worldbuilding.json",
+      "revision": "WLD-ECOLOGY-009@2026-08-14",
+      "sha256": "sha256:5951833122987359d6b88b70cff12ea31478980a3079f889f050b1aa41c76f95"
+    },
+    {
+      "path": "worldbuilding/settings/shared-universe-001/canon/ecology/WLD-ECOLOGY-009.md",
+      "revision": "WLD-ECOLOGY-009@2026-08-14",
+      "sha256": "sha256:02befafea9998243aacf394e3d88e5e74280babb8e391f2f7bcc1eac58201001"
+    },
+    {
+      "path": "worldbuilding/settings/shared-universe-001/canon/ecology/WLD-ECOLOGY-006.worldbuilding.json",
+      "revision": "WLD-ECOLOGY-009-compatible@2026-08-14",
+      "sha256": "sha256:7921614a18b840c22a01dda519ebe845dafe401762d67408d284d955b5407978"
+    },
+    {
+      "path": "worldbuilding/settings/shared-universe-001/canon/ecology/WLD-ECOLOGY-006.md",
+      "revision": "WLD-ECOLOGY-009-compatible@2026-08-14",
+      "sha256": "sha256:2752cce52826d4074474118bb81722ac62dcd4a2fe9b808ea3e4e5e117f95b6b"
+    },
+    {
+      "path": "worldbuilding/settings/shared-universe-001/canon/ecology/WLD-ECOLOGY-007.worldbuilding.json",
+      "revision": "WLD-ECOLOGY-009-compatible@2026-08-14",
+      "sha256": "sha256:046068b16207293e3ff842a9953838ad80932b22a9c32021e6e79927034e0f76"
+    },
+    {
+      "path": "worldbuilding/settings/shared-universe-001/canon/ecology/WLD-ECOLOGY-007.md",
+      "revision": "WLD-ECOLOGY-009-compatible@2026-08-14",
+      "sha256": "sha256:978c4155058f90f9528f52cb26822c3e77dd4b8788257d28720891dffce64017"
+    },
+    {
+      "path": "worldbuilding/settings/shared-universe-001/setting-constitution.md",
+      "revision": "WLD-ECOLOGY-009-reconciled@2026-08-14",
+      "sha256": "sha256:c4469427d309f6278af84c70b849569f36c7e75f653755875f2c0897654ade2e"
+    },
+    {
+      "path": "worldbuilding/settings/shared-universe-001/indexes/INDEX.md",
+      "revision": "WLD-ECOLOGY-009-indexed@2026-08-14",
+      "sha256": "sha256:9312d1f53ec97c7a1654f55f3eec31dd4c4c175b8d03fef07c3cafd3ba2b60c1"
+    },
+    {
+      "path": "worldbuilding/settings/shared-universe-001/canon/README.md",
+      "revision": "WLD-ECOLOGY-009-registered@2026-08-14",
+      "sha256": "sha256:4546df7f7179f5840d8590884d47b2ea5062a9ee156a12460db5fc14e4a24521"
+    },
+    {
+      "path": "worldbuilding/settings/shared-universe-001/proposals/README.md",
+      "revision": "WLD-ECOLOGY-009-registered@2026-08-14",
+      "sha256": "sha256:85ef099ba11e2e209dddc3866ed8ae5171da6375863ee7f4a128fe41055c2189"
+    },
+    {
+      "path": "worldbuilding/settings/shared-universe-001/decisions/README.md",
+      "revision": "WLD-ECOLOGY-009-registered@2026-08-14",
+      "sha256": "sha256:e1e7f982ba4540a116fa4399bcc3d357b45ebcdab6c91f1bc2cc835cc0b85b07"
+    },
+    {
+      "path": "worldbuilding/INDEX.md",
+      "revision": "WLD-ECOLOGY-009-indexed@2026-08-14",
+      "sha256": "sha256:bafb25ba9f4aa96c31c7b16ac6d635de74e6f2d3e86023285ea39b8d5e92e8d2"
+    },
+    {
+      "path": "worldbuilding/README.md",
+      "revision": "WLD-ECOLOGY-009-summarized@2026-08-14",
+      "sha256": "sha256:6725baacb0ee51ce8dbafc3a8a4deffeb010741d99c9be34a5d69a84363249ea"
+    },
+    {
+      "path": "worldbuilding/settings/README.md",
+      "revision": "WLD-ECOLOGY-009-summarized@2026-08-14",
+      "sha256": "sha256:ea053c8c087103a9bb1f7756bc7f58548604bbf59b5d8c42556c49ac69720187"
+    },
+    {
+      "path": "worldbuilding/canon/README.md",
+      "revision": "WLD-ECOLOGY-009-summarized@2026-08-14",
+      "sha256": "sha256:f5bd797bc9abd1373127695c765addb5b00187326596ecf06558a0354c01d48d"
+    },
+    {
+      "path": "stories/series/project-hearthway-main/project-hearthway-main.work-manifest.json",
+      "revision": "WLD-ECOLOGY-009-adopted@2026-08-14",
+      "sha256": "sha256:9707d4382cbe2eb6bf1461073a4d13c8bfa430b515ff3243bdab60cc15d2c130"
+    },
+    {
+      "path": "stories/series/project-hearthway-main/work-manifest.md",
+      "revision": "WLD-ECOLOGY-009-adopted@2026-08-14",
+      "sha256": "sha256:f2a81c63ece6466eb38c79b7ed0aeb0777b44a6e7ac7556aa0b792a9152f727e"
+    },
+    {
+      "path": "stories/series/project-hearthway-main/work-contract.md",
+      "revision": "WLD-ECOLOGY-009-adopted@2026-08-14",
+      "sha256": "sha256:569f012cc4da02a3055fd76840c44df787cf11d162eb3f5e2e714db79f6b0c37"
+    },
+    {
+      "path": "README.md",
+      "revision": "WLD-ECOLOGY-009-summarized@2026-08-14",
+      "sha256": "sha256:1a45960f3f339bff959890a962633bc417125e632da7560d62314c932a4747ed"
+    },
+    {
+      "path": "STATUS.md",
+      "revision": "WLD-ECOLOGY-009-summarized@2026-08-14",
+      "sha256": "sha256:698982fe22baa7a50e97d90187fdc3d2143f199b1132dff1489fad558762473a"
+    }
+  ],
+  "findings": [
+    "PASS: the promoted record matches the Author-selected A — Brood-Vault Strider visual option and binds only its textual feature boundary.",
+    "PASS: the low three-lobed living vault, ring of short hydrostatic paddle-columns, travelling margin waves, mobile underside refuge, and mobile-young shelter–forage–regroup pattern preserve exact option scope.",
+    "PASS: illustration colour, scale, texture, outline, counts, apparent organs, and scenery remain nonbinding presentation context.",
+    "PASS: high drag remains a qualitative route-feasibility concern and creates no shallow route, bottom-resting behaviour, outlet mechanism, passage success, or guaranteed return.",
+    "PASS: oxygen, water, and ion use are not treated as universal alien-life requirements; respiratory chemistry, osmoregulation, buoyancy, salinity tolerance, and internal physiology remain open.",
+    "PASS: finite matter or material and usable-energy inputs, internal transport, heat and waste handling, maintenance, damage, disease, recovery, repair, reproduction, mortality, route capacity, and carrying capacity remain causal.",
+    "PASS: no Mana organ, activated ability, pooled family identity, shared progression, automatic prey-power transfer, reward, spawn, reset, refill, loot rule, free energy, or guaranteed recovery is created.",
+    "PASS: WLD-ECOLOGY-006 retains migration and population authority; WLD-ECOLOGY-007 remains mass-breeder-only; textual forward reconciliations create no dependency cycle.",
+    "PASS: work adoption, setting and root discovery, thirteen-record counts, summaries, statuses, IDs, URIs, and Markdown/JSON parity are consistent.",
+    "BOUNDARY PRESERVED: exact anatomy, locomotor mechanics, route performance, physiology, reproduction, carer structure, Mana pathway, taxonomy, cognition, human knowledge, and protagonist knowledge remain unselected."
+  ],
+  "validations": [
+    "python -m unittest tools.tests.test_validate_governance -v — passed: 3 tests before evidence registration.",
+    "python tools/validate_governance.py — passed before evidence registration: 42 repository records, 5 valid fixtures, 5 rejected fixtures.",
+    "python tools/validate_workspaces.py — passed before evidence registration: 4 work manifests, 2 setting manifests, 2 workflow evaluations, 3 rejected fixtures.",
+    "python tools/validate_story_integration.py stories/series/project-hearthway-main/project-hearthway-main.work-manifest.json — passed before evidence registration: 9 schemas, 1 valid fixture, 0 rejected fixtures.",
+    "python tools/validate_repository.py — passed before evidence registration, including 121 CAL0 regression tests.",
+    "Independent ecology/CAL0, governance/provenance, and recording-surface audits — passed after two major and three minor wording corrections; no blocking, major, or minor finding remained.",
+    "git diff --check plus an explicit 24-file source/target unintended-trailing-whitespace scan — passed before digest capture; intentional two-space Markdown hard breaks were permitted.",
+    "python tools/validate_governance.py — passed after evidence registration: 43 repository records, 5 valid fixtures, 5 rejected fixtures.",
+    "python tools/validate_governance.py --verify-current-accepted governance/evidence/WB-RUN-2026-08-14-ECOLOGY-009/WB-RUN-2026-08-14-ECOLOGY-009.workflow-evidence.json — passed: both source manifests and all 22 target artifacts verified against current bytes.",
+    "python tools/validate_workspaces.py plus focused story-integration validation — passed after evidence registration with unchanged counts.",
+    "python tools/validate_repository.py — passed after evidence registration, including 121 CAL0 regression tests.",
+    "Final git diff --check plus an explicit 28-file transaction unintended-trailing-whitespace scan — passed; intentional two-space Markdown hard breaks were permitted."
+  ],
+  "retained_files": [
+    "governance/evidence/WB-RUN-2026-08-14-ECOLOGY-009/approved-change-set.md",
+    "governance/evidence/WB-RUN-2026-08-14-ECOLOGY-009/final-findings.md",
+    "governance/evidence/WB-RUN-2026-08-14-ECOLOGY-009/validation-summary.md",
+    "governance/evidence/WB-RUN-2026-08-14-ECOLOGY-009/WB-RUN-2026-08-14-ECOLOGY-009.workflow-evidence.json"
+  ],
+  "approval": {
+    "decision_uri": "author-decision://world/WLD-ECOLOGY-009A",
+    "decided_by": "Author",
+    "decision": "ACCEPT",
+    "decided_on": "2026-08-14",
+    "evidence": "After three complete visual body-plan cards were displayed and chat confirmation was required, the Author replied 'A' on 2026-08-14, selecting 'A — Brood-Vault Strider'."
+  }
+}

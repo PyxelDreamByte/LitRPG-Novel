@@ -1,11 +1,26 @@
 # Worldbuilding
 
 This directory holds reusable project-level worldbuilding governance and, when
-created, isolated settings. No real setting has been instantiated yet.
+created, isolated settings. One provisionally authorized setting-development
+container now exists; it has no fully accepted fictional canon.
 
 - [`INDEX.md`](INDEX.md) routes readers to accepted setting facts and open decisions.
 - `decisions/` currently records project-level defaults and deferrals; these are not detailed world canon.
-- `settings/<setting-slug>/` will isolate each real setting's manifest, constitution, canon, proposals, decisions, and indexes.
+- `settings/<setting-slug>/` isolates each setting's manifest, constitution, canon, proposals, decisions, and indexes.
+- [`settings/shared-universe-001/`](settings/shared-universe-001/) has narrow
+  `ACCEPTED` / `PROVISIONAL` authority for the Project Hearthway identity, its
+  main-series relationship, four bounded Lineage II records, one bounded basin
+  exchange-and-regional-horizon record, one bounded lake spring breeding-pulse
+  record, one bounded mass-breeder foundational body-plan record, one bounded
+  mass-breeder osmoregulation-and-passive-buoyancy record, one bounded
+  family-care migrant foundational body-plan and mobile-refuge record, one
+  bounded family-care migrant outlet-passage choreography record, one bounded
+  initial-region physical scaffold, one bounded initial-outlet mixed-reach
+  sequence, three bounded basin-flora records, one bounded initial ridge-spur
+  settlement working-landscape record, and one bounded lake-road practical
+  travel-scale record, plus one bounded upper-shore staging-and-seasonal-spur
+  endpoint record; all
+  other detailed fictional material remains proposed.
 - Root `canon/`, `proposals/`, and `indexes/` are legacy/reserved and must not receive new setting-specific facts.
 - `templates/` contains proposal and decision templates.
 
@@ -29,7 +44,8 @@ this repository.
 
 ## Recommended canon taxonomy
 
-Within a future setting, add folders only when sufficient accepted material exists:
+Within a setting, add folders only when sufficient accepted or provisional
+material exists:
 
 - cosmology and metaphysics;
 - geography, geology, climate, and locations;

@@ -1,0 +1,88 @@
+{
+  "$schema": "../../../../../governance/schemas/worldbuilding-record.schema.json",
+  "schema_version": "1.0.0",
+  "id": "WLD-GEOGRAPHY-001",
+  "record_uri": "canon://world/shared-universe-001/geography/initial-region-physical-scaffold",
+  "display_code": "WLD-GEOGRAPHY-001",
+  "setting_id": "setting://shared-universe-001",
+  "title": "Initial-region physical scaffold",
+  "workflow_status": "ACCEPTED",
+  "canon_status": "PROVISIONAL",
+  "scope": "Qualitative physical geography, hydrology, geomorphic sequence, coastal character, climate regime, and winter/summer pattern of Project Hearthway's initial region; usable within shared-setting ecology, location, culture, material exchange, and story development.",
+  "claims": [
+    "Wet rocky uplands lie broadly west and northwest of a sheltered central lake basin; beyond an eastern or southeastern outlet gap, downstream lower marsh country leads toward a broken drowned coast.",
+    "The basin lake is freshwater and through-flowing: multiple rivers and streams feed it, and an outlet river drains it toward the sea.",
+    "The outlet leaves the basin through a narrow, naturally defensible gap.",
+    "The landscape preserves successive geomorphic phases: an ancient river basin was later reshaped by glaciation.",
+    "Ancient inundation formed the drowned coast; its broad regional outline is now stable, while storms can alter local channels and bars or remove small landforms.",
+    "Drowned valleys, tidal marshes, peat islands, sandbars, wooded islands, and narrow sea passages occur within the coastal mosaic.",
+    "The immediate region has a transitional maritime-continental climate.",
+    "Western windward terrain supports a major alien temperate-rainforest biome, while scattered damp refugia also occur within the basin.",
+    "Upland snow accumulates reliably and feeds a strong spring melt, while basin snow comes most years but can thaw and return several times within a winter.",
+    "Sheltered lake bays, wetlands, and slow river reaches freeze regularly; continuous surface ice across the lake's deeper central waters occurs only in unusually severe winters.",
+    "Sudden thaws can produce flooding, moving ice, and dangerous river crossings.",
+    "Summers are normally mild to warm, with long daylight and regular rain; occasional hotter dry spells can last several weeks, while severe drought remains uncommon.",
+    "The western rainforest and damp ravines usually remain moist during those dry spells, while basin open ground, habitat edges, and peaty margins can become dry enough to support surface fire."
+  ],
+  "boundaries": [
+    "Britain, Doggerland, and Scandinavia are author-facing inspiration only and establish no Earth location, chronology, culture, species, language, or hidden connection.",
+    "Temperate rainforest describes climate-supported vegetation structure; its alien species, ancestry, anatomy, extent, productivity, in-world name, and human use remain undefined.",
+    "Within this record, defensible describes terrain potential only. WLD-LOCATION-001 later establishes a bounded initial ridge-spur settlement working landscape and combined spring-well-cistern water system; exact wall form, ownership, road dimensions, and hydrogeology remain outside this record.",
+    "Exact map scale, place names, distances, travel times, elevations, slopes, contours, river courses, lake form, quantitative outlet profile, gap dimensions, and coast shape remain undefined. WLD-GEOGRAPHY-002 later establishes only the outlet's qualitative mixed-reach feature sequence.",
+    "Exact geological dates, rock types, glacial sequence, soil map, mineral resources, inundation cause, former shorelines, and cultural consequences remain undefined.",
+    "Exact lake depth, volume, mixing, chemistry, water-level cycle, freeze duration, inflow count and discharge, outlet capacity, head of tide, freshwater tidal influence, salt-front position, and storm-surge reach remain undefined; the lake remains freshwater.",
+    "The lower basin floor remains distinct from downstream lower marsh and coastal country; this record does not move the existing crown corridor through the outlet gap or to the coast.",
+    "Continuous central-lake freezing means surface ice rather than a frozen water column.",
+    "Exact temperatures, rainfall, snowfall, prevailing winds, storm frequency, drought, fire, seasonal calendar, and day length remain undefined beyond the qualitative pattern in the claims.",
+    "WLD-ECOLOGY-006 later establishes broad qualitative lake productivity and two seasonal sea-lake migrant relationships, while WLD-ECOLOGY-010 later selects one organism-side outlet-passage choreography for the family-care migrant. WLD-GEOGRAPHY-002 later establishes a narrow bedrock throat and a downstream mixed reach containing irregular boulder steps, side shelves, and holding pockets. That qualitative sequence is only a candidate physical basis for passage attempts: exact feature dimensions and continuity, hydraulics, seasonal water states, salinity transition, route capacity, organism compatibility, passability, and passage success remain undefined; exact habitat distribution, quantitative productivity, species ranges, other transit modes, population scale and timing, other migrations, trade, imports, settlements beyond WLD-LOCATION-001's bounded initial-settlement landscape, cultures, histories, current events, and character knowledge also remain undefined.",
+    "This record establishes no magical climate cause, ecological reset, ambient spawning, ancient-doorway effect, or offworld connection."
+  ],
+  "dependencies": [
+    "author-decision://world/WLD-SETTING-001A",
+    "author-decision://world/WLD-ECOLOGY-004A",
+    "canon://world/shared-universe-001/ecology/lineage-ii-peripheral-migration-corridor",
+    "author-decision://world/WLD-ECOLOGY-005A",
+    "canon://world/shared-universe-001/ecology/basin-coupled-pulse-mosaic-exchange",
+    "author-decision://world/WLD-FLORA-001A",
+    "canon://world/shared-universe-001/ecology/basin-reserve-web-vegetation-guild",
+    "author-decision://world/WLD-GEOGRAPHY-001A",
+    "CAL0 WLD1.2D",
+    "CAL0 WLD2.1A+D"
+  ],
+  "contradictions": [],
+  "story_implications": [
+    "The protagonist's initial region can present a coherent gradient from wet rocky uplands through a sheltered lake basin to marshy lowlands and a broken drowned coast.",
+    "Snowmelt, variable ice, local flooding, storms, and occasional dry spells can support grounded seasonal pressures when later story records select exact events.",
+    "The outlet gap is a potential chokepoint, but any fortification, crossing, controller, route, toll, settlement, or conflict requires a separate accepted claim.",
+    "Later migrations, travel, imports, and tales can use this physical scaffold but must still establish exact routes, logistics, locality, evidence, and character knowledge.",
+    "The complete scaffold is author-side causal truth; characters know only the places, patterns, records, reports, and observations available to them."
+  ],
+  "system_implications": [
+    "The selected landforms, hydrology, climate, coast, freeze-thaw cycle, flooding, and fire opportunity are ordinary world-level inputs under CAL0 WLD1.2D and WLD2.1A+D, not a System change.",
+    "No Mana weather engine, magical climate control, ambient spawning, ecological reset, inexhaustible resource, automatic recovery, or offworld mechanism is established."
+  ],
+  "research_questions": [
+    "What exact dimensions, spacing, continuity, seasonal inundation, hydraulics, route capacity, and downstream salinity transition turn WLD-GEOGRAPHY-002's mixed outlet sequence into a viable or non-viable test of the WLD-ECOLOGY-010 passage requirement?",
+    "What rock, sediment, and glacial history produce the selected terrain, and what soil patterns result, without importing Earth chronology?",
+    "What quantitative seasonal water and energy balance supports the lake, snow, ice, floods, rainforest moisture, dry spells, and uncommon severe drought?",
+    "Which alien producer, decomposer, consumer, and habitat-forming families occupy each part of the regional gradient?",
+    "How do later approved migrations and human routes use or avoid the uplands, lake, outlet gap, marsh country, and coast?",
+    "What does each culture and viewpoint character know about the region, its weather, its drowned coast, and its geological past?"
+  ],
+  "sources": [
+    "worldbuilding/settings/shared-universe-001/proposals/WLD-GEOGRAPHY-001.md",
+    "stories/series/project-hearthway-main/workbench/runs/2026-08-14-initial-region-physical-scaffold/proposal.md",
+    "canon://world/shared-universe-001/ecology/lineage-ii-peripheral-migration-corridor",
+    "canon://world/shared-universe-001/ecology/basin-coupled-pulse-mosaic-exchange",
+    "canon://world/shared-universe-001/ecology/basin-reserve-web-vegetation-guild",
+    "Author selections across the guided regional geography and climate design on 2026-08-14"
+  ],
+  "supersedes": [],
+  "superseded_by": null,
+  "author_approval": {
+    "decision_uri": "author-decision://world/WLD-GEOGRAPHY-001A",
+    "accepted_on": "2026-08-14",
+    "accepted_by": "Author",
+    "evidence": "Across guided design questions on 2026-08-14, the Author selected a freshwater through-flow lake and seaward outlet, replied 'defensible gap', and replied 'yes' to the transitional climate, western rainforest distribution, layered river-glacial origin, broadly stable drowned coast, winter pattern, summer pattern, and west-to-east regional arrangement."
+  }
+}

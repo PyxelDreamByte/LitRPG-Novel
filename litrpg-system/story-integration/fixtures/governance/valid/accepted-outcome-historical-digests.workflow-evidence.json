@@ -1,0 +1,39 @@
+{
+  "schema_version": "1.0.0",
+  "run_id": "run://fixture/accepted-outcome-historical-digests",
+  "evidence_kind": "ACCEPTED_OUTCOME",
+  "workflow": "synthetic-accepted-outcome",
+  "completed_on": "2026-08-14",
+  "canonicality": "ACCEPTED",
+  "promotion": "ALLOWED_WITH_AUTHOR_GATE",
+  "source_manifest": [
+    {
+      "path": "litrpg-system/story-integration/fixtures/governance/valid/accepted-outcome-source.txt",
+      "revision": "source-revision-one",
+      "sha256": "sha256:f5b951ecad65723e596bd3e29f36ce8735162ee2e222599c9bb7d6e41a756002"
+    }
+  ],
+  "target_artifacts": [
+    {
+      "path": "litrpg-system/story-integration/fixtures/governance/valid/accepted-outcome-target.txt",
+      "revision": "target-revision-one",
+      "sha256": "sha256:ce124be6e11f0098ceff90f2cba3aa38fe47c79366fe948dca3f91d3b1819c3d"
+    }
+  ],
+  "findings": [
+    "The paths now contain revision two, while these real digests pin the former revision-one bytes."
+  ],
+  "validations": [
+    "Synthetic historical accepted-outcome evidence fixture."
+  ],
+  "retained_files": [
+    "litrpg-system/story-integration/fixtures/governance/valid/accepted-outcome-historical-digests.workflow-evidence.json"
+  ],
+  "approval": {
+    "decision_uri": "author-decision://fixture/accepted-outcome-historical-digests",
+    "decided_by": "Author",
+    "decision": "ACCEPT",
+    "decided_on": "2026-08-14",
+    "evidence": "Synthetic fixture approval for validator regression coverage."
+  }
+}

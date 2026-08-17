@@ -1,0 +1,190 @@
+{
+  "$schema": "../../schemas/workflow-evidence-manifest.schema.json",
+  "schema_version": "1.0.0",
+  "run_id": "run://develop-worldbuilding/WB-RUN-2026-08-14-GEOGRAPHY-002",
+  "evidence_kind": "ACCEPTED_OUTCOME",
+  "workflow": "develop-worldbuilding+author-decision",
+  "completed_on": "2026-08-15",
+  "canonicality": "ACCEPTED",
+  "promotion": "ALLOWED_WITH_AUTHOR_GATE",
+  "source_manifest": [
+    {
+      "path": "worldbuilding/settings/shared-universe-001/proposals/WLD-GEOGRAPHY-002.md",
+      "revision": "WLD-GEOGRAPHY-002-proposal@2026-08-14",
+      "sha256": "sha256:b1680420b95ab90d7ca7df55f29e7281a1c36711c671efd9ff0e750c57beeac0"
+    },
+    {
+      "path": "stories/series/project-hearthway-main/workbench/runs/2026-08-14-initial-outlet-mixed-reach-sequence/proposal.md",
+      "revision": "WLD-GEOGRAPHY-002-option-capture@2026-08-14",
+      "sha256": "sha256:09ad4c02f5765b9af05a0b0d363772f07c2c2368d80088c2efa355b61dd6e38c"
+    }
+  ],
+  "target_artifacts": [
+    {
+      "path": "worldbuilding/settings/shared-universe-001/decisions/WLD-GEOGRAPHY-002A.decision.json",
+      "revision": "WLD-GEOGRAPHY-002A@2026-08-14",
+      "sha256": "sha256:f395bcc2cf45af4b676f75f1a0dfabd815c43011d8c7d8b46551efd469a66062"
+    },
+    {
+      "path": "worldbuilding/settings/shared-universe-001/decisions/WLD-GEOGRAPHY-002A.md",
+      "revision": "WLD-GEOGRAPHY-002A@2026-08-14",
+      "sha256": "sha256:0f812c6dfb95763c06995ec58e1dc871fff118887babee95560230b92e042838"
+    },
+    {
+      "path": "worldbuilding/settings/shared-universe-001/canon/geography/WLD-GEOGRAPHY-002.worldbuilding.json",
+      "revision": "WLD-GEOGRAPHY-002@2026-08-14",
+      "sha256": "sha256:772aa02e8dc42bcbd801b6ceef5da3d6fc0fa782c07b488a000d3d8e1f6420be"
+    },
+    {
+      "path": "worldbuilding/settings/shared-universe-001/canon/geography/WLD-GEOGRAPHY-002.md",
+      "revision": "WLD-GEOGRAPHY-002@2026-08-14",
+      "sha256": "sha256:675cd545a663d670f78b60488abe45cdbcf860a28554ec4e2c17b3ec0e15ffa7"
+    },
+    {
+      "path": "worldbuilding/settings/shared-universe-001/canon/ecology/WLD-ECOLOGY-006.worldbuilding.json",
+      "revision": "WLD-GEOGRAPHY-002-compatible@2026-08-14",
+      "sha256": "sha256:5489062d501f29831aad39b08a2e0ae3cbe7c92c897aa415ec991181fbb67fa6"
+    },
+    {
+      "path": "worldbuilding/settings/shared-universe-001/canon/ecology/WLD-ECOLOGY-006.md",
+      "revision": "WLD-GEOGRAPHY-002-compatible@2026-08-14",
+      "sha256": "sha256:db7529f17763096884b58b82d636d573b1246073985654cc1a0b2fc54871b558"
+    },
+    {
+      "path": "worldbuilding/settings/shared-universe-001/canon/ecology/WLD-ECOLOGY-009.worldbuilding.json",
+      "revision": "WLD-GEOGRAPHY-002-compatible@2026-08-14",
+      "sha256": "sha256:0d108b93b3bbe2ca79e1cddff0e2d3582cb36bea7f4fa5c0260ca440ca788836"
+    },
+    {
+      "path": "worldbuilding/settings/shared-universe-001/canon/ecology/WLD-ECOLOGY-009.md",
+      "revision": "WLD-GEOGRAPHY-002-compatible@2026-08-14",
+      "sha256": "sha256:777e9e6ec3a0cdec28d000e5a9305ab3763b9f223c9af9d5591a5dca99956087"
+    },
+    {
+      "path": "worldbuilding/settings/shared-universe-001/canon/ecology/WLD-ECOLOGY-010.worldbuilding.json",
+      "revision": "WLD-GEOGRAPHY-002-compatible@2026-08-14",
+      "sha256": "sha256:d0c19a836c57d55d9269d08ec015df3276c1799d0df19e50a771e105973e7ef3"
+    },
+    {
+      "path": "worldbuilding/settings/shared-universe-001/canon/ecology/WLD-ECOLOGY-010.md",
+      "revision": "WLD-GEOGRAPHY-002-compatible@2026-08-14",
+      "sha256": "sha256:df0b486afd44d61fa45d10f32285a80a25eefa9f0743f730ccf527be9ce8f6ca"
+    },
+    {
+      "path": "worldbuilding/settings/shared-universe-001/canon/geography/WLD-GEOGRAPHY-001.worldbuilding.json",
+      "revision": "WLD-GEOGRAPHY-002-compatible@2026-08-14",
+      "sha256": "sha256:5d0215fcf30dafdbc2e76806b77e76f7dd605406ebc2601410ea113ab5dd0128"
+    },
+    {
+      "path": "worldbuilding/settings/shared-universe-001/canon/geography/WLD-GEOGRAPHY-001.md",
+      "revision": "WLD-GEOGRAPHY-002-compatible@2026-08-14",
+      "sha256": "sha256:8b1edf62227b11eb9520950220a0c57ef5ae787bb7c4ccd1e4ab1a7bf5477e2f"
+    },
+    {
+      "path": "worldbuilding/settings/shared-universe-001/setting-constitution.md",
+      "revision": "WLD-GEOGRAPHY-002-reconciled@2026-08-14",
+      "sha256": "sha256:a60683d971ce2e333a4850c4bc33ff99d82de8bf3f4f0d4557dcba9f17fc92f3"
+    },
+    {
+      "path": "worldbuilding/settings/shared-universe-001/indexes/INDEX.md",
+      "revision": "WLD-GEOGRAPHY-002-indexed@2026-08-14",
+      "sha256": "sha256:a48f1134a7511ec0205dea6812ece5802d7650625b3e4a9f1289e7d8b9b12308"
+    },
+    {
+      "path": "worldbuilding/settings/shared-universe-001/canon/README.md",
+      "revision": "WLD-GEOGRAPHY-002-registered@2026-08-14",
+      "sha256": "sha256:a624664c53c28a5e7f1f2bd6a8d38f0fc600cfb42502d393e5dc43893579789f"
+    },
+    {
+      "path": "worldbuilding/settings/shared-universe-001/proposals/README.md",
+      "revision": "WLD-GEOGRAPHY-002-registered@2026-08-14",
+      "sha256": "sha256:02885a07299db01c1fcdf1a9719e3507aa7bdb321eaf3efc571f6ea367a6a8a4"
+    },
+    {
+      "path": "worldbuilding/settings/shared-universe-001/decisions/README.md",
+      "revision": "WLD-GEOGRAPHY-002-registered@2026-08-14",
+      "sha256": "sha256:2284206e6617b0287482779ce91bd0d58eb43b1c77af2cb8f0d202b11f61c137"
+    },
+    {
+      "path": "worldbuilding/INDEX.md",
+      "revision": "WLD-GEOGRAPHY-002-indexed@2026-08-14",
+      "sha256": "sha256:02f6ae32f991f5f2e1f573d05e55965d9bfd8ddd71a0acb8b3839817dbcac54b"
+    },
+    {
+      "path": "worldbuilding/README.md",
+      "revision": "WLD-GEOGRAPHY-002-summarized@2026-08-14",
+      "sha256": "sha256:c62e705668cb5a0eb2bfd836c0afeded28d6e68b67b0d90ab89f642285df8daf"
+    },
+    {
+      "path": "worldbuilding/settings/README.md",
+      "revision": "WLD-GEOGRAPHY-002-summarized@2026-08-14",
+      "sha256": "sha256:d4dfbde982b81cd4ffc3df95040ad7abeeee54b87cacb4110484eaed7992deda"
+    },
+    {
+      "path": "worldbuilding/canon/README.md",
+      "revision": "WLD-GEOGRAPHY-002-summarized@2026-08-14",
+      "sha256": "sha256:2a2a7ff46e157888643964c319ad242901fb12863091d3cd67669f04f717ed13"
+    },
+    {
+      "path": "stories/series/project-hearthway-main/project-hearthway-main.work-manifest.json",
+      "revision": "WLD-GEOGRAPHY-002-adopted@2026-08-14",
+      "sha256": "sha256:e938738143477498c73dde3c4b88b4988111fc537c34b10bb3d52bc319683a27"
+    },
+    {
+      "path": "stories/series/project-hearthway-main/work-manifest.md",
+      "revision": "WLD-GEOGRAPHY-002-adopted@2026-08-14",
+      "sha256": "sha256:5bcb521f87a310fe197a8727c3a72d5d06df284215d851f686df6eb527cd8781"
+    },
+    {
+      "path": "stories/series/project-hearthway-main/work-contract.md",
+      "revision": "WLD-GEOGRAPHY-002-adopted@2026-08-14",
+      "sha256": "sha256:fc875424d0b963c23bf591591d99378f60a2cbb8eddc3acc07ef03557fca638e"
+    },
+    {
+      "path": "README.md",
+      "revision": "WLD-GEOGRAPHY-002-summarized@2026-08-14",
+      "sha256": "sha256:819fbb306ffc7e039cac19fb89574934f1e523d085a4e84ec88a4558ee56b737"
+    },
+    {
+      "path": "STATUS.md",
+      "revision": "WLD-GEOGRAPHY-002-summarized@2026-08-14",
+      "sha256": "sha256:401a11b6c7f66d5146784e2aeb6b9eccc75cb281215852addab7d624e597c1ab"
+    }
+  ],
+  "findings": [
+    "PASS: the promoted record matches the Author-selected C — Mixed outlet sequence and binds only its bounded qualitative feature set.",
+    "PASS: the bedrock throat, connected mixed reach, boulder steps, side shelves, and holding pockets remain qualitative and do not fix exact geometry, hydrology, or formation.",
+    "PASS: the selected sequence is a state-dependent opportunity set, not a continuous safe route, guaranteed passage window, capacity, or successful migration outcome.",
+    "PASS: holding-pocket wording denies automatic safety, healing, recovery, checkpoint, refill, or System properties without forbidding later ordinary resting or recovery.",
+    "PASS: finite water, sediment, material, usable energy, route space, injury, mortality, recruitment, erosion, deposition, and recovery remain causal.",
+    "PASS: no System route, level gate, adaptive difficulty, reward, spawn, reset, refill, free energy, free Mana, magical hydrology, or automatic recovery is created.",
+    "PASS: work adoption, setting and root discovery, fifteen-record counts, IDs, URIs, Markdown/JSON parity, and one-way dependency direction are consistent.",
+    "BOUNDARY PRESERVED: exact hydraulics, salinity, seasonal usability, route capacity, organism fit, mortality, human use, and protagonist knowledge remain unselected."
+  ],
+  "validations": [
+    "python -m unittest tools.tests.test_validate_governance -v — passed: 3 tests before evidence registration.",
+    "python tools/validate_governance.py — passed before evidence registration: 48 repository records, 5 valid fixtures, 5 rejected fixtures.",
+    "python tools/validate_workspaces.py — passed before evidence registration: 4 work manifests, 2 setting manifests, 2 workflow evaluations, 3 rejected fixtures.",
+    "python tools/validate_story_integration.py stories/series/project-hearthway-main/project-hearthway-main.work-manifest.json — passed before evidence registration: 9 schemas, 1 valid fixture, 0 rejected fixtures.",
+    "python tools/validate_repository.py — passed before evidence registration with 108 non-CAL0 JSON files and all 121 CAL0 regression tests.",
+    "Independent geography, ecology/CAL0, and recording-surface audits — clean after provenance, hard-wrap, recovery-boundary, parity, and summary corrections.",
+    "git diff --check plus an explicit 28-file source/target unintended-trailing-whitespace scan — passed before digest capture; intentional two-space Markdown hard breaks were permitted.",
+    "python tools/validate_governance.py — passed after evidence registration: 49 repository records, 5 valid fixtures, 5 rejected fixtures.",
+    "python tools/validate_governance.py --verify-current-accepted governance/evidence/WB-RUN-2026-08-14-GEOGRAPHY-002/WB-RUN-2026-08-14-GEOGRAPHY-002.workflow-evidence.json — passed for both source manifests and all 26 target artifacts.",
+    "python tools/validate_workspaces.py plus focused story-integration validation — passed after evidence registration with unchanged counts.",
+    "python tools/validate_repository.py — passed after evidence registration with 109 non-CAL0 JSON files and all 121 CAL0 regression tests."
+  ],
+  "retained_files": [
+    "governance/evidence/WB-RUN-2026-08-14-GEOGRAPHY-002/approved-change-set.md",
+    "governance/evidence/WB-RUN-2026-08-14-GEOGRAPHY-002/final-findings.md",
+    "governance/evidence/WB-RUN-2026-08-14-GEOGRAPHY-002/validation-summary.md",
+    "governance/evidence/WB-RUN-2026-08-14-GEOGRAPHY-002/WB-RUN-2026-08-14-GEOGRAPHY-002.workflow-evidence.json"
+  ],
+  "approval": {
+    "decision_uri": "author-decision://world/WLD-GEOGRAPHY-002A",
+    "decided_by": "Author",
+    "decision": "ACCEPT",
+    "decided_on": "2026-08-14",
+    "evidence": "After A, B, and C outlet-structure options were presented, the Author replied 'C' on 2026-08-14, selecting 'C — Mixed outlet sequence'."
+  }
+}

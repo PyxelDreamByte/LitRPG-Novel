@@ -1,0 +1,91 @@
+{
+  "$schema": "../../../../governance/schemas/decision-record.schema.json",
+  "schema_version": "1.0.0",
+  "id": "WLD-ECOLOGY-007A",
+  "decision_uri": "author-decision://world/WLD-ECOLOGY-007A",
+  "display_code": "WLD-ECOLOGY-007A",
+  "title": "Basin-lake mass-breeder foundational body plan",
+  "domain": "Project Hearthway aquatic fauna",
+  "workflow_status": "ACCEPTED",
+  "canon_status": "PROVISIONAL",
+  "scope": "Foundational family-grade morphology and ordinary Mana-use boundary of WLD-ECOLOGY-006's first mass-breeding migrant. Exact names, taxonomy, dimensions, detailed anatomy and physiology, species variation, migration performance, progression, and human knowledge remain open.",
+  "accepted_on": "2026-08-14",
+  "accepted_by": "Author",
+  "approval_evidence": "After the fully aquatic flexible fin-fan body-plan package was presented, the Author replied 'yes' to 'Should this become the mass-spawner’s foundational body plan?' on 2026-08-14.",
+  "question": "What foundational body plan should govern the first, mass-breeding aquatic migrant established by WLD-ECOLOGY-006?",
+  "selection": "Use MASS-BREEDER-BODY-A. The migrant belongs to a fully aquatic alien biological lineage. Its migratory form has a streamlined, laterally flexible trunk supported by springy cartilage, three paired fin-fans, a strong muscular tail, a wedge-shaped mineralised head shield, and aquatic respiratory surfaces that form folds which may be exposed or held in a more protected configuration. Mana contributes to ordinary tissue reinforcement as part of its physiology; this is not a specialised activated ability or earned System reinforcement. WLD-ECOLOGY-006 continues to govern egg-ribbon deposition, adult return and mortality, predation, recruitment, and population variability.",
+  "alternatives": [
+    "MASS-BREEDER-BODY-A: flexible cartilaginous trunk, three paired fin-fans, muscular tail, mineralised head shield, respiratory folds, and ordinary Mana-supported tissue reinforcement; selected.",
+    "MASS-BREEDER-BODY-B: deep rigid body, broad paddling appendages, and extensive mineral protection; not selected.",
+    "MASS-BREEDER-BODY-C: long undulatory body propelled mainly by continuous lateral swimming fringes; not selected."
+  ],
+  "rationale": "The selected package produces an original but readable aquatic silhouette and a plausible foundation for sustained swimming and fine control. It also creates useful physical constraints—mineral demand, anterior mass, exposed respiratory tissue, salinity transition, finite endurance, and Mana cost—that later ecology can resolve without making the animal an Earth transplant or a collection of cost-free magical abilities.",
+  "evidence": [
+    "Author selection on 2026-08-14: 'Should this become the mass-spawner’s foundational body plan? yes'.",
+    "worldbuilding/settings/shared-universe-001/proposals/WLD-ECOLOGY-007.md",
+    "stories/series/project-hearthway-main/workbench/runs/2026-08-14-basin-lake-mass-breeder-body-plan/proposal.md",
+    "canon://world/shared-universe-001/ecology/basin-lake-spring-breeding-pulse",
+    "canon://world/shared-universe-001/geography/initial-region-physical-scaffold",
+    "CAL0 WLD1.1D",
+    "CAL0 WLD1.2D",
+    "CAL0 WLD2.1A+D"
+  ],
+  "consequences": [
+    "The mass breeder is fully aquatic through its currently governed migratory and reproductive phases; no terrestrial locomotion, nesting, or bypass is established.",
+    "The listed structures are a family-grade foundation without establishing formal taxonomic rank, one species, invariant adult form, or Earth homology.",
+    "The form is compatible with continuous freshwater-sea migration but does not prove route passability, speed, endurance, homing, salinity immunity, or guaranteed return.",
+    "Shield mass and minerals, tissue fatigue, fin drag and injury, respiratory exposure, oxygen delivery, osmoregulation, buoyancy, food, recovery, disease, parasites, and route capacity remain causal constraints.",
+    "Mana supports ordinary tissue function only within a later-defined causal source, carrier, capacity, cost, recovery, and failure pathway.",
+    "Mana support is not CAL0 reinforcement, a buff, invulnerability, instant repair, free energy, a Skill, class, spell, aura, reward, or universal rule for all fauna.",
+    "The family-care migrant's body plan remains open."
+  ],
+  "affected_sources": [
+    "worldbuilding/settings/shared-universe-001/proposals/WLD-ECOLOGY-007.md",
+    "worldbuilding/settings/shared-universe-001/decisions/WLD-ECOLOGY-007A.decision.json",
+    "worldbuilding/settings/shared-universe-001/decisions/WLD-ECOLOGY-007A.md",
+    "worldbuilding/settings/shared-universe-001/canon/ecology/WLD-ECOLOGY-007.worldbuilding.json",
+    "worldbuilding/settings/shared-universe-001/canon/ecology/WLD-ECOLOGY-007.md",
+    "worldbuilding/settings/shared-universe-001/canon/ecology/WLD-ECOLOGY-006.worldbuilding.json",
+    "worldbuilding/settings/shared-universe-001/canon/ecology/WLD-ECOLOGY-006.md",
+    "worldbuilding/settings/shared-universe-001/setting-constitution.md",
+    "worldbuilding/settings/shared-universe-001/indexes/INDEX.md",
+    "worldbuilding/settings/shared-universe-001/canon/README.md",
+    "worldbuilding/settings/shared-universe-001/proposals/README.md",
+    "worldbuilding/settings/shared-universe-001/decisions/README.md",
+    "worldbuilding/INDEX.md",
+    "worldbuilding/README.md",
+    "worldbuilding/settings/README.md",
+    "worldbuilding/canon/README.md",
+    "stories/series/project-hearthway-main/project-hearthway-main.work-manifest.json",
+    "stories/series/project-hearthway-main/work-manifest.md",
+    "stories/series/project-hearthway-main/work-contract.md",
+    "stories/series/project-hearthway-main/workbench/runs/2026-08-14-basin-lake-mass-breeder-body-plan/proposal.md",
+    "README.md",
+    "STATUS.md"
+  ],
+  "dependencies": [
+    "WLD-SETTING-001A",
+    "WLD-ECOLOGY-006A",
+    "WLD-ECOLOGY-006",
+    "WLD-GEOGRAPHY-001A",
+    "WLD-GEOGRAPHY-001",
+    "CAL0 WLD1.1D",
+    "CAL0 WLD1.2D",
+    "CAL0 WLD2.1A+D"
+  ],
+  "conflicts": [],
+  "residual_unknowns": [
+    "Name, taxonomy, ancestry, related species, juvenile morphology, size, proportions, colour, skin, and sexual variation remain open.",
+    "Exact support lattice, fin-fan roles, tail form, gait, endurance, shield composition and repair, respiratory anatomy, circulation, and buoyancy remain open.",
+    "Osmoregulation, acclimation, route performance, navigation, diet, senses, behaviour, fertilisation, and release posture remain open.",
+    "Mana source, carrier, storage, circulation, tissue targets, metabolic cost, recovery, failure, specialised organs, and abilities remain open.",
+    "Cognition, sapience, Skills, classes, levels, appraisal, human knowledge, and the family-care migrant's body plan remain open."
+  ],
+  "supersedes": [],
+  "superseded_by": null,
+  "reopening_conditions": [
+    "Quantitative route, buoyancy, oxygen, salinity, or energetic modelling cannot support the selected form.",
+    "Later accepted ecology or story canon creates a concrete contradiction.",
+    "The Author explicitly requests a different foundational body plan."
+  ]
+}

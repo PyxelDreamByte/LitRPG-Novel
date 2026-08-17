@@ -1,0 +1,89 @@
+{
+  "$schema": "../../../../../governance/schemas/worldbuilding-record.schema.json",
+  "schema_version": "1.0.0",
+  "id": "WLD-ECOLOGY-006",
+  "record_uri": "canon://world/shared-universe-001/ecology/basin-lake-spring-breeding-pulse",
+  "display_code": "WLD-ECOLOGY-006",
+  "setting_id": "setting://shared-universe-001",
+  "title": "Basin-lake spring breeding pulse",
+  "workflow_status": "ACCEPTED",
+  "canon_status": "PROVISIONAL",
+  "scope": "Qualitative biological productivity and overlapping spring breeding migrations in Project Hearthway's initial freshwater through-flow basin lake; usable within shared-setting ecology, seasonal planning, human subsistence development, and story development.",
+  "claims": [
+    "The freshwater through-flow lake is biologically productive but spatially and seasonally varied.",
+    "The spring freshet creates seasonally favourable passage conditions from the sea and marks the start of the lake's seasonal rise in productivity.",
+    "An unnamed mass-breeding migrant arrives first and deposits dense ribbons or clusters of eggs onto sturdy plants and mineral surfaces across river-mouth shallows, protected bays, submerged ridges, and flooded vegetation margins rather than relying on one nursery ground.",
+    "Healthy adults generally return toward the sea after breeding, while the breeding-and-return cycle still carries meaningful adult mortality.",
+    "A distinct family-care migrant follows, remains through one warm season while rearing young, and escorts surviving young seaward before autumn storms and first freezes.",
+    "The family-care migrant's young consume the first migrant's eggs and juveniles as an important but non-exclusive food source.",
+    "Both migrants compete with resident lake fauna during their lake phases.",
+    "Humans, aquatic predators, terrestrial shore hunters, and bird-like fishing organisms exploit the seasonal abundance.",
+    "Reproductive risk is dispersed across places and times so that no single ordinary predator, flood, or fishery routinely destroys the entire generation.",
+    "Exceptional or compound recruitment failures remain possible.",
+    "The dispersed egg-deposition pattern creates feeding grounds that shift across the lake over the season."
+  ],
+  "boundaries": [
+    "Freshet establishes a seasonal passage condition and productivity transition, not an exact hydraulic, salinity, sensory, or navigation mechanism. WLD-GEOGRAPHY-002 later establishes only a qualitative mixed outlet sequence; a favourable season can still contain dangerous peak flows, temporarily unusable micro-routes, crowding, ice, or debris.",
+    "Exact names, taxonomy, ancestry, size, cognition, sea range, route, timing, environmental cues, population scale, fecundity, exact egg-ribbon density, mortality, recruitment, carrying capacity, and return fidelity remain undefined. WLD-ECOLOGY-007 establishes only the mass breeder's foundational body plan, WLD-ECOLOGY-009 separately establishes the family-care migrant's foundational body plan and shelter–forage–regroup care interface, and WLD-ECOLOGY-010 later establishes only that migrant's qualitative outlet-passage choreography, while WLD-GEOGRAPHY-002 later supplies a candidate physical feature set against which it can be tested; their remaining anatomy and physiology, actual route use, and passage success remain undefined.",
+    "The number, dimensions, location, and biological composition of nursery habitats remain undefined beyond the qualitative habitat classes in the claims.",
+    "Egg deposition onto sturdy plants and mineral surfaces establishes no adhesion, entanglement, draping, anchoring, or other retention mechanism.",
+    "Flooded vegetation is not identified as the reserve-web guild or any other named flora.",
+    "Egg ribbons describe egg arrangement only and do not themselves establish a ribbon-shaped animal, body plan, or relationship to Lineage II ribbon forms; the mass breeder's selected foundation is governed separately by WLD-ECOLOGY-007.",
+    "Bird-like describes an ecological resemblance only and establishes no feathers, flight, Earth-bird anatomy, taxonomy, or named clade.",
+    "Human exploitation establishes a mortality channel, not a fishing technique, institution, law, ownership regime, trade, ritual, preservation method, or sustainable harvest.",
+    "No single ordinary predator, flood, or fishery routinely destroys the entire generation; this establishes no sustainable harvest rate and does not prevent exceptional or compound collapse.",
+    "Family care does not guarantee survival; the juvenile predator-prey link is important but non-exclusive, and no equilibrium or fixed annual return is established.",
+    "Adult repeat breeding, family-care reproductive mode, number or sex of carers, brood size, care behaviours beyond the shelter–forage–regroup pattern selected by WLD-ECOLOGY-009 and the bounded attempted regroup-and-advance sequence selected by WLD-ECOLOGY-010, diets beyond the selected prey link, disease, parasites, nutrient transfer, and carcass effects remain undefined.",
+    "The feeding grounds shift over the season, but their exact locations, timing, consumers, and movement pattern remain undefined.",
+    "WLD-ECOLOGY-007 establishes ordinary Mana-supported tissue reinforcement for the mass breeder only. Its exact Mana anatomy and mechanism, all specialised abilities, and the family-care migrant's Mana use remain undefined, as do creature progression, formal Skills, classes, levels, appraisal, and cultural or character knowledge.",
+    "These are ordinary living populations; no System spawning, seasonal reset, refill, pooled cohort identity, shared progression, loot rule, or automatic XP, attribute, trait, Skill, Mana, or power transfer is established."
+  ],
+  "dependencies": [
+    "author-decision://world/WLD-SETTING-001A",
+    "author-decision://world/WLD-ECOLOGY-005A",
+    "canon://world/shared-universe-001/ecology/basin-coupled-pulse-mosaic-exchange",
+    "author-decision://world/WLD-GEOGRAPHY-001A",
+    "canon://world/shared-universe-001/geography/initial-region-physical-scaffold",
+    "author-decision://world/WLD-ECOLOGY-006A",
+    "CAL0 WLD1.1D",
+    "CAL0 WLD1.2D",
+    "CAL0 WLD2.1A+D"
+  ],
+  "contradictions": [],
+  "story_implications": [
+    "Spring and summer lake scenes can show changing migrant abundance, egg-bearing nursery areas, resident competition, concentrated predators, and human harvest activity without requiring either migrant to be a permanent lake resident.",
+    "The two migrants can expose the protagonist to distinct alien reproductive strategies before their anatomy, names, or full life cycles are known.",
+    "Seasonal abundance can affect access, danger, catches, predator movement, and local decisions, but any exact practice, institution, dispute, or crisis requires a later accepted record.",
+    "Author-side knowledge of the full cycle does not become automatic protagonist knowledge; each observation and inference requires an available source and bounded confidence."
+  ],
+  "system_implications": [
+    "The selected breeding, egg deposition, hatching, care, predation, migration, mortality, and recruitment are ordinary world ecology under CAL0 WLD1.1D, WLD1.2D, and WLD2.1A+D, not a System change.",
+    "Egg ribbons, cohorts, seasonal aggregations, and family groups do not gain pooled System identity, levels, XP, Skills, classes, or rewards merely through proximity or coordination.",
+    "Predation and human harvest transfer no automatic XP, attributes, traits, Skills, Mana, levels, or power; any later material or magical effect requires its own mechanism and Author gate.",
+    "Seasonal arrival and recruitment remain finite and variable; there is no ambient spawning, encounter reset, harvest refill, guaranteed annual return, or automatic population recovery."
+  ],
+  "research_questions": [
+    "Which parts of WLD-GEOGRAPHY-002's mixed outlet sequence provide usable bed or margin contact or lower-velocity pauses under which seasonal water states, and how do continuity, hydraulics, salinity transition, organism capability, and environmental sensing affect WLD-ECOLOGY-010 passage attempts without guaranteeing success?",
+    "What exact timing lets mass-breeder egg and juvenile availability overlap with the family-care migrant's juvenile demand?",
+    "What fecundity, mortality, predation, harvest, disease, and density-dependent recruitment budget can sustain both populations?",
+    "Which resident aquatic organisms compete with or consume each migrant life stage, and which shore and bird-like hunters exploit the pulse?",
+    "How do the mass breeder's remaining anatomy, life history, Mana pathway, System-eligible functions, and evolutionary relatives elaborate WLD-ECOLOGY-007, and how can the family-care migrant's WLD-ECOLOGY-009 foundation and WLD-ECOLOGY-010 passage choreography support its migration and care cycle?",
+    "What retention mechanism, if any, keeps eggs on sturdy plants and mineral surfaces, and how does it vary among nursery habitat classes without assuming a reserve-web relationship?",
+    "What do local people know, observe, harvest, preserve, regulate, contest, or misunderstand about the two migrations?"
+  ],
+  "sources": [
+    "worldbuilding/settings/shared-universe-001/proposals/WLD-ECOLOGY-006.md",
+    "stories/series/project-hearthway-main/workbench/runs/2026-08-14-basin-lake-spring-breeding-pulse/proposal.md",
+    "canon://world/shared-universe-001/ecology/basin-coupled-pulse-mosaic-exchange",
+    "canon://world/shared-universe-001/geography/initial-region-physical-scaffold",
+    "Author selections across the guided lake productivity and migration design on 2026-08-14"
+  ],
+  "supersedes": [],
+  "superseded_by": null,
+  "author_approval": {
+    "decision_uri": "author-decision://world/WLD-ECOLOGY-006A",
+    "accepted_on": "2026-08-14",
+    "accepted_by": "Author",
+    "evidence": "Across guided ecology questions on 2026-08-14, the Author selected a broadly productive but spatially and seasonally varied lake; proposed overlapping mass-breeding and family-care migrants; approved their juvenile predator-prey relationship and competition with resident fauna plus exploitation by humans and fishing land and bird-like organisms; and replied 'yes' to the spring-freshet sequence, one-warm-season rearing cycle, and the presented recommendation for dense ribbons or clusters of eggs deposited onto sturdy plants and mineral surfaces across dispersed nursery belts."
+  }
+}

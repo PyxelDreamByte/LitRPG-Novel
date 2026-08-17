@@ -1,0 +1,39 @@
+{
+  "schema_version": "1.0.0",
+  "run_id": "run://fixture/accepted-outcome-current-digests",
+  "evidence_kind": "ACCEPTED_OUTCOME",
+  "workflow": "synthetic-accepted-outcome",
+  "completed_on": "2026-08-14",
+  "canonicality": "ACCEPTED",
+  "promotion": "ALLOWED_WITH_AUTHOR_GATE",
+  "source_manifest": [
+    {
+      "path": "litrpg-system/story-integration/fixtures/governance/valid/accepted-outcome-source.txt",
+      "revision": "source-revision-two",
+      "sha256": "sha256:665e1c29b03a1ebd61caab58db85afc0edba08a3bdfaf6e53245db3548bbe84f"
+    }
+  ],
+  "target_artifacts": [
+    {
+      "path": "litrpg-system/story-integration/fixtures/governance/valid/accepted-outcome-target.txt",
+      "revision": "target-revision-two",
+      "sha256": "sha256:977f3b4637cb255069104ad156f8e7039311420372972afa77fb55b94add3c10"
+    }
+  ],
+  "findings": [
+    "Capture-time verification must accept exact current source and target digests."
+  ],
+  "validations": [
+    "Synthetic current accepted-outcome evidence fixture."
+  ],
+  "retained_files": [
+    "litrpg-system/story-integration/fixtures/governance/valid/accepted-outcome-current-digests.workflow-evidence.json"
+  ],
+  "approval": {
+    "decision_uri": "author-decision://fixture/accepted-outcome-current-digests",
+    "decided_by": "Author",
+    "decision": "ACCEPT",
+    "decided_on": "2026-08-14",
+    "evidence": "Synthetic fixture approval for validator regression coverage."
+  }
+}

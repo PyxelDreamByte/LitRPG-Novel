@@ -1,0 +1,100 @@
+{
+  "$schema": "../../../../../governance/schemas/worldbuilding-record.schema.json",
+  "schema_version": "1.0.0",
+  "id": "WLD-LOCATION-003",
+  "record_uri": "canon://world/shared-universe-001/location/initial-ridge-spur-lake-road-shore-endpoint-arrangement",
+  "display_code": "WLD-LOCATION-003",
+  "setting_id": "setting://shared-universe-001",
+  "title": "Initial ridge-spur lake-road shore endpoint arrangement",
+  "workflow_status": "ACCEPTED",
+  "canon_status": "PROVISIONAL",
+  "scope": "Qualitative upper-shore staging and seasonal-spur arrangement for the established lake road; usable for location, logistics, ecology, culture, and story development without establishing exact mapping, engineering, transport, infrastructure, staffing, shore use, ecological overlap, safety, guaranteed access, or new journey bands.",
+  "claims": [
+    "The established lake road ends at one recurring upper-shore staging place.",
+    "The staging place is on relatively firm ground set back from the ordinarily shifting wet margin.",
+    "Several short seasonal spurs extend from the staging place toward nearby shore contacts.",
+    "Which shore contact is usable, and therefore which spur can serve as the final approach, can vary with seasonal and local conditions.",
+    "The staging place recurs while the final shore contact can change.",
+    "The staging place and any individual spur can flood, erode, ice over, attract wildlife, or become unusable; several spurs do not guarantee access at a particular time."
+  ],
+  "boundaries": [
+    "This record is a forward refinement of WLD-LOCATION-001's qualitative lake-road relationship and WLD-LOCATION-002's open shore-endpoint boundary; it does not alter the settlement, managed apron, main road, lake, regional drainage, climate, habitat mosaic, migration relationships, or accepted journey anchors.",
+    "Upper-shore, relatively firm, set back, ordinarily shifting, several, short, seasonal, nearby, usable, staging place, and shore contact are qualitative author-facing relations; short is relative to the main lake road.",
+    "Recurring establishes a persistent selected location, not an exact mapped position, platform, terrace, clearing, building, fortification, storage site, processing site, workplace, staffed post, or operational guarantee.",
+    "Relative firmness and setback establish no surveyed flood line, dry ground, pavement, engineering, load rating, permanent stability, drainage, safety, maintenance, view, defence, or usability.",
+    "Seasonal use establishes no calendar, fixed rotation, one-spur-per-season pattern, or proof that water level is the only selection cue.",
+    "Exact staging-place and spur map, spur count and layout, dimensions, elevations, gradients, viewshed, soils, substrate, vegetation, drainage, construction, surfaces, maintenance, condition, history, and route capacity remain undefined.",
+    "Exact lake level, shoreline, wet-margin extent, ground strength, flooding, erosion, sediment movement, wave climate, shore ice, freeze-thaw damage, moving ice, storm effects, seasonal availability, and causes of any usable or unusable state remain undefined.",
+    "The staging place and any individual spur can flood, erode, ice over, attract wildlife, or become unusable; no particular flood, erosion episode, ice state, wildlife presence, closure, obstruction, damage, repair, bypass, reopening, abandonment, warning, encounter, or failed journey is established.",
+    "Several spurs do not guarantee that any usable shore contact exists at a particular time.",
+    "No spur is established as a dock, slipway, quay, pier, jetty, harbour, boat landing, bridge, causeway, engineered ramp, defensive position, safe zone, sanctuary, checkpoint, or guaranteed retreat route.",
+    "No boat, raft, cart, sledge, porter system, pack animal, draft animal, vehicle, standard load, container, loading method, equipment, cargo, catch, food, water, fuel, weapon, or other transport or handling arrangement is established.",
+    "No building, shed, warehouse, smokehouse, processing table, drying rack, cache, pen, wall, gate, tower, beacon, shelter, stored resource, or shore infrastructure is established.",
+    "No worker, fisher, porter, driver, keeper, guard, patrol, road crew, official, owner, resident, labour obligation, access rule, schedule, maintenance authority, ownership, toll, preservation practice, trade, defence, or shore institution is established.",
+    "WLD-LOCATION-002 remains the sole authority for the broad 1–1½-hour downhill-unladen and 2–3-hour uphill-laden fair-weather whole-journey anchors; this record creates no staging-to-shore travel band and does not divide, extend, shorten, or recalculate either anchor, while exact time to the staging place, time along a spur, waiting, loading, and closure effects remain undefined.",
+    "WLD-ECOLOGY-004 continues to establish that secondary crown-herd paths overlap some roads and lake approaches; this record does not identify the staging place or any spur as one of those overlaps and guarantees no passage, closure, damage, warning, barrier, patrol, or response.",
+    "WLD-ECOLOGY-006 continues to establish broad lake productivity, seasonal migrants, shifting feeding grounds, predators, and human exploitation; this record places no spur through a nursery, migration route, fishing ground, predator concentration, harvest site, or other particular habitat, and establishes no organism, disturbance, population effect, or sustainable-use rule.",
+    "The arrangement is author-side spatial truth; a character knows a staging place, spur, current shore contact, or condition only through an available source, and familiarity does not reveal hidden ground, present water or ice, nearby wildlife, future usability, or a System value.",
+    "Ordinary finite land, matter, energy, labour, time, maintenance, mass, volume, balance, terrain, duration, fatigue, obstruction, and recovery remain causal where later records establish them.",
+    "No inventory rule, encumbrance formula, travel calculation, movement modifier, route readout, map revelation, pathfinding effect, fast travel, teleportation, automatic clearing, repair, drainage, storage, preservation, safe zone, defensive bonus, warning effect, spawn suppression, refill, reset, reward, free energy, free Mana, or guaranteed recovery is established.",
+    "This record establishes no relationship to WLD-GEOGRAPHY-002's outlet mixed-reach sequence and adopts no WLD-SOUL, WLD-PRENATAL, or other project default."
+  ],
+  "dependencies": [
+    "author-decision://world/WLD-SETTING-001A",
+    "author-decision://world/WLD-GEOGRAPHY-001A",
+    "canon://world/shared-universe-001/geography/initial-region-physical-scaffold",
+    "author-decision://world/WLD-LOCATION-001A",
+    "canon://world/shared-universe-001/location/initial-ridge-spur-settlement-working-landscape",
+    "author-decision://world/WLD-LOCATION-002A",
+    "canon://world/shared-universe-001/location/initial-ridge-spur-lake-road-practical-travel-scale",
+    "author-decision://world/WLD-ECOLOGY-004A",
+    "canon://world/shared-universe-001/ecology/lineage-ii-peripheral-migration-corridor",
+    "author-decision://world/WLD-ECOLOGY-006A",
+    "canon://world/shared-universe-001/ecology/basin-lake-spring-breeding-pulse",
+    "author-decision://world/WLD-LOCATION-003A",
+    "CAL0 WLD1.2D",
+    "CAL0 WLD2.1A+D",
+    "CAL0 ITM1.2D"
+  ],
+  "contradictions": [],
+  "story_implications": [
+    "Later scenes may use the recurring upper-shore staging place and changing final approaches while preserving every actual spur condition, journey, shore task, observation, delay, encounter, impairment, closure, repair, and outcome for its own evidence.",
+    "The stable landmark and variable final contact can expose a viewpoint character to changing alien shore-margin conditions without assigning any organism, habitat use, or human practice automatically.",
+    "Transfer, storage, maintenance, warning, route knowledge, or coordination pressures can motivate later choices, but no practice, tool, structure, role, infrastructure, or institution follows automatically.",
+    "The author-facing arrangement does not become automatic character knowledge; current access and conditions require an available source."
+  ],
+  "system_implications": [
+    "The selected arrangement is ordinary world-level location input under CAL0 WLD1.2D and WLD2.1A+D, not a System change.",
+    "Physical carriage and access remain conditioned by real mass, volume, balance, terrain, duration, fatigue, containers, and method under CAL0 ITM1.2D.",
+    "No inventory rule, encumbrance formula, travel calculation, movement modifier, route readout, map revelation, pathfinding effect, fast travel, teleportation, safe zone, automatic repair, spawn, reset, reward, free resource, or guaranteed recovery is established."
+  ],
+  "research_questions": [
+    "What exact upper-shore placement, spur count and layout, dimensions, elevations, gradients, soils, substrate, vegetation, drainage, construction, surface, maintenance, and condition can support the qualitative arrangement?",
+    "How do local water levels, wet-margin movement, flooding, erosion, sediment, ice, thaw, weather, and vegetation affect which spurs are usable without creating an all-season guarantee?",
+    "How, if at all, should exact segment times, waiting, loading, and closure effects relate to individual journeys while WLD-LOCATION-002 retains sole ownership of its broad whole-journey anchors?",
+    "What transport, load handling, maintenance, storage, processing, preservation, warning, access, ownership, labour, defence, or shore institutions are physically and socially supportable?",
+    "Which shore habitats, organisms, nursery areas, migration paths, predators, human uses, encounters, disturbances, closures, and recovery practices later evidence can assign to the staging place or individual spurs?",
+    "What can particular characters know about the arrangement and current conditions, through which sources, and with what uncertainty?"
+  ],
+  "sources": [
+    "worldbuilding/settings/shared-universe-001/proposals/WLD-LOCATION-003.md",
+    "stories/series/project-hearthway-main/workbench/runs/2026-08-15-initial-ridge-spur-lake-road-shore-endpoint-arrangement/proposal.md",
+    "canon://world/shared-universe-001/geography/initial-region-physical-scaffold",
+    "canon://world/shared-universe-001/location/initial-ridge-spur-settlement-working-landscape",
+    "canon://world/shared-universe-001/location/initial-ridge-spur-lake-road-practical-travel-scale",
+    "canon://world/shared-universe-001/ecology/lineage-ii-peripheral-migration-corridor",
+    "canon://world/shared-universe-001/ecology/basin-lake-spring-breeding-pulse",
+    "CAL0 WLD1.2D",
+    "CAL0 WLD2.1A+D",
+    "CAL0 ITM1.2D",
+    "Author selection on 2026-08-15"
+  ],
+  "supersedes": [],
+  "superseded_by": null,
+  "author_approval": {
+    "decision_uri": "author-decision://world/WLD-LOCATION-003A",
+    "accepted_on": "2026-08-15",
+    "accepted_by": "Author",
+    "evidence": "On 2026-08-15 the Author replied, 'I choose B — Upper-shore staging + seasonal spurs for the lake-road shore endpoint.'"
+  }
+}

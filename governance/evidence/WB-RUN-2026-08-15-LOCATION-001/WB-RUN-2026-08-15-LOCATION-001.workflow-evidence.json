@@ -1,0 +1,170 @@
+{
+  "$schema": "../../schemas/workflow-evidence-manifest.schema.json",
+  "schema_version": "1.0.0",
+  "run_id": "run://develop-worldbuilding/WB-RUN-2026-08-15-LOCATION-001",
+  "evidence_kind": "ACCEPTED_OUTCOME",
+  "workflow": "develop-worldbuilding+author-decision",
+  "completed_on": "2026-08-15",
+  "canonicality": "ACCEPTED",
+  "promotion": "ALLOWED_WITH_AUTHOR_GATE",
+  "source_manifest": [
+    {
+      "path": "worldbuilding/settings/shared-universe-001/proposals/WLD-LOCATION-001.md",
+      "revision": "WLD-LOCATION-001-proposal@2026-08-15",
+      "sha256": "sha256:7323ebc5b6c1299e34a31756d7c6f09c599af85b3087fbf41a371e0a10edf032"
+    },
+    {
+      "path": "stories/series/project-hearthway-main/workbench/runs/2026-08-15-initial-ridge-spur-settlement-working-landscape/proposal.md",
+      "revision": "WLD-LOCATION-001-option-capture@2026-08-15",
+      "sha256": "sha256:69cbebe0ad56e93b55573f07a094b863a9f7ea2e91d5efe64ec3b090e5936ca9"
+    }
+  ],
+  "target_artifacts": [
+    {
+      "path": "worldbuilding/settings/shared-universe-001/decisions/WLD-LOCATION-001A.decision.json",
+      "revision": "WLD-LOCATION-001A@2026-08-15",
+      "sha256": "sha256:7aa91e2049abe222270f6cde24f0c62ed267424b62b43d1f50eb317d021c9c08"
+    },
+    {
+      "path": "worldbuilding/settings/shared-universe-001/decisions/WLD-LOCATION-001A.md",
+      "revision": "WLD-LOCATION-001A@2026-08-15",
+      "sha256": "sha256:f9bc7a4106926673f75993582450497a8a7b2c152a6e1c43c8982a3806381699"
+    },
+    {
+      "path": "worldbuilding/settings/shared-universe-001/canon/location/WLD-LOCATION-001.worldbuilding.json",
+      "revision": "WLD-LOCATION-001@2026-08-15",
+      "sha256": "sha256:a740693e3752027afd774dc9233692308e845c93096d2063cfd0ea74fa148fc7"
+    },
+    {
+      "path": "worldbuilding/settings/shared-universe-001/canon/location/WLD-LOCATION-001.md",
+      "revision": "WLD-LOCATION-001@2026-08-15",
+      "sha256": "sha256:6e36761764e665dc3c35f6bb65d459e2a78a22e4173cfe299e9a47f77c791832"
+    },
+    {
+      "path": "worldbuilding/settings/shared-universe-001/canon/geography/WLD-GEOGRAPHY-001.worldbuilding.json",
+      "revision": "WLD-LOCATION-001-compatible@2026-08-15",
+      "sha256": "sha256:a76fa470fca51c8062556696baa841fcdb76dac7234389057963490d3cc44fc6"
+    },
+    {
+      "path": "worldbuilding/settings/shared-universe-001/canon/geography/WLD-GEOGRAPHY-001.md",
+      "revision": "WLD-LOCATION-001-compatible@2026-08-15",
+      "sha256": "sha256:9ae175ad042e9649639309166ede05878e4ae5bfc8aa4780471f1a7c239a8d64"
+    },
+    {
+      "path": "worldbuilding/settings/shared-universe-001/canon/ecology/WLD-ECOLOGY-004.worldbuilding.json",
+      "revision": "WLD-LOCATION-001-compatible@2026-08-15",
+      "sha256": "sha256:ce9f4441d4a59ddd643d4024f430153fcf077bafec81aea7bdb3139238d76bfe"
+    },
+    {
+      "path": "worldbuilding/settings/shared-universe-001/canon/ecology/WLD-ECOLOGY-004.md",
+      "revision": "WLD-LOCATION-001-compatible@2026-08-15",
+      "sha256": "sha256:616da835ce79d0116fa4579f8bfe81dc00bf2f33bce11b2bab1853ccdeae615a"
+    },
+    {
+      "path": "worldbuilding/settings/shared-universe-001/setting-constitution.md",
+      "revision": "WLD-LOCATION-001-reconciled@2026-08-15",
+      "sha256": "sha256:80d8bd61703a1721761d26eeed75fe022f520dc3a641a73a4749105b063e775a"
+    },
+    {
+      "path": "worldbuilding/settings/shared-universe-001/indexes/INDEX.md",
+      "revision": "WLD-LOCATION-001-indexed@2026-08-15",
+      "sha256": "sha256:0ae5069854d05bdb3e38396c7254d24213d389968bdd3dd583452e718c6d7bda"
+    },
+    {
+      "path": "worldbuilding/settings/shared-universe-001/canon/README.md",
+      "revision": "WLD-LOCATION-001-registered@2026-08-15",
+      "sha256": "sha256:aa9fc264375ad531b73cd4d7a7113394e27c5f934c5b33e670076df7a9658bc5"
+    },
+    {
+      "path": "worldbuilding/settings/shared-universe-001/proposals/README.md",
+      "revision": "WLD-LOCATION-001-registered@2026-08-15",
+      "sha256": "sha256:a92942e604ce1f6568dcf19a8679d91e9d1aa528ac53e1c80b5830798702a3bb"
+    },
+    {
+      "path": "worldbuilding/settings/shared-universe-001/decisions/README.md",
+      "revision": "WLD-LOCATION-001-registered@2026-08-15",
+      "sha256": "sha256:90c215a5ca5f7b2b647fc71cd45508411e9c5d7cfce75f704b729464d87450ca"
+    },
+    {
+      "path": "worldbuilding/INDEX.md",
+      "revision": "WLD-LOCATION-001-indexed@2026-08-15",
+      "sha256": "sha256:ec0f632bdcd0b5db63040fb439c030cbeeba24d59a6579fa748259a5857b9d34"
+    },
+    {
+      "path": "worldbuilding/README.md",
+      "revision": "WLD-LOCATION-001-summarized@2026-08-15",
+      "sha256": "sha256:46ee9e7569d7d02cac1a6104af72ec0795dff0a5d21d71b82505073568858f0e"
+    },
+    {
+      "path": "worldbuilding/settings/README.md",
+      "revision": "WLD-LOCATION-001-summarized@2026-08-15",
+      "sha256": "sha256:c309a5014c7fb5768d55465cc9c5d779a525042ac439c78a473ac2d6e6d0b08c"
+    },
+    {
+      "path": "worldbuilding/canon/README.md",
+      "revision": "WLD-LOCATION-001-summarized@2026-08-15",
+      "sha256": "sha256:d59588476fc418f78cbd016cc1b44bfe438c7f535fd930b01627622291f56fc1"
+    },
+    {
+      "path": "stories/series/project-hearthway-main/project-hearthway-main.work-manifest.json",
+      "revision": "WLD-LOCATION-001-adopted@2026-08-15",
+      "sha256": "sha256:70631debf1b07379b22b48845cc4655429e0cecc78fbbd3630a5c09690fbfa5d"
+    },
+    {
+      "path": "stories/series/project-hearthway-main/work-manifest.md",
+      "revision": "WLD-LOCATION-001-adopted@2026-08-15",
+      "sha256": "sha256:baf209cae04f3ee24f9e9316ba6c20ecd8ed80c910f2cfdae04a48ccea6a1644"
+    },
+    {
+      "path": "stories/series/project-hearthway-main/work-contract.md",
+      "revision": "WLD-LOCATION-001-adopted@2026-08-15",
+      "sha256": "sha256:200421f31f12e96e6c58c8e335c3c807d8611d486f2ae1df800038355bdb1ac5"
+    },
+    {
+      "path": "README.md",
+      "revision": "WLD-LOCATION-001-summarized@2026-08-15",
+      "sha256": "sha256:42333daf02ebf5b27c3c88feff04dc3ce9378ed50076d7c713e79dd2269a5424"
+    },
+    {
+      "path": "STATUS.md",
+      "revision": "WLD-LOCATION-001-summarized@2026-08-15",
+      "sha256": "sha256:e36e3a2ad858d304cf45426444e0eb53909ae9984af9da9b940eb1bf5538ea78"
+    }
+  ],
+  "findings": [
+    "PASS: the promoted record matches the Author-selected A — Unequal-shoulder apron and direct spring, wells, and cistern storage addition.",
+    "PASS: local crown, warning belt, partial terraces, broader lower working land, returning woodland, and lakeward road remain qualitative and do not fix a survey map or society.",
+    "PASS: the spring, wells, and cisterns are layered access and storage rather than guaranteed independent, secure, potable, inexhaustible, or sufficient supplies.",
+    "PASS: exact hydrogeology, yield, quality, capacity, treatment, sanitation, maintenance, ownership, security, and failure remain open.",
+    "PASS: WLD-GEOGRAPHY-001 and WLD-ECOLOGY-004 receive textual forward reconciliation only; no dependency cycle or outlet mixed-reach relationship is created.",
+    "PASS: no particular species, reserve-web presence, crop, domesticate, government, institution, current event, or plot is silently imported.",
+    "PASS: no System settlement type, safe zone, modifier, water source, refill, spawn, reset, automatic repair, free resource, free Mana, or guaranteed recovery is created.",
+    "BOUNDARY PRESERVED: exact mapping, population, structures, road scale, land and water budgets, institutions, daily practices, local ecology, hazards, and character knowledge remain unselected."
+  ],
+  "validations": [
+    "python -m unittest tools.tests.test_validate_governance -v — passed: 3 tests before evidence registration.",
+    "python tools/validate_governance.py — passed before evidence registration: 51 repository records, 5 valid fixtures, 5 rejected fixtures.",
+    "python tools/validate_workspaces.py — passed before evidence registration: 4 work manifests, 2 setting manifests, 2 workflow evaluations, 3 rejected fixtures.",
+    "python tools/validate_story_integration.py stories/series/project-hearthway-main/project-hearthway-main.work-manifest.json — passed before evidence registration: 9 schemas, 1 valid fixture, 0 rejected fixtures.",
+    "python tools/validate_repository.py — passed before evidence registration with 111 non-CAL0 JSON files and all 121 CAL0 regression tests.",
+    "Independent location/canon, water-physicality, CAL0, and governance-surface audits — clean after exact-scope, decision-parity, and work-contract precision corrections.",
+    "Explicit 24-file source/target hard-wrap and unintended-trailing-whitespace scan — passed before digest capture; intentional two-space Markdown hard breaks were permitted.",
+    "python tools/validate_governance.py — passed after evidence registration: 52 repository records, 5 valid fixtures, 5 rejected fixtures.",
+    "python tools/validate_governance.py --verify-current-accepted governance/evidence/WB-RUN-2026-08-15-LOCATION-001/WB-RUN-2026-08-15-LOCATION-001.workflow-evidence.json — passed for both source manifests and all 22 target artifacts.",
+    "python tools/validate_workspaces.py plus focused story-integration validation — passed after evidence registration with unchanged counts.",
+    "python tools/validate_repository.py — passed after evidence registration with 112 non-CAL0 JSON files and all 121 CAL0 regression tests."
+  ],
+  "retained_files": [
+    "governance/evidence/WB-RUN-2026-08-15-LOCATION-001/approved-change-set.md",
+    "governance/evidence/WB-RUN-2026-08-15-LOCATION-001/final-findings.md",
+    "governance/evidence/WB-RUN-2026-08-15-LOCATION-001/validation-summary.md",
+    "governance/evidence/WB-RUN-2026-08-15-LOCATION-001/WB-RUN-2026-08-15-LOCATION-001.workflow-evidence.json"
+  ],
+  "approval": {
+    "decision_uri": "author-decision://world/WLD-LOCATION-001A",
+    "decided_by": "Author",
+    "decision": "ACCEPT",
+    "decided_on": "2026-08-15",
+    "evidence": "On 2026-08-15 the Author replied, 'sounds good, i think we go with option A - unequal shoulder apron. As for water supply i think we do a combination of a spring inside the hill-fort/hill-settlement with wells in addition and cisterns for water storage'."
+  }
+}

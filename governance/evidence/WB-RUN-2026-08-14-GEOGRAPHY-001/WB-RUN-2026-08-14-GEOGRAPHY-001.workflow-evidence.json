@@ -1,0 +1,152 @@
+{
+  "$schema": "../../schemas/workflow-evidence-manifest.schema.json",
+  "schema_version": "1.0.0",
+  "run_id": "run://develop-worldbuilding/WB-RUN-2026-08-14-GEOGRAPHY-001",
+  "evidence_kind": "ACCEPTED_OUTCOME",
+  "workflow": "develop-worldbuilding+author-decision",
+  "completed_on": "2026-08-14",
+  "canonicality": "ACCEPTED",
+  "promotion": "ALLOWED_WITH_AUTHOR_GATE",
+  "source_manifest": [
+    {
+      "path": "worldbuilding/settings/shared-universe-001/proposals/WLD-GEOGRAPHY-001.md",
+      "revision": "WLD-GEOGRAPHY-001-proposal@2026-08-14",
+      "sha256": "sha256:b4a1b76781f33edeef5cf0f0c48d9e72f503fd9193dd36bb33101f920806523e"
+    }
+  ],
+  "target_artifacts": [
+    {
+      "path": "worldbuilding/settings/shared-universe-001/decisions/WLD-GEOGRAPHY-001A.decision.json",
+      "revision": "WLD-GEOGRAPHY-001A@2026-08-14",
+      "sha256": "sha256:bca60fdf4266e6c93cf181540f8840c116d3a2a279b54bfe0befe0a81d6985ec"
+    },
+    {
+      "path": "worldbuilding/settings/shared-universe-001/decisions/WLD-GEOGRAPHY-001A.md",
+      "revision": "WLD-GEOGRAPHY-001A@2026-08-14",
+      "sha256": "sha256:e3d4809e458f37f6c5a70cb310b2388901fb81e592f3dd6e2e158b2ba14408de"
+    },
+    {
+      "path": "worldbuilding/settings/shared-universe-001/canon/geography/WLD-GEOGRAPHY-001.worldbuilding.json",
+      "revision": "WLD-GEOGRAPHY-001@2026-08-14",
+      "sha256": "sha256:19860fd4ad1727629b6caeec0b9ca371b0ed2d13651d56d486581047b71acab2"
+    },
+    {
+      "path": "worldbuilding/settings/shared-universe-001/canon/geography/WLD-GEOGRAPHY-001.md",
+      "revision": "WLD-GEOGRAPHY-001@2026-08-14",
+      "sha256": "sha256:d0fc33fc10c03d4a749e4570baefa885b827fc9c3cc76f3be15717ba02a0f486"
+    },
+    {
+      "path": "worldbuilding/settings/shared-universe-001/canon/ecology/WLD-ECOLOGY-005.worldbuilding.json",
+      "revision": "WLD-GEOGRAPHY-001-compatible@2026-08-14",
+      "sha256": "sha256:6eb51476b9bffa94da163a344acd7a56e8b117dbb24ffeb365e11417ceab23d6"
+    },
+    {
+      "path": "worldbuilding/settings/shared-universe-001/canon/ecology/WLD-ECOLOGY-005.md",
+      "revision": "WLD-GEOGRAPHY-001-compatible@2026-08-14",
+      "sha256": "sha256:f4890f770ddd5928fee69ad07c16f3d2e5358e7b8e7668f855330b124370cf15"
+    },
+    {
+      "path": "worldbuilding/settings/shared-universe-001/setting-constitution.md",
+      "revision": "WLD-GEOGRAPHY-001-reconciled@2026-08-14",
+      "sha256": "sha256:3ed92b634f090af98b3cc2535137bacd978ed567f63ea3c635de136da11e7c4f"
+    },
+    {
+      "path": "worldbuilding/settings/shared-universe-001/indexes/INDEX.md",
+      "revision": "WLD-GEOGRAPHY-001-indexed@2026-08-14",
+      "sha256": "sha256:26f8acfdbf9a7fbf86fd055c8bba1719778438675c1422eb89a1496fc40444df"
+    },
+    {
+      "path": "worldbuilding/settings/shared-universe-001/canon/README.md",
+      "revision": "WLD-GEOGRAPHY-001-registered@2026-08-14",
+      "sha256": "sha256:b572a55a6f3330f21dae525c3da2c3e8def3cd8bb83287910bd5ffcfbbd6de45"
+    },
+    {
+      "path": "worldbuilding/settings/shared-universe-001/proposals/README.md",
+      "revision": "WLD-GEOGRAPHY-001-registered@2026-08-14",
+      "sha256": "sha256:29d317981880ede485eb24602f56951c6ec65484fe1d89aea42b9d110da274ff"
+    },
+    {
+      "path": "worldbuilding/settings/shared-universe-001/decisions/README.md",
+      "revision": "WLD-GEOGRAPHY-001-registered@2026-08-14",
+      "sha256": "sha256:bb7333d6a73487bdc635fe95880ed1d24bf3f4c79b63d976f76e85b15ca1f323"
+    },
+    {
+      "path": "worldbuilding/INDEX.md",
+      "revision": "WLD-GEOGRAPHY-001-indexed@2026-08-14",
+      "sha256": "sha256:d732d52ed045cfd37e48dac7b8f46d2e0f6f2a12c3b6d9f62977521611faab87"
+    },
+    {
+      "path": "worldbuilding/README.md",
+      "revision": "WLD-GEOGRAPHY-001-summarized@2026-08-14",
+      "sha256": "sha256:45484e5aca7f9e118cd0e95c9273726b74177dc132efe308d2498fab8e33e039"
+    },
+    {
+      "path": "worldbuilding/settings/README.md",
+      "revision": "WLD-GEOGRAPHY-001-summarized@2026-08-14",
+      "sha256": "sha256:be400e1700458a89ad8f9a8d0f9debf8f333246809a770d0f57cea709d065bb4"
+    },
+    {
+      "path": "worldbuilding/canon/README.md",
+      "revision": "WLD-GEOGRAPHY-001-summarized@2026-08-14",
+      "sha256": "sha256:4c6402212da2c88ffc2476bc258ce7143133132a91adf87a60f1a53b843031ef"
+    },
+    {
+      "path": "stories/series/project-hearthway-main/project-hearthway-main.work-manifest.json",
+      "revision": "WLD-GEOGRAPHY-001-adopted@2026-08-14",
+      "sha256": "sha256:6f3dc2802098328b3bff8fc43437358c9afde9ced0f49c3435ea29e01c612181"
+    },
+    {
+      "path": "stories/series/project-hearthway-main/work-manifest.md",
+      "revision": "WLD-GEOGRAPHY-001-adopted@2026-08-14",
+      "sha256": "sha256:92604ce32312d4e802121a3de7888225282b1b11bcb71dcbc513cc57b2ddb942"
+    },
+    {
+      "path": "stories/series/project-hearthway-main/work-contract.md",
+      "revision": "WLD-GEOGRAPHY-001-adopted@2026-08-14",
+      "sha256": "sha256:0d3aba44cdb0a9f22a448a73685e8602fb828358da1578f414acd91406c00f85"
+    },
+    {
+      "path": "README.md",
+      "revision": "WLD-GEOGRAPHY-001-summarized@2026-08-14",
+      "sha256": "sha256:37bd1aea54634b0a2844127cacd6fb41274b326608b0808b81fd91504fe51a61"
+    },
+    {
+      "path": "STATUS.md",
+      "revision": "WLD-GEOGRAPHY-001-summarized@2026-08-14",
+      "sha256": "sha256:efb9c483cbc1f8113771f16d568056a5ffab0025244f4dd7302cd170dc82922c"
+    }
+  ],
+  "findings": [
+    "PASS: the promoted physical scaffold matches the Author-selected qualitative geography, hydrology, coast, climate, and seasonal pattern.",
+    "PASS: the lake remains freshwater while tidal influence, salt-front position, storm-surge reach, and exact downstream transition remain open.",
+    "PASS: continuous central-lake freezing is explicitly surface ice rather than a frozen water column.",
+    "PASS: the lower basin floor and crown corridor remain distinct from downstream marsh and coastal country.",
+    "PASS: WLD-ECOLOGY-005 carries a downstream compatibility backlink without a reciprocal structured dependency.",
+    "PASS: soil and fertility, exact glacial mechanisms, quantitative hydrology and climate, and human geography remain open.",
+    "PASS: the Britain-Doggerland-Scandinavia comparison remains author-facing inspiration and imports no Earth fact.",
+    "PASS: CAL0 is applied as ordinary finite geography and ecology without a System change.",
+    "BOUNDARY PRESERVED: names, measurements, species, routes, settlements, cultures, trade, history, doorways, and offworld connections remain unselected."
+  ],
+  "validations": [
+    "python -m unittest tools.tests.test_validate_governance -v — passed: 3 tests.",
+    "python tools/validate_governance.py — passed: 31 repository records, 5 valid fixtures, 5 rejected fixtures.",
+    "python tools/validate_workspaces.py — passed: 4 work manifests, 2 setting manifests, 2 workflow evaluations, 3 rejected fixtures.",
+    "python tools/validate_story_integration.py stories/series/project-hearthway-main/project-hearthway-main.work-manifest.json — passed: 9 schemas, 1 valid fixture, 0 rejected fixtures.",
+    "python tools/validate_governance.py --verify-current-accepted governance/evidence/WB-RUN-2026-08-14-GEOGRAPHY-001/WB-RUN-2026-08-14-GEOGRAPHY-001.workflow-evidence.json — passed: accepted-outcome current-byte verification.",
+    "python tools/validate_repository.py — passed: complete repository validation including 121 CAL0 regression tests.",
+    "git diff --check plus explicit edited-file trailing-whitespace scan — passed."
+  ],
+  "retained_files": [
+    "governance/evidence/WB-RUN-2026-08-14-GEOGRAPHY-001/approved-change-set.md",
+    "governance/evidence/WB-RUN-2026-08-14-GEOGRAPHY-001/final-findings.md",
+    "governance/evidence/WB-RUN-2026-08-14-GEOGRAPHY-001/validation-summary.md",
+    "governance/evidence/WB-RUN-2026-08-14-GEOGRAPHY-001/WB-RUN-2026-08-14-GEOGRAPHY-001.workflow-evidence.json"
+  ],
+  "approval": {
+    "decision_uri": "author-decision://world/WLD-GEOGRAPHY-001A",
+    "decided_by": "Author",
+    "decision": "ACCEPT",
+    "decided_on": "2026-08-14",
+    "evidence": "Across guided design questions on 2026-08-14, the Author selected the freshwater through-flow lake and seaward outlet, replied 'defensible gap', and replied 'yes' to the transitional climate, western rainforest distribution, layered river-glacial origin, broadly stable drowned coast, winter pattern, summer pattern, and west-to-east regional arrangement."
+  }
+}

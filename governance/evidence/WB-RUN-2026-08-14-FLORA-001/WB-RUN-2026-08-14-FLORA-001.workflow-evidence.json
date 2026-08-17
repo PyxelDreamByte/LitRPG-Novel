@@ -1,0 +1,113 @@
+{
+  "$schema": "../../schemas/workflow-evidence-manifest.schema.json",
+  "schema_version": "1.0.0",
+  "run_id": "run://develop-worldbuilding/WB-RUN-2026-08-14-FLORA-001",
+  "evidence_kind": "ACCEPTED_OUTCOME",
+  "workflow": "develop-worldbuilding+author-decision",
+  "completed_on": "2026-08-14",
+  "canonicality": "ACCEPTED",
+  "promotion": "ALLOWED_WITH_AUTHOR_GATE",
+  "source_manifest": [
+    {
+      "path": "worldbuilding/settings/shared-universe-001/proposals/WLD-FLORA-001.md",
+      "revision": "WLD-FLORA-001-proposal@2026-08-14",
+      "sha256": "sha256:712e7bbd162a9bcb98e0f940b4f74adb617ccf00f90be75c6ecea95644337f02"
+    }
+  ],
+  "target_artifacts": [
+    {
+      "path": "worldbuilding/settings/shared-universe-001/decisions/WLD-FLORA-001A.decision.json",
+      "revision": "WLD-FLORA-001A@2026-08-14",
+      "sha256": "sha256:16f33c4561a55753c7d488a1183f98e3b376cc541cb3867ba555701224864f97"
+    },
+    {
+      "path": "worldbuilding/settings/shared-universe-001/decisions/WLD-FLORA-001A.md",
+      "revision": "WLD-FLORA-001A@2026-08-14",
+      "sha256": "sha256:fce4943fb06ba893567aea15324beb09ebd308c970e3512dc061dd4868db99a8"
+    },
+    {
+      "path": "worldbuilding/settings/shared-universe-001/canon/ecology/WLD-FLORA-001.worldbuilding.json",
+      "revision": "WLD-FLORA-001@2026-08-14",
+      "sha256": "sha256:62309c5e31f1eb9aad29b658860674c3a11bc461b0da1571105a82ce2f56fc4b"
+    },
+    {
+      "path": "worldbuilding/settings/shared-universe-001/canon/ecology/WLD-FLORA-001.md",
+      "revision": "WLD-FLORA-001@2026-08-14",
+      "sha256": "sha256:ecbb9d7408d6d46aea6a4ec5f4a4dbcf0a112e2660f6d30f6c2c75cb814259d5"
+    },
+    {
+      "path": "worldbuilding/settings/shared-universe-001/canon/ecology/WLD-ECOLOGY-001.worldbuilding.json",
+      "revision": "reconciled-for-WLD-FLORA-001@2026-08-14",
+      "sha256": "sha256:4999afbfc9ac24bcab4f27c1479dc89447f5911736bf33394fbfc6c4bcce65f0"
+    },
+    {
+      "path": "worldbuilding/settings/shared-universe-001/canon/ecology/WLD-ECOLOGY-001.md",
+      "revision": "reconciled-for-WLD-FLORA-001@2026-08-14",
+      "sha256": "sha256:707560cde84b9a1794346edeb9a3b8d779857cdfea4aede3a046f0e8421e07ba"
+    },
+    {
+      "path": "worldbuilding/settings/shared-universe-001/canon/ecology/WLD-ECOLOGY-004.worldbuilding.json",
+      "revision": "reconciled-for-WLD-FLORA-001@2026-08-14",
+      "sha256": "sha256:77360facc07f21801e361ee9c2bad47fecd52d7b823cf51a12903eaf139ad454"
+    },
+    {
+      "path": "worldbuilding/settings/shared-universe-001/indexes/INDEX.md",
+      "revision": "WLD-FLORA-001-indexed@2026-08-14",
+      "sha256": "sha256:718e038a79244a3ddc165c771660dc0504c6cff9dcec0bc404788c53732f8f2b"
+    },
+    {
+      "path": "worldbuilding/settings/shared-universe-001/setting-constitution.md",
+      "revision": "WLD-FLORA-001-reconciled@2026-08-14",
+      "sha256": "sha256:b53449d1037e7616b28c7d7a363b5dc7194c745bf8665cb757ac5ac5f0b81abe"
+    },
+    {
+      "path": "worldbuilding/INDEX.md",
+      "revision": "WLD-FLORA-001-indexed@2026-08-14",
+      "sha256": "sha256:f97872a16843421eb633ccbab131b6fb881bbccf1ac9999ba7a37e270fc2fd02"
+    },
+    {
+      "path": "stories/series/project-hearthway-main/project-hearthway-main.work-manifest.json",
+      "revision": "WLD-FLORA-001-adopted@2026-08-14",
+      "sha256": "sha256:34e611c7bb47936bfa3ea30470bc3720c4e5ddb14d34ec63f1c8d59691e62ad8"
+    },
+    {
+      "path": "stories/series/project-hearthway-main/work-manifest.md",
+      "revision": "WLD-FLORA-001-adopted@2026-08-14",
+      "sha256": "sha256:a1ebbb5213d9319c3850eea9d84cec1c942ec7db23a53d67e0e46cc728dc3e89"
+    },
+    {
+      "path": "stories/series/project-hearthway-main/work-contract.md",
+      "revision": "WLD-FLORA-001-adopted@2026-08-14",
+      "sha256": "sha256:521e7360d084d602ccb32033b52d7c97c08a75562eee8bd2b042ca74ebb66365"
+    }
+  ],
+  "findings": [
+    "PASS: the promoted reserve-web claims match the Author-approved model.",
+    "PASS: the guild remains major but non-exclusive and contains multiple forms rather than one species or basin-wide organism.",
+    "PASS: WLD-ECOLOGY-001 and WLD-ECOLOGY-004 are reconciled without reciprocal structured dependencies.",
+    "RESOLVED MINOR: the human record preserves episodic flooding and the structured record preserves member-population semantics.",
+    "PASS: finite stored resources and rate-limited recovery comply with CAL0 WLD1.2D and WLD2.1A+D.",
+    "BOUNDARY PRESERVED: exact taxonomy, anatomy, reproduction, energy, chemistry, productivity, distribution, complementary flora, Mana use, and human exploitation remain open."
+  ],
+  "validations": [
+    "git diff --check: PASS with no whitespace errors.",
+    "python -m unittest tools.tests.test_validate_governance -v: PASS with 3 evidence-mode regression tests.",
+    "python tools/validate_governance.py --verify-current-accepted governance/evidence/WB-RUN-2026-08-14-FLORA-001/WB-RUN-2026-08-14-FLORA-001.workflow-evidence.json: PASS with 19 repository records, 5 valid fixtures, 5 rejected fixtures, and current accepted evidence verified.",
+    "python tools/validate_workspaces.py: PASS with 4 work manifests, 2 setting manifests, 2 workflow evaluations, and 3 rejected fixtures.",
+    "python tools/validate_story_integration.py stories/series/project-hearthway-main/project-hearthway-main.work-manifest.json: PASS.",
+    "python tools/validate_repository.py: PASS including all 121 CAL0 regression tests."
+  ],
+  "retained_files": [
+    "governance/evidence/WB-RUN-2026-08-14-FLORA-001/WB-RUN-2026-08-14-FLORA-001.workflow-evidence.json",
+    "governance/evidence/WB-RUN-2026-08-14-FLORA-001/final-findings.md",
+    "governance/evidence/WB-RUN-2026-08-14-FLORA-001/approved-change-set.md",
+    "governance/evidence/WB-RUN-2026-08-14-FLORA-001/validation-summary.md"
+  ],
+  "approval": {
+    "decision_uri": "author-decision://world/WLD-FLORA-001A",
+    "decided_by": "Author",
+    "decision": "ACCEPT",
+    "decided_on": "2026-08-14",
+    "evidence": "After the bounded reserve-web guild recommendation and alternatives were presented, the Author replied 'yes' on 2026-08-14."
+  }
+}

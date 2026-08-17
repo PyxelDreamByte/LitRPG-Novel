@@ -1,0 +1,93 @@
+{
+  "$schema": "../../../../../governance/schemas/worldbuilding-record.schema.json",
+  "schema_version": "1.0.0",
+  "id": "WLD-ECOLOGY-008",
+  "record_uri": "canon://world/shared-universe-001/ecology/basin-lake-mass-breeder-osmoregulation-buoyancy-balance",
+  "display_code": "WLD-ECOLOGY-008",
+  "setting_id": "setting://shared-universe-001",
+  "title": "Basin-lake mass-breeder osmoregulation and buoyancy balance",
+  "workflow_status": "ACCEPTED",
+  "canon_status": "PROVISIONAL",
+  "scope": "Foundational freshwater–marine acclimation, passive buoyancy, and longitudinal-balance strategy for the established migratory form governed by WLD-ECOLOGY-006 and WLD-ECOLOGY-007; usable within shared-setting ecology, organism design, migration planning, and story development.",
+  "claims": [
+    "Dedicated ion-exchange organs regulate the established migratory form's body water and dissolved ions during freshwater–marine acclimation through finite carrier-mediated transport.",
+    "Acclimation is gradual and active: it consumes time, metabolic energy, and material resources and can lag, saturate, or fail.",
+    "The ion-exchange organs are physiologically distinct from the passive-buoyancy chambers and are not assigned to the respiratory folds.",
+    "Multiple small compliant chambers distributed along the body contain a metabolically produced low-density wax-like gel.",
+    "Greater passive buoyant support lies behind the anterior mineralised head shield and contributes to longitudinal balance around its mass.",
+    "The gel contributes passive buoyancy and fore–aft trim in fresh and marine water but does not create perfect neutral buoyancy, instant adjustment, or immunity to depth and pressure.",
+    "Environmental-water density and internal water-and-ion changes can affect body density and trim, so the two systems must function compatibly.",
+    "Both systems require diet-derived material, oxygen, energy, internal transport, time, maintenance, waste handling, recovery, and repair. Exchange capacity can lag or saturate; chambers can leak, rupture, become infected, or lose effectiveness as condition and reserves decline.",
+    "Existing ordinary Mana support may reinforce their living tissues, but it does not create gel mass, move ions without carriers and energy, provide instant acclimation, or act as an activated buoyancy ability."
+  ],
+  "boundaries": [
+    "This record governs the established migratory form only. Egg, juvenile, and other life-stage osmoregulation, buoyancy, development, and salinity tolerance remain undefined.",
+    "Salt organ, wax-like gel, and balance comb are author-facing functional descriptions, not established in-world names or formal taxonomic terms; balance comb does not establish a comb-shaped organ.",
+    "Ion-exchange organ establishes a finite transport function rather than gill, kidney, respiratory-fold, or other Earth-organ homology; exact location and exchange surfaces remain undefined.",
+    "Exact organ number, placement, openings, microanatomy, ion species, carriers, pumps, sensors, control loops, internal transport, waste and excretion routes, thresholds, rates, acclimation duration, and failure limits remain undefined.",
+    "Wax-like gel establishes a low-density biological material class, not Earth wax, wax ester, oil, fat, gas, swim-bladder contents, or exact chemistry.",
+    "Exact gel chemistry, density, compressibility, phase behaviour, synthesis, transport, replenishment, temperature response, pressure response, and whether it can be metabolised as emergency fuel remain undefined.",
+    "Multiple small chambers and greater support behind the shield are qualitative. Exact count, position, geometry, connectivity, volume, attachment, growth, maintenance, repair, leakage, rupture, disease, and failure thresholds remain undefined.",
+    "Passive support establishes no perfect neutral buoyancy, effortless hovering, conscious or instant control, invariant trim, depth immunity, pressure immunity, salinity immunity, or equal performance in all water conditions.",
+    "Body size, shield mass, reproductive load, stomach contents, condition, gel amount, depth, pressure, temperature, and water density can still affect buoyancy and trim. Exact hydrodynamic correction and fin-fan roles remain undefined.",
+    "The selected systems do not prove outlet passability, salinity profile, tidal reach, holding sites, route depth, speed, endurance, homing, acclimation success, survival, or guaranteed return.",
+    "Mana-supported tissue reinforcement remains governed by WLD-ECOLOGY-007. Exact Mana source, carrier, circulation, tissue targets, capacity, cost, recovery, and failure remain undefined, and no new Mana organ or specialised ability is established.",
+    "The record establishes no fish, shark, vertebrate, gill, kidney, swim-bladder, wax-ester, or other direct Earth-animal homology or transplant.",
+    "Cognition, sapience, formal Skills, classes, levels, appraisal, and human or character knowledge remain undefined.",
+    "No activated ability, spell, buff, free energy, instant healing, System reinforcement, universal creature level, pooled identity, retrospective XP, reward, spawn, refill, loot rule, or automatic power transfer is established.",
+    "WLD-ECOLOGY-006 continues to govern migration, egg deposition, adult return and mortality, predation, recruitment, and population variability. WLD-ECOLOGY-007 continues to govern the foundational body plan.",
+    "Food, water, ions, oxygen, material synthesis, energy, circulation, heat and waste handling, disease, infection, injury, repair time, reproduction, route capacity, mortality, and carrying capacity remain binding ecological constraints."
+  ],
+  "dependencies": [
+    "author-decision://world/WLD-SETTING-001A",
+    "author-decision://world/WLD-ECOLOGY-006A",
+    "canon://world/shared-universe-001/ecology/basin-lake-spring-breeding-pulse",
+    "author-decision://world/WLD-ECOLOGY-007A",
+    "canon://world/shared-universe-001/ecology/basin-lake-mass-breeder-foundational-body-plan",
+    "author-decision://world/WLD-GEOGRAPHY-001A",
+    "canon://world/shared-universe-001/geography/initial-region-physical-scaffold",
+    "author-decision://world/WLD-ECOLOGY-008A",
+    "CAL0 WLD1.1D",
+    "CAL0 WLD1.2D",
+    "CAL0 WLD2.1A+D"
+  ],
+  "contradictions": [],
+  "story_implications": [
+    "Abrupt salinity change, poor condition, disease, organ overload, or chamber damage can plausibly alter posture, swimming effort, transition success, or survival without prescribing one visible symptom.",
+    "An observer may notice body angle, effort, abnormal movement, injury, leakage, or transition behaviour when conditions permit, but internal organs, gel chemistry, ion state, and cause remain hidden without evidence.",
+    "Author-side knowledge of the complete mechanism does not become automatic protagonist knowledge; each inference requires a source and bounded confidence."
+  ],
+  "system_implications": [
+    "The selected physiology is an ordinary world input under CAL0 WLD1.1D, WLD1.2D, and WLD2.1A+D, not a System change.",
+    "Ion and water transport and gel production require real carriers, matter, energy, oxygen, time, internal transport, waste handling, maintenance, recovery, and repair.",
+    "Ordinary Mana-supported living tissue remains distinct from earned CAL0 reinforcement and creates no activated ability, universal creature level, pooled identity, retrospective XP, reward, spawn, refill, or power transfer."
+  ],
+  "research_questions": [
+    "Where are the salt organs located, which surfaces exchange water and ions, and what ions, carriers, control loops, waste routes, capacities, and acclimation times make them viable?",
+    "What chemistry, density, synthesis pathway, transport, temperature response, pressure response, maintenance, and repair govern the wax-like gel?",
+    "How many chambers exist, where are they distributed, how much greater is support behind the shield, and how do body size, shield mass, condition, depth, salinity, and body load change trim?",
+    "How do active swimming and the three paired fin-fans interact with passive support without silently assigning them a selected trim function?",
+    "What osmoregulatory and buoyancy strategies govern eggs and juveniles, and when do the selected adult structures develop?",
+    "What exact Mana source, carrier, tissue distribution, cost, capacity, recovery, and failure pathway supports the living tissues without creating gel matter or ion transport for free?",
+    "What external signs can humans or characters actually observe, what do they infer or misunderstand, and what harvesting or material uses, if any, later develop?"
+  ],
+  "sources": [
+    "worldbuilding/settings/shared-universe-001/proposals/WLD-ECOLOGY-008.md",
+    "stories/series/project-hearthway-main/workbench/runs/2026-08-14-basin-lake-mass-breeder-osmoregulation-buoyancy/proposal.md",
+    "canon://world/shared-universe-001/ecology/basin-lake-spring-breeding-pulse",
+    "canon://world/shared-universe-001/ecology/basin-lake-mass-breeder-foundational-body-plan",
+    "canon://world/shared-universe-001/geography/initial-region-physical-scaffold",
+    "CAL0 WLD1.1D",
+    "CAL0 WLD1.2D",
+    "CAL0 WLD2.1A+D",
+    "Author selection on 2026-08-14"
+  ],
+  "supersedes": [],
+  "superseded_by": null,
+  "author_approval": {
+    "decision_uri": "author-decision://world/WLD-ECOLOGY-008A",
+    "accepted_on": "2026-08-14",
+    "accepted_by": "Author",
+    "evidence": "After 'Salt organs + balance comb' was recommended with separate finite ion-exchange organs, longitudinal wax-like-gel chambers, greater passive support behind the head shield, ordinary biological costs and failures, and strict Mana limits, the Author replied 'yes' on 2026-08-14."
+  }
+}

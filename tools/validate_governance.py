@@ -3,6 +3,7 @@
 
 from __future__ import annotations
 
+import argparse
 import hashlib
 from pathlib import Path
 import sys
@@ -83,10 +84,22 @@ def repository_file(path_value: Any, label: str) -> tuple[Path | None, list[str]
     return resolved, []
 
 
-def evidence_file_errors(document: dict[str, Any], record_path: Path) -> list[str]:
-    """Verify retained live/accepted evidence against the exact bytes it names."""
+def evidence_file_errors(
+    document: dict[str, Any],
+    record_path: Path,
+    verify_current_references: bool = False,
+) -> list[str]:
+    """Resolve evidence paths and verify content pins that name retained bytes.
+
+    Digests outside the retained bundle pin historical revisions of mutable
+    paths. A later transaction may legitimately advance those paths. References
+    listed in ``retained_files`` must remain byte-exact, while capture-time
+    validation can explicitly verify every reference before a bundle becomes a
+    historical receipt.
+    """
     errors: list[str] = []
     references: list[tuple[str, Any]] = []
+    retained_paths = set(document.get("retained_files", []))
     for field in ("source_manifest", "target_artifacts"):
         for index, reference in enumerate(document.get(field, [])):
             references.append((f"$.{field}[{index}]", reference))
@@ -98,7 +111,10 @@ def evidence_file_errors(document: dict[str, Any], record_path: Path) -> list[st
             continue
         resolved, path_errors = repository_file(reference.get("path"), f"{label}.path")
         errors.extend(path_errors)
-        if resolved is not None:
+        verify_digest = (
+            verify_current_references or reference.get("path") in retained_paths
+        )
+        if resolved is not None and verify_digest:
             digest = "sha256:" + hashlib.sha256(resolved.read_bytes()).hexdigest()
             if reference.get("sha256") != digest:
                 errors.append(f"{label}.sha256: digest mismatch")
@@ -129,12 +145,20 @@ def real_paths() -> list[Path]:
         "worldbuilding/canon/**/*.worldbuilding.json",
         "worldbuilding/proposals/**/*.worldbuilding.json",
         "worldbuilding/decisions/**/*.decision.json",
+        "worldbuilding/settings/**/canon/**/*.worldbuilding.json",
+        "worldbuilding/settings/**/proposals/**/*.worldbuilding.json",
+        "worldbuilding/settings/**/decisions/**/*.decision.json",
     ):
         paths.update(ROOT.glob(pattern))
     return sorted(paths)
 
 
-def validate_set(paths: list[Path], schemas: SchemaSet, fixture: bool = False) -> tuple[list[str], dict[str, dict[str, Any]]]:
+def validate_set(
+    paths: list[Path],
+    schemas: SchemaSet,
+    fixture: bool = False,
+    verify_current_references: bool = False,
+) -> tuple[list[str], dict[str, dict[str, Any]]]:
     errors: list[str] = []
     records: dict[str, dict[str, Any]] = {}
     for path in paths:
@@ -154,7 +178,13 @@ def validate_set(paths: list[Path], schemas: SchemaSet, fixture: bool = False) -
         file_errors.extend(schemas.validate(document, schema_name))
         file_errors.extend(semantic_record(document, kind))
         if kind == "evidence":
-            file_errors.extend(evidence_file_errors(document, path))
+            file_errors.extend(
+                evidence_file_errors(
+                    document,
+                    path,
+                    verify_current_references=verify_current_references,
+                )
+            )
         identity = document.get("decision_uri") or document.get("record_uri") or document.get("run_id")
         if identity in records:
             file_errors.append(f"$: duplicate governance identity {identity!r}")
@@ -175,6 +205,21 @@ def cross_links(records: dict[str, dict[str, Any]], require_indexes: bool) -> li
         if repository_index_path.is_file()
         else ""
     )
+
+    def world_index_for(path: Path) -> tuple[Path, str]:
+        settings_root = ROOT / "worldbuilding/settings"
+        try:
+            relative = path.relative_to(settings_root)
+        except ValueError:
+            return world_index_path, world_index
+        setting_index_path = settings_root / relative.parts[0] / "indexes/INDEX.md"
+        setting_index = (
+            setting_index_path.read_text(encoding="utf-8")
+            if setting_index_path.is_file()
+            else ""
+        )
+        return setting_index_path, setting_index
+
     for identity, record in records.items():
         document = record["document"]
         path = record["path"]
@@ -190,11 +235,13 @@ def cross_links(records: dict[str, dict[str, Any]], require_indexes: bool) -> li
                     errors.append(
                         f"{path.relative_to(ROOT)}: binding decision lacks an identity-matched human review/index surface"
                     )
+                record_index_path, record_index = world_index_for(path)
                 if identity.startswith("author-decision://world/") and (
-                    document.get("id") not in world_index or identity not in world_index
+                    document.get("id") not in record_index or identity not in record_index
                 ):
                     errors.append(
-                        f"{path.relative_to(ROOT)}: binding world decision is absent from worldbuilding/INDEX.md"
+                        f"{path.relative_to(ROOT)}: binding world decision is absent from "
+                        f"{record_index_path.relative_to(ROOT).as_posix()}"
                     )
                 if identity.startswith("author-decision://repository/") and (
                     document.get("id") not in repository_index or identity not in repository_index
@@ -203,12 +250,32 @@ def cross_links(records: dict[str, dict[str, Any]], require_indexes: bool) -> li
                         f"{path.relative_to(ROOT)}: binding repository decision is absent from governance/decisions/README.md"
                     )
             elif record["kind"] == "worldbuilding":
-                if document.get("id") not in world_index and identity not in world_index:
-                    errors.append(f"{path.relative_to(ROOT)}: binding world record is absent from worldbuilding/INDEX.md")
+                record_index_path, record_index = world_index_for(path)
+                if document.get("id") not in record_index and identity not in record_index:
+                    errors.append(
+                        f"{path.relative_to(ROOT)}: binding world record is absent from "
+                        f"{record_index_path.relative_to(ROOT).as_posix()}"
+                    )
     return errors
 
 
+def parse_arguments() -> argparse.Namespace:
+    parser = argparse.ArgumentParser(
+        description="Validate structured governance records and retained evidence."
+    )
+    parser.add_argument(
+        "--verify-current-accepted",
+        metavar="PATH",
+        help=(
+            "also require every source and target digest in one newly accepted "
+            "evidence manifest to match its current repository bytes"
+        ),
+    )
+    return parser.parse_args()
+
+
 def main() -> int:
+    args = parse_arguments()
     schemas = SchemaSet(ROOT / "governance/schemas")
     errors, real_records = validate_set(real_paths(), schemas)
     errors.extend(cross_links(real_records, require_indexes=True))
@@ -238,15 +305,46 @@ def main() -> int:
         elif not any(expected in error for error in file_errors):
             errors.append(f"{path.relative_to(ROOT)}: expected targeted failure {expected!r}; found {file_errors}")
 
+    verified_path: Path | None = None
+    if args.verify_current_accepted:
+        verified_path, path_errors = repository_file(
+            args.verify_current_accepted,
+            "--verify-current-accepted",
+        )
+        errors.extend(path_errors)
+        if verified_path is not None:
+            document = load_json(verified_path)
+            if record_kind(verified_path) != "evidence":
+                errors.append(
+                    "--verify-current-accepted: path must name a workflow-evidence manifest"
+                )
+            elif document.get("evidence_kind") != "ACCEPTED_OUTCOME":
+                errors.append(
+                    "--verify-current-accepted: evidence_kind must be ACCEPTED_OUTCOME"
+                )
+            else:
+                capture_errors, _ = validate_set(
+                    [verified_path],
+                    schemas,
+                    verify_current_references=True,
+                )
+                errors.extend(capture_errors)
+
     if errors:
         print("governance validation failed:", file=sys.stderr)
         for error in errors:
             print(f"  - {error}", file=sys.stderr)
         return 1
-    print(
+    message = (
         f"governance validation passed: {len(real_records)} repository records, "
         f"{len(valid_paths)} valid fixtures, {len(invalid_expectations)} rejected fixtures"
     )
+    if verified_path is not None:
+        message += (
+            "; current accepted evidence verified: "
+            f"{verified_path.relative_to(ROOT).as_posix()}"
+        )
+    print(message)
     return 0
 
 

@@ -1,0 +1,70 @@
+{
+  "$schema": "../../../../governance/schemas/decision-record.schema.json",
+  "schema_version": "1.0.0",
+  "id": "WLD-ECOLOGY-001A",
+  "decision_uri": "author-decision://world/WLD-ECOLOGY-001A",
+  "display_code": "WLD-ECOLOGY-001A",
+  "title": "Lineage II vegetation-architect ecology",
+  "domain": "Project Hearthway fauna ecology",
+  "workflow_status": "ACCEPTED",
+  "canon_status": "PROVISIONAL",
+  "scope": "The primary feeding strategy and landscape effects of the proposed Project Hearthway Lineage II crown and ribbon branches. Usable within Project Hearthway fauna and regional-ecology development; exact taxonomy, species, physiology, seasonality, and Mana mechanics remain open.",
+  "accepted_on": "2026-08-13",
+  "accepted_by": "Author",
+  "approval_evidence": "After receiving the three bounded ecology options, their trade-offs, and the explicit recommendation for divergent vegetation architects, the Author replied 'yes' on 2026-08-13.",
+  "question": "What primary feeding strategy and ecological work should distinguish Lineage II's crown and ribbon branches?",
+  "selection": "Use the divergent vegetation-architect model. Crown forms use short reinforced mouth-rays to process tough mature stalks, brush, and woody growth, helping maintain open corridors and vegetation mosaics. Ribbon forms use longer tactile mouth-rays to selectively harvest shoots, fruiting bodies, and lakeshore or woodland-edge vegetation. Their seasonal movements may materially affect roads, fields, habitat edges, soil fertility, and settlement defences.",
+  "alternatives": [
+    "L2-ECO-A: divergent vegetation architects; selected.",
+    "L2-ECO-B: family-wide instinctive symbiotic patch tenders; not selected, but a narrower species-level symbiosis remains possible.",
+    "L2-ECO-C: family-wide seasonal mixed harvesters; not selected, but bounded species-level omnivory remains possible."
+  ],
+  "rationale": "The selected model makes the homologous mouth structures functional, differentiates open-ground and wet-woodland niches, produces credible landscape engineering and seasonal human pressures, and avoids reducing the family to generic monsters.",
+  "evidence": [
+    "Author selection on 2026-08-13.",
+    "stories/series/project-hearthway-main/workbench/runs/2026-08-13-lineage-ii-ecology/proposal.md",
+    "workbench/proposals/project-hearthway-foundation-capture.md",
+    "CAL0 WLD1.2D and WLD2.1A+D ecology boundaries"
+  ],
+  "consequences": [
+    "Future Lineage II designs must preserve a plant-processing ancestry and the crown/ribbon feeding divergence unless this decision is reopened.",
+    "Crown populations can act as coarse-scale open-country landscape engineers.",
+    "Ribbon populations can act as finer-scale woodland-edge and lakeshore vegetation shapers.",
+    "Regional maps, agriculture, roads, defences, and seasonal events must account for their movements where ranges overlap human land.",
+    "Species-level exceptions remain possible when they have their own anatomy, energy budget, and ecological justification.",
+    "No System reward, level, trait payload, or specialised Mana organ is created by this decision."
+  ],
+  "affected_sources": [
+    "worldbuilding/settings/shared-universe-001/proposals/WLD-ECOLOGY-001.md",
+    "worldbuilding/settings/shared-universe-001/canon/ecology/WLD-ECOLOGY-001.worldbuilding.json",
+    "worldbuilding/settings/shared-universe-001/canon/ecology/WLD-ECOLOGY-001.md",
+    "worldbuilding/settings/shared-universe-001/indexes/INDEX.md",
+    "worldbuilding/INDEX.md",
+    "stories/series/project-hearthway-main/project-hearthway-main.work-manifest.json",
+    "workbench/proposals/project-hearthway-foundation-capture.md"
+  ],
+  "dependencies": [
+    "WLD-SETTING-001A",
+    "work://series/project-hearthway-main",
+    "CAL0 WLD1.2D",
+    "CAL0 WLD2.1A+D"
+  ],
+  "conflicts": [],
+  "residual_unknowns": [
+    "Lineage and species names remain open.",
+    "Exact mouth anatomy, digestive organs, and microbial or magical symbionts remain open.",
+    "Exact migration routes, timing, breeding seasons, and winter strategies remain open.",
+    "Species-level omnivory and specialist symbioses remain open.",
+    "Ordinary Mana reinforcement and specialised Mana organs remain open.",
+    "Human hunting, management, material uses, stories, and law remain open."
+  ],
+  "supersedes": [],
+  "superseded_by": null,
+  "reopening_conditions": [
+    "A food-web model shows that the selected feeding niches cannot support viable populations.",
+    "Regional geography or flora changes remove the required habitat or resource base.",
+    "The selected model becomes indistinguishable from a direct Earth-species transplant despite further design.",
+    "A required story outcome creates a concrete contradiction that cannot be resolved at species level.",
+    "The Author explicitly reopens the decision."
+  ]
+}

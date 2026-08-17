@@ -1,6 +1,10 @@
 # Setting Isolation
 
-No setting exists here yet. When the Author begins one, create:
+The `setting://shared-universe-001` container is the first setting development
+frontier. Its identity and reciprocal relationship with
+`work://series/project-hearthway-main` are `ACCEPTED` / `PROVISIONAL`, and it
+contains eighteen bounded provisional setting records. No fictional setting record
+is fully accepted. Each additional setting follows the same isolated structure:
 
 ```text
 worldbuilding/settings/<setting-slug>/
@@ -15,8 +19,10 @@ worldbuilding/settings/<setting-slug>/
 Start from `worldbuilding/templates/setting-manifest.template.json`, copy it as
 `<setting-slug>.setting-manifest.json`, and use
 `worldbuilding/templates/setting-constitution.md` for the Author-facing scope.
-The exact `*.setting-manifest.json` suffix is required for discovery. Do not
-create a setting directory merely to reserve a name.
+The exact `*.setting-manifest.json` suffix is required for discovery. A setting
+container must represent a real Author-selected development frontier, not merely
+reserve a name. Display titles may remain temporary while the stable setting ID
+preserves continuity.
 
 The machine manifest follows the single contract at
 `litrpg-system/story-integration/schemas/setting-manifest.schema.json` and must

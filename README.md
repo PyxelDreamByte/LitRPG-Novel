@@ -20,7 +20,7 @@ The Author is the sole authority for accepting canon, plot, voice, and changes t
 - [`litrpg-system/story-integration/`](litrpg-system/story-integration/) — machine-readable chapter, progression, and state contracts.
 - [`.agents/skills/`](.agents/skills/) — Author-callable repository workflows.
 - [`.codex/agents/`](.codex/agents/) — specialist drafting and review roles.
-- [`worldbuilding/`](worldbuilding/) — project defaults plus isolated future settings; no real setting exists yet.
+- [`worldbuilding/`](worldbuilding/) — project defaults plus isolated settings, including the provisionally authorized Project Hearthway development container.
 - [`characters/`](characters/) — profiles, knowledge, relationships, arcs, and story state.
 - [`stories/`](stories/) — series, books, shorter fiction, and drafting templates.
 - [`research/`](research/) — non-canonical evidence and inspiration.
@@ -41,14 +41,34 @@ Research, examples, calibration fixtures, agent output, and manuscript invention
 
 ## Current worldbuilding boundary
 
-No detailed setting or setting constitution exists. Two reusable provisional
-human-reference modelling defaults are recorded: rare-Soul prevalence `0.001`
-with typed non-scalar Souls, and no ordinary persistent self-aware continuity
-or directed prenatal System practice in population models. A future work must
-explicitly adopt either default; neither silently binds an independent world.
-Universal rarity proportions are Author-deferred until their object type,
-rarity dimension, eligible denominator, population, period, and evidence are
-defined. See [`worldbuilding/INDEX.md`](worldbuilding/INDEX.md).
+The shared-universe container `setting://shared-universe-001`, temporarily
+titled Project Hearthway, now has narrow `ACCEPTED` / `PROVISIONAL` authority
+for its identity and relationship to the proposed main series
+`work://series/project-hearthway-main`. Four bounded Lineage II records, three
+bounded basin-flora records, the initial basin's coupled pulse-mosaic and wider
+regional-horizon record, its spring lake breeding-migrant pulse, the mass
+breeder's foundational aquatic body plan, ordinary Mana boundary, and selected
+salt-organ and wax-like-gel physiology, the family-care migrant's selected
+three-lobed living-vault body plan and mobile shelter–forage–regroup care
+  interface plus its qualitative, fallible margin-ratchet outlet choreography,
+  the qualitative river-glacial geography and transitional-climate scaffold,
+  and the outlet's mixed sequence of bedrock throat, irregular boulder steps,
+  lateral shelves, and state-dependent holding pockets, plus the initial
+  ridge-spur settlement's unequal-shoulder working landscape, lakeward road,
+  finite combined spring–well–cistern water system, and broad fair-weather
+  unladen-downhill and laden-uphill lake-road journey anchors, plus its
+  recurring upper-shore staging place and several short seasonal spurs to
+  changeable nearby shore contacts, are also provisional; no detailed
+  fictional record is yet fully accepted. Two reusable provisional
+human-reference modelling defaults are also recorded: rare-Soul prevalence
+`0.001` with typed non-scalar Souls, and no ordinary persistent self-aware
+continuity or directed prenatal System practice in population models. A future
+work must explicitly adopt either default; the main series currently adopts
+neither, and neither silently binds Project Hearthway or an independent world.
+Universal rarity proportions are
+Author-deferred until their object type, rarity dimension, eligible denominator,
+population, period, and evidence are defined. See
+[`worldbuilding/INDEX.md`](worldbuilding/INDEX.md).
 
 ## CAL0 boundary
 

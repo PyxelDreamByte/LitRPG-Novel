@@ -23,7 +23,7 @@ A higher item does not silently rewrite a lower artifact. Reconcile the change i
 | CAL0 mechanics | The baseline named by `governance/ACTIVE-SYSTEM-BASELINE.md`, plus that baseline's canonical sources and content-pinned manifest | The active canonical specification prevails over simplified guides |
 | CAL0 calibrated reference behaviour | Accepted CAL0 registries and reports | Provisional parameters are not empirical facts or fixed story values |
 | Project worldbuilding defaults | Accepted/provisional/deferred decisions under `worldbuilding/decisions/` | Reusable guardrails, not global or setting canon; future works must adopt them explicitly |
-| Setting | The discoverable setting manifest, its indexed Author decision, and accepted records under `worldbuilding/settings/<setting-slug>/` | No setting exists yet; proposals, research, other settings, and unadopted project defaults are non-canon |
+| Setting | The discoverable setting manifest, its indexed Author decision, and accepted records under `worldbuilding/settings/<setting-slug>/` | Project Hearthway has provisional authority only for its stable identity and main-series relationship; its staging capture, proposals, research, other settings, and unadopted project defaults are non-canon |
 | Character definition | Accepted character profiles and scoped decisions | Story events may change state, not silently rewrite identity/history |
 | Story events | Accepted manuscripts together with accepted chapter deltas | The pair forms the authoritative transaction |
 | Plot intent | Current accepted series, book, arc, and chapter contracts | Plans guide drafting but do not establish events as having occurred |

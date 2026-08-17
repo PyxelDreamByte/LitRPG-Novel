@@ -1,0 +1,93 @@
+{
+  "$schema": "../../../../governance/schemas/decision-record.schema.json",
+  "schema_version": "1.0.0",
+  "id": "WLD-FLORA-001A",
+  "decision_uri": "author-decision://world/WLD-FLORA-001A",
+  "display_code": "WLD-FLORA-001A",
+  "title": "Basin reserve-web vegetation guild",
+  "domain": "Project Hearthway regional flora",
+  "workflow_status": "ACCEPTED",
+  "canon_status": "PROVISIONAL",
+  "scope": "Functional seasonal architecture of a major but non-exclusive open-ground vegetation guild in Project Hearthway's initial basin. Exact taxonomy, anatomy, reproduction, productivity, chemistry, distribution, disturbance tolerances, Mana use, complementary flora, and human uses remain open.",
+  "accepted_on": "2026-08-14",
+  "accepted_by": "Author",
+  "approval_evidence": "After receiving the bounded reserve-web guild recommendation and the annual boom-and-bust and slow woody alternatives, the Author replied 'yes' on 2026-08-14.",
+  "question": "What major open-ground vegetation strategy should support the initial basin's seasonal productivity and the established Lineage II feeding roles?",
+  "selection": "Use a major but non-exclusive reserve-web vegetation guild. Its original vegetation forms maintain living subsurface networks that store water and nutrients across winter, surface fire, episodic flooding, and grazing. They produce tender spring growth, tall fibrous summer structures, and autumn fruiting or storage bodies. Crown herds consume mature structural growth; ribbon groups select young growth and seasonal reproductive structures. Browsing and trampling create openings, while excessive pressure can exhaust or kill the living network.",
+  "alternatives": [
+    "FLORA-GUILD-A: diverse subsurface reserve-web guild; selected.",
+    "FLORA-GUILD-B: annual boom-and-bust fields dominate open ground; not selected.",
+    "FLORA-GUILD-C: slow woody browse dominates open ground; not selected."
+  ],
+  "rationale": "The selected guild supports both established feeding niches, creates visible seasonal change, enables disturbance recovery without making it automatic, preserves finite biological reserves, and provides an original functional foundation without turning the basin into a monoculture or copying an Earth species.",
+  "evidence": [
+    "Author selection on 2026-08-14.",
+    "stories/series/project-hearthway-main/workbench/runs/2026-08-14-basin-reserve-web-flora/proposal.md",
+    "canon://world/shared-universe-001/ecology/lineage-ii-vegetation-architects",
+    "canon://world/shared-universe-001/ecology/lineage-ii-fermentation-lattice",
+    "canon://world/shared-universe-001/ecology/lineage-ii-peripheral-migration-corridor",
+    "CAL0 WLD2.1A+D"
+  ],
+  "consequences": [
+    "The initial basin has a major but non-exclusive open-ground reserve-web vegetation guild.",
+    "The guild includes multiple vegetation forms and is not one basin-wide organism.",
+    "Living subsurface reserves support survival and regrowth across seasonal and physical disturbance.",
+    "Spring, summer, and autumn structures provide different seasonal forage opportunities.",
+    "Crown and ribbon feeding roles interact with different growth stages of the guild.",
+    "Moderate disturbance can create openings, while excessive pressure depletes reserves and can kill networks.",
+    "Later flora design must remain original rather than directly transplanting an Earth species.",
+    "No System spawning, automatic replenishment, progression, reward, or specialised Mana ability is created."
+  ],
+  "affected_sources": [
+    "worldbuilding/settings/shared-universe-001/proposals/WLD-FLORA-001.md",
+    "worldbuilding/settings/shared-universe-001/canon/ecology/WLD-FLORA-001.worldbuilding.json",
+    "worldbuilding/settings/shared-universe-001/canon/ecology/WLD-FLORA-001.md",
+    "worldbuilding/settings/shared-universe-001/canon/ecology/WLD-ECOLOGY-001.worldbuilding.json",
+    "worldbuilding/settings/shared-universe-001/canon/ecology/WLD-ECOLOGY-001.md",
+    "worldbuilding/settings/shared-universe-001/canon/ecology/WLD-ECOLOGY-004.worldbuilding.json",
+    "worldbuilding/settings/shared-universe-001/setting-constitution.md",
+    "worldbuilding/settings/shared-universe-001/canon/README.md",
+    "worldbuilding/settings/shared-universe-001/proposals/README.md",
+    "worldbuilding/settings/shared-universe-001/decisions/README.md",
+    "worldbuilding/settings/shared-universe-001/indexes/INDEX.md",
+    "worldbuilding/INDEX.md",
+    "worldbuilding/README.md",
+    "worldbuilding/settings/README.md",
+    "worldbuilding/canon/README.md",
+    "stories/series/project-hearthway-main/project-hearthway-main.work-manifest.json",
+    "stories/series/project-hearthway-main/work-manifest.md",
+    "stories/series/project-hearthway-main/work-contract.md",
+    "README.md",
+    "STATUS.md"
+  ],
+  "dependencies": [
+    "WLD-SETTING-001A",
+    "WLD-ECOLOGY-001A",
+    "WLD-ECOLOGY-001",
+    "WLD-ECOLOGY-002A",
+    "WLD-ECOLOGY-002",
+    "WLD-ECOLOGY-004A",
+    "WLD-ECOLOGY-004",
+    "CAL0 WLD1.2D",
+    "CAL0 WLD2.1A+D"
+  ],
+  "conflicts": [],
+  "residual_unknowns": [
+    "Species count, taxonomy, evolutionary relationship, and names remain open.",
+    "Subsurface anatomy, colony boundaries, resource transfer, development, and reproduction remain open.",
+    "Energy capture, soils, minerals, water, temperature, and Mana requirements remain open.",
+    "Exact seasonal timing, productivity, chemistry, nutrient value, toxins, and defences remain open.",
+    "Disturbance thresholds, recovery rates, diseases, pests, parasites, mutualists, and decomposers remain open.",
+    "Habitat distribution and complementary vegetation remain open.",
+    "Human uses, cultivation, ownership, laws, and cultural meanings remain open."
+  ],
+  "supersedes": [],
+  "superseded_by": null,
+  "reopening_conditions": [
+    "A seasonal material or energy budget cannot support the established forage roles.",
+    "The guild cannot remain diverse and rate-limited without becoming an implausible monoculture or superorganism.",
+    "Later soil, hydrology, climate, or disturbance modelling makes the reserve-web strategy infeasible.",
+    "A concrete story requirement exposes an unresolvable seasonal, agricultural, or ecological contradiction.",
+    "The Author explicitly reopens the decision."
+  ]
+}

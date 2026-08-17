@@ -53,3 +53,9 @@ validation, and promoted-artifact digests. A live noncanonical evaluation
 instead retains exact source/output hashes and per-target checks with no Author
 approval or promotion claim. Do not retain redundant context copies or
 sensitive research material.
+
+Before recording an accepted outcome, run the governance validator's
+`--verify-current-accepted` capture-time check against that bundle. Ordinary
+repository validation thereafter treats external source and authority digests
+as historical pins while continuing to byte-check referenced files listed in
+the bundle's `retained_files`.

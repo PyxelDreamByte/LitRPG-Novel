@@ -1,0 +1,95 @@
+{
+  "$schema": "../../../../../governance/schemas/worldbuilding-record.schema.json",
+  "schema_version": "1.0.0",
+  "id": "WLD-ECOLOGY-010",
+  "record_uri": "canon://world/shared-universe-001/ecology/basin-lake-family-care-migrant-outlet-passage-choreography",
+  "display_code": "WLD-ECOLOGY-010",
+  "setting_id": "setting://shared-universe-001",
+  "title": "Basin-lake family-care migrant outlet-passage choreography",
+  "workflow_status": "ACCEPTED",
+  "canon_status": "PROVISIONAL",
+  "scope": "Qualitative outlet-passage movement and care choreography for the family-care migrant governed by WLD-ECOLOGY-006 and WLD-ECOLOGY-009; usable within shared-setting ecology, migration planning, route-feasibility work, and story development without establishing outlet geography or passability.",
+  "claims": [
+    "The selected qualitative passage behaviour is a margin-ratchet procession.",
+    "Where suitable support is available, paddle-columns brace in successive groups while a travelling margin wave drives a short advance.",
+    "The vault settles low between surges.",
+    "The directly observable passage rhythm is settle → ripple → brace → surge → settle.",
+    "Before advances, the caregiving form normally attempts to regroup mobile young beneath the refuge.",
+    "During autumn descent, the same structures brake and steer current-assisted slides.",
+    "The behaviour requires a compatible bed-or-margin contact and resting-opportunity chain, but does not establish that such a chain exists."
+  ],
+  "boundaries": [
+    "This record governs the family-care migrant's qualitative movement and care choreography during demanding outlet passage. WLD-ECOLOGY-006 continues to govern migration timing and population relationships, and WLD-ECOLOGY-009 continues to govern foundational anatomy.",
+    "Margin-Ratchet Procession is an author-facing editorial label, not an in-world name, formal ethological category, organised convoy, fixed line formation, social-cooperation rule, shared brood, or multiple-carer structure.",
+    "Successive groups establish no exact column count, group size, fixed order, repeated tripod, Earth-leg homology, general terrestrial walking, or overland bypass.",
+    "Brace establishes qualitative load-bearing contact where suitable support is available. It does not establish claws, adhesive tissue, suction, a specialised grip organ, exact stroke, or a particular substrate.",
+    "A travelling margin wave drives a short advance in this choreography. Exact actuation, force, amplitude, frequency, direction, pressure cycle, distance, speed, efficiency, and the rest of the locomotor repertoire remain undefined.",
+    "Settles low describes a pause between surges. It establishes no anchoring organ, bottom-resting body plan, burying, suction, sleep state, fixed pose, immobility, or bed contact at every pause.",
+    "Autumn braking and steering establish organism-side control during a current-assisted slide, not a guaranteed current, exact direction, current speed, depth, channel, passive-drift strategy, or successful control outcome.",
+    "Regrouping before an advance is a normal attempt, not guaranteed coordination, compulsory juvenile response, perfect communication, physical attachment, shared identity, or survival. Young may fail to return, be displaced, or be lost.",
+    "The card's warning that passage may be slow and conspicuous, and that abrasion, paddle-column injury, fatigue, crowding, or broken resting opportunities may stop it, is a qualitative feasibility concern rather than a fixed performance, event, or rate claim. No measured speed, travel time, detection distance, exposure interval, encounter, ambush, injury, fatigue, crowding, stoppage, mortality, or passage outcome is established.",
+    "A compatible bed-or-margin contact and resting-opportunity chain remains a route requirement. WLD-GEOGRAPHY-002 later establishes a qualitative mixed outlet sequence with candidate contact surfaces and holding pockets, but it does not prove that they form a complete usable chain. Exact feature fit, continuity, depth, width, gradient, discharge, current, seasonal water level, tidal reach, salinity front, substrate, distance, route capacity, passability, and passage success remain undefined.",
+    "Tracks can occur only where a suitable deformable substrate can preserve contact traces. Disturbed feeding trails depend on actual local substrate and prey. Predator ambushes and exposed transitions are plausible implications, not guaranteed events or mapped locations.",
+    "The selected behaviour adds no anatomy beyond the structures accepted by WLD-ECOLOGY-009 and does not inherit the mass breeder's WLD-ECOLOGY-007 or WLD-ECOLOGY-008 anatomy or physiology.",
+    "Buoyancy, osmoregulation, respiratory medium and chemistry, exchange and internal transport, salinity tolerance, senses, communication, adult and juvenile diet beyond accepted relationships, reproduction, carers, kinship, group size, and exact physiology remain undefined.",
+    "Mana source, carrier, storage, circulation, tissue effects, capacity, cost, recovery, and failure remain undefined, as do specialised abilities, cognition, sapience, formal Skills, classes, levels, appraisal, and cultural or character knowledge.",
+    "Finite matter or material and usable-energy inputs, internal transport, heat and waste handling, maintenance, injury, disease, recovery, repair, reproduction, route capacity, mortality, recruitment, and carrying capacity remain binding ecological constraints.",
+    "No pooled family identity, shared level or XP, automatic prey-power transfer, Skill, class, reward, System spawning, reset, refill, loot rule, free energy, free Mana, or guaranteed recovery is established."
+  ],
+  "dependencies": [
+    "author-decision://world/WLD-SETTING-001A",
+    "author-decision://world/WLD-ECOLOGY-006A",
+    "canon://world/shared-universe-001/ecology/basin-lake-spring-breeding-pulse",
+    "author-decision://world/WLD-ECOLOGY-009A",
+    "canon://world/shared-universe-001/ecology/basin-lake-family-care-migrant-foundational-body-plan",
+    "author-decision://world/WLD-GEOGRAPHY-001A",
+    "canon://world/shared-universe-001/geography/initial-region-physical-scaffold",
+    "author-decision://world/WLD-ECOLOGY-010A",
+    "CAL0 WLD1.1D",
+    "CAL0 WLD1.2D",
+    "CAL0 WLD2.1A+D"
+  ],
+  "contradictions": [],
+  "story_implications": [
+    "When suitable support is available, a scene can show the vault settle low, a margin ripple travel, successive column groups brace, and the body surge forward a short distance before settling again.",
+    "Before an advance, mobile young may visibly regroup beneath the refuge; delay, incomplete return, crowding, displacement, or loss can interrupt the rhythm without implying perfect communication or guaranteed family survival.",
+    "During autumn descent, observers may see braking or steering during current-assisted slides, but current, depth, route, danger, control success, and the organism's hidden physiology require separate evidence.",
+    "If later route and performance modelling supports the card's slow-and-conspicuous concern, movement can create conditional contact traces, disturbed feeding trails, exposed transitions, predator opportunities, fatigue, abrasion, injury, or stoppage, but no exact occurrence or location is established.",
+    "Author-side knowledge of the choreography and route requirement does not become automatic protagonist knowledge; each observation, recognition, and inference requires a source and bounded confidence."
+  ],
+  "system_implications": [
+    "The selected passage choreography is an ordinary world input under CAL0 WLD1.1D, WLD1.2D, and WLD2.1A+D, not a System change.",
+    "A caregiving form, young, family, or temporary procession does not gain pooled System identity, levels, XP, Skills, classes, or rewards merely through regrouping, coordination, or proximity.",
+    "Predation, passage, injury, or survival transfers no automatic XP, attributes, traits, Skills, Mana, levels, or power; any later material or magical effect requires its own mechanism and Author gate.",
+    "Bracing, pressure support, travelling tissue waves, braking, steering, maintenance, recovery, and repair require finite anatomy, matter or material, usable energy, internal transport, heat and waste handling, and failure modes; they create no activated ability, free Mana, free energy, spawn, reset, refill, or guaranteed recovery."
+  ],
+  "research_questions": [
+    "What exact column grouping, order, load sharing, contact, actuation, pressure cycle, stroke, steering, stability, fatigue, repair, and failure govern the ratchet choreography?",
+    "What exact margin-wave origin, timing, amplitude, frequency, direction, control, energy cost, and relationship to column bracing produce each short advance?",
+    "Under which water states do WLD-GEOGRAPHY-002's boulder steps, side shelves, and holding pockets provide a sufficiently continuous and compatible support-and-pause chain, and how do hydraulics, substrate, salinity transition, route capacity, and organism performance limit seasonal passage without an overland bypass?",
+    "How do spring ascent and autumn descent differ in posture, buoyancy, depth use, current interaction, advance distance, speed, endurance, pause duration, recovery, and risk?",
+    "What cues, signals, distances, timing, juvenile capacities, crowding limits, and failure responses govern fallible regrouping before advances?",
+    "How do abrasion, column injury, fatigue, crowding, disease, predation, interrupted resting opportunities, and recovery affect migration mortality, recruitment, and population scale?",
+    "What respiration, circulation, osmoregulation, buoyancy, salinity tolerance, senses, feeding, waste handling, reproduction, development, and Mana pathway make the behaviour viable without replacing ordinary inputs?",
+    "What external signs can people actually observe, what conditional traces survive, and what naming, knowledge, harvesting, risk management, belief, or misunderstanding later develops?"
+  ],
+  "sources": [
+    "worldbuilding/settings/shared-universe-001/proposals/WLD-ECOLOGY-010.md",
+    "stories/series/project-hearthway-main/workbench/runs/2026-08-14-basin-lake-family-care-migrant-outlet-passage/proposal.md",
+    "canon://world/shared-universe-001/ecology/basin-lake-spring-breeding-pulse",
+    "canon://world/shared-universe-001/ecology/basin-lake-family-care-migrant-foundational-body-plan",
+    "canon://world/shared-universe-001/geography/initial-region-physical-scaffold",
+    "CAL0 WLD1.1D",
+    "CAL0 WLD1.2D",
+    "CAL0 WLD2.1A+D",
+    "Author selection on 2026-08-14"
+  ],
+  "supersedes": [],
+  "superseded_by": null,
+  "author_approval": {
+    "decision_uri": "author-decision://world/WLD-ECOLOGY-010A",
+    "accepted_on": "2026-08-14",
+    "accepted_by": "Author",
+    "evidence": "After three complete visual passage-choreography cards were displayed and chat confirmation was required, the Author replied 'A' on 2026-08-14, selecting 'A — Margin-Ratchet Procession'."
+  }
+}

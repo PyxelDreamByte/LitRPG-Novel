@@ -1,0 +1,14 @@
+{
+  "schema_version": "1.0.0",
+  "setting_id": "setting://shared-universe-001",
+  "title": "Project Hearthway",
+  "setting_root": "worldbuilding/settings/shared-universe-001",
+  "workflow_status": "ACCEPTED",
+  "canon_status": "PROVISIONAL",
+  "index_path": "worldbuilding/settings/shared-universe-001/indexes/INDEX.md",
+  "adopting_work_ids": [
+    "work://series/project-hearthway-main"
+  ],
+  "accepted_on": "2026-08-13",
+  "approval_decision_uri": "author-decision://world/WLD-SETTING-001A"
+}

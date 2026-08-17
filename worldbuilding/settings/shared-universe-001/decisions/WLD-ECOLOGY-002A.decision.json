@@ -1,0 +1,71 @@
+{
+  "$schema": "../../../../governance/schemas/decision-record.schema.json",
+  "schema_version": "1.0.0",
+  "id": "WLD-ECOLOGY-002A",
+  "decision_uri": "author-decision://world/WLD-ECOLOGY-002A",
+  "display_code": "WLD-ECOLOGY-002A",
+  "title": "Lineage II distributed fermentation lattice",
+  "domain": "Project Hearthway fauna physiology",
+  "workflow_status": "ACCEPTED",
+  "canon_status": "PROVISIONAL",
+  "scope": "Family-level digestive architecture for Project Hearthway's developing Lineage II crown and ribbon branches. Usable within fauna and regional-ecology development; exact chamber anatomy, symbiont identity and transmission, metabolic rates, diseases, and specialist organs remain open.",
+  "accepted_on": "2026-08-13",
+  "accepted_by": "Author",
+  "approval_evidence": "After receiving the distributed fermentation lattice recommendation, its exact branch differences, ordinary Mana boundary, vulnerability, and two alternatives, the Author replied 'yes' on 2026-08-13.",
+  "question": "What digestive architecture should make the Lineage II crown and ribbon vegetation-architect diets plausible?",
+  "selection": "Use a distributed fermentation lattice of several connected digestive chambers. Symbiotic microorganisms perform much of the breakdown. Crown forms use larger, slower-processing chambers for bulk structural vegetation; ribbon forms use smaller, faster-processing chambers for selective seasonal foods. Ordinary Mana reinforces membranes, circulation, and thermal stability but does not create calories. Abrupt diet changes can disrupt the symbionts and cause illness.",
+  "alternatives": [
+    "L2-DIGEST-A: distributed fermentation lattice; selected.",
+    "L2-DIGEST-B: external curing and reprocessing; not selected as the family-level system.",
+    "L2-DIGEST-C: universal Mana-catalytic digestive organ; not selected."
+  ],
+  "rationale": "The selected system explains both branch diets through related anatomy, maintains real energy and material costs, supports seasonal vulnerability, and uses Mana as ordinary physiological support rather than an effortless solution.",
+  "evidence": [
+    "Author selection on 2026-08-13.",
+    "stories/series/project-hearthway-main/workbench/runs/2026-08-13-lineage-ii-digestion/proposal.md",
+    "canon://world/shared-universe-001/ecology/lineage-ii-vegetation-architects",
+    "CAL0 provenance and creature-ecology constraints"
+  ],
+  "consequences": [
+    "Future Lineage II digestive designs must preserve connected chamber routing and microbial fermentation unless this decision is reopened.",
+    "Crown and ribbon digestive systems remain homologous but differ in capacity and processing tempo.",
+    "Diet transitions, antimicrobial exposure, toxins, deprivation, and symbiont loss can impair health and movement.",
+    "Mana may stabilise real digestive tissues and processes but cannot replace dietary matter or energy.",
+    "Symbiont transmission, maintenance, and recovery become required later decisions.",
+    "No new System progression or specialised Mana ability is created."
+  ],
+  "affected_sources": [
+    "worldbuilding/settings/shared-universe-001/proposals/WLD-ECOLOGY-002.md",
+    "worldbuilding/settings/shared-universe-001/canon/ecology/WLD-ECOLOGY-002.worldbuilding.json",
+    "worldbuilding/settings/shared-universe-001/canon/ecology/WLD-ECOLOGY-002.md",
+    "worldbuilding/settings/shared-universe-001/canon/ecology/WLD-ECOLOGY-001.worldbuilding.json",
+    "worldbuilding/settings/shared-universe-001/indexes/INDEX.md",
+    "worldbuilding/INDEX.md",
+    "stories/series/project-hearthway-main/project-hearthway-main.work-manifest.json",
+    "workbench/proposals/project-hearthway-foundation-capture.md"
+  ],
+  "dependencies": [
+    "WLD-SETTING-001A",
+    "WLD-ECOLOGY-001A",
+    "WLD-ECOLOGY-001",
+    "CAL0 WLD1.2D",
+    "CAL0 WLD2.1A+D"
+  ],
+  "conflicts": [],
+  "residual_unknowns": [
+    "Exact chamber count, position, routing, and developmental sequence remain open.",
+    "Symbiont taxonomy, transmission, maintenance, and recovery remain open.",
+    "Retention times, metabolic yield, water demand, heat balance, waste, and toxins remain open.",
+    "Digestive diseases and treatments remain open.",
+    "Narrow specialist branches may later justify a dedicated Mana-catalytic organ."
+  ],
+  "supersedes": [],
+  "superseded_by": null,
+  "reopening_conditions": [
+    "A quantitative energy or material budget makes the lattice infeasible.",
+    "The eventual body plan cannot house the required chambers without contradicting locomotion, brooding, or circulation.",
+    "The flora design cannot support viable fermentation substrates across the annual cycle.",
+    "A concrete story requirement exposes an unresolvable medical or ecological contradiction.",
+    "The Author explicitly reopens the decision."
+  ]
+}

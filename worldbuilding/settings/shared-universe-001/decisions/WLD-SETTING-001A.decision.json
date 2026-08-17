@@ -1,0 +1,64 @@
+{
+  "$schema": "../../../../governance/schemas/decision-record.schema.json",
+  "schema_version": "1.0.0",
+  "id": "WLD-SETTING-001A",
+  "decision_uri": "author-decision://world/WLD-SETTING-001A",
+  "display_code": "WLD-SETTING-001A",
+  "title": "Project Hearthway shared-setting bootstrap",
+  "domain": "Project Hearthway setting identity and series adoption",
+  "workflow_status": "ACCEPTED",
+  "canon_status": "PROVISIONAL",
+  "scope": "Only the durable shared-setting identity setting://shared-universe-001, the ongoing-series identity work://series/project-hearthway-main, and their reciprocal shared-world relationship. All fictional setting claims, project-default adoptions, story contracts, titles, and System changes remain outside this decision.",
+  "accepted_on": "2026-08-13",
+  "accepted_by": "Author",
+  "approval_evidence": "On 2026-08-13, after being shown the exact narrow bootstrap scope and told that all geography, cultures, creatures, history, System ideas, and temporary names would remain proposed, the Author replied: yes.",
+  "question": "May Project Hearthway receive narrowly provisional authority as the shared setting container for the main ongoing web-novel series without accepting any fictional content?",
+  "selection": "Provisionally recognize setting://shared-universe-001 as the shared-universe container and work://series/project-hearthway-main as its main ongoing series. Record the reciprocal manifest relationship. Treat Project Hearthway and Project Hearthway Main Series as replaceable editorial titles. Adopt no project-level defaults and accept no fictional or System claim through this decision.",
+  "alternatives": [
+    "Keep the setting DRAFT/PROPOSED and leave the series unlinked, preventing governed shared-world development.",
+    "Provisionally approve only the setting identity and reciprocal series relationship while every fictional claim remains proposed; selected.",
+    "Accept the complete foundation capture as setting canon; not selected and not reviewed by this decision."
+  ],
+  "rationale": "This establishes the minimum authority and work boundary required for governed development while preserving every substantive creative choice for later review and explicit Author disposition.",
+  "evidence": [
+    "Author selection of an ongoing series on 2026-08-13.",
+    "Author approval of the explicitly narrow provisional setting/series bootstrap on 2026-08-13.",
+    "worldbuilding/settings/shared-universe-001/setting-constitution.md",
+    "workbench/proposals/project-hearthway-foundation-capture.md"
+  ],
+  "consequences": [
+    "The setting manifest may use workflow status ACCEPTED and canon status PROVISIONAL for this identity-and-boundary scope only.",
+    "The proposed AUTHORING series may declare SHARED_WORLD and name setting://shared-universe-001.",
+    "The setting and work manifests must point to one another using work://series/project-hearthway-main.",
+    "The series adopts this bootstrap decision as its only shared-world reference at creation.",
+    "No project-level default guardrail is adopted.",
+    "The foundation and Ancestry Development captures remain DRAFT/PROPOSED and unusable as canon.",
+    "Changing either temporary editorial title does not change the stable setting or work identity."
+  ],
+  "affected_sources": [
+    "worldbuilding/settings/shared-universe-001/shared-universe-001.setting-manifest.json",
+    "worldbuilding/settings/shared-universe-001/setting-constitution.md",
+    "worldbuilding/settings/shared-universe-001/indexes/INDEX.md",
+    "worldbuilding/INDEX.md",
+    "stories/series/project-hearthway-main/project-hearthway-main.work-manifest.json",
+    "stories/series/project-hearthway-main/work-manifest.md"
+  ],
+  "dependencies": [],
+  "conflicts": [],
+  "residual_unknowns": [
+    "Final setting and series titles remain open.",
+    "The series premise, protagonist, structure, voice, ending, and publication contract remain open.",
+    "All detailed geography, history, cultures, institutions, ecology, species, and current events remain proposed.",
+    "Whether the series will adopt either project-level modelling default remains open.",
+    "Ancestry Development remains a proposed successor-System concept."
+  ],
+  "supersedes": [],
+  "superseded_by": null,
+  "reopening_conditions": [
+    "The Author changes the main work form or requests a different stable work identity.",
+    "The shared universe is split into multiple incompatible setting authorities.",
+    "A naming or identity collision makes either stable URI misleading or unusable.",
+    "Repository validation demonstrates that the reciprocal boundary cannot be represented safely.",
+    "The Author explicitly reopens the bootstrap decision."
+  ]
+}

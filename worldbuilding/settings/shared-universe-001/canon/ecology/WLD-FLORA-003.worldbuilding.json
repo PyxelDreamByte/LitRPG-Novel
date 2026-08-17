@@ -1,0 +1,75 @@
+{
+  "$schema": "../../../../../governance/schemas/worldbuilding-record.schema.json",
+  "schema_version": "1.0.0",
+  "id": "WLD-FLORA-003",
+  "record_uri": "canon://world/shared-universe-001/ecology/basin-reserve-web-fragment-viability",
+  "display_code": "WLD-FLORA-003",
+  "setting_id": "setting://shared-universe-001",
+  "title": "Basin reserve-web fragment viability",
+  "workflow_status": "ACCEPTED",
+  "canon_status": "PROVISIONAL",
+  "scope": "Threshold-based survival and possible independent-patch stabilization of severed reserve-web fragments in Project Hearthway's initial basin; usable within shared-setting ecology, geography, culture, economy, and story development.",
+  "claims": [
+    "Severance alone does not guarantee that a reserve-web fragment survives or becomes an independent patch.",
+    "A severed fragment can persist only when it retains enough viable modules, reserves, and functioning connections to sustain itself.",
+    "A viable fragment can slowly stabilize as an independent colony patch.",
+    "An inadequate fragment cannot sustain itself independently and declines and dies.",
+    "Fragmentation is a possible but non-automatic route to formation of a separate reserve-web patch."
+  ],
+  "boundaries": [
+    "No numeric viability threshold, minimum module count, reserve quantity, connection density, or universal weighting among those requirements is established.",
+    "Module anatomy, reserve chemistry, connection anatomy, wound response, resource allocation, and the detailed physiology of stabilization remain undefined.",
+    "The meaning of slowly is not quantified; stabilization timescale, mortality curve, and seasonal variation remain undefined.",
+    "Reconnection, fusion, competition, parasitism, and disease spread remain undefined.",
+    "Whether a fragment is a new biological individual, a clonal continuation, or another organism-level category remains undefined; independent patch is an ecological topology here.",
+    "Survival after displacement and all other reproductive, budding, and dispersal routes remain undefined.",
+    "External soil, mineral, water, temperature, chemistry, energy, and Mana requirements remain undefined.",
+    "No human recognition, terminology, cultivation, harvesting, deliberate propagation, management, ownership, law, belief, or cultural meaning is established.",
+    "Whether and how the System recognizes or appraises a fragment or independent patch remains undefined; no personal identity, shared level, pooled statistics, Skill, class, reward, or progression lineage is established.",
+    "The record establishes no ambient spawning, automatic refill, instant stabilization, guaranteed fragment survival, or multiplication without retained living capacity and ordinary causal support."
+  ],
+  "dependencies": [
+    "author-decision://world/WLD-SETTING-001A",
+    "author-decision://world/WLD-FLORA-002A",
+    "author-decision://world/WLD-FLORA-003A",
+    "canon://world/shared-universe-001/ecology/basin-reserve-web-modular-colonies",
+    "CAL0 WLD1.1D",
+    "CAL0 WLD2.1A+D"
+  ],
+  "contradictions": [],
+  "story_implications": [
+    "A severed area can contain both fragments that slowly stabilize and fragments that decline, producing uneven local outcomes.",
+    "Fragmentation does not create an instant replacement patch, and failed fragments can leave persistent gaps.",
+    "Characters may eventually learn to assess fragment viability, but no such knowledge or practice is established here."
+  ],
+  "system_implications": [
+    "Independent ecological patch status does not by itself create a personal System actor or duplicate identity under CAL0 WLD1.1D.",
+    "Fragment survival and stabilization require retained living structure, finite reserves, functional connections, time, and ordinary causal support under CAL0 WLD2.1A+D.",
+    "Severance is not a spawn, refill, reward, XP, or progression event."
+  ],
+  "research_questions": [
+    "What functional observations define enough viable modules, reserves, and connections without reducing viability to one universal number?",
+    "How do module condition, reserve state, internal topology, season, and environment interact during decline or stabilization?",
+    "How long can fragments remain marginal, and what irreversible changes separate stabilization from terminal decline?",
+    "What wound responses, reconnection routes, fusion behaviour, competition, parasites, and diseases affect fragments?",
+    "Can displaced fragments survive, and what other reproductive or dispersal routes do guild members possess?",
+    "How should biological individuality, genetic continuity, and patch succession be described across fragmentation?",
+    "Does Mana support any ordinary fragment function, and how would its inputs, transformations, capacities, and failures remain causal?",
+    "What observations could eventually let local people identify a viable fragment without establishing that knowledge now?"
+  ],
+  "sources": [
+    "worldbuilding/settings/shared-universe-001/proposals/WLD-FLORA-003.md",
+    "canon://world/shared-universe-001/ecology/basin-reserve-web-modular-colonies",
+    "CAL0 WLD1.1D",
+    "CAL0 WLD2.1A+D",
+    "Author selection on 2026-08-14"
+  ],
+  "supersedes": [],
+  "superseded_by": null,
+  "author_approval": {
+    "decision_uri": "author-decision://world/WLD-FLORA-003A",
+    "accepted_on": "2026-08-14",
+    "accepted_by": "Author",
+    "evidence": "The Author replied 'yes' after reviewing the threshold-based fragment-survival recommendation on 2026-08-14."
+  }
+}

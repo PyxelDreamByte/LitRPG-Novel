@@ -1,0 +1,91 @@
+{
+  "$schema": "../../../../../governance/schemas/worldbuilding-record.schema.json",
+  "schema_version": "1.0.0",
+  "id": "WLD-ECOLOGY-007",
+  "record_uri": "canon://world/shared-universe-001/ecology/basin-lake-mass-breeder-foundational-body-plan",
+  "display_code": "WLD-ECOLOGY-007",
+  "setting_id": "setting://shared-universe-001",
+  "title": "Basin-lake mass-breeder foundational body plan",
+  "workflow_status": "ACCEPTED",
+  "canon_status": "PROVISIONAL",
+  "scope": "Foundational family-grade body plan and ordinary Mana-use boundary for the first mass-breeding aquatic migrant established by WLD-ECOLOGY-006; usable within shared-setting ecology, seasonal planning, organism design, and story development.",
+  "claims": [
+    "The mass-breeding migrant belongs to a fully aquatic alien biological lineage.",
+    "Its established migratory form has a streamlined, laterally flexible trunk supported by springy cartilage.",
+    "Three paired fin-fans and a strong muscular tail form its visible locomotor foundation.",
+    "A wedge-shaped mineralised head shield forms the front of the body.",
+    "Its aquatic respiratory surfaces form folds that may be exposed or held in a more protected configuration and support active aquatic respiration.",
+    "Mana contributes to ordinary tissue reinforcement as part of its physiology rather than creating a specialised activated ability.",
+    "WLD-ECOLOGY-006 continues to govern its egg-ribbon deposition, adult return and mortality, predation, recruitment, and population variability."
+  ],
+  "boundaries": [
+    "Foundational body plan describes a shared structural template; it establishes no formal taxonomic rank, one species, invariant morphology, or number and range of related organisms.",
+    "The descriptive terms establish no fish, shark, vertebrate, gill, fin-ray, jaw, limb, or caudal-fin homology and no direct Earth-animal transplant.",
+    "Fully aquatic establishes no terrestrial locomotion, nesting, air breathing, leaping, crawling, or overland bypass and does not define stranding tolerance.",
+    "Compatibility with migration does not prove outlet passability, route depth, speed, endurance, homing, salinity immunity, or guaranteed return.",
+    "Exact size, proportions, colour, skin, sexual variation, juvenile morphology, and change across life stages remain undefined.",
+    "Support-lattice microstructure, segmentation, stiffness, fatigue, repair, and propulsion gait remain undefined.",
+    "Fin-fan positions, shapes, folding, actuation, specialisation, damage tolerance, and exact functions remain undefined; the three pairs establish no Earth-fin homology.",
+    "Tail profile, terminal structures, movement, burst performance, and sustained performance remain undefined.",
+    "Shield composition, thickness, growth, attachment, repair, openings, sensory role, and ecological function remain undefined; no ramming, digging, feeding, egg-placement, or armour-immunity function is established.",
+    "Respiratory-fold position, structure, ventilation, circulation, exchange capacity, protection, and life-stage variation remain undefined.",
+    "WLD-ECOLOGY-008 establishes dedicated ion-exchange organs and longitudinally distributed wax-like-gel chambers as the established migratory form's foundational osmoregulatory and passive-buoyancy strategy. Exact organ anatomy, transport chemistry, acclimation performance, chamber geometry and material, quantitative density and trim, hydrodynamic correction, and life-stage variation remain undefined.",
+    "Diet, digestion, senses, navigation, schooling, rest, daily timing, fertilisation, reproductive anatomy, release posture, and egg attendance remain undefined.",
+    "Mana source, access, carrier, storage, circulation, tissue targets, capacity, metabolic coupling, cost, recovery, and failure remain undefined.",
+    "Mana-supported tissue reinforcement is not CAL0 level reinforcement, a buff, invulnerability, instant repair, free energy, a spell, Skill, class, aura, reward, specialised activated ability, or universal rule for all fauna.",
+    "Cognition, sapience, formal Skills, classes, levels, appraisal, and human or character knowledge remain undefined.",
+    "Egg ribbons describe egg arrangement only and establish no ribbon-shaped adult or relationship to Lineage II ribbon forms.",
+    "WLD-ECOLOGY-009 separately governs the family-care migrant's foundational body plan and shelter–forage–regroup care interface; it establishes no shared anatomy, ancestry, physiology, or Mana pathway with the mass breeder.",
+    "Food, oxygen, minerals, energy, recovery, heat and waste handling, disease, parasites, injury, predation, route capacity, reproduction, and carrying capacity remain binding ecological constraints."
+  ],
+  "dependencies": [
+    "author-decision://world/WLD-SETTING-001A",
+    "author-decision://world/WLD-ECOLOGY-006A",
+    "canon://world/shared-universe-001/ecology/basin-lake-spring-breeding-pulse",
+    "author-decision://world/WLD-GEOGRAPHY-001A",
+    "canon://world/shared-universe-001/geography/initial-region-physical-scaffold",
+    "author-decision://world/WLD-ECOLOGY-007A",
+    "CAL0 WLD1.1D",
+    "CAL0 WLD1.2D",
+    "CAL0 WLD2.1A+D"
+  ],
+  "contradictions": [],
+  "story_implications": [
+    "An observable encounter can use the animal's flexible swimming silhouette, six fin-fans, muscular tail, leading shield, and changing respiratory exposure.",
+    "Structure and movement can be observed before their functions, internal anatomy, Mana pathways, migration physiology, or taxonomy are known.",
+    "Author-side knowledge of the full body plan does not become automatic protagonist knowledge; each inference requires a source and bounded confidence."
+  ],
+  "system_implications": [
+    "The selected morphology and physiological Mana contribution are world inputs under CAL0 WLD1.1D, WLD1.2D, and WLD2.1A+D, not a System change.",
+    "Ordinary Mana-supported tissue function remains distinct from earned CAL0 reinforcement and requires a later causal source, carrier, capacity, cost, recovery, and failure pathway.",
+    "The body plan creates no universal creature level, pooled identity, retrospective XP, automatic reward, spawn mechanism, refill, or power transfer."
+  ],
+  "research_questions": [
+    "What size, body proportions, stiffness distribution, swimming gait, and route energetics make the freshwater-sea migration viable?",
+    "Where are the three fin-fan pairs positioned, how do they fold or actuate, and how are control functions divided among them?",
+    "What tail profile, chamber geometry, gel properties, buoyant-support distribution, quantitative trim, and active hydrodynamic correction elaborate the WLD-ECOLOGY-008 strategy around the mineralised anterior shield?",
+    "What is the head shield made from, how does it grow and repair, and what ecological functions does it actually perform?",
+    "How are respiratory folds ventilated and protected from drag, silt, parasites, injury, variable oxygen, and osmotic exposure?",
+    "How do the selected ion-exchange organs operate in the established migratory form, and what separate water-and-ion strategies govern eggs and juveniles?",
+    "What source, carrier, circulation, tissue targets, capacity, cost, recovery, and failure modes make ordinary Mana-supported tissue reinforcement causal?",
+    "How do juvenile morphology, maturation, reproduction, diet, senses, navigation, behaviour, related species, and human knowledge elaborate this foundation?"
+  ],
+  "sources": [
+    "worldbuilding/settings/shared-universe-001/proposals/WLD-ECOLOGY-007.md",
+    "stories/series/project-hearthway-main/workbench/runs/2026-08-14-basin-lake-mass-breeder-body-plan/proposal.md",
+    "canon://world/shared-universe-001/ecology/basin-lake-spring-breeding-pulse",
+    "canon://world/shared-universe-001/geography/initial-region-physical-scaffold",
+    "CAL0 WLD1.1D",
+    "CAL0 WLD1.2D",
+    "CAL0 WLD2.1A+D",
+    "Author selection on 2026-08-14"
+  ],
+  "supersedes": [],
+  "superseded_by": null,
+  "author_approval": {
+    "decision_uri": "author-decision://world/WLD-ECOLOGY-007A",
+    "accepted_on": "2026-08-14",
+    "accepted_by": "Author",
+    "evidence": "After the fully aquatic flexible fin-fan body-plan package was presented, the Author replied 'yes' to 'Should this become the mass-spawner’s foundational body plan?' on 2026-08-14."
+  }
+}
