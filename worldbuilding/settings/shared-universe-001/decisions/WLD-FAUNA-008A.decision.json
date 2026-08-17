@@ -1,0 +1,88 @@
+{
+  "$schema": "../../../../governance/schemas/decision-record.schema.json",
+  "schema_version": "1.0.0",
+  "id": "WLD-FAUNA-008A",
+  "decision_uri": "author-decision://world/WLD-FAUNA-008A",
+  "display_code": "WLD-FAUNA-008A",
+  "title": "Basin-lake resident fauna assemblage",
+  "domain": "world",
+  "setting_id": "setting://shared-universe-001",
+  "workflow_status": "ACCEPTED",
+  "canon_status": "PROVISIONAL",
+  "scope": "Qualitative composition of the basin lake's year-round resident animal community, its lineage sources, and its structural relationship to the spring migrant pulse. Species, names, sizes, population figures, resident inventory, branch details, overwintering behaviour, reproduction, human fishing practice, disease, and predation rates remain open. The migrant pulse's established significance is unchanged.",
+  "accepted_on": "2026-08-17",
+  "accepted_by": "Author",
+  "approval_evidence": "After the A/B/C cards were presented with A recommended, the Author selected 'C — Resident-dominant lake' on 2026-08-17. Because the card's wording described migrants as marginal, which would have contradicted WLD-ECOLOGY-006, the scoping was returned to the Author, who confirmed 'Residents structure, pulse still major' on the same date; that confirmed scoping is the accepted rule.",
+  "question": "What year-round animal community does the basin lake hold, which lineages supply it, and how does it relate to the annual spring migrant surge?",
+  "selection": "The lake holds a permanent resident animal community present year-round and independent of the spring pulses, drawn principally from Lineage IV with Lineage V, VI, and VII members also present. The bird-like fishing organisms are Lineage III forelimb-winged branch members, closing their open assignment, and terrestrial shore hunters come from Lineages I and III. Residents must survive winter including regular bay freezing. The resident community is structurally dominant, setting the lake's ecological structure and carrying most of its standing animal biomass year-round, while the migrant pulse arrives into an already-occupied lake as a large, spatially and seasonally concentrated subsidy that does not restructure the residents.",
+  "alternatives": [
+    "LAKE-RES-C: structurally resident-dominant lake with the pulse as a concentrated seasonal subsidy; selected, with Author-confirmed scoping.",
+    "LAKE-RES-A: two-speed community of enduring slow residents plus booming short-lived opportunists; recommended at presentation but not selected.",
+    "LAKE-RES-B: residents outcompeted and suppressed each spring; not selected (a community that loses annually would not persist).",
+    "Pulse-downgrading reading of C: making the migrant pulse a minor seasonal addition; explicitly declined by the Author because it would contradict WLD-ECOLOGY-006 and require reopening it."
+  ],
+  "rationale": "Structural resident dominance gives the lake a permanently populated community whose winter limits, not summer competition, set its ceiling, which fits the established freeze pattern. Scoped as confirmed, it is fully compatible with the accepted spring-pulse record because a lake can be structurally resident-dominated while receiving a large, concentrated, seasonally limited influx. Assigning the bird-like fishers to Lineage III closes a gap both WLD-ECOLOGY-006 and WLD-FAUNA-001 left explicitly open.",
+  "evidence": [
+    "Author selection and scoping confirmation on 2026-08-17.",
+    "worldbuilding/settings/shared-universe-001/proposals/WLD-FAUNA-008.md",
+    "canon://world/shared-universe-001/ecology/basin-lake-spring-breeding-pulse",
+    "canon://world/shared-universe-001/ecology/planetary-faunal-lineage-roster",
+    "canon://world/shared-universe-001/ecology/lineage-iv-foundational-body-plan",
+    "canon://world/shared-universe-001/ecology/lineage-iii-foundational-body-plan",
+    "CAL0 WLD2.1A+D"
+  ],
+  "consequences": [
+    "The lake is populated year-round, so winter and lean-season scenes have a living lake.",
+    "The bird-like fisher lineage assignment is closed, giving Lineage III's two-winged silhouette its first established ecological role.",
+    "Shore hunting connects the lake to the terrestrial lineages I and III.",
+    "Winter rather than summer competition becomes the resident community's binding constraint.",
+    "The migrant pulse retains its full established significance as a concentrated seasonal subsidy.",
+    "Later lake, fishery, and food-web work must build on a resident-structured lake.",
+    "No species, human practice, harvest rate, or System mechanic is created, and no accepted record is reopened."
+  ],
+  "affected_sources": [
+    "worldbuilding/settings/shared-universe-001/proposals/WLD-FAUNA-008.md",
+    "worldbuilding/settings/shared-universe-001/canon/ecology/WLD-FAUNA-008.worldbuilding.json",
+    "worldbuilding/settings/shared-universe-001/canon/ecology/WLD-FAUNA-008.md",
+    "worldbuilding/settings/shared-universe-001/setting-constitution.md",
+    "worldbuilding/settings/shared-universe-001/canon/README.md",
+    "worldbuilding/settings/shared-universe-001/proposals/README.md",
+    "worldbuilding/settings/shared-universe-001/decisions/README.md",
+    "worldbuilding/settings/shared-universe-001/indexes/INDEX.md",
+    "worldbuilding/INDEX.md",
+    "workbench/proposals/flora-fauna-development-plan.md",
+    "README.md"
+  ],
+  "dependencies": [
+    "WLD-SETTING-001A",
+    "WLD-ECOLOGY-006A",
+    "WLD-ECOLOGY-006",
+    "WLD-FAUNA-001A",
+    "WLD-FAUNA-001",
+    "WLD-FAUNA-003",
+    "WLD-FAUNA-004",
+    "WLD-FAUNA-005",
+    "WLD-FAUNA-006",
+    "WLD-FAUNA-007",
+    "WLD-GEOGRAPHY-001",
+    "CAL0 WLD1.2D",
+    "CAL0 WLD2.1A+D"
+  ],
+  "conflicts": [],
+  "residual_unknowns": [
+    "Species, names, sizes, population figures, and the resident inventory remain open.",
+    "Which Lineage IV branches occur, and whether any carry head shields or gel chambers, remain open.",
+    "Whether any resident is a Lineage V vault-bearing form remains open.",
+    "Overwintering behaviour, spawning, and resident reproduction remain open.",
+    "Human fishing practice, seasons, gear, and institutions remain open.",
+    "Disease, parasites, and predation rates remain open.",
+    "How structural dominance resolves under later quantitative productivity modelling remains open."
+  ],
+  "supersedes": [],
+  "superseded_by": null,
+  "reopening_conditions": [
+    "Structural resident dominance cannot be reconciled with later quantitative pulse or productivity modelling.",
+    "A concrete contradiction with an accepted or provisional record emerges.",
+    "The Author explicitly reopens the decision."
+  ]
+}

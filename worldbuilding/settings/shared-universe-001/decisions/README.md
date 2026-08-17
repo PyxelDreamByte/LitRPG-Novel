@@ -88,7 +88,10 @@
 - [`WLD-FLORA-010A`](WLD-FLORA-010A.md) — selects the provisional
   thicket-and-relict basin returning-woodland composition recorded by
   `WLD-FLORA-010`.
+- [`WLD-FAUNA-008A`](WLD-FAUNA-008A.md) — selects the provisional
+  resident-dominant basin-lake fauna assemblage recorded by `WLD-FAUNA-008`,
+  with Author-confirmed scoping that preserves the accepted migrant pulse.
 
-No fictional Project Hearthway claim has been fully accepted; the forty-four setting
+No fictional Project Hearthway claim has been fully accepted; the forty-five setting
 records above have bounded provisional authority. A displayed working name or
 conversational preference is not, by itself, a canon-promotion transaction.

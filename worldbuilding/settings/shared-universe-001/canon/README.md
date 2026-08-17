@@ -1,6 +1,6 @@
 # Canon
 
-No fully accepted Project Hearthway setting record exists. Forty-four bounded
+No fully accepted Project Hearthway setting record exists. Forty-five bounded
 provisional setting records are available for declared downstream use:
 
 - [`WLD-ECOLOGY-001`](ecology/WLD-ECOLOGY-001.md) — Lineage II
@@ -92,6 +92,10 @@ provisional setting records are available for declared downstream use:
 - [`WLD-FLORA-010`](ecology/WLD-FLORA-010.md) — basin returning-woodland
   composition: young vault-seeder and tower thicket with scattered relict old
   towers, scarce mature stems, hard passage, and browsing-contested advance.
+- [`WLD-FAUNA-008`](ecology/WLD-FAUNA-008.md) — basin-lake resident fauna
+  assemblage: a structurally dominant year-round community drawn principally
+  from Lineage IV, with the bird-like fishers assigned to Lineage III and the
+  migrant pulse retained as a concentrated seasonal subsidy.
 - [`WLD-HISTORY-001`](history/WLD-HISTORY-001.md) — combined three-phase
   imperial collapse arc with multi-causal contributing pressures and an
   explicitly open trigger, collapse-era wildlife and pest-like-race

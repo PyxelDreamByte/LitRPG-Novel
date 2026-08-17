@@ -95,6 +95,10 @@
 - [`WLD-FLORA-010`](WLD-FLORA-010.md) — retained option analysis for the
   basin returning-woodland composition and succession now represented by a
   bounded provisional record.
+- [`WLD-FAUNA-008`](WLD-FAUNA-008.md) — retained option analysis for the
+  basin-lake resident fauna assemblage, including the Author-confirmed
+  scoping of resident dominance, now represented by a bounded provisional
+  record.
 
 Other current conversation material remains under `workbench/proposals/` until
 split into bounded proposals. Material placed here remains non-canonical unless

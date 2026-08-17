@@ -86,8 +86,11 @@ where fauna diets and habitats demand it.
 
 Assemble the initial-basin community from the scaffolded roster:
 
-- resident lake fauna and the bird-like fishing organisms (lineage
-  assignments, competition with the migrants);
+- resident lake fauna and the bird-like fishing organisms — done 2026-08-17,
+  `WLD-FAUNA-008`: a structurally dominant year-round community principally
+  from Lineage IV, bird-like fishers resolved as Lineage III forelimb-winged
+  branches, shore hunters from Lineages I and III, with the accepted spring
+  pulse preserved in full as a concentrated seasonal subsidy;
 - complementary basin flora guilds filling kingdom slots — the returning
   woodland is done (2026-08-17, `WLD-FLORA-010` thicket-and-relict, which
   also made the first kingdom assignments); wet-margin, water, and decomposer

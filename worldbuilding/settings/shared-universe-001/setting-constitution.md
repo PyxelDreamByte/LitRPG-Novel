@@ -62,7 +62,7 @@ explicitly accepted.
 `WLD-ECOLOGY-001` through `WLD-ECOLOGY-010`, `WLD-GEOGRAPHY-001` through
 `WLD-GEOGRAPHY-002`, `WLD-FLORA-001` through `WLD-FLORA-010`,
 `WLD-LOCATION-001` through `WLD-LOCATION-005`, `WLD-FAUNA-001` through
-`WLD-FAUNA-007`, `WLD-HISTORY-001`, `WLD-CULTURE-001` through
+`WLD-FAUNA-008`, `WLD-HISTORY-001`, `WLD-CULTURE-001` through
 `WLD-CULTURE-008`, and `WLD-EVENT-001` are bounded provisional fictional
 records. They govern only
 the selected Lineage II vegetation-architect ecology,
@@ -90,7 +90,8 @@ outlet-passage choreography; and the basin reserve-web guild's
   thread-decomposer weaver-and-bloom, and crust-and-cushion revival growth
   architectures; and the six scaffolded faunal foundational body plans for
   Lineages I, III, IV, V, VI, and VII; and the basin's thicket-and-relict
-  returning-woodland composition. They do not
+  returning-woodland composition and its resident-dominant lake fauna
+  assemblage. They do not
   promote
   the rest of the staging capture or establish a particular nonlocal animal,
   product, route, traveller, or tale.
@@ -131,7 +132,7 @@ invent a successor mechanic by implication.
   relationship, plus the bounded provisional `WLD-ECOLOGY-001` through
   `WLD-ECOLOGY-010`, `WLD-GEOGRAPHY-001` through `WLD-GEOGRAPHY-002`,
   `WLD-FLORA-001` through `WLD-FLORA-010`, `WLD-LOCATION-001` through
-  `WLD-LOCATION-005`, `WLD-FAUNA-001` through `WLD-FAUNA-007`,
+  `WLD-LOCATION-005`, `WLD-FAUNA-001` through `WLD-FAUNA-008`,
   `WLD-HISTORY-001`, `WLD-CULTURE-001` through `WLD-CULTURE-008`, and
   `WLD-EVENT-001` setting records
 - Decision register: `worldbuilding/settings/shared-universe-001/decisions/`
