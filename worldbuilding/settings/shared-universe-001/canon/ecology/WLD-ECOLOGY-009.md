@@ -46,8 +46,8 @@ by `WLD-ECOLOGY-006`.
   dimensions, orientation, pressure source, internal fluid, chambering, fibres,
   valves, muscles, stiffness, control, repair, and failure remain open.
 - `Paddle-column` establishes a living locomotor structure, not an Earth leg or
-  fin homology, substrate walking, rowing efficiency, hovering, climbing,
-  terrestrial movement, or overland bypass.
+  fin homology, general terrestrial walking, rowing efficiency, hovering,
+  climbing, overland movement, or overland bypass.
 - Travelling margin waves establish local tissue motion that contributes to
   locomotion, not environmental waves, Mana pulses, sonar, telepathy, an aura,
   group control, or a specialised ability. `WLD-ECOLOGY-010` later establishes
@@ -66,8 +66,8 @@ by `WLD-ECOLOGY-006`.
   passage choreography, and `WLD-GEOGRAPHY-002` later supplies a qualitative
   mixed outlet sequence of candidate contact surfaces and holding pockets.
   None of these records establishes measured drag, a continuous compatible
-  bed-or-margin chain, passable shallows, bottom walking, bottom resting,
-  quantitative outlet profile, route depth, substrate continuity, seasonal
+  bed-or-margin chain, passable shallows, general terrestrial walking, guaranteed
+  bed contact at every pause, quantitative outlet profile, route depth, substrate continuity, seasonal
   hydraulics, salinity profile, guaranteed low-velocity holding water, speed,
   endurance, homing, passage success, survival, or guaranteed return.
 - `WLD-ECOLOGY-006` continues to govern seasonal arrival, one-warm-season care,

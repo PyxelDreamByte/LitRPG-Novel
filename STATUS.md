@@ -1,13 +1,12 @@
 # Project Status
 
-**Repository phase:** base environment scaffold validated; provisionally scoped shared-setting development and proposed main-series authoring initialized; a second shared-setting shell (Continuity One) separately instantiated with foundational setting authority pending
+**Repository phase:** base environment scaffold validated; provisionally scoped shared-setting development and proposed main-series authoring initialized; the parallel Continuity One bootstrap consolidated into Project Hearthway and archived
 **Canon status:** CAL0 and the accepted project constraints it contains are
 binding. No standalone manuscript, chapter delta, character profile, or modular
 world-canon record is fully accepted; the bounded Project Hearthway records
-listed below are accepted with provisional authority. The Continuity One
-initiation decision is accepted, but its manifest and constitution remain
-`DRAFT`/`PROPOSED` with no adopting works, and the relationship between the two
-shared-setting containers is an open Author question.
+listed below are accepted with provisional authority. Shared-setting authority
+is consolidated in `setting://shared-universe-001` by `WLD-SETTING-002A`; the
+superseded Continuity One shell is archived provenance.
 **LitRPG System:** CAL0 v0.7.0, `VALIDATED_BASELINE_WITH_BOUNDED_RESIDUALS`  
 **Canonical System specification:** v0.89  
 **Calibration annex:** v2.9  
@@ -27,10 +26,8 @@ reinforcement, and salt-organ and wax-like-gel physiology; and the family-care
   finite combined spring–well–cistern water system, and broad fair-weather
   unladen-downhill and laden-uphill lake-road journey anchors, plus its
   recurring upper-shore staging place and several short seasonal spurs to
-  changeable nearby shore contacts, are `PROVISIONAL`. Continuity One has no
-  detailed worldbuilding; all of its fictional foundation layers remain
-  unanswered. All other substantive selections remain non-canonical, and no
-  fictional record is fully accepted.
+  changeable nearby shore contacts, are `PROVISIONAL`. All other substantive
+  selections remain non-canonical, and no fictional record is fully accepted.
 
 The base repository scaffold, static fixture contracts, and deterministic
 System checks are validated. A contained live model-mediated pilot exercised
@@ -41,8 +38,7 @@ evidence retained under `governance/evidence/live-pilot-001/` and
 `governance/evidence/live-pilot-001-authoring/`. The overall nine-skill,
 eight-agent, and complete end-to-end chapter workflow remain `PENDING`; the
 Project Hearthway bootstrap establishes no fictional canon, accepted story
-contract, manuscript, or publication readiness, and no synthetic content has
-entered Continuity One canon.
+contract, manuscript, or publication readiness.
 
 ## Completed inputs
 
@@ -59,7 +55,8 @@ entered Continuity One canon.
 - Nine Author-callable workflows and eight specialist agent roles added.
 - Deterministic validation and continuous integration added; the imported baseline passes 121 tests.
 - Recorded two optional project-level human-reference modelling defaults (`WLD-SOUL-001A` and `WLD-PRENATAL-001A`) and one Author-approved deferral (`WLD-RARITY-001D`) without creating setting canon or adopting them into any setting.
-- Instantiated `setting://continuity-one` as a `DRAFT`/`PROPOSED` shared-setting shell with an accepted initiation decision (`WLD-CONTINUITY-INIT-001A`), zero adopting works, and an unanswered layered constitution.
+- Consolidated the parallel `setting://continuity-one` bootstrap into Project Hearthway (`WLD-SETTING-002A`, 2026-08-17): absorbed its shared-core-with-overlays authority topology, superseded `WLD-CONTINUITY-INIT-001A`, and archived the shell under `archive/settings/continuity-one/`.
+- Reconciled the 2026-08-17 two-track consistency audit (`WLD-RECON-001A`): narrowed `WLD-ECOLOGY-009`'s locomotion denials to `WLD-ECOLOGY-010`'s actual hedges, bound juvenile regrouping to autumn seaward descent with the spring ascent not established to include mobile young, clarified autumn current assistance as ordinary year-round through-flow, and aligned fourteen drifted Markdown surfaces to their stricter structured wording.
 - Opened the `DRAFT` / `PROPOSED` Project Hearthway setting container and preserved the Author's current universe, region, settlement, ecology, and creature-lineage selections as non-canonical staging evidence.
 - Provisionally approved only the stable Project Hearthway identity and its reciprocal relationship to the proposed ongoing series `work://series/project-hearthway-main`; no detailed setting or story claim was promoted.
 - Provisionally approved `WLD-ECOLOGY-001`, establishing the Lineage II crown/ribbon vegetation-architect feeding roles; the broad seasonal movement and initial-settlement relationship are now governed by `WLD-ECOLOGY-004`, while taxonomy, exact physiology, route details, and Mana remain open.
@@ -160,15 +157,11 @@ entered Continuity One canon.
 
 ## Next authoring milestones
 
-1. Resolve the relationship between `setting://shared-universe-001` (Project
-   Hearthway) and `setting://continuity-one` through an explicit Author
-   decision — consolidate, supersede, or deliberately keep both — before
-   further shared-setting authority work in either container.
-2. Continue splitting the foundation capture into bounded history, culture,
+1. Continue splitting the foundation capture into bounded history, culture,
    other locations, and current-events proposals under the main series workflow without
    inheriting project defaults silently; quantitative geography and local maps
    remain later gates beneath `WLD-GEOGRAPHY-001`.
-3. Continue regional ecology from `WLD-ECOLOGY-001` through `WLD-ECOLOGY-010`
+2. Continue regional ecology from `WLD-ECOLOGY-001` through `WLD-ECOLOGY-010`
    and `WLD-FLORA-001` through `WLD-FLORA-003` into exact reserve-web species,
    module anatomy, patch scale and transfer physiology, fragment thresholds and
    timescale, wound response, distribution, complementary flora, route geography
@@ -183,19 +176,15 @@ entered Continuity One canon.
    carer structure, other Mana
    adaptations, and human responses within the adopted physical scaffold,
    preserving each unresolved boundary until its own Author gate.
-4. Develop the series premise, protagonist, long-form promise, voice, and structure in a separate proposed series contract.
-5. Route Ancestry Development through a separate governed System-change review; do not edit CAL0 by implication.
-6. Retain the validated static contracts and synthetic non-canonical evaluation specifications as scaffold-pass evidence, and continue remaining workflow evaluations only through separately bounded pilots.
-7. If Continuity One remains a live frontier after the container-resolution
-   decision, answer its foundational layers through bounded `SETTING_AUTHORITY`
-   decisions in dependency order; project defaults become setting-local rules
-   only when the Author explicitly raises them.
+3. Develop the series premise, protagonist, long-form promise, voice, and structure in a separate proposed series contract.
+4. Route Ancestry Development through a separate governed System-change review; do not edit CAL0 by implication.
+5. Retain the validated static contracts and synthetic non-canonical evaluation specifications as scaffold-pass evidence, and continue remaining workflow evaluations only through separately bounded pilots.
 
 ## Known boundaries
 
 - Reference sheets, named comparison characters, worked scenarios, cohort outcomes, adversarial cases, and all isolation-suite material are fixtures, not setting or story canon.
-- `WLD-SOUL-001A` and `WLD-PRENATAL-001A` are optional project defaults only; neither Project Hearthway, Continuity One, nor the main series adopts or assumes them, and a future work must adopt them explicitly.
-- Universal rarity proportions are deferred until a scoped object type, rarity dimension, eligible denominator, population, period, and evidence base exist; the deferral is not a Continuity One distribution.
+- `WLD-SOUL-001A` and `WLD-PRENATAL-001A` are optional project defaults only; neither Project Hearthway nor the main series adopts or assumes them, and a future work must adopt them explicitly.
+- Universal rarity proportions are deferred until a scoped object type, rarity dimension, eligible denominator, population, period, and evidence base exist; the deferral is not a setting distribution.
 - Cross-species scaling and injury incidence remain inactive inputs until a defined setting or work requires them.
 - The I6 story-facing guides identify compatibility with specification v0.88 and annex v2.8. They remain content-pinned projections inside CAL0 v0.7.0; the v0.89 specification and v2.9 annex prevail if a conflict is found.
 - Architecture is closed. Further System work is controlled maintenance, setting/story integration, or an explicitly approved successor change.

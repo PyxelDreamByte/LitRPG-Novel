@@ -24,7 +24,13 @@ fully accepted.
 - Author decision URI: `author-decision://world/WLD-SETTING-001A`
 - Adopting work IDs: `work://series/project-hearthway-main`
 - Relationship to any shared setting: this is the provisionally recognized
-  shared setting for the main series
+  shared setting for the main series, and since
+  `author-decision://world/WLD-SETTING-002A` the sole live shared-setting
+  container
+- Authority topology: one shared setting core with governed compatible
+  work-local overlays, absorbed from the superseded
+  `author-decision://world/WLD-CONTINUITY-INIT-001A` by
+  `author-decision://world/WLD-SETTING-002A`
 - Temporal/spatial boundary: a universe intended to support multiple stories,
   eras, planets, and star systems, with initial development centred on one
   planet and one local region
@@ -67,8 +73,10 @@ mosaic and overlapping spring migrant pulse; the mass breeder's body plan,
 ordinary Mana boundary, and selected salt-organ and wax-like-gel physiology;
 the family-care migrant's living-vault foundation, mobile
 shelter–forage–regroup care interface, and qualitative margin-ratchet
-outlet-passage choreography; and the basin reserve-web guild's modular
-  colony-patch organization and fragment-viability rule; and the initial
+outlet-passage choreography; and the basin reserve-web guild's
+  major-but-non-exclusive open-ground standing, living subsurface reserves,
+  seasonal growth structures, modular colony-patch organization, and
+  fragment-viability rule; and the initial
   ridge-spur settlement's unequal-shoulder working landscape, lakeward road,
   combined spring–well–cistern water system, and broad fair-weather reference
   bands for an unladen downhill journey and a laden uphill return; and the

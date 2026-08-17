@@ -21,7 +21,8 @@ Mana-use boundary for the first, mass-breeding aquatic migrant established by
 1. The mass-breeding migrant belongs to a fully aquatic alien biological lineage.
 2. Its established migratory form has a streamlined, laterally flexible trunk
    supported by springy cartilage.
-3. Three paired fin-fans and a strong muscular tail form its visible locomotor
+3. Three pairs of fin-fans (six fin-fans) and a strong muscular tail form its
+   visible locomotor
    foundation.
 4. A wedge-shaped mineralised head shield forms the front of the body.
 5. Its aquatic respiratory surfaces form folds that may be exposed or held in
@@ -81,7 +82,7 @@ Mana-use boundary for the first, mass-breeding aquatic migrant established by
 
 ## Dependencies and implications
 
-- Dependencies: `WLD-SETTING-001A`, `WLD-ECOLOGY-006A`,
+- Dependencies: `WLD-SETTING-001A`, `WLD-ECOLOGY-007A`, `WLD-ECOLOGY-006A`,
   `WLD-ECOLOGY-006`, `WLD-GEOGRAPHY-001A`, `WLD-GEOGRAPHY-001`, CAL0
   `WLD1.1D`, CAL0 `WLD1.2D`, and CAL0 `WLD2.1A+D`
 - Story implications: an observable encounter can use the animal's flexible

@@ -58,8 +58,8 @@ winter/summer pattern of Project Hearthway's initial region.
   working landscape and combined spring–well–cistern water system. Exact wall
   form, ownership, road dimensions, and hydrogeology remain outside this record.
 - Exact map scale, place names, distances, travel times, elevations, slopes,
-  contours, river courses, lake form, quantitative outlet profile, and coast
-  shape remain open. `WLD-GEOGRAPHY-002` later establishes only the outlet's
+  contours, river courses, lake form, quantitative outlet profile, gap
+  dimensions, and coast shape remain open. `WLD-GEOGRAPHY-002` later establishes only the outlet's
   qualitative mixed-reach feature sequence.
 - Exact geological dates, rock types, glacial sequence, soil map, mineral
   resources, inundation cause, former shorelines, and cultural consequences
@@ -93,7 +93,7 @@ winter/summer pattern of Project Hearthway's initial region.
 
 ## Dependencies and implications
 
-- Dependencies: `WLD-SETTING-001A`, `WLD-ECOLOGY-004`, `WLD-ECOLOGY-005`,
+- Dependencies: `WLD-SETTING-001A`, `WLD-GEOGRAPHY-001A`, `WLD-ECOLOGY-004`, `WLD-ECOLOGY-005`,
   `WLD-FLORA-001`, CAL0 `WLD1.2D`, and CAL0 `WLD2.1A+D`
 - Story implications: later scenes may use the regional gradient and seasonal
   hazards, but each location, route, event, and character inference requires its

@@ -38,7 +38,8 @@ migratory form governed by `WLD-ECOLOGY-006` and `WLD-ECOLOGY-007`.
    transport, time, maintenance, waste handling, recovery, and repair. Exchange
    capacity can lag or saturate; chambers can leak, rupture, become infected,
    or lose effectiveness as condition and reserves decline.
-9. Existing ordinary Mana support may reinforce their living tissues, but it
+9. Existing ordinary Mana support reinforces their living tissues as
+   established by `WLD-ECOLOGY-007`, but it
    does not create gel mass, move ions without carriers and energy, provide
    instant acclimation, or act as an activated buoyancy ability.
 

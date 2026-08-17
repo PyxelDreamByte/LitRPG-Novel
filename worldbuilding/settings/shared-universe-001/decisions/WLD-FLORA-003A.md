@@ -13,7 +13,7 @@ accepted_by: Author
 approval_evidence: "The Author replied 'yes' after reviewing the threshold-based fragment-survival recommendation."
 supersedes: []
 superseded_by: null
-source_proposals: ["WLD-FLORA-003.md"]
+source_proposals: ["worldbuilding/settings/shared-universe-001/proposals/WLD-FLORA-003.md"]
 structured_record: "WLD-FLORA-003A.decision.json"
 ---
 

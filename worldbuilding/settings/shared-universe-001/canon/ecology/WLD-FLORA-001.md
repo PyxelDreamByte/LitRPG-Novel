@@ -19,7 +19,8 @@ initial basin.
 ## Provisional claims
 
 1. The reserve-web guild is a major but non-exclusive part of the basin's
-   open-ground vegetation and contains multiple vegetation forms.
+   open-ground vegetation and contains multiple vegetation forms rather than
+   one species or one continuous basin-wide organism.
 2. Members maintain living subsurface networks that store water and nutrients
    and support persistence through winter, surface fire, episodic flooding,
    and grazing.
@@ -29,7 +30,7 @@ initial basin.
    harvest young growth and seasonal reproductive structures.
 5. Browsing and trampling can create openings within reserve-web stands and the
    wider vegetation mosaic.
-6. Excessive pressure can exhaust stored reserves and kill networks; regrowth
+6. Excessive or repeated pressure can exhaust stored reserves and kill networks; regrowth
    is finite rather than automatic.
 
 ## Boundaries
@@ -47,7 +48,7 @@ initial basin.
 
 ## Dependencies and implications
 
-- Dependencies: `WLD-ECOLOGY-001`, `WLD-ECOLOGY-002`, `WLD-ECOLOGY-004`, `WLD-FLORA-001A`, CAL0 WLD1.2D and WLD2.1A+D
+- Dependencies: `WLD-SETTING-001A`, `WLD-ECOLOGY-001`, `WLD-ECOLOGY-002`, `WLD-ECOLOGY-004`, `WLD-FLORA-001A`, CAL0 WLD1.2D and WLD2.1A+D
 - Story implications: seasonal forage and cover, disturbance mosaics, finite recovery, and grounded forage failure
 - System implications: ordinary rate-limited biological renewal only
 - Contradictions: none identified

@@ -31,13 +31,14 @@ Project Hearthway's developing Lineage II crown and ribbon branches.
 - Two-stage symbiont inheritance is governed by `WLD-ECOLOGY-003`; exact chamber
   and reproductive anatomy, transfer behaviours, symbiont identity, maturation,
   compatibility, metabolic values, specific diseases, and treatments remain open.
-- No universal specialised Mana-catalytic organ is established.
+- This record does not establish a specialised Mana-catalytic organ for the
+  family.
 - No System progression, reward, Skill, trait payload, or Ancestry Development
   mechanic is established.
 
 ## Dependencies and implications
 
-- Dependencies: `WLD-ECOLOGY-001`, `WLD-ECOLOGY-002A`, CAL0 WLD1.2D and WLD2.1A+D
+- Dependencies: `WLD-SETTING-001A`, `WLD-ECOLOGY-001`, `WLD-ECOLOGY-002A`, CAL0 WLD1.2D and WLD2.1A+D
 - Story implications: illness, forage disruption, altered migration, and practical animal knowledge
 - System implications: ordinary Mana-supported physiology only
 - Contradictions: none identified

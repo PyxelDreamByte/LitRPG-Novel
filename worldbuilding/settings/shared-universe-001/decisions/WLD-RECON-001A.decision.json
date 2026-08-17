@@ -1,0 +1,77 @@
+{
+  "$schema": "../../../../governance/schemas/decision-record.schema.json",
+  "schema_version": "1.0.0",
+  "id": "WLD-RECON-001A",
+  "decision_uri": "author-decision://world/WLD-RECON-001A",
+  "display_code": "WLD-RECON-001A",
+  "title": "Reconcile audit findings across the eighteen provisional setting records",
+  "domain": "world",
+  "setting_id": "setting://shared-universe-001",
+  "workflow_status": "ACCEPTED",
+  "canon_status": "PROVISIONAL",
+  "scope": "Bounded corrections to already-accepted provisional records from the 2026-08-17 consistency audit: narrowing one over-broad denial, binding juvenile regrouping to autumn descent, clarifying the autumn assisting current, and aligning Markdown surfaces to their stricter structured-record wording. No new organism, place, event, or mechanic is created.",
+  "question": "A two-track consistency audit of the eighteen provisional records found one over-broad denial (WLD-ECOLOGY-009 denying bed-braced locomotion that WLD-ECOLOGY-010 establishes), one seasonal impossibility (regrouping mobile young before advances when no passage season contains mobile young), one under-specified current claim (autumn current assistance), and a set of Markdown surfaces that drop or weaken qualifiers carried by their structured twins. How are these reconciled?",
+  "selection": "Narrow WLD-ECOLOGY-009's denials to WLD-ECOLOGY-010's actual hedges (no general terrestrial walking, no guaranteed bed contact at every pause) so the bed-braced margin-ratchet stays established; bind WLD-ECOLOGY-010's juvenile regrouping to autumn seaward descent and record that the spring ascent is not established to include mobile young; clarify that the assisting autumn current is the outlet's ordinary year-round seaward through-flow with no peak flood required; and align the drifted Markdown surfaces to their structured twins' stricter wording, including restored qualifiers, the six-fin-fan clarification, WLD-ECOLOGY-008's tissue-reinforcement modality following WLD-ECOLOGY-007, completed dependency lines, repo-relative source-proposal paths, and the constitution's full WLD-FLORA-001 description.",
+  "alternatives": [
+    "Weaken WLD-ECOLOGY-010's choreography instead of narrowing WLD-ECOLOGY-009's denial.",
+    "Make young present at spring ascent by placing hatching or development at sea.",
+    "Declare which passages include mobile young an explicit open question in both records.",
+    "Record all audit findings as known tensions without changing any accepted record."
+  ],
+  "rationale": "The corrections restore agreement between jointly accepted records while preserving every deliberately open boundary. Binding regrouping to autumn descent matches WLD-ECOLOGY-006's one-warm-season rearing without constraining the still-open reproductive mode, and the through-flow clarification removes a false implication that descent needs the spring freshet.",
+  "evidence": [
+    "governance/evidence/WB-RUN-2026-08-17-RECON-001/sources/consistency-audit-findings.md",
+    "governance/evidence/WB-RUN-2026-08-17-RECON-001/approved-change-set.md"
+  ],
+  "consequences": [
+    "WLD-ECOLOGY-009 no longer denies the bed-braced ratchet WLD-ECOLOGY-010 establishes; its aquatic-only boundary is preserved as general-terrestrial-walking and every-pause denials.",
+    "WLD-ECOLOGY-010's regrouping claim is bound to autumn seaward descent; the spring ascent is recorded as not established to include mobile young.",
+    "WLD-ECOLOGY-010 records that autumn current assistance is the ordinary year-round seaward through-flow.",
+    "Fourteen Markdown drift sites across the record, decision, and constitution surfaces now match their structured twins' stricter wording.",
+    "All records keep their original approving decisions; this decision governs only the reconciliation deltas."
+  ],
+  "affected_sources": [
+    "worldbuilding/settings/shared-universe-001/canon/ecology/WLD-ECOLOGY-009.md",
+    "worldbuilding/settings/shared-universe-001/canon/ecology/WLD-ECOLOGY-009.worldbuilding.json",
+    "worldbuilding/settings/shared-universe-001/canon/ecology/WLD-ECOLOGY-010.md",
+    "worldbuilding/settings/shared-universe-001/canon/ecology/WLD-ECOLOGY-010.worldbuilding.json",
+    "worldbuilding/settings/shared-universe-001/canon/ecology/WLD-ECOLOGY-001.md",
+    "worldbuilding/settings/shared-universe-001/canon/ecology/WLD-ECOLOGY-002.md",
+    "worldbuilding/settings/shared-universe-001/canon/ecology/WLD-ECOLOGY-003.md",
+    "worldbuilding/settings/shared-universe-001/canon/ecology/WLD-ECOLOGY-004.md",
+    "worldbuilding/settings/shared-universe-001/canon/ecology/WLD-ECOLOGY-005.md",
+    "worldbuilding/settings/shared-universe-001/canon/ecology/WLD-ECOLOGY-005.worldbuilding.json",
+    "worldbuilding/settings/shared-universe-001/canon/ecology/WLD-ECOLOGY-006.md",
+    "worldbuilding/settings/shared-universe-001/canon/ecology/WLD-ECOLOGY-007.md",
+    "worldbuilding/settings/shared-universe-001/canon/ecology/WLD-ECOLOGY-007.worldbuilding.json",
+    "worldbuilding/settings/shared-universe-001/canon/ecology/WLD-ECOLOGY-008.md",
+    "worldbuilding/settings/shared-universe-001/canon/ecology/WLD-ECOLOGY-008.worldbuilding.json",
+    "worldbuilding/settings/shared-universe-001/canon/ecology/WLD-FLORA-001.md",
+    "worldbuilding/settings/shared-universe-001/canon/geography/WLD-GEOGRAPHY-001.md",
+    "worldbuilding/settings/shared-universe-001/canon/location/WLD-LOCATION-001.md",
+    "worldbuilding/settings/shared-universe-001/decisions/WLD-FLORA-002A.md",
+    "worldbuilding/settings/shared-universe-001/decisions/WLD-FLORA-003A.md",
+    "worldbuilding/settings/shared-universe-001/setting-constitution.md"
+  ],
+  "dependencies": [
+    "author-decision://world/WLD-SETTING-001A",
+    "author-decision://world/WLD-ECOLOGY-006A",
+    "author-decision://world/WLD-ECOLOGY-009A",
+    "author-decision://world/WLD-ECOLOGY-010A"
+  ],
+  "conflicts": [],
+  "residual_unknowns": [
+    "Reproduction, birth or hatching, and early immobile stages remain open; binding regrouping to descent does not select a reproductive mode.",
+    "Seasonal outlet hydraulics, route continuity, and passage feasibility remain open under their existing gates.",
+    "Remaining audit MINOR observations on index layout, decision-template harmonization, and open-geometry seams stay unresolved by design."
+  ],
+  "supersedes": [],
+  "superseded_by": null,
+  "reopening_conditions": [
+    "A later record or chapter needs young present on the spring ascent.",
+    "Quantitative outlet hydraulics contradict the ordinary through-flow clarification."
+  ],
+  "accepted_on": "2026-08-17",
+  "accepted_by": "Author",
+  "approval_evidence": "In the 2026-08-17 consistency re-evaluation, the Author was shown each conflict with resolution options and explicitly selected narrowing WLD-ECOLOGY-009, autumn regrouping, and the full cleanup batch including the through-flow clarification."
+}

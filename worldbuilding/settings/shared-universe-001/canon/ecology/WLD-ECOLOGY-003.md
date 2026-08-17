@@ -42,7 +42,7 @@ and recover the symbionts used by their fermentation lattice.
 
 ## Dependencies and implications
 
-- Dependencies: `WLD-ECOLOGY-001`, `WLD-ECOLOGY-002`, `WLD-ECOLOGY-003A`, CAL0 WLD1.2D and WLD2.1A+D
+- Dependencies: `WLD-SETTING-001A`, `WLD-ECOLOGY-001`, `WLD-ECOLOGY-002`, `WLD-ECOLOGY-003A`, CAL0 WLD1.2D and WLD2.1A+D
 - Story implications: fostering, isolation risk, local dietary adaptation, recovery, disease, and route management
 - System implications: ordinary inherited and socially acquired physiology only
 - Contradictions: none identified

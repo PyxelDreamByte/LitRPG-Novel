@@ -1,0 +1,105 @@
+{
+  "$schema": "../../schemas/workflow-evidence-manifest.schema.json",
+  "schema_version": "1.0.0",
+  "run_id": "run://author-decision/WB-RUN-2026-08-17-SETTING-002",
+  "evidence_kind": "ACCEPTED_OUTCOME",
+  "workflow": "author-decision",
+  "completed_on": "2026-08-17",
+  "canonicality": "ACCEPTED",
+  "promotion": "ALLOWED_WITH_AUTHOR_GATE",
+  "source_manifest": [
+    {
+      "path": "governance/evidence/WB-RUN-2026-08-17-SETTING-002/sources/container-overlap-finding.md",
+      "revision": "overlap-finding@2026-08-17",
+      "sha256": "sha256:ead233963c874c9296ed468749960043916fd6805da7ae944c272bec57fdc9d1"
+    },
+    {
+      "path": "archive/settings/continuity-one/decisions/WLD-CONTINUITY-INIT-001A.decision.json",
+      "revision": "superseded-marked@2026-08-17",
+      "sha256": "sha256:80e1874a5be61aa2cd6e1c00f9d1d52bb5bda65c1714134808dc89502d457a81"
+    },
+    {
+      "path": "worldbuilding/settings/shared-universe-001/decisions/WLD-SETTING-001A.decision.json",
+      "revision": "WLD-SETTING-001A@2026-08-13",
+      "sha256": "sha256:2913096476c321f8b35c6872aa5d84a36e0fd692803ccf4d88e7aa5d66979cff"
+    }
+  ],
+  "target_artifacts": [
+    {
+      "path": "worldbuilding/settings/shared-universe-001/decisions/WLD-SETTING-002A.decision.json",
+      "revision": "WLD-SETTING-002A@2026-08-17",
+      "sha256": "sha256:777d270ac2e5eb590e8700112d3796dae39a4f85fc334666e740155b22ad0360"
+    },
+    {
+      "path": "worldbuilding/settings/shared-universe-001/decisions/WLD-SETTING-002A.md",
+      "revision": "WLD-SETTING-002A@2026-08-17",
+      "sha256": "sha256:aca6eee26ca63a84aa5bc028e35b9ce7a59d25bf35af8d81dcff3874efa24160"
+    },
+    {
+      "path": "worldbuilding/settings/shared-universe-001/setting-constitution.md",
+      "revision": "consolidated-and-reconciled@2026-08-17",
+      "sha256": "sha256:f14f6cd046fd7f98936a83f4d910b0470c6a9731ef1db948b9c18ec6f74ccd33"
+    },
+    {
+      "path": "worldbuilding/settings/shared-universe-001/indexes/INDEX.md",
+      "revision": "WLD-SETTING-002A-indexed@2026-08-17",
+      "sha256": "sha256:ac5df784e6dcf7f9f486389e6dcfc3bd23db3afb095ee14180be78b836f0619a"
+    },
+    {
+      "path": "worldbuilding/INDEX.md",
+      "revision": "WLD-SETTING-002A-indexed@2026-08-17",
+      "sha256": "sha256:ec1cc62d7d5bc39d694e8ae2e7147777d07558bcb2a21709f92f0f6d20401c55"
+    },
+    {
+      "path": "archive/settings/continuity-one/decisions/WLD-CONTINUITY-INIT-001A.md",
+      "revision": "superseded-marked@2026-08-17",
+      "sha256": "sha256:87b2044244a0862187183bfd804a4df76e7a2d83fc4901fe4f1f6e232271d9da"
+    },
+    {
+      "path": "worldbuilding/settings/README.md",
+      "revision": "WLD-SETTING-002A-updated@2026-08-17",
+      "sha256": "sha256:a2f39a6afe4a47cc48b2446e93b42e23c6458778a7f5ddf2b8853728993d543d"
+    },
+    {
+      "path": "worldbuilding/README.md",
+      "revision": "WLD-SETTING-002A-updated@2026-08-17",
+      "sha256": "sha256:5462e6dd24ad26ef99c4a4e03fd52cc70cc12ae98f4f5be9d58ad797b3aefd6f"
+    },
+    {
+      "path": "README.md",
+      "revision": "WLD-SETTING-002A-updated@2026-08-17",
+      "sha256": "sha256:5d4f6a5cc0158fa7ab6fcbe0e35ffca8e1da14973539da447e8eaf4b0cf6b879"
+    },
+    {
+      "path": "STATUS.md",
+      "revision": "WLD-SETTING-002A-updated@2026-08-17",
+      "sha256": "sha256:86ba98743cac9315ac6ce551e7b2880d1975d43323a04021aae1c929d3e277a8"
+    }
+  ],
+  "findings": [
+    "CONFIRMED: two Author-gated shared-setting bootstraps existed for one first-shared-setting role after the 2026-08-17 branch merge; the duplication was structural, with no fictional claim in conflict.",
+    "RESOLVED: shared-setting authority consolidated into setting://shared-universe-001; WLD-CONTINUITY-INIT-001A superseded; the SET-INIT2A shared-core-with-overlays topology absorbed into the constitution; the shell archived as provenance.",
+    "BOUNDARY PRESERVED: Continuity One's unanswered foundation map was not imported, and no fictional claim, project default, or story authority changed.",
+    "RESIDUAL: the orphaned setting name Enuma in the project-level decision register remains unresolved earlier vocabulary."
+  ],
+  "validations": [
+    "python tools/validate_governance.py: PASS with 60 repository records, 5 valid fixtures, 5 rejected fixtures.",
+    "python tools/validate_workspaces.py: PASS with 4 work manifests, 3 setting manifests, 2 workflow evaluations, 4 rejected workspace/eval fixtures.",
+    "python -m unittest discover -s tools/tests: PASS with 3 evidence-mode regression tests.",
+    "python tools/validate_repository.py: PASS including complete System validation and 125 non-CAL0 JSON files."
+  ],
+  "retained_files": [
+    "governance/evidence/WB-RUN-2026-08-17-SETTING-002/WB-RUN-2026-08-17-SETTING-002.workflow-evidence.json",
+    "governance/evidence/WB-RUN-2026-08-17-SETTING-002/final-findings.md",
+    "governance/evidence/WB-RUN-2026-08-17-SETTING-002/approved-change-set.md",
+    "governance/evidence/WB-RUN-2026-08-17-SETTING-002/validation-summary.md",
+    "governance/evidence/WB-RUN-2026-08-17-SETTING-002/sources/container-overlap-finding.md"
+  ],
+  "approval": {
+    "decision_uri": "author-decision://world/WLD-SETTING-002A",
+    "decided_by": "Author",
+    "decision": "ACCEPT",
+    "decided_on": "2026-08-17",
+    "evidence": "The Author was shown the container overlap with four resolution options in an explicit multiple-choice prompt on 2026-08-17 and selected 'Fold into Hearthway'."
+  }
+}

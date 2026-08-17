@@ -1,0 +1,181 @@
+{
+  "$schema": "../../schemas/workflow-evidence-manifest.schema.json",
+  "schema_version": "1.0.0",
+  "run_id": "run://author-decision/WB-RUN-2026-08-17-RECON-001",
+  "evidence_kind": "ACCEPTED_OUTCOME",
+  "workflow": "audit-story+author-decision",
+  "completed_on": "2026-08-17",
+  "canonicality": "ACCEPTED",
+  "promotion": "ALLOWED_WITH_AUTHOR_GATE",
+  "source_manifest": [
+    {
+      "path": "governance/evidence/WB-RUN-2026-08-17-RECON-001/sources/consistency-audit-findings.md",
+      "revision": "audit-findings@2026-08-17",
+      "sha256": "sha256:fda746a8d6f2c80a7ce5f552babcbb274feff7cceaf5f1f8d75c930b3051f8ec"
+    },
+    {
+      "path": "worldbuilding/settings/shared-universe-001/decisions/WLD-ECOLOGY-009A.decision.json",
+      "revision": "WLD-ECOLOGY-009A@2026-08-14",
+      "sha256": "sha256:b066225975d8956ea64c31c6b3df9b6038d53f8de60a9843546e6135fefb1314"
+    },
+    {
+      "path": "worldbuilding/settings/shared-universe-001/decisions/WLD-ECOLOGY-010A.decision.json",
+      "revision": "WLD-ECOLOGY-010A@2026-08-14",
+      "sha256": "sha256:725b9b711da7f85b37df204a856b83988f007869e5156251068aa66e2c0d8e49"
+    }
+  ],
+  "target_artifacts": [
+    {
+      "path": "worldbuilding/settings/shared-universe-001/decisions/WLD-RECON-001A.decision.json",
+      "revision": "WLD-RECON-001A@2026-08-17",
+      "sha256": "sha256:59c163625ae014238deb4be958b707766b0cfd8034d61c1f7edd691f68ada296"
+    },
+    {
+      "path": "worldbuilding/settings/shared-universe-001/decisions/WLD-RECON-001A.md",
+      "revision": "WLD-RECON-001A@2026-08-17",
+      "sha256": "sha256:297ac4ab81fb6bb44591fb3497a1e572554ea34e65393ab7bfa3ac5dcf077ab6"
+    },
+    {
+      "path": "worldbuilding/settings/shared-universe-001/indexes/INDEX.md",
+      "revision": "WLD-RECON-001A-indexed@2026-08-17",
+      "sha256": "sha256:ac5df784e6dcf7f9f486389e6dcfc3bd23db3afb095ee14180be78b836f0619a"
+    },
+    {
+      "path": "worldbuilding/INDEX.md",
+      "revision": "WLD-RECON-001A-indexed@2026-08-17",
+      "sha256": "sha256:ec1cc62d7d5bc39d694e8ae2e7147777d07558bcb2a21709f92f0f6d20401c55"
+    },
+    {
+      "path": "worldbuilding/settings/shared-universe-001/canon/ecology/WLD-ECOLOGY-009.md",
+      "revision": "reconciled-for-WLD-RECON-001A@2026-08-17",
+      "sha256": "sha256:608ac26da64cc3e69834f4d57ef6ae1b6d359d78add38b2da4a45a7203a8647f"
+    },
+    {
+      "path": "worldbuilding/settings/shared-universe-001/canon/ecology/WLD-ECOLOGY-009.worldbuilding.json",
+      "revision": "reconciled-for-WLD-RECON-001A@2026-08-17",
+      "sha256": "sha256:da81c6608f0381972df9ad41394f599e0d38c1786305732cddbbddcc75c91a03"
+    },
+    {
+      "path": "worldbuilding/settings/shared-universe-001/canon/ecology/WLD-ECOLOGY-010.md",
+      "revision": "reconciled-for-WLD-RECON-001A@2026-08-17",
+      "sha256": "sha256:6ea2db7f855ee3a9e582d404f5ed18725fe201bc8e34be7ae5e27e828c4b08db"
+    },
+    {
+      "path": "worldbuilding/settings/shared-universe-001/canon/ecology/WLD-ECOLOGY-010.worldbuilding.json",
+      "revision": "reconciled-for-WLD-RECON-001A@2026-08-17",
+      "sha256": "sha256:d0928c5ef6618ca0f793e3c80e5dda7da574bf22bf5262b8e711b578ee6f30d5"
+    },
+    {
+      "path": "worldbuilding/settings/shared-universe-001/canon/ecology/WLD-ECOLOGY-001.md",
+      "revision": "reconciled-for-WLD-RECON-001A@2026-08-17",
+      "sha256": "sha256:b6b7ad2c36ad25fc8b3ce6ab849d011900f4bb4d45c4e8df71ccba96cc7881e9"
+    },
+    {
+      "path": "worldbuilding/settings/shared-universe-001/canon/ecology/WLD-ECOLOGY-002.md",
+      "revision": "reconciled-for-WLD-RECON-001A@2026-08-17",
+      "sha256": "sha256:ba3e2cfa75a9551f222bed67b6449a6fdf48286b7d120b8ebddff8baec7f6614"
+    },
+    {
+      "path": "worldbuilding/settings/shared-universe-001/canon/ecology/WLD-ECOLOGY-003.md",
+      "revision": "reconciled-for-WLD-RECON-001A@2026-08-17",
+      "sha256": "sha256:af70383d3bef0452458a771a556bedc7c3abbbd72ca81fe4c0fdb113fd8f8863"
+    },
+    {
+      "path": "worldbuilding/settings/shared-universe-001/canon/ecology/WLD-ECOLOGY-004.md",
+      "revision": "reconciled-for-WLD-RECON-001A@2026-08-17",
+      "sha256": "sha256:f11ccdd5926b6647369c25b16aaca8a6c826f86904bf472d2e4718369d762e8d"
+    },
+    {
+      "path": "worldbuilding/settings/shared-universe-001/canon/ecology/WLD-ECOLOGY-005.md",
+      "revision": "reconciled-for-WLD-RECON-001A@2026-08-17",
+      "sha256": "sha256:db1443bca48e0dc9314cd2ec098b02378acab8041d4d05213713cf16c2f95d75"
+    },
+    {
+      "path": "worldbuilding/settings/shared-universe-001/canon/ecology/WLD-ECOLOGY-005.worldbuilding.json",
+      "revision": "reconciled-for-WLD-RECON-001A@2026-08-17",
+      "sha256": "sha256:c6d439271d1ea7c94422337c14dfdb0e89ff81afa63a6e17e10838129ae8870c"
+    },
+    {
+      "path": "worldbuilding/settings/shared-universe-001/canon/ecology/WLD-ECOLOGY-006.md",
+      "revision": "reconciled-for-WLD-RECON-001A@2026-08-17",
+      "sha256": "sha256:22ce6e91dda10794ce8e812e0c52473a32ade21f7c2422be58298d1264dce755"
+    },
+    {
+      "path": "worldbuilding/settings/shared-universe-001/canon/ecology/WLD-ECOLOGY-007.md",
+      "revision": "reconciled-for-WLD-RECON-001A@2026-08-17",
+      "sha256": "sha256:4f684247f6bcb9bfdb1f6e4e9b172b2ec79ef5c0fb6b32a12cd93bfe9280e27e"
+    },
+    {
+      "path": "worldbuilding/settings/shared-universe-001/canon/ecology/WLD-ECOLOGY-007.worldbuilding.json",
+      "revision": "reconciled-for-WLD-RECON-001A@2026-08-17",
+      "sha256": "sha256:ad4ae03ff94d07c2ce3bbf684a55230679de39e3e638d5a17171f238f2727cb4"
+    },
+    {
+      "path": "worldbuilding/settings/shared-universe-001/canon/ecology/WLD-ECOLOGY-008.md",
+      "revision": "reconciled-for-WLD-RECON-001A@2026-08-17",
+      "sha256": "sha256:da335c8dc06aff563a0b0b73a46069f7b781dd6b744f8ed28f3e2420c4503ee7"
+    },
+    {
+      "path": "worldbuilding/settings/shared-universe-001/canon/ecology/WLD-ECOLOGY-008.worldbuilding.json",
+      "revision": "reconciled-for-WLD-RECON-001A@2026-08-17",
+      "sha256": "sha256:7c6719ab1546f6099c384ff4e20a625c222e9ab04caa7f4d3728f198fff56cd9"
+    },
+    {
+      "path": "worldbuilding/settings/shared-universe-001/canon/ecology/WLD-FLORA-001.md",
+      "revision": "reconciled-for-WLD-RECON-001A@2026-08-17",
+      "sha256": "sha256:96a39f8bd35db4b93d4da5eb97682bd1e9756d085b60d8495c672ca230322437"
+    },
+    {
+      "path": "worldbuilding/settings/shared-universe-001/canon/geography/WLD-GEOGRAPHY-001.md",
+      "revision": "reconciled-for-WLD-RECON-001A@2026-08-17",
+      "sha256": "sha256:88e50b9a3a369126bba27d122b49b44ff05e7538841c1aa0b77da519826e67e3"
+    },
+    {
+      "path": "worldbuilding/settings/shared-universe-001/canon/location/WLD-LOCATION-001.md",
+      "revision": "reconciled-for-WLD-RECON-001A@2026-08-17",
+      "sha256": "sha256:f2d3b7283523f8b9dccc3f97bb48aafada790143c7c03a7d715cbf25a3bae5c3"
+    },
+    {
+      "path": "worldbuilding/settings/shared-universe-001/decisions/WLD-FLORA-002A.md",
+      "revision": "reconciled-for-WLD-RECON-001A@2026-08-17",
+      "sha256": "sha256:8d3e0d57ee8efe0cd8e38c2ffa387b8faef5c3234045672ab8514d749343a59a"
+    },
+    {
+      "path": "worldbuilding/settings/shared-universe-001/decisions/WLD-FLORA-003A.md",
+      "revision": "reconciled-for-WLD-RECON-001A@2026-08-17",
+      "sha256": "sha256:17bb9a8c9668f3a11cef03ec48ef41c5ed19e50d320855e296c117b4c20ebc06"
+    },
+    {
+      "path": "worldbuilding/settings/shared-universe-001/setting-constitution.md",
+      "revision": "reconciled-for-WLD-RECON-001A@2026-08-17",
+      "sha256": "sha256:f14f6cd046fd7f98936a83f4d910b0470c6a9731ef1db948b9c18ec6f74ccd33"
+    }
+  ],
+  "findings": [
+    "RESOLVED MAJOR: WLD-ECOLOGY-009's locomotion denials narrowed to WLD-ECOLOGY-010's actual hedges; the bed-braced margin-ratchet stays established with the aquatic-only boundary preserved.",
+    "RESOLVED MAJOR: WLD-ECOLOGY-010 binds juvenile regrouping to autumn seaward descent and records the spring ascent as not established to include mobile young; reproduction, hatching, and early stages remain open.",
+    "RESOLVED MAJOR: the assisting autumn current is recorded as the outlet's ordinary year-round seaward through-flow, with no peak seasonal flood required or established.",
+    "RESOLVED MINOR: fourteen Markdown surfaces aligned to their stricter structured wording, including restored qualifiers, the six-fin-fan clarification, WLD-ECOLOGY-008's reinforcement modality, one repaired structured-scope clause, completed dependency lines, and repo-relative source_proposals paths.",
+    "BOUNDARY PRESERVED: every deliberately open question flagged as covered by the audits remains open under its existing gates; no quantitative value, organism, place, or event was added."
+  ],
+  "validations": [
+    "python tools/validate_governance.py: PASS with 60 repository records, 5 valid fixtures, 5 rejected fixtures.",
+    "python tools/validate_workspaces.py: PASS with 4 work manifests, 3 setting manifests, 2 workflow evaluations, 4 rejected workspace/eval fixtures.",
+    "python -m unittest discover -s tools/tests: PASS with 3 evidence-mode regression tests.",
+    "python tools/validate_repository.py: PASS including complete System validation and 125 non-CAL0 JSON files."
+  ],
+  "retained_files": [
+    "governance/evidence/WB-RUN-2026-08-17-RECON-001/WB-RUN-2026-08-17-RECON-001.workflow-evidence.json",
+    "governance/evidence/WB-RUN-2026-08-17-RECON-001/final-findings.md",
+    "governance/evidence/WB-RUN-2026-08-17-RECON-001/approved-change-set.md",
+    "governance/evidence/WB-RUN-2026-08-17-RECON-001/validation-summary.md",
+    "governance/evidence/WB-RUN-2026-08-17-RECON-001/sources/consistency-audit-findings.md"
+  ],
+  "approval": {
+    "decision_uri": "author-decision://world/WLD-RECON-001A",
+    "decided_by": "Author",
+    "decision": "ACCEPT",
+    "decided_on": "2026-08-17",
+    "evidence": "The Author was shown each audit conflict with resolution options in an explicit multiple-choice prompt on 2026-08-17 and selected narrowing WLD-ECOLOGY-009, autumn regrouping, and the full cleanup batch."
+  }
+}

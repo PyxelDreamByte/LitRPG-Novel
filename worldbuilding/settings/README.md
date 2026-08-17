@@ -1,18 +1,15 @@
 # Setting Isolation
 
-Two real setting containers currently exist:
+One live setting container currently exists:
 
 - [`Project Hearthway`](shared-universe-001/) — stable ID
   `setting://shared-universe-001`, temporary display title,
   `ACCEPTED` / `PROVISIONAL` identity with a reciprocal
   `work://series/project-hearthway-main` relationship and eighteen bounded
   provisional setting records. No fictional setting record is fully accepted.
-- [`Continuity One`](continuity-one/) — stable ID `setting://continuity-one`,
-  provisional display title, `DRAFT`/`PROPOSED`, with no accepted detailed
-  setting canon or adopting works.
-
-The overlap between these two shared-setting containers is an open Author
-question; neither supersedes the other until an explicit decision says so.
+  Since `author-decision://world/WLD-SETTING-002A` it is the sole live
+  shared-setting container; the superseded parallel bootstrap Continuity One
+  is archived under `archive/settings/continuity-one/`.
 
 When the Author begins another setting, create:
 

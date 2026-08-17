@@ -49,7 +49,7 @@ settlement.
 
 ## Dependencies and implications
 
-- Dependencies: `WLD-ECOLOGY-001` through `WLD-ECOLOGY-003`, `WLD-ECOLOGY-004A`, CAL0 WLD1.2D and WLD2.1A+D
+- Dependencies: `WLD-SETTING-001A`, `WLD-ECOLOGY-001` through `WLD-ECOLOGY-003`, `WLD-ECOLOGY-004A`, CAL0 WLD1.2D and WLD2.1A+D
 - Story implications: seasonal closures and losses, exposed lower land, grounded route-diversion crises, and recurring margin pressure
 - System implications: ordinary migration and population ecology only
 - Contradictions: none identified

@@ -24,8 +24,10 @@ and founded anatomically by `WLD-ECOLOGY-009`.
 3. The vault settles low between surges.
 4. The directly observable rhythm is
    `settle → ripple → brace → surge → settle`.
-5. Before advances, the caregiving form normally attempts to regroup
-   mobile young beneath the refuge.
+5. During autumn seaward descent, before advances and braked slide
+   segments, the caregiving form normally attempts to regroup mobile young
+   beneath the refuge; the spring ascent is not established to include
+   mobile young.
 6. During autumn descent, the same structures brake and steer
    current-assisted slides.
 7. The behaviour requires a compatible bed-or-margin contact and
@@ -56,7 +58,9 @@ and founded anatomically by `WLD-ECOLOGY-009`.
 - Autumn braking and steering establish organism-side control during a
   current-assisted slide, not a guaranteed current, exact direction, current
   speed, depth, channel, passive-drift strategy, or successful control outcome.
-- Regrouping before an advance is a normal attempt, not guaranteed
+  The assisting current is the outlet's ordinary year-round seaward
+  through-flow; no peak seasonal flood is required or established.
+- Regrouping before a descent advance is a normal attempt, not guaranteed
   coordination, compulsory juvenile response, perfect communication, physical
   attachment, shared identity, or survival. Young may fail to return, be
   displaced, or be lost.
@@ -104,7 +108,8 @@ and founded anatomically by `WLD-ECOLOGY-009`.
   CAL0 `WLD1.1D`, CAL0 `WLD1.2D`, and CAL0 `WLD2.1A+D`
 - Story implications: a scene can show a visible cycle of low pauses,
   travelling ripples, successive bracing, short surges, fallible juvenile
-  regrouping, and autumn braking or steering when conditions permit; observers
+  regrouping during autumn descent, and autumn braking or steering when
+  conditions permit; observers
   can encounter conditional traces, exposed transitions, fatigue, injury, or
   predator opportunities without receiving hidden mechanism or route knowledge
 - System implications: bounded ordinary biological behaviour only; no CAL0

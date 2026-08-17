@@ -52,7 +52,7 @@
     "Which future work, if any, first adopts the setting."
   ],
   "supersedes": [],
-  "superseded_by": null,
+  "superseded_by": "author-decision://world/WLD-SETTING-002A",
   "reopening_conditions": [
     "The Author chooses a different stable setting identity or authority topology.",
     "A later approved continuity model requires branching shared authorities.",

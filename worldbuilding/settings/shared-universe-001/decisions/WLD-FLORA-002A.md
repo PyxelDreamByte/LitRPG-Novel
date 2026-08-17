@@ -13,7 +13,7 @@ accepted_by: Author
 approval_evidence: "The Author replied 'yes' after reviewing the modular colony-patch recommendation."
 supersedes: []
 superseded_by: null
-source_proposals: ["WLD-FLORA-002.md"]
+source_proposals: ["worldbuilding/settings/shared-universe-001/proposals/WLD-FLORA-002.md"]
 structured_record: "WLD-FLORA-002A.decision.json"
 ---
 

@@ -1,0 +1,63 @@
+{
+  "$schema": "../../../../governance/schemas/decision-record.schema.json",
+  "schema_version": "1.0.0",
+  "id": "WLD-SETTING-002A",
+  "decision_uri": "author-decision://world/WLD-SETTING-002A",
+  "display_code": "WLD-SETTING-002A",
+  "title": "Consolidate shared-setting authority into Project Hearthway",
+  "domain": "world",
+  "setting_id": "setting://shared-universe-001",
+  "workflow_status": "ACCEPTED",
+  "canon_status": "ACCEPTED",
+  "scope": "Resolution of the parallel shared-setting bootstraps only: setting://shared-universe-001 remains the sole live shared-setting container; the accepted Continuity One authority topology is absorbed; the continuity-one shell is archived. No fictional claim, project default, or story authority is created or changed.",
+  "question": "Two Author-gated shared-setting bootstraps were created in parallel working sessions: setting://continuity-one (accepted initiation, empty authority shell, no adopting works) and setting://shared-universe-001 (provisional identity, adopted by the proposed main series, eighteen bounded provisional records). Which container carries shared-setting authority going forward?",
+  "selection": "Fold into Project Hearthway: setting://shared-universe-001 remains the sole live shared-setting container. The one-shared-core-with-governed-compatible-work-local-overlays authority topology accepted by SET-INIT2A is absorbed into the Project Hearthway setting constitution. author-decision://world/WLD-CONTINUITY-INIT-001A is superseded by this decision, and the continuity-one shell is archived under archive/settings/continuity-one/ with its supersession recorded in place.",
+  "alternatives": [
+    "Keep both containers as deliberately separate universes, leaving Continuity One dormant for future works.",
+    "Retire Continuity One entirely without absorbing its authority-topology selection.",
+    "Rebase the eighteen Hearthway records and the main-series adoption into continuity-one and retire shared-universe-001."
+  ],
+  "rationale": "The two containers were competing bootstraps of the same first-shared-setting role, not two intended universes. shared-universe-001 carries all detailed development and the reciprocal main-series relationship, so consolidation into it preserves the most accepted structure with the least churn, while absorbing the only substantive authority Continuity One added: its explicit cross-work authority topology.",
+  "evidence": [
+    "worldbuilding consistency re-evaluation on 2026-08-17 after merging the parallel branches: both containers claimed the first-shared-setting role on their own branch's registers",
+    "archive/settings/continuity-one/decisions/WLD-CONTINUITY-INIT-001A.md",
+    "worldbuilding/settings/shared-universe-001/decisions/WLD-SETTING-001A.md"
+  ],
+  "consequences": [
+    "The Project Hearthway setting constitution now records the absorbed authority topology: one shared setting core with governed compatible work-local overlays.",
+    "author-decision://world/WLD-CONTINUITY-INIT-001A is marked superseded_by this decision and its shell tree is retained under archive/settings/continuity-one/ as provenance, never current authority.",
+    "Project-level registers list one live setting container again and record the supersession trail.",
+    "Continuity One's unanswered layered foundation map is not imported; Project Hearthway's own gates continue to govern its open questions."
+  ],
+  "affected_sources": [
+    "worldbuilding/settings/shared-universe-001/setting-constitution.md",
+    "worldbuilding/settings/shared-universe-001/indexes/INDEX.md",
+    "worldbuilding/INDEX.md",
+    "worldbuilding/README.md",
+    "worldbuilding/settings/README.md",
+    "worldbuilding/canon/README.md",
+    "README.md",
+    "STATUS.md",
+    "archive/settings/continuity-one/decisions/WLD-CONTINUITY-INIT-001A.decision.json",
+    "archive/settings/continuity-one/decisions/WLD-CONTINUITY-INIT-001A.md"
+  ],
+  "dependencies": [
+    "author-decision://world/WLD-SETTING-001A",
+    "author-decision://world/WLD-CONTINUITY-INIT-001A"
+  ],
+  "conflicts": [],
+  "residual_unknowns": [
+    "Final display titles for the setting and the main series remain temporary.",
+    "Whether any element sketched in Continuity One's unanswered foundation map is later proposed for Project Hearthway remains a future gate.",
+    "The orphaned setting name 'Enuma' in the project-level decision register remains unresolved vocabulary from an earlier naming pass."
+  ],
+  "supersedes": ["author-decision://world/WLD-CONTINUITY-INIT-001A"],
+  "superseded_by": null,
+  "reopening_conditions": [
+    "The Author decides a genuinely separate second universe is needed and re-instantiates it as a new setting container.",
+    "A later Author decision revises the shared-core-with-overlays authority topology."
+  ],
+  "accepted_on": "2026-08-17",
+  "accepted_by": "Author",
+  "approval_evidence": "In the 2026-08-17 consistency re-evaluation, the Author was shown the container overlap with four resolution options and explicitly selected 'Fold into Hearthway'."
+}

@@ -73,14 +73,14 @@ initial freshwater basin lake.
 - Bird-like describes an ecological resemblance only. It establishes no
   feathers, flight, Earth-bird anatomy, taxonomy, or named clade.
 - Human exploitation establishes a mortality channel, not a fishing technique,
-  institution, law, ownership regime, trade, ritual, or sustainable harvest.
+  institution, law, ownership regime, trade, ritual, preservation method, or sustainable harvest.
 - No single ordinary predator, flood, or fishery routinely destroys the entire
   generation; this establishes no sustainable harvest rate and does not prevent
   exceptional or compound collapse.
 - Family care does not guarantee survival. The juvenile predator-prey link is
   important but non-exclusive, and no equilibrium or fixed annual return is
   established.
-- Adult repeat breeding, family-care reproductive mode, carers, brood size,
+- Adult repeat breeding, family-care reproductive mode, number or sex of carers, brood size,
   care behaviours beyond the shelter–forage–regroup pattern selected by
   `WLD-ECOLOGY-009` and the bounded attempted regroup-and-advance sequence
   selected by `WLD-ECOLOGY-010`, diets beyond the selected prey link, disease,
@@ -91,14 +91,14 @@ initial freshwater basin lake.
   for the mass breeder only. Its exact Mana anatomy and mechanism, all
   specialised abilities, and the family-care migrant's Mana use remain open,
   as do creature progression, formal Skills, classes, levels, appraisal, and
-  cultural knowledge.
+  cultural or character knowledge.
 - These are ordinary living populations. No System spawning, seasonal reset,
   refill, pooled cohort identity, shared progression, loot rule, or automatic
   XP, attribute, trait, Skill, Mana, or power transfer is established.
 
 ## Dependencies and implications
 
-- Dependencies: `WLD-SETTING-001A`, `WLD-ECOLOGY-005A`,
+- Dependencies: `WLD-SETTING-001A`, `WLD-ECOLOGY-006A`, `WLD-ECOLOGY-005A`,
   `WLD-ECOLOGY-005`, `WLD-GEOGRAPHY-001A`, `WLD-GEOGRAPHY-001`, CAL0
   `WLD1.1D`, CAL0 `WLD1.2D`, and CAL0 `WLD2.1A+D`
 - Story implications: spring and summer lake scenes can show changing migrant

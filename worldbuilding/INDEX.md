@@ -2,7 +2,7 @@
 
 **Accepted detailed setting canon:** none  
 **Provisional detailed setting records:** eighteen  
-**Instantiated settings:** two — one provisionally authorized, one proposed shell  
+**Instantiated settings:** one provisionally authorized (a superseded parallel bootstrap is archived)  
 **Project-level provisional defaults:** two  
 **Project-level deferred distributions:** one
 
@@ -17,28 +17,32 @@ landscape, its lake-road practical travel scale, and its upper-shore staging and
 seasonal-spur endpoint arrangement—have provisional authority;
 no detailed fictional claim has been fully accepted.
 
-A second shared-setting shell, provisionally titled `Continuity One`, was
-separately initiated with accepted identity and authority topology but no
-detailed worldbuilding, no adopting works, and no accepted detailed canon. The
-relationship between the two shared-setting containers is an open Author
-question; neither supersedes the other until an explicit decision says so.
+A parallel shared-setting bootstrap, provisionally titled `Continuity One`,
+was consolidated into Project Hearthway on 2026-08-17 by
+`author-decision://world/WLD-SETTING-002A`: its shared-core-with-overlays
+authority topology was absorbed, its initiation decision is superseded, and
+its shell is archived under
+[`archive/settings/continuity-one/`](../archive/settings/continuity-one/) as
+provenance, never current authority.
 
 The project-level decisions below remain reusable modelling guardrails or
-deferrals, not canon of either setting or facts about any world.
+deferrals, not setting canon or facts about any world.
 
 ## Setting-development register
 
 | Setting ID | Editorial title | Status | Index |
 |---|---|---|---|
 | `setting://shared-universe-001` | Project Hearthway (temporary) | `ACCEPTED` / `PROVISIONAL`; identity and `work://series/project-hearthway-main` relationship only | [`settings/shared-universe-001/indexes/INDEX.md`](settings/shared-universe-001/indexes/INDEX.md) |
-| `setting://continuity-one` | Continuity One (provisional) | `DRAFT` / `PROPOSED`; accepted initiation authority only, no adopting works, no accepted detailed canon | [`settings/continuity-one/indexes/INDEX.md`](settings/continuity-one/indexes/INDEX.md) |
+| `setting://continuity-one` | Continuity One (superseded) | `SUPERSEDED` by `author-decision://world/WLD-SETTING-002A`; archived | [`archive/settings/continuity-one/indexes/INDEX.md`](../archive/settings/continuity-one/indexes/INDEX.md) |
 
 ## Setting authority decisions
 
 | ID | Decision URI | Disposition | Scope |
 |---|---|---|---|
 | [`WLD-SETTING-001A`](settings/shared-universe-001/decisions/WLD-SETTING-001A.md) | `author-decision://world/WLD-SETTING-001A` | `PROVISIONAL` | Only the stable Project Hearthway setting identity and reciprocal relationship with the proposed main series; no fictional claims or project defaults |
-| [`WLD-CONTINUITY-INIT-001A`](settings/continuity-one/decisions/WLD-CONTINUITY-INIT-001A.md) | `author-decision://world/WLD-CONTINUITY-INIT-001A` | `ACCEPTED` | Only the stable Continuity One identity, shared-core-with-overlays authority topology, and unanswered constitutional decision map; no fictional claims |
+| [`WLD-SETTING-002A`](settings/shared-universe-001/decisions/WLD-SETTING-002A.md) | `author-decision://world/WLD-SETTING-002A` | `ACCEPTED` | Consolidates shared-setting authority into Project Hearthway, absorbs the shared-core-with-overlays topology, supersedes `WLD-CONTINUITY-INIT-001A`, and archives the continuity-one shell |
+| [`WLD-RECON-001A`](settings/shared-universe-001/decisions/WLD-RECON-001A.md) | `author-decision://world/WLD-RECON-001A` | `PROVISIONAL` | Bounded audit reconciliation: narrowed `WLD-ECOLOGY-009` denials, autumn-bound juvenile regrouping and through-flow clarification in `WLD-ECOLOGY-010`, and Markdown alignment to stricter structured wording |
+| [`WLD-CONTINUITY-INIT-001A`](../archive/settings/continuity-one/decisions/WLD-CONTINUITY-INIT-001A.md) | `author-decision://world/WLD-CONTINUITY-INIT-001A` | `SUPERSEDED` by `WLD-SETTING-002A` | Historical: the parallel Continuity One initiation; identity, topology, and unanswered decision map only |
 | [`WLD-ECOLOGY-001A`](settings/shared-universe-001/decisions/WLD-ECOLOGY-001A.md) | `author-decision://world/WLD-ECOLOGY-001A` | `PROVISIONAL` | Lineage II crown and ribbon branches use the bounded divergent vegetation-architect ecology |
 | [`WLD-ECOLOGY-002A`](settings/shared-universe-001/decisions/WLD-ECOLOGY-002A.md) | `author-decision://world/WLD-ECOLOGY-002A` | `PROVISIONAL` | Lineage II uses a distributed microbial fermentation lattice with branch-specific processing strategies |
 | [`WLD-ECOLOGY-003A`](settings/shared-universe-001/decisions/WLD-ECOLOGY-003A.md) | `author-decision://world/WLD-ECOLOGY-003A` | `PROVISIONAL` | Lineage II uses prenatal founder cultures followed by post-birth social maturation of digestive symbionts |

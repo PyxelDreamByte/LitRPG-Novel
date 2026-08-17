@@ -14,7 +14,7 @@ accepted_on: "2026-08-12"
 accepted_by: Author
 approval_evidence: "The Author explicitly selected SET-INIT1A, SET-INIT2A, and SET-INIT3A on 2026-08-12."
 supersedes: []
-superseded_by: null
+superseded_by: "author-decision://world/WLD-SETTING-002A"
 ---
 
 # WLD-CONTINUITY-INIT-001A — Initiate the Continuity One shared-setting shell
@@ -95,3 +95,11 @@ The Author selected `SET-INIT1A`, `SET-INIT2A`, and `SET-INIT3A` on 2026-08-12.
 `author-decision://world/WLD-CONTINUITY-INIT-001A`; accepted by the Author on
 2026-08-12 through the explicit selection of `SET-INIT1A`, `SET-INIT2A`, and
 `SET-INIT3A`.
+
+## Supersession
+
+On 2026-08-17 the Author consolidated shared-setting authority into
+`setting://shared-universe-001` (Project Hearthway) via
+`author-decision://world/WLD-SETTING-002A`, absorbing the SET-INIT2A
+authority topology. This container is archived provenance, never current
+authority.

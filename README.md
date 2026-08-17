@@ -20,7 +20,7 @@ The Author is the sole authority for accepting canon, plot, voice, and changes t
 - [`litrpg-system/story-integration/`](litrpg-system/story-integration/) — machine-readable chapter, progression, and state contracts.
 - [`.agents/skills/`](.agents/skills/) — Author-callable repository workflows.
 - [`.codex/agents/`](.codex/agents/) — specialist drafting and review roles.
-- [`worldbuilding/`](worldbuilding/) — project defaults plus isolated settings: the provisionally authorized Project Hearthway development container and the Continuity One proposed setting shell.
+- [`worldbuilding/`](worldbuilding/) — project defaults plus isolated settings, including the provisionally authorized Project Hearthway development container.
 - [`characters/`](characters/) — profiles, knowledge, relationships, arcs, and story state.
 - [`stories/`](stories/) — series, books, shorter fiction, and drafting templates.
 - [`research/`](research/) — non-canonical evidence and inspiration.
@@ -61,21 +61,19 @@ three-lobed living-vault body plan and mobile shelter–forage–regroup care
   changeable nearby shore contacts, are also provisional; no detailed
   fictional record is yet fully accepted.
 
-A second shared-setting shell exists at
-[`worldbuilding/settings/continuity-one/`](worldbuilding/settings/continuity-one/).
-Its stable ID is `setting://continuity-one`; `Continuity One` is a provisional
-display title. Its manifest and constitution are `DRAFT`/`PROPOSED`, its layered
-foundation map is unanswered, and it has no adopting works or accepted detailed
-setting canon. The relationship between the two shared-setting containers is an
-open Author question; neither supersedes the other until an explicit decision
-says so.
+A parallel shared-setting bootstrap, `setting://continuity-one` (Continuity
+One), was consolidated into Project Hearthway on 2026-08-17 by
+`author-decision://world/WLD-SETTING-002A`; its authority topology was
+absorbed and its shell is archived under
+[`archive/settings/continuity-one/`](archive/settings/continuity-one/) as
+provenance, never current authority.
 
 Two reusable provisional human-reference modelling defaults are also recorded:
 rare-Soul prevalence `0.001` with typed non-scalar Souls, and no ordinary
 persistent self-aware continuity or directed prenatal System practice in
 population models. A future work must explicitly adopt either default; the main
-series currently adopts neither, and neither silently binds Project Hearthway,
-Continuity One, or an independent world. Universal rarity proportions are
+series currently adopts neither, and neither silently binds Project Hearthway
+or an independent world. Universal rarity proportions are
 Author-deferred until their object type, rarity dimension, eligible denominator,
 population, period, and evidence are defined. See
 [`worldbuilding/INDEX.md`](worldbuilding/INDEX.md).

@@ -57,7 +57,7 @@ beyond it remains open.
 
 ## Dependencies and implications
 
-- Dependencies: `WLD-SETTING-001A`, `WLD-ECOLOGY-001`, `WLD-ECOLOGY-004`,
+- Dependencies: `WLD-SETTING-001A`, `WLD-ECOLOGY-005A`, `WLD-ECOLOGY-001`, `WLD-ECOLOGY-004`,
   `WLD-FLORA-001`, CAL0 `WLD1.2D`, and CAL0 `WLD2.1A+D`
 - Story implications: develop the basin at full causal resolution, connected
   outer regions only to the support required by later approved migrations or

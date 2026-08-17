@@ -85,6 +85,10 @@ transaction say otherwise.
   [`WLD-LOCATION-003`](../proposals/WLD-LOCATION-003.md)
 - Author decisions: [`WLD-SETTING-001A`](../decisions/WLD-SETTING-001A.md) —
   `author-decision://world/WLD-SETTING-001A`
+  and [`WLD-SETTING-002A`](../decisions/WLD-SETTING-002A.md) —
+  `author-decision://world/WLD-SETTING-002A`
+  and [`WLD-RECON-001A`](../decisions/WLD-RECON-001A.md) —
+  `author-decision://world/WLD-RECON-001A`
   and [`WLD-ECOLOGY-001A`](../decisions/WLD-ECOLOGY-001A.md) —
   `author-decision://world/WLD-ECOLOGY-001A`
   and [`WLD-ECOLOGY-002A`](../decisions/WLD-ECOLOGY-002A.md) —

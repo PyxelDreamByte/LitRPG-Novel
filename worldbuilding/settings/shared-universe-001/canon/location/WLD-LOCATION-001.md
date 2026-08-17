@@ -107,7 +107,7 @@ Hearthway's initial ridge-spur settlement.
   shift access through time only within finite collection, capacity, condition,
   leakage, use, and water-quality limits.
 - No spring, well, cistern, or combined arrangement is guaranteed secure,
-  perennial, potable, inexhaustible, adequate for an unknown population,
+  perennial, potable, inexhaustible, adequate for an undefined population,
   uncontaminated, freeze-proof, drought-proof, siege-proof, magical, mutually
   independent, maintained, or operational.
 - Exact treatment, sanitation, drainage, wastewater handling, waste placement,

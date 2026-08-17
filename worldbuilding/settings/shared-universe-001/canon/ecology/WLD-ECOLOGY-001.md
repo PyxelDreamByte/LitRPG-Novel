@@ -22,8 +22,9 @@ for Project Hearthway's developing Lineage II crown and ribbon branches.
 2. Crown feeding and movement help maintain open corridors and vegetation mosaics.
 3. Ribbon forms use longer tactile mouth-rays to selectively harvest shoots,
    fruiting bodies, and lakeshore or woodland-edge vegetation.
-4. Ribbon feeding shapes woodland-edge and wet-margin vegetation at a finer scale.
-5. Their seasonal movements can affect roads, fields, woodland edges, soil
+4. Ribbon feeding shapes woodland-edge and wet-margin vegetation at a finer
+   scale than crown herds.
+5. Their seasonal movements can materially affect roads, fields, woodland edges, soil
    fertility, and settlement defences where their ranges overlap human land.
 
 ## Boundaries
